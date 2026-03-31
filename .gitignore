@@ -29,6 +29,9 @@ node_modules
 /connect.lock
 /coverage
 /libpeerconnection.log
+*.log
+.env
+.env.*
 npm-debug.log
 yarn-error.log
 testem.log
@@ -42,3 +45,22 @@ Thumbs.db
 .nx/workspace-data
 .claude/worktrees
 .claude/settings.local.json
+
+# Expo
+node_modules/
+.expo/
+.expo-shared/
+.yarn/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+cache/
+ios/
+android/
+vitest.config.*.timestamp*
