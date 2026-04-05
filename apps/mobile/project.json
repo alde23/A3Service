@@ -4,6 +4,33 @@
   "sourceRoot": "apps/mobile/src",
   "projectType": "application",
   "tags": [],
-  "// targets": "to see all targets run: nx show project mobile --web",
-  "targets": {}
+  "targets": {
+    "start": {
+      "executor": "@nx/expo:start",
+      "options": {
+        "port": 8081,
+        "interactive": true,
+        "location": "local"
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/apps/mobile"],
+      "options": {
+        "jestConfig": "apps/mobile/jest.config.cts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/mobile/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "build": {
+      "executor": "@nx/expo:build",
+      "options": {}
+    }
+  }
 }
