@@ -13,9 +13,7 @@
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
-    /* DELETE THE baseUrl LINE ENTIRELY */
     "paths": {
-      /* Update paths to use the full relative path from the root */
       "@a3-service/shared-schema": ["./libs/shared-schema/src/index.ts"]
     }
   },

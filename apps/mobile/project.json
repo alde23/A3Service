@@ -3,34 +3,16 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/mobile/src",
   "projectType": "application",
-  "tags": [],
   "targets": {
     "start": {
-      "executor": "@nx/expo:start",
+      "executor": "nx:run-commands",
       "options": {
-        "port": 8081,
-        "interactive": true,
-        "location": "local"
+        "command": "npx expo start --port 8081",
+        "cwd": "apps/mobile",
+        "env": {
+          "EXPO_ROUTER_APP_ROOT": "src/app"
+        }
       }
-    },
-    "test": {
-      "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/apps/mobile"],
-      "options": {
-        "jestConfig": "apps/mobile/jest.config.cts",
-        "passWithNoTests": true
-      }
-    },
-    "lint": {
-      "executor": "@nx/eslint:lint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": ["apps/mobile/**/*.{ts,tsx,js,jsx}"]
-      }
-    },
-    "build": {
-      "executor": "@nx/expo:build",
-      "options": {}
     }
   }
 }

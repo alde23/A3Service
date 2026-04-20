@@ -1,0 +1,480 @@
+{
+  "brand_name": "YourBrand",
+  "model_name_or_number": "ModelX",
+  "technical_data": [
+    {
+      "parameter": "CE marking",
+      "value": "The CE marking shows that the products comply with the basic requirements of the applicable directives as stated on the declaration of conformity. The declaration of conformity can be viewed at the manufacturer's site."
+    },
+    {
+      "parameter": "Hot Water Association membership",
+      "value": "Vaillant is a full member of the Hot Water Association and promotes the scheme in association with its cylinder range. Details are available on the web site www.vaillant.co.uk"
+    },
+    {
+      "parameter": "Serial number location",
+      "value": "The serial number is located on a plate behind the front flap. The plate is in a plastic strap."
+    },
+    {
+      "parameter": "Data Plate Information",
+      "value": "The data plate contains information such as: CE marking, Hot Water Association membership, Serial number (3rd and 4th digits = year of production, 5th and 6th digits = week of production, 7th to 16th digits = product article number, 17th to 20th digits = place of manufacture), Product designation (ecoTEC plus), Factory setting for type of gas and gas connection pressure (2H, G20 \u2013 2 kPa (20 mbar)), Gas-fired boiler category (Cat.), Efficiency class of the boiler in accordance with EC Directive 92/42/EEC (Condensing technology), Permissible flue gas connections (Type: Xx3(x)), Maximum water pressure in heating mode (PMS), Maximum water pressure in hot water handling mode (PMW), Electrical connection (V/Hz), Max. electrical power consumption (W), Level of protection (IP), Heating mode, Nominal heat output range in heating mode (_P_n), Nominal heat output range in heating mode (condensing technology) (_P_nc), Nominal heat output range in hot water handling mode (P), Nominal heating load range in heating mode (_Q_n), Nominal heating load range in hot water handling mode (_Q_nw), Max. flow temperature (Tmax.), NOx class for the product, Specific product code (Code (DSN))"
+    },
+    {
+      "parameter": "Data Plate Barcode",
+      "value": "The data plate also includes a barcode with the serial number."
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "F.1",
+      "description": "No fault code description provided.",
+      "troubleshooting_steps": [
+        "No troubleshooting steps provided for this fault code."
+      ]
+    },
+    {
+      "code": "F.2",
+      "description": "No fault code description provided.",
+      "troubleshooting_steps": [
+        "No troubleshooting steps provided for this fault code."
+      ]
+    },
+    {
+      "code": "F.3",
+      "description": "No fault code description provided.",
+      "troubleshooting_steps": [
+        "No troubleshooting steps provided for this fault code."
+      ]
+    },
+    {
+      "code": "F.4",
+      "description": "No fault code description provided.",
+      "troubleshooting_steps": [
+        "No troubleshooting steps provided for this fault code."
+      ]
+    },
+    {
+      "code": "F.5",
+      "description": "No fault code description provided.",
+      "troubleshooting_steps": [
+        "No troubleshooting steps provided for this fault code."
+      ]
+    },
+    {
+      "code": "default code",
+      "description": "Default fault description"
+    },
+    {
+      "code": "1234567890",
+      "description": "Specific fault description for this code"
+    },
+    {
+      "code": "d.16",
+      "description": "Status of the 24 V room thermostat",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.17",
+      "description": "Heating control",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.18",
+      "description": "Pump overrun operating mode",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.20",
+      "description": "Maximum target domestic hot water temperature",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.23",
+      "description": "Status of the heat demand",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.24",
+      "description": "Status of the pressure switch",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.25",
+      "description": "Function of relay 1 (multi-functional module)",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.27",
+      "description": "Status of the heating circuit's shunt pump",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.31",
+      "description": "Automatic filling device",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.40",
+      "description": "Heating flow temperature",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.41",
+      "description": "Heating return temperature",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.43",
+      "description": "Heat curve",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.45",
+      "description": "Value for the base point of the heat curve",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.47",
+      "description": "Outdoor temperature",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.50",
+      "description": "Correction of the minimum fan speed",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.51",
+      "description": "Correction of the maximum fan speed",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.58",
+      "description": "Solar circuit reheating",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.60",
+      "description": "Number of blocks by the temperature sensor",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.61",
+      "description": "Number of unsuccessful ignitions",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.62",
+      "description": "Night set-back",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.64",
+      "description": "Average burner ignition time",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.65",
+      "description": "Maximum burner ignition time",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.66",
+      "description": "Activation of the warm start function for domestic hot water",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.67",
+      "description": "Remaining burner anti-cycling time (setting under d.02)",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.68",
+      "description": "Number of unsuccessful ignitions at 1st attempt",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.69",
+      "description": "Number of unsuccessful ignitions at 2nd attempt",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.71",
+      "description": "Maximum target heating flow temperature",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.75",
+      "description": "Maximum cylinder post-heating time",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.78",
+      "description": "DHW max. flow temperature",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.80",
+      "description": "Running time in heating mode",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.81",
+      "description": "Running time in DHW mode",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.82",
+      "description": "Number of burner ignitions in heating mode",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.83",
+      "description": "Number of burner ignitions in DHW mode",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.84",
+      "description": "Maintenance time",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.90",
+      "description": "Status of the eBUS room thermostat",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.93",
+      "description": "Setting the product code",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "d.94",
+      "description": "Delete fault list",
+      "troubleshooting_steps": []
+    },
+    {
+      "code": "F.00",
+      "description": "Fault: Flow temperature sensor",
+      "troubleshooting_steps": [
+        "NTC plug not plugged in or has come loose, multiple plug on the PCB not plugged in correctly, interruption in cable harness, NTC sensor defective"
+      ]
+    },
+    {
+      "code": "F.01",
+      "description": "Fault: Return temperature sensor",
+      "troubleshooting_steps": [
+        "NTC plug not plugged in or has come loose, multiple plug on the PCB not plugged in correctly, interruption in cable harness, NTC sensor defective"
+      ]
+    },
+    {
+      "code": "F.10",
+      "description": "Short circuit: Flow temperature sensor",
+      "troubleshooting_steps": [
+        "NTC sensor defective, short circuit in the cable harness, cable/housing"
+      ]
+    },
+    {
+      "code": "F.11",
+      "description": "Short circuit: Return temperature sensor",
+      "troubleshooting_steps": [
+        "NTC sensor defective, short circuit in the cable harness, cable/housing"
+      ]
+    },
+    {
+      "code": "F.20",
+      "description": "Safety shutdown: Overheating temperature reached",
+      "troubleshooting_steps": [
+        "Incorrect earth connection between cable harness and product, flow or return NTC defective (loose connection), stray spark via ignition cable, ignition plug or ignition electrode"
+      ]
+    },
+    {
+      "code": "F.23",
+      "description": "Safety shutdown: Temperature spread too great (NTC1/NTC2)",
+      "troubleshooting_steps": [
+        "Pump blocked, insufficient pump output, air in product, flow and return NTC sensors connected the wrong way round"
+      ]
+    },
+    {
+      "code": "F.24",
+      "description": "Safety shutdown: Temperature rise too fast",
+      "troubleshooting_steps": [
+        "Pump blocked, insufficient pump output, air in product, system pressure too low, non-return valve blocked/incorrectly installed"
+      ]
+    },
+    {
+      "code": "F.25",
+      "description": "Safety shutdown: Flue gas temperature too high",
+      "troubleshooting_steps": [
+        "Break in plug connection for optional flue gas safety cut-out (SCO), break in cable harness"
+      ]
+    },
+    {
+      "code": "F.27",
+      "description": "Safety shutdown: Fault in flame detection",
+      "troubleshooting_steps": [
+        "Moisture on the electronics, electronics (flame monitor) defective, gas solenoid valve leaking"
+      ]
+    },
+    {
+      "code": "F.28",
+      "description": "Fault: Ignition unsuccessful when starting up",
+      "troubleshooting_steps": [
+        "Gas meter defective or gas pressure switch has triggered, air in gas, gas flow pressure too low, thermal cut-out has triggered, incorrect gas injector, incorrect spare gas valve assembly, fault on the gas valve assembly, multiple plug on PCB incorrectly plugged in, break in cable harness, ignition system (ignition transformer, ignition cable, ignition plug, ignition electrode) defective, ionisation flow interrupted (cable, electrode), incorrect earthing of product, electronics defective"
+      ]
+    },
+    {
+      "code": "F.29",
+      "description": "Fault: Flame loss",
+      "troubleshooting_steps": [
+        "Gas supply temporarily stopped, flue gas recirculation, incorrect earthing of product, ignition transformer has spark failure"
+      ]
+    },
+    {
+      "code": "F.32",
+      "description": "Fan frost protection function active: Fan speed outside the tolerance values",
+      "troubleshooting_steps": [
+        "Plug on fan not correctly plugged in, multiple plug on PCB not correctly plugged in, break in cable harness, fan blocked, Hall sensor defective, electronics defective"
+      ]
+    },
+    {
+      "code": "F.49",
+      "description": "eBUS fault: Voltage too low",
+      "troubleshooting_steps": [
+        "Short circuit on eBUS, eBUS overload or two power supplies with different polarities on the eBUS"
+      ]
+    },
+    {
+      "code": "F.61",
+      "description": "Fault: Gas valve assembly control",
+      "troubleshooting_steps": [
+        "Short circuit/short-to-ground in cable harness to gas valve assembly, gas valve assembly defective (coils shorted to earth), electronics defective"
+      ]
+    },
+    {
+      "code": "F.62",
+      "description": "Fault: Gas valve switch-off control",
+      "troubleshooting_steps": [
+        "Delayed switch-off of gas valve assembly, delayed extinguishing of flame signal, gas valve assembly leaking, electronics defective"
+      ]
+    },
+    {
+      "code": "F.63",
+      "description": "Fault: EEPROM",
+      "troubleshooting_steps": [
+        "Electronics defective"
+      ]
+    },
+    {
+      "code": "F.64",
+      "description": "Fault: Electronics / sensor / analogue-to-digital converter",
+      "troubleshooting_steps": [
+        "Flow or return NTC short circuited, electronics defective"
+      ]
+    },
+    {
+      "code": "F.65",
+      "description": "Fault: Electronics temperature too high",
+      "troubleshooting_steps": [
+        "Electronics overheating due to external influences, electronics defective"
+      ]
+    },
+    {
+      "code": "F.67",
+      "description": "Value sent back by ASIC is incorrect (flame signal)",
+      "troubleshooting_steps": [
+        "Implausible flame signal, electronics defective"
+      ]
+    },
+    {
+      "code": "F.68",
+      "description": "Fault: Unstable flame (analogue input)",
+      "troubleshooting_steps": [
+        "Air in gas, gas flow pressure too low, incorrect air ratio, incorrect gas injector, ionisation flow interruption (cable, electrode)"
+      ]
+    },
+    {
+      "code": "F.70",
+      "description": "Invalid product code (DSN)",
+      "troubleshooting_steps": [
+        "Display and PCB replaced at same time and Device Specific Number not reset, wrong or missing output coding resistor"
+      ]
+    },
+    {
+      "code": "F.71",
+      "description": "Fault: Flow/return temperature sensor",
+      "troubleshooting_steps": [
+        "Flow temperature sensor signalling constant value: Flow temperature sensor incorrectly positioned on flow pipe, flow temperature sensor defective"
+      ]
+    },
+    {
+      "code": "F.72",
+      "description": "Fault: Deviation in the water pressure sensor/return temperature sensor",
+      "troubleshooting_steps": [
+        "Flow/return NTC temperature difference too great \u2192 flow and/or return temperature sensors defective"
+      ]
+    },
+    {
+      "code": "F.77",
+      "description": "Fault: Condensate or smoke",
+      "troubleshooting_steps": [
+        "No response, flue non-return flap defective"
+      ]
+    },
+    {
+      "code": "F.78",
+      "description": "Interruption to DHW outlet sensor at external control",
+      "troubleshooting_steps": [
+        "UK link box is connected, but domestic hot water NTC not bridged"
+      ]
+    },
+    {
+      "code": "F.83",
+      "description": "Fault: Dry fire",
+      "troubleshooting_steps": [
+        "When the burner starts, the temperature change registered at the flow or return temperature sensor is non-existent or too small: Insufficient water in the product, the flow or return temperature sensor is not in the correct position on the pipe"
+      ]
+    },
+    {
+      "code": "F.84",
+      "description": "Fault: Flow/return temperature sensor",
+      "troubleshooting_steps": [
+        "Values not consistent, difference < -6 K: Flow and return temperature sensors have been inverted, flow and return temperature sensors have not been correctly installed"
+      ]
+    },
+    {
+      "code": "F.85",
+      "description": "Fault: Temperature sensor",
+      "troubleshooting_steps": [
+        "Flow and/or return temperature sensors have been installed on the same pipe/incorrect pipe, Temperature sensor not connected or is connected incorrectly"
+      ]
+    },
+    {
+      "code": "F.86",
+      "description": "Fault: Underfloor heating contact",
+      "troubleshooting_steps": [
+        "Underfloor heating contact open, sensor disconnected or defective"
+      ]
+    },
+    {
+      "code": "F.87",
+      "description": "Fault: Electrodes",
+      "troubleshooting_steps": [
+        "Electrodes not connected or they are connected incorrectly, short circuit in the cable harness"
+      ]
+    },
+    {
+      "code": "F.88",
+      "description": "Fault: Gas valve assembly",
+      "troubleshooting_steps": [
+        "Gas valve assembly not connected or it is connected incorrectly, short circuit in the cable harness"
+      ]
+    },
+    {
+      "code": "F.97",
+      "description": "Fault: Main PCB self-test failed",
+      "troubleshooting_steps": [
+        "Main PCB defective"
+      ]
+    }
+  ]
+}

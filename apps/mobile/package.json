@@ -1,13 +1,18 @@
 {
   "name": "mobile",
+  "main": "expo-router/entry",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/mobile"
   },
   "dependencies": {
+    "@expo/metro-runtime": "*",
     "@testing-library/react-native": "*",
     "expo": "*",
+    "expo-constants": "*",
+    "expo-linking": "*",
+    "expo-router": "*",
     "expo-splash-screen": "*",
     "expo-status-bar": "*",
     "expo-system-ui": "*",
@@ -15,7 +20,10 @@
     "metro-config": "*",
     "metro-resolver": "*",
     "react": "*",
+    "react-dom": "*",
     "react-native": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "*",
     "react-native-svg": "*",
     "react-native-svg-transformer": "*",
     "react-native-web": "*"

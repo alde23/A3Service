@@ -18,13 +18,6 @@
         "main": "apps/api/src/main.ts",
         "assets": ["apps/api/src/assets"]
       },
-    "test": {
-      "executor": "@nx/vitest:test",
-      "outputs": ["{workspaceRoot}/coverage/apps/api"],
-      "options": {
-      "config": "apps/api/vitest.config.ts"
-  }
-},
       "configurations": {
         "development": {
           "sourceMap": true,
@@ -34,6 +27,13 @@
           "sourceMap": false,
           "optimization": true
         }
+      }
+    },
+    "test": {
+      "executor": "@nx/vitest:test",
+      "outputs": ["{workspaceRoot}/coverage/apps/api"],
+      "options": {
+        "config": "apps/api/vitest.config.ts"
       }
     },
     "prune-lockfile": {

@@ -64,3 +64,22 @@ cache/
 ios/
 android/
 vitest.config.*.timestamp*
+
+__pycache__/
+*.pyc
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data pipeline
+data-pipeline/.env
+apps/data-pipeline/.env
+
+# TODO: migrate raw_pdfs to Git LFS when volume grows
+# apps/data-pipeline/raw_pdfs/
