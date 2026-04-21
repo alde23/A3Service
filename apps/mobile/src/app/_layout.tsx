@@ -66,11 +66,11 @@ export default function RootLayout() {
         }}
       />
       <Tabs.Screen
-        name="profile"
+        name="analytics"
         options={{
-          title: 'Profile',
+          title: 'Analytics',
           tabBarIcon: ({ color, size }) => (
-            <TabIcon name="person-outline" color={color} size={size} />
+            <TabIcon name="bar-chart-outline" color={color} size={size} />
           ),
         }}
       />
