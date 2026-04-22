@@ -1,0 +1,33 @@
+local_branch_name="$(git rev-parse --abbrev-ref HEAD)"
+
+# Regular Expression to enforce: type(scope)/description
+valid_branch_regex="^(feat|fix|chore|docs|refactor)\((mobile|api|shared|pipeline)\)\/[a-z0-9-]+$"
+
+if [[ ! $local_branch_name =~ $valid_branch_regex ]]
+then
+    echo "----------------------------------------------------------------------"
+    echo "❌ ERROR: Invalid branch name '$local_branch_name'"
+    echo "A3Service standards require: type(scope)/description"
+    echo "----------------------------------------------------------------------"
+    echo "💡 HOW TO FIX THIS:"
+    echo "1. Rename your branch locally:"
+    echo "   git branch -m 'feat(scope)/your-description'"
+    echo ""
+    echo "2. If the bad branch is already on GitHub:"
+    echo "   A) Rename locally: git branch -m 'feat(scope)/new-name'"
+    echo "   B) Delete remote:  git push origin --delete '$local_branch_name'"
+    echo "   C) Push new name:  git push origin 'feat(scope)/new-name'"
+    echo ""
+    echo "3. Or, delete it and start over:"
+    echo "   git checkout <base-branch>  # e.g., main or a feature branch"
+    echo "   git branch -D '$local_branch_name'"
+    echo ""
+    echo "ALLOWED TYPES: feat, fix, chore, docs, refactor"
+    echo "ALLOWED SCOPES: mobile, api, shared, pipeline"
+    echo "----------------------------------------------------------------------"
+    exit 1
+fi
+
+# --- Quality Gate ---
+echo "🔍 Running Nx Linter on affected files..."
+npx nx affected -t lint --base=origin/main --parallel=3

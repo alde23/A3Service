@@ -6,7 +6,8 @@
     "prisma:generate": "cd apps/api && prisma generate --schema prisma/schema.prisma",
     "prisma:migrate:dev": "cd apps/api && prisma migrate dev --name init --schema prisma/schema.prisma",
     "prisma:validate": "cd apps/api && prisma validate --schema prisma/schema.prisma",
-    "prisma:seed": "prisma db seed --schema apps/api/prisma/schema.prisma"
+    "prisma:seed": "prisma db seed --schema apps/api/prisma/schema.prisma",
+    "prepare": "husky"
   },
   "prisma": {
     "seed": "node -r @swc-node/register apps/api/prisma/seed.ts"
