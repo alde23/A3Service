@@ -8,7 +8,7 @@ if [[ "$local_branch_name" == "main" || "$local_branch_name" == "dev" ]]; then
     echo "✅ Structural branch detected ($local_branch_name). Skipping naming check."
 else
     # 2. --- NAMING ENFORCEMENT ---
-    valid_branch_regex="^(feat|fix|chore|docs|refactor)\((mobile|api|shared|pipeline)\)\/[a-z0-9-]+$"
+    valid_branch_regex="^(feat|fix|chore|docs|refactor)\((mobile|api|shared|pipeline|ci)\)\/[a-z0-9-]+$"
 
     if [[ ! $local_branch_name =~ $valid_branch_regex ]]; then
         echo "----------------------------------------------------------------------"
@@ -29,13 +29,12 @@ else
         echo "   git branch -D '$local_branch_name'"
         echo ""
         echo "ALLOWED TYPES: feat, fix, chore, docs, refactor"
-        echo "ALLOWED SCOPES: mobile, api, shared, pipeline"
+        echo "ALLOWED SCOPES: mobile, api, shared, pipeline, ci"
         echo "----------------------------------------------------------------------"
         exit 1
     fi
 fi
 
 # 3. --- QUALITY GATE ---
-# We keep this outside the IF so that even dev/main are linted before pushing
 echo "🔍 Running Nx Linter on affected files..."
 npx nx affected -t lint --base=origin/main --parallel=3
