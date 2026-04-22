@@ -33,8 +33,8 @@ jobs:
           node-version: 24
           cache: 'npm'
 
-      # HUSKY=0 prevents the "husky: not found" error on the CI runner
-      - run: HUSKY=0 npm ci
+      # Use --ignore-scripts to skip the husky 'prepare' stage entirely
+      - run: npm ci --ignore-scripts
       
       - uses: nrwl/nx-set-shas@v4
 
