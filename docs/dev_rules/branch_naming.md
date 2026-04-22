@@ -16,6 +16,11 @@ Every branch must follow the **Conventional Commits** style for branches. This a
 | **Scope** | `mobile`, `api`, `shared`, `pipeline` | The specific area being touched. |
 | **Description** | `kebab-case-text` | A brief summary (lowercase and hyphens). |
 
+### ⚖️ Why This Matters (The Justification)
+1. **CI/CD Intelligence:** Our GitHub Actions use these tags to determine which parts of the monorepo to build. If you name a branch `fix(api)/...`, the CI knows it can skip testing the mobile app, saving us 10+ minutes of wait time.
+2. **Automated Release Logs:** These tags allow us to auto-generate "What's New" logs. Without them, we have to manually check every file change to see what happened.
+3. **Monorepo Scalability:** As A3Service grows, having 20 branches named `temp` or `fix-bug` becomes impossible to manage. This system ensures anyone on the team can see the "map" of current work at a glance.
+
 ---
 
 ## 🛠️ 2. Troubleshooting & Shell-Specific Syntax
