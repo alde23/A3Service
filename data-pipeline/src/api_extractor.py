@@ -1,0 +1,39 @@
+import os
+from google import genai
+from pathlib import Path
+from dotenv import load_dotenv
+from src.schemas import ApplianceManualData
+
+# Load the API key from the .env file
+load_dotenv()
+client = genai.Client()
+
+def extract_appliance_data_from_pdf(pdf_path: Path, prompt_path: Path) -> str:
+    print(f"☁️ Uploading {pdf_path.name} to Gemini API...")
+    
+    # Upload the file using the new SDK
+    sample_file = client.files.upload(file=str(pdf_path))
+    
+    print(f"⏳ File uploaded. Processing... (This takes about 15-30 seconds)")
+    
+    # Read your strict instructions
+    with open(prompt_path, "r", encoding="utf-8") as f:
+        system_prompt = f.read()
+
+    # Call the new API endpoint
+    response = client.models.generate_content(
+        model='gemini-2.5-flash',
+        # Generalized the inline prompt
+        contents=[sample_file, "Extract the technical and fault data from this appliance manual."],
+        config={
+            "system_instruction": system_prompt,
+            "response_mime_type": "application/json",
+            "response_schema": ApplianceManualData,
+            "temperature": 0.0
+        }
+    )
+    
+    # Clean up the file from Google's servers
+    client.files.delete(name=sample_file.name)
+    
+    return response.text
