@@ -32,6 +32,7 @@ node_modules
 *.log
 .env
 .env.*
+!.env.example
 npm-debug.log
 yarn-error.log
 testem.log
@@ -83,3 +84,6 @@ apps/data-pipeline/.env
 
 # TODO: migrate raw_pdfs to Git LFS when volume grows
 # apps/data-pipeline/raw_pdfs/
+
+# Prisma generated client
+apps/api/src/generated/
