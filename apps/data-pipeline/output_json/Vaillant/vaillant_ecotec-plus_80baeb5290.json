@@ -1,0 +1,5274 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Vaillant",
+    "product_family": "ecoTEC plus",
+    "model_names": [
+      "VU 126/6-5 OVZ (H-GB)",
+      "ecoTEC plus 412",
+      "VU 156/6-5 OVZ (H-GB)",
+      "ecoTEC plus 415",
+      "VU 186/6-5 OVZ (H-GB)",
+      "ecoTEC plus 418",
+      "VU 246/6-5 OVZ (H-GB)",
+      "ecoTEC plus 424",
+      "VU 306/6-5 OVZ (H-GB)",
+      "ecoTEC plus 430",
+      "VU 356/6-5 OVZ (H-GB)",
+      "ecoTEC plus 435"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "ecoTEC plus VU ..6/6-5 OVZ (H-GB) Installation and maintenance instructions",
+    "document_code": "0020238195_08",
+    "publication_date": "30.03.2021",
+    "language": "en",
+    "region": "GB",
+    "source_file": "ecotec-plus-open-vent-installation-and-servicing-instructions-2914319.pdf",
+    "file_hash": "80baeb52907eff7b87344af14627c185a625cc89efa25544ccc570935056827e"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Gas category",
+      "value": "I2H",
+      "unit": null,
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Gas category I2H"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Diameter of the gas pipe",
+      "value": "1/2 inch",
+      "unit": null,
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Diameter of the gas pipe 1/2 inch"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Diameter of the heating connections",
+      "value": "3/4 inch",
+      "unit": null,
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Diameter of the heating connections 3/4 inch"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion relief valve connection pipe (min.)",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Expansion relief valve connection pipe (min.) 15 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate discharge pipe (min.)",
+      "value": "21.5",
+      "unit": "mm",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Condensate discharge pipe (min.) 21.5 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas supply pressure",
+      "value": "2.0 kPa (20.0 mbar)",
+      "unit": null,
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "G20 gas supply pressure 2.0 kPa (20.0 mbar)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P max. - domestic hot water (G20)",
+      "value": "1.9",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Gas flow at P max. – domestic hot water (G20) 1.9 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P max. - domestic hot water (G20)",
+      "value": "1.9",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Gas flow at P max. – domestic hot water (G20) 1.9 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P max. - domestic hot water (G20)",
+      "value": "2.7",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Gas flow at P max. – domestic hot water (G20) 2.7 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P max. - domestic hot water (G20)",
+      "value": "3.2",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Gas flow at P max. – domestic hot water (G20) 3.2 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P max. - domestic hot water (G20)",
+      "value": "3.8",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Gas flow at P max. – domestic hot water (G20) 3.8 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P max. - domestic hot water (G20)",
+      "value": "3.8",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Gas flow at P max. – domestic hot water (G20) 3.8 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P max. - heating mode (G20)",
+      "value": "1.3",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Gas flow at P max. – heating mode (G20) 1.3 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P max. - heating mode (G20)",
+      "value": "1.6",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Gas flow at P max. – heating mode (G20) 1.6 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P max. - heating mode (G20)",
+      "value": "1.9",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Gas flow at P max. – heating mode (G20) 1.9 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P max. - heating mode (G20)",
+      "value": "2.6",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Gas flow at P max. – heating mode (G20) 2.6 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P max. - heating mode (G20)",
+      "value": "3.2",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Gas flow at P max. – heating mode (G20) 3.2 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P max. - heating mode (G20)",
+      "value": "3.8",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Gas flow at P max. – heating mode (G20) 3.8 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P min. (G20)",
+      "value": "0.480",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Gas flow at P min. (G20) 0.480 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P min. (G20)",
+      "value": "0.533",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Gas flow at P min. (G20) 0.533 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P min. (G20)",
+      "value": "0.646",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Gas flow at P min. (G20) 0.646 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P min. (G20)",
+      "value": "0.762",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Gas flow at P min. (G20) 0.762 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "SAP 2009/2012 annual efficiency",
+      "value": "89.8",
+      "unit": "%",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "SAP 2009/2012 annual efficiency (%) 89.8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "SAP 2009/2012 annual efficiency",
+      "value": "89.7",
+      "unit": "%",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "SAP 2009/2012 annual efficiency (%) 89.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate in heating mode at P min.",
+      "value": "2.08",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate in heating mode at P min. 2.08 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate in heating mode at P min.",
+      "value": "2.31",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate in heating mode at P min. 2.31 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate in heating mode at P min.",
+      "value": "2.80",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate in heating mode at P min. 2.80 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate in heating mode at P min.",
+      "value": "3.30",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate in heating mode at P min. 3.30 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate in heating mode at P min.",
+      "value": "3.3",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate in heating mode at P min. 3.3 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate in heating mode at P max.",
+      "value": "5.5",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate in heating mode at P max. 5.5 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate in heating mode at P max.",
+      "value": "6.9",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate in heating mode at P max. 6.9 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate in heating mode at P max.",
+      "value": "8.3",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate in heating mode at P max. 8.3 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate in heating mode at P max.",
+      "value": "11.1",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate in heating mode at P max. 11.1 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate in heating mode at P max.",
+      "value": "13.8",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate in heating mode at P max. 13.8 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate in heating mode at P max.",
+      "value": "16.1",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate in heating mode at P max. 16.1 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate in domestic hot water mode at P max.",
+      "value": "8.3",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate in domestic hot water mode at P max. 8.3 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate in domestic hot water mode at P max.",
+      "value": "11.6",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate in domestic hot water mode at P max. 11.6 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate in domestic hot water mode at P max.",
+      "value": "13.8",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate in domestic hot water mode at P max. 13.8 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate in domestic hot water mode at P max.",
+      "value": "16.1",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate in domestic hot water mode at P max. 16.1 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (80 °C/60 °C) at P max.",
+      "value": "55",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature (80 °C/60 °C) at P max. 55 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (80 °C/60 °C) at P max.",
+      "value": "60",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature (80 °C/60 °C) at P max. 60 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (80 °C/60 °C) at P max.",
+      "value": "77",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature (80 °C/60 °C) at P max. 77 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (80 °C/60 °C) at P max.",
+      "value": "86",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature (80 °C/60 °C) at P max. 86 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (80 °C/60 °C) at P min.",
+      "value": "55",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature (80 °C/60 °C) at P min. 55 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (80 °C/60 °C) at P min.",
+      "value": "56",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature (80 °C/60 °C) at P min. 56 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (50 °C/30 °C) at P max.",
+      "value": "43",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature (50 °C/30 °C) at P max. 43 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (50 °C/30 °C) at P max.",
+      "value": "48",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature (50 °C/30 °C) at P max. 48 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (50 °C/30 °C) at P max.",
+      "value": "51",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature (50 °C/30 °C) at P max. 51 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (50 °C/30 °C) at P max.",
+      "value": "60",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature (50 °C/30 °C) at P max. 60 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (50 °C/30 °C) at P min.",
+      "value": "32",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature (50 °C/30 °C) at P min. 32 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (50 °C/30 °C) at P min.",
+      "value": "34",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature (50 °C/30 °C) at P min. 34 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (50 °C/30 °C) at P min.",
+      "value": "35",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature (50 °C/30 °C) at P min. 35 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (50 °C/30 °C) at P min.",
+      "value": "37",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature (50 °C/30 °C) at P min. 37 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature in domestic hot water mode",
+      "value": "71",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature in domestic hot water mode 71 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature in domestic hot water mode",
+      "value": "69",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature in domestic hot water mode 69 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature in domestic hot water mode",
+      "value": "68",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature in domestic hot water mode 68 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature in domestic hot water mode",
+      "value": "75",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature in domestic hot water mode 75 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature when overheating",
+      "value": "105",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature when overheating 105 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature when overheating",
+      "value": "95",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature when overheating 95 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature when overheating",
+      "value": "104",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Flue gas temperature when overheating 104 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Released system types",
+      "value": "C13, C33, C43, C53",
+      "unit": null,
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Released system types C13, C33, C43, C53"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal efficiency at 50/30 °C",
+      "value": "104.0",
+      "unit": "%",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Nominal efficiency at 50/30 °C 104.0%"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal efficiency at 40/30 °C",
+      "value": "106.0",
+      "unit": "%",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Nominal efficiency at 40/30 °C 106.0%"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx class",
+      "value": "6",
+      "unit": null,
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "NOx class 6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Product dimensions, width",
+      "value": "375",
+      "unit": "mm",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Product dimensions, width 375 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Product dimensions, depth",
+      "value": "320",
+      "unit": "mm",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Product dimensions, depth 320 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Product dimensions, height",
+      "value": "602",
+      "unit": "mm",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Product dimensions, height 602 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Net weight",
+      "value": "23",
+      "unit": "kg",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Net weight 23 kg"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight when filled with water",
+      "value": "27",
+      "unit": "kg",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Weight when filled with water 27 kg"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight when filled with water",
+      "value": "28",
+      "unit": "kg",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data - General",
+          "table_title": null,
+          "source_quote": "Weight when filled with water 28 kg"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output",
+      "value": "12",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Maximum heat output 12 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output",
+      "value": "15",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Maximum heat output 15 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output",
+      "value": "18",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Maximum heat output 18 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output",
+      "value": "24",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Maximum heat output 24 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output",
+      "value": "30",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Maximum heat output 30 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output",
+      "value": "35",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Maximum heat output 35 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 40/30 °C",
+      "value": "4.8 to 13.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 40/30 °C 4.8 to 13.0 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 40/30 °C",
+      "value": "4.8 to 16.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 40/30 °C 4.8 to 16.2 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 40/30 °C",
+      "value": "5.3 to 19.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 40/30 °C 5.3 to 19.5 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 40/30 °C",
+      "value": "6.5 to 26.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 40/30 °C 6.5 to 26.2 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 40/30 °C",
+      "value": "7.6 to 32.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 40/30 °C 7.6 to 32.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 40/30 °C",
+      "value": "7.6 to 37.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 40/30 °C 7.6 to 37.8 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 50/30 °C",
+      "value": "4.7 to 12.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 50/30 °C 4.7 to 12.8 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 50/30 °C",
+      "value": "4.7 to 15.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 50/30 °C 4.7 to 15.9 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 50/30 °C",
+      "value": "5.2 to 19.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 50/30 °C 5.2 to 19.1 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 50/30 °C",
+      "value": "6.3 to 25.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 50/30 °C 6.3 to 25.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 50/30 °C",
+      "value": "7.5 to 31.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 50/30 °C 7.5 to 31.8 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 50/30 °C",
+      "value": "7.5 to 37.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 50/30 °C 7.5 to 37.1 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 80/60 °C",
+      "value": "4.5 to 12.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 80/60 °C 4.5 to 12.3 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 80/60 °C",
+      "value": "4.5 to 15.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 80/60 °C 4.5 to 15.2 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 80/60 °C",
+      "value": "5.0 to 18.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 80/60 °C 5.0 to 18.3 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 80/60 °C",
+      "value": "6.1 to 24.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 80/60 °C 6.1 to 24.6 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 80/60 °C",
+      "value": "7.2 to 30.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 80/60 °C 7.2 to 30.5 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 80/60 °C",
+      "value": "7.1 to 35.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 80/60 °C 7.1 to 35.1 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot water heat output (P)",
+      "value": "4.4 to 18.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Domestic hot water heat output (P) 4.4 to 18.0 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot water heat output (P)",
+      "value": "5.0 to 25.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Domestic hot water heat output (P) 5.0 to 25.2 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot water heat output (P)",
+      "value": "6.0 to 30.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Domestic hot water heat output (P) 6.0 to 30.0 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot water heat output (P)",
+      "value": "7.1 to 35.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Domestic hot water heat output (P) 7.1 to 35.0 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot water heat output (P)",
+      "value": "7.1 to 35.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Domestic hot water heat output (P) 7.1 to 35.1 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input - heating (Q max.)",
+      "value": "12.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Maximum heat input - heating (Q max.) 12.3 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input - heating (Q max.)",
+      "value": "15.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Maximum heat input - heating (Q max.) 15.3 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input - heating (Q max.)",
+      "value": "18.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Maximum heat input - heating (Q max.) 18.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input - heating (Q max.)",
+      "value": "24.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Maximum heat input - heating (Q max.) 24.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input - heating (Q max.)",
+      "value": "30.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Maximum heat input - heating (Q max.) 30.6 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input - heating (Q max.)",
+      "value": "35.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Maximum heat input - heating (Q max.) 35.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input - heating (Q min.)",
+      "value": "4.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Minimum heat input - heating (Q min.) 4.5 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input - heating (Q min.)",
+      "value": "5.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Minimum heat input - heating (Q min.) 5.0 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input - heating (Q min.)",
+      "value": "6.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Minimum heat input - heating (Q min.) 6.1 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input - heating (Q min.)",
+      "value": "7.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Minimum heat input - heating (Q min.) 7.2 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input - heating (Q min.)",
+      "value": "7.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Minimum heat input - heating (Q min.) 7.1 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input - domestic hot water (Q max.)",
+      "value": "18.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Maximum heat input - domestic hot water (Q max.) 18.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input - domestic hot water (Q max.)",
+      "value": "25.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Maximum heat input - domestic hot water (Q max.) 25.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input - domestic hot water (Q max.)",
+      "value": "30.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Maximum heat input - domestic hot water (Q max.) 30.6 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input - domestic hot water (Q max.)",
+      "value": "35.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Maximum heat input - domestic hot water (Q max.) 35.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input - domestic hot water (Q min.)",
+      "value": "4.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Minimum heat input - domestic hot water (Q min.) 4.5 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input - domestic hot water (Q min.)",
+      "value": "5.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Minimum heat input - domestic hot water (Q min.) 5.1 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input - domestic hot water (Q min.)",
+      "value": "6.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Minimum heat input - domestic hot water (Q min.) 6.1 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input - domestic hot water (Q min.)",
+      "value": "7.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Minimum heat input - domestic hot water (Q min.) 7.2 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input - domestic hot water (Q min.)",
+      "value": "7.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – G20 power/load G20",
+          "table_title": null,
+          "source_quote": "Minimum heat input - domestic hot water (Q min.) 7.1 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flow temperature adjustment range (default setting: 75 °C)",
+      "value": "10 to 80",
+      "unit": "°C",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Max. flow temperature adjustment range (default setting: 75 °C) 10 to 80 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum permissible pressure",
+      "value": "0.25 MPa (2.50 bar)",
+      "unit": null,
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Maximum permissible pressure 0.25 MPa (2.50 bar)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (ΔΤ = 20 Κ)",
+      "value": "530",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (ΔΤ = 20 Κ) 530 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (ΔΤ = 20 Κ)",
+      "value": "655",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (ΔΤ = 20 Κ) 655 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (ΔΤ = 20 Κ)",
+      "value": "788",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (ΔΤ = 20 Κ) 788 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (ΔΤ = 20 Κ)",
+      "value": "1,059",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (ΔΤ = 20 Κ) 1,059 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (ΔΤ = 20 Κ)",
+      "value": "1,313",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (ΔΤ = 20 Κ) 1,313 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (ΔΤ = 20 Κ)",
+      "value": "1,511",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (ΔΤ = 20 Κ) 1,511 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow at Pmin (ΔΤ = 20 K)",
+      "value": "195",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow at Pmin (ΔΤ = 20 K) 195 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow at Pmin (ΔΤ = 20 K)",
+      "value": "215",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow at Pmin (ΔΤ = 20 K) 215 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow at Pmin (ΔΤ = 20 K)",
+      "value": "260",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow at Pmin (ΔΤ = 20 K) 260 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow at Pmin (ΔΤ = 20 K)",
+      "value": "300",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow at Pmin (ΔΤ = 20 K) 300 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow at Pmin (ΔΤ = 20 K)",
+      "value": "345",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow at Pmin (ΔΤ = 20 K) 345 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (ΔΤ = 30 Κ)",
+      "value": "353",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (ΔΤ = 30 Κ) 353 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (ΔΤ = 30 Κ)",
+      "value": "436",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (ΔΤ = 30 Κ) 436 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (ΔΤ = 30 Κ)",
+      "value": "525",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (ΔΤ = 30 Κ) 525 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (ΔΤ = 30 Κ)",
+      "value": "706",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (ΔΤ = 30 Κ) 706 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (ΔΤ = 30 Κ)",
+      "value": "876",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (ΔΤ = 30 Κ) 876 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (ΔΤ = 30 Κ)",
+      "value": "1,008",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (ΔΤ = 30 Κ) 1,008 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow at Pmin (ΔΤ = 30 K)",
+      "value": "130",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow at Pmin (ΔΤ = 30 K) 130 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow at Pmin (ΔΤ = 30 K)",
+      "value": "145",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow at Pmin (ΔΤ = 30 K) 145 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow at Pmin (ΔΤ = 30 K)",
+      "value": "170",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow at Pmin (ΔΤ = 30 K) 170 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow at Pmin (ΔΤ = 30 K)",
+      "value": "200",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow at Pmin (ΔΤ = 30 K) 200 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow at Pmin (ΔΤ = 30 K)",
+      "value": "230",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow at Pmin (ΔΤ = 30 K) 230 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 °C",
+      "value": "1.23",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 °C 1.23 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 °C",
+      "value": "1.53",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 °C 1.53 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 °C",
+      "value": "1.84",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 °C 1.84 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 °C",
+      "value": "2.47",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 °C 2.47 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 °C",
+      "value": "3.06",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 °C 3.06 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 °C",
+      "value": "3.57",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 °C 3.57 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical connection",
+      "value": "230 V / 50 Hz",
+      "unit": null,
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data - Electrics",
+          "table_title": null,
+          "source_quote": "Electrical connection 230 V / 50 Hz"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Built-in fuse (slow-blow)",
+      "value": "T2/2A, 250V",
+      "unit": null,
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data - Electrics",
+          "table_title": null,
+          "source_quote": "Built-in fuse (slow-blow) T2/2A, 250V"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. electrical power consumption",
+      "value": "23",
+      "unit": "W",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data - Electrics",
+          "table_title": null,
+          "source_quote": "Max. electrical power consumption 23 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. electrical power consumption",
+      "value": "29",
+      "unit": "W",
+      "applies_to_models": [
+        "VU 156/6-5 OVZ (H-GB)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data - Electrics",
+          "table_title": null,
+          "source_quote": "Max. electrical power consumption 29 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. electrical power consumption",
+      "value": "35",
+      "unit": "W",
+      "applies_to_models": [
+        "VU 186/6-5 OVZ (H-GB)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data - Electrics",
+          "table_title": null,
+          "source_quote": "Max. electrical power consumption 35 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. electrical power consumption",
+      "value": "36",
+      "unit": "W",
+      "applies_to_models": [
+        "VU 246/6-5 OVZ (H-GB)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data - Electrics",
+          "table_title": null,
+          "source_quote": "Max. electrical power consumption 36 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. electrical power consumption",
+      "value": "44",
+      "unit": "W",
+      "applies_to_models": [
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data - Electrics",
+          "table_title": null,
+          "source_quote": "Max. electrical power consumption 44 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Standby electrical power consumption",
+      "value": "2",
+      "unit": "W",
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data - Electrics",
+          "table_title": null,
+          "source_quote": "Standby electrical power consumption 2 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "IP rating",
+      "value": "IPX4D",
+      "unit": null,
+      "applies_to_models": [
+        "VU 126/6-5 OVZ (H-GB)",
+        "VU 156/6-5 OVZ (H-GB)",
+        "VU 186/6-5 OVZ (H-GB)",
+        "VU 246/6-5 OVZ (H-GB)",
+        "VU 306/6-5 OVZ (H-GB)",
+        "VU 356/6-5 OVZ (H-GB)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data - Electrics",
+          "table_title": null,
+          "source_quote": "IP rating IPX4D"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "F.00",
+      "description": "Fault: Flow temperature sensor",
+      "possible_causes": [
+        "NTC plug not plugged in or has come loose",
+        "multiple plug on the PCB not plugged in correctly",
+        "interruption in cable harness",
+        "NTC sensor defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "PCB",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "sensor",
+        "flow",
+        "temperature",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.00 Fault: Flow temperature sensor NTC plug not plugged in or has come loose, multiple plug on the PCB not plugged in correctly, interruption in cable harness, NTC sensor defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.01",
+      "description": "Fault: Return temperature sensor",
+      "possible_causes": [
+        "NTC plug not plugged in or has come loose",
+        "multiple plug on the PCB not plugged in correctly",
+        "interruption in cable harness",
+        "NTC sensor defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "PCB",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "sensor",
+        "return",
+        "temperature",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.01 Fault: Return temperature sensor NTC plug not plugged in or has come loose, multiple plug on the PCB not plugged in correctly, interruption in cable harness, NTC sensor defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.10",
+      "description": "Short circuit: Flow temperature sensor",
+      "possible_causes": [
+        "NTC sensor defective",
+        "short circuit in the cable harness",
+        "cable/housing"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "sensor",
+        "flow",
+        "temperature",
+        "short circuit",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.10 Short circuit: Flow temperature sensor NTC sensor defective, short circuit in the cable harness, cable/housing"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.11",
+      "description": "Short circuit: Return temperature sensor",
+      "possible_causes": [
+        "NTC sensor defective",
+        "short circuit in the cable harness",
+        "cable/housing"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "sensor",
+        "return",
+        "temperature",
+        "short circuit",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.11 Short circuit: Return temperature sensor NTC sensor defective, short circuit in the cable harness, cable/housing"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.12 and F.91",
+      "description": "Short circuit: Cylinder temperature sensor",
+      "possible_causes": [
+        "NTC sensor defective",
+        "short circuit in the cable harness",
+        "cable/housing"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "sensor",
+        "cylinder",
+        "temperature",
+        "short circuit",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.12 and F.91 Short circuit: Cylinder temperature sensor NTC sensor defective, short circuit in the cable harness, cable/housing"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.13",
+      "description": "Short circuit: Temperature sensor for the domestic hot water cylinder",
+      "possible_causes": [
+        "NTC sensor defective",
+        "short circuit in the cable harness",
+        "cable/housing"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "sensor",
+        "DHW",
+        "cylinder",
+        "temperature",
+        "short circuit",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.13 Short circuit: Temperature sensor for the domestic hot water cylinder NTC sensor defective, short circuit in the cable harness, cable/housing"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.20",
+      "description": "Safety shutdown: Overheating temperature reached",
+      "possible_causes": [
+        "Incorrect earth connection between cable harness and product",
+        "flow or return NTC defective (loose connection)",
+        "stray spark via ignition cable",
+        "ignition plug or ignition electrode"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Earth connection",
+        "cable harness",
+        "NTC sensor",
+        "ignition cable",
+        "ignition plug",
+        "ignition electrode"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "overheating",
+        "earth",
+        "NTC",
+        "ignition",
+        "safety shutdown"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.20 Safety shutdown: Overheating temperature reached Incorrect earth connection between cable harness and product, flow or return NTC defective (loose connection), stray spark via ignition cable, ignition plug or ignition electrode"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.23",
+      "description": "Safety shutdown: Temperature spread too great (NTC1/NTC2)",
+      "possible_causes": [
+        "Pump blocked",
+        "insufficient pump output",
+        "air in product",
+        "flow and return NTC sensors connected the wrong way round"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Pump",
+        "NTC sensors"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature spread",
+        "pump",
+        "air",
+        "NTC",
+        "safety shutdown"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.23 Safety shutdown: Temperature spread too great (NTC1/NTC2) Pump blocked, insufficient pump output, air in product, flow and return NTC sensors connected the wrong way round"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.24",
+      "description": "Safety shutdown: Temperature rise too fast",
+      "possible_causes": [
+        "Pump blocked",
+        "insufficient pump output",
+        "air in product",
+        "system pressure too low",
+        "non-return valve blocked/incorrectly installed"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Pump",
+        "non-return valve"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature rise",
+        "pump",
+        "air",
+        "pressure",
+        "non-return valve",
+        "safety shutdown"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.24 Safety shutdown: Temperature rise too fast Pump blocked, insufficient pump output, air in product, system pressure too low, non-return valve blocked/incorrectly installed"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.25",
+      "description": "Safety shutdown: Flue gas temperature too high",
+      "possible_causes": [
+        "Break in plug connection for optional flue gas safety cut-out (SCO)",
+        "break in cable harness"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flue gas safety cut-out (SCO)",
+        "cable harness"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flue gas",
+        "temperature",
+        "SCO",
+        "safety shutdown"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.25 Safety shutdown: Flue gas temperature too high Break in plug connection for optional flue gas safety cut-out (SCO), break in cable harness"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.27",
+      "description": "Safety shutdown: Fault in flame detection",
+      "possible_causes": [
+        "Moisture on the electronics",
+        "electronics (flame monitor) defective",
+        "gas solenoid valve leaking"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Electronics",
+        "flame monitor",
+        "gas solenoid valve"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame detection",
+        "moisture",
+        "electronics",
+        "gas valve",
+        "safety shutdown"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.27 Safety shutdown: Fault in flame detection Moisture on the electronics, electronics (flame monitor) defective, gas solenoid valve leaking"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.28",
+      "description": "Fault: Ignition unsuccessful when starting up",
+      "possible_causes": [
+        "Gas meter defective or gas pressure switch has triggered",
+        "air in gas",
+        "gas flow pressure too low",
+        "thermal cut-out has triggered",
+        "incorrect gas injector",
+        "incorrect spare gas valve assembly",
+        "fault on the gas valve assembly",
+        "multiple plug on PCB incorrectly plugged in",
+        "break in cable harness",
+        "ignition system (ignition transformer, ignition cable, ignition plug, ignition electrode) defective",
+        "ionisation flow interrupted (cable, electrode)",
+        "incorrect earthing of product",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas meter",
+        "gas pressure switch",
+        "thermal cut-out",
+        "gas injector",
+        "gas valve assembly",
+        "PCB",
+        "cable harness",
+        "ignition system (ignition transformer, ignition cable, ignition plug, ignition electrode)",
+        "ionisation flow",
+        "electronics"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition",
+        "gas",
+        "pressure",
+        "thermal cut-out",
+        "gas valve",
+        "PCB",
+        "electrical",
+        "flame",
+        "earthing"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.28 Fault: Ignition unsuccessful when starting up Gas meter defective or gas pressure switch has triggered, air in gas, gas flow pressure too low, thermal cut-out has triggered, incorrect gas injector, incorrect spare gas valve assembly, fault on the gas valve assembly, multiple plug on PCB incorrectly plugged in, break in cable harness, ignition system (ignition transformer, ignition cable, ignition plug, ignition electrode) defective, ionisation flow interrupted (cable, electrode), incorrect earthing of product, electronics defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.29",
+      "description": "Fault: Flame loss",
+      "possible_causes": [
+        "Gas supply temporarily stopped",
+        "flue gas recirculation",
+        "incorrect earthing of product",
+        "ignition transformer has spark failure"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas supply",
+        "ignition transformer"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame loss",
+        "gas",
+        "flue gas",
+        "earthing",
+        "ignition"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.29 Fault: Flame loss Gas supply temporarily stopped, flue gas recirculation, incorrect earthing of product, ignition transformer has spark failure"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.32",
+      "description": "Fan frost protection function active: Fan speed outside the tolerance values",
+      "possible_causes": [
+        "Plug on fan not correctly plugged in",
+        "multiple plug on PCB not correctly plugged in",
+        "break in cable harness",
+        "fan blocked",
+        "Hall sensor defective",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Fan",
+        "PCB",
+        "cable harness",
+        "Hall sensor",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan",
+        "frost protection",
+        "speed",
+        "electrical",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.32 Fan frost protection function active: Fan speed outside the tolerance values Plug on fan not correctly plugged in, multiple plug on PCB not correctly plugged in, break in cable harness, fan blocked, Hall sensor defective, electronics defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.49",
+      "description": "eBUS fault: Voltage too low",
+      "possible_causes": [
+        "Short circuit on eBUS",
+        "eBUS overload or two power supplies with different polarities on the eBUS"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "eBUS"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "eBUS",
+        "voltage",
+        "short circuit",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.49 eBUS fault: Voltage too low Short circuit on eBUS, eBUS overload or two power supplies with different polarities on the eBUS"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.61",
+      "description": "Fault: Gas valve assembly control",
+      "possible_causes": [
+        "Short circuit/short-to-ground in cable harness to gas valve assembly",
+        "gas valve assembly defective (coils shorted to earth)",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve assembly",
+        "cable harness",
+        "electronics"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "electrical",
+        "short circuit",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.61 Fault: Gas valve assembly control Short circuit/short-to-ground in cable harness to gas valve assembly, gas valve assembly defective (coils shorted to earth), electronics defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.62",
+      "description": "Fault: Gas valve switch-off control",
+      "possible_causes": [
+        "Delayed switch-off of gas valve assembly",
+        "delayed extinguishing of flame signal",
+        "gas valve assembly leaking",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve assembly",
+        "electronics"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "flame signal",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.62 Fault: Gas valve switch-off control Delayed switch-off of gas valve assembly, delayed extinguishing of flame signal, gas valve assembly leaking, electronics defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.63",
+      "description": "Fault: EEPROM",
+      "possible_causes": [
+        "Electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "EEPROM",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.63 Fault: EEPROM Electronics defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.64",
+      "description": "Fault: Electronics / sensor / analogue-to-digital converter",
+      "possible_causes": [
+        "Flow or return NTC short circuited",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "electronics",
+        "sensor",
+        "NTC",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.64 Fault: Electronics / sensor / analogue-to-digital converter Flow or return NTC short circuited, electronics defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.65",
+      "description": "Fault: Electronics temperature too high",
+      "possible_causes": [
+        "Electronics overheating due to external influences",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "electronics",
+        "temperature",
+        "overheating"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.65 Fault: Electronics temperature too high Electronics overheating due to external influences, electronics defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.67",
+      "description": "Value sent back by ASIC is incorrect (flame signal)",
+      "possible_causes": [
+        "Implausible flame signal",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame signal",
+        "ASIC",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.67 Value sent back by ASIC is incorrect (flame signal) Implausible flame signal, electronics defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.68",
+      "description": "Fault: Unstable flame (analogue input)",
+      "possible_causes": [
+        "Air in gas",
+        "gas flow pressure too low",
+        "incorrect air ratio",
+        "incorrect gas injector",
+        "ionisation flow interruption (cable, electrode)"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas supply",
+        "gas injector",
+        "ionisation flow"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame",
+        "gas",
+        "pressure",
+        "air ratio",
+        "ionisation"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.68 Fault: Unstable flame (analogue input) Air in gas, gas flow pressure too low, incorrect air ratio, incorrect gas injector, ionisation flow interruption (cable, electrode)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.70",
+      "description": "Invalid product code (DSN)",
+      "possible_causes": [
+        "Display and PCB replaced at same time and Device Specific Number not reset",
+        "wrong or missing output coding resistor"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Display",
+        "PCB",
+        "output coding resistor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "product code",
+        "DSN",
+        "display",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.70 Invalid product code (DSN) Display and PCB replaced at same time and Device Specific Number not reset, wrong or missing output coding resistor"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.71",
+      "description": "Fault: Flow/return temperature sensor",
+      "possible_causes": [
+        "Flow temperature sensor signalling constant value: Flow temperature sensor incorrectly positioned on flow pipe",
+        "flow temperature sensor defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flow temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow",
+        "return",
+        "temperature",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.71 Fault: Flow/return temperature sensor Flow temperature sensor signalling constant value: Flow temperature sensor incorrectly positioned on flow pipe, flow temperature sensor defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.72",
+      "description": "Fault: Deviation in the water pressure sensor/return temperature sensor",
+      "possible_causes": [
+        "Flow/return NTC temperature difference too great → flow and/or return temperature sensor defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Water pressure sensor",
+        "NTC sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water pressure",
+        "NTC",
+        "temperature",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.72 Fault: Deviation in the water pressure sensor/return temperature sensor Flow/return NTC temperature difference too great → flow and/or return temperature sensor defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.77",
+      "description": "Fault: Condensate or smoke",
+      "possible_causes": [
+        "No response",
+        "flue non-return flap defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flue non-return flap"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "condensate",
+        "smoke",
+        "flue"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.77 Fault: Condensate or smoke No response, flue non-return flap defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.78",
+      "description": "Interruption to DHW outlet sensor at external control",
+      "possible_causes": [
+        "UK link box is connected, but domestic hot water NTC not bridged"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "DHW outlet sensor",
+        "UK link box",
+        "DHW NTC"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "DHW",
+        "sensor",
+        "external control",
+        "NTC",
+        "link box"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.78 Interruption to DHW outlet sensor at external control UK link box is connected, but domestic hot water NTC not bridged"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.83",
+      "description": "Fault: Dry fire",
+      "possible_causes": [
+        "When the burner starts, the temperature change registered at the flow or return temperature sensor is non-existent or too small",
+        "Insufficient water in the product",
+        "the flow or return temperature sensor is not in the correct position on the pipe"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Burner",
+        "flow temperature sensor",
+        "return temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "dry fire",
+        "burner",
+        "temperature",
+        "sensor",
+        "water"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.83 Fault: Dry fire When the burner starts, the temperature change registered at the flow or return temperature sensor is non-existent or too small: Insufficient water in the product, the flow or return temperature sensor is not in the correct position on the pipe"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.84",
+      "description": "Fault: Flow/return temperature sensor",
+      "possible_causes": [
+        "Values not consistent, difference < -6 K",
+        "Flow and return temperature sensors signalling implausible values: Flow and return temperature sensors have been inverted",
+        "flow and return temperature sensors have not been correctly installed"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flow temperature sensor",
+        "return temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow",
+        "return",
+        "temperature",
+        "sensor",
+        "inconsistent"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.84 Fault: Flow/return temperature sensor Values not consistent, difference < -6 K Flow and return temperature sensors signalling implausible values: Flow and return temperature sensors have been inverted, flow and return temperature sensors have not been correctly installed"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.85",
+      "description": "Fault: Temperature sensor",
+      "possible_causes": [
+        "The flow and/or return temperature sensors have been installed on the same pipe/incorrect pipe",
+        "Temperature sensor not connected or is connected incorrectly"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flow temperature sensor",
+        "return temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature",
+        "sensor",
+        "installation"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.85 Fault: Temperature sensor The flow and/or return temperature sensors have been installed on the same pipe/incorrect pipe Temperature sensor not connected or is connected incorrectly"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.86",
+      "description": "Fault: Underfloor heating contact",
+      "possible_causes": [
+        "Underfloor heating contact open",
+        "sensor disconnected or defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Underfloor heating contact",
+        "sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "underfloor heating",
+        "contact",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.86 Fault: Underfloor heating contact Underfloor heating contact open, sensor disconnected or defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.87",
+      "description": "Fault: Electrodes",
+      "possible_causes": [
+        "Electrodes not connected or they are connected incorrectly",
+        "short circuit in the cable harness"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Electrodes",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "electrodes",
+        "electrical",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.87 Fault: Electrodes Electrodes not connected or they are connected incorrectly, short circuit in the cable harness"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.88",
+      "description": "Fault: Gas valve assembly",
+      "possible_causes": [
+        "Gas valve assembly not connected or it is connected incorrectly",
+        "short circuit in the cable harness"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve assembly",
+        "cable harness"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "electrical",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.88 Fault: Gas valve assembly Gas valve assembly not connected or it is connected incorrectly, short circuit in the cable harness"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.97",
+      "description": "Fault: Main PCB self-test failed",
+      "possible_causes": [
+        "Main PCB defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Main PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "PCB",
+        "self-test",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.97 Fault: Main PCB self-test failed Main PCB defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "Connection",
+      "description": "No communication between the main PCB and the user interface",
+      "possible_causes": [
+        "Electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Main PCB",
+        "user interface",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "PCB",
+        "user interface",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "Connection No communication between the main PCB and the user interface Electronics defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "diagnostic_codes": [
+    {
+      "code": "d.00",
+      "description": "Heating maximum output",
+      "value_range": null,
+      "default_value": null,
+      "unit": "kW",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.00 Heating maximum output kW The maximum heating output varies depending on the product. → Section \"Technical data\" Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.01",
+      "description": "Pump overrun time in heating mode",
+      "value_range": "1 - 60",
+      "default_value": "5",
+      "unit": "min",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.01 Pump overrun time in heating mode 1 60 min 1 5 Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.02",
+      "description": "Burner anti-cycling time in heating mode",
+      "value_range": "2 - 60",
+      "default_value": "20",
+      "unit": "min",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.02 Burner anti-cycling time in heating mode 2 60 min 1 20 Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.04",
+      "description": "Water temperature in the cylinder",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.04 Water temperature in the cylinder Current value °C Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.05",
+      "description": "Determined target heating flow temperature",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.05 Determined target heating flow temperature Current value °C Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.07",
+      "description": "Target temperature for the domestic hot water cylinder",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.07 Target temperature for the domestic hot water cylinder Current value °C Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.08",
+      "description": "Status of the 230 V thermostat",
+      "value_range": "0 = Room thermostat open (no heat requirement), 1 = Room thermostat closed (heat requirement)",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.08 Status of the 230 V thermostat Current value 0 = Room thermostat open (no heat requirement) 1 = Room thermostat closed (heat requirement) Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.09",
+      "description": "Target heating flow temperature that is set on the eBUS room thermostat",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.09 Target heating flow temperature that is set on the eBUS room thermostat Current value °C Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.10",
+      "description": "Status of the internal pump in the heating circuit",
+      "value_range": "off / on",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.10 Status of the internal pump in the heating circuit Current value off / on Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.11",
+      "description": "Status of the heating circuit's shunt pump",
+      "value_range": "off / on",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.11 Status of the heating circuit's shunt pump Current value off / on Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.13",
+      "description": "Status of the domestic hot water circuit's circulation pump",
+      "value_range": "off / on",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.13 Status of the domestic hot water circuit's circulation pump Current value off / on Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.16",
+      "description": "Status of the 24 V room thermostat",
+      "value_range": "off = Heating off, on = Heating on",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.16 Status of the 24 V room thermostat Current value off = Heating off on = Heating on Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.17",
+      "description": "Heating control",
+      "value_range": "off = Flow temperature, on = Return temperature (adjustment for underfloor heating. If you have activated the return temperature control, the automatic heating output determination function is not active.)",
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.17 Heating control 0 on = Return temperature (adjustment for underfloor heating. If you have activated the return temperature control, the automatic heating output determ- ination function is not active.) Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.18",
+      "description": "Pump overrun operating mode",
+      "value_range": "1 - 3",
+      "default_value": "1",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.18 Pump overrun operating mode 1 3 1 = Comfort (continuously operating pump) 3 = Eco (intermittent pump operation for the dissipation of the residual heat after domestic hot water gen- eration at an extremely low heat de- mand) 1 Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.20",
+      "description": "Maximum target domestic hot water temperature",
+      "value_range": "50 - 60",
+      "default_value": "50",
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.20 Maximum target domestic hot water temperature 50 60 °C 1 50 Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.23",
+      "description": "Status of the heat demand",
+      "value_range": "off = Heating off (Summer mode), on = Heating on",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.23 Status of the heat demand Current value off = Heating off (Summer mode) on = Heating on Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.24",
+      "description": "Status of the pressure switch",
+      "value_range": "0 - 1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.24 Status of the pressure switch 0 1 off = Not switched on = Switched Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.25",
+      "description": "Status of the requirement to reheat the cylinder or for the domestic hot water warm start from the eBUS thermostat",
+      "value_range": "off = Function deactivated, on = Function activated",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.25 Status of the requirement Current value off = Function deactivated to reheat the cylinder or for on = Function activated the domestic hot water warm start from the eBUS thermo- stat Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.27",
+      "description": "Function of relay 1 (multi-functional module)",
+      "value_range": "1 - 10",
+      "default_value": "1",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.27 Function of relay 1 (multi- functional module) 1 10 1 = Circulation pump 2 = External pump 3 = Cylinder charging pump 4 = Extractor hood 5 = External solenoid valve 6 = External fault message 7 = Solar pump (omitted) 8 = eBUS remote control 9 = Anti-legionella pump 10 Solar valve 1 Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.28",
+      "description": "Function of relay 2 (multi-functional module)",
+      "value_range": "1 - 10",
+      "default_value": "2",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.28 Function of relay 2 (multi- functional module) 1 10 1 = Circulation pump 2 = External pump 3 = Cylinder charging pump 4 = Extractor hood 5 = External solenoid valve 6 = External fault message 7 = Solar pump (omitted) 8 = eBUS remote control 9 = Anti-legionella pump 10 = Solar valve 2 Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.31",
+      "description": "Automatic filling device",
+      "value_range": "0 - 2",
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.31 Automatic filling device 0 2 0 = Manual 1 = Semi-automatic 2 = Automatic 0 Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.33",
+      "description": "Fan speed target value",
+      "value_range": null,
+      "default_value": null,
+      "unit": "rpm",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.33 Fan speed target value Current value rpm Fan speed = Display value x 100 Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.34",
+      "description": "Value for the fan speed",
+      "value_range": null,
+      "default_value": null,
+      "unit": "rpm",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.34 Value for the fan speed Current value rpm Fan speed = Display value x 100 Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.40",
+      "description": "Heating flow temperature",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.40 Heating flow temperature Current value °C Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.41",
+      "description": "Heating return temperature",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.41 Heating return temperat- ure Current value °C Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.43",
+      "description": "Heat curve",
+      "value_range": "0.2 - 4",
+      "default_value": "1.2",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.43 Heat curve 0.2 4 0.1 1.2 Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.45",
+      "description": "Value for the base point of the heat curve",
+      "value_range": "15 - 30",
+      "default_value": "20",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.45 Value for the base point of the heat curve 15 30 1 20 Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.47",
+      "description": "Outdoor temperature",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.47 Outdoor temperature Current value °C Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.50",
+      "description": "Correction of the minimum fan speed",
+      "value_range": "0 - 3000",
+      "default_value": "600",
+      "unit": "rpm",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.50 Correction of the min- imum fan speed 0 3000 rpm 1 600 Adjustable Fan speed = Display value x 10"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.51",
+      "description": "Correction of the maximum fan speed",
+      "value_range": "-2500 - 0",
+      "default_value": "-1000",
+      "unit": "rpm",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.51 Correction of the max- imum fan speed -2500 0 rpm 1 -1000 Adjustable Fan speed = Display value x 10"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.58",
+      "description": "Solar circuit reheating",
+      "value_range": "0 - 3",
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.58 Solar circuit reheating 0 3 0 = Boiler's anti-legionella function deactivated 3 = Domestic hot water activated (tar- get value min. 60 °C) 0 Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.60",
+      "description": "Number of blocks by the temperature sensor",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.60 Number of blocks by the temperature sensor Current value Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.61",
+      "description": "Number of unsuccessful ignitions",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.61 Number of unsuccessful ignitions Current value Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.62",
+      "description": "Night set-back",
+      "value_range": "0 - 30",
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.62 Night set-back 0 30 1 0 Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.64",
+      "description": "Average burner ignition time",
+      "value_range": null,
+      "default_value": null,
+      "unit": "S",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.64 Average burner ignition time Current value S Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.65",
+      "description": "Maximum burner ignition time",
+      "value_range": null,
+      "default_value": null,
+      "unit": "S",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.65 Maximum burner ignition time Current value S Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.66",
+      "description": "Activation of the warm start function for domestic hot water",
+      "value_range": "off = Function deactivated, on = Function activated",
+      "default_value": "1",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.66 Activation of the warm start function for domestic hot water off = Function deactivated on = Function activated 1 Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.67",
+      "description": "Remaining burner anti-cycling time (setting under d.02)",
+      "value_range": null,
+      "default_value": null,
+      "unit": "min",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.67 Remaining burner anti- cycling time (setting under d.02) Current value min Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.68",
+      "description": "Number of unsuccessful ignitions at 1st attempt",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.68 Number of unsuccessful ignitions at 1st attempt Current value Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.69",
+      "description": "Number of unsuccessful ignitions at 2nd attempt",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.69 Number of unsuccessful ignitions at 2nd attempt Current value Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.71",
+      "description": "Maximum target heating flow temperature",
+      "value_range": "45 - 80",
+      "default_value": "75",
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.71 Maximum target heating flow temperature 45 80 °C 1 75 Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.75",
+      "description": "Maximum cylinder post-heating time",
+      "value_range": "20 - 90",
+      "default_value": "45",
+      "unit": "min",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.75 Maximum cylinder post- heating time 20 90 min 1 45 Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.77",
+      "description": "Max. cylinder post-heating",
+      "value_range": null,
+      "default_value": null,
+      "unit": "kW",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.77 Max. cylinder post-heat- ing kW 1 → Section \"Technical data\" Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.78",
+      "description": "DHW max. flow temperature",
+      "value_range": "50 - 80",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.78 DHW max. flow temperat- ure 50 80 °C 1 Adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.80",
+      "description": "Running time in heating mode",
+      "value_range": null,
+      "default_value": null,
+      "unit": "h",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.80 Running time in heating mode Current value h Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.81",
+      "description": "Running time in DHW mode",
+      "value_range": null,
+      "default_value": null,
+      "unit": "h",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.81 Running time in DHW mode Current value h Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.82",
+      "description": "Number of burner ignitions in heating mode",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.82 Number of burner igni- tions in heating mode Current value Number of ignitions = Display value x 100 Not adjustable"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "d.83",
+      "description": "Number of burner ignitions in DHW mode",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  ],
+  "status_codes": [],
+  "safety_warnings": [],
+  "maintenance_tasks": [],
+  "search_terms": [],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.0,
+    "review_required": true,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+      "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+    ]
+  }
+}

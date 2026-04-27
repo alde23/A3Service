@@ -1,513 +1,405 @@
 [
   {
-    "section": "technical_specs",
+    "section": "fault_codes",
     "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
+    "confidence": 0.9,
     "review_required": true,
     "record": {
-      "parameter": "Air delivery CFM (H-speed, 0.1 in. WC)",
-      "value": "1339",
-      "unit": "CFM",
-      "applies_to_models": [
-        "60B"
+      "code": "FE",
+      "description": "Gas valve not working",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve"
       ],
-      "category": "airflow",
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "not working"
+      ],
       "source_refs": [
         {
-          "page_number": 26,
+          "page_number": 74,
           "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "60B H 0.1 1339"
+          "table_title": "Error code Fault description",
+          "source_quote": "FE Gas valve not working"
         }
       ],
-      "confidence": 0.7,
+      "confidence": 0.9,
       "review_required": true
     }
   },
   {
-    "section": "technical_specs",
+    "section": "fault_codes",
     "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
+    "confidence": 0.9,
     "review_required": true,
     "record": {
-      "parameter": "Air delivery Temp Rise (1st stage, H-speed, 0.1 in. WC)",
-      "value": "37",
-      "unit": "°F",
-      "applies_to_models": [
-        "60B"
+      "code": "FS",
+      "description": "Induced draft blower not working",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Induced draft blower"
       ],
-      "category": "airflow",
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "induced draft blower",
+        "blower",
+        "not working"
+      ],
       "source_refs": [
         {
-          "page_number": 26,
+          "page_number": 74,
           "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "60B H 0.1 ... 37"
+          "table_title": "Error code Fault description",
+          "source_quote": "FS Induced draft blower not working"
         }
       ],
-      "confidence": 0.7,
+      "confidence": 0.9,
       "review_required": true
     }
   },
   {
-    "section": "technical_specs",
+    "section": "fault_codes",
     "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
+    "confidence": 0.9,
     "review_required": true,
     "record": {
-      "parameter": "Air delivery Temp Rise (2nd stage, H-speed, 0.1 in. WC)",
-      "value": "57",
-      "unit": "°F",
-      "applies_to_models": [
-        "60B"
+      "code": "FT",
+      "description": "Indoor blower not working",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Indoor blower"
       ],
-      "category": "airflow",
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "indoor blower",
+        "blower",
+        "not working"
+      ],
       "source_refs": [
         {
-          "page_number": 26,
+          "page_number": 74,
           "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "60B H 0.1 ... 57"
+          "table_title": "Error code Fault description",
+          "source_quote": "FT Indoor blower not working"
         }
       ],
-      "confidence": 0.7,
+      "confidence": 0.9,
       "review_required": true
     }
   },
   {
-    "section": "technical_specs",
+    "section": "fault_codes",
     "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
+    "confidence": 0.9,
     "review_required": true,
     "record": {
-      "parameter": "Air delivery CFM (Low-speed, 0.1 in. WC)",
-      "value": "553",
-      "unit": "CFM",
-      "applies_to_models": [
-        "60B"
+      "code": "FU",
+      "description": "Gas valve relay stuck closed",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve relay"
       ],
-      "category": "airflow",
+      "severity": "critical",
+      "safety_level": "danger",
+      "search_tags": [
+        "gas valve",
+        "relay",
+        "stuck closed"
+      ],
       "source_refs": [
         {
-          "page_number": 26,
+          "page_number": 74,
           "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "60B Low 0.1 553"
+          "table_title": "Error code Fault description",
+          "source_quote": "FU Gas valve relay stuck closed"
         }
       ],
-      "confidence": 0.7,
+      "confidence": 0.9,
       "review_required": true
     }
   },
   {
-    "section": "technical_specs",
+    "section": "fault_codes",
     "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
+    "confidence": 0.9,
     "review_required": true,
     "record": {
-      "parameter": "Air delivery Temp Rise (1st stage, Low-speed, 0.1 in. WC)",
-      "value": "58.1",
-      "unit": "°F",
-      "applies_to_models": [
-        "60B"
+      "code": "FV",
+      "description": "Gas valve relay stuck open",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve relay"
       ],
-      "category": "airflow",
+      "severity": "critical",
+      "safety_level": "danger",
+      "search_tags": [
+        "gas valve",
+        "relay",
+        "stuck open"
+      ],
       "source_refs": [
         {
-          "page_number": 26,
+          "page_number": 74,
           "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "60B Low 0.1 ... 58.1"
+          "table_title": "Error code Fault description",
+          "source_quote": "FV Gas valve relay stuck open"
         }
       ],
-      "confidence": 0.7,
+      "confidence": 0.9,
       "review_required": true
     }
   },
   {
-    "section": "technical_specs",
+    "section": "fault_codes",
     "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
+    "confidence": 0.9,
     "review_required": true,
     "record": {
-      "parameter": "Air delivery CFM (H-speed, 0.1 in. WC)",
-      "value": "1926",
-      "unit": "CFM",
-      "applies_to_models": [
-        "120D"
+      "code": "FW",
+      "description": "Fan speed error",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Fan"
       ],
-      "category": "airflow",
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan",
+        "speed",
+        "error"
+      ],
       "source_refs": [
         {
-          "page_number": 26,
+          "page_number": 74,
           "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "120D H 0.1 1926"
+          "table_title": "Error code Fault description",
+          "source_quote": "FW Fan speed error"
         }
       ],
-      "confidence": 0.7,
+      "confidence": 0.9,
       "review_required": true
     }
   },
   {
-    "section": "technical_specs",
+    "section": "fault_codes",
     "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
+    "confidence": 0.9,
     "review_required": true,
     "record": {
-      "parameter": "Air delivery Temp Rise (1st stage, H-speed, 0.1 in. WC)",
-      "value": "51.8",
-      "unit": "°F",
-      "applies_to_models": [
-        "120D"
+      "code": "FX",
+      "description": "IPM over temperature protection",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "IPM module"
       ],
-      "category": "airflow",
+      "severity": "high",
+      "safety_level": "warning",
+      "search_tags": [
+        "IPM",
+        "temperature",
+        "overheat",
+        "protection"
+      ],
       "source_refs": [
         {
-          "page_number": 26,
+          "page_number": 74,
           "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "120D H 0.1 ... 51.8"
+          "table_title": "Error code Fault description",
+          "source_quote": "FX IPM over temperature protection"
         }
       ],
-      "confidence": 0.7,
+      "confidence": 0.9,
       "review_required": true
     }
   },
   {
-    "section": "technical_specs",
+    "section": "fault_codes",
     "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
+    "confidence": 0.9,
     "review_required": true,
     "record": {
-      "parameter": "Air delivery Temp Rise (2nd stage, H-speed, 0.1 in. WC)",
-      "value": "51.7",
-      "unit": "°F",
-      "applies_to_models": [
-        "120D"
+      "code": "FY",
+      "description": "IPM communication error",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "IPM module"
       ],
-      "category": "airflow",
+      "severity": "high",
+      "safety_level": "warning",
+      "search_tags": [
+        "IPM",
+        "communication",
+        "error"
+      ],
       "source_refs": [
         {
-          "page_number": 26,
+          "page_number": 74,
           "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "120D H 0.1 ... 51.7"
+          "table_title": "Error code Fault description",
+          "source_quote": "FY IPM communication error"
         }
       ],
-      "confidence": 0.7,
+      "confidence": 0.9,
       "review_required": true
     }
   },
   {
-    "section": "technical_specs",
+    "section": "fault_codes",
     "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
+    "confidence": 0.9,
     "review_required": true,
     "record": {
-      "parameter": "Air delivery CFM (Low-speed, 0.1 in. WC)",
-      "value": "1165",
-      "unit": "CFM",
-      "applies_to_models": [
-        "120D"
+      "code": "FZ",
+      "description": "IPM fault",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "IPM module"
       ],
-      "category": "airflow",
+      "severity": "critical",
+      "safety_level": "warning",
+      "search_tags": [
+        "IPM",
+        "fault"
+      ],
       "source_refs": [
         {
-          "page_number": 26,
+          "page_number": 74,
           "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "120D Low 0.1 1165"
+          "table_title": "Error code Fault description",
+          "source_quote": "FZ IPM fault"
         }
       ],
-      "confidence": 0.7,
+      "confidence": 0.9,
       "review_required": true
     }
   },
   {
-    "section": "technical_specs",
+    "section": "fault_codes",
     "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
+    "confidence": 0.9,
     "review_required": true,
     "record": {
-      "parameter": "Air delivery Temp Rise (1st stage, Low-speed, 0.1 in. WC)",
-      "value": "59.5",
-      "unit": "°F",
-      "applies_to_models": [
-        "120D"
+      "code": "HL",
+      "description": "Signal error",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "signal",
+        "error"
       ],
-      "category": "airflow",
       "source_refs": [
         {
-          "page_number": 26,
+          "page_number": 74,
           "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "120D Low 0.1 ... 59.5"
+          "table_title": "Error code Fault description",
+          "source_quote": "HL Signal error"
         }
       ],
-      "confidence": 0.7,
+      "confidence": 0.9,
       "review_required": true
     }
   },
   {
-    "section": "technical_specs",
+    "section": "safety_warnings",
     "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
+    "confidence": 0.0,
     "review_required": true,
     "record": {
-      "parameter": "Air delivery CFM (H-speed, 0.1 in. WC)",
-      "value": "1752",
-      "unit": "CFM",
-      "applies_to_models": [
-        "100C"
-      ],
-      "category": "airflow",
+      "warning_type": "warning",
+      "topic": "Fire or Explosion Hazard (Manual Reset Limit Switches)",
+      "text": "This furnace is equipped with manual reset limit switches in the gas control area. The switches open and shut off power to the gas valve if a flame rollout or overheating condition occurs in the gas control area. DO NOT bypass the switches. Correct inadequate combustion air supply problem before resetting the switches.",
       "source_refs": [
         {
-          "page_number": 27,
-          "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "100C H 0.1 1752"
+          "page_number": 62,
+          "section_title": "11.1 General",
+          "table_title": null,
+          "source_quote": "WARNING Fire or explosion hazard! This furnace is equipped with manual reset limit switches in the gas control area. The switches open and shut off power to the gas valve if a flame rollout or overheating condition occurs in the gas control area. DO NOT bypass the switches. Correct inadequate combustion air supply problem before resetting"
         }
       ],
-      "confidence": 0.7,
-      "review_required": true
-    }
-  },
-  {
-    "section": "technical_specs",
-    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
-    "review_required": true,
-    "record": {
-      "parameter": "Air delivery Temp Rise (1st stage, H-speed, 0.1 in. WC)",
-      "value": "47.5",
-      "unit": "°F",
-      "applies_to_models": [
-        "100C"
-      ],
-      "category": "airflow",
-      "source_refs": [
-        {
-          "page_number": 27,
-          "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "100C H 0.1 ... 47.5"
-        }
-      ],
-      "confidence": 0.7,
-      "review_required": true
-    }
-  },
-  {
-    "section": "technical_specs",
-    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
-    "review_required": true,
-    "record": {
-      "parameter": "Air delivery Temp Rise (2nd stage, H-speed, 0.1 in. WC)",
-      "value": "47.3",
-      "unit": "°F",
-      "applies_to_models": [
-        "100C"
-      ],
-      "category": "airflow",
-      "source_refs": [
-        {
-          "page_number": 27,
-          "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "100C H 0.1 ... 47.3"
-        }
-      ],
-      "confidence": 0.7,
-      "review_required": true
-    }
-  },
-  {
-    "section": "technical_specs",
-    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
-    "review_required": true,
-    "record": {
-      "parameter": "Air delivery CFM (Low-speed, 0.1 in. WC)",
-      "value": "994",
-      "unit": "CFM",
-      "applies_to_models": [
-        "100C"
-      ],
-      "category": "airflow",
-      "source_refs": [
-        {
-          "page_number": 27,
-          "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "100C Low 0.1 994"
-        }
-      ],
-      "confidence": 0.7,
-      "review_required": true
-    }
-  },
-  {
-    "section": "technical_specs",
-    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
-    "review_required": true,
-    "record": {
-      "parameter": "Air delivery Temp Rise (1st stage, Low-speed, 0.1 in. WC)",
-      "value": "58.1",
-      "unit": "°F",
-      "applies_to_models": [
-        "100C"
-      ],
-      "category": "airflow",
-      "source_refs": [
-        {
-          "page_number": 27,
-          "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "100C Low 0.1 ... 58.1"
-        }
-      ],
-      "confidence": 0.7,
-      "review_required": true
-    }
-  },
-  {
-    "section": "technical_specs",
-    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
-    "review_required": true,
-    "record": {
-      "parameter": "Air delivery CFM (H-speed, 0.1 in. WC)",
-      "value": "1926",
-      "unit": "CFM",
-      "applies_to_models": [
-        "100D"
-      ],
-      "category": "airflow",
-      "source_refs": [
-        {
-          "page_number": 27,
-          "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "100D H 0.1 1926"
-        }
-      ],
-      "confidence": 0.7,
-      "review_required": true
-    }
-  },
-  {
-    "section": "technical_specs",
-    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
-    "review_required": true,
-    "record": {
-      "parameter": "Air delivery Temp Rise (1st stage, H-speed, 0.1 in. WC)",
-      "value": "43.2",
-      "unit": "°F",
-      "applies_to_models": [
-        "100D"
-      ],
-      "category": "airflow",
-      "source_refs": [
-        {
-          "page_number": 27,
-          "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "100D H 0.1 ... 43.2"
-        }
-      ],
-      "confidence": 0.7,
-      "review_required": true
-    }
-  },
-  {
-    "section": "technical_specs",
-    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
-    "review_required": true,
-    "record": {
-      "parameter": "Air delivery Temp Rise (2nd stage, H-speed, 0.1 in. WC)",
-      "value": "43.3",
-      "unit": "°F",
-      "applies_to_models": [
-        "100D"
-      ],
-      "category": "airflow",
-      "source_refs": [
-        {
-          "page_number": 27,
-          "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "100D H 0.1 ... 43.3"
-        }
-      ],
-      "confidence": 0.7,
-      "review_required": true
-    }
-  },
-  {
-    "section": "technical_specs",
-    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
-    "review_required": true,
-    "record": {
-      "parameter": "Air delivery CFM (Low-speed, 0.1 in. WC)",
-      "value": "1163",
-      "unit": "CFM",
-      "applies_to_models": [
-        "100D"
-      ],
-      "category": "airflow",
-      "source_refs": [
-        {
-          "page_number": 27,
-          "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "100D Low 0.1 1163"
-        }
-      ],
-      "confidence": 0.7,
-      "review_required": true
-    }
-  },
-  {
-    "section": "technical_specs",
-    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": 0.7,
-    "review_required": true,
-    "record": {
-      "parameter": "Air delivery Temp Rise (1st stage, Low-speed, 0.1 in. WC)",
-      "value": "49.7",
-      "unit": "°F",
-      "applies_to_models": [
-        "100D"
-      ],
-      "category": "airflow",
-      "source_refs": [
-        {
-          "page_number": 27,
-          "section_title": null,
-          "table_title": "Air delivery - CFM (without filter)",
-          "source_quote": "100D Low 0.1 ... 49.7"
-        }
-      ],
-      "confidence": 0.7,
+      "confidence": 0.0,
       "review_required": true
     }
   },
   {
     "section": "extraction_meta",
     "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
-    "confidence": null,
+    "confidence": 0.0,
     "review_required": true,
     "record": {
+      "overall_confidence": 0.0,
       "review_required": true,
+      "missing_or_unclear_sections": [],
       "extraction_notes": [
-        "Original Gemini response was malformed JSON and was repaired by the pipeline."
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "diagnostic_codes",
+    "output_file": "Vaillant\\vaillant_ecotec-plus_80baeb5290.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "code": "d.83",
+      "description": "Number of burner ignitions in DHW mode",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Vaillant\\vaillant_ecotec-plus_80baeb5290.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
       ]
     }
   }
