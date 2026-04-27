@@ -10,6 +10,9 @@ from typing import Any
 from json import JSONDecodeError
 from json_repair import repair_json
 
+from pydantic import ValidationError
+from src.schemas import BoilerManualData
+
 from src.api_extractor import extract_boiler_data_from_pdf
 
 
@@ -283,6 +286,291 @@ def parse_extractor_response(json_string: str, pdf_path: Path) -> dict[str, Any]
 
         return extracted_data
 
+#helper functions
+
+def add_extraction_note(extracted_data: dict[str, Any], note: str) -> None:
+    extracted_data.setdefault("extraction_meta", {})
+    notes = extracted_data["extraction_meta"].setdefault("extraction_notes", [])
+
+    if note not in notes:
+        notes.append(note)
+
+
+def ensure_extraction_meta(extracted_data: dict[str, Any]) -> None:
+    extracted_data.setdefault("extraction_meta", {})
+    meta = extracted_data["extraction_meta"]
+
+    if not isinstance(meta.get("overall_confidence"), int | float):
+        meta["overall_confidence"] = 0.0
+        meta["review_required"] = True
+        add_extraction_note(
+            extracted_data,
+            "overall_confidence was missing or invalid and was set to 0.0 by the pipeline.",
+        )
+
+    meta.setdefault("review_required", True)
+    meta.setdefault("missing_or_unclear_sections", [])
+    meta.setdefault("extraction_notes", [])
+
+
+def ensure_top_level_defaults(extracted_data: dict[str, Any]) -> None:
+    extracted_data.setdefault("schema_version", "0.2.0")
+    extracted_data.setdefault("document_meta", {})
+    extracted_data.setdefault("technical_specs", [])
+    extracted_data.setdefault("fault_codes", [])
+    extracted_data.setdefault("diagnostic_codes", [])
+    extracted_data.setdefault("status_codes", [])
+    extracted_data.setdefault("safety_warnings", [])
+    extracted_data.setdefault("maintenance_tasks", [])
+    extracted_data.setdefault("search_terms", [])
+
+    extracted_data.setdefault(
+        "derived_guidance",
+        {
+            "status": "not_generated",
+            "technician_summary": None,
+            "steps": [],
+            "generated_from": [],
+            "review_status": "not_reviewed",
+        },
+    )
+
+    ensure_extraction_meta(extracted_data)
+
+
+def normalize_technical_specs(extracted_data: dict[str, Any]) -> None:
+    normalized_items: list[dict[str, Any]] = []
+
+    for item in extracted_data.get("technical_specs", []):
+        if not isinstance(item, dict):
+            continue
+
+        if not item.get("parameter") or not item.get("value"):
+            add_extraction_note(
+                extracted_data,
+                "A technical_specs item was dropped because it was missing parameter or value.",
+            )
+            continue
+
+        item.setdefault("unit", None)
+        item.setdefault("applies_to_models", [])
+        item.setdefault("category", None)
+        item.setdefault("source_refs", [])
+
+        if not isinstance(item.get("confidence"), int | float):
+            item["confidence"] = 0.0
+            item["review_required"] = True
+
+        item.setdefault("review_required", True)
+
+        normalized_items.append(item)
+
+    extracted_data["technical_specs"] = normalized_items
+
+
+def normalize_fault_codes(extracted_data: dict[str, Any]) -> None:
+    normalized_items: list[dict[str, Any]] = []
+
+    for item in extracted_data.get("fault_codes", []):
+        if not isinstance(item, dict):
+            continue
+
+        if not item.get("code") or not item.get("description"):
+            add_extraction_note(
+                extracted_data,
+                "A fault_codes item was dropped because it was missing code or description.",
+            )
+            continue
+
+        item.setdefault("possible_causes", [])
+        item.setdefault("manufacturer_steps", [])
+        item.setdefault("cautions_or_notes", [])
+        item.setdefault("symptoms", [])
+        item.setdefault("related_components", [])
+        item.setdefault("severity", "unknown")
+        item.setdefault("safety_level", "unknown")
+        item.setdefault("search_tags", [])
+        item.setdefault("source_refs", [])
+
+        if not isinstance(item.get("confidence"), int | float):
+            item["confidence"] = 0.0
+            item["review_required"] = True
+
+        item.setdefault("review_required", True)
+
+        normalized_items.append(item)
+
+    extracted_data["fault_codes"] = normalized_items
+
+
+def normalize_diagnostic_codes(extracted_data: dict[str, Any]) -> None:
+    normalized_items: list[dict[str, Any]] = []
+
+    for item in extracted_data.get("diagnostic_codes", []):
+        if not isinstance(item, dict):
+            continue
+
+        if not item.get("code") or not item.get("description"):
+            add_extraction_note(
+                extracted_data,
+                "A diagnostic_codes item was dropped because it was missing code or description.",
+            )
+            continue
+
+        item.setdefault("value_range", None)
+        item.setdefault("default_value", None)
+        item.setdefault("unit", None)
+        item.setdefault("adjustable", None)
+        item.setdefault("source_refs", [])
+
+        if not isinstance(item.get("confidence"), int | float):
+            item["confidence"] = 0.0
+            item["review_required"] = True
+
+        item.setdefault("review_required", True)
+
+        normalized_items.append(item)
+
+    extracted_data["diagnostic_codes"] = normalized_items
+
+
+def normalize_status_codes(extracted_data: dict[str, Any]) -> None:
+    normalized_items: list[dict[str, Any]] = []
+
+    for item in extracted_data.get("status_codes", []):
+        if not isinstance(item, dict):
+            continue
+
+        if not item.get("code") or not item.get("meaning"):
+            add_extraction_note(
+                extracted_data,
+                "A status_codes item was dropped because it was missing code or meaning.",
+            )
+            continue
+
+        item.setdefault("operating_mode", None)
+        item.setdefault("source_refs", [])
+
+        if not isinstance(item.get("confidence"), int | float):
+            item["confidence"] = 0.0
+            item["review_required"] = True
+
+        item.setdefault("review_required", True)
+
+        normalized_items.append(item)
+
+    extracted_data["status_codes"] = normalized_items
+
+
+def normalize_safety_warnings(extracted_data: dict[str, Any]) -> None:
+    normalized_items: list[dict[str, Any]] = []
+
+    for item in extracted_data.get("safety_warnings", []):
+        if not isinstance(item, dict):
+            continue
+
+        if not item.get("topic") or not item.get("text"):
+            add_extraction_note(
+                extracted_data,
+                "A safety_warnings item was dropped because it was missing topic or text.",
+            )
+            continue
+
+        item.setdefault("warning_type", "unknown")
+        item.setdefault("source_refs", [])
+
+        if not isinstance(item.get("confidence"), int | float):
+            item["confidence"] = 0.0
+            item["review_required"] = True
+
+        item.setdefault("review_required", True)
+
+        normalized_items.append(item)
+
+    extracted_data["safety_warnings"] = normalized_items
+
+
+def normalize_maintenance_tasks(extracted_data: dict[str, Any]) -> None:
+    normalized_items: list[dict[str, Any]] = []
+
+    for item in extracted_data.get("maintenance_tasks", []):
+        if not isinstance(item, dict):
+            continue
+
+        if not item.get("task_name"):
+            add_extraction_note(
+                extracted_data,
+                "A maintenance_tasks item was dropped because it was missing task_name.",
+            )
+            continue
+
+        item.setdefault("description", None)
+        item.setdefault("interval", None)
+        item.setdefault("required_qualification", None)
+        item.setdefault("source_refs", [])
+
+        if not isinstance(item.get("confidence"), int | float):
+            item["confidence"] = 0.0
+            item["review_required"] = True
+
+        item.setdefault("review_required", True)
+
+        normalized_items.append(item)
+
+    extracted_data["maintenance_tasks"] = normalized_items
+
+
+def apply_quality_gates(extracted_data: dict[str, Any]) -> None:
+    fault_count = len(extracted_data.get("fault_codes", []))
+    diagnostic_count = len(extracted_data.get("diagnostic_codes", []))
+    status_count = len(extracted_data.get("status_codes", []))
+
+    if fault_count == 0 and diagnostic_count == 0 and status_count == 0:
+        extracted_data["extraction_meta"]["review_required"] = True
+        extracted_data["extraction_meta"]["overall_confidence"] = min(
+            extracted_data["extraction_meta"].get("overall_confidence", 0.0),
+            0.4,
+        )
+        add_extraction_note(
+            extracted_data,
+            "No fault codes, diagnostic codes, or status codes were extracted. Manual should be reviewed or reprocessed.",
+        )
+
+    if fault_count == 0:
+        extracted_data["extraction_meta"]["review_required"] = True
+        add_extraction_note(
+            extracted_data,
+            "No fault_codes were extracted.",
+        )
+
+
+def normalize_and_validate_extracted_data(
+    extracted_data: dict[str, Any],
+    pdf_path: Path,
+) -> dict[str, Any]:
+    ensure_top_level_defaults(extracted_data)
+
+    normalize_technical_specs(extracted_data)
+    normalize_fault_codes(extracted_data)
+    normalize_diagnostic_codes(extracted_data)
+    normalize_status_codes(extracted_data)
+    normalize_safety_warnings(extracted_data)
+    normalize_maintenance_tasks(extracted_data)
+
+    apply_quality_gates(extracted_data)
+
+    try:
+        validated = BoilerManualData.model_validate(extracted_data)
+        return validated.model_dump(mode="json")
+
+    except ValidationError as error:
+        validation_debug_path = DEBUG_DIR / f"{slugify(pdf_path.stem)}.validation_error.txt"
+        validation_debug_path.write_text(str(error), encoding="utf-8")
+
+        raise ValueError(
+            f"Extracted data did not pass schema validation. "
+            f"Validation details saved to: {validation_debug_path.relative_to(BASE_DIR)}"
+        ) from error
 
 def process_pdf(
     pdf_path: Path,
@@ -309,6 +597,12 @@ def process_pdf(
         pdf_path=pdf_path,
         file_hash=file_hash,
     )
+    # Normalize, validate, and apply quality gates to the extracted data.
+    extracted_data = normalize_and_validate_extracted_data(
+        extracted_data=extracted_data,
+        pdf_path=pdf_path,
+    )
+
 
     output_file = build_output_path(
         extracted_data=extracted_data,
@@ -391,6 +685,11 @@ def main() -> None:
 
             if manifest_record is None:
                 continue
+
+            failed_extractions = [
+                item for item in failed_extractions
+                if item.get("source_file") != manifest_record["source_file"]
+            ]
 
             output_file = OUTPUT_JSON_DIR / manifest_record["output_file"]
             extracted_data = load_json_file(output_file, fallback={})

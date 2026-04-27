@@ -4,6 +4,22 @@ Your task is to extract structured manufacturer-stated information from the prov
 
 You must output JSON that strictly follows the provided schema.
 
+PRIORITY ORDER
+
+Prioritize extraction in this order:
+
+1. document metadata
+2. fault codes and troubleshooting charts
+3. diagnostic codes
+4. status codes
+5. safety warnings
+6. maintenance tasks
+7. core technical specifications
+
+Core technical specifications include model names, fuel/gas type, heat input/output, electrical data, dimensions, pressure limits, water flow, and connection sizes.
+
+Do not extract every installation clearance table, flue terminal positioning table, airflow CFM table, or large generic installation table unless it is directly relevant to fault diagnosis, servicing, or model identification.
+
 CRITICAL RULES
 
 1. NO HALLUCINATIONS
