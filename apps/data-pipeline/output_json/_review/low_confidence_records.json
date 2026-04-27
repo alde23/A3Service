@@ -1,0 +1,514 @@
+[
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery CFM (H-speed, 0.1 in. WC)",
+      "value": "1339",
+      "unit": "CFM",
+      "applies_to_models": [
+        "60B"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "60B H 0.1 1339"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery Temp Rise (1st stage, H-speed, 0.1 in. WC)",
+      "value": "37",
+      "unit": "°F",
+      "applies_to_models": [
+        "60B"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "60B H 0.1 ... 37"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery Temp Rise (2nd stage, H-speed, 0.1 in. WC)",
+      "value": "57",
+      "unit": "°F",
+      "applies_to_models": [
+        "60B"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "60B H 0.1 ... 57"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery CFM (Low-speed, 0.1 in. WC)",
+      "value": "553",
+      "unit": "CFM",
+      "applies_to_models": [
+        "60B"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "60B Low 0.1 553"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery Temp Rise (1st stage, Low-speed, 0.1 in. WC)",
+      "value": "58.1",
+      "unit": "°F",
+      "applies_to_models": [
+        "60B"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "60B Low 0.1 ... 58.1"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery CFM (H-speed, 0.1 in. WC)",
+      "value": "1926",
+      "unit": "CFM",
+      "applies_to_models": [
+        "120D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "120D H 0.1 1926"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery Temp Rise (1st stage, H-speed, 0.1 in. WC)",
+      "value": "51.8",
+      "unit": "°F",
+      "applies_to_models": [
+        "120D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "120D H 0.1 ... 51.8"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery Temp Rise (2nd stage, H-speed, 0.1 in. WC)",
+      "value": "51.7",
+      "unit": "°F",
+      "applies_to_models": [
+        "120D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "120D H 0.1 ... 51.7"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery CFM (Low-speed, 0.1 in. WC)",
+      "value": "1165",
+      "unit": "CFM",
+      "applies_to_models": [
+        "120D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "120D Low 0.1 1165"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery Temp Rise (1st stage, Low-speed, 0.1 in. WC)",
+      "value": "59.5",
+      "unit": "°F",
+      "applies_to_models": [
+        "120D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "120D Low 0.1 ... 59.5"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery CFM (H-speed, 0.1 in. WC)",
+      "value": "1752",
+      "unit": "CFM",
+      "applies_to_models": [
+        "100C"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100C H 0.1 1752"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery Temp Rise (1st stage, H-speed, 0.1 in. WC)",
+      "value": "47.5",
+      "unit": "°F",
+      "applies_to_models": [
+        "100C"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100C H 0.1 ... 47.5"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery Temp Rise (2nd stage, H-speed, 0.1 in. WC)",
+      "value": "47.3",
+      "unit": "°F",
+      "applies_to_models": [
+        "100C"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100C H 0.1 ... 47.3"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery CFM (Low-speed, 0.1 in. WC)",
+      "value": "994",
+      "unit": "CFM",
+      "applies_to_models": [
+        "100C"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100C Low 0.1 994"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery Temp Rise (1st stage, Low-speed, 0.1 in. WC)",
+      "value": "58.1",
+      "unit": "°F",
+      "applies_to_models": [
+        "100C"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100C Low 0.1 ... 58.1"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery CFM (H-speed, 0.1 in. WC)",
+      "value": "1926",
+      "unit": "CFM",
+      "applies_to_models": [
+        "100D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100D H 0.1 1926"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery Temp Rise (1st stage, H-speed, 0.1 in. WC)",
+      "value": "43.2",
+      "unit": "°F",
+      "applies_to_models": [
+        "100D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100D H 0.1 ... 43.2"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery Temp Rise (2nd stage, H-speed, 0.1 in. WC)",
+      "value": "43.3",
+      "unit": "°F",
+      "applies_to_models": [
+        "100D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100D H 0.1 ... 43.3"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery CFM (Low-speed, 0.1 in. WC)",
+      "value": "1163",
+      "unit": "CFM",
+      "applies_to_models": [
+        "100D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100D Low 0.1 1163"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "parameter": "Air delivery Temp Rise (1st stage, Low-speed, 0.1 in. WC)",
+      "value": "49.7",
+      "unit": "°F",
+      "applies_to_models": [
+        "100D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100D Low 0.1 ... 49.7"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": null,
+    "review_required": true,
+    "record": {
+      "review_required": true,
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline."
+      ]
+    }
+  }
+]

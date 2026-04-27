@@ -1,0 +1,4115 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "BOSCH",
+    "product_family": "96% AFUE Condensing Gas Furnace",
+    "model_names": [
+      "Bosch BGH96 Model"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "Installation and Operating Instructions",
+    "document_code": "BTC 772003301 C",
+    "publication_date": "06.2025",
+    "language": "en",
+    "region": "US",
+    "source_file": "bgh96_furnace_revc_iom_en_06.2025.pdf",
+    "file_hash": "ddbe41d42660785ca9cf2bf11ae2eb57e51d305664ac276d9f7c83677a98bddd"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Cabinet Width (A)",
+      "value": "17.5",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M060B3C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"17.5 (445)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Supply-Air Width (D)",
+      "value": "16",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M060B3C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"16 (406)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Return-Air Width (E)",
+      "value": "15-27/32",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M060B3C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"15-27/32 (402)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Shipping Weight",
+      "value": "147.5",
+      "unit": "lbs (kg)",
+      "applies_to_models": [
+        "BGH96M060B3C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"147.5 (66.9)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Cabinet Width (A)",
+      "value": "17.5",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M080B3C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"17.5 (445)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Supply-Air Width (D)",
+      "value": "16",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M080B3C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"16 (406)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Return-Air Width (E)",
+      "value": "15-27/32",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M080B3C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"15-27/32 (402)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Shipping Weight",
+      "value": "152",
+      "unit": "lbs (kg)",
+      "applies_to_models": [
+        "BGH96M080B3C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"152 (68.9)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Cabinet Width (A)",
+      "value": "21",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M080C4C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"21 (533)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Supply-Air Width (D)",
+      "value": "19.5",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M080C4C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"19.5 (495)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Return-Air Width (E)",
+      "value": "19-13/32",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M080C4C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"19-13/32 (493)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Shipping Weight",
+      "value": "165",
+      "unit": "lbs (kg)",
+      "applies_to_models": [
+        "BGH96M080C4C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"165 (74.8)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Cabinet Width (A)",
+      "value": "21",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M100C5C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"21 (533)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Supply-Air Width (D)",
+      "value": "19.5",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M100C5C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"19.5 (495)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Return-Air Width (E)",
+      "value": "19-13/32",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M100C5C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"19-13/32 (493)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Shipping Weight",
+      "value": "170.5",
+      "unit": "lbs (kg)",
+      "applies_to_models": [
+        "BGH96M100C5C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"170.5 (77.3)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Cabinet Width (A)",
+      "value": "24.5",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M100D5C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"24.5 (622)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Supply-Air Width (D)",
+      "value": "23",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M100D5C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"23 (584)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Return-Air Width (E)",
+      "value": "22-27/32",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M100D5C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"22-27/32 (580)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Shipping Weight",
+      "value": "181.5",
+      "unit": "lbs (kg)",
+      "applies_to_models": [
+        "BGH96M100D5C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"181.5 (82.3)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Cabinet Width (A)",
+      "value": "24.5",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M120D5C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"24.5 (622)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Supply-Air Width (D)",
+      "value": "23",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M120D5C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"23 (584)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Return-Air Width (E)",
+      "value": "22-27/32",
+      "unit": "In. (mm)",
+      "applies_to_models": [
+        "BGH96M120D5C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"22-27/32 (580)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Shipping Weight",
+      "value": "187",
+      "unit": "lbs (kg)",
+      "applies_to_models": [
+        "BGH96M120D5C"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2 Dimensions",
+          "table_title": "Dimensions & weight",
+          "source_quote": "\"187 (84.8)\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance from combustible construction - Sides",
+      "value": "0",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": null,
+          "table_title": "Minimum clearance from combustible construction",
+          "source_quote": "SIDES* 0\""
+        }
+      ],
+      "confidence": 0.85,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance from combustible construction - Front",
+      "value": "3",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": null,
+          "table_title": "Minimum clearance from combustible construction",
+          "source_quote": "FRONT 3\""
+        }
+      ],
+      "confidence": 0.85,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance from combustible construction - Back",
+      "value": "0",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": null,
+          "table_title": "Minimum clearance from combustible construction",
+          "source_quote": "BACK 0\""
+        }
+      ],
+      "confidence": 0.85,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance from combustible construction - Top (Plenum)",
+      "value": "1",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": null,
+          "table_title": "Minimum clearance from combustible construction",
+          "source_quote": "TOP (PLENUM) 1\""
+        }
+      ],
+      "confidence": 0.85,
+      "review_required": false
+    },
+    {
+      "parameter": "Return air temperature (Max)",
+      "value": "85",
+      "unit": "°F",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": null,
+          "table_title": "Return air temperature",
+          "source_quote": "Max 85°F/29°C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Return air temperature (Max)",
+      "value": "29",
+      "unit": "°C",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": null,
+          "table_title": "Return air temperature",
+          "source_quote": "Max 85°F/29°C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance to burners in garage",
+      "value": "18",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "18-IN. MINIMUM TO BURNERS"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Upflow installation tilt (minimum)",
+      "value": "1/2",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "7.1 Upflow Installation",
+          "table_title": null,
+          "source_quote": "Tilt the unit slightly (minimum 1/2\" (12.7 mm) to maximum of 3/4\" (19 mm)) from back to front to aid in the draining of the heat exchanger."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Upflow installation tilt (maximum)",
+      "value": "3/4",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "7.1 Upflow Installation",
+          "table_title": null,
+          "source_quote": "Tilt the unit slightly (minimum 1/2\" (12.7 mm) to maximum of 3/4\" (19 mm)) from back to front to aid in the draining of the heat exchanger."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Horizontal installation tilt (minimum)",
+      "value": "1/2",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "7.2 Horizontal Installation",
+          "table_title": null,
+          "source_quote": "Tilt the unit slightly (minimum 1/2\" (12.7 mm) to maximum of 3/4\" (19 mm)) from back to front to aid in the draining of the heat exchanger."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Horizontal installation tilt (maximum)",
+      "value": "3/4",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "7.2 Horizontal Installation",
+          "table_title": null,
+          "source_quote": "Tilt the unit slightly (minimum 1/2\" (12.7 mm) to maximum of 3/4\" (19 mm)) from back to front to aid in the draining of the heat exchanger."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance below furnace for drain trap",
+      "value": "7",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "7.2.2 Horizontal Applications",
+          "table_title": null,
+          "source_quote": "A minimum clearance of 7 inches below the furnace must be provided for the drain trap."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance between center rod and furnace cabinet for circulator blower removal",
+      "value": "8",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "PROVIDE 8\" MINMUM CLEARANCE BETWEEN CENTER ROD AND FURNACE CABINET TO ALLOW FOR CIRCULATOR BLOWER REMOVAL"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Horizontal furnace tilt (front below back)",
+      "value": "3/4",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "ASSURE FURNACE IS LEVEL FROM END TO END AND HAS A SLIGHT FORWARD TILT WITH THE FRONT OF THE FURNACE 3/4\" BELOW THE BACK OF THE FURNACE"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum drain trap clearance",
+      "value": "7",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "7\" MINIMUM DRAIN TRAP CLEARANCE"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Drain line downward slope",
+      "value": "1/4",
+      "unit": "inches per foot",
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "DRAIN LINE WITH 1/4\" PER FOOT DOWNWARD SLOPE"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum service clearance",
+      "value": "36",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "36\" MINIMUM SERVICE CLEARANCE REQUIRED"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate drain line material",
+      "value": "3/4\" PVC hose or CPVC hose pipe",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "condensate",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "7.3 Condensate Line and Over Flow Pressure Switch",
+          "table_title": null,
+          "source_quote": "The drain line between furnace and drain location must be constructed of 3/4\" PVC hose or CPVC hose pipe."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate drain line downward slope",
+      "value": "1/4",
+      "unit": "inches per foot",
+      "applies_to_models": [],
+      "category": "condensate",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "7.3 Condensate Line and Over Flow Pressure Switch",
+          "table_title": null,
+          "source_quote": "The drain line between furnace and drain location must maintain a 1/4\" per foot downward slope toward the drain."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate hose X1 length",
+      "value": "60",
+      "unit": "mm",
+      "applies_to_models": [
+        "BGH96M100D5C",
+        "BGH96M120D5C"
+      ],
+      "category": "condensate",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "7.3.2 For Upflow Installation",
+          "table_title": "Table 2",
+          "source_quote": "BGH96M100D5C 60 84"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate hose X2 length",
+      "value": "84",
+      "unit": "mm",
+      "applies_to_models": [
+        "BGH96M100D5C",
+        "BGH96M120D5C"
+      ],
+      "category": "condensate",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "7.3.2 For Upflow Installation",
+          "table_title": "Table 2",
+          "source_quote": "BGH96M100D5C 60 84"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate hose X1 length",
+      "value": "135",
+      "unit": "mm",
+      "applies_to_models": [
+        "BGH96M080C4C",
+        "BGH96M100C5C"
+      ],
+      "category": "condensate",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "7.3.2 For Upflow Installation",
+          "table_title": "Table 2",
+          "source_quote": "BGH96M080C4C 135 149"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate hose X2 length",
+      "value": "149",
+      "unit": "mm",
+      "applies_to_models": [
+        "BGH96M080C4C",
+        "BGH96M100C5C"
+      ],
+      "category": "condensate",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "7.3.2 For Upflow Installation",
+          "table_title": "Table 2",
+          "source_quote": "BGH96M080C4C 135 149"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate hose X1 length",
+      "value": "240",
+      "unit": "mm",
+      "applies_to_models": [
+        "BGH96M060B3C",
+        "BGH96M080B3C"
+      ],
+      "category": "condensate",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "7.3.2 For Upflow Installation",
+          "table_title": "Table 2",
+          "source_quote": "BGH96M060B3C 240 219"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate hose X2 length",
+      "value": "219",
+      "unit": "mm",
+      "applies_to_models": [
+        "BGH96M060B3C",
+        "BGH96M080B3C"
+      ],
+      "category": "condensate",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "7.3.2 For Upflow Installation",
+          "table_title": "Table 2",
+          "source_quote": "BGH96M060B3C 240 219"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Filter size (Side return)",
+      "value": "16X25 (406X635)",
+      "unit": "Inch(mm)",
+      "applies_to_models": [
+        "17-1/2 (445)",
+        "21 (533)",
+        "24.5 (622)"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "7.4 Filter Arrangement",
+          "table_title": "Manufacturer recommended high velocity filter sizes - Inch(mm)",
+          "source_quote": "17-1/2 (445) 16X25 (406X635)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Filter size (Bottom return)",
+      "value": "16X25 (406X635)",
+      "unit": "Inch(mm)",
+      "applies_to_models": [
+        "17-1/2 (445)"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "7.4 Filter Arrangement",
+          "table_title": "Manufacturer recommended high velocity filter sizes - Inch(mm)",
+          "source_quote": "17-1/2 (445) 16X25 (406X635)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Filter type",
+      "value": "High Velocity (600 FPM)",
+      "unit": null,
+      "applies_to_models": [
+        "17-1/2 (445)"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "7.4 Filter Arrangement",
+          "table_title": "Manufacturer recommended high velocity filter sizes - Inch(mm)",
+          "source_quote": "High Velocity (600 FPM)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Filter size (Bottom return)",
+      "value": "20X25 (508X635)",
+      "unit": "Inch(mm)",
+      "applies_to_models": [
+        "21 (533)"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "7.4 Filter Arrangement",
+          "table_title": "Manufacturer recommended high velocity filter sizes - Inch(mm)",
+          "source_quote": "21 (533) 20X25 (508X635)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Filter type",
+      "value": "High Velocity (600 FPM)",
+      "unit": null,
+      "applies_to_models": [
+        "21 (533)"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "7.4 Filter Arrangement",
+          "table_title": "Manufacturer recommended high velocity filter sizes - Inch(mm)",
+          "source_quote": "High Velocity (600 FPM)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Filter size (Bottom return)",
+      "value": "24X25 (610X635)",
+      "unit": "Inch(mm)",
+      "applies_to_models": [
+        "24.5 (622)"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "7.4 Filter Arrangement",
+          "table_title": "Manufacturer recommended high velocity filter sizes - Inch(mm)",
+          "source_quote": "24.5 (622) 24X25 (610X635)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Filter type",
+      "value": "High Velocity (600 FPM)",
+      "unit": null,
+      "applies_to_models": [
+        "24.5 (622)"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "7.4 Filter Arrangement",
+          "table_title": "Manufacturer recommended high velocity filter sizes - Inch(mm)",
+          "source_quote": "High Velocity (600 FPM)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Air delivery CFM (H-speed, 0.1 in. WC)",
+      "value": "1339",
+      "unit": "CFM",
+      "applies_to_models": [
+        "60B"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "60B H 0.1 1339"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery Temp Rise (1st stage, H-speed, 0.1 in. WC)",
+      "value": "37",
+      "unit": "°F",
+      "applies_to_models": [
+        "60B"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "60B H 0.1 ... 37"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery Temp Rise (2nd stage, H-speed, 0.1 in. WC)",
+      "value": "57",
+      "unit": "°F",
+      "applies_to_models": [
+        "60B"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "60B H 0.1 ... 57"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery CFM (Low-speed, 0.1 in. WC)",
+      "value": "553",
+      "unit": "CFM",
+      "applies_to_models": [
+        "60B"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "60B Low 0.1 553"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery Temp Rise (1st stage, Low-speed, 0.1 in. WC)",
+      "value": "58.1",
+      "unit": "°F",
+      "applies_to_models": [
+        "60B"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "60B Low 0.1 ... 58.1"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery CFM (H-speed, 0.1 in. WC)",
+      "value": "1926",
+      "unit": "CFM",
+      "applies_to_models": [
+        "120D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "120D H 0.1 1926"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery Temp Rise (1st stage, H-speed, 0.1 in. WC)",
+      "value": "51.8",
+      "unit": "°F",
+      "applies_to_models": [
+        "120D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "120D H 0.1 ... 51.8"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery Temp Rise (2nd stage, H-speed, 0.1 in. WC)",
+      "value": "51.7",
+      "unit": "°F",
+      "applies_to_models": [
+        "120D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "120D H 0.1 ... 51.7"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery CFM (Low-speed, 0.1 in. WC)",
+      "value": "1165",
+      "unit": "CFM",
+      "applies_to_models": [
+        "120D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "120D Low 0.1 1165"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery Temp Rise (1st stage, Low-speed, 0.1 in. WC)",
+      "value": "59.5",
+      "unit": "°F",
+      "applies_to_models": [
+        "120D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "120D Low 0.1 ... 59.5"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery CFM (H-speed, 0.1 in. WC)",
+      "value": "1752",
+      "unit": "CFM",
+      "applies_to_models": [
+        "100C"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100C H 0.1 1752"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery Temp Rise (1st stage, H-speed, 0.1 in. WC)",
+      "value": "47.5",
+      "unit": "°F",
+      "applies_to_models": [
+        "100C"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100C H 0.1 ... 47.5"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery Temp Rise (2nd stage, H-speed, 0.1 in. WC)",
+      "value": "47.3",
+      "unit": "°F",
+      "applies_to_models": [
+        "100C"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100C H 0.1 ... 47.3"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery CFM (Low-speed, 0.1 in. WC)",
+      "value": "994",
+      "unit": "CFM",
+      "applies_to_models": [
+        "100C"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100C Low 0.1 994"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery Temp Rise (1st stage, Low-speed, 0.1 in. WC)",
+      "value": "58.1",
+      "unit": "°F",
+      "applies_to_models": [
+        "100C"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100C Low 0.1 ... 58.1"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery CFM (H-speed, 0.1 in. WC)",
+      "value": "1926",
+      "unit": "CFM",
+      "applies_to_models": [
+        "100D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100D H 0.1 1926"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery Temp Rise (1st stage, H-speed, 0.1 in. WC)",
+      "value": "43.2",
+      "unit": "°F",
+      "applies_to_models": [
+        "100D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100D H 0.1 ... 43.2"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery Temp Rise (2nd stage, H-speed, 0.1 in. WC)",
+      "value": "43.3",
+      "unit": "°F",
+      "applies_to_models": [
+        "100D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100D H 0.1 ... 43.3"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery CFM (Low-speed, 0.1 in. WC)",
+      "value": "1163",
+      "unit": "CFM",
+      "applies_to_models": [
+        "100D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100D Low 0.1 1163"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Air delivery Temp Rise (1st stage, Low-speed, 0.1 in. WC)",
+      "value": "49.7",
+      "unit": "°F",
+      "applies_to_models": [
+        "100D"
+      ],
+      "category": "airflow",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": null,
+          "table_title": "Air delivery - CFM (without filter)",
+          "source_quote": "100D Low 0.1 ... 49.7"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "parameter": "Fan Speed Setting (H-heat)",
+      "value": "4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "blower",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "7.6 Blower Fan Speed Adjustment",
+          "table_title": "Selectable Fan Speeds",
+          "source_quote": "OFF OFF OFF 4 2 2 2"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Fan Speed Setting (L-heat)",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "blower",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "7.6 Blower Fan Speed Adjustment",
+          "table_title": "Selectable Fan Speeds",
+          "source_quote": "OFF OFF OFF 4 2 2 2"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Fan Speed Setting (H-cool)",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "blower",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "7.6 Blower Fan Speed Adjustment",
+          "table_title": "Selectable Fan Speeds",
+          "source_quote": "OFF OFF OFF 4 2 2 2"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Fan Speed Setting (L-cool)",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "blower",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "7.6 Blower Fan Speed Adjustment",
+          "table_title": "Selectable Fan Speeds",
+          "source_quote": "OFF OFF OFF 4 2 2 2"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Factory default blower speed (HI COOL)",
+      "value": "High(5)",
+      "unit": null,
+      "applies_to_models": [
+        "60B"
+      ],
+      "category": "blower",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Factory default blower speed",
+          "source_quote": "60B High(5) Mid(3) Mid-H(4) Mid(3)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Factory default blower speed (LOW COOL)",
+      "value": "Mid(3)",
+      "unit": null,
+      "applies_to_models": [
+        "60B"
+      ],
+      "category": "blower",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Factory default blower speed",
+          "source_quote": "60B High(5) Mid(3) Mid-H(4) Mid(3)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Factory default blower speed (HI HEAT)",
+      "value": "Mid-H(4)",
+      "unit": null,
+      "applies_to_models": [
+        "60B"
+      ],
+      "category": "blower",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Factory default blower speed",
+          "source_quote": "60B High(5) Mid(3) Mid-H(4) Mid(3)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Factory default blower speed (LOW HEAT)",
+      "value": "Mid(3)",
+      "unit": null,
+      "applies_to_models": [
+        "60B"
+      ],
+      "category": "blower",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Factory default blower speed",
+          "source_quote": "60B High(5) Mid(3) Mid-H(4) Mid(3)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat OFF delay (default)",
+      "value": "90",
+      "unit": "SECONDS",
+      "applies_to_models": [],
+      "category": "control",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Heat OFF delay",
+          "source_quote": "*OFF OFF 90"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Cool OFF delay (default)",
+      "value": "60",
+      "unit": "SECONDS",
+      "applies_to_models": [],
+      "category": "control",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Cool OFF delay",
+          "source_quote": "*OFF OFF 60"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum distance between two direct vent furnaces",
+      "value": "8",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "8.1 Combustion Air and Vent Safety",
+          "table_title": null,
+          "source_quote": "When two or more direct vent furnaces are vented near each other, each furnace must be individually vented. A minimum distance of 8 inches MUST be maintained."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum vent length",
+      "value": "5",
+      "unit": "feet",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "8.2 Combustion Air/Vent Pipe Sizing",
+          "table_title": null,
+          "source_quote": "Minimum vent length for all models is 5 feet."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Equivalent Pipe Length",
+      "value": "40",
+      "unit": "ft (m)",
+      "applies_to_models": [
+        "60 (17.6)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Maximum equivalent pipe length",
+          "source_quote": "60 (17.6) 2 (5.1) 40 (12.1)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Equivalent Pipe Length",
+      "value": "90",
+      "unit": "ft (m)",
+      "applies_to_models": [
+        "60 (17.6)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Maximum equivalent pipe length",
+          "source_quote": "60 (17.6) 3 (7.6) 90 (27.4)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Equivalent Pipe Length",
+      "value": "N/A",
+      "unit": null,
+      "applies_to_models": [
+        "80 (23.4)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Maximum equivalent pipe length",
+          "source_quote": "80 (23.4) 2 (5.1) N/A"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Equivalent Pipe Length",
+      "value": "90",
+      "unit": "ft (m)",
+      "applies_to_models": [
+        "80 (23.4)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Maximum equivalent pipe length",
+          "source_quote": "80 (23.4) 3 (7.6) 90 (27.4)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Equivalent Pipe Length",
+      "value": "30",
+      "unit": "ft (m)",
+      "applies_to_models": [
+        "100 (29.3)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Maximum equivalent pipe length",
+          "source_quote": "100 (29.3) 2 (5.1) 30 (9.1)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Equivalent Pipe Length",
+      "value": "70",
+      "unit": "ft (m)",
+      "applies_to_models": [
+        "100 (29.3)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Maximum equivalent pipe length",
+          "source_quote": "100 (29.3) 3 (7.6) 70 (21.3)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Equivalent Pipe Length",
+      "value": "N/A",
+      "unit": null,
+      "applies_to_models": [
+        "120 (35.1)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Maximum equivalent pipe length",
+          "source_quote": "120 (35.1) 2 (5.1) N/A"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Equivalent Pipe Length",
+      "value": "50",
+      "unit": "ft (m)",
+      "applies_to_models": [
+        "120 (35.1)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Maximum equivalent pipe length",
+          "source_quote": "120 (35.1) 3 (7.6) 50 (15.2)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Elbow 'A' Dimension (2\" Standard)",
+      "value": "2-5/16\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Elbow dimensions",
+          "source_quote": "2\" Standard 2-5/16\""
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Elbow 'A' Dimension (3\" Standard)",
+      "value": "3-1/16\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Elbow dimensions",
+          "source_quote": "3\" Standard 3-1/16\""
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Elbow 'A' Dimension (2\" Sweep)",
+      "value": "3-1/4\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Elbow dimensions",
+          "source_quote": "2\" Sweep 3-1/4\""
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Elbow 'A' Dimension (3\" Sweep)",
+      "value": "4-1/16\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Elbow dimensions",
+          "source_quote": "3\" Sweep 4-1/16\""
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent Length (2\" 90° sweep elbow)",
+      "value": "5 feet of 2\" pipe",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Equivalent length of fittings",
+          "source_quote": "2\" 90° sweep elbow 5 feet of 2\" pipe"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent Length (2\" 45° sweep elbow)",
+      "value": "2-1/2 feet of 2\" pipe",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Equivalent length of fittings",
+          "source_quote": "2\" 45° sweep elbow 2-1/2 feet of 2\" pipe"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent Length (2\" 90° standard elbow)",
+      "value": "10 feet of 2\" pipe",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Equivalent length of fittings",
+          "source_quote": "2\" 90° standard elbow 10 feet of 2\" pipe"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent Length (2\" 45º standard elbow)",
+      "value": "5 feet of 2\" pipe",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Equivalent length of fittings",
+          "source_quote": "2\" 45º standard elbow 5 feet of 2\" pipe"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent Length (3\" 90° sweep elbow)",
+      "value": "5 feet of 3\" pipe",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Equivalent length of fittings",
+          "source_quote": "3\" 90° sweep elbow 5 feet of 3\" pipe"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent Length (3\" 45º sweep elbow)",
+      "value": "2-1/2 feet of 3\" pipe",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Equivalent length of fittings",
+          "source_quote": "3\" 45º sweep elbow 2-1/2 feet of 3\" pipe"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent Length (3\" 90° standard elbow)",
+      "value": "10 feet of 3\" pipe",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Equivalent length of fittings",
+          "source_quote": "3\" 90° standard elbow 10 feet of 3\" pipe"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent Length (3\" 45º standard elbow)",
+      "value": "5 feet of 3\" pipe",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Equivalent length of fittings",
+          "source_quote": "3\" 45º standard elbow 5 feet of 3\" pipe"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent Length (2\" corrugated connector)",
+      "value": "10 feet of 2\" pipe",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Equivalent length of fittings",
+          "source_quote": "2\" corrugated connector 10 feet of 2\" pipe"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent Length (3\" corrugated connector)",
+      "value": "10 feet of 3\" pipe",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Equivalent length of fittings",
+          "source_quote": "3\" corrugated connector 10 feet of 3\" pipe"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion air intake connection size (all models)",
+      "value": "2\" (5.1)",
+      "unit": "Inches (cm)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Combustion air intake & vent connection size (all models)",
+          "source_quote": "Intake Pipe 2\" (5.1)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Vent pipe connection size (all models)",
+      "value": "2\" (5.1)",
+      "unit": "Inches (cm)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": null,
+          "table_title": "Combustion air intake & vent connection size (all models)",
+          "source_quote": "Vent Pipe 2\" (5.1)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion air and vent piping slope",
+      "value": "1/4\" per foot (21 mm/m)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "8.3 Combustion Air And Vent Piping Assembly",
+          "table_title": null,
+          "source_quote": "Support the combustion air and vent piping such that it is angled a minimum of 1/4\" per foot (21 mm/m) so that condensate will flow back towards the furnace."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (US) - Above grade, veranda, porch, deck, or balcony",
+      "value": "12\" (30.5 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "A. Vent terminal above grade, veranda, porch, deck, or balcony 12\" (30.5 cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (Canada) - Above grade, veranda, porch, deck, or balcony",
+      "value": "12\" (30.5 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "A. Vent terminal above grade, veranda, porch, deck, or balcony 12\" (30.5 cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (US) - Clearance to window or door that may be opened (<100,000 BTUH)",
+      "value": "12\" (30.5 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "B. Clearance to window or door that may be opened 12\" (30.5 cm) for models < 100,000 BTUH (30 kW)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (US) - Clearance to window or door that may be opened (>100,000 BTUH)",
+      "value": "36\" (91 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "B. Clearance to window or door that may be opened ... 36\" (91 cm) for models > 100,000 BTUH (30 kW)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (Canada) - Clearance to window or door that may be opened (<50,000 BTUH)",
+      "value": "9\" (23 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "B. Clearance to window or door that may be opened ... 9\" (23 cm) for models <50,000 BTUH (15 kW)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (Canada) - Clearance to window or door that may be opened (>50,000 BTUH)",
+      "value": "12\" (30.5 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "B. Clearance to window or door that may be opened ... 12\" (30.5 cm) for models >50,000 BTUH (15 kW)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (Canada) - Single-pipe applications",
+      "value": "4 feet (1.2 m)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "B. Clearance to window or door that may be opened ... Single-pipe applications: 4 feet (1.2 m)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (US) - Clearance to permanently closed window",
+      "value": "12\" (30.5 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "C. Clearance to permanently closed window 12\" (30.5 cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (Canada) - Clearance to permanently closed window",
+      "value": "12\" (30.5 cm) or in accordance with local installation codes and the requirements of the gas supplier",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "C. Clearance to permanently closed window ... 12\" (30.5 cm) or in accordance with local installation codes and the requirements of the gas supplier"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (US) - Vertical clearance to ventilated soffit located above the terminal within 2 feet (61 cm) horizontally from the terminal",
+      "value": "12\" (30.5 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "D. Vertical clearance to ventilated soffit located above the terminal within 2 feet (61 cm) horizontally from the terminal. For terminals located in Canada the termination vents need a distance of 2 feet (61 cm) from the center line of the terminal 12\" (30.5 cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (Canada) - Vertical clearance to ventilated soffit located above the terminal within 2 feet (61 cm) horizontally from the terminal",
+      "value": "12\" (30.5 cm) or in accordance with local installation codes and the requirements of the gas supplier",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "D. Vertical clearance to ventilated soffit located above the terminal within 2 feet (61 cm) horizontally from the terminal. For terminals located in Canada the termination vents need a distance of 2 feet (61 cm) from the center line of the terminal ... 12\" (30.5 cm) or in accordance with local installation codes and the requirements of the gas supplier"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (US) - Clearance to unventilated soffit",
+      "value": "12\" (30.5 cm) or in accordance with local installation codes and the requirements of the gas supplier",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "E. Clearance to unventilated soffit 12\" (30.5 cm) or in accordance with local installation codes and the requirements of the gas supplier"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (Canada) - Clearance to unventilated soffit",
+      "value": "12\" (30.5 cm) or in accordance with local installation codes and the requirements of the gas supplier",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "E. Clearance to unventilated soffit ... 12\" (30.5 cm) or in accordance with local installation codes and the requirements of the gas supplier"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (US) - Clearance to outside corner",
+      "value": "12\" (30.5 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "F. Clearance to outside corner 12\" (30.5 cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (Canada) - Clearance to outside corner",
+      "value": "12\" (30.5 cm) or in accordance with local installation codes and the requirements of the gas supplier",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "F. Clearance to outside corner ... 12\" (30.5 cm) or in accordance with local installation codes and the requirements of the gas supplier"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (US) - Clearance to inside corner",
+      "value": "36\" (91.4 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "G. Clearance to inside corner 36\" (91.4 cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (Canada) - Clearance to inside corner",
+      "value": "36\" (91.4 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "G. Clearance to inside corner ... 36\" (91.4 cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (US) - Clearance to nonmechanical air supply inlet to building or the combustion air inlet to any other appliance (<100,000 BTUH)",
+      "value": "12\" (30.5 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "J. Clearance to nonmechanical air supply inlet to building or the combustion air inlet to any other appliance 12\" (30.5 cm) for models < 100,000 BTUH (30 kW)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (US) - Clearance to nonmechanical air supply inlet to building or the combustion air inlet to any other appliance (>100,000 BTUH)",
+      "value": "36\" (91.4 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "J. Clearance to nonmechanical air supply inlet to building or the combustion air inlet to any other appliance ... 36\" (91.4 cm) for models > 100,000 BTUH (30 kW)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (Canada) - Clearance to nonmechanical air supply inlet to building or the combustion air inlet to any other appliance (<50,000 BTUH)",
+      "value": "9\" (23 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "J. Clearance to nonmechanical air supply inlet to building or the combustion air inlet to any other appliance ... 9\" (23 cm) for models <50,000 BTUH (15 kW)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (Canada) - Clearance to nonmechanical air supply inlet to building or the combustion air inlet to any other appliance (>50,000 BTUH)",
+      "value": "12\" (30.5 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "J. Clearance to nonmechanical air supply inlet to building or the combustion air inlet to any other appliance ... 12\" (30.5 cm) for models >50,000 BTUH (15 kW)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (Canada) - Single-pipe applications",
+      "value": "4 feet (1.2 m)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "J. Clearance to nonmechanical air supply inlet to building or the combustion air inlet to any other appliance ... Single-pipe applications: 4 feet (1.2 m)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (US) - Clearance to a mechanical supply inlet",
+      "value": "6 feet (1.83 m)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "K. Clearance to a mechanical supply inlet 6 feet (1.83 m)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (Canada) - Clearance to a mechanical supply inlet",
+      "value": "3 feet (91.4 cm) above if within 10 feet (3 m) horizontally",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "K. Clearance to a mechanical supply inlet ... 3 feet (91.4 cm) above if within 10 feet (3 m) horizontally."
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (US) - Clearance above paved sidewalk or paved driveway",
+      "value": "7 feet (2.13 m)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "L. Clearance above paved sidewalk or paved driveway 7 feet (2.13 m)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (Canada) - Clearance above paved sidewalk or paved driveway",
+      "value": "7 feet (2.13 m) or in accordance with local installation codes and the requirements of the gas supplier",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "L. Clearance above paved sidewalk or paved driveway ... 7 feet (2.13 m) or in accordance with local installation codes and the requirements of the gas supplier."
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (US) - Clearance under veranda, porch, deck, or balcony",
+      "value": "12\" (30.5 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "M. Clearance under veranda, porch, deck, or balcony 12\" (30.5 cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Direct Vent Terminal Clearances (Canada) - Clearance under veranda, porch, deck, or balcony",
+      "value": "12\" (30.5 cm) or in accordance with local installation codes and the requirements of the gas supplier",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Direct Vent Terminal Clearances",
+          "source_quote": "M. Clearance under veranda, porch, deck, or balcony ... 12\" (30.5 cm) or in accordance with local installation codes and the requirements of the gas supplier."
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance above highest anticipated snow level (2-pipe)",
+      "value": "12",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "8.5 Vent System",
+          "table_title": null,
+          "source_quote": "Maintain 12\" minimum clearance above highest anticipated snow level."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Vertical separation between combustion air intake and vent (2-pipe)",
+      "value": "12",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "8.5 Vent System",
+          "table_title": null,
+          "source_quote": "12\" vertical separation between combustion air intake and vent."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum below overhang (2-pipe)",
+      "value": "12",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "8.5 Vent System",
+          "table_title": null,
+          "source_quote": "12\" minimum below overhang"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum separation between bottom of combustion air pipe and bottom of vent (2-pipe)",
+      "value": "12",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "8.5 Vent System",
+          "table_title": null,
+          "source_quote": "12\" minimum separation between bottom of combustion air pipe and bottom of vent."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance above highest anticipated snow level or grade (2-pipe)",
+      "value": "12",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "8.5 Vent System",
+          "table_title": null,
+          "source_quote": "Maintain 12\" minimum clearance above highest anticipated snow level or grade, whichever is higher."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance above highest anticipated snow level (1-pipe)",
+      "value": "12",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "8.5 Vent System",
+          "table_title": null,
+          "source_quote": "Maintain 12\" minimum clearance above highest anticipated snow level."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum allowed pipe above roof and sidewall (1-pipe)",
+      "value": "24",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "8.5 Vent System",
+          "table_title": null,
+          "source_quote": "Maximum allowed pipe is 24\" above roof and side wall."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum distance between termination vents (US)",
+      "value": "12",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "8.5.1 Concentric Vent Termination Kit",
+          "table_title": null,
+          "source_quote": "When installing two or more Furnaces in the U.S, the termination vents must be a min. distance of 12\" between termination vents."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum distance between termination vents (Canada, <100,000 BTU/h)",
+      "value": "12",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "8.5.1 Concentric Vent Termination Kit",
+          "table_title": null,
+          "source_quote": "For Furnaces installed in Canada the termination vents need a distance of 12\" if capacity is less than 100,000 BTU/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum distance between termination vents (Canada, >100,000 BTU/h)",
+      "value": "36",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "8.5.1 Concentric Vent Termination Kit",
+          "table_title": null,
+          "source_quote": "and 36\" for furnaces with more than 100,000 BTU/h."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Concentric Vent Kit (US)",
+      "value": "CVENT-2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "8.5.1 Concentric Vent Termination Kit",
+          "table_title": "Concentric vent kits for U.S.",
+          "source_quote": "DiversiTech CVENT-2 2\" x 35\" Concentric Vent US"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Concentric Vent Kit (US)",
+      "value": "CVENT-3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "8.5.1 Concentric Vent Termination Kit",
+          "table_title": "Concentric vent kits for U.S.",
+          "source_quote": "DiversiTech CVENT-3 3\" x 39\" Concentric Vent US"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Concentric Vent Kit (US)",
+      "value": "397005",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "8.5.1 Concentric Vent Termination Kit",
+          "table_title": "Concentric vent kits for U.S.",
+          "source_quote": "IPEX 397005 2\" x 16\" Concentric Vent US"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Concentric Vent Kit (US)",
+      "value": "397105",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "8.5.1 Concentric Vent Termination Kit",
+          "table_title": "Concentric vent kits for U.S.",
+          "source_quote": "IPEX 397105 2\" x 28\" Concentric Vent US"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Concentric Vent Kit (US)",
+      "value": "397125",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "8.5.1 Concentric Vent Termination Kit",
+          "table_title": "Concentric vent kits for U.S.",
+          "source_quote": "IPEX 397125 2\" x 40\" Concentric Vent US"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Concentric Vent Kit (US)",
+      "value": "397006",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "8.5.1 Concentric Vent Termination Kit",
+          "table_title": "Concentric vent kits for U.S.",
+          "source_quote": "IPEX 397006 3\" x 20\" Concentric Vent US"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Concentric Vent Kit (US)",
+      "value": "397106",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "8.5.1 Concentric Vent Termination Kit",
+          "table_title": "Concentric vent kits for U.S.",
+          "source_quote": "IPEX 397106 3\" x 32\" Concentric Vent US"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Concentric Vent Kit (US)",
+      "value": "397116",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "8.5.1 Concentric Vent Termination Kit",
+          "table_title": "Concentric vent kits for U.S.",
+          "source_quote": "IPEX 397116 3\" x 44\" Concentric Vent US"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Concentric Vent Kit (CAN)",
+      "value": "CVENT-2CA",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "8.5.1 Concentric Vent Termination Kit",
+          "table_title": "Concentric vent kits for Canada",
+          "source_quote": "DiversiTech CVENT-2CA 2\" x 35\" Concentric Vent CAN"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Concentric Vent Kit (CAN)",
+      "value": "CVENT-3CA",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "8.5.1 Concentric Vent Termination Kit",
+          "table_title": "Concentric vent kits for Canada",
+          "source_quote": "DiversiTech CVENT-3CA 3\" x 39\" Concentric Vent CAN"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Concentric Vent Kit (CAN)",
+      "value": "196005",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "8.5.1 Concentric Vent Termination Kit",
+          "table_title": "Concentric vent kits for Canada",
+          "source_quote": "IPEX 196005 2\" x 16\" Concentric Vent CAN"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Concentric Vent Kit (CAN)",
+      "value": "196105",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "8.5.1 Concentric Vent Termination Kit",
+          "table_title": "Concentric vent kits for Canada",
+          "source_quote": "IPEX 196105 2\" x 28\" Concentric Vent CAN"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Roof termination clearance (Min. above roof or highest anticipated snow level)",
+      "value": "12",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "Roof Termination",
+          "table_title": null,
+          "source_quote": "Maintain 12\" (18\" for Canada) Min. clearance above roof or highest anticipated snow level"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Roof termination clearance (Min. above roof or highest anticipated snow level, Canada)",
+      "value": "18",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "Roof Termination",
+          "table_title": null,
+          "source_quote": "Maintain 12\" (18\" for Canada) Min. clearance above roof or highest anticipated snow level"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Roof termination clearance (Max. above roof)",
+      "value": "24",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "Roof Termination",
+          "table_title": null,
+          "source_quote": "Max. 24\" above roof"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Equivalent Pipe Length for Concentric Vent Termination Kit",
+      "value": "65",
+      "unit": "feet (m)",
+      "applies_to_models": [
+        "60 (17.6)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": "Maximum Equivalent Pipe Length",
+          "table_title": "Maximum equivalent pipe length for Concentric Vent Termination Kit",
+          "source_quote": "60 (17.6) 2 (5.1) 65 (19.8)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Equivalent Pipe Length for Concentric Vent Termination Kit",
+      "value": "90",
+      "unit": "feet (m)",
+      "applies_to_models": [
+        "60 (17.6)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": "Maximum Equivalent Pipe Length",
+          "table_title": "Maximum equivalent pipe length for Concentric Vent Termination Kit",
+          "source_quote": "60 (17.6) 3 (7.6) 90 (27.4)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Equivalent Pipe Length for Concentric Vent Termination Kit",
+      "value": "40",
+      "unit": "feet (m)",
+      "applies_to_models": [
+        "80 (23.4)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": "Maximum Equivalent Pipe Length",
+          "table_title": "Maximum equivalent pipe length for Concentric Vent Termination Kit",
+          "source_quote": "80 (23.4) 2 (5.1) 40 (12.1)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Equivalent Pipe Length for Concentric Vent Termination Kit",
+      "value": "70",
+      "unit": "feet (m)",
+      "applies_to_models": [
+        "80 (23.4)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": "Maximum Equivalent Pipe Length",
+          "table_title": "Maximum equivalent pipe length for Concentric Vent Termination Kit",
+          "source_quote": "80 (23.4) 3 (7.6) 70 (21.3)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Equivalent Pipe Length for Concentric Vent Termination Kit",
+      "value": "N/A",
+      "unit": null,
+      "applies_to_models": [
+        "100 (29.3)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": "Maximum Equivalent Pipe Length",
+          "table_title": "Maximum equivalent pipe length for Concentric Vent Termination Kit",
+          "source_quote": "100 (29.3) 2 (5.1) N/A"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Equivalent Pipe Length for Concentric Vent Termination Kit",
+      "value": "70",
+      "unit": "feet (m)",
+      "applies_to_models": [
+        "100 (29.3)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": "Maximum Equivalent Pipe Length",
+          "table_title": "Maximum equivalent pipe length for Concentric Vent Termination Kit",
+          "source_quote": "100 (29.3) 3 (7.6) 70 (21.3)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Equivalent Pipe Length for Concentric Vent Termination Kit",
+      "value": "N/A",
+      "unit": null,
+      "applies_to_models": [
+        "120 (35.1)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": "Maximum Equivalent Pipe Length",
+          "table_title": "Maximum equivalent pipe length for Concentric Vent Termination Kit",
+          "source_quote": "120 (35.1) 2 (5.1) N/A"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Equivalent Pipe Length for Concentric Vent Termination Kit",
+      "value": "60",
+      "unit": "feet (m)",
+      "applies_to_models": [
+        "120 (35.1)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": "Maximum Equivalent Pipe Length",
+          "table_title": "Maximum equivalent pipe length for Concentric Vent Termination Kit",
+          "source_quote": "120 (35.1) 3 (7.6) 60 (18.2)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Multiventing Terminations Minimum Distance",
+      "value": "8",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": "Multiventing Terminations",
+          "table_title": null,
+          "source_quote": "When two or more direct vent furnaces are vented near each other, each furnace must be individually vented. A minimum distance of 8 inches MUST be maintained."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Piping and Fittings Specifications (Schedule 40 PVC (Pipe))",
+      "value": "D1785",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "Schedule 40 PVC (Pipe) D1785"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Piping and Fittings Specifications (Schedule 40 PVC (Cellular Core Pipe))",
+      "value": "F891",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "Schedule 40 PVC (Cellular Core Pipe F891"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Piping and Fittings Specifications (Schedule 40 PVC (Fittings))",
+      "value": "D2466",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "Schedule 40 PVC (Fittings) D2466"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Piping and Fittings Specifications (Schedule 40 CPVC (Pipe))",
+      "value": "F441",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "Schedule 40 CPVC (Pipe) F441"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Piping and Fittings Specifications (Schedule 40 CPVC (Fittings))",
+      "value": "F438",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "Schedule 40 CPVC (Fittings) F438"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Piping and Fittings Specifications (SDR-21 PVC or SDR-26 PVC (Pipe))",
+      "value": "D2241",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "SDR-21 PVC or SDR-26 PVC (Pipe) D2241"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Piping and Fittings Specifications (SDR-21 CPVC or SDR-26 CPVC (Pipe))",
+      "value": "F442",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "SDR-21 CPVC or SDR-26 CPVC (Pipe) F442"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Piping and Fittings Specifications (Schedule 40 ABS Cellular Core DWV (Pipe))",
+      "value": "F628",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "Schedule 40 ABS Cellular Core DWV (Pipe) F628"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Piping and Fittings Specifications (Schedule 40 ABS (Pipe))",
+      "value": "D1527",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "Schedule 40 ABS (Pipe) D1527"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Piping and Fittings Specifications (Schedule 40 ABS (Fittings))",
+      "value": "D2468",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "Schedule 40 ABS (Fittings) D2468"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Piping and Fittings Specifications (ABS-DWV (Drain Waste & Vent) (Pipe & Fittings))",
+      "value": "D2661",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "ABS-DWV (Drain Waste & Vent) (Pipe & Fittings) D2661"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Piping and Fittings Specifications (PVC-DWV (Drain Waste & Vent) Pipe & Fittings))",
+      "value": "D2665",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "PVC-DWV (Drain Waste & Vent) Pipe & Fittings) D2665"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Primer & Solvent Cement (PVC & CPVC Primer)",
+      "value": "F656",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "PVC & CPVC Primer F656"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Primer & Solvent Cement (PVC Solvent Cement)",
+      "value": "D2564",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "PVC Solvent Cement D2564"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Primer & Solvent Cement (CPVC Solvent Cement)",
+      "value": "F493",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "CPVC Solvent Cement F493"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Primer & Solvent Cement (ABS Solvent Cement)",
+      "value": "D2235",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "ABS Solvent Cement D2235"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Primer & Solvent Cement (PVC/CPVC/ABS All Purpose Cement For Fittings & Pipe of the same material)",
+      "value": "D2564, D2235, F493",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "PVC/CPVC/ABS All Purpose Cement For Fittings & Pipe of the same material D2564, D2235, F493"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Primer & Solvent Cement (ABS to PVC or CPVC Transition Solvent Cement)",
+      "value": "D3188",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "ABS to PVC or CPVC Transition Solvent Cement D3188"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Primer & Solvent Cement (CANADA PIPE & FITTING & SOLVENT CEMENT)",
+      "value": "MARKING",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "CANADA PIPE & FITTING & SOLVENT CEMENT MARKING"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Primer & Solvent Cement (PVC & CPVC Pipe and Fittings)",
+      "value": "ULCS636",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "PVC & CPVC Pipe and Fittings ULCS636"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Primer & Solvent Cement (PVC & CPVC Solvent Cement)",
+      "value": "ULCS636",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "PVC & CPVC Solvent Cement ULCS636"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Primer & Solvent Cement (ABS to PVC or CPVC Transition Cement)",
+      "value": "ULCS636",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Pipe & Fittings Specifications",
+          "table_title": "Piping and fittings specifications",
+          "source_quote": "ABS to PVC or CPVC Transition Cement ULCS636"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flush mount kit (US)",
+      "value": "HVENT-2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": null,
+          "table_title": "Flush mount kit for U.S.",
+          "source_quote": "DiversiTech HVENT-2 2\" Dia. Horizontal Termination Kit US"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flush mount kit (US)",
+      "value": "HVENT-3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": null,
+          "table_title": "Flush mount kit for U.S.",
+          "source_quote": "DiversiTech HVENT-3 3\" Dia. Horizontal Termination Kit US"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flush mount kit (US)",
+      "value": "397984",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": null,
+          "table_title": "Flush mount kit for U.S.",
+          "source_quote": "IPEX 397984 2\" Dia. Low Profile Termination Kit US"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flush mount kit (US)",
+      "value": "397985",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": null,
+          "table_title": "Flush mount kit for U.S.",
+          "source_quote": "IPEX 397985 3\" Dia. Low Profile Termination Kit US"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flush mount kit (CAN)",
+      "value": "CVENT-2CA",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": null,
+          "table_title": "Flush mount kits for Canada",
+          "source_quote": "DiversiTech CVENT-2CA 2\" x 35\" Concentric Vent CAN"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flush mount kit (CAN)",
+      "value": "CVENT-3CA",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": null,
+          "table_title": "Flush mount kits for Canada",
+          "source_quote": "DiversiTech CVENT-3CA 3\" x 39\" Concentric Vent CAN"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flush mount kit (CAN)",
+      "value": "196005",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": null,
+          "table_title": "Flush mount kits for Canada",
+          "source_quote": "IPEX 196005 2\" x 16\" Concentric Vent CAN"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flush mount kit (CAN)",
+      "value": "196105",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": null,
+          "table_title": "Flush mount kits for Canada",
+          "source_quote": "IPEX 196105 2\" x 28\" Concentric Vent CAN"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flush-Mount Termination Minimum above average snow accumulation",
+      "value": "18",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Minimum 18\" ... Minimum above average snow accumulation"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Free Area in Square Inch Required for Each Opening (60,000 BTUH Input Rating)",
+      "value": "60",
+      "unit": "sq.in (387 sq.cm)",
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": null,
+          "table_title": "Minimum Area in Square Inches Required for Each Opening",
+          "source_quote": "60,000 60 sq.in (387 sq.cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Free Area in Square Inch Required for Each Opening (80,000 BTUH Input Rating)",
+      "value": "80",
+      "unit": "sq.in (516 sq.cm)",
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": null,
+          "table_title": "Minimum Area in Square Inches Required for Each Opening",
+          "source_quote": "80,000 80 sq.in (516 sq.cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Free Area in Square Inch Required for Each Opening (100,000 BTUH Input Rating)",
+      "value": "100",
+      "unit": "sq.in (645 sq.cm)",
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": null,
+          "table_title": "Minimum Area in Square Inches Required for Each Opening",
+          "source_quote": "100,000 100 sq.in (645 sq.cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Free Area in Square Inch Required for Each Opening (120,000 BTUH Input Rating)",
+      "value": "120",
+      "unit": "sq.in (775 sq.cm)",
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": null,
+          "table_title": "Minimum Area in Square Inches Required for Each Opening",
+          "source_quote": "120,000 120 sq.in (775 sq.cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Free Area Required for Each Opening (Horizontal Duct, 60,000 BTUH Input Rating)",
+      "value": "30",
+      "unit": "sq.in (193 sq.cm)",
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": null,
+          "table_title": "Minimum Free Area Required for Each Opening",
+          "source_quote": "60,000 30 sq.in (193 sq.cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Free Area Required for Each Opening (Vertical Duct or Opening, 60,000 BTUH Input Rating)",
+      "value": "15",
+      "unit": "sq.in (97 sq.cm)",
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": null,
+          "table_title": "Minimum Free Area Required for Each Opening",
+          "source_quote": "60,000 ... 15 sq.in (97 sq.cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Free Area Required for Each Opening (Round Duct, 60,000 BTUH Input Rating)",
+      "value": "5\" (13 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": null,
+          "table_title": "Minimum Free Area Required for Each Opening",
+          "source_quote": "60,000 ... 5\" (13 cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Free Area Required for Each Opening (Horizontal Duct, 80,000 BTUH Input Rating)",
+      "value": "40",
+      "unit": "sq.in (258 sq.cm)",
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": null,
+          "table_title": "Minimum Free Area Required for Each Opening",
+          "source_quote": "80,000 40 sq.in (258 sq.cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Free Area Required for Each Opening (Vertical Duct or Opening, 80,000 BTUH Input Rating)",
+      "value": "20",
+      "unit": "sq.in (129 sq.cm)",
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": null,
+          "table_title": "Minimum Free Area Required for Each Opening",
+          "source_quote": "80,000 ... 20 sq.in (129 sq.cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Free Area Required for Each Opening (Round Duct, 80,000 BTUH Input Rating)",
+      "value": "5\" (13 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": null,
+          "table_title": "Minimum Free Area Required for Each Opening",
+          "source_quote": "80,000 ... 5\" (13 cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Free Area Required for Each Opening (Horizontal Duct, 100,000 BTUH Input Rating)",
+      "value": "50",
+      "unit": "sq.in (323 sq.cm)",
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": null,
+          "table_title": "Minimum Free Area Required for Each Opening",
+          "source_quote": "100,000 50 sq.in (323 sq.cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Free Area Required for Each Opening (Vertical Duct or Opening, 100,000 BTUH Input Rating)",
+      "value": "25",
+      "unit": "sq.in (161 sq.cm)",
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": null,
+          "table_title": "Minimum Free Area Required for Each Opening",
+          "source_quote": "100,000 ... 25 sq.in (161 sq.cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Free Area Required for Each Opening (Round Duct, 100,000 BTUH Input Rating)",
+      "value": "6\" (15 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": null,
+          "table_title": "Minimum Free Area Required for Each Opening",
+          "source_quote": "100,000 ... 6\" (15 cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Free Area Required for Each Opening (Horizontal Duct, 120,000 BTUH Input Rating)",
+      "value": "60",
+      "unit": "sq.in (387 sq.cm)",
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": null,
+          "table_title": "Minimum Free Area Required for Each Opening",
+          "source_quote": "120,000 60 sq.in (387 sq.cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Free Area Required for Each Opening (Vertical Duct or Opening, 120,000 BTUH Input Rating)",
+      "value": "30",
+      "unit": "sq.in (194 sq.cm)",
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": null,
+          "table_title": "Minimum Free Area Required for Each Opening",
+          "source_quote": "120,000 ... 30 sq.in (194 sq.cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Free Area Required for Each Opening (Round Duct, 120,000 BTUH Input Rating)",
+      "value": "7\" (18 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": null,
+          "table_title": "Minimum Free Area Required for Each Opening",
+          "source_quote": "120,000 ... 7\" (18 cm)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Estimated Free Area (Wood or Metal Louvers or Grilles)",
+      "value": "Wood 20-25%, Metal 60-70%",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "8.6.4 Ventilated Combustion Air",
+          "table_title": "Estimated Free Area",
+          "source_quote": "Wood or Metal Louvers or Grilles Wood 20-25%, Metal 60-70%"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Estimated Free Area (Screens)",
+      "value": "1/4\" mesh or larger 100%",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "combustion_air",
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "8.6.4 Ventilated Combustion Air",
+          "table_title": "Estimated Free Area",
+          "source_quote": "Screens 1/4\" mesh or larger 100%"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Inlet Gas Supply Pressure (Natural Gas) Minimum",
+      "value": "4.5",
+      "unit": "in. WC",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "9.1 General",
+          "table_title": "Inlet Gas Supply Pressure",
+          "source_quote": "Natural Gas Minimum: 4.5 in. WC"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Inlet Gas Supply Pressure (Natural Gas) Maximum",
+      "value": "10.5",
+      "unit": "in. WC",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "9.1 General",
+          "table_title": "Inlet Gas Supply Pressure",
+          "source_quote": "Natural Gas Maximum: 10.5 in. WC"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Inlet Gas Supply Pressure (Propane Gas) Minimum",
+      "value": "11.0",
+      "unit": "in. WC",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "9.1 General",
+          "table_title": "Inlet Gas Supply Pressure",
+          "source_quote": "Propane Gas Minimum: 11.0 in. WC"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Inlet Gas Supply Pressure (Propane Gas) Maximum",
+      "value": "13.0",
+      "unit": "in. WC",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "9.1 General",
+          "table_title": "Inlet Gas Supply Pressure",
+          "source_quote": "Propane Gas Maximum: 13.0 in. WC"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "High Altitude Derate",
+      "value": "4%",
+      "unit": "per 1000 feet",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "9.2 High Altitude Derate",
+          "table_title": null,
+          "source_quote": "a standard derate for altitude from National Fuel Gas Code ANSI Z223.1 of 4% per 1000 feet above sea level may be taken."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Canada High Altitude Derate (2000-4500 ft)",
+      "value": "10%",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "9.2 High Altitude Derate",
+          "table_title": null,
+          "source_quote": "In Canada, the input rating must be derated by 10 percent for altitudes of 2,000 ft. to 4,500 ft. above sea level"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Canada High Altitude Derate (>4500 ft)",
+      "value": "4%",
+      "unit": "per 1000 ft",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "9.2 High Altitude Derate",
+          "table_title": null,
+          "source_quote": "When an appliance is installed at elevations above 4500 ft, the certified high-altitude input rating shall be reduced at the rate of 4% for each additional 1000 ft."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "extraction_meta": {
+    "review_required": true,
+    "extraction_notes": [
+      "Original Gemini response was malformed JSON and was repaired by the pipeline."
+    ]
+  }
+}
