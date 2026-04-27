@@ -92,6 +92,7 @@ apps/data-pipeline/.env
 data-pipeline/raw_pdfs/
 apps/data-pipeline/raw_pdfs/
 apps/data-pipeline/notes/
+apps/data-pipeline/output_json/_debug/
 
 
 # TODO: migrate raw_pdfs to Git LFS when volume grows
