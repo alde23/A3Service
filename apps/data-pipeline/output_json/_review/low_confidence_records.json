@@ -1,0 +1,406 @@
+[
+  {
+    "section": "fault_codes",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "FE",
+      "description": "Gas valve not working",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "not working"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": null,
+          "table_title": "Error code Fault description",
+          "source_quote": "FE Gas valve not working"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "FS",
+      "description": "Induced draft blower not working",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Induced draft blower"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "induced draft blower",
+        "blower",
+        "not working"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": null,
+          "table_title": "Error code Fault description",
+          "source_quote": "FS Induced draft blower not working"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "FT",
+      "description": "Indoor blower not working",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Indoor blower"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "indoor blower",
+        "blower",
+        "not working"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": null,
+          "table_title": "Error code Fault description",
+          "source_quote": "FT Indoor blower not working"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "FU",
+      "description": "Gas valve relay stuck closed",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve relay"
+      ],
+      "severity": "critical",
+      "safety_level": "danger",
+      "search_tags": [
+        "gas valve",
+        "relay",
+        "stuck closed"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": null,
+          "table_title": "Error code Fault description",
+          "source_quote": "FU Gas valve relay stuck closed"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "FV",
+      "description": "Gas valve relay stuck open",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve relay"
+      ],
+      "severity": "critical",
+      "safety_level": "danger",
+      "search_tags": [
+        "gas valve",
+        "relay",
+        "stuck open"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": null,
+          "table_title": "Error code Fault description",
+          "source_quote": "FV Gas valve relay stuck open"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "FW",
+      "description": "Fan speed error",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Fan"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan",
+        "speed",
+        "error"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": null,
+          "table_title": "Error code Fault description",
+          "source_quote": "FW Fan speed error"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "FX",
+      "description": "IPM over temperature protection",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "IPM module"
+      ],
+      "severity": "high",
+      "safety_level": "warning",
+      "search_tags": [
+        "IPM",
+        "temperature",
+        "overheat",
+        "protection"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": null,
+          "table_title": "Error code Fault description",
+          "source_quote": "FX IPM over temperature protection"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "FY",
+      "description": "IPM communication error",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "IPM module"
+      ],
+      "severity": "high",
+      "safety_level": "warning",
+      "search_tags": [
+        "IPM",
+        "communication",
+        "error"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": null,
+          "table_title": "Error code Fault description",
+          "source_quote": "FY IPM communication error"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "FZ",
+      "description": "IPM fault",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "IPM module"
+      ],
+      "severity": "critical",
+      "safety_level": "warning",
+      "search_tags": [
+        "IPM",
+        "fault"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": null,
+          "table_title": "Error code Fault description",
+          "source_quote": "FZ IPM fault"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "HL",
+      "description": "Signal error",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "signal",
+        "error"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": null,
+          "table_title": "Error code Fault description",
+          "source_quote": "HL Signal error"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "safety_warnings",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "warning_type": "warning",
+      "topic": "Fire or Explosion Hazard (Manual Reset Limit Switches)",
+      "text": "This furnace is equipped with manual reset limit switches in the gas control area. The switches open and shut off power to the gas valve if a flame rollout or overheating condition occurs in the gas control area. DO NOT bypass the switches. Correct inadequate combustion air supply problem before resetting the switches.",
+      "source_refs": [
+        {
+          "page_number": 62,
+          "section_title": "11.1 General",
+          "table_title": null,
+          "source_quote": "WARNING Fire or explosion hazard! This furnace is equipped with manual reset limit switches in the gas control area. The switches open and shut off power to the gas valve if a flame rollout or overheating condition occurs in the gas control area. DO NOT bypass the switches. Correct inadequate combustion air supply problem before resetting"
+        }
+      ],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_ddbe41d426.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "diagnostic_codes",
+    "output_file": "Vaillant\\vaillant_ecotec-plus_80baeb5290.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "code": "d.83",
+      "description": "Number of burner ignitions in DHW mode",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Vaillant\\vaillant_ecotec-plus_80baeb5290.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  }
+]
