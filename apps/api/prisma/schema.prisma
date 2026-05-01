@@ -1,71 +1,277 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
 datasource db {
   provider = "postgresql"
+  // url and directUrl are configured in prisma.config.ts (Prisma 7 standard)
 }
 
-generator client {
-  provider = "prisma-client-js"
-}
+// ─────────────────────────────────────────
+// ENUMS
+// ─────────────────────────────────────────
 
-enum Role {
+enum UserRole {
   TECHNICIAN
   MANAGER
 }
 
 enum JobStatus {
   PENDING
-  SCHEDULED
+  IN_PROGRESS
   COMPLETED
   CANCELLED
 }
 
-model User {
-  id           String @id @default(uuid())
-  email        String @unique
-  passwordHash String
-  fullName     String
-  role         Role   @default(TECHNICIAN)
-
-  jobs Job[] @relation("TechnicianJobs")
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+enum JobPriority {
+  ROUTINE
+  MAINTENANCE
+  URGENT
 }
 
-model Client {
-  id        String  @id @default(uuid())
-  name      String
-  phone     String?
-  address   String
-  latitude  Float?
-  longitude Float?
+enum SyncAction {
+  UPLOAD
+  DOWNLOAD
+  CONFLICT
+}
 
-  jobs Job[]
+enum SyncResult {
+  SUCCESS
+  FAIL
+}
+
+// ─────────────────────────────────────────
+// AUTH MODELS
+// ─────────────────────────────────────────
+
+model User {
+  id                 String   @id @default(uuid(7))
+  username           String   @unique
+  email              String   @unique
+  passwordHash       String
+  role               UserRole @default(TECHNICIAN)
+  languagePreference String   @default("bs")
+  isLoggedIn         Boolean  @default(false)
+  firstLogin         Boolean  @default(true)
+
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime?
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+
+  profile         Profile?
+  refreshSessions RefreshSession[]
+  jobs            Job[]            @relation("TechnicianJobs")
+  managedJobs     Job[]            @relation("ManagerJobs")
+
+  @@map("users")
+}
+
+model Profile {
+  id                String  @id @default(uuid(7))
+  userId            String  @unique
+  bio               String?
+  specialization    String?
+  yearsExperience   Int?
+  certificateNumber String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("profiles")
+}
+
+model RefreshSession {
+  id        String    @id @default(uuid(7))
+  userId    String
+  token     String    @unique
+  expiresAt DateTime
+  createdAt DateTime  @default(now())
+  revokedAt DateTime?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("refresh_sessions")
+}
+
+// ─────────────────────────────────────────
+// JOBS & SCHEDULING MODELS
+// ─────────────────────────────────────────
+
+model Client {
+  id    String  @id @default(uuid(7))
+  name  String
+  email String?
+  phone String?
+
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime?
+
+  createdAt DateTime @default(now())
+
+  sites Site[]
+
+  @@map("clients")
+}
+
+model Site {
+  id                 String  @id @default(uuid(7))
+  clientId           String
+  rawAddress         String
+  latitude           Float
+  longitude          Float
+  accessInstructions String?
+
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime?
+
+  client Client @relation(fields: [clientId], references: [id])
+  jobs   Job[]
+
+  @@index([clientId])
+  @@map("sites")
 }
 
 model Job {
-  id              String    @id @default(uuid())
-  title           String
-  scheduledAt     DateTime
-  durationMinutes Int
-  status          JobStatus @default(PENDING)
-  notes           String?
-  latitude        Float?
-  longitude       Float?
+  id                String      @id @default(uuid(7))
+  siteId            String
+  technicianId      String?
+  managerId         String?
+  rawAddress        String?
+  scheduledDate     DateTime
+  status            JobStatus   @default(PENDING)
+  priority          JobPriority @default(ROUTINE)
+  estimatedDuration Int?
+  actualStartTime   DateTime?
+  actualEndTime     DateTime?
+  notes             String?
 
-  technicianId String
-  technician   User @relation("TechnicianJobs", fields: [technicianId], references: [id], onDelete: Restrict)
+  lastSyncedAt DateTime?
 
-  clientId String
-  client   Client @relation(fields: [clientId], references: [id], onDelete: Restrict)
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime?
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
+  site        Site         @relation(fields: [siteId], references: [id])
+  technician  User?        @relation("TechnicianJobs", fields: [technicianId], references: [id])
+  manager     User?        @relation("ManagerJobs", fields: [managerId], references: [id])
+  syncLogs    SyncLog[]
+  serviceLogs ServiceLog[]
+
   @@index([technicianId])
-  @@index([clientId])
-  @@index([status])
-  @@index([scheduledAt])
+  @@index([status, scheduledDate])
+  @@map("jobs")
 }
+
+// ─────────────────────────────────────────
+// SYNC MODELS
+// ─────────────────────────────────────────
+
+model SyncLog {
+  id        String     @id @default(uuid(7))
+  timestamp DateTime   @default(now())
+  action    SyncAction
+
+  affectedEntity String
+  affectedId     String
+
+  result          SyncResult
+  conflictDetails Json?
+
+  jobId String?
+  job   Job?    @relation(fields: [jobId], references: [id])
+
+  @@index([jobId])
+  @@index([affectedEntity, affectedId])
+  @@map("sync_logs")
+}
+
+// ─────────────────────────────────────────
+// SPRINT 2+ STUBS
+// ─────────────────────────────────────────
+
+model ServiceLog {
+  id        String   @id @default(uuid(7))
+  jobId     String
+  isDeleted Boolean  @default(false)
+  createdAt DateTime @default(now())
+  // TODO(sprint-2): faultCodes, parts, labor, notes, warrantyExpiry
+
+  job          Job          @relation(fields: [jobId], references: [id])
+  laborEntries LaborEntry[]
+
+  @@index([jobId])
+  @@map("service_logs")
+}
+
+model LaborEntry {
+  id           String  @id @default(uuid(7))
+  serviceLogId String
+  isDeleted    Boolean @default(false)
+  // TODO(sprint-2): hours Float, hourlyRate Float, description String
+
+  serviceLog ServiceLog @relation(fields: [serviceLogId], references: [id])
+
+  @@index([serviceLogId])
+  @@map("labor_entries")
+}
+
+model BoilerModel {
+  id             String  @id @default(uuid(7))
+  manufacturerId String?
+  modelName      String
+  isDeleted      Boolean @default(false)
+  // TODO(sprint-2): series, fuelType, productionYears, compatibleParts, faultCodes
+
+  warranties Warranty[]
+  manuals    Manual[]
+
+  @@map("boiler_models")
+}
+
+model Part {
+  id        String  @id @default(uuid(7))
+  sku       String
+  name      String
+  isDeleted Boolean @default(false)
+  // TODO(sprint-2): brand, unitPrice, aliases, inventoryStatus, compatibleModels
+
+  @@map("parts")
+}
+
+model FaultCode {
+  id    String @id @default(uuid(7))
+  code  String
+  title String
+  // TODO(sprint-2): description, severity, relatedMeasurements, referenceTables
+
+  @@map("fault_codes")
+}
+
+model Warranty {
+  id            String @id @default(uuid(7))
+  boilerModelId String
+  // TODO(sprint-2): startDate, durationMonths, status enum, checkEligibility logic
+
+  boilerModel BoilerModel @relation(fields: [boilerModelId], references: [id])
+
+  @@index([boilerModelId])
+  @@map("warranties")
+}
+
+model Manual {
+  id            String @id @default(uuid(7))
+  boilerModelId String
+  // TODO(sprint-2): version, language, sourceUrl, addedDate, validateExtraction bool
+
+  boilerModel BoilerModel @relation(fields: [boilerModelId], references: [id])
+
+  @@index([boilerModelId])
+  @@map("manuals")
+}
+
+
