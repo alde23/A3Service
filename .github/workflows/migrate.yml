@@ -30,3 +30,4 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           DIRECT_URL: ${{ secrets.DIRECT_URL }}
+          PRISMA_CONFIG_PATH: apps/api/prisma/prisma.config.ts
