@@ -1,4 +1,4 @@
-import { PrismaClient, Role, JobStatus } from '@prisma/client';
+import { PrismaClient, UserRole, JobStatus, JobPriority } from '@prisma/client';
 import { config as dotenvConfig } from 'dotenv';
 import { existsSync } from 'fs';
 import { join } from 'path';
@@ -15,47 +15,48 @@ const SEED = {
   users: {
     technician: {
       id: '11111111-1111-1111-1111-111111111111',
+      username: 'seed_tech',
       email: 'tech@a3service.local',
       passwordHash: 'seed-tech-not-a-real-hash',
-      fullName: 'Seed Technician',
-      role: Role.TECHNICIAN,
+      role: UserRole.TECHNICIAN,
     },
     manager: {
       id: '22222222-2222-2222-2222-222222222222',
+      username: 'seed_manager',
       email: 'manager@a3service.local',
       passwordHash: 'seed-manager-not-a-real-hash',
-      fullName: 'Seed Manager',
-      role: Role.MANAGER,
+      role: UserRole.MANAGER,
     },
   },
   client: {
     id: '33333333-3333-3333-3333-333333333333',
     name: 'Seed Client',
+    email: 'contact@seedclient.local',
     phone: '555-0100',
-    address: '123 Seed St, Test City',
+  },
+  site: {
+    id: '44444444-4444-4444-4444-444444444444',
+    rawAddress: '123 Seed St, Test City',
     latitude: 40.7128,
     longitude: -74.006,
+    accessInstructions: 'Entry through front door',
   },
   jobs: {
     job1: {
-      id: '44444444-4444-4444-4444-444444444444',
-      title: 'Seed Job 1 - HVAC Inspection',
-      scheduledAt: new Date('2026-04-06T15:30:00.000Z'),
-      durationMinutes: 60,
-      status: JobStatus.SCHEDULED,
+      id: '55555555-5555-5555-5555-555555555555',
+      scheduledDate: new Date('2026-04-06T15:30:00.000Z'),
+      estimatedDuration: 60,
+      status: JobStatus.PENDING,
+      priority: JobPriority.ROUTINE,
       notes: 'Seeded job for testing',
-      latitude: 40.7128,
-      longitude: -74.006,
     },
     job2: {
-      id: '55555555-5555-5555-5555-555555555555',
-      title: 'Seed Job 2 - Replace Thermostat',
-      scheduledAt: new Date('2026-04-07T14:00:00.000Z'),
-      durationMinutes: 90,
+      id: '66666666-6666-6666-6666-666666666666',
+      scheduledDate: new Date('2026-04-07T14:00:00.000Z'),
+      estimatedDuration: 90,
       status: JobStatus.PENDING,
+      priority: JobPriority.MAINTENANCE,
       notes: 'Second seeded job for testing',
-      latitude: 40.7139,
-      longitude: -74.005,
     },
   },
 } as const;
@@ -64,31 +65,29 @@ async function main() {
   const technician = await prisma.user.upsert({
     where: { email: SEED.users.technician.email },
     update: {
-      fullName: SEED.users.technician.fullName,
       role: SEED.users.technician.role,
       passwordHash: SEED.users.technician.passwordHash,
     },
     create: {
       id: SEED.users.technician.id,
+      username: SEED.users.technician.username,
       email: SEED.users.technician.email,
       passwordHash: SEED.users.technician.passwordHash,
-      fullName: SEED.users.technician.fullName,
       role: SEED.users.technician.role,
     },
   });
 
-  await prisma.user.upsert({
+  const manager = await prisma.user.upsert({
     where: { email: SEED.users.manager.email },
     update: {
-      fullName: SEED.users.manager.fullName,
       role: SEED.users.manager.role,
       passwordHash: SEED.users.manager.passwordHash,
     },
     create: {
       id: SEED.users.manager.id,
+      username: SEED.users.manager.username,
       email: SEED.users.manager.email,
       passwordHash: SEED.users.manager.passwordHash,
-      fullName: SEED.users.manager.fullName,
       role: SEED.users.manager.role,
     },
   });
@@ -97,79 +96,85 @@ async function main() {
     where: { id: SEED.client.id },
     update: {
       name: SEED.client.name,
+      email: SEED.client.email,
       phone: SEED.client.phone,
-      address: SEED.client.address,
-      latitude: SEED.client.latitude,
-      longitude: SEED.client.longitude,
     },
     create: {
       id: SEED.client.id,
       name: SEED.client.name,
+      email: SEED.client.email,
       phone: SEED.client.phone,
-      address: SEED.client.address,
-      latitude: SEED.client.latitude,
-      longitude: SEED.client.longitude,
+    },
+  });
+
+  const site = await prisma.site.upsert({
+    where: { id: SEED.site.id },
+    update: {
+      rawAddress: SEED.site.rawAddress,
+      latitude: SEED.site.latitude,
+      longitude: SEED.site.longitude,
+      accessInstructions: SEED.site.accessInstructions,
+    },
+    create: {
+      id: SEED.site.id,
+      clientId: client.id,
+      rawAddress: SEED.site.rawAddress,
+      latitude: SEED.site.latitude,
+      longitude: SEED.site.longitude,
+      accessInstructions: SEED.site.accessInstructions,
     },
   });
 
   await prisma.job.upsert({
     where: { id: SEED.jobs.job1.id },
     update: {
-      title: SEED.jobs.job1.title,
-      scheduledAt: SEED.jobs.job1.scheduledAt,
-      durationMinutes: SEED.jobs.job1.durationMinutes,
+      scheduledDate: SEED.jobs.job1.scheduledDate,
+      estimatedDuration: SEED.jobs.job1.estimatedDuration,
       status: SEED.jobs.job1.status,
       notes: SEED.jobs.job1.notes,
-      latitude: SEED.jobs.job1.latitude,
-      longitude: SEED.jobs.job1.longitude,
       technicianId: technician.id,
-      clientId: client.id,
+      managerId: manager.id,
     },
     create: {
       id: SEED.jobs.job1.id,
-      title: SEED.jobs.job1.title,
-      scheduledAt: SEED.jobs.job1.scheduledAt,
-      durationMinutes: SEED.jobs.job1.durationMinutes,
+      siteId: site.id,
+      scheduledDate: SEED.jobs.job1.scheduledDate,
+      estimatedDuration: SEED.jobs.job1.estimatedDuration,
       status: SEED.jobs.job1.status,
       notes: SEED.jobs.job1.notes,
-      latitude: SEED.jobs.job1.latitude,
-      longitude: SEED.jobs.job1.longitude,
       technicianId: technician.id,
-      clientId: client.id,
+      managerId: manager.id,
     },
   });
 
   await prisma.job.upsert({
     where: { id: SEED.jobs.job2.id },
     update: {
-      title: SEED.jobs.job2.title,
-      scheduledAt: SEED.jobs.job2.scheduledAt,
-      durationMinutes: SEED.jobs.job2.durationMinutes,
+      scheduledDate: SEED.jobs.job2.scheduledDate,
+      estimatedDuration: SEED.jobs.job2.estimatedDuration,
       status: SEED.jobs.job2.status,
       notes: SEED.jobs.job2.notes,
-      latitude: SEED.jobs.job2.latitude,
-      longitude: SEED.jobs.job2.longitude,
       technicianId: technician.id,
-      clientId: client.id,
+      managerId: manager.id,
     },
     create: {
       id: SEED.jobs.job2.id,
-      title: SEED.jobs.job2.title,
-      scheduledAt: SEED.jobs.job2.scheduledAt,
-      durationMinutes: SEED.jobs.job2.durationMinutes,
+      siteId: site.id,
+      scheduledDate: SEED.jobs.job2.scheduledDate,
+      estimatedDuration: SEED.jobs.job2.estimatedDuration,
       status: SEED.jobs.job2.status,
       notes: SEED.jobs.job2.notes,
-      latitude: SEED.jobs.job2.latitude,
-      longitude: SEED.jobs.job2.longitude,
       technicianId: technician.id,
-      clientId: client.id,
+      managerId: manager.id,
     },
   });
 
   console.log('Seed complete');
   console.log({
     technicianId: technician.id,
+    managerId: manager.id,
     clientId: client.id,
+    siteId: site.id,
     jobIds: [SEED.jobs.job1.id, SEED.jobs.job2.id],
   });
 }

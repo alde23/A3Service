@@ -1,18 +1,21 @@
-import { JobStatus } from '@prisma/client';
+import { JobPriority, JobStatus } from '../../../generated/prisma/client';
 
 export class CreateJobDto {
-  title!: string;
-
-  /** ISO string (recommended) or any Date-parsable string */
-  scheduledAt!: string;
-
-  durationMinutes!: number;
-
-  status?: JobStatus;
-  notes?: string;
-  latitude?: number;
-  longitude?: number;
+  /** UUID of the site this job is for */
+  siteId!: string;
 
   technicianId!: string;
-  clientId!: string;
+  managerId?: string;
+
+  /** ISO string (recommended: YYYY-MM-DDTHH:mm:ssZ) */
+  scheduledDate!: string;
+
+  estimatedDuration?: number;
+
+  status?: JobStatus;
+  priority?: JobPriority;
+  notes?: string;
+
+  /** Denormalised address snapshot (optional, falls back to site.rawAddress) */
+  rawAddress?: string;
 }
