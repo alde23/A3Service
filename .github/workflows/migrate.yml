@@ -26,8 +26,7 @@ jobs:
         run: npx prisma generate --schema=apps/api/prisma/schema.prisma
 
       - name: Run migration
-        run: npx prisma migrate deploy --schema=apps/api/prisma/schema.prisma
+        run: npx prisma migrate deploy --schema=apps/api/prisma/schema.prisma --url="$DIRECT_URL"
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           DIRECT_URL: ${{ secrets.DIRECT_URL }}
-          PRISMA_CONFIG_PATH: apps/api/prisma/prisma.config.ts
