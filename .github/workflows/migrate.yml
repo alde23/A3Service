@@ -6,14 +6,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: 'npm'
+
       - name: Install dependencies
         run: npm ci
+
+      - name: Generate Prisma Client
+        run: npx prisma generate --schema=apps/api/prisma/schema.prisma
+
       - name: Run migration
-        working-directory: apps/api
-        run: npx prisma migrate dev --name sprint1-baseline
+        run: npx prisma migrate deploy --schema=apps/api/prisma/schema.prisma
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           DIRECT_URL: ${{ secrets.DIRECT_URL }}

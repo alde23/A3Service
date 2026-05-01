@@ -1,5 +1,7 @@
 import { config } from "dotenv";
-config({ path: "../../.env" });
+import { join } from "path";
+
+config({ path: join(process.cwd(), ".env") });
 
 import { defineConfig } from "prisma/config";
 
