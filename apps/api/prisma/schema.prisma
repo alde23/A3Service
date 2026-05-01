@@ -1,3 +1,4 @@
+// Triggering Migrate workflow
 generator client {
   provider = "prisma-client"
   output   = "../src/generated/prisma"
@@ -8,9 +9,11 @@ datasource db {
   // url and directUrl are configured in prisma.config.ts (Prisma 7 standard)
 }
 
+
 // ─────────────────────────────────────────
 // ENUMS
 // ─────────────────────────────────────────
+
 
 enum UserRole {
   TECHNICIAN
