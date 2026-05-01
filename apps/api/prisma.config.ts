@@ -3,7 +3,7 @@ import { join } from "path";
 
 config({ path: join(process.cwd(), ".env") });
 
-console.log("DIRECT_URL:", process.env.DIRECT_URL?.substring(0, 20));
+console.log("DIRECT_URL:", process.env.DIRECT_URL?.substring(0, 50));
 
 import { defineConfig } from "prisma/config";
 
