@@ -28,5 +28,5 @@ jobs:
       - name: Run migration
         run: npx prisma migrate deploy --schema=apps/api/prisma/schema.prisma --config=apps/api/prisma.config.ts
         env:
-          DATABASE_URL: ${{ secrets.DIRECT_URL }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
           DIRECT_URL: ${{ secrets.DIRECT_URL }}
