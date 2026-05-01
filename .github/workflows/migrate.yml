@@ -1,5 +1,12 @@
-name: Run Migration
-on: workflow_dispatch
+name: Migrate
+
+on:
+  push:
+    branches:
+      - dev
+    paths:
+      - 'apps/api/prisma/**'
+  workflow_dispatch: 
 
 jobs:
   migrate:
