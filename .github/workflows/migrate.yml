@@ -26,10 +26,7 @@ jobs:
         run: npx prisma generate --schema=apps/api/prisma/schema.prisma
 
       - name: Run migration
-        # Explicitly pointing to the config file is the Prisma 6/7 way
-        run: npx prisma migrate deploy --schema=apps/api/prisma/schema.prisma --config=apps/api/prisma/prisma.config.ts
+        run: npx prisma migrate deploy --schema=apps/api/prisma/schema.prisma --config=apps/api/prisma.config.ts
         env:
-          # We map the direct connection to DATABASE_URL because 
-          # that's likely what your prisma.config.ts is looking for.
           DATABASE_URL: ${{ secrets.DIRECT_URL }}
           DIRECT_URL: ${{ secrets.DIRECT_URL }}
