@@ -1,4 +1,4 @@
-// Triggering Migrate workflow v18
+// Triggering Migrate workflow v19
 generator client {
   provider = "prisma-client"
   output   = "../src/generated/prisma"
