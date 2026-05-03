@@ -15,7 +15,7 @@ import { SchedulingModule } from './scheduling/scheduling.module';
   imports: [
     ConfigModule.forRoot({
       isGlobal: true,
-      validate,
+      validate, // shorthand for { validate: validate }
     }),
     // Ensure Prisma is loaded first so other services can use it
     PrismaModule,
