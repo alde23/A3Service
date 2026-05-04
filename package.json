@@ -10,7 +10,7 @@
     "prepare": "husky"
   },
   "prisma": {
-    "seed": "node -r @swc-node/register apps/api/prisma/seed.ts"
+    "seed": "ts-node apps/api/prisma/seed.ts"
   },
   "private": true,
   "devDependencies": {
