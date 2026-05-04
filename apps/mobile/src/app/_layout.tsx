@@ -1,7 +1,9 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { Tabs } from 'expo-router';
 import type { ComponentProps } from 'react';
-import { Platform } from 'react-native';
+import { Platform, View, ActivityIndicator } from 'react-native';
+import { AuthProvider, useAuth } from '../services/auth.service';
+import LoginScreen from './login';
 
 function TabIcon({
   name,
@@ -15,7 +17,7 @@ function TabIcon({
   return <Ionicons name={name} color={color} size={size} />;
 }
 
-export default function RootLayout() {
+function AppTabs() {
   return (
     <Tabs
       initialRouteName="home"
@@ -75,5 +77,24 @@ export default function RootLayout() {
         }}
       />
     </Tabs>
+  );
+}
+
+function GuardedRoot() {
+  const { user, loading } = useAuth();
+  if (loading) return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <ActivityIndicator />
+    </View>
+  );
+  if (!user) return <LoginScreen />;
+  return <AppTabs />;
+}
+
+export default function RootLayout() {
+  return (
+    <AuthProvider>
+      <GuardedRoot />
+    </AuthProvider>
   );
 }
