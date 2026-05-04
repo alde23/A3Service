@@ -6,7 +6,7 @@ import { join } from 'path';
 import { existsSync } from 'fs';
 
 // Load .env manually — seed runs outside NestJS, no ConfigModule available
-const envPath = join(process.cwd(), '.env');
+const envPath = join(process.cwd(), '../../.env');
 if (existsSync(envPath)) {
   dotenvConfig({ path: envPath });
 }
