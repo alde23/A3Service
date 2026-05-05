@@ -64,4 +64,58 @@ export class AuthService {
       refresh_token: refreshToken,
     };
   }
+
+  async refresh(refreshToken: string) {
+    const now = new Date();
+    const refreshTokenHash = this.hashRefreshToken(refreshToken);
+
+    return this.prisma.$transaction(async (tx) => {
+      const session = await tx.refreshSession.findUnique({
+        where: { token: refreshTokenHash },
+        include: { user: true },
+      });
+
+      if (!session) {
+        throw new UnauthorizedException('Invalid refresh token');
+      }
+
+      if (session.revokedAt) {
+        throw new UnauthorizedException('Refresh token revoked');
+      }
+
+      if (session.expiresAt.getTime() <= now.getTime()) {
+        throw new UnauthorizedException('Refresh token expired');
+      }
+
+      await tx.refreshSession.update({
+        where: { id: session.id },
+        data: { revokedAt: now },
+      });
+
+      const nextRefreshToken = this.createRefreshToken();
+      const nextRefreshTokenHash = this.hashRefreshToken(nextRefreshToken);
+      const nextExpiresAt = new Date(
+        Date.now() + REFRESH_TOKEN_TTL_DAYS * 24 * 60 * 60 * 1000,
+      );
+
+      await tx.refreshSession.create({
+        data: {
+          userId: session.userId,
+          token: nextRefreshTokenHash,
+          expiresAt: nextExpiresAt,
+        },
+      });
+
+      const payload = {
+        sub: session.user.id,
+        email: session.user.email,
+        role: session.user.role,
+      };
+
+      return {
+        access_token: await this.jwtService.signAsync(payload),
+        refresh_token: nextRefreshToken,
+      };
+    });
+  }
 }

@@ -9,6 +9,7 @@ import {
 } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { LoginDto } from './dto/login.dto';
+import { RefreshDto } from './dto/refresh.dto';
 import { JwtAuthGuard } from './jwt-auth.guard';
 import type { AuthenticatedRequest } from './jwt.types';
 
@@ -32,5 +33,14 @@ export class AuthController {
     }
 
     return this.authService.login(body.email, body.password);
+  }
+
+  @Post('refresh')
+  async refresh(@Body() body: RefreshDto) {
+    if (!body?.refresh_token || typeof body.refresh_token !== 'string') {
+      throw new BadRequestException('refresh_token is required');
+    }
+
+    return this.authService.refresh(body.refresh_token);
   }
 }
