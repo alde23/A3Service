@@ -52,4 +52,21 @@ describe('SyncController', () => {
     await controller.status('job-1');
     expect(syncService.getStatus).toHaveBeenCalledWith('job-1');
   });
+
+  it('rejects array payloads', async () => {
+    const { controller } = makeController();
+    await expect(
+      controller.reconcile({
+        items: [
+          {
+            idempotencyKey: 'key-1',
+            action: SyncAction.UPLOAD,
+            affectedEntity: 'Job',
+            affectedId: 'job-1',
+            payload: [],
+          },
+        ],
+      } as any),
+    ).rejects.toBeInstanceOf(BadRequestException);
+  });
 });

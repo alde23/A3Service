@@ -68,7 +68,10 @@ export class SyncController {
       throw new BadRequestException(`items[${index}].result is invalid`);
     }
 
-    if (item.payload !== undefined && typeof item.payload !== 'object') {
+    if (
+      item.payload !== undefined &&
+      (typeof item.payload !== 'object' || Array.isArray(item.payload))
+    ) {
       throw new BadRequestException(`items[${index}].payload must be an object`);
     }
 
