@@ -10,6 +10,7 @@ import {
 import { AuthService } from './auth.service';
 import { LoginDto } from './dto/login.dto';
 import { RefreshDto } from './dto/refresh.dto';
+import { LogoutDto } from './dto/logout.dto';
 import { JwtAuthGuard } from './jwt-auth.guard';
 import type { AuthenticatedRequest } from './jwt.types';
 
@@ -42,5 +43,14 @@ export class AuthController {
     }
 
     return this.authService.refresh(body.refresh_token);
+  }
+
+  @Post('logout')
+  async logout(@Body() body: LogoutDto) {
+    if (!body?.refresh_token || typeof body.refresh_token !== 'string') {
+      throw new BadRequestException('refresh_token is required');
+    }
+
+    return this.authService.logout(body.refresh_token);
   }
 }

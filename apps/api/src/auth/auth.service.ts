@@ -118,4 +118,32 @@ export class AuthService {
       };
     });
   }
+
+  async logout(refreshToken: string) {
+    const now = new Date();
+    const refreshTokenHash = this.hashRefreshToken(refreshToken);
+
+    const session = await this.prisma.refreshSession.findUnique({
+      where: { token: refreshTokenHash },
+    });
+
+    if (!session) {
+      throw new UnauthorizedException('Invalid refresh token');
+    }
+
+    if (session.expiresAt.getTime() <= now.getTime()) {
+      throw new UnauthorizedException('Refresh token expired');
+    }
+
+    if (session.revokedAt) {
+      return { success: true };
+    }
+
+    await this.prisma.refreshSession.update({
+      where: { id: session.id },
+      data: { revokedAt: now },
+    });
+
+    return { success: true };
+  }
 }
