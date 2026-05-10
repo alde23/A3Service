@@ -1,4 +1,4 @@
-import { SyncAction, SyncResult } from '../../../generated/prisma/client';
+import { Prisma, SyncAction, SyncResult } from '../../../generated/prisma/client';
 
 export type ReconcileItemDto = {
   /** Client-generated unique key to ensure idempotent reconcile calls. */
@@ -14,7 +14,7 @@ export type ReconcileItemDto = {
   /** Optional result override; defaults to SUCCESS when omitted. */
   result?: SyncResult;
   /** Optional client payload snapshot for troubleshooting. */
-  payload?: Record<string, unknown>;
+  payload?: Prisma.InputJsonValue;
 };
 
 export type ReconcileDto = {

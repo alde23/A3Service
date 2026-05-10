@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../../prisma/prisma.service';
-import { SyncAction, SyncResult } from '../../generated/prisma/client';
+import { Prisma, SyncAction, SyncResult } from '../../generated/prisma/client';
 import type { ReconcileItemDto } from './dto/reconcile.dto';
 
 export type SyncStatus = {
@@ -75,6 +75,11 @@ export class SyncService {
       const result = item.result ?? SyncResult.SUCCESS;
       const now = new Date();
 
+      const conflictDetails: Prisma.InputJsonValue = {
+        idempotencyKey: item.idempotencyKey,
+        payload: item.payload ?? null,
+      };
+
       const createdLog = await this.prisma.syncLog.create({
         data: {
           action: item.action,
@@ -82,10 +87,7 @@ export class SyncService {
           affectedId: item.affectedId,
           result,
           jobId: item.jobId,
-          conflictDetails: {
-            idempotencyKey: item.idempotencyKey,
-            payload: item.payload ?? null,
-          },
+          conflictDetails,
         },
       });
 
