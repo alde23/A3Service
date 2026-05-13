@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { API_URL } from './api.config';
 
 const TOKEN_KEY = 'A3S_AUTH_TOKEN';
 const USER_KEY = 'A3S_AUTH_USER';
@@ -10,13 +11,11 @@ type AuthContextShape = {
   user: User;
   token: string | null;
   loading: boolean;
-  login: (username: string, password: string) => Promise<boolean>;
+  login: (email: string, password: string) => Promise<boolean>;
   logout: () => Promise<void>;
 };
 
 const AuthContext = createContext<AuthContextShape | undefined>(undefined);
-
-const API_URL = process.env.A3S_API_URL || 'https://api.example.com';
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [token, setToken] = useState<string | null>(null);
@@ -36,11 +35,11 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             const res = await fetch(`${API_URL}/auth/me`, {
               headers: { Authorization: `Bearer ${storedToken}` },
             });
-            if (!res.ok) {
+            if (res.status === 401 || res.status === 403) {
               await AsyncStorage.multiRemove([TOKEN_KEY, USER_KEY]);
               setToken(null);
               setUser(null);
-            } else {
+            } else if (res.ok) {
               const me = await res.json();
               setUser(me);
             }
@@ -56,18 +55,18 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     })();
   }, []);
 
-  const login = async (username: string, password: string) => {
+  const login = async (email: string, password: string) => {
     setLoading(true);
     try {
       const res = await fetch(`${API_URL}/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ username, password }),
+        body: JSON.stringify({ email, password }),
       });
       if (!res.ok) return false;
       const body = await res.json();
-      const t = body.token ?? body.accessToken ?? null;
-      const u = body.user ?? body;
+      const t = body.token ?? body.accessToken ?? body.access_token ?? null;
+      const u = body.user ?? { email };
       if (!t) return false;
       await AsyncStorage.setItem(TOKEN_KEY, t);
       await AsyncStorage.setItem(USER_KEY, JSON.stringify(u));
