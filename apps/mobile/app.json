@@ -7,7 +7,7 @@
     "icon": "./assets/images/icon.png",
     "scheme": "mobile",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
       "supportsTablet": true
     },
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.mobile"
     },
     "web": {
       "bundler": "metro",
@@ -24,17 +25,15 @@
     "plugins": [
       [
         "expo-router",
-        {
-          "root": "src/app"
-        }
+        { "root": "src/app" }
       ],
       "expo-splash-screen",
-      "@morrowdigital/watermelondb-expo-plugin",
+      "@lovesworking/watermelondb-expo-plugin-sdk-52-plus",
       [
         "expo-build-properties",
         {
           "android": {
-            "kotlinVersion": "1.8.10",
+            "kotlinVersion": "2.1.0",
             "packagingOptions": {
               "pickFirst": ["**/libc++_shared.so"]
             }
