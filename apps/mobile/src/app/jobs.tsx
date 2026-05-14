@@ -100,28 +100,28 @@ export default function JobsScreen() {
           <View style={styles.headerIconWrap}>
             <Ionicons name="briefcase-outline" size={18} color="#0f172a" />
           </View>
-          <Text style={styles.headerTitle}>Jobs</Text>
+          <Text style={styles.headerTitle}>{t('jobs.title')}</Text>
         </View>
 
         <Pressable style={styles.createButton}>
-          <Text style={styles.createButtonText}>CREATE A JOB</Text>
-                    <Text style={styles.headerTitle}>{t('jobs.title')}</Text>
+          <Text style={styles.createButtonText}>{t('jobs.create')}</Text>
+        </Pressable>
       </View>
 
       <ScrollView
-                    <Text style={styles.createButtonText}>{t('jobs.create')}</Text>
+        style={styles.scroll}
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
       >
         <View style={styles.sectionHeaderRow}>
-          <Text style={styles.sectionTitle}>Today&apos;s Jobs</Text>
+          <Text style={styles.sectionTitle}>{t('jobs.today_title')}</Text>
           <View style={styles.counterPill}>
-            <Text style={styles.counterText}>{todayJobsCount} jobs</Text>
+            <Text style={styles.counterText}>{t('jobs.count', { count: todayJobsCount })}</Text>
           </View>
         </View>
-                    <Text style={styles.sectionTitle}>{t('jobs.today_title')}</Text>
+
         {sortedJobs.map((job) => {
-                      <Text style={styles.counterText}>{t('jobs.count', { count: todayJobsCount })}</Text>
+          const priorityColors = getPriorityColors(job.priority);
           const isInProgress = job.status === 'in-progress';
 
           return (
@@ -147,24 +147,24 @@ export default function JobsScreen() {
                         isInProgress ? styles.statusActiveText : styles.statusUpcomingText,
                       ]}
                     >
-                      {isInProgress ? 'Active' : 'Upcoming'}
+                      {isInProgress ? t('status.active') : t('status.upcoming')}
                     </Text>
                   </View>
                 </View>
 
-                                {isInProgress ? t('status.active') : t('status.upcoming')}
+                <View
                   style={[
                     styles.priorityPill,
                     { backgroundColor: priorityColors.bg },
                   ]}
                 >
                   <Text style={[styles.priorityText, { color: priorityColors.text }]}>
-                    {job.priority}
+                    {t(`priority.${job.priority}`)}
                   </Text>
                 </View>
               </View>
 
-                              {t(`priority.${job.priority}`)}
+              <Text style={styles.companyName}>{job.company}</Text>
               {!!job.description && (
                 <Text style={styles.jobDescription}>{job.description}</Text>
               )}
@@ -178,12 +178,12 @@ export default function JobsScreen() {
                 {typeof job.distanceKm === 'number' && (
                   <View style={styles.metaItem}>
                     <Ionicons name="location-outline" size={12} color="#64748b" />
-                    <Text style={styles.metaText}>{job.distanceKm.toFixed(1)} km</Text>
+                    <Text style={styles.metaText}>{job.distanceKm.toFixed(1)} {t('unit.km')}</Text>
                   </View>
                 )}
               </View>
 
-                              <Text style={styles.metaText}>{job.distanceKm.toFixed(1)} {t('unit.km')}</Text>
+              <Pressable
                 style={[
                   styles.jobActionButton,
                   isInProgress
@@ -199,12 +199,12 @@ export default function JobsScreen() {
                       : styles.startButtonText,
                   ]}
                 >
-                  {isInProgress ? 'Continue Job' : 'Start Job'}
+                  {isInProgress ? t('jobs.continue') : t('jobs.start')}
                 </Text>
               </Pressable>
             </View>
           );
-                            {isInProgress ? t('jobs.continue') : t('jobs.start')}
+        })}
       </ScrollView>
     </SafeAreaView>
   );
