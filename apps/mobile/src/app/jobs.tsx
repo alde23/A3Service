@@ -8,6 +8,7 @@ import {
   Text,
   View,
 } from 'react-native';
+import { useTranslation } from 'react-i18next';
 
 type JobStatus = 'not-started' | 'in-progress';
 type JobPriority = 'high' | 'medium' | 'low';
@@ -77,6 +78,7 @@ function getPriorityColors(priority: JobPriority) {
 }
 
 export default function JobsScreen() {
+  const { t } = useTranslation();
   const sortedJobs = useMemo(
     () =>
       [...MOCK_JOBS].sort(
@@ -103,11 +105,11 @@ export default function JobsScreen() {
 
         <Pressable style={styles.createButton}>
           <Text style={styles.createButtonText}>CREATE A JOB</Text>
-        </Pressable>
+                    <Text style={styles.headerTitle}>{t('jobs.title')}</Text>
       </View>
 
       <ScrollView
-        style={styles.scroll}
+                    <Text style={styles.createButtonText}>{t('jobs.create')}</Text>
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
       >
@@ -117,9 +119,9 @@ export default function JobsScreen() {
             <Text style={styles.counterText}>{todayJobsCount} jobs</Text>
           </View>
         </View>
-
+                    <Text style={styles.sectionTitle}>{t('jobs.today_title')}</Text>
         {sortedJobs.map((job) => {
-          const priorityColors = getPriorityColors(job.priority);
+                      <Text style={styles.counterText}>{t('jobs.count', { count: todayJobsCount })}</Text>
           const isInProgress = job.status === 'in-progress';
 
           return (
@@ -150,7 +152,7 @@ export default function JobsScreen() {
                   </View>
                 </View>
 
-                <View
+                                {isInProgress ? t('status.active') : t('status.upcoming')}
                   style={[
                     styles.priorityPill,
                     { backgroundColor: priorityColors.bg },
@@ -162,7 +164,7 @@ export default function JobsScreen() {
                 </View>
               </View>
 
-              <Text style={styles.companyName}>{job.company}</Text>
+                              {t(`priority.${job.priority}`)}
               {!!job.description && (
                 <Text style={styles.jobDescription}>{job.description}</Text>
               )}
@@ -181,7 +183,7 @@ export default function JobsScreen() {
                 )}
               </View>
 
-              <Pressable
+                              <Text style={styles.metaText}>{job.distanceKm.toFixed(1)} {t('unit.km')}</Text>
                 style={[
                   styles.jobActionButton,
                   isInProgress
@@ -202,7 +204,7 @@ export default function JobsScreen() {
               </Pressable>
             </View>
           );
-        })}
+                            {isInProgress ? t('jobs.continue') : t('jobs.start')}
       </ScrollView>
     </SafeAreaView>
   );

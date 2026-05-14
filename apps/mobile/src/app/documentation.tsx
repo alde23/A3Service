@@ -9,6 +9,7 @@ import {
   TextInput,
   View,
 } from 'react-native';
+import { useTranslation } from 'react-i18next';
 
 type DocumentationItem = {
   id: string;
@@ -136,6 +137,7 @@ function accentColors(accent: DocumentationItem['accent']) {
 }
 
 export default function DocumentationScreen() {
+  const { t } = useTranslation();
   const [query, setQuery] = useState('');
 
   const filteredItems = useMemo(() => {
@@ -169,12 +171,10 @@ export default function DocumentationScreen() {
           <View style={styles.iconWrap}>
             <Ionicons name="document-text-outline" size={18} color="#0f172a" />
           </View>
-          <Text style={styles.headerTitle}>Documentation</Text>
+          <Text style={styles.headerTitle}>{t('documentation.title')}</Text>
         </View>
 
-        <Text style={styles.headerCopy}>
-          Search fault codes, boiler types, brands, and quick fixes.
-        </Text>
+        <Text style={styles.headerCopy}>{t('documentation.header_copy')}</Text>
 
         <View style={styles.searchPanel}>
           <View style={styles.searchInputWrap}>
@@ -182,7 +182,7 @@ export default function DocumentationScreen() {
             <TextInput
               value={query}
               onChangeText={setQuery}
-              placeholder="Search fault code, keyword, boiler or brand"
+              placeholder={t('documentation.search_placeholder')}
               placeholderTextColor="#94a3b8"
               style={styles.searchInput}
               returnKeyType="search"
@@ -190,7 +190,7 @@ export default function DocumentationScreen() {
           </View>
 
           <Pressable style={styles.searchButton}>
-            <Text style={styles.searchButtonText}>SEARCH</Text>
+            <Text style={styles.searchButtonText}>{t('documentation.search')}</Text>
           </Pressable>
         </View>
 
@@ -214,7 +214,7 @@ export default function DocumentationScreen() {
       >
         <View style={styles.sectionHeaderRow}>
           <Text style={styles.sectionTitle}>
-            {hasQuery ? 'Search Results' : 'Popular References'}
+            {hasQuery ? t('documentation.search_results') : t('documentation.popular_references')}
           </Text>
           <View style={styles.counterPill}>
             <Text style={styles.counterText}>{filteredItems.length} items</Text>
@@ -224,14 +224,12 @@ export default function DocumentationScreen() {
         <View style={styles.heroCard}>
           <View style={styles.heroTopRow}>
             <View style={styles.heroBadge}>
-              <Text style={styles.heroBadgeText}>Top topics</Text>
+              <Text style={styles.heroBadgeText}>{t('documentation.top_topics')}</Text>
             </View>
             <Ionicons name="library-outline" size={20} color="#2563eb" />
           </View>
 
-          <Text style={styles.heroTitle}>
-            Fast access to the most used field references.
-          </Text>
+          <Text style={styles.heroTitle}>{t('documentation.hero_title')}</Text>
 
           <View style={styles.heroList}>
             {HIGHLIGHT_ITEMS.map((item) => (

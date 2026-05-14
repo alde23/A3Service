@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet, ActivityIndicator, Pressable } from 'react-native';
 import { useAuth } from '../services/auth.service';
+import { useTranslation } from 'react-i18next';
 
 export default function LoginScreen() {
   const { login, loading } = useAuth();
+  const { t } = useTranslation();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
@@ -11,26 +13,26 @@ export default function LoginScreen() {
   const onSubmit = async () => {
     setError(null);
     const ok = await login(username.trim(), password);
-    if (!ok) setError('Invalid credentials or network error');
+    if (!ok) setError(t('login.invalid_credentials'));
   };
 
   return (
     <View style={styles.container}>
       <View style={styles.logoWrap}>
         <Text style={styles.logo}>A3S</Text>
-        <Text style={styles.hint}>Sign in to continue</Text>
+        <Text style={styles.hint}>{t('login.hint')}</Text>
       </View>
 
       <View style={styles.form}>
         <TextInput
-          placeholder="Username"
+          placeholder={t('login.username')}
           autoCapitalize="none"
           value={username}
           onChangeText={setUsername}
           style={styles.input}
         />
         <TextInput
-          placeholder="Password"
+          placeholder={t('login.password')}
           secureTextEntry
           value={password}
           onChangeText={setPassword}
@@ -43,7 +45,7 @@ export default function LoginScreen() {
           <ActivityIndicator />
         ) : (
           <Pressable onPress={onSubmit} style={styles.button}>
-            <Text style={styles.buttonText}>Sign In</Text>
+            <Text style={styles.buttonText}>{t('login.signin')}</Text>
           </Pressable>
         )}
       </View>
