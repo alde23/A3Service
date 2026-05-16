@@ -19,6 +19,8 @@ import type { ReconcileDto, ReconcileItemDto } from './dto/reconcile.dto';
 export class SyncController {
   constructor(private readonly syncService: SyncService) {}
 
+  private static readonly MAX_RECONCILE_ITEMS = 100;
+
   @Get('status')
   @Roles(UserRole.MANAGER, UserRole.TECHNICIAN)
   async status(@Query('jobId') jobId?: string) {
@@ -34,6 +36,12 @@ export class SyncController {
   async reconcile(@Body() body: ReconcileDto) {
     if (!body?.items || !Array.isArray(body.items) || body.items.length === 0) {
       throw new BadRequestException('items is required');
+    }
+
+    if (body.items.length > SyncController.MAX_RECONCILE_ITEMS) {
+      throw new BadRequestException(
+        `items must not exceed ${SyncController.MAX_RECONCILE_ITEMS}`,
+      );
     }
 
     const items = body.items.map((item, index) =>
@@ -70,7 +78,9 @@ export class SyncController {
 
     if (
       item.payload !== undefined &&
-      (typeof item.payload !== 'object' || Array.isArray(item.payload))
+      (item.payload === null ||
+        typeof item.payload !== 'object' ||
+        Array.isArray(item.payload))
     ) {
       throw new BadRequestException(`items[${index}].payload must be an object`);
     }

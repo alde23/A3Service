@@ -79,7 +79,7 @@ describe('SyncService', () => {
   it('returns pending when no sync logs exist', async () => {
     const status = await service.getStatus();
     expect(status.status).toBe('pending');
-    expect(status.last_sync_at).toBeNull();
+    expect(status.lastSyncAt).toBeNull();
   });
 
   it('creates a sync log and marks success', async () => {
@@ -124,6 +124,90 @@ describe('SyncService', () => {
     expect(result.created).toBe(0);
     expect(result.duplicates).toBe(1);
     expect(result.results[0].duplicate).toBe(true);
+  });
+
+  it('treats a duplicate as duplicate even when the original log is older than the most recent 25 logs', async () => {
+    await service.reconcile([
+      {
+        idempotencyKey: 'dup-window',
+        action: SyncAction.UPLOAD,
+        affectedEntity: 'Job',
+        affectedId: 'job-window-original',
+        jobId: 'job-window-original',
+      },
+    ]);
+
+    for (let i = 0; i < 25; i += 1) {
+      await service.reconcile([
+        {
+          idempotencyKey: `filler-${i}`,
+          action: SyncAction.UPLOAD,
+          affectedEntity: 'Job',
+          affectedId: `job-window-${i}`,
+          jobId: `job-window-${i}`,
+        },
+      ]);
+    }
+
+    const result = await service.reconcile([
+      {
+        idempotencyKey: 'dup-window',
+        action: SyncAction.UPLOAD,
+        affectedEntity: 'Job',
+        affectedId: 'job-window-original',
+        jobId: 'job-window-original',
+      },
+    ]);
+
+    expect(result.created).toBe(0);
+    expect(result.duplicates).toBe(1);
+    expect(result.results[0].duplicate).toBe(true);
+  });
+
+  it('deduplicates concurrent reconcile calls with the same idempotencyKey', async () => {
+    let releaseFindMany!: () => void;
+    const findManyGate = new Promise<void>((resolve) => {
+      releaseFindMany = resolve;
+    });
+
+    let findManyCalls = 0;
+    const originalFindMany = prisma.syncLog.findMany;
+    prisma.syncLog.findMany = vi.fn(async (...args: Parameters<typeof originalFindMany>) => {
+      findManyCalls += 1;
+      if (findManyCalls === 1) {
+        await findManyGate;
+      }
+      return originalFindMany(...args);
+    });
+
+    const payload = [
+      {
+        idempotencyKey: 'dup-concurrent',
+        action: SyncAction.UPLOAD,
+        affectedEntity: 'Job',
+        affectedId: 'job-concurrent',
+        jobId: 'job-concurrent',
+      },
+    ];
+
+    const first = service.reconcile(payload);
+    const second = service.reconcile(payload);
+
+    await vi.waitFor(() => {
+      expect(findManyCalls).toBe(1);
+    });
+
+    expect(findManyCalls).toBe(1);
+
+    releaseFindMany();
+    const [firstResult, secondResult] = await Promise.all([first, second]);
+
+    expect(findManyCalls).toBe(2);
+    expect(firstResult.created + secondResult.created).toBe(1);
+    expect(firstResult.duplicates + secondResult.duplicates).toBe(1);
+    expect(
+      [firstResult.results[0].duplicate, secondResult.results[0].duplicate].filter(Boolean),
+    ).toHaveLength(1);
   });
 
   it('marks failed when a reconcile item fails', async () => {
