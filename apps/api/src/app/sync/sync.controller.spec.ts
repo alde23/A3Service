@@ -16,6 +16,8 @@ const makeController = () => {
       received: 1,
       created: 1,
       duplicates: 0,
+      succeeded: 1,
+      failed: 0,
       results: [],
     })),
   };

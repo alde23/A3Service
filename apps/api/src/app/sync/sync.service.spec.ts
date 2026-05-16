@@ -9,24 +9,19 @@ const makePrismaMock = () => {
     action: SyncAction;
     affectedEntity: string;
     affectedId: string;
+    idempotencyKey?: string;
     result: SyncResult;
     jobId?: string | null;
     conflictDetails?: unknown;
   }> = [];
 
   const syncLog = {
-    findFirst: vi.fn(async (args?: { where?: { jobId?: string } }) => {
-      const filtered = args?.where?.jobId
-        ? logs.filter((l) => l.jobId === args.where?.jobId)
-        : logs.slice();
-      const sorted = filtered.sort(
-        (a, b) => b.timestamp.getTime() - a.timestamp.getTime(),
-      );
-      return sorted[0] ?? null;
-    }),
-    findMany: vi.fn(async (args: { where: any; orderBy: any; take: number }) => {
-      const where = args.where || {};
+    findFirst: vi.fn(async (args?: { where?: any }) => {
+      const where = args?.where || {};
       let filtered = logs.slice();
+      if (where.jobId) {
+        filtered = filtered.filter((l) => l.jobId === where.jobId);
+      }
       if (where.affectedEntity) {
         filtered = filtered.filter((l) => l.affectedEntity === where.affectedEntity);
       }
@@ -36,13 +31,13 @@ const makePrismaMock = () => {
       if (where.action) {
         filtered = filtered.filter((l) => l.action === where.action);
       }
-      if (where.jobId) {
-        filtered = filtered.filter((l) => l.jobId === where.jobId);
+      if (where.idempotencyKey) {
+        filtered = filtered.filter((l) => l.idempotencyKey === where.idempotencyKey);
       }
       const sorted = filtered.sort(
         (a, b) => b.timestamp.getTime() - a.timestamp.getTime(),
       );
-      return sorted.slice(0, args.take ?? 25);
+      return sorted[0] ?? null;
     }),
     create: vi.fn(async ({ data }: { data: any }) => {
       const log = {
@@ -51,6 +46,7 @@ const makePrismaMock = () => {
         action: data.action,
         affectedEntity: data.affectedEntity,
         affectedId: data.affectedId,
+        idempotencyKey: data.idempotencyKey,
         result: data.result,
         jobId: data.jobId ?? null,
         conflictDetails: data.conflictDetails ?? null,
@@ -58,6 +54,7 @@ const makePrismaMock = () => {
       logs.push(log);
       return log;
     }),
+    update: vi.fn(async ({ data }: { data: any }) => data),
   };
 
   const job = {
@@ -73,6 +70,7 @@ describe('SyncService', () => {
 
   beforeEach(() => {
     prisma = makePrismaMock();
+    (prisma as any).$transaction = vi.fn(async (cb: any) => cb(prisma));
     service = new SyncService(prisma as any);
   });
 
@@ -97,6 +95,8 @@ describe('SyncService', () => {
     expect(result.received).toBe(1);
     expect(result.created).toBe(1);
     expect(result.duplicates).toBe(0);
+    expect(result.succeeded).toBe(1);
+    expect(result.failed).toBe(0);
     expect(prisma.job.updateMany).toHaveBeenCalledTimes(1);
   });
 
@@ -123,6 +123,8 @@ describe('SyncService', () => {
 
     expect(result.created).toBe(0);
     expect(result.duplicates).toBe(1);
+    expect(result.succeeded).toBe(0);
+    expect(result.failed).toBe(0);
     expect(result.results[0].duplicate).toBe(true);
   });
 
@@ -161,6 +163,8 @@ describe('SyncService', () => {
 
     expect(result.created).toBe(0);
     expect(result.duplicates).toBe(1);
+    expect(result.succeeded).toBe(0);
+    expect(result.failed).toBe(0);
     expect(result.results[0].duplicate).toBe(true);
   });
 
@@ -171,13 +175,13 @@ describe('SyncService', () => {
     });
 
     let findManyCalls = 0;
-    const originalFindMany = prisma.syncLog.findMany;
-    prisma.syncLog.findMany = vi.fn(async (...args: Parameters<typeof originalFindMany>) => {
+    const originalFindFirst = prisma.syncLog.findFirst;
+    prisma.syncLog.findFirst = vi.fn(async (...args: Parameters<typeof originalFindFirst>) => {
       findManyCalls += 1;
       if (findManyCalls === 1) {
         await findManyGate;
       }
-      return originalFindMany(...args);
+      return originalFindFirst(...args);
     });
 
     const payload = [
@@ -208,6 +212,8 @@ describe('SyncService', () => {
     expect(
       [firstResult.results[0].duplicate, secondResult.results[0].duplicate].filter(Boolean),
     ).toHaveLength(1);
+    expect(firstResult.succeeded + secondResult.succeeded).toBe(1);
+    expect(firstResult.failed + secondResult.failed).toBe(0);
   });
 
   it('marks failed when a reconcile item fails', async () => {
@@ -222,5 +228,7 @@ describe('SyncService', () => {
     ]);
 
     expect(result.status).toBe('failed');
+    expect(result.succeeded).toBe(0);
+    expect(result.failed).toBe(1);
   });
 });

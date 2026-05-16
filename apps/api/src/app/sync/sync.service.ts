@@ -22,6 +22,8 @@ export type ReconcileResult = {
   received: number;
   created: number;
   duplicates: number;
+  succeeded: number;
+  failed: number;
   results: ReconcileResultItem[];
 };
 
@@ -60,6 +62,8 @@ export class SyncService {
     const results: ReconcileResultItem[] = [];
     let created = 0;
     let duplicates = 0;
+    let succeeded = 0;
+    let failed = 0;
 
     for (const item of items) {
       const outcome = await this.withIdempotencyLock(item.idempotencyKey, () =>
@@ -70,6 +74,11 @@ export class SyncService {
         duplicates += 1;
       } else {
         created += 1;
+        if (outcome.result === SyncResult.SUCCESS) {
+          succeeded += 1;
+        } else {
+          failed += 1;
+        }
       }
 
       results.push(outcome);
@@ -82,26 +91,21 @@ export class SyncService {
       received: items.length,
       created,
       duplicates,
+      succeeded,
+      failed,
       results,
     };
   }
 
   private async findByIdempotency(item: ReconcileItemDto) {
-    const where = {
-      affectedEntity: item.affectedEntity,
-      affectedId: item.affectedId,
-      action: item.action,
-      ...(item.jobId ? { jobId: item.jobId } : {}),
-    };
-
-    const logs = await this.prisma.syncLog.findMany({
-      where,
+    return this.prisma.syncLog.findFirst({
+      where: {
+        affectedEntity: item.affectedEntity,
+        affectedId: item.affectedId,
+        action: item.action,
+        idempotencyKey: item.idempotencyKey,
+      },
       orderBy: { timestamp: 'desc' },
-    });
-
-    return logs.find((log) => {
-      const details = log.conflictDetails as { idempotencyKey?: string } | null;
-      return details?.idempotencyKey === item.idempotencyKey;
     });
   }
 
@@ -127,7 +131,7 @@ export class SyncService {
       };
     }
 
-    const result = item.result ?? SyncResult.SUCCESS;
+    const initialResult = item.result ?? SyncResult.SUCCESS;
     const now = new Date();
 
     const conflictDetails: Prisma.InputJsonValue = {
@@ -135,30 +139,58 @@ export class SyncService {
       payload: item.payload ?? null,
     };
 
-    const createdLog = await this.prisma.syncLog.create({
-      data: {
-        action: item.action,
-        affectedEntity: item.affectedEntity,
-        affectedId: item.affectedId,
-        result,
-        jobId: item.jobId,
-        conflictDetails,
-      },
-    });
+    try {
+      return await this.prisma.$transaction(async (tx) => {
+        const createdLog = await tx.syncLog.create({
+          data: {
+            action: item.action,
+            affectedEntity: item.affectedEntity,
+            affectedId: item.affectedId,
+            idempotencyKey: item.idempotencyKey,
+            result: initialResult,
+            jobId: item.jobId,
+            conflictDetails,
+          },
+        });
 
-    if (item.jobId && result === SyncResult.SUCCESS) {
-      await this.prisma.job.updateMany({
-        where: { id: item.jobId },
-        data: { lastSyncedAt: now },
+        let finalResult = createdLog.result;
+
+        if (item.jobId && initialResult === SyncResult.SUCCESS) {
+          const updateResult = await tx.job.updateMany({
+            where: { id: item.jobId },
+            data: { lastSyncedAt: now },
+          });
+
+          if (updateResult.count === 0) {
+            finalResult = SyncResult.FAIL;
+            await tx.syncLog.update({
+              where: { id: createdLog.id },
+              data: { result: finalResult },
+            });
+          }
+        }
+
+        return {
+          idempotencyKey: item.idempotencyKey,
+          logId: createdLog.id,
+          result: finalResult,
+          duplicate: false,
+        };
       });
+    } catch (error) {
+      if (this.isUniqueViolation(error)) {
+        const duplicate = await this.findByIdempotency(item);
+        if (duplicate) {
+          return {
+            idempotencyKey: item.idempotencyKey,
+            logId: duplicate.id,
+            result: duplicate.result,
+            duplicate: true,
+          };
+        }
+      }
+      throw error;
     }
-
-    return {
-      idempotencyKey: item.idempotencyKey,
-      logId: createdLog.id,
-      result: createdLog.result,
-      duplicate: false,
-    };
   }
 
   private async withIdempotencyLock<T>(
@@ -183,5 +215,12 @@ export class SyncService {
         this.idempotencyLocks.delete(key);
       }
     }
+  }
+
+  private isUniqueViolation(error: unknown): boolean {
+    return (
+      error instanceof Prisma.PrismaClientKnownRequestError &&
+      error.code === 'P2002'
+    );
   }
 }
