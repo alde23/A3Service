@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import Constants from 'expo-constants';
 import { API_URL } from './api.config';
 
 const TOKEN_KEY = 'A3S_AUTH_TOKEN';
@@ -17,12 +18,35 @@ type AuthContextShape = {
 
 const AuthContext = createContext<AuthContextShape | undefined>(undefined);
 
+type RuntimeA3SConfig = {
+  bypassLoginEnabled?: boolean;
+  bypassUsername?: string;
+  bypassUserId?: string;
+  bypassToken?: string;
+};
+
+const runtimeA3SConfig = (Constants.expoConfig?.extra?.a3s ??
+  {}) as RuntimeA3SConfig;
+const devBypassEnabled = __DEV__ && runtimeA3SConfig.bypassLoginEnabled === true;
+const devBypassUser = {
+  id: runtimeA3SConfig.bypassUserId || 'tech-demo',
+  username: runtimeA3SConfig.bypassUsername || 'demo-tech',
+};
+const devBypassToken = runtimeA3SConfig.bypassToken || 'dev-bypass-token';
+
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [token, setToken] = useState<string | null>(null);
   const [user, setUser] = useState<User>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    if (devBypassEnabled) {
+      setToken(devBypassToken);
+      setUser(devBypassUser);
+      setLoading(false);
+      return;
+    }
+
     (async () => {
       try {
         const storedToken = await AsyncStorage.getItem(TOKEN_KEY);
@@ -56,6 +80,15 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   }, []);
 
   const login = async (email: string, password: string) => {
+    if (devBypassEnabled) {
+      setToken(devBypassToken);
+      setUser({
+        ...devBypassUser,
+        username: email || devBypassUser.username,
+      });
+      return true;
+    }
+
     setLoading(true);
     try {
       const res = await fetch(`${API_URL}/auth/login`, {
@@ -81,6 +114,10 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   const logout = async () => {
+    if (devBypassEnabled) {
+      return;
+    }
+
     setLoading(true);
     try {
       await AsyncStorage.multiRemove([TOKEN_KEY, USER_KEY]);
