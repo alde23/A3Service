@@ -44,6 +44,12 @@ enum SyncResult {
   FAIL
 }
 
+enum IngestionStatus {
+  PENDING
+  COMPLETED
+  FAILED
+}
+
 // ─────────────────────────────────────────
 // AUTH MODELS
 // ─────────────────────────────────────────
@@ -228,11 +234,18 @@ model BoilerModel {
   manufacturerId String?
   modelName      String
   isDeleted      Boolean @default(false)
-  // TODO(sprint-2): series, fuelType, productionYears, compatibleParts, faultCodes
+  series               String?
+  fuelType             String?
+  productionStartYear  Int?
+  productionEndYear    Int?
 
   warranties Warranty[]
   manuals    Manual[]
+  modelFaultCodes ModelFaultCode[]
+  modelParts     ModelPart[]
 
+  @@index([manufacturerId])
+  @@index([modelName])
   @@map("boiler_models")
 }
 
@@ -241,8 +254,14 @@ model Part {
   sku       String
   name      String
   isDeleted Boolean @default(false)
-  // TODO(sprint-2): brand, unitPrice, aliases, inventoryStatus, compatibleModels
+  brand         String?
+  unitPrice     Decimal? @db.Decimal(10, 2)
+  aliases       String[]
+  inventoryStatus String?
 
+  modelParts ModelPart[]
+
+  @@unique([sku])
   @@map("parts")
 }
 
@@ -250,8 +269,12 @@ model FaultCode {
   id    String @id @default(uuid(7))
   code  String
   title String
-  // TODO(sprint-2): description, severity, relatedMeasurements, referenceTables
+  description String?
+  severity    String?
 
+  modelFaultCodes ModelFaultCode[]
+
+  @@unique([code])
   @@map("fault_codes")
 }
 
@@ -269,12 +292,53 @@ model Warranty {
 model Manual {
   id            String @id @default(uuid(7))
   boilerModelId String
-  // TODO(sprint-2): version, language, sourceUrl, addedDate, validateExtraction bool
+  version     String?
+  language    String?
+  sourceUrl   String?
+  addedAt     DateTime @default(now())
+  isValidated Boolean  @default(false)
 
   boilerModel BoilerModel @relation(fields: [boilerModelId], references: [id])
 
   @@index([boilerModelId])
   @@map("manuals")
+}
+
+model ModelFaultCode {
+  modelId     String
+  faultCodeId String
+
+  model     BoilerModel @relation(fields: [modelId], references: [id])
+  faultCode FaultCode   @relation(fields: [faultCodeId], references: [id])
+
+  @@id([modelId, faultCodeId])
+  @@index([faultCodeId])
+  @@map("model_fault_codes")
+}
+
+model ModelPart {
+  modelId String
+  partId  String
+
+  model BoilerModel @relation(fields: [modelId], references: [id])
+  part  Part        @relation(fields: [partId], references: [id])
+
+  @@id([modelId, partId])
+  @@index([partId])
+  @@map("model_parts")
+}
+
+model LibraryIngestionRun {
+  id            String          @id @default(uuid(7))
+  status        IngestionStatus @default(PENDING)
+  sourceVersion String?
+  acceptedCount Int             @default(0)
+  rejectedCount Int             @default(0)
+  createdAt     DateTime        @default(now())
+  completedAt   DateTime?
+  errorSummary  Json?
+
+  @@map("library_ingestion_runs")
 }
 
 
