@@ -1,4 +1,4 @@
-import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { Prisma, IngestionStatus } from '../../generated/prisma/client';
 import { PrismaService } from '../../prisma/prisma.service';
 import type {
@@ -24,6 +24,22 @@ import type {
   LibraryPartResponse,
   LibrarySearchResponse,
 } from './dto/library-response.dto';
+
+type ModelWithRelations = Prisma.BoilerModelGetPayload<{
+  include: {
+    modelParts: { include: { part: true } };
+    modelFaultCodes: { include: { faultCode: true } };
+    manuals: true;
+  };
+}>;
+
+type ModelWithOptionalManuals = Omit<ModelWithRelations, 'manuals'> & {
+  manuals?: ModelWithRelations['manuals'];
+};
+
+type PartRecord = Prisma.PartGetPayload<Prisma.PartDefaultArgs>;
+type FaultRecord = Prisma.FaultCodeGetPayload<Prisma.FaultCodeDefaultArgs>;
+type ManualRecord = Prisma.ManualGetPayload<Prisma.ManualDefaultArgs>;
 
 @Injectable()
 export class LibraryService {
@@ -378,7 +394,7 @@ export class LibraryService {
     return where;
   }
 
-  private mapModel(model: any, includeManuals = false): LibraryModelDto {
+  private mapModel(model: ModelWithOptionalManuals, includeManuals = false): LibraryModelDto {
     return {
       id: model.id,
       manufacturerId: model.manufacturerId ?? null,
@@ -387,17 +403,17 @@ export class LibraryService {
       fuelType: model.fuelType ?? null,
       productionStartYear: model.productionStartYear ?? null,
       productionEndYear: model.productionEndYear ?? null,
-      parts: (model.modelParts ?? []).map((link: any) => this.mapPart(link.part)),
-      faultCodes: (model.modelFaultCodes ?? []).map((link: any) =>
+      parts: (model.modelParts ?? []).map((link) => this.mapPart(link.part)),
+      faultCodes: (model.modelFaultCodes ?? []).map((link) =>
         this.mapFault(link.faultCode),
       ),
       manuals: includeManuals
-        ? (model.manuals ?? []).map((manual: any) => this.mapManual(manual))
+        ? (model.manuals ?? []).map((manual) => this.mapManual(manual))
         : undefined,
     };
   }
 
-  private mapPart(part: any): LibraryPartDto {
+  private mapPart(part: PartRecord): LibraryPartDto {
     return {
       id: part.id,
       sku: part.sku,
@@ -409,7 +425,7 @@ export class LibraryService {
     };
   }
 
-  private mapFault(fault: any): LibraryFaultDto {
+  private mapFault(fault: FaultRecord): LibraryFaultDto {
     return {
       id: fault.id,
       code: fault.code,
@@ -419,7 +435,7 @@ export class LibraryService {
     };
   }
 
-  private mapManual(manual: any): LibraryManualDto {
+  private mapManual(manual: ManualRecord): LibraryManualDto {
     return {
       id: manual.id,
       boilerModelId: manual.boilerModelId,

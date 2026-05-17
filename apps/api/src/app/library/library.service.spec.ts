@@ -1,5 +1,6 @@
 import { describe, expect, it, vi, beforeEach } from 'vitest';
 import { IngestionStatus } from '../../generated/prisma/client';
+import type { PrismaService } from '../../prisma/prisma.service';
 import { LibraryService } from './library.service';
 
 const makePrisma = () => ({
@@ -35,14 +36,17 @@ const makePrisma = () => ({
   $transaction: vi.fn(),
 });
 
+type PrismaMock = ReturnType<typeof makePrisma>;
+type TransactionCallback = (tx: PrismaMock) => Promise<unknown> | unknown;
+
 describe('LibraryService', () => {
   let prisma: ReturnType<typeof makePrisma>;
   let service: LibraryService;
 
   beforeEach(() => {
     prisma = makePrisma();
-    prisma.$transaction = vi.fn(async (cb: any) => cb(prisma));
-    service = new LibraryService(prisma as any);
+    prisma.$transaction = vi.fn(async (cb: TransactionCallback) => cb(prisma));
+    service = new LibraryService(prisma as unknown as PrismaService);
   });
 
   it('search returns paged results with stable ordering', async () => {
