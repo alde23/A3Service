@@ -113,7 +113,14 @@ export class LibraryService {
 
     const links = await this.prisma.modelFaultCode.findMany({
       where: { faultCodeId: fault.id },
-      include: { model: true },
+      include: {
+        model: {
+          include: {
+            modelParts: { include: { part: true } },
+            modelFaultCodes: { include: { faultCode: true } },
+          },
+        },
+      },
     });
 
     return {
@@ -130,7 +137,14 @@ export class LibraryService {
 
     const links = await this.prisma.modelPart.findMany({
       where: { partId: part.id },
-      include: { model: true },
+      include: {
+        model: {
+          include: {
+            modelParts: { include: { part: true } },
+            modelFaultCodes: { include: { faultCode: true } },
+          },
+        },
+      },
     });
 
     return {
