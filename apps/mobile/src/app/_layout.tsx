@@ -3,8 +3,6 @@ import { Tabs } from 'expo-router';
 import type { ComponentProps } from 'react';
 import { Platform, View, ActivityIndicator } from 'react-native';
 import { AuthProvider, useAuth } from '../services/auth.service';
-import LoginScreen from './login';
-import LanguageToggle from './LanguageToggle';
 import '../i18n';
 import { useTranslation } from 'react-i18next';
 
@@ -81,24 +79,27 @@ function AppTabs() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="settings"
+        options={{
+          title: t('tabs.settings'),
+          tabBarIcon: ({ color, size }) => (
+            <TabIcon name="settings-outline" color={color} size={size} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
 
 function GuardedRoot() {
-  const { user, loading } = useAuth();
+  const { loading } = useAuth();
   if (loading) return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <ActivityIndicator />
     </View>
   );
-  if (!user) return <LoginScreen />;
-  return (
-    <View style={{ flex: 1 }}>
-      <LanguageToggle />
-      <AppTabs />
-    </View>
-  );
+  return <AppTabs />;
 }
 
 export default function RootLayout() {

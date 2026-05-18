@@ -3,6 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const TOKEN_KEY = 'A3S_AUTH_TOKEN';
 const USER_KEY = 'A3S_AUTH_USER';
+const BYPASS_MODE = true; // Set to false to disable login bypass
 
 type User = { id?: string; username?: string } | null;
 
@@ -26,6 +27,16 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   useEffect(() => {
     (async () => {
       try {
+        // Bypass mode for development - automatically set a test user
+        if (BYPASS_MODE) {
+          const testUser = { id: 'test-user', username: 'dev-user' };
+          const testToken = 'dev-token-bypass';
+          setToken(testToken);
+          setUser(testUser);
+          setLoading(false);
+          return;
+        }
+
         const storedToken = await AsyncStorage.getItem(TOKEN_KEY);
         const storedUser = await AsyncStorage.getItem(USER_KEY);
         if (storedToken) {
@@ -59,6 +70,17 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const login = async (username: string, password: string) => {
     setLoading(true);
     try {
+      // Bypass mode - accept any credentials
+      if (BYPASS_MODE) {
+        const testUser = { id: 'test-user', username: username || 'dev-user' };
+        const testToken = 'dev-token-bypass';
+        await AsyncStorage.setItem(TOKEN_KEY, testToken);
+        await AsyncStorage.setItem(USER_KEY, JSON.stringify(testUser));
+        setToken(testToken);
+        setUser(testUser);
+        return true;
+      }
+
       const res = await fetch(`${API_URL}/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
