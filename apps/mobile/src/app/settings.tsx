@@ -57,7 +57,7 @@ export default function SettingsScreen() {
       setDarkMode(newMode);
       await AsyncStorage.setItem(STORAGE_KEYS.darkMode, JSON.stringify(newMode));
     } catch (e) {
-      // ignore
+      // ignore this
     }
   };
 
