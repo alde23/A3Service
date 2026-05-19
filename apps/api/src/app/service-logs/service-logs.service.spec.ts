@@ -93,7 +93,7 @@ describe('ServiceLogService', () => {
     });
 
     const result = await service.create(
-      { sub: 'tech-1', role: UserRole.TECHNICIAN },
+      { sub: 'tech-1', email: 'tech-1@a3.local', role: UserRole.TECHNICIAN },
       {
         jobId: 'job-1',
         laborEntries: [{ hours: 2, hourlyRate: 100 }],
@@ -131,7 +131,7 @@ describe('ServiceLogService', () => {
     });
 
     const result = await service.sync(
-      { sub: 'tech-1', role: UserRole.TECHNICIAN },
+      { sub: 'tech-1', email: 'tech-1@a3.local', role: UserRole.TECHNICIAN },
       'log-1',
       { idempotencyKey: 'dup-key', jobId: 'job-1' },
     );
@@ -160,7 +160,7 @@ describe('ServiceLogService', () => {
 
     await expect(
       service.update(
-        { sub: 'tech-1', role: UserRole.TECHNICIAN },
+        { sub: 'tech-1', email: 'tech-1@a3.local', role: UserRole.TECHNICIAN },
         'log-1',
         { laborEntries: [{ hours: 1, hourlyRate: 50 }] },
       ),
