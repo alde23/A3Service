@@ -177,6 +177,7 @@ const SEED = {
   syncLogs: [
     {
       id:             '0197f8a0-0006-7000-8000-000000000001',
+      idempotencyKey: 'seed-sync-1',
       action:         SyncAction.UPLOAD,
       affectedEntity: 'Job',
       affectedId:     '0197f8a0-0004-7000-8000-000000000004',
@@ -185,6 +186,7 @@ const SEED = {
     },
     {
       id:              '0197f8a0-0006-7000-8000-000000000002',
+      idempotencyKey:  'seed-sync-2',
       action:          SyncAction.UPLOAD,
       affectedEntity:  'Job',
       affectedId:      '0197f8a0-0004-7000-8000-000000000002',

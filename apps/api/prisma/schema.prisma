@@ -187,6 +187,7 @@ model SyncLog {
 
   affectedEntity String
   affectedId     String
+  idempotencyKey String
 
   result          SyncResult
   conflictDetails Json?
@@ -196,6 +197,7 @@ model SyncLog {
 
   @@index([jobId])
   @@index([affectedEntity, affectedId])
+  @@unique([affectedEntity, affectedId, action, idempotencyKey])
   @@map("sync_logs")
 }
 

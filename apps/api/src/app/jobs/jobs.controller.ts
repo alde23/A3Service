@@ -20,6 +20,7 @@ import { RolesGuard } from '../../rbac/roles.guard';
 import { SchedulingService } from '../scheduling/scheduling.service';
 import { CreateJobDto } from './dto/create-job.dto';
 import { UpdateJobDto } from './dto/update-job.dto';
+import { UpdateJobStatusDto } from './dto/update-job-status.dto';
 import { JobsService } from './jobs.service';
 
 @Controller('jobs')
@@ -98,6 +99,16 @@ export class JobsController {
     @Req() req: AuthenticatedRequest,
   ) {
     return this.jobsService.update(id, dto, req.user);
+  }
+
+  @Patch(':id/status')
+  @Roles(UserRole.MANAGER, UserRole.TECHNICIAN)
+  updateStatus(
+    @Param('id', new ParseUUIDPipe({ version: '7' })) id: string,
+    @Body() dto: UpdateJobStatusDto,
+    @Req() req: AuthenticatedRequest,
+  ) {
+    return this.jobsService.updateStatus(id, dto, req.user);
   }
 
   @Delete(':id')
