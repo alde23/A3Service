@@ -5,6 +5,7 @@ import type { AuthenticatedUser } from '../../auth/jwt.types';
 import { SchedulingService } from '../scheduling/scheduling.service';
 import { CreateJobDto } from './dto/create-job.dto';
 import { UpdateJobDto } from './dto/update-job.dto';
+import { UpdateJobStatusDto } from './dto/update-job-status.dto';
 
 @Injectable()
 export class JobsService {
@@ -148,6 +149,27 @@ export class JobsService {
     } catch {
       throw new NotFoundException('Job not found');
     }
+  }
+
+  async updateStatus(id: string, dto: UpdateJobStatusDto, user: AuthenticatedUser) {
+    if (!dto?.status || !Object.values(JobStatus).includes(dto.status)) {
+      throw new BadRequestException('status is invalid');
+    }
+
+    const job = this.isManager(user)
+      ? await this.prisma.job.findFirst({ where: { id, isDeleted: false } })
+      : await this.prisma.job.findFirst({
+          where: { id, technicianId: user.sub, isDeleted: false },
+        });
+
+    if (!job) {
+      throw new NotFoundException('Job not found');
+    }
+
+    return this.prisma.job.update({
+      where: { id: job.id },
+      data: { status: dto.status },
+    });
   }
 
   async remove(id: string) {
