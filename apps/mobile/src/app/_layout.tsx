@@ -3,6 +3,7 @@ import { Tabs } from 'expo-router';
 import type { ComponentProps } from 'react';
 import { Platform, View, ActivityIndicator } from 'react-native';
 import { AuthProvider, useAuth } from '../services/auth.service';
+import { DatabaseProvider } from '../storage/DatabaseProvider';
 import '../i18n';
 import { useTranslation } from 'react-i18next';
 
@@ -104,8 +105,10 @@ function GuardedRoot() {
 
 export default function RootLayout() {
   return (
-    <AuthProvider>
-      <GuardedRoot />
-    </AuthProvider>
+    <DatabaseProvider>
+      <AuthProvider>
+        <GuardedRoot />
+      </AuthProvider>
+    </DatabaseProvider>
   );
 }
