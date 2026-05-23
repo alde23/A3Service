@@ -13,6 +13,7 @@ import { SchedulingModule } from './scheduling/scheduling.module';
 import { LibraryModule } from './library/library.module';
 import { ServiceLogsModule } from './service-logs/service-logs.module';
 import { SyncModule } from './sync/sync.module';
+import { AnalyticsModule } from './analytics/analytics.module';
 
 @Module({
   imports: [
@@ -28,6 +29,7 @@ import { SyncModule } from './sync/sync.module';
     LibraryModule,
     ServiceLogsModule,
     SyncModule,
+    AnalyticsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
