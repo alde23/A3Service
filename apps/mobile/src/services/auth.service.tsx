@@ -5,7 +5,6 @@ import { API_URL } from './api.config';
 
 const TOKEN_KEY = 'A3S_AUTH_TOKEN';
 const USER_KEY = 'A3S_AUTH_USER';
-const BYPASS_MODE = true; // Set to false to disable login bypass
 
 type User = { id?: string; username?: string } | null;
 
@@ -29,42 +28,63 @@ type RuntimeA3SConfig = {
 const runtimeA3SConfig = (Constants.expoConfig?.extra?.a3s ??
   {}) as RuntimeA3SConfig;
 const devBypassEnabled = __DEV__ && runtimeA3SConfig.bypassLoginEnabled === true;
-const devBypassUser = {
-  id: runtimeA3SConfig.bypassUserId || 'tech-demo',
-  username: runtimeA3SConfig.bypassUsername || 'demo-tech',
-};
 const devBypassToken = runtimeA3SConfig.bypassToken || 'dev-bypass-token';
+
+function buildDevBypassUser(usernameOverride?: string) {
+  return {
+    id: runtimeA3SConfig.bypassUserId || 'tech-demo',
+    username: usernameOverride || runtimeA3SConfig.bypassUsername || 'demo-tech',
+  };
+}
+
+function parseStoredUser(raw: string | null): User {
+  if (!raw) {
+    return null;
+  }
+
+  try {
+    return JSON.parse(raw) as User;
+  } catch {
+    return null;
+  }
+}
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [token, setToken] = useState<string | null>(null);
   const [user, setUser] = useState<User>(null);
   const [loading, setLoading] = useState(true);
 
+  const setSession = (nextToken: string, nextUser: NonNullable<User>) => {
+    setToken(nextToken);
+    setUser(nextUser);
+  };
+
+  const persistSession = async (nextToken: string, nextUser: NonNullable<User>) => {
+    await AsyncStorage.multiSet([
+      [TOKEN_KEY, nextToken],
+      [USER_KEY, JSON.stringify(nextUser)],
+    ]);
+  };
+
   useEffect(() => {
     if (devBypassEnabled) {
-      setToken(devBypassToken);
-      setUser(devBypassUser);
+      setSession(devBypassToken, buildDevBypassUser());
       setLoading(false);
       return;
     }
 
     (async () => {
       try {
-        // Bypass mode for development - automatically set a test user
-        if (BYPASS_MODE) {
-          const testUser = { id: 'test-user', username: 'dev-user' };
-          const testToken = 'dev-token-bypass';
-          setToken(testToken);
-          setUser(testUser);
-          setLoading(false);
-          return;
-        }
-
         const storedToken = await AsyncStorage.getItem(TOKEN_KEY);
-        const storedUser = await AsyncStorage.getItem(USER_KEY);
+        const storedUserRaw = await AsyncStorage.getItem(USER_KEY);
+        const storedUser = parseStoredUser(storedUserRaw);
+
         if (storedToken) {
           setToken(storedToken);
-          if (storedUser) setUser(JSON.parse(storedUser));
+          if (storedUser) {
+            setUser(storedUser);
+          }
+
           // Optionally validate token with backend
           try {
             const res = await fetch(`${API_URL}/auth/me`, {
@@ -78,11 +98,11 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
               const me = await res.json();
               setUser(me);
             }
-          } catch (e) {
+          } catch {
             // network error - keep locally stored state and allow user to continue offline
           }
         }
-      } catch (e) {
+      } catch {
         // ignore read errors
       } finally {
         setLoading(false);
@@ -92,27 +112,12 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const login = async (email: string, password: string) => {
     if (devBypassEnabled) {
-      setToken(devBypassToken);
-      setUser({
-        ...devBypassUser,
-        username: email || devBypassUser.username,
-      });
+      setSession(devBypassToken, buildDevBypassUser(email));
       return true;
     }
 
     setLoading(true);
     try {
-      // Bypass mode - accept any credentials
-      if (BYPASS_MODE) {
-        const testUser = { id: 'test-user', username: username || 'dev-user' };
-        const testToken = 'dev-token-bypass';
-        await AsyncStorage.setItem(TOKEN_KEY, testToken);
-        await AsyncStorage.setItem(USER_KEY, JSON.stringify(testUser));
-        setToken(testToken);
-        setUser(testUser);
-        return true;
-      }
-
       const res = await fetch(`${API_URL}/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -121,14 +126,12 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       if (!res.ok) return false;
       const body = await res.json();
       const t = body.token ?? body.accessToken ?? body.access_token ?? null;
-      const u = body.user ?? { email };
+      const u = body.user ?? { username: email };
       if (!t) return false;
-      await AsyncStorage.setItem(TOKEN_KEY, t);
-      await AsyncStorage.setItem(USER_KEY, JSON.stringify(u));
-      setToken(t);
-      setUser(u);
+      await persistSession(t, u);
+      setSession(t, u);
       return true;
-    } catch (e) {
+    } catch {
       return false;
     } finally {
       setLoading(false);
