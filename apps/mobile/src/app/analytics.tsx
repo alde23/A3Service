@@ -8,6 +8,7 @@ import {
   Text,
   View,
 } from 'react-native';
+import { useTranslation } from 'react-i18next';
 
 type MetricCard = {
   label: string;
@@ -77,6 +78,7 @@ function toneStyles(tone: MetricCard['tone']) {
 }
 
 export default function AnalyticsScreen() {
+  const { t } = useTranslation();
   const jobsTotal = useMemo(
     () => MONTHLY_DATA.reduce((sum, point) => sum + point.jobs, 0),
     []
@@ -99,12 +101,10 @@ export default function AnalyticsScreen() {
           <View style={styles.iconWrap}>
             <Ionicons name="bar-chart-outline" size={18} color="#0f172a" />
           </View>
-          <Text style={styles.headerTitle}>Analytics</Text>
+          <Text style={styles.headerTitle}>{t('analytics.title')}</Text>
         </View>
 
-        <Text style={styles.headerCopy}>
-          Track the numbers behind jobs, fault patterns, and service demand.
-        </Text>
+        <Text style={styles.headerCopy}>{t('analytics.header_copy')}</Text>
 
         <View style={styles.topActions}>
           <View style={styles.filterPillRow}>
@@ -127,7 +127,7 @@ export default function AnalyticsScreen() {
 
           <Pressable style={styles.exportButton}>
             <Ionicons name="download-outline" size={16} color="#0f172a" />
-            <Text style={styles.exportButtonText}>EXPORT</Text>
+            <Text style={styles.exportButtonText}>{t('analytics.export')}</Text>
           </Pressable>
         </View>
       </View>
@@ -140,8 +140,8 @@ export default function AnalyticsScreen() {
         <View style={styles.summaryCard}>
           <View style={styles.summaryTopRow}>
             <View>
-              <Text style={styles.summaryLabel}>Year-to-date volume</Text>
-              <Text style={styles.summaryValue}>{jobsTotal.toLocaleString()} jobs</Text>
+              <Text style={styles.summaryLabel}>{t('analytics.year_to_date')}</Text>
+              <Text style={styles.summaryValue}>{t('analytics.jobs_count', { count: jobsTotal.toLocaleString() })}</Text>
             </View>
             <View style={styles.summaryBadge}>
               <Text style={styles.summaryBadgeText}>+18% vs last year</Text>

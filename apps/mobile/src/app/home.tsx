@@ -9,6 +9,7 @@ import {
   View,
 } from 'react-native';
 import MapView, { Marker, Polyline, PROVIDER_GOOGLE } from 'react-native-maps';
+import { useTranslation } from 'react-i18next';
 
 type JobOnMap = {
   id: string;
@@ -51,6 +52,7 @@ const JOBS_ON_MAP: JobOnMap[] = [
 ];
 
 export default function HomeScreen() {
+  const { t } = useTranslation();
   const nextJob = useMemo(
     () => [...JOBS_ON_MAP].sort((a, b) => a.distanceMi - b.distanceMi)[0],
     []
@@ -79,19 +81,19 @@ export default function HomeScreen() {
           strokeWidth={6}
         />
 
-        <Marker
+            <Marker
           coordinate={CURRENT_LOCATION}
-          title="You"
-          description="Current location"
+          title={t('map.you')}
+          description={t('map.current_location')}
           pinColor="#2563eb"
         />
 
         {JOBS_ON_MAP.map((job) => (
-          <Marker
+            <Marker
             key={job.id}
             coordinate={job.coordinate}
             title={job.name}
-            description={`${job.id} · ${job.status}`}
+            description={`${job.id} · ${t(`status.${job.status}`)}`}
             pinColor={job.status === 'active' ? '#dc2626' : '#f59e0b'}
           />
         ))}
@@ -103,7 +105,7 @@ export default function HomeScreen() {
             <View style={styles.homeIconWrap}>
               <Ionicons name="home-outline" size={16} color="#111827" />
             </View>
-            <Text style={styles.homeTitle}>Home</Text>
+            <Text style={styles.homeTitle}>{t('home.title')}</Text>
           </View>
 
           <View style={styles.destinationCard}>
@@ -112,7 +114,7 @@ export default function HomeScreen() {
             </View>
 
             <View style={styles.cardMainTextWrap}>
-              <Text style={styles.distanceText}>{nextJob.distanceMi.toFixed(1)} mi</Text>
+              <Text style={styles.distanceText}>{nextJob.distanceMi.toFixed(1)} {t('unit.mi')}</Text>
               <Text style={styles.placeNameText}>{nextJob.name}</Text>
             </View>
 
@@ -135,7 +137,7 @@ export default function HomeScreen() {
         </View>
 
         <View style={styles.bottomStatsCard}>
-          <Text style={styles.bottomStatsText}>{JOBS_ON_MAP.length} jobs visible on map</Text>
+          <Text style={styles.bottomStatsText}>{t('home.jobs_visible', { count: JOBS_ON_MAP.length })}</Text>
         </View>
       </View>
     </SafeAreaView>

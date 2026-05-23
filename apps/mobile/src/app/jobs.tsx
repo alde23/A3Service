@@ -8,6 +8,7 @@ import {
   Text,
   View,
 } from 'react-native';
+import { useTranslation } from 'react-i18next';
 import {
   createJob,
   ensureJobsSeeded,
@@ -41,38 +42,13 @@ function nextStatus(status: JobStatus): JobStatus {
   return 'completed';
 }
 
-function statusLabel(status: JobStatus) {
-  if (status === 'not-started') {
-    return 'Upcoming';
-  }
-  if (status === 'in-progress') {
-    return 'Active';
-  }
-  if (status === 'cancelled') {
-    return 'Cancelled';
-  }
-  return 'Completed';
-}
-
-function actionLabel(status: JobStatus) {
-  if (status === 'not-started') {
-    return 'Start Job';
-  }
-  if (status === 'in-progress') {
-    return 'Complete Job';
-  }
-  if (status === 'cancelled') {
-    return 'Cancelled';
-  }
-  return 'Completed';
-}
-
 function displayJobId(id: string) {
   return `JOB-${id.slice(0, 6).toUpperCase()}`;
 }
 
 export default function JobsScreen() {
   const { token } = useAuth();
+  const { t } = useTranslation();
   const [jobs, setJobs] = useState<Job[]>([]);
   const [pendingSyncCount, setPendingSyncCount] = useState(0);
   const [isCreating, setIsCreating] = useState(false);
@@ -109,10 +85,14 @@ export default function JobsScreen() {
         try {
           const summary = await syncJobsWithServer(token);
           setSyncMessage(
-            `Sync complete: pulled ${summary.pulled}, pushed ${summary.pushed}, failed ${summary.failed}`
+            t('jobs.syncComplete', {
+              pulled: summary.pulled,
+              pushed: summary.pushed,
+              failed: summary.failed,
+            })
           );
         } catch {
-          setSyncMessage('Sync failed. Local data is still available.');
+          setSyncMessage(t('jobs.syncFailedLocal'));
         } finally {
           setIsSyncing(false);
         }
@@ -172,7 +152,7 @@ export default function JobsScreen() {
 
   const onSyncNow = async () => {
     if (!token) {
-      setSyncMessage('Sign in to sync with server.');
+      setSyncMessage(t('jobs.syncSignIn'));
       return;
     }
 
@@ -180,10 +160,14 @@ export default function JobsScreen() {
     try {
       const summary = await syncJobsWithServer(token);
       setSyncMessage(
-        `Sync complete: pulled ${summary.pulled}, pushed ${summary.pushed}, failed ${summary.failed}`
+        t('jobs.syncComplete', {
+          pulled: summary.pulled,
+          pushed: summary.pushed,
+          failed: summary.failed,
+        })
       );
     } catch {
-      setSyncMessage('Sync failed. Check API URL or auth token.');
+      setSyncMessage(t('jobs.syncFailedAuth'));
     } finally {
       setIsSyncing(false);
     }
@@ -196,7 +180,7 @@ export default function JobsScreen() {
           <View style={styles.headerIconWrap}>
             <Ionicons name="briefcase-outline" size={18} color="#0f172a" />
           </View>
-          <Text style={styles.headerTitle}>Jobs</Text>
+          <Text style={styles.headerTitle}>{t('jobs.title')}</Text>
         </View>
 
         <Pressable
@@ -205,12 +189,12 @@ export default function JobsScreen() {
           disabled={isCreating}
         >
           <Text style={styles.createButtonText}>
-            {isCreating ? 'CREATING...' : 'CREATE A JOB'}
+            {isCreating ? t('jobs.creating') : t('jobs.create')}
           </Text>
         </Pressable>
 
         <Text style={styles.syncStateText}>
-          {pendingSyncCount} pending sync {pendingSyncCount === 1 ? 'item' : 'items'}
+          {t('jobs.pendingSync', { count: pendingSyncCount })}
         </Text>
 
         <Pressable
@@ -219,7 +203,7 @@ export default function JobsScreen() {
           disabled={isSyncing}
         >
           <Text style={styles.syncButtonText}>
-            {isSyncing ? 'SYNCING...' : 'SYNC NOW'}
+            {isSyncing ? t('jobs.syncing') : t('jobs.syncNow')}
           </Text>
         </Pressable>
         {!!syncMessage && <Text style={styles.syncStateText}>{syncMessage}</Text>}
@@ -231,9 +215,9 @@ export default function JobsScreen() {
         showsVerticalScrollIndicator={false}
       >
         <View style={styles.sectionHeaderRow}>
-          <Text style={styles.sectionTitle}>Today&apos;s Jobs</Text>
+          <Text style={styles.sectionTitle}>{t('jobs.today_title')}</Text>
           <View style={styles.counterPill}>
-            <Text style={styles.counterText}>{todayJobsCount} jobs</Text>
+            <Text style={styles.counterText}>{t('jobs.count', { count: todayJobsCount })}</Text>
           </View>
         </View>
 
@@ -285,7 +269,13 @@ export default function JobsScreen() {
                             : styles.statusUpcomingText,
                       ]}
                     >
-                      {statusLabel(normalizedStatus)}
+                      {isInProgress
+                        ? t('status.active')
+                        : isCompleted
+                          ? t('status.completed')
+                          : isCancelled
+                            ? t('status.cancelled')
+                            : t('status.upcoming')}
                     </Text>
                   </View>
                 </View>
@@ -301,7 +291,7 @@ export default function JobsScreen() {
                 </View>
                 <View style={styles.metaItem}>
                   <Ionicons name="hourglass-outline" size={12} color="#64748b" />
-                  <Text style={styles.metaText}>{job.durationMinutes} min</Text>
+                  <Text style={styles.metaText}>{job.durationMinutes} {t('unit.min')}</Text>
                 </View>
               </View>
 
@@ -332,7 +322,15 @@ export default function JobsScreen() {
                         : styles.startButtonText,
                   ]}
                 >
-                  {isUpdating ? 'UPDATING...' : actionLabel(normalizedStatus)}
+                  {isUpdating
+                    ? t('jobs.updating')
+                    : isInProgress
+                      ? t('jobs.continue')
+                      : isCompleted
+                        ? t('status.completed')
+                        : isCancelled
+                          ? t('status.cancelled')
+                          : t('jobs.start')}
                 </Text>
               </Pressable>
             </View>
