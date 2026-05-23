@@ -99,14 +99,29 @@ export class AnalyticsService {
     };
   }
 
+  private isValidIsoDateString(value: string): boolean {
+    const isoDateOnlyPattern = /^\d{4}-\d{2}-\d{2}$/;
+    const isoDateTimePattern =
+      /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?(?:Z|[+-]\d{2}:\d{2})$/;
+
+    if (!isoDateOnlyPattern.test(value) && !isoDateTimePattern.test(value)) {
+      return false;
+    }
+
+    return !Number.isNaN(new Date(value).getTime());
+  }
+
   private resolvePeriod(query: AnalyticsQueryDto): AnalyticsPeriodMeta {
     const period: AnalyticsPeriod = query.period ?? 'day';
-    const start = query.start ? new Date(query.start) : null;
-    const end = query.end ? new Date(query.end) : null;
+    const hasInvalidStart = query.start != null && !this.isValidIsoDateString(query.start);
+    const hasInvalidEnd = query.end != null && !this.isValidIsoDateString(query.end);
 
-    if ((start && Number.isNaN(start.getTime())) || (end && Number.isNaN(end.getTime()))) {
+    if (hasInvalidStart || hasInvalidEnd) {
       throw new BadRequestException('start and end must be valid ISO date strings');
     }
+
+    const start = query.start ? new Date(query.start) : null;
+    const end = query.end ? new Date(query.end) : null;
 
     if ((start && !end) || (!start && end)) {
       throw new BadRequestException('start and end must be provided together');
