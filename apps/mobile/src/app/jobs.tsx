@@ -1,5 +1,5 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
-import { useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import {
   Pressable,
   SafeAreaView,
@@ -9,89 +9,169 @@ import {
   View,
 } from 'react-native';
 import { useTranslation } from 'react-i18next';
+import {
+  createJob,
+  ensureJobsSeeded,
+  observeJobs,
+  type JobStatus,
+  updateJobStatus,
+} from '../storage/repositories/jobs.repository';
+import Job from '../storage/models/Job';
+import { observePendingSyncCount } from '../storage/repositories/sync-queue.repository';
+import { useAuth } from '../services/auth.service';
+import { syncJobsWithServer } from '../services/jobs-sync.service';
 
-type JobStatus = 'not-started' | 'in-progress';
-type JobPriority = 'high' | 'medium' | 'low';
-
-type JobItem = {
-  id: string;
-  company: string;
-  description?: string;
-  scheduledAt: string;
-  distanceKm?: number;
-  status: JobStatus;
-  priority: JobPriority;
-};
-
-const MOCK_JOBS: JobItem[] = [
-  {
-    id: 'JOB-1567',
-    company: 'Acme Corporation',
-    description: 'AC not cooling properly',
-    scheduledAt: '2026-04-19T10:00:00.000Z',
-    distanceKm: 2.3,
-    status: 'in-progress',
-    priority: 'high',
-  },
-  {
-    id: 'JOB-1570',
-    company: 'Tech Solutions Ltd',
-    description: 'Refrigerator making noise',
-    scheduledAt: '2026-04-19T14:00:00.000Z',
-    distanceKm: 4.5,
-    status: 'not-started',
-    priority: 'medium',
-  },
-  {
-    id: 'JOB-1571',
-    company: 'Global Industries',
-    description: 'Preventive maintenance check',
-    scheduledAt: '2026-04-19T16:30:00.000Z',
-    distanceKm: 8.1,
-    status: 'not-started',
-    priority: 'low',
-  },
-  {
-    id: 'JOB-1574',
-    company: 'Northline Office',
-    scheduledAt: '2026-04-20T08:00:00.000Z',
-    status: 'not-started',
-    priority: 'medium',
-  },
-];
-
-function formatTime(isoDate: string) {
-  const date = new Date(isoDate);
+function formatTime(date: Date) {
   return date.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
 }
 
-function getPriorityColors(priority: JobPriority) {
-  if (priority === 'high') {
-    return { bg: '#fee2e2', text: '#b91c1c' };
+function normalizeStatus(status: string): JobStatus {
+  if (status === 'in-progress' || status === 'completed' || status === 'cancelled') {
+    return status;
   }
+  return 'not-started';
+}
 
-  if (priority === 'medium') {
-    return { bg: '#fef3c7', text: '#92400e' };
+function nextStatus(status: JobStatus): JobStatus {
+  if (status === 'not-started') {
+    return 'in-progress';
   }
+  if (status === 'in-progress') {
+    return 'completed';
+  }
+  return 'completed';
+}
 
-  return { bg: '#e2e8f0', text: '#475569' };
+function displayJobId(id: string) {
+  return `JOB-${id.slice(0, 6).toUpperCase()}`;
 }
 
 export default function JobsScreen() {
+  const { token } = useAuth();
   const { t } = useTranslation();
-  const sortedJobs = useMemo(
+  const [jobs, setJobs] = useState<Job[]>([]);
+  const [pendingSyncCount, setPendingSyncCount] = useState(0);
+  const [isCreating, setIsCreating] = useState(false);
+  const [isSyncing, setIsSyncing] = useState(false);
+  const [syncMessage, setSyncMessage] = useState<string>('');
+  const [updatingIds, setUpdatingIds] = useState<Record<string, boolean>>({});
+
+  useEffect(() => {
+    let active = true;
+
+    const jobsSub = observeJobs().subscribe((records) => {
+      if (active) {
+        setJobs(records);
+      }
+    });
+
+    const syncSub = observePendingSyncCount().subscribe((count) => {
+      if (active) {
+        setPendingSyncCount(count);
+      }
+    });
+
+    return () => {
+      active = false;
+      jobsSub.unsubscribe();
+      syncSub.unsubscribe();
+    };
+  }, []);
+
+  useEffect(() => {
+    if (token) {
+      void (async () => {
+        setIsSyncing(true);
+        try {
+          const summary = await syncJobsWithServer(token);
+          setSyncMessage(
+            t('jobs.syncComplete', {
+              pulled: summary.pulled,
+              pushed: summary.pushed,
+              failed: summary.failed,
+            })
+          );
+        } catch {
+          setSyncMessage(t('jobs.syncFailedLocal'));
+        } finally {
+          setIsSyncing(false);
+        }
+      })();
+    } else {
+      void ensureJobsSeeded();
+    }
+  }, [token]);
+
+  const todayJobsCount = useMemo(
     () =>
-      [...MOCK_JOBS].sort(
-        (a, b) =>
-          new Date(a.scheduledAt).getTime() - new Date(b.scheduledAt).getTime()
-      ),
-    []
+      jobs.filter(
+        (job) =>
+          job.scheduledAt.toDateString() === new Date().toDateString()
+      ).length,
+    [jobs]
   );
 
-  const todayJobsCount = sortedJobs.filter(
-    (job) =>
-      new Date(job.scheduledAt).toDateString() === new Date().toDateString()
-  ).length;
+  const onCreateJob = async () => {
+    setIsCreating(true);
+    try {
+      const minutesOffset = (jobs.length + 1) * 90;
+      await createJob({
+        title: `New Client ${jobs.length + 1}`,
+        scheduledAt: new Date(Date.now() + minutesOffset * 60 * 1000),
+        durationMinutes: 60,
+        status: 'not-started',
+        notes: 'Created from mobile jobs screen',
+        latitude: null,
+        longitude: null,
+        technicianId: 'tech-001',
+        clientId: `client-${jobs.length + 100}`,
+      });
+    } finally {
+      setIsCreating(false);
+    }
+  };
+
+  const onAdvanceStatus = async (job: Job) => {
+    const currentStatus = normalizeStatus(job.status);
+    if (
+      currentStatus === 'completed' ||
+      currentStatus === 'cancelled' ||
+      updatingIds[job.id]
+    ) {
+      return;
+    }
+
+    const next = nextStatus(currentStatus);
+    setUpdatingIds((prev) => ({ ...prev, [job.id]: true }));
+    try {
+      await updateJobStatus(job.id, next);
+    } finally {
+      setUpdatingIds((prev) => ({ ...prev, [job.id]: false }));
+    }
+  };
+
+  const onSyncNow = async () => {
+    if (!token) {
+      setSyncMessage(t('jobs.syncSignIn'));
+      return;
+    }
+
+    setIsSyncing(true);
+    try {
+      const summary = await syncJobsWithServer(token);
+      setSyncMessage(
+        t('jobs.syncComplete', {
+          pulled: summary.pulled,
+          pushed: summary.pushed,
+          failed: summary.failed,
+        })
+      );
+    } catch {
+      setSyncMessage(t('jobs.syncFailedAuth'));
+    } finally {
+      setIsSyncing(false);
+    }
+  };
 
   return (
     <SafeAreaView style={styles.safeArea}>
@@ -103,9 +183,30 @@ export default function JobsScreen() {
           <Text style={styles.headerTitle}>{t('jobs.title')}</Text>
         </View>
 
-        <Pressable style={styles.createButton}>
-          <Text style={styles.createButtonText}>{t('jobs.create')}</Text>
+        <Pressable
+          style={[styles.createButton, isCreating && styles.disabledButton]}
+          onPress={onCreateJob}
+          disabled={isCreating}
+        >
+          <Text style={styles.createButtonText}>
+            {isCreating ? t('jobs.creating') : t('jobs.create')}
+          </Text>
         </Pressable>
+
+        <Text style={styles.syncStateText}>
+          {t('jobs.pendingSync', { count: pendingSyncCount })}
+        </Text>
+
+        <Pressable
+          style={[styles.syncButton, isSyncing && styles.disabledButton]}
+          onPress={onSyncNow}
+          disabled={isSyncing}
+        >
+          <Text style={styles.syncButtonText}>
+            {isSyncing ? t('jobs.syncing') : t('jobs.syncNow')}
+          </Text>
+        </Pressable>
+        {!!syncMessage && <Text style={styles.syncStateText}>{syncMessage}</Text>}
       </View>
 
       <ScrollView
@@ -120,67 +221,78 @@ export default function JobsScreen() {
           </View>
         </View>
 
-        {sortedJobs.map((job) => {
-          const priorityColors = getPriorityColors(job.priority);
-          const isInProgress = job.status === 'in-progress';
+        {jobs.map((job) => {
+          const normalizedStatus = normalizeStatus(job.status);
+          const isInProgress = normalizedStatus === 'in-progress';
+          const isCompleted = normalizedStatus === 'completed';
+          const isCancelled = normalizedStatus === 'cancelled';
+          const isUpdating = Boolean(updatingIds[job.id]);
 
           return (
             <View key={job.id} style={styles.card}>
               <View style={styles.cardTopRow}>
                 <View style={styles.leftMetaGroup}>
-                  <Text style={styles.jobId}>{job.id}</Text>
+                  <Text style={styles.jobId}>{displayJobId(job.id)}</Text>
                   <View
                     style={[
                       styles.statusPill,
-                      isInProgress ? styles.statusActivePill : styles.statusUpcomingPill,
+                      isInProgress
+                        ? styles.statusActivePill
+                        : isCompleted
+                          ? styles.statusCompletedPill
+                          : isCancelled
+                            ? styles.statusCancelledPill
+                          : styles.statusUpcomingPill,
                     ]}
                   >
                     <View
                       style={[
                         styles.statusDot,
-                        isInProgress ? styles.statusActiveDot : styles.statusUpcomingDot,
+                        isInProgress
+                          ? styles.statusActiveDot
+                          : isCompleted
+                            ? styles.statusCompletedDot
+                            : isCancelled
+                              ? styles.statusCancelledDot
+                            : styles.statusUpcomingDot,
                       ]}
                     />
                     <Text
                       style={[
                         styles.statusText,
-                        isInProgress ? styles.statusActiveText : styles.statusUpcomingText,
+                        isInProgress
+                          ? styles.statusActiveText
+                          : isCompleted
+                            ? styles.statusCompletedText
+                            : isCancelled
+                              ? styles.statusCancelledText
+                            : styles.statusUpcomingText,
                       ]}
                     >
-                      {isInProgress ? t('status.active') : t('status.upcoming')}
+                      {isInProgress
+                        ? t('status.active')
+                        : isCompleted
+                          ? t('status.completed')
+                          : isCancelled
+                            ? t('status.cancelled')
+                            : t('status.upcoming')}
                     </Text>
                   </View>
                 </View>
-
-                <View
-                  style={[
-                    styles.priorityPill,
-                    { backgroundColor: priorityColors.bg },
-                  ]}
-                >
-                  <Text style={[styles.priorityText, { color: priorityColors.text }]}>
-                    {t(`priority.${job.priority}`)}
-                  </Text>
-                </View>
               </View>
 
-              <Text style={styles.companyName}>{job.company}</Text>
-              {!!job.description && (
-                <Text style={styles.jobDescription}>{job.description}</Text>
-              )}
+              <Text style={styles.companyName}>{job.title}</Text>
+              {!!job.notes && <Text style={styles.jobDescription}>{job.notes}</Text>}
 
               <View style={styles.bottomMetaRow}>
                 <View style={styles.metaItem}>
                   <Ionicons name="time-outline" size={12} color="#64748b" />
                   <Text style={styles.metaText}>{formatTime(job.scheduledAt)}</Text>
                 </View>
-
-                {typeof job.distanceKm === 'number' && (
-                  <View style={styles.metaItem}>
-                    <Ionicons name="location-outline" size={12} color="#64748b" />
-                    <Text style={styles.metaText}>{job.distanceKm.toFixed(1)} {t('unit.km')}</Text>
-                  </View>
-                )}
+                <View style={styles.metaItem}>
+                  <Ionicons name="hourglass-outline" size={12} color="#64748b" />
+                  <Text style={styles.metaText}>{job.durationMinutes} {t('unit.min')}</Text>
+                </View>
               </View>
 
               <Pressable
@@ -188,18 +300,37 @@ export default function JobsScreen() {
                   styles.jobActionButton,
                   isInProgress
                     ? styles.continueButtonBackground
-                    : styles.startButtonBackground,
+                    : isCompleted
+                      ? styles.completedButtonBackground
+                      : isCancelled
+                        ? styles.cancelledButtonBackground
+                      : styles.startButtonBackground,
+                  (isCompleted || isCancelled || isUpdating) && styles.disabledButton,
                 ]}
+                disabled={isCompleted || isCancelled || isUpdating}
+                onPress={() => onAdvanceStatus(job)}
               >
                 <Text
                   style={[
                     styles.jobActionButtonText,
                     isInProgress
                       ? styles.continueButtonText
-                      : styles.startButtonText,
+                      : isCompleted
+                        ? styles.completedButtonText
+                        : isCancelled
+                          ? styles.cancelledButtonText
+                        : styles.startButtonText,
                   ]}
                 >
-                  {isInProgress ? t('jobs.continue') : t('jobs.start')}
+                  {isUpdating
+                    ? t('jobs.updating')
+                    : isInProgress
+                      ? t('jobs.continue')
+                      : isCompleted
+                        ? t('status.completed')
+                        : isCancelled
+                          ? t('status.cancelled')
+                          : t('jobs.start')}
                 </Text>
               </Pressable>
             </View>
@@ -255,10 +386,38 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  disabledButton: {
+    opacity: 0.6,
+  },
   createButtonText: {
     color: '#111827',
     fontSize: 13,
     fontWeight: '800',
+    letterSpacing: 0.4,
+  },
+  syncStateText: {
+    marginTop: 8,
+    color: '#dbeafe',
+    fontSize: 12,
+    fontWeight: '600',
+    textAlign: 'center',
+  },
+  syncButton: {
+    marginTop: 8,
+    alignSelf: 'center',
+    width: '74%',
+    borderWidth: 1,
+    borderColor: '#dbeafe',
+    borderRadius: 12,
+    backgroundColor: '#0f172a',
+    paddingVertical: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  syncButtonText: {
+    color: '#e2e8f0',
+    fontSize: 12,
+    fontWeight: '700',
     letterSpacing: 0.4,
   },
   scroll: {
@@ -334,6 +493,12 @@ const styles = StyleSheet.create({
   statusUpcomingPill: {
     backgroundColor: '#f1f5f9',
   },
+  statusCompletedPill: {
+    backgroundColor: '#dbeafe',
+  },
+  statusCancelledPill: {
+    backgroundColor: '#fee2e2',
+  },
   statusDot: {
     width: 6,
     height: 6,
@@ -345,6 +510,12 @@ const styles = StyleSheet.create({
   statusUpcomingDot: {
     backgroundColor: '#94a3b8',
   },
+  statusCompletedDot: {
+    backgroundColor: '#2563eb',
+  },
+  statusCancelledDot: {
+    backgroundColor: '#b91c1c',
+  },
   statusText: {
     fontSize: 12,
     fontWeight: '700',
@@ -355,15 +526,11 @@ const styles = StyleSheet.create({
   statusUpcomingText: {
     color: '#64748b',
   },
-  priorityPill: {
-    borderRadius: 8,
-    paddingHorizontal: 9,
-    paddingVertical: 4,
+  statusCompletedText: {
+    color: '#1d4ed8',
   },
-  priorityText: {
-    fontSize: 12,
-    fontWeight: '700',
-    textTransform: 'lowercase',
+  statusCancelledText: {
+    color: '#b91c1c',
   },
   companyName: {
     marginTop: 8,
@@ -406,6 +573,12 @@ const styles = StyleSheet.create({
   startButtonBackground: {
     backgroundColor: '#e5e7eb',
   },
+  completedButtonBackground: {
+    backgroundColor: '#dbeafe',
+  },
+  cancelledButtonBackground: {
+    backgroundColor: '#fee2e2',
+  },
   jobActionButtonText: {
     fontSize: 17,
     fontWeight: '700',
@@ -415,5 +588,11 @@ const styles = StyleSheet.create({
   },
   startButtonText: {
     color: '#475569',
+  },
+  completedButtonText: {
+    color: '#1d4ed8',
+  },
+  cancelledButtonText: {
+    color: '#b91c1c',
   },
 });

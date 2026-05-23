@@ -6,9 +6,13 @@
     "analytics": "Analytics"
   },
   "login": {
-    "title": "Login"
-  }
-  ,
+    "title": "Login",
+    "hint": "Sign in to continue",
+    "username": "Username",
+    "password": "Password",
+    "invalid_credentials": "Invalid credentials or network error",
+    "signin": "Sign In"
+  },
   "home": {
     "title": "Home",
     "jobs_visible": "{{count}} jobs visible on map"
@@ -19,31 +23,36 @@
   },
   "unit": {
     "mi": "mi",
-    "km": "km"
+    "km": "km",
+    "min": "min"
   },
   "jobs": {
     "title": "Jobs",
-    "create": "Create a job",
+    "create": "CREATE A JOB",
+    "creating": "CREATING...",
     "today_title": "Today's Jobs",
     "count": "{{count}} jobs",
     "start": "Start Job",
-    "continue": "Continue Job"
+    "continue": "Continue Job",
+    "updating": "UPDATING...",
+    "syncNow": "SYNC NOW",
+    "syncing": "SYNCING...",
+    "pendingSync": "{{count}} pending sync items",
+    "syncComplete": "Sync complete: pulled {{pulled}}, pushed {{pushed}}, failed {{failed}}",
+    "syncFailedLocal": "Sync failed. Local data is still available.",
+    "syncFailedAuth": "Sync failed. Check API URL or auth token.",
+    "syncSignIn": "Sign in to sync with server."
   },
   "status": {
     "active": "Active",
-    "upcoming": "Upcoming"
+    "upcoming": "Upcoming",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
   },
   "priority": {
     "high": "High",
     "medium": "Medium",
     "low": "Low"
-  },
-  "login": {
-    "hint": "Sign in to continue",
-    "username": "Username",
-    "password": "Password",
-    "invalid_credentials": "Invalid credentials or network error",
-    "signin": "Sign In"
   },
   "analytics": {
     "title": "Analytics",
