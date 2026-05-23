@@ -50,6 +50,11 @@ enum IngestionStatus {
   FAILED
 }
 
+enum ServiceLogStatus {
+  DRAFT
+  SYNCED
+}
+
 // ─────────────────────────────────────────
 // AUTH MODELS
 // ─────────────────────────────────────────
@@ -170,6 +175,7 @@ model Job {
   manager     User?        @relation("ManagerJobs", fields: [managerId], references: [id])
   syncLogs    SyncLog[]
   serviceLogs ServiceLog[]
+  serviceLogSyncs ServiceLogSync[]
 
   @@index([technicianId])
   @@index([status, scheduledDate])
@@ -206,14 +212,24 @@ model SyncLog {
 // ─────────────────────────────────────────
 
 model ServiceLog {
-  id        String   @id @default(uuid(7))
+  id        String           @id @default(uuid(7))
   jobId     String
-  isDeleted Boolean  @default(false)
-  createdAt DateTime @default(now())
-  // TODO(sprint-2): faultCodes, parts, labor, notes, warrantyExpiry
+  status    ServiceLogStatus @default(DRAFT)
+  summary   String?
+  notes     String?
 
-  job          Job          @relation(fields: [jobId], references: [id])
-  laborEntries LaborEntry[]
+  syncedAt DateTime?
+
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  job           Job              @relation(fields: [jobId], references: [id])
+  laborEntries  LaborEntry[]
+  consumedParts ConsumedPart[]
+  syncEvents    ServiceLogSync[]
 
   @@index([jobId])
   @@map("service_logs")
@@ -222,13 +238,42 @@ model ServiceLog {
 model LaborEntry {
   id           String  @id @default(uuid(7))
   serviceLogId String
-  isDeleted    Boolean @default(false)
-  // TODO(sprint-2): hours Float, hourlyRate Float, description String
+  hours        Float
+  hourlyRate   Decimal @db.Decimal(10, 2)
+  description  String?
+
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   serviceLog ServiceLog @relation(fields: [serviceLogId], references: [id])
 
   @@index([serviceLogId])
   @@map("labor_entries")
+}
+
+model ConsumedPart {
+  id           String  @id @default(uuid(7))
+  serviceLogId String
+  partId       String
+  quantity     Int
+  unitPrice    Decimal? @db.Decimal(10, 2)
+  notes        String?
+
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  serviceLog ServiceLog @relation(fields: [serviceLogId], references: [id])
+  part       Part       @relation(fields: [partId], references: [id])
+
+  @@index([serviceLogId])
+  @@index([partId])
+  @@map("consumed_parts")
 }
 
 model BoilerModel {
@@ -261,8 +306,8 @@ model Part {
   aliases       String[]
   inventoryStatus String?
 
-  modelParts ModelPart[]
-
+modelParts    ModelPart[]
+  consumedParts ConsumedPart[]
   @@unique([sku])
   @@map("parts")
 }
@@ -309,10 +354,8 @@ model Manual {
 model ModelFaultCode {
   modelId     String
   faultCodeId String
-
   model     BoilerModel @relation(fields: [modelId], references: [id])
   faultCode FaultCode   @relation(fields: [faultCodeId], references: [id])
-
   @@id([modelId, faultCodeId])
   @@index([faultCodeId])
   @@map("model_fault_codes")
@@ -321,10 +364,8 @@ model ModelFaultCode {
 model ModelPart {
   modelId String
   partId  String
-
   model BoilerModel @relation(fields: [modelId], references: [id])
   part  Part        @relation(fields: [partId], references: [id])
-
   @@id([modelId, partId])
   @@index([partId])
   @@map("model_parts")
@@ -339,8 +380,22 @@ model LibraryIngestionRun {
   createdAt     DateTime        @default(now())
   completedAt   DateTime?
   errorSummary  Json?
-
   @@map("library_ingestion_runs")
+}
+
+model ServiceLogSync {
+  id             String     @id @default(uuid(7))
+  serviceLogId   String
+  jobId          String?
+  idempotencyKey String     @unique
+  result         SyncResult @default(SUCCESS)
+  payload        Json?
+  createdAt      DateTime   @default(now())
+  serviceLog ServiceLog @relation(fields: [serviceLogId], references: [id])
+  job        Job?       @relation(fields: [jobId], references: [id])
+  @@index([serviceLogId])
+  @@index([jobId])
+  @@map("service_log_syncs")
 }
 
 

@@ -4,7 +4,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/mobile"
+    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/mobile",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "prebuild": "expo prebuild --clean && node scripts/fix-watermelon.js"
   },
   "dependencies": {
     "@expo/metro-runtime": "*",
@@ -15,6 +18,7 @@
     "expo-linking": "*",
     "expo-router": "*",
     "expo-splash-screen": "*",
+    "expo-sqlite": "~16.0.10",
     "expo-status-bar": "*",
     "expo-system-ui": "*",
     "jest-expo": "*",

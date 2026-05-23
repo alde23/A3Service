@@ -4,13 +4,13 @@ import { useAuth } from '../services/auth.service';
 
 export default function LoginScreen() {
   const { login, loading } = useAuth();
-  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
 
   const onSubmit = async () => {
     setError(null);
-    const ok = await login(username.trim(), password);
+    const ok = await login(email.trim(), password);
     if (!ok) setError('Invalid credentials or network error');
   };
 
@@ -23,10 +23,11 @@ export default function LoginScreen() {
 
       <View style={styles.form}>
         <TextInput
-          placeholder="Username"
+          placeholder="Email"
           autoCapitalize="none"
-          value={username}
-          onChangeText={setUsername}
+          keyboardType="email-address"
+          value={email}
+          onChangeText={setEmail}
           style={styles.input}
         />
         <TextInput
