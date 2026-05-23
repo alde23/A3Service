@@ -362,9 +362,9 @@ export class AnalyticsService {
   }
 
   private endOfMonthUtc(date: Date) {
-    const nextMonth = this.addMonthsUtc(date, 1);
-    const startOfNext = this.startOfMonthUtc(nextMonth);
-    return this.endOfDayUtc(this.addDaysUtc(startOfNext, -1));
+    return new Date(
+      Date.UTC(date.getUTCFullYear(), date.getUTCMonth() + 1, 0, 23, 59, 59, 999),
+    );
   }
 
   private addDaysUtc(date: Date, days: number) {
