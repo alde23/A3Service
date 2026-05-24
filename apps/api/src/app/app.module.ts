@@ -11,6 +11,8 @@ import { AuthModule } from '../auth/auth.module';
 import { JobsModule } from './jobs/jobs.module';
 import { SchedulingModule } from './scheduling/scheduling.module';
 import { SyncModule } from './sync/sync.module';
+import { CommissioningModule } from './commissioning/commissioning.module';
+import { WarrantyModule } from './warranty/warranty.module';
 
 @Module({
   imports: [
@@ -24,6 +26,8 @@ import { SyncModule } from './sync/sync.module';
     JobsModule,
     SchedulingModule,
     SyncModule,
+    CommissioningModule,
+    WarrantyModule,
   ],
   controllers: [AppController],
   providers: [AppService],
