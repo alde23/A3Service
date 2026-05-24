@@ -10,6 +10,7 @@ import { PrismaModule } from '../prisma/prisma.module';
 import { AuthModule } from '../auth/auth.module';
 import { JobsModule } from './jobs/jobs.module';
 import { SchedulingModule } from './scheduling/scheduling.module';
+import { HealthModule } from './health/health.module';
 import { SyncModule } from './sync/sync.module';
 
 @Module({
@@ -23,6 +24,7 @@ import { SyncModule } from './sync/sync.module';
     AuthModule,
     JobsModule,
     SchedulingModule,
+    HealthModule,
     SyncModule,
   ],
   controllers: [AppController],
