@@ -93,6 +93,8 @@ data-pipeline/raw_pdfs/
 apps/data-pipeline/raw_pdfs/
 apps/data-pipeline/notes/
 apps/data-pipeline/output_json/_debug/
+# for scraper
+apps\data-pipeline\input\manual_sources.generated.json
 
 
 # TODO: migrate raw_pdfs to Git LFS when volume grows
