@@ -1,0 +1,118 @@
+[
+  {
+    "brand": "Bosch",
+    "source_name": "bosch_homecomfort_us_gas_oil",
+    "source_url": "https://www.bosch-homecomfort.com/us/en/residential/technical-documentation/manuals/gas-oil-boilers-and-furnaces/",
+    "source_authority": "official",
+    "collector": "bosch_homecomfort",
+    "language": "en",
+    "region": "US",
+    "enabled": true,
+    "notes": "Official Bosch Home Comfort manual page for gas/oil boilers and furnaces."
+  },
+  {
+    "brand": "Bosch",
+    "source_name": "bosch_homecomfort_us_heat_pump_systems",
+    "source_url": "https://www.bosch-homecomfort.com/us/en/residential/technical-documentation/manuals/heating-and-cooling-heat-pump-systems/",
+    "source_authority": "official",
+    "collector": "bosch_homecomfort",
+    "language": "en",
+    "region": "US",
+    "enabled": true,
+    "notes": "Official Bosch Home Comfort manual page for heat pump systems."
+  },
+  {
+    "brand": "Bosch",
+    "source_name": "bosch_homecomfort_us_water_heating",
+    "source_url": "https://www.bosch-homecomfort.com/us/en/residential/technical-documentation/manuals/water-heating-systems/",
+    "source_authority": "official",
+    "collector": "bosch_homecomfort",
+    "language": "en",
+    "region": "US",
+    "enabled": true,
+    "notes": "Official Bosch Home Comfort manual page for water heating systems."
+  }
+  ,
+{
+  "brand": "Vaillant",
+  "source_name": "freeboilermanuals_vaillant",
+  "source_url": "https://www.freeboilermanuals.com/vaillant/",
+  "source_authority": "third_party",
+  "collector": "freeboilermanuals",
+  "language": "en",
+  "region": "UK",
+  "enabled": true,
+  "notes": "Third-party FreeBoilerManuals Vaillant manual listing. Useful for older UK/EU models."
+},
+{
+  "brand": "Baxi",
+  "source_name": "freeboilermanuals_baxi",
+  "source_url": "https://www.freeboilermanuals.com/baxi/",
+  "source_authority": "third_party",
+  "collector": "freeboilermanuals",
+  "language": "en",
+  "region": "UK",
+  "enabled": true,
+  "notes": "Third-party FreeBoilerManuals Baxi manual listing. Useful for older UK/EU models."
+}
+,
+{
+  "brand": "Unical",
+  "source_name": "unical_official_english_site",
+  "source_url": "https://www.unicalboiler.com/",
+  "source_authority": "official",
+  "collector": "site_pdf_crawler",
+  "language": "en",
+  "region": "INT",
+  "enabled": true,
+  "notes": "Official English Unical website. Controlled crawler collects official PDF manuals linked from product/category pages.",
+  "crawl_limit": 80,
+  "max_depth": 2,
+  "allowed_page_domains": [
+    "www.unicalboiler.com",
+    "unicalboiler.com"
+  ],
+  "allowed_pdf_domains": [
+    "www.unicalag.it",
+    "unicalag.it",
+    "www.unicalboiler.com",
+    "unicalboiler.com"
+  ],
+  "pdf_url_include_patterns": [
+    ".pdf",
+    "upload/blocchi"
+  ],
+  "pdf_url_exclude_patterns": [
+    "catalogue",
+    "catalogo",
+    "depliant",
+    "brochure",
+    "certificate",
+    "certification"
+  ]
+}
+,
+{
+  "brand": "Viessmann",
+  "source_name": "viessmann_us_current_product_manuals",
+  "source_url": "https://www.viessmann-us.com/en/services/downloads/manuals.html",
+  "source_authority": "official",
+  "collector": "viessmann_us",
+  "language": "en",
+  "region": "US",
+  "enabled": true,
+  "notes": "Official Viessmann US current product manuals page."
+},
+{
+  "brand": "Viessmann",
+  "source_name": "viessmann_us_historic_product_manuals",
+  "source_url": "https://www.viessmann-us.com/en/services/downloads/historic.html",
+  "source_authority": "official",
+  "collector": "viessmann_us",
+  "language": "en",
+  "region": "US",
+  "enabled": true,
+  "notes": "Official Viessmann US historic product manuals page. Useful for older boiler models."
+}
+
+]
