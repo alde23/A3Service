@@ -1,23 +1,26 @@
-# Get the commit message
-commit_msg=$(cat "$1")
+#!/bin/sh
 
-# A3Service Regex: type(scope): description
+# Validate commit message format:
+#   type(scope): description
+# Allowed types: feat, fix, chore, docs, refactor, ci
+# Allowed scopes: mobile, api, shared, pipeline, ci
+
+commit_msg=$(cat "$1")
 regex="^(feat|fix|chore|docs|refactor|ci)\((mobile|api|shared|pipeline|ci)\): .+$"
 
-# Universal shell matching
 if echo "$commit_msg" | grep -Eq "$regex"; then
-    echo "✅ Commit message follows convention."
+    echo "Commit message follows convention."
     exit 0
-else
-    echo "----------------------------------------------------------------------"
-    echo "❌ COMMIT FAILED"
-    echo "Message: $commit_msg"
-    echo ""
-    echo "Format must be: type(scope): description"
-    echo "Allowed Types:  feat, fix, chore, docs, refactor, ci"
-    echo "Allowed Scopes: mobile, api, shared, pipeline, ci"
-    echo ""
-    echo "Example: feat(api): implement boiler service logic"
-    echo "----------------------------------------------------------------------"
-    exit 1
 fi
+
+echo "----------------------------------------------------------------------"
+echo "COMMIT FAILED"
+echo "Message: $commit_msg"
+echo ""
+echo "Format must be: type(scope): description"
+echo "Allowed Types:  feat, fix, chore, docs, refactor, ci"
+echo "Allowed Scopes: mobile, api, shared, pipeline, ci"
+echo ""
+echo "Example: feat(api): implement boiler service logic"
+echo "----------------------------------------------------------------------"
+exit 1
