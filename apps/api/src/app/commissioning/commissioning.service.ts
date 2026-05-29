@@ -5,6 +5,7 @@ import type {
   CommissioningReferenceResponseDto,
   CommissioningValidateRequestDto,
   CommissioningValidateResponseDto,
+  CommissioningValidationIssueDto,
 } from './dto/commissioning-validate.dto';
 
 @Injectable()
@@ -70,7 +71,7 @@ export class CommissioningService {
     );
 
     const providedCodes = new Set<string>();
-    const issues = payload.readings.map((reading) => {
+    const issues: CommissioningValidationIssueDto[] = payload.readings.map((reading) => {
       if (!reading?.code || typeof reading.code !== 'string') {
         throw new BadRequestException('readings.code is required');
       }
@@ -89,7 +90,7 @@ export class CommissioningService {
           min: null,
           max: null,
           unit: null,
-          status: 'UNKNOWN' as const,
+          status: 'UNKNOWN',
         };
       }
 
