@@ -141,7 +141,7 @@ export default function AnalyticsScreen() {
           <View style={styles.summaryTopRow}>
             <View>
               <Text style={styles.summaryLabel}>{t('analytics.year_to_date')}</Text>
-              <Text style={styles.summaryValue}>{t('analytics.jobs_count', { count: jobsTotal.toLocaleString() })}</Text>
+              <Text style={styles.summaryValue}>{t('analytics.jobs_count', { count: jobsTotal })}</Text>
             </View>
             <View style={styles.summaryBadge}>
               <Text style={styles.summaryBadgeText}>+18% vs last year</Text>
