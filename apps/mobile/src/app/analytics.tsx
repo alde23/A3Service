@@ -1,5 +1,5 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
-import { useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import {
   Pressable,
   SafeAreaView,
@@ -9,6 +9,13 @@ import {
   View,
 } from 'react-native';
 import { useTranslation } from 'react-i18next';
+import { useAuth } from '../services/auth.service';
+import {
+  fetchAnalyticsSummary,
+  fetchAnalyticsEarnings,
+  AnalyticsSummary,
+  MonthlyMetric,
+} from '../services/analytics-api.service';
 
 type MetricCard = {
   label: string;
@@ -79,20 +86,72 @@ function toneStyles(tone: MetricCard['tone']) {
 
 export default function AnalyticsScreen() {
   const { t } = useTranslation();
+  const { token } = useAuth();
+  const [summary, setSummary] = useState<AnalyticsSummary>({});
+  const [monthlyData, setMonthlyData] = useState<MonthlyMetric[]>(MONTHLY_DATA);
+
+  useEffect(() => {
+    if (!token) return;
+
+    (async () => {
+      try {
+        // Fetch analytics data from backend
+        const summaryData = await fetchAnalyticsSummary(token);
+        setSummary(summaryData);
+
+        const earningsData = await fetchAnalyticsEarnings(token);
+        if (earningsData && earningsData.length > 0) {
+          setMonthlyData(earningsData);
+        }
+      } catch (error) {
+        console.error('Failed to fetch analytics:', error);
+        // Keep mock data on error
+      }
+    })();
+  }, [token]);
+
   const jobsTotal = useMemo(
-    () => MONTHLY_DATA.reduce((sum, point) => sum + point.jobs, 0),
-    []
+    () => monthlyData.reduce((sum, point) => sum + point.jobs, 0) || summary.jobsTotal || 0,
+    [monthlyData, summary]
   );
   const revenueTotal = useMemo(
-    () => MONTHLY_DATA.reduce((sum, point) => sum + point.revenue, 0),
-    []
+    () => monthlyData.reduce((sum, point) => sum + point.revenue, 0) || summary.revenueTotal || 0,
+    [monthlyData, summary]
   );
   const peakMonth = useMemo(
-    () => [...MONTHLY_DATA].sort((a, b) => b.jobs - a.jobs)[0],
-    []
+    () => [...monthlyData].sort((a, b) => b.jobs - a.jobs)[0] || { month: 'N/A', jobs: 0, revenue: 0 },
+    [monthlyData]
   );
 
-  const maxJobs = Math.max(...MONTHLY_DATA.map((point) => point.jobs));
+  const maxJobs = Math.max(...monthlyData.map((point) => point.jobs), 1);
+
+  // Create metrics from API data
+  const metrics = useMemo(() => [
+    {
+      label: 'Jobs this year',
+      value: summary.jobsTotal ? summary.jobsTotal.toLocaleString() : '0',
+      delta: '+18%',
+      tone: 'blue' as const,
+    },
+    {
+      label: 'Completed on first visit',
+      value: summary.completionRate ? `${Math.round(summary.completionRate)}%` : '72%',
+      delta: '+6%',
+      tone: 'emerald' as const,
+    },
+    {
+      label: 'Fault repeat rate',
+      value: summary.faultRepeatRate ? `${summary.faultRepeatRate.toFixed(1)}%` : '8.4%',
+      delta: '-2%',
+      tone: 'amber' as const,
+    },
+    {
+      label: 'Avg. response time',
+      value: summary.avgResponseTime ? `${summary.avgResponseTime}m` : '34m',
+      delta: '-8m',
+      tone: 'slate' as const,
+    },
+  ], [summary]);
 
   return (
     <SafeAreaView style={styles.safeArea}>
@@ -167,7 +226,7 @@ export default function AnalyticsScreen() {
         </View>
 
         <View style={styles.grid}>
-          {METRICS.map((metric) => {
+          {metrics.map((metric) => {
             const colors = toneStyles(metric.tone);
 
             return (
@@ -196,7 +255,7 @@ export default function AnalyticsScreen() {
           </View>
 
           <View style={styles.barChart}>
-            {MONTHLY_DATA.map((point) => {
+            {monthlyData.map((point) => {
               const heightPercent = (point.jobs / maxJobs) * 100;
 
               return (

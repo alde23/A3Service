@@ -1,5 +1,5 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import {
   Pressable,
   SafeAreaView,
@@ -10,6 +10,8 @@ import {
   View,
 } from 'react-native';
 import { useTranslation } from 'react-i18next';
+import { useAuth } from '../services/auth.service';
+import { searchLibrary, LibrarySearchResult } from '../services/library-api.service';
 
 type DocumentationItem = {
   id: string;
@@ -138,8 +140,32 @@ function accentColors(accent: DocumentationItem['accent']) {
 
 export default function DocumentationScreen() {
   const { t } = useTranslation();
+  const { token } = useAuth();
   const [query, setQuery] = useState('');
+  const [apiResults, setApiResults] = useState<LibrarySearchResult[]>([]);
+  const [useApiSearch, setUseApiSearch] = useState(false);
 
+  // Handle API search
+  useEffect(() => {
+    if (!token || !query.trim() || !useApiSearch) {
+      setApiResults([]);
+      return;
+    }
+
+    const debounceTimer = setTimeout(async () => {
+      try {
+        const results = await searchLibrary(token, query);
+        setApiResults(results);
+      } catch (error) {
+        console.error('API search error:', error);
+        setApiResults([]);
+      }
+    }, 300);
+
+    return () => clearTimeout(debounceTimer);
+  }, [query, token, useApiSearch]);
+
+  // Local search fallback
   const filteredItems = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
 
@@ -160,9 +186,11 @@ export default function DocumentationScreen() {
 
       return searchableText.includes(normalizedQuery);
     });
-  }, [query]);
+  }, [query, useApiSearch]);
 
   const hasQuery = query.trim().length > 0;
+  const displayItems = useApiSearch && apiResults.length > 0 ? apiResults : filteredItems;
+  const itemCount = displayItems.length;
 
   return (
     <SafeAreaView style={styles.safeArea}>
@@ -189,7 +217,10 @@ export default function DocumentationScreen() {
             />
           </View>
 
-          <Pressable style={styles.searchButton}>
+          <Pressable
+            style={styles.searchButton}
+            onPress={() => setUseApiSearch(query.trim().length > 0)}
+          >
             <Text style={styles.searchButtonText}>{t('documentation.search')}</Text>
           </Pressable>
         </View>
@@ -217,7 +248,7 @@ export default function DocumentationScreen() {
             {hasQuery ? t('documentation.search_results') : t('documentation.popular_references')}
           </Text>
           <View style={styles.counterPill}>
-            <Text style={styles.counterText}>{filteredItems.length} items</Text>
+            <Text style={styles.counterText}>{itemCount} items</Text>
           </View>
         </View>
 
@@ -241,7 +272,7 @@ export default function DocumentationScreen() {
           </View>
         </View>
 
-        {filteredItems.length === 0 ? (
+        {itemCount === 0 ? (
           <View style={styles.emptyCard}>
             <Ionicons name="search-outline" size={26} color="#94a3b8" />
             <Text style={styles.emptyTitle}>No matching documentation found</Text>
@@ -249,7 +280,29 @@ export default function DocumentationScreen() {
               Try a fault code like F22, a brand like Vaillant, or a keyword like pressure.
             </Text>
           </View>
+        ) : useApiSearch && apiResults.length > 0 ? (
+          // API search results
+          apiResults.map((item) => (
+            <View key={item.id} style={[styles.card, { borderColor: '#bfdbfe' }]}>
+              <View style={styles.cardTopRow}>
+                <View style={styles.cardMetaRow}>
+                  <View style={[styles.categoryTag, { backgroundColor: '#dbeafe' }]}>
+                    <Text style={[styles.categoryTagText, { color: '#1d4ed8' }]}>
+                      {item.type}
+                    </Text>
+                  </View>
+                  <Text style={styles.cardTitle}>{item.title}</Text>
+                </View>
+                <Ionicons name="chevron-forward" size={20} color="#94a3b8" />
+              </View>
+              <Text style={styles.cardSubtitle}>{item.category}</Text>
+              {item.description && (
+                <Text style={styles.cardSummary}>{item.description}</Text>
+              )}
+            </View>
+          ))
         ) : (
+          // Local search results
           filteredItems.map((item) => {
             const colors = accentColors(item.accent);
 
