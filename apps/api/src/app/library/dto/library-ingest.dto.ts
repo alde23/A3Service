@@ -46,12 +46,31 @@ export type ModelPartLinkDto = {
   partId: string;
 };
 
+export type TechnicalPropertyIngestDto = {
+  id: string;
+  code: string;
+  label: string;
+  unit?: string;
+  description?: string;
+};
+
+export type ReferenceTableIngestDto = {
+  id: string;
+  boilerModelId: string;
+  propertyId: string;
+  minValue?: number;
+  maxValue?: number;
+  required?: boolean;
+};
+
 export type LibraryIngestDto = {
   sourceVersion?: string;
   models?: LibraryModelIngestDto[];
   faults?: FaultCodeIngestDto[];
   parts?: PartIngestDto[];
   manuals?: ManualIngestDto[];
+  technicalProperties?: TechnicalPropertyIngestDto[];
+  referenceTables?: ReferenceTableIngestDto[];
   modelFaults?: ModelFaultLinkDto[];
   modelParts?: ModelPartLinkDto[];
 };

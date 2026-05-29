@@ -12,6 +12,8 @@ import type {
   ModelFaultLinkDto,
   ModelPartLinkDto,
   PartIngestDto,
+  ReferenceTableIngestDto,
+  TechnicalPropertyIngestDto,
 } from './dto/library-ingest.dto';
 import type { LibrarySearchQueryDto } from './dto/library-search.dto';
 import type {
@@ -160,6 +162,8 @@ export class LibraryService {
     const faults = payload.faults ?? [];
     const parts = payload.parts ?? [];
     const manuals = payload.manuals ?? [];
+    const technicalProperties = payload.technicalProperties ?? [];
+    const referenceTables = payload.referenceTables ?? [];
     const modelFaults = payload.modelFaults ?? [];
     const modelParts = payload.modelParts ?? [];
 
@@ -167,6 +171,8 @@ export class LibraryService {
     this.validateFaults(faults, errors);
     this.validateParts(parts, errors);
     this.validateManuals(manuals, errors);
+    this.validateTechnicalProperties(technicalProperties, errors);
+    this.validateReferenceTables(referenceTables, errors);
     this.validateLinks(modelFaults, 'modelFaults', errors);
     this.validateLinks(modelParts, 'modelParts', errors);
 
@@ -178,6 +184,8 @@ export class LibraryService {
         faults: faults.length,
         parts: parts.length,
         manuals: manuals.length,
+        technicalProperties: technicalProperties.length,
+        referenceTables: referenceTables.length,
         modelFaults: modelFaults.length,
         modelParts: modelParts.length,
       },
@@ -218,11 +226,14 @@ export class LibraryService {
     const faults = payload.faults ?? [];
     const parts = payload.parts ?? [];
     const manuals = payload.manuals ?? [];
+    const technicalProperties = payload.technicalProperties ?? [];
+    const referenceTables = payload.referenceTables ?? [];
     const modelFaults = payload.modelFaults ?? [];
     const modelParts = payload.modelParts ?? [];
 
     const acceptedCount =
       models.length + faults.length + parts.length + manuals.length +
+      technicalProperties.length + referenceTables.length +
       modelFaults.length + modelParts.length;
 
     await this.prisma.$transaction(async (tx) => {
@@ -311,6 +322,39 @@ export class LibraryService {
             addedAt: manual.addedAt ? new Date(manual.addedAt) : undefined,
             isValidated: manual.isValidated ?? false,
           },
+        });
+      }
+
+      for (const technicalProperty of technicalProperties) {
+        await tx.technicalProperty.upsert({
+          where: { id: technicalProperty.id },
+          update: {
+            code: technicalProperty.code,
+            label: technicalProperty.label,
+            unit: technicalProperty.unit,
+            description: technicalProperty.description,
+          },
+          create: {
+            id: technicalProperty.id,
+            code: technicalProperty.code,
+            label: technicalProperty.label,
+            unit: technicalProperty.unit,
+            description: technicalProperty.description,
+          },
+        });
+      }
+
+      if (referenceTables.length > 0) {
+        await tx.referenceTable.createMany({
+          data: referenceTables.map((table) => ({
+            id: table.id,
+            boilerModelId: table.boilerModelId,
+            propertyId: table.propertyId,
+            minValue: table.minValue,
+            maxValue: table.maxValue,
+            required: table.required ?? true,
+          })),
+          skipDuplicates: true,
         });
       }
 
@@ -507,6 +551,40 @@ export class LibraryService {
       }
       if (!manual.boilerModelId) {
         errors.push({ path: `manuals[${index}].boilerModelId`, message: 'boilerModelId is required' });
+      }
+    });
+  }
+
+  private validateTechnicalProperties(
+    technicalProperties: TechnicalPropertyIngestDto[],
+    errors: IngestValidationError[],
+  ) {
+    technicalProperties.forEach((property, index) => {
+      if (!property.id) {
+        errors.push({ path: `technicalProperties[${index}].id`, message: 'id is required' });
+      }
+      if (!property.code) {
+        errors.push({ path: `technicalProperties[${index}].code`, message: 'code is required' });
+      }
+      if (!property.label) {
+        errors.push({ path: `technicalProperties[${index}].label`, message: 'label is required' });
+      }
+    });
+  }
+
+  private validateReferenceTables(
+    referenceTables: ReferenceTableIngestDto[],
+    errors: IngestValidationError[],
+  ) {
+    referenceTables.forEach((table, index) => {
+      if (!table.id) {
+        errors.push({ path: `referenceTables[${index}].id`, message: 'id is required' });
+      }
+      if (!table.boilerModelId) {
+        errors.push({ path: `referenceTables[${index}].boilerModelId`, message: 'boilerModelId is required' });
+      }
+      if (!table.propertyId) {
+        errors.push({ path: `referenceTables[${index}].propertyId`, message: 'propertyId is required' });
       }
     });
   }

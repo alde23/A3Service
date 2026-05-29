@@ -21,6 +21,8 @@
     "expo-sqlite": "~16.0.10",
     "expo-status-bar": "*",
     "expo-system-ui": "*",
+    "expo-background-fetch": "*",
+    "expo-secure-store": "*",
     "jest-expo": "*",
     "metro-config": "*",
     "metro-resolver": "*",

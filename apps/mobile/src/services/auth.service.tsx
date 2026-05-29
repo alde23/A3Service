@@ -1,9 +1,11 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import * as SecureStore from 'expo-secure-store';
 import Constants from 'expo-constants';
 import { API_URL } from './api.config';
 
-const TOKEN_KEY = 'A3S_AUTH_TOKEN';
+const ACCESS_TOKEN_KEY = 'A3S_AUTH_ACCESS_TOKEN';
+const REFRESH_TOKEN_KEY = 'A3S_AUTH_REFRESH_TOKEN';
 const USER_KEY = 'A3S_AUTH_USER';
 
 type User = { id?: string; username?: string } | null;
@@ -14,6 +16,7 @@ type AuthContextShape = {
   loading: boolean;
   login: (email: string, password: string) => Promise<boolean>;
   logout: () => Promise<void>;
+  refreshToken: () => Promise<boolean>;
 };
 
 const AuthContext = createContext<AuthContextShape | undefined>(undefined);
@@ -59,11 +62,73 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     setUser(nextUser);
   };
 
-  const persistSession = async (nextToken: string, nextUser: NonNullable<User>) => {
-    await AsyncStorage.multiSet([
-      [TOKEN_KEY, nextToken],
-      [USER_KEY, JSON.stringify(nextUser)],
+  const persistSession = async (
+    nextToken: string,
+    nextUser: NonNullable<User>,
+    nextRefreshToken?: string | null
+  ) => {
+    await SecureStore.setItemAsync(ACCESS_TOKEN_KEY, nextToken);
+    if (nextRefreshToken) {
+      await SecureStore.setItemAsync(REFRESH_TOKEN_KEY, nextRefreshToken);
+    }
+    await AsyncStorage.setItem(USER_KEY, JSON.stringify(nextUser));
+  };
+
+  const clearSession = async () => {
+    await Promise.all([
+      SecureStore.deleteItemAsync(ACCESS_TOKEN_KEY),
+      SecureStore.deleteItemAsync(REFRESH_TOKEN_KEY),
+      AsyncStorage.removeItem(USER_KEY),
     ]);
+    setToken(null);
+    setUser(null);
+  };
+
+  const getStoredRefreshToken = async () => {
+    return SecureStore.getItemAsync(REFRESH_TOKEN_KEY);
+  };
+
+  const refreshSessionToken = async (refreshToken?: string | null) => {
+    const tokenToUse = refreshToken ?? (await getStoredRefreshToken());
+    if (!tokenToUse) {
+      return null;
+    }
+
+    try {
+      const res = await fetch(`${API_URL}/auth/refresh`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ refreshToken: tokenToUse }),
+      });
+      if (!res.ok) {
+        await clearSession();
+        return null;
+      }
+
+      const body = await res.json();
+      const nextToken = body.token ?? body.accessToken ?? body.access_token ?? null;
+      const nextRefreshToken =
+        body.refreshToken ?? body.refresh_token ?? tokenToUse;
+      if (!nextToken) {
+        await clearSession();
+        return null;
+      }
+
+      const storedUserRaw = await AsyncStorage.getItem(USER_KEY);
+      const storedUser = parseStoredUser(storedUserRaw);
+      const persistedUser = storedUser ?? { username: 'unknown' };
+
+      await persistSession(nextToken, persistedUser, nextRefreshToken);
+      setToken(nextToken);
+      return nextToken;
+    } catch {
+      return null;
+    }
+  };
+
+  const refreshToken = async () => {
+    const refreshed = await refreshSessionToken();
+    return refreshed !== null;
   };
 
   useEffect(() => {
@@ -75,7 +140,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     (async () => {
       try {
-        const storedToken = await AsyncStorage.getItem(TOKEN_KEY);
+        const storedToken = await SecureStore.getItemAsync(ACCESS_TOKEN_KEY);
         const storedUserRaw = await AsyncStorage.getItem(USER_KEY);
         const storedUser = parseStoredUser(storedUserRaw);
 
@@ -85,15 +150,16 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             setUser(storedUser);
           }
 
-          // Optionally validate token with backend
+          // Optionally validate token with backend and refresh if expired
           try {
             const res = await fetch(`${API_URL}/auth/me`, {
               headers: { Authorization: `Bearer ${storedToken}` },
             });
             if (res.status === 401 || res.status === 403) {
-              await AsyncStorage.multiRemove([TOKEN_KEY, USER_KEY]);
-              setToken(null);
-              setUser(null);
+              const refreshedToken = await refreshSessionToken();
+              if (!refreshedToken) {
+                await clearSession();
+              }
             } else if (res.ok) {
               const me = await res.json();
               setUser(me);
@@ -125,11 +191,13 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       });
       if (!res.ok) return false;
       const body = await res.json();
-      const t = body.token ?? body.accessToken ?? body.access_token ?? null;
+      const accessToken = body.token ?? body.accessToken ?? body.access_token ?? null;
+      const refreshToken =
+        body.refreshToken ?? body.refresh_token ?? null;
       const u = body.user ?? { username: email };
-      if (!t) return false;
-      await persistSession(t, u);
-      setSession(t, u);
+      if (!accessToken) return false;
+      await persistSession(accessToken, u, refreshToken ?? undefined);
+      setSession(accessToken, u);
       return true;
     } catch {
       return false;
@@ -145,16 +213,16 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     setLoading(true);
     try {
-      await AsyncStorage.multiRemove([TOKEN_KEY, USER_KEY]);
-      setToken(null);
-      setUser(null);
+      await clearSession();
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <AuthContext.Provider value={{ user, token, loading, login, logout }}>
+    <AuthContext.Provider
+      value={{ user, token, loading, login, logout, refreshToken }}
+    >
       {children}
     </AuthContext.Provider>
   );

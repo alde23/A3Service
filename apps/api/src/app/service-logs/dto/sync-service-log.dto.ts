@@ -5,6 +5,7 @@ export class SyncServiceLogDto {
   jobId!: string;
   summary?: string;
   notes?: string;
+  skippedValidation?: boolean;
   laborEntries?: LaborEntryInputDto[];
   consumedParts?: ConsumedPartInputDto[];
 }

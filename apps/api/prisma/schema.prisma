@@ -252,6 +252,7 @@ model ServiceLog {
   status    ServiceLogStatus @default(DRAFT)
   summary   String?
   notes     String?
+  skippedValidation Boolean @default(false)
 
   syncedAt DateTime?
 
@@ -369,6 +370,7 @@ model Warranty {
   durationMonths Int           @default(12)
   expiresAt     DateTime?
   status        WarrantyStatus @default(ACTIVE)
+  skippedValidation Boolean @default(false)
   notes         String?
 
   isDeleted Boolean   @default(false)

@@ -1,7 +1,7 @@
 import { appSchema, tableSchema } from '@nozbe/watermelondb';
 
 export const schema = appSchema({
-  version: 3,
+  version: 4,
   tables: [
     tableSchema({
       name: 'jobs',
@@ -123,7 +123,20 @@ export const schema = appSchema({
         { name: 'status', type: 'string' },
         { name: 'summary', type: 'string', isOptional: true },
         { name: 'notes', type: 'string', isOptional: true },
+        { name: 'skipped_validation', type: 'boolean', isOptional: true },
         { name: 'synced_at', type: 'number', isOptional: true },
+        { name: 'remote_id', type: 'string', isOptional: true, isIndexed: true },
+      ],
+    }),
+    tableSchema({
+      name: 'expenses',
+      columns: [
+        { name: 'job_id', type: 'string', isOptional: true, isIndexed: true },
+        { name: 'amount', type: 'number' },
+        { name: 'currency', type: 'string', isOptional: true },
+        { name: 'description', type: 'string', isOptional: true },
+        { name: 'incurred_at', type: 'number' },
+        { name: 'skipped_validation', type: 'boolean', isOptional: true },
         { name: 'remote_id', type: 'string', isOptional: true, isIndexed: true },
       ],
     }),
