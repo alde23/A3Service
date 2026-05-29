@@ -44,6 +44,17 @@ enum SyncResult {
   FAIL
 }
 
+enum ConflictResolutionPolicy {
+  SERVER_WINS
+  CLIENT_WINS
+  MANUAL_REVIEW
+}
+
+enum ConflictStatus {
+  OPEN
+  RESOLVED
+}
+
 enum WarrantyStatus {
   ACTIVE
   EXPIRED
@@ -212,6 +223,23 @@ model SyncLog {
   @@index([affectedEntity, affectedId])
   @@unique([affectedEntity, affectedId, action, idempotencyKey])
   @@map("sync_logs")
+}
+
+model SyncConflict {
+  id             String                   @id @default(uuid(7))
+  affectedEntity String
+  affectedId     String
+  policy         ConflictResolutionPolicy?
+  status         ConflictStatus           @default(OPEN)
+  details        Json?
+  resolutionNotes String?
+  resolvedAt     DateTime?
+  createdAt      DateTime                 @default(now())
+  updatedAt      DateTime                 @updatedAt
+
+  @@index([status])
+  @@index([affectedEntity, affectedId])
+  @@map("sync_conflicts")
 }
 
 // ─────────────────────────────────────────
