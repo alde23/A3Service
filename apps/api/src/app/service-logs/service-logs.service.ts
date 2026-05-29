@@ -256,7 +256,6 @@ export class ServiceLogService {
           summary: dto.summary,
           notes: dto.notes,
           skippedValidation: dto.skippedValidation ?? false,
-          skippedValidation: dto.skippedValidation ?? false,
           status: ServiceLogStatus.SYNCED,
           syncedAt: now,
         },
