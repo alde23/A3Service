@@ -85,10 +85,12 @@ export async function getReferenceTableForModel(boilerModelId: string) {
 
 export async function upsertCatalogFromServer(
   table: 'boiler_models' | 'parts' | 'fault_codes' | 'technical_properties' | 'reference_tables',
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   items: any[]
 ) {
   if (items.length === 0) return 0;
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const collection = database.get<any>(table);
   let changed = 0;
 
@@ -99,11 +101,13 @@ export async function upsertCatalogFromServer(
         .fetch();
 
       if (existing.length > 0) {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         await existing[0].update((record: any) => {
           mapCatalogItem(table, record, item);
         });
         changed += 1;
       } else {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         await collection.create((record: any) => {
           record.remoteId = item.id;
           mapCatalogItem(table, record, item);
@@ -116,6 +120,7 @@ export async function upsertCatalogFromServer(
   return changed;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function mapCatalogItem(table: string, record: any, item: any) {
   switch (table) {
     case 'boiler_models':

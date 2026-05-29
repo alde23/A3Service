@@ -30,6 +30,7 @@ async function createSyncQueueItem({
   status = 'pending',
   retries = 0,
 }: EnqueueSyncOperationInput) {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   await syncQueueCollection.create((item: any) => {
     item.tableName = tableName;
     item.recordId = recordId;

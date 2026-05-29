@@ -33,7 +33,7 @@ export default function SettingsScreen() {
 
         const savedDarkMode = await AsyncStorage.getItem(STORAGE_KEYS.darkMode);
         if (savedDarkMode) setDarkMode(JSON.parse(savedDarkMode));
-      } catch (e) {
+      } catch {
         // ignore
       }
     };
@@ -46,7 +46,7 @@ export default function SettingsScreen() {
       await i18n.changeLanguage(next);
       await AsyncStorage.setItem(STORAGE_KEYS.language, next);
       setLang(next);
-    } catch (e) {
+    } catch {
       // ignore
     }
   };
@@ -56,7 +56,7 @@ export default function SettingsScreen() {
       const newMode = !darkMode;
       setDarkMode(newMode);
       await AsyncStorage.setItem(STORAGE_KEYS.darkMode, JSON.stringify(newMode));
-    } catch (e) {
+    } catch {
       // ignore this
     }
   };

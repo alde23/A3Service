@@ -15,7 +15,7 @@ export async function addExpense(amount: number, description: string, currency =
       tableName: 'expenses',
       recordId: expense.id,
       operation: 'INSERT',
-      payload: { amount, description, currency, incurredAt: expense.incurredAt.getTime() },
+      payload: JSON.stringify({ amount, description, currency, incurredAt: expense.incurredAt.getTime() }),
     });
   });
 }

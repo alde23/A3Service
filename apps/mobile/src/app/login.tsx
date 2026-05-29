@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, Button, StyleSheet, ActivityIndicator, Pressable } from 'react-native';
+import { View, Text, TextInput, StyleSheet, ActivityIndicator, Pressable } from 'react-native';
 import { useAuth } from '../services/auth.service';
 
 export default function LoginScreen() {

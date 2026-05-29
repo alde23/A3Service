@@ -113,10 +113,7 @@ export default function AnalyticsScreen() {
     () => MONTHLY_DATA.reduce((sum, point) => sum + point.revenue, 0),
     []
   );
-  const peakMonth = useMemo(
-    () => [...MONTHLY_DATA].sort((a, b) => b.jobs - a.jobs)[0],
-    []
-  );
+
 
   const maxJobs = Math.max(...MONTHLY_DATA.map((point) => point.jobs));
 
