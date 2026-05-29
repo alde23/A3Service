@@ -14,6 +14,7 @@ import ServiceLog from '../storage/models/ServiceLog';
 import LaborEntry from '../storage/models/LaborEntry';
 import ConsumedPart from '../storage/models/ConsumedPart';
 import Warranty from '../storage/models/Warranty';
+import Expense from '../storage/models/Expense';
 
 interface CatalogPart {
   id: string;
@@ -61,6 +62,9 @@ interface SyncQueuePayload {
   startDate?: string;
   durationMonths?: number;
   readings?: Array<{ code: string; value: number }>;
+  amount?: number;
+  currency?: string;
+  incurredAt?: number;
 }
 
 export type UnifiedSyncSummary = {
@@ -338,6 +342,41 @@ async function pushTransactionalQueue(token: string, batchSize = 100) {
         continue;
       }
 
+      // ----------------- EXPENSES -----------------
+      if (item.tableName === 'expenses') {
+        const res = await fetch(`${API_URL}/expenses${item.operation === 'UPDATE' || item.operation === 'DELETE' ? '/' + (payload.remoteId || item.recordId) : ''}`, {
+          method: item.operation === 'UPDATE' ? 'PATCH' : (item.operation === 'DELETE' ? 'DELETE' : 'POST'),
+          headers: authJsonHeaders(token),
+          body: item.operation !== 'DELETE' ? JSON.stringify({
+            jobId: payload.jobId,
+            amount: payload.amount,
+            currency: payload.currency,
+            description: payload.description,
+            incurredAt: payload.incurredAt,
+          }) : undefined,
+        });
+
+        if (res.ok) {
+          if (item.operation === 'INSERT') {
+            const created = await res.json();
+            await database.write(async () => {
+              const expense = await database.get<Expense>('expenses').find(item.recordId);
+              await expense.update((rec: Expense) => {
+                rec.remoteId = created.id;
+              });
+              await markSyncOperationSyncedInCurrentWriter(item.id);
+            });
+          } else {
+            await markSyncOperationSynced(item.id);
+          }
+          pushed += 1;
+        } else {
+          await handlePushFailure(item.id, 'expenses', item.recordId, res);
+          failures += 1;
+        }
+        continue;
+      }
+
       // ----------------- DEFAULT (JOBS ETC.) -----------------
       if (item.tableName === 'jobs') {
         // Fallback to existing Jobs push routine logic
@@ -441,3 +480,20 @@ export async function executeUnifiedSync(token: string): Promise<UnifiedSyncSumm
     failures: pushSummary.failures,
   };
 }
+
+let syncInterval: ReturnType<typeof setInterval> | null = null;
+
+export function startAutoSync(token: string, intervalMs = 60000) {
+  if (syncInterval) clearInterval(syncInterval);
+  syncInterval = setInterval(() => {
+    executeUnifiedSync(token).catch((err) => console.error('[Auto Sync] error:', err));
+  }, intervalMs);
+}
+
+export function stopAutoSync() {
+  if (syncInterval) {
+    clearInterval(syncInterval);
+    syncInterval = null;
+  }
+}
+
