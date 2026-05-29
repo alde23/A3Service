@@ -13,6 +13,8 @@ import { SchedulingModule } from './scheduling/scheduling.module';
 import { LibraryModule } from './library/library.module';
 import { ServiceLogsModule } from './service-logs/service-logs.module';
 import { SyncModule } from './sync/sync.module';
+import { CommissioningModule } from './commissioning/commissioning.module';
+import { WarrantyModule } from './warranty/warranty.module';
 import { AnalyticsModule } from './analytics/analytics.module';
 
 @Module({
@@ -29,7 +31,12 @@ import { AnalyticsModule } from './analytics/analytics.module';
     LibraryModule,
     ServiceLogsModule,
     SyncModule,
+    CommissioningModule,
+    WarrantyModule,
     AnalyticsModule,
+    AnalyticsModule,
+    CommissioningModule,
+    WarrantyModule,
   ],
   controllers: [AppController],
   providers: [AppService],
