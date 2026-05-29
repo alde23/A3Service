@@ -6,12 +6,62 @@ import {
   markSyncOperationSyncedInCurrentWriter,
 } from '../storage/repositories/sync-queue.repository';
 import { upsertCatalogFromServer } from '../storage/repositories/catalog.repository';
-import { getServiceLogForJob } from '../storage/repositories/service-logs.repository';
-import { getWarrantyForJob } from '../storage/repositories/warranties.repository';
 import { pullJobsFromServer } from './jobs-sync.service';
 import { authJsonHeaders, API_URL } from './api.config';
 import SyncConflict from '../storage/models/SyncConflict';
 import SyncLog from '../storage/models/SyncLog';
+import ServiceLog from '../storage/models/ServiceLog';
+import LaborEntry from '../storage/models/LaborEntry';
+import ConsumedPart from '../storage/models/ConsumedPart';
+import Warranty from '../storage/models/Warranty';
+
+interface CatalogPart {
+  id: string;
+  sku: string;
+  name: string;
+  brand?: string;
+  unitPrice?: number;
+  inventoryStatus?: string;
+}
+
+interface CatalogFaultCode {
+  id: string;
+  code: string;
+  title: string;
+  description?: string;
+  severity?: string;
+}
+
+interface CatalogModel {
+  id: string;
+  modelName: string;
+  manufacturerId: string;
+  series?: string;
+  fuelType?: string;
+  productionStartYear?: number;
+  productionEndYear?: number;
+  parts?: CatalogPart[];
+  faultCodes?: CatalogFaultCode[];
+}
+
+interface SyncQueuePayload {
+  jobId?: string;
+  status?: string;
+  summary?: string | null;
+  notes?: string | null;
+  remoteId?: string | null;
+  serviceLogId?: string;
+  hours?: number;
+  hourlyRate?: number;
+  description?: string | null;
+  partId?: string;
+  quantity?: number;
+  unitPrice?: number | null;
+  boilerModelId?: string;
+  startDate?: string;
+  durationMonths?: number;
+  readings?: Array<{ code: string; value: number }>;
+}
 
 export type UnifiedSyncSummary = {
   jobsPulled: number;
@@ -42,15 +92,15 @@ export async function pullCatalogFromServer(token: string): Promise<number> {
       itemsCount += await upsertCatalogFromServer('boiler_models', models);
 
       // Extract and upsert linked parts and fault codes
-      const partsMap = new Map<string, any>();
-      const faultsMap = new Map<string, any>();
+      const partsMap = new Map<string, CatalogPart>();
+      const faultsMap = new Map<string, CatalogFaultCode>();
 
-      for (const m of models) {
+      for (const m of models as CatalogModel[]) {
         if (Array.isArray(m.parts)) {
-          m.parts.forEach((p: any) => partsMap.set(p.id, p));
+          m.parts.forEach((p: CatalogPart) => partsMap.set(p.id, p));
         }
         if (Array.isArray(m.faultCodes)) {
-          m.faultCodes.forEach((f: any) => faultsMap.set(f.id, f));
+          m.faultCodes.forEach((f: CatalogFaultCode) => faultsMap.set(f.id, f));
         }
       }
 
@@ -83,7 +133,7 @@ async function pushTransactionalQueue(token: string, batchSize = 100) {
 
   for (const item of pending) {
     try {
-      const payload = JSON.parse(item.payload || '{}') as Record<string, any>;
+      const payload = JSON.parse(item.payload || '{}') as SyncQueuePayload;
 
       // ----------------- SERVICE LOGS -----------------
       if (item.tableName === 'service_logs') {
@@ -109,8 +159,8 @@ async function pushTransactionalQueue(token: string, batchSize = 100) {
           idMap.set(item.recordId, created.id);
 
           await database.write(async () => {
-            const localLog = await database.get('service_logs').find(item.recordId);
-            await localLog.update((rec: any) => {
+            const localLog = await database.get<ServiceLog>('service_logs').find(item.recordId);
+            await localLog.update((rec: ServiceLog) => {
               rec.remoteId = created.id;
               rec.syncedAt = new Date();
             });
@@ -164,9 +214,14 @@ async function pushTransactionalQueue(token: string, batchSize = 100) {
       // ----------------- LABOR ENTRIES -----------------
       if (item.tableName === 'labor_entries' && item.operation === 'INSERT') {
         const localLogId = payload.serviceLogId;
+        if (!localLogId) {
+          await markSyncOperationFailed(item.id);
+          failures += 1;
+          continue;
+        }
         let remoteLogId = idMap.get(localLogId);
         if (!remoteLogId) {
-          const localLog = await database.get('service_logs').find(localLogId);
+          const localLog = await database.get<ServiceLog>('service_logs').find(localLogId);
           remoteLogId = localLog.remoteId || undefined;
         }
 
@@ -189,8 +244,8 @@ async function pushTransactionalQueue(token: string, batchSize = 100) {
         if (res.ok) {
           const created = await res.json();
           await database.write(async () => {
-            const entry = await database.get('labor_entries').find(item.recordId);
-            await entry.update((rec: any) => {
+            const entry = await database.get<LaborEntry>('labor_entries').find(item.recordId);
+            await entry.update((rec: LaborEntry) => {
               rec.remoteId = created.id;
             });
             await markSyncOperationSyncedInCurrentWriter(item.id);
@@ -206,9 +261,14 @@ async function pushTransactionalQueue(token: string, batchSize = 100) {
       // ----------------- CONSUMED PARTS -----------------
       if (item.tableName === 'consumed_parts' && item.operation === 'INSERT') {
         const localLogId = payload.serviceLogId;
+        if (!localLogId) {
+          await markSyncOperationFailed(item.id);
+          failures += 1;
+          continue;
+        }
         let remoteLogId = idMap.get(localLogId);
         if (!remoteLogId) {
-          const localLog = await database.get('service_logs').find(localLogId);
+          const localLog = await database.get<ServiceLog>('service_logs').find(localLogId);
           remoteLogId = localLog.remoteId || undefined;
         }
 
@@ -232,8 +292,8 @@ async function pushTransactionalQueue(token: string, batchSize = 100) {
         if (res.ok) {
           const created = await res.json();
           await database.write(async () => {
-            const itemRecord = await database.get('consumed_parts').find(item.recordId);
-            await itemRecord.update((rec: any) => {
+            const itemRecord = await database.get<ConsumedPart>('consumed_parts').find(item.recordId);
+            await itemRecord.update((rec: ConsumedPart) => {
               rec.remoteId = created.id;
             });
             await markSyncOperationSyncedInCurrentWriter(item.id);
@@ -264,8 +324,8 @@ async function pushTransactionalQueue(token: string, batchSize = 100) {
         if (res.ok) {
           const created = await res.json();
           await database.write(async () => {
-            const warranty = await database.get('warranties').find(item.recordId);
-            await warranty.update((rec: any) => {
+            const warranty = await database.get<Warranty>('warranties').find(item.recordId);
+            await warranty.update((rec: Warranty) => {
               rec.remoteId = created.id;
             });
             await markSyncOperationSyncedInCurrentWriter(item.id);
@@ -281,7 +341,6 @@ async function pushTransactionalQueue(token: string, batchSize = 100) {
       // ----------------- DEFAULT (JOBS ETC.) -----------------
       if (item.tableName === 'jobs') {
         // Fallback to existing Jobs push routine logic
-        const jobsSync = require('./jobs-sync.service');
         // Simple shim since we run batch push
         const res = await fetch(`${API_URL}/jobs${item.operation === 'UPDATE' ? '/' + (payload.remoteId || item.recordId) : ''}`, {
           method: item.operation === 'UPDATE' ? 'PATCH' : 'POST',
@@ -346,8 +405,6 @@ async function handlePushFailure(
 // 3. Unified Synchronizer Execution
 // ────────────────────────────────────────────────────────
 export async function executeUnifiedSync(token: string): Promise<UnifiedSyncSummary> {
-  const startLog = Date.now();
-  
   // A. Pull latest Jobs
   let jobsPulled = 0;
   try {

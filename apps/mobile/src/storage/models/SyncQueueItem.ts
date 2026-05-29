@@ -1,5 +1,5 @@
 import { Model } from '@nozbe/watermelondb';
-import { date, field, readonly, text } from '@nozbe/watermelondb/decorators';
+import { date, field, text } from '@nozbe/watermelondb/decorators';
 
 export type SyncOperation = 'INSERT' | 'UPDATE' | 'DELETE';
 export type SyncStatus = 'pending' | 'synced' | 'failed';
@@ -13,5 +13,5 @@ export default class SyncQueueItem extends Model {
   @text('payload') payload!: string;
   @field('status') status!: SyncStatus;
   @field('retries') retries!: number;
-  @readonly @date('created_at') createdAt!: Date;
+  @date('created_at') createdAt!: Date;
 }

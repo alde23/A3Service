@@ -1,7 +1,11 @@
 import { executeUnifiedSync, pullCatalogFromServer } from './unified-sync.service';
 import { database } from '../storage';
-import { enqueueSyncOperation } from '../storage/repositories/sync-queue.repository';
 import { createServiceLog } from '../storage/repositories/service-logs.repository';
+import BoilerModel from '../storage/models/BoilerModel';
+import Part from '../storage/models/Part';
+import ServiceLog from '../storage/models/ServiceLog';
+import SyncLog from '../storage/models/SyncLog';
+import SyncConflict from '../storage/models/SyncConflict';
 
 const fetchMock = global.fetch as jest.Mock;
 
@@ -46,11 +50,11 @@ describe('unified-sync.service', () => {
     const itemsCount = await pullCatalogFromServer('token-123');
     expect(itemsCount).toBeGreaterThan(0);
 
-    const models = await database.get('boiler_models').query().fetch();
+    const models = await database.get<BoilerModel>('boiler_models').query().fetch();
     expect(models.length).toBe(1);
     expect(models[0].remoteId).toBe('model-eco');
 
-    const parts = await database.get('parts').query().fetch();
+    const parts = await database.get<Part>('parts').query().fetch();
     expect(parts.length).toBe(1);
     expect(parts[0].remoteId).toBe('part-valv');
   });
@@ -81,11 +85,11 @@ describe('unified-sync.service', () => {
     expect(summary.failures).toBe(0);
 
     // Verify local record remoteId was successfully updated
-    const updated = await database.get('service_logs').find(log.id);
+    const updated = await database.get<ServiceLog>('service_logs').find(log.id);
     expect(updated.remoteId).toBe('remote-log-123');
 
     // Verify local SyncLog was recorded
-    const logs = await database.get('sync_logs').query().fetch();
+    const logs = await database.get<SyncLog>('sync_logs').query().fetch();
     expect(logs.length).toBe(1);
     expect(logs[0].status).toBe('success');
   });
@@ -115,7 +119,7 @@ describe('unified-sync.service', () => {
     expect(summary.failures).toBe(1);
 
     // Verify SyncConflict record is added
-    const conflicts = await database.get('sync_conflicts').query().fetch();
+    const conflicts = await database.get<SyncConflict>('sync_conflicts').query().fetch();
     expect(conflicts.length).toBe(1);
     expect(conflicts[0].affectedEntity).toBe('service_logs');
     expect(conflicts[0].status).toBe('OPEN');

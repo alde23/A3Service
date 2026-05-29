@@ -4,6 +4,7 @@ import {
   localValidateCommissioning,
   getWarrantyForJob,
 } from './warranties.repository';
+import SyncQueueItem from '../models/SyncQueueItem';
 
 describe('warranties.repository', () => {
   beforeEach(async () => {
@@ -87,7 +88,7 @@ describe('warranties.repository', () => {
     const found = await getWarrantyForJob('job-123');
     expect(found?.id).toBe(warranty.id);
 
-    const pending = await database.get('sync_queue').query().fetch();
+    const pending = await database.get<SyncQueueItem>('sync_queue').query().fetch();
     expect(pending.length).toBe(1);
     expect(pending[0].operation).toBe('INSERT');
   });

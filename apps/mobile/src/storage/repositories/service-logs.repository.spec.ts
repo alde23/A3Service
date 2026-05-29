@@ -8,6 +8,7 @@ import {
   calculateTotalBilling,
   getServiceLogForJob,
 } from './service-logs.repository';
+import ServiceLog from '../models/ServiceLog';
 
 describe('service-logs.repository', () => {
   beforeEach(async () => {
@@ -31,7 +32,7 @@ describe('service-logs.repository', () => {
 
     // B. Update
     await updateServiceLog(log.id, { status: 'SYNCED', summary: 'Updated summary' });
-    const updated = await database.get('service_logs').find(log.id);
+    const updated = await database.get<ServiceLog>('service_logs').find(log.id);
     expect(updated.status).toBe('SYNCED');
     expect(updated.summary).toBe('Updated summary');
 

@@ -7,8 +7,8 @@ export default class ServiceLog extends Model {
   static table = 'service_logs';
 
   static associations = {
-    labor_entries: { type: 'has_many' as const, key: 'service_log_id' },
-    consumed_parts: { type: 'has_many' as const, key: 'service_log_id' },
+    labor_entries: { type: 'has_many' as const, foreignKey: 'service_log_id' },
+    consumed_parts: { type: 'has_many' as const, foreignKey: 'service_log_id' },
   };
 
   @field('job_id') jobId!: string;
