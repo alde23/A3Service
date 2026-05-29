@@ -11,7 +11,10 @@ import { AuthModule } from '../auth/auth.module';
 import { JobsModule } from './jobs/jobs.module';
 import { SchedulingModule } from './scheduling/scheduling.module';
 import { HealthModule } from './health/health.module';
+import { LibraryModule } from './library/library.module';
+import { ServiceLogsModule } from './service-logs/service-logs.module';
 import { SyncModule } from './sync/sync.module';
+import { AnalyticsModule } from './analytics/analytics.module';
 
 @Module({
   imports: [
@@ -25,7 +28,13 @@ import { SyncModule } from './sync/sync.module';
     JobsModule,
     SchedulingModule,
     HealthModule,
+    LibraryModule,
+    ServiceLogsModule,
+    LibraryModule,
+    ServiceLogsModule,
+    HealthModule,
     SyncModule,
+    AnalyticsModule,
   ],
   controllers: [AppController],
   providers: [AppService],

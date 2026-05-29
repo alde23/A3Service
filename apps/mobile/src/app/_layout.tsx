@@ -3,7 +3,9 @@ import { Tabs } from 'expo-router';
 import type { ComponentProps } from 'react';
 import { Platform, View, ActivityIndicator } from 'react-native';
 import { AuthProvider, useAuth } from '../services/auth.service';
-import LoginScreen from './login';
+import { DatabaseProvider } from '../storage/DatabaseProvider';
+import '../i18n';
+import { useTranslation } from 'react-i18next';
 
 function TabIcon({
   name,
@@ -18,6 +20,8 @@ function TabIcon({
 }
 
 function AppTabs() {
+  const { t } = useTranslation();
+
   return (
     <Tabs
       initialRouteName="home"
@@ -39,7 +43,7 @@ function AppTabs() {
       <Tabs.Screen
         name="home"
         options={{
-          title: 'Home',
+          title: t('tabs.home'),
           tabBarIcon: ({ color, size }) => (
             <TabIcon name="home-outline" color={color} size={size} />
           ),
@@ -48,7 +52,7 @@ function AppTabs() {
       <Tabs.Screen
         name="jobs"
         options={{
-          title: 'Jobs',
+          title: t('tabs.jobs'),
           tabBarIcon: ({ color, size }) => (
             <TabIcon name="briefcase-outline" color={color} size={size} />
           ),
@@ -57,7 +61,7 @@ function AppTabs() {
       <Tabs.Screen
         name="documentation"
         options={{
-          title: 'Documentation',
+          title: t('tabs.documentation'),
           tabBarIcon: ({ color, size }) => (
             <TabIcon
               name="document-text-outline"
@@ -70,9 +74,18 @@ function AppTabs() {
       <Tabs.Screen
         name="analytics"
         options={{
-          title: 'Analytics',
+          title: t('tabs.analytics'),
           tabBarIcon: ({ color, size }) => (
             <TabIcon name="bar-chart-outline" color={color} size={size} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="settings"
+        options={{
+          title: t('tabs.settings'),
+          tabBarIcon: ({ color, size }) => (
+            <TabIcon name="settings-outline" color={color} size={size} />
           ),
         }}
       />
@@ -81,20 +94,21 @@ function AppTabs() {
 }
 
 function GuardedRoot() {
-  const { user, loading } = useAuth();
+  const { loading } = useAuth();
   if (loading) return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <ActivityIndicator />
     </View>
   );
-  if (!user) return <LoginScreen />;
   return <AppTabs />;
 }
 
 export default function RootLayout() {
   return (
-    <AuthProvider>
-      <GuardedRoot />
-    </AuthProvider>
+    <DatabaseProvider>
+      <AuthProvider>
+        <GuardedRoot />
+      </AuthProvider>
+    </DatabaseProvider>
   );
 }

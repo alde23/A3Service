@@ -1,0 +1,67 @@
+{
+  "tabs": {
+    "home": "Početna",
+    "jobs": "Poslovi",
+    "documentation": "Dokumentacija",
+    "analytics": "Analitika"
+  },
+  "login": {
+    "title": "Prijava"
+  }
+  ,
+  "home": {
+    "title": "Početna",
+    "jobs_visible": "{{count}} poslova vidljivo na mapi"
+  },
+  "map": {
+    "you": "Vi",
+    "current_location": "Trenutna lokacija"
+  },
+  "unit": {
+    "mi": "mi",
+    "km": "km"
+  },
+  "jobs": {
+    "title": "Poslovi",
+    "create": "Kreiraj posao",
+    "today_title": "Danasnji poslovi",
+    "count": "{{count}} poslova",
+    "start": "Započni posao",
+    "continue": "Nastavi posao"
+  },
+  "status": {
+    "active": "Aktivan",
+    "upcoming": "Uskoro"
+  },
+  "priority": {
+    "high": "Visok",
+    "medium": "Srednji",
+    "low": "Nizak"
+  },
+  "login": {
+    "hint": "Prijavite se za nastavak",
+    "username": "Korisničko ime",
+    "password": "Lozinka",
+    "invalid_credentials": "Neispravni podaci ili greška mreže",
+    "signin": "Prijavi se"
+  },
+  "analytics": {
+    "title": "Analitika",
+    "header_copy": "Pratite brojeve iza poslova, obrazaca grešaka i potražnje za servisom.",
+    "export": "Izvezi",
+    "year_to_date": "Obim od početka godine",
+    "jobs_count": "{{count}} poslova"
+  },
+  "documentation": {
+    "title": "Dokumentacija",
+    "header_copy": "Pretražite kodove grešaka, tipove bojlera, brendove i brza rješenja.",
+    "search_placeholder": "Pretraži kod greške, ključnu riječ, bojler ili brend",
+    "search": "Pretraži",
+    "popular_references": "Popularne reference",
+    "search_results": "Rezultati pretrage",
+    "top_topics": "Popularne teme",
+    "hero_title": "Brz pristup najčešće korištenim referencama u terenu.",
+    "empty_title": "Nema odgovarajuće dokumentacije",
+    "empty_text": "Pokušajte kod greške kao F22, brend Vaillant ili ključnu riječ poput pressure."
+  }
+}

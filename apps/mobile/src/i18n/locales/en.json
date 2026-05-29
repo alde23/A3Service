@@ -1,0 +1,76 @@
+{
+  "tabs": {
+    "home": "Home",
+    "jobs": "Jobs",
+    "documentation": "Documentation",
+    "analytics": "Analytics"
+  },
+  "login": {
+    "title": "Login",
+    "hint": "Sign in to continue",
+    "username": "Username",
+    "password": "Password",
+    "invalid_credentials": "Invalid credentials or network error",
+    "signin": "Sign In"
+  },
+  "home": {
+    "title": "Home",
+    "jobs_visible": "{{count}} jobs visible on map"
+  },
+  "map": {
+    "you": "You",
+    "current_location": "Current location"
+  },
+  "unit": {
+    "mi": "mi",
+    "km": "km",
+    "min": "min"
+  },
+  "jobs": {
+    "title": "Jobs",
+    "create": "CREATE A JOB",
+    "creating": "CREATING...",
+    "today_title": "Today's Jobs",
+    "count": "{{count}} jobs",
+    "start": "Start Job",
+    "continue": "Continue Job",
+    "updating": "UPDATING...",
+    "syncNow": "SYNC NOW",
+    "syncing": "SYNCING...",
+    "pendingSync": "{{count}} pending sync items",
+    "syncComplete": "Sync complete: pulled {{pulled}}, pushed {{pushed}}, failed {{failed}}",
+    "syncFailedLocal": "Sync failed. Local data is still available.",
+    "syncFailedAuth": "Sync failed. Check API URL or auth token.",
+    "syncSignIn": "Sign in to sync with server."
+  },
+  "status": {
+    "active": "Active",
+    "upcoming": "Upcoming",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "priority": {
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low"
+  },
+  "analytics": {
+    "title": "Analytics",
+    "header_copy": "Track the numbers behind jobs, fault patterns, and service demand.",
+    "export": "Export",
+    "year_to_date": "Year-to-date volume",
+    "jobs_count": "{{count}} jobs"
+  },
+  "documentation": {
+    "title": "Documentation",
+    "header_copy": "Search fault codes, boiler types, brands, and quick fixes.",
+    "search_placeholder": "Search fault code, keyword, boiler or brand",
+    "search": "Search",
+    "popular_references": "Popular References",
+    "search_results": "Search Results",
+    "top_topics": "Top topics",
+    "hero_title": "Fast access to the most used field references.",
+    "empty_title": "No matching documentation found",
+    "empty_text": "Try a fault code like F22, a brand like Vaillant, or a keyword like pressure."
+  }
+}
