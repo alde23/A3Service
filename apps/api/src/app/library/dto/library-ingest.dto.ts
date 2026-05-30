@@ -88,6 +88,8 @@ export type IngestValidationResult = {
     faults: number;
     parts: number;
     manuals: number;
+    technicalProperties: number;
+    referenceTables: number;
     modelFaults: number;
     modelParts: number;
   };
