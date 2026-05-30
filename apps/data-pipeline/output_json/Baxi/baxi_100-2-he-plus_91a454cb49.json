@@ -1,0 +1,3130 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "BAXI",
+    "product_family": "100/2 HE Plus",
+    "model_names": [
+      "Baxi 100/2 HE Plus"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "Installation & Servicing Instructions",
+    "document_code": "5109941 - Iss 2",
+    "publication_date": "09/04",
+    "language": "en",
+    "region": "GB/IE",
+    "source_file": "baxi_baxi-100-2he-plus_boiler-manual_100-2heplus.pdf",
+    "file_hash": "91a454cb49ec02ee7f3163a857c4bc3f11aa23fae93a6c4925254f7c91524a34"
+  },
+  "technical_specs": [
+    {
+      "parameter": "G.C.N°",
+      "value": "41 075 34",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "document_identifier",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Baxi 100/2 HE Plus G.C.N° 41 075 34"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output (factory set)",
+      "value": "22.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.1 Description",
+          "table_title": null,
+          "source_quote": "The maximum output of the boiler is preset at 75,000 Btu/hr."
+        },
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "NOTE: The maximum output of the boiler is factory set at 22.0kW (75,000 Btu/hr)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output (adjustable)",
+      "value": "30.18",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.1 Description",
+          "table_title": null,
+          "source_quote": "If required, the output can be set to 100,000 Btu/hr."
+        },
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "This can be altered to 30.18kW (102,980 Btu/hr) - see section 8.8."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat output",
+      "value": "30,000",
+      "unit": "Btu/hr",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.1 Description",
+          "table_title": null,
+          "source_quote": "The boiler will automatically adjust down to 30,000 Btu/hr according to the system load."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Fuel type",
+      "value": "Natural Gas (G20)",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.1 Description",
+          "table_title": null,
+          "source_quote": "It is designed for use on Natural Gas (G20)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Appliance Type",
+      "value": "C13, C33",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Appliance Type C13 C33"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Appliance Category",
+      "value": "CAT C2H",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Appliance Category CAT C2H"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nox Class",
+      "value": "5",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Nox Class 5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Input (Gross) Max",
+      "value": "33.76",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Input (Gross) Max kW 33.76"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Input (Gross) Min",
+      "value": "10.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Input (Gross) Min kW 10.3"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Input (Gross) Max",
+      "value": "115,200",
+      "unit": "Btu/h",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Input (Gross) Max Btu/h 115,200"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Input (Gross) Min",
+      "value": "35,140",
+      "unit": "Btu/h",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Input (Gross) Min Btu/h 35,140"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output (Non Condensing 70° C Mean Water Temp) Max",
+      "value": "30.18",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Output (Non Condensing 70° C Mean Water Temp) Max kW 30.18"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output (Non Condensing 70° C Mean Water Temp) Min",
+      "value": "9.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Output (Non Condensing 70° C Mean Water Temp) Min kW 9.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output (Non Condensing 70° C Mean Water Temp) Max",
+      "value": "102,980",
+      "unit": "Btu/h",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Output (Non Condensing 70° C Mean Water Temp) Max Btu/h 102,980"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output (Non Condensing 70° C Mean Water Temp) Min",
+      "value": "31,390",
+      "unit": "Btu/h",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Output (Non Condensing 70° C Mean Water Temp) Min Btu/h 31,390"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output (Condensing 40° C Mean Water Temp) Max",
+      "value": "32.61",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Output (Condensing 40° C Mean Water Temp) Max kW 32.61"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output (Condensing 40° C Mean Water Temp) Min",
+      "value": "10",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Output (Condensing 40° C Mean Water Temp) Min kW 10"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output (Condensing 40° C Mean Water Temp) Max",
+      "value": "113,280",
+      "unit": "Btu/h",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Output (Condensing 40° C Mean Water Temp) Max Btu/h 113,280"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output (Condensing 40° C Mean Water Temp) Min",
+      "value": "34,120",
+      "unit": "Btu/h",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Output (Condensing 40° C Mean Water Temp) Min Btu/h 34,120"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Gas Rate (Natural Gas) (After 10 Mins) Max",
+      "value": "102,980",
+      "unit": "Btu/hr",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Max Gas Rate (Natural Gas) (After 10 Mins) Btu/hr 102,980"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Gas Rate (Natural Gas) (After 10 Mins) Min",
+      "value": "75,000",
+      "unit": "Btu/hr",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Max Gas Rate (Natural Gas) (After 10 Mins) Btu/hr 75,000"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Gas Rate (Natural Gas) (After 10 Mins) Max",
+      "value": "2.95",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Max Gas Rate (Natural Gas) (After 10 Mins) m³/h 2.95"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Gas Rate (Natural Gas) (After 10 Mins) Min",
+      "value": "2.31",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Max Gas Rate (Natural Gas) (After 10 Mins) m³/h 2.31"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Gas Rate (Natural Gas) (After 10 Mins) Max",
+      "value": "104.2",
+      "unit": "ft³/h",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Max Gas Rate (Natural Gas) (After 10 Mins) ft³/h 104.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Gas Rate (Natural Gas) (After 10 Mins) Min",
+      "value": "81.6",
+      "unit": "ft³/h",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Max Gas Rate (Natural Gas) (After 10 Mins) ft³/h 81.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Inlet Pressure at Gas Valve (Natural Gas) Min",
+      "value": "18.1",
+      "unit": "mbar",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Inlet Pressure at Gas Valve (Natural Gas) Min 18.1 mbar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Inlet Pressure at Gas Valve (Natural Gas) Max",
+      "value": "22.5",
+      "unit": "mbar",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Inlet Pressure at Gas Valve (Natural Gas) Max 22.5 mbar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Injector (Natural Gas) Diameter",
+      "value": "6.5mm",
+      "unit": "Diameter",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Injector (Natural Gas) 6.5mm Diameter"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CO/CO2 Ratio",
+      "value": "0.001",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "CO/CO2 Ratio 0.001"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical Supply",
+      "value": "230V~50Hz",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Electrical Supply 230V~50Hz"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power Consumption",
+      "value": "80",
+      "unit": "W",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Power Consumption 80W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "External Fuse Rating",
+      "value": "3",
+      "unit": "A",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "External Fuse Rating 3A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Internal Fuse Rating (PCB)",
+      "value": "3.15 AT",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Internal Fuse Rating (BS 4265) Fuse 3.15 AT (PCB)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical Protection",
+      "value": "IPX2",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Electrical Protection IPX2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water Content",
+      "value": "2.6",
+      "unit": "litres",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Water Content litres 2.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water Content",
+      "value": "4.6",
+      "unit": "pints",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Water Content pints 4.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Static Head Max",
+      "value": "30",
+      "unit": "metres",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Static Head max 30 metres (100 ft)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Static Head Min",
+      "value": "1",
+      "unit": "metre",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Static Head min 1 metre (3.25 ft)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Low Head Min",
+      "value": "0.2",
+      "unit": "m",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Low Head 0.2m (8 in) min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "System Detail",
+      "value": "fully pumped open vented & sealed systems",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "system",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "System Detail fully pumped open vented & sealed systems"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas Connection",
+      "value": "G½\" B.S.P. Thread",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Gas Connection G½\" B.S.P. Thread"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Recommended System Temperature Drop (Condensing)",
+      "value": "20°C 36°F",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Recommended System Temperature Drop Condensing 20°C 36°F"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Horizontal Flue Terminal Diameter",
+      "value": "110",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Horizontal Flue Terminal Dimensions Diameter 110mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Horizontal Flue Terminal Projection",
+      "value": "150",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Horizontal Flue Terminal Dimensions Projection 150mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Central Heating Flow Connection",
+      "value": "28",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Central Heating Flow 28mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Central Heating Return Connection",
+      "value": "28",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Central Heating Return 28mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate Drain Connection",
+      "value": "1 in BSP",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Condensate Drain 1 in BSP"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Overall Height Inc Flue Elbow",
+      "value": "750",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Outercase Dimensions Overall Height Inc Flue Elbow 750mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Casing Height",
+      "value": "600",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Casing Height 600mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Casing Width",
+      "value": "390",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Casing Width 390mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Casing Depth",
+      "value": "320",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Casing Depth 320mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Both Sides (unventilated compartments)",
+      "value": "5",
+      "unit": "mm Min",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Clearances (For unventilated compartments see Section 7.5) Both Sides 5mm Min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Above Casing (unventilated compartments)",
+      "value": "200",
+      "unit": "mm Min",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Clearances (For unventilated compartments see Section 7.5) Above Casing 200mm Min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Below Casing (unventilated compartments)",
+      "value": "50",
+      "unit": "mm Min",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Clearances (For unventilated compartments see Section 7.5) Below Casing 50mm Min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Front (For Servicing) (unventilated compartments)",
+      "value": "500",
+      "unit": "mm Min",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Clearances (For unventilated compartments see Section 7.5) Front (For Servicing) 500mm Min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Front (In Operation) (unventilated compartments)",
+      "value": "5",
+      "unit": "mm Min",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Clearances (For unventilated compartments see Section 7.5) Front (In Operation) 5mm Min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Packaged Boiler Carton Weight",
+      "value": "36.2",
+      "unit": "kg",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Weights Packaged Boiler Carton 36.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Packaged Flue Kit Weight",
+      "value": "3.6",
+      "unit": "kg",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Weights Packaged Flue Kit 3.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Installation Lift Weight",
+      "value": "26.0",
+      "unit": "kg",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Weights Installation Lift Weight 26.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Efficiency (SEDBUK Declaration)",
+      "value": "90.9",
+      "unit": "%",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "SEDBUK Declaration For 100/2 HE Plus",
+          "table_title": null,
+          "source_quote": "The efficiency is 90.9%"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Safety valve operating pressure",
+      "value": "3",
+      "unit": "bar",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "pressure",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "6.7 Sealed Systems (Fig. 13)",
+          "table_title": null,
+          "source_quote": "The valve should be pre-set and non-adjustable to operate at a pressure of 3 bar (45 lbf/in²)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure gauge minimum range",
+      "value": "0-4",
+      "unit": "bar",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "pressure",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "6.7 Sealed Systems (Fig. 13)",
+          "table_title": null,
+          "source_quote": "A pressure gauge of minimum range 0-4 bar (0-60 lbf/in²) with a fill pressure indicator must be fitted to the system"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion vessel connecting pipe nominal size",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "6.7 Sealed Systems (Fig. 13)",
+          "table_title": null,
+          "source_quote": "the connecting pipe being unrestricted and not less than 15mm (1/2 in) nominal size."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Make up vessel capacity",
+      "value": "3",
+      "unit": "litres",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "6.7 Sealed Systems (Fig. 13)",
+          "table_title": null,
+          "source_quote": "a make up vessel of not more than 3 litres (5 pints) capacity"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "System component maximum operating temperature",
+      "value": "110°C (230°F)",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "6.7 Sealed Systems (Fig. 13)",
+          "table_title": null,
+          "source_quote": "All components used in the system must be suitable for operation at 110°C (230°F)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Sides (ventilated compartments)",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "7.2 Ventilation of Compartments",
+          "table_title": null,
+          "source_quote": "Sides 15mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Top (ventilated compartments)",
+      "value": "200",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "7.2 Ventilation of Compartments",
+          "table_title": null,
+          "source_quote": "Top 200mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Bottom (ventilated compartments)",
+      "value": "50",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "7.2 Ventilation of Compartments",
+          "table_title": null,
+          "source_quote": "Bottom 50mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Front (ventilated compartments)",
+      "value": "30",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "7.2 Ventilation of Compartments",
+          "table_title": null,
+          "source_quote": "Front 30mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (Directly below an opening, air brick, opening windows, etc.)",
+      "value": "300",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "7.7 Flue",
+          "table_title": "Table. 2 Terminal Position with Minimum Distance (Fig. 17)",
+          "source_quote": "Aª Directly below an opening, air brick, opening windows, etc. 300"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (Below gutters, soil pipes or drain pipes)",
+      "value": "25",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "7.7 Flue",
+          "table_title": "Table. 2 Terminal Position with Minimum Distance (Fig. 17)",
+          "source_quote": "D Below gutters, soil pipes or drain pipes. 25"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (From a surface or boundary line facing a terminal)",
+      "value": "600",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "7.7 Flue",
+          "table_title": "Table. 2 Terminal Position with Minimum Distance (Fig. 17)",
+          "source_quote": "J From a surface or boundary line facing a terminal. 600"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (From a terminal facing a terminal (Horizontal flue))",
+      "value": "1200",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "7.7 Flue",
+          "table_title": "Table. 2 Terminal Position with Minimum Distance (Fig. 17)",
+          "source_quote": "K From a terminal facing a terminal (Horizontal flue). 1200"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Standard horizontal flue kit length range",
+      "value": "270mm minimum to 800mm maximum",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "7.8 Flue Dimensions",
+          "table_title": null,
+          "source_quote": "The standard horizontal flue kit allows for flue lengths between 270mm (10/8\") and 800mm (32\") from elbow to terminal (Fig. 18)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum permissible equivalent flue length",
+      "value": "4",
+      "unit": "metres",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "7.8 Flue Dimensions",
+          "table_title": null,
+          "source_quote": "The maximum permissible equivalent flue length is: 4 metres (Fig. 18a)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent flue length for 45° flue bend",
+      "value": "0.5",
+      "unit": "m",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "7.8 Flue Dimensions",
+          "table_title": null,
+          "source_quote": "Each additional 45° of flue bend will account for an equivalent flue length of 0.5m."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent flue length for 90° flue bend",
+      "value": "1",
+      "unit": "m",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "7.8 Flue Dimensions",
+          "table_title": null,
+          "source_quote": "90° = 2 x 45° = 1m etc."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Concentric Flue System 110mm diameter maximum equivalent length",
+      "value": "4",
+      "unit": "m",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "7.11 Flue options",
+          "table_title": null,
+          "source_quote": "The maximum equivalent lengths are 4m (horizontal) or (vertical)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Twin Flue System 80mm diameter total maximum equivalent flue length",
+      "value": "150",
+      "unit": "m",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "7.11 Flue options",
+          "table_title": null,
+          "source_quote": "The total maximum equivalent flue length is 150m."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Concentric Pipes 45° bend equivalent length",
+      "value": "0.5",
+      "unit": "m",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "7.11 Flue options",
+          "table_title": null,
+          "source_quote": "Concentric Pipes: 45° bend 0.5 m"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Concentric Pipes 93° bend equivalent length",
+      "value": "1.0",
+      "unit": "m",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "7.11 Flue options",
+          "table_title": null,
+          "source_quote": "Concentric Pipes: 93° bend 1.0 m"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Twin Flue Pipe 45° bend (air duct) equivalent length",
+      "value": "1.3",
+      "unit": "m",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "7.11 Flue options",
+          "table_title": null,
+          "source_quote": "Twin Flue Pipe: 45° bend (air duct) 1.3 m"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Twin Flue Pipe 45° bend (flue duct) equivalent length",
+      "value": "2.6",
+      "unit": "m",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "7.11 Flue options",
+          "table_title": null,
+          "source_quote": "Twin Flue Pipe: 45° bend (flue duct) 2.6 m"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Twin Flue Pipe 90° bend (air duct) equivalent length",
+      "value": "4.8",
+      "unit": "m",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "7.11 Flue options",
+          "table_title": null,
+          "source_quote": "Twin Flue Pipe: 90° bend (air duct) 4.8 m"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Twin Flue Pipe 90° bend (flue duct) equivalent length",
+      "value": "9.6",
+      "unit": "m",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "7.11 Flue options",
+          "table_title": null,
+          "source_quote": "Twin Flue Pipe: 90° bend (flue duct) 9.6 m"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue Hole Ø (Wall Thickness up to 227mm)",
+      "value": "125mm",
+      "unit": "core drill",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "8.1 Initial Preparation",
+          "table_title": "Wall Thickness Flue Hole Ø",
+          "source_quote": "up to 227mm 125mm core drill"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue Hole Ø (Wall Thickness up to 750mm)",
+      "value": "150mm",
+      "unit": "core drill",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "8.1 Initial Preparation",
+          "table_title": "Wall Thickness Flue Hole Ø",
+          "source_quote": "up to 750mm 150mm core drill"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue Hole Ø (Wall Thickness up to 1200mm)",
+      "value": "175mm",
+      "unit": "core drill",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "8.1 Initial Preparation",
+          "table_title": "Wall Thickness Flue Hole Ø",
+          "source_quote": "up to 1200mm 175mm core drill"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rear Flue maximum wall thickness",
+      "value": "630",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "8.7 Fitting The Flue",
+          "table_title": null,
+          "source_quote": "Rear Flue: maximum wall thickness - 630mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Side Flue maximum wall thickness",
+      "value": "565",
+      "unit": "mm",
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "8.7 Fitting The Flue",
+          "table_title": null,
+          "source_quote": "Side Flue: maximum wall thickness - 565mm (left or right)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow Temperature Thermistor (Red) Part No.",
+      "value": "240670",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "parts",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "14.0 Short Parts List",
+          "table_title": "Short Parts List",
+          "source_quote": "A E06 058 Flow Temperature Thermistor (Red) 240670"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow Switch Part No.",
+      "value": "242459",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "parts",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "14.0 Short Parts List",
+          "table_title": "Short Parts List",
+          "source_quote": "B E06 059 Flow Switch 242459"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Safety Thermostat (Black) Part No.",
+      "value": "242235",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "parts",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "14.0 Short Parts List",
+          "table_title": "Short Parts List",
+          "source_quote": "C E06 060 Safety Thermostat (Black) 242235"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "PCB (100/2HE) Part No.",
+      "value": "510991",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "parts",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "14.0 Short Parts List",
+          "table_title": "Short Parts List",
+          "source_quote": "D PCB (100/2HE) 510991"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Fan Part No.",
+      "value": "5109925",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "parts",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "14.0 Short Parts List",
+          "table_title": "Short Parts List",
+          "source_quote": "E Fan 5109925"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas Valve Part No.",
+      "value": "241900",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "parts",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "14.0 Short Parts List",
+          "table_title": "Short Parts List",
+          "source_quote": "F Gas Valve 241900"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Viewing Window Part No.",
+      "value": "242484",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "parts",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "14.0 Short Parts List",
+          "table_title": "Short Parts List",
+          "source_quote": "G E06 085 Viewing Window 242484"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate Trap Part No.",
+      "value": "5111714",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "parts",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "14.0 Short Parts List",
+          "table_title": "Short Parts List",
+          "source_quote": "H Condensate Trap 5111714"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrodes Kit Part No.",
+      "value": "5110992",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "parts",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "14.0 Short Parts List",
+          "table_title": "Short Parts List",
+          "source_quote": "I Electrodes Kit 5110992"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Burner Assy Part No.",
+      "value": "5107430",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "parts",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "14.0 Short Parts List",
+          "table_title": "Short Parts List",
+          "source_quote": "J Burner Assy 5107430"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Exchanger Assy Part No.",
+      "value": "242497",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "parts",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "14.0 Short Parts List",
+          "table_title": "Short Parts List",
+          "source_quote": "K E06 097 Heat Exchanger Assy 242497"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Control Knob Part No.",
+      "value": "5109996",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100/2 HE Plus"
+      ],
+      "category": "parts",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "14.0 Short Parts List",
+          "table_title": "Short Parts List",
+          "source_quote": "L Control Knob 5109996"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "Lights Off Off Off",
+      "description": "No Switched Live to boiler",
+      "possible_causes": [
+        "No switched live to boiler"
+      ],
+      "manufacturer_steps": [
+        "Check Systems Controls and System Wiring"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "System Controls",
+        "Wiring"
+      ],
+      "severity": "critical",
+      "safety_level": "warning",
+      "search_tags": [
+        "no power",
+        "electrical",
+        "wiring",
+        "controls"
+      ],
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "15.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lights Off Off Off No Switched Live to boiler. Check Systems Controls and System Wiring."
+        },
+        {
+          "page_number": 41,
+          "section_title": "ELECTRICAL SUPPLY",
+          "table_title": null,
+          "source_quote": "No Switched Live to boiler. Check Systems Controls and System Wiring."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "Lights On Off Flash",
+      "description": "Live & Neutral Reversed",
+      "possible_causes": [
+        "Incoming Live and Neutral reversed"
+      ],
+      "manufacturer_steps": [
+        "Rectify wiring"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Wiring"
+      ],
+      "severity": "high",
+      "safety_level": "warning",
+      "search_tags": [
+        "electrical",
+        "wiring",
+        "live",
+        "neutral"
+      ],
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "15.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lights On Off Flash Live & Neutral Reversed Incoming Live and Neutral reversed."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "Lights On Flash Flash",
+      "description": "Dry-Fire",
+      "possible_causes": [
+        "System not full of water",
+        "Pump or Pump Wiring fault",
+        "Wiring from terminal block to PCB faulty",
+        "PCB fault",
+        "Wires from inline connector to PCB faulty",
+        "Physical blockage to the paddle within the flow switch",
+        "Blockage in the system"
+      ],
+      "manufacturer_steps": [
+        "Fill system with water and bleed out all air",
+        "Check pump or pump wiring",
+        "Check wiring from terminal block to PCB",
+        "Replace PCB",
+        "Check wires from inline connector to PCB",
+        "Replace blockage",
+        "Replace Flow Switch"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Pump",
+        "Flow Switch",
+        "PCB",
+        "Water system",
+        "Wiring"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "dry fire",
+        "water",
+        "pump",
+        "flow",
+        "blockage"
+      ],
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "15.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lights On Flash Flash Go to Dry-Fire section of the fault finding instructions."
+        },
+        {
+          "page_number": 42,
+          "section_title": "DRY-FIRE",
+          "table_title": null,
+          "source_quote": "Is the system full of water? Fill system with water and bleed out all air. Is the pump running? Pump or Pump Wiring fault. Is the pump run off the switched live? Pump or Pump Wiring fault. Turn mains off & on. After 5 sec, is there 240V at E? Wiring from terminal block to PCB faulty. Replace PCB. Unplug 5-way PCB connector. Is there continuity between H (run pump from switched live)? Wires from inline connector to PCB faulty. Replace PCB. Disconnect Flow Switch Inline connector. With pump running is there continuity across flow switch? Wires from inline connector to PCB faulty. Replace PCB. Remove flow switch from boiler. Is there a physical blockage to the paddle within the flow switch? Replace Blockage. Is there a blockage in the system? Replace Flow Switch. Replace Blockage."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "Lights On Off On",
+      "description": "Ignition Lockout",
+      "possible_causes": [
+        "No gas at gas valve inlet",
+        "Incorrect gas supply to boiler",
+        "Gas valve fault",
+        "Lead from PCB to Gas Valve faulty",
+        "PCB fault",
+        "Condensate trap blocked or water on terminals",
+        "Spark or flame detection probe damaged",
+        "Incorrect spark gap",
+        "Wiring from PCB to spark probe & flame detection probe faulty",
+        "Burner blocked or damaged"
+      ],
+      "manufacturer_steps": [
+        "Check isolation valve and gas supply",
+        "Reset Lockout",
+        "Check gas flow (check at meter)",
+        "Remove Gas Valve & check inlet filter for blockage. Otherwise incorrect gas supply to boiler",
+        "Replace Gas Valve",
+        "Check lead from PCB to Gas Valve",
+        "Replace PCB",
+        "Clear blockage and dry sensors",
+        "Replace spark or flame detection probe and gaskets",
+        "Set spark gap to 3.5mm",
+        "Rectify wiring",
+        "Clean burner or replace as necessary"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve",
+        "Condensate trap",
+        "Spark probe",
+        "Flame detection probe",
+        "Burner",
+        "PCB",
+        "Wiring"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition",
+        "lockout",
+        "gas",
+        "flame",
+        "spark",
+        "sensor",
+        "burner",
+        "condensate"
+      ],
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "3.1",
+          "table_title": null,
+          "source_quote": "9. Ignition Lockout: The pump, fan, spark generator and gas valve are off. The boiler can only be reset by manually using the reset button."
+        },
+        {
+          "page_number": 40,
+          "section_title": "15.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lights On Off On Go to Ignition Lockout section of the fault finding instructions."
+        },
+        {
+          "page_number": 43,
+          "section_title": "IGNITION LOCKOUT",
+          "table_title": null,
+          "source_quote": "Is there gas at gas valve inlet? Check isolation valve and gas supply. Reset Lockout. Is there gas flow (check at meter)? Remove Gas Valve & check inlet filter for blockage. Otherwise incorrect gas supply to boiler. Replace Gas Valve. Is there at least 18mbar dynamic at gas valve inlet? Remove 5-way connector from gas valve. Is there 240 Vdc between I & J during ignition? Lead from PCB to Gas Valve faulty. Replace PCB. Is Condensate Trap blocked or water on terminals? Clear blockage and dry sensors. Replace spark or flame detection probe and gaskets. Is spark or flame detection probe damaged? Set spark gap to 3.5mm. Is spark gap between 3 and 4mm? Rectify wiring. Is wiring from PCB to spark probe & flame detection probe OK? Clean burner or replace as necessary. Is the burner blocked or damaged? Replace PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "Lights Flash Off On",
+      "description": "Overheat Lockout",
+      "possible_causes": [
+        "Black stat on flow pipe faulty",
+        "Fan stat faulty",
+        "Wiring from PCB to thermostats faulty",
+        "Thermistor faulty",
+        "Combustion chamber door seal damaged or not in place",
+        "PCB fault"
+      ],
+      "manufacturer_steps": [
+        "Replace Stat",
+        "Check wiring from PCB to thermostats",
+        "Replace thermistor",
+        "Replace combustion chamber door seal & trim seal",
+        "Replace PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flow pipe stat (black)",
+        "Fan stat",
+        "Thermistor (red sensor)",
+        "PCB",
+        "Combustion chamber door seal",
+        "Wiring"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "overheat",
+        "lockout",
+        "thermostat",
+        "thermistor",
+        "sensor",
+        "fan",
+        "seal"
+      ],
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "15.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lights Flash Off On Go to Overheat Lockout section of the fault finding instructions."
+        },
+        {
+          "page_number": 44,
+          "section_title": "OVERHEAT LOCKOUT",
+          "table_title": null,
+          "source_quote": "Disconnect black stat on flow pipe. When flow < 60° C is there continuity across stat? Replace Stat. Reconnect stat. Disconnect fan stat. When fan temp < 60° C is there continurty across stat? Replace Stat. Reconnect stat. Disconnect the larger of the 6-way PCB connectors. Is there continuity across M? Wiring from PCB to thermostats faulty. Disconnect thermistor (red sensor on flow pipe). Is resistance between 0.5KΩ & 20KΩ? Replace thermistor. Is combustion chamber door seal damaged or not in place? Replace combustion chamber door seal & trim seal. Replace PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "Lights Flash Flash On",
+      "description": "Fan Lockout",
+      "possible_causes": [
+        "Wiring from 3-way PCB connector to fan faulty",
+        "Wiring from 6-way PCB connector to fan faulty",
+        "Fan faulty"
+      ],
+      "manufacturer_steps": [
+        "Rectify wiring",
+        "Replace fan"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Fan",
+        "PCB",
+        "Wiring"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan",
+        "lockout",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "15.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lights Flash Flash On Go to Fan Lockout section of the fault finding instructions."
+        },
+        {
+          "page_number": 45,
+          "section_title": "FAN LOCKOUT",
+          "table_title": null,
+          "source_quote": "Unplug 3-way PCB connector & unplug fan. Is there continuity from N to O & from P to Q? Rectify wiring. Unplug the smaller of the 6-way PCB connector. Is there continuity from R to S & from T to U & from V to W? Rectify wiring. Replace fan."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "Lights On On On",
+      "description": "PCB Fault",
+      "possible_causes": [
+        "PCB fault"
+      ],
+      "manufacturer_steps": [
+        "Replace PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "PCB"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "15.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lights On On On PCB Fault Replace PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "PCB fuse OK? (No)",
+      "description": "PCB fuse failed",
+      "possible_causes": [
+        "Shorts on pump, fan & gas valve"
+      ],
+      "manufacturer_steps": [
+        "Check for shorts on pump, fan & gas valve. Replace if shorted & replace fuse."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Pump",
+        "Fan",
+        "Gas Valve",
+        "PCB fuse"
+      ],
+      "severity": "high",
+      "safety_level": "warning",
+      "search_tags": [
+        "fuse",
+        "electrical",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "ELECTRICAL SUPPLY",
+          "table_title": null,
+          "source_quote": "PCB fuse OK? Check for shorts on pump, fan & gas valve. Replace if shorted & replace fuse."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "Lights On Flash On",
+      "description": "Thermistor fault",
+      "possible_causes": [
+        "Thermistor faulty",
+        "Wiring from PCB to thermistor faulty",
+        "PCB faulty"
+      ],
+      "manufacturer_steps": [
+        "Replace thermistor",
+        "Check wiring from PCB to thermistor",
+        "Replace PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Thermistor",
+        "PCB",
+        "Wiring"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "thermistor",
+        "sensor",
+        "temperature",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "15.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lights On Flash On Go to Thermistor section of the fault finding instructions."
+        },
+        {
+          "page_number": 46,
+          "section_title": "THERMISTOR",
+          "table_title": null,
+          "source_quote": "Unplug thermistor, Is thermistor resistance between 0.5KΩ & 20KΩ? Replace thermistor. Plug in thermistor, leave 8-way connector unplugged. Is resistance at D between 0.5KΩ & 20KΩ? Wiring from PCB to thermistor faulty. Replace PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "diagnostic_codes": [],
+  "status_codes": [],
+  "safety_warnings": [
+    {
+      "warning_type": "caution",
+      "topic": "Lifting and Handling",
+      "text": "This product should be lifted and handled by two people. For recommended hand holds see section 8.3. Stooping should be avoided and protective equipment wom where necessary. Carrying & lifting equipment should be used as required, e.g. when installing in a loft space.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "IMPORTANT - Installation, Commissioning, Service & Repair",
+          "table_title": null,
+          "source_quote": "Lifting - This product should be lifted and handled by two people. For recommended hand holds see section 8.3. Stooping should be avoided and protective equipment wom where necessary. Carrying & lifting equipment should be used as required, e.g. when installing in a loft space."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Data Plate Compatibility",
+      "text": "Check the information on the data plate is compatible with local supply conditions.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "IMPORTANT - Installation, Commissioning, Service & Repair",
+          "table_title": null,
+          "source_quote": "Warning - Check the information on the data plate is compatible with local supply conditions."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Man-made mineral fibre",
+      "text": "Some component parts of this appliance (insulation pads, gaskets and rope seals) are manufactured from man-made mineral fibre. Prolonged or excessive exposure to this material may result in some irritation to the eyes, skin or respiratory tract. It is advisable to wear gloves when handling these items. Irritant dust will only be released from the items if they are broken up or subjected to severe abrasion. In these instances a suitable dust mask and goggles should be worn. Always thoroughly wash hands after installation, servicing or changing components. When disposing of any items manufactured from man-made mineral fibre care must be exercised. If any irritation of the eyes or severe irritation of the skin is experienced seek medical attention.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.2 Important Information",
+          "table_title": null,
+          "source_quote": "Man-made mineral fibre Some component parts of this appliance (insulation pads, gaskets and rope seals) are manufactured from man-made mineral fibre. • Prolonged or excessive exposure to this material may result in some irritation to the eyes, skin or respiratory tract. • It is advisable to wear gloves when handling these items. • Imitant dust will only be released from the items if they are broken up or subjected to severe abrasion. In these instances a suitable dust mask and goggles should be wom. • Always thoroughly wash hands after installation, servicing or changing components. • When disposing of any items manufactured from man-made mineral fibre care must be exercised. • If any imtation of the eyes or severe imitation of the skin is experienced seek medical attention."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Water Treatment",
+      "text": "Failure to flush and add inhibitor to the system will invalidate the appliance warranty.",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "6.2 Treatment of Water Circulating Systems",
+          "table_title": null,
+          "source_quote": "Failure to flush and add inhibitor to the system will invalidate the appliance warranty."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Flue Plume",
+      "text": "Due to the high efficiency of the boiler a plume of water vapour will be discharged from the flue. This should be taken into account when siting the flue terminal.",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "7.1 Location",
+          "table_title": null,
+          "source_quote": "NOTE: Due to the high efficiency of the boiler a plume of water vapour will be discharged from the flue. This should be taken into account when siting the flue terminal."
+        },
+        {
+          "page_number": 17,
+          "section_title": "7.7 Flue",
+          "table_title": null,
+          "source_quote": "NOTE: Due to the high efficiency of the boiler a plume of water vapour will be discharged from the flue. This should be taken into account when siting the flue terminal."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Ventilation Label",
+      "text": "The ventilation label on the front of the outer case MUST NOT BE REMOVED when the appliance is installed in a compartment or cupboard.",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "7.2 Ventilation of Compartments",
+          "table_title": null,
+          "source_quote": "NOTE: The ventilation label on the front of the outer case MUST NOT BE REMOVED when the appliance is installed in a compartment or cupboard."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electrical Safety",
+      "text": "The PCB Control and Fan Assembly if 325 Vdc. Isolate at supply before access.",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "7.5 Electrical Supply",
+          "table_title": null,
+          "source_quote": "WARNING: The PCB Control and Fan Assembly if 325 Vdc. Isolate at supply before access."
+        },
+        {
+          "page_number": 25,
+          "section_title": "8.8 Making The Electrical Connections",
+          "table_title": null,
+          "source_quote": "WARNING: The PCB Control and Fan Assembly is 325 Vdc. Isolate at supply before access."
+        },
+        {
+          "page_number": 28,
+          "section_title": "10.1 Commissioning the Boiler",
+          "table_title": null,
+          "source_quote": "WARNING: The PCB Control and Fan Assembly is 325 Vdc. Isolate at supply before access."
+        },
+        {
+          "page_number": 30,
+          "section_title": "12.1 Annual Servicing",
+          "table_title": null,
+          "source_quote": "WARNING: The PCB Control and Fan Assembly is 325 Vdc. Isolate at supply before access."
+        },
+        {
+          "page_number": 32,
+          "section_title": "13.1 Changing Components",
+          "table_title": null,
+          "source_quote": "WARNING: The PCB Control and Fan Assembly is 325 Vdc. Isolate at supply before access."
+        },
+        {
+          "page_number": 34,
+          "section_title": "13.4 PCB (Figs. 48 & 49)",
+          "table_title": null,
+          "source_quote": "WARNING: The PCB Control and Fan Assembly is 325 Vdc. Isolate at supply before access."
+        },
+        {
+          "page_number": 35,
+          "section_title": "13.6 Fan (Fig. 52)",
+          "table_title": null,
+          "source_quote": "WARNING: The PCB Control and Fan Assembly is 325 Vdc. Isolate at supply before access."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Electrical Isolation",
+      "text": "The method of connection to the electricity supply must facilitate complete electrical isolation of the appliance.",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "7.5 Electrical Supply",
+          "table_title": null,
+          "source_quote": "NOTE: \"The method of connection to the electricity supply must facilitate complete electrical isolation of the appliance\"."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "User Interface Isolation",
+      "text": "There is no method of isolating the boiler, at the user interface.",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "7.5 Electrical Supply",
+          "table_title": null,
+          "source_quote": "Note! There is no method of isolating the boiler, at the user interface."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Condensate Drain Installation",
+      "text": "FAILURE TO INSTALL THE CONDENSATE DISCHARGE PIPEWORK CORRECTLY WILL AFFECT THE RELIABLE OPERATION OF THE BOILER. The condensate discharge pipe MUST NOT RISE at any point along its length. There MUST be a fall of AT LEAST 2.5° (50mm per metre) along the entire run.",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "7.6 Condensate Drain",
+          "table_title": null,
+          "source_quote": "FAILURE TO INSTALL THE CONDENSATE DISCHARGE PIPEWORK CORRECTLY WILL AFFECT THE RELIABLE OPERATION OF THE BOILER The condensate discharge pipe MUST NOT RISE at any point along its length. There MUST be a fall of AT LEAST 2.5° (50mm per metre) along the entire run."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Condensate Discharge Air Break",
+      "text": "It is unnecessary to fit an air break in the discharge pipe.",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "7.6 Condensate Drain",
+          "table_title": null,
+          "source_quote": "NOTE: It is unnecessary to fit an air break in the discharge pipe."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Lifting in Loft/Small Compartment",
+      "text": "When installing in Loft/Small Compartment access for lifting the boiler from the front can be gained for two people using the lifting points. (Fig. 24).",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "8.3 Fitting The Boiler (Fig. 24)",
+          "table_title": null,
+          "source_quote": "NOTE: When installing in Loft/Small Compartment access for lifting the boiler from the front can be gained for two people using the lifting points. (Fig. 24)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Drain Cocks",
+      "text": "Drain cocks should be fitted to all system's low points and vents to all high points.",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "8.4 Making the Water Connections (Fig. 25)",
+          "table_title": null,
+          "source_quote": "NOTE: Drain cocks should be fitted to all system's low points and vents to all high points."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Pipework Clearance",
+      "text": "It is important that the pipework does not interfere with the correct fitting of the outer case and a space of 14mm clearance must be left between any vertical pipes and the outer edge of the wall plate.",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "8.4 Making the Water Connections (Fig. 25)",
+          "table_title": null,
+          "source_quote": "NOTE: It is important that the pipework does not interfere with the correct fitting of the outer case and a space of 14mm clearance must be left between any vertical pipes and the outer edge of the wall plate."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Condensate Trap Priming",
+      "text": "To ensure the correct operation and integrity of the condensate drainage system - Carefully pour approximately I cupful (250ml) of water into the flue products exhaust, at the top of the heat exchanger (Fig. 25a) to ensure a seal is made in the trap.",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "8.5 Making the Condensate Drain Connection",
+          "table_title": null,
+          "source_quote": "NOTE: To ensure the correct operation and integrity of the condensate drainage system - Carefully pour approximately I cupful (250ml) of water into the flue products exhaust, at the top of the heat exchanger (Fig. 25a) to ensure a seal is made in the trap."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Flue Installation",
+      "text": "The flue should always be installed with a 3° (I in 20) fall from terminal to elbow, to allow condensate to run back to the boiler.",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "8.7 Fitting The Flue",
+          "table_title": null,
+          "source_quote": "IMPORTANT: The flue should always be installed with a 3° (I in 20) fall from terminal to elbow, to allow condensate to run back to the boiler."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Flue Measurement",
+      "text": "Check all measurements before cutting.",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "8.7 Fitting The Flue",
+          "table_title": null,
+          "source_quote": "IMPORTANT: Check all measurements before cutting."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Flue Cutting",
+      "text": "When cutting ensure the cut does not interfere with the inner flue support bracket (Fig. 27a).",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "8.7 Fitting The Flue",
+          "table_title": null,
+          "source_quote": "NOTE: When cutting ensure the cut does not interfere with the inner flue support bracket (Fig. 27a)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electrical Earthing",
+      "text": "This appliance must be earthed.",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "8.8 Making The Electrical Connections",
+          "table_title": null,
+          "source_quote": "WARNING: This appliance must be earthed"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Servicing Safety",
+      "text": "When servicing ensure that both the gas and electrical supplies to the boiler are isolated before any work is started.",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "12.1 Annual Servicing",
+          "table_title": null,
+          "source_quote": "IMPORTANT: When servicing ensure that both the gas and electrical supplies to the boiler are isolated before any work is started."
+        },
+        {
+          "page_number": 32,
+          "section_title": "13.1 Changing Components",
+          "table_title": null,
+          "source_quote": "IMPORTANT: When changing components ensure that both the gas and electrical supplies to the boiler are isolated before any work is started."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electrical Isolation for Servicing",
+      "text": "The boiler cannot be switched off at the boiler, therefore it is important to isolate the electrical supply at the mains fuse.",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "12.1 Annual Servicing",
+          "table_title": null,
+          "source_quote": "The boiler cannot be switched off at the boiler, therefore it is important to isolate the electrical supply at the mains fuse."
+        },
+        {
+          "page_number": 32,
+          "section_title": "13.1 Changing Components",
+          "table_title": null,
+          "source_quote": "The boiler cannot be switched off at the boiler, therefore it is important to isolate the electrical supply at the mains fuse."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Hazardous Materials",
+      "text": "Hazardous materials are not used in the construction of Baxi products, however reasonable care during service is recommended.",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "12.1 Annual Servicing",
+          "table_title": null,
+          "source_quote": "Hazardous materials are not used in the construction of Baxi products, however reasonable care during service is recommended."
+        },
+        {
+          "page_number": 32,
+          "section_title": "13.1 Changing Components",
+          "table_title": null,
+          "source_quote": "Hazardous materials are not used in the construction of Baxi products, however reasonable care during service is recommended."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Combustion Box Door Replacement",
+      "text": "When replacing the combustion box door after servicing it is essential that the retaining screws are tightened fully.",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "12.1 Annual Servicing",
+          "table_title": null,
+          "source_quote": "When replacing the combustion box door after servicing it is essential that the retaining screws are tightened fully."
+        },
+        {
+          "page_number": 32,
+          "section_title": "13.1 Changing Components",
+          "table_title": null,
+          "source_quote": "When replacing the combustion box door after changing components, it is essential that the retaining screws are tightened fully."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Condensate Trap Cleaning",
+      "text": "Remove the trap drain plug and place a vessel underneath to catch the condensate (care should be taken as this could be hot). Clean the trap and refit the drain plug. Check for leaks.",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "12.1 Annual Servicing",
+          "table_title": null,
+          "source_quote": "NOTE: Remove the trap drain plug and place a vessel underneath to catch the condensate (care should be taken as this could be hot). Clean the trap and refit the drain plug. Check for leaks."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "O-ring Replacement",
+      "text": "When reassembling always fit new 'O' rings, ensuring their correct location on the spigot. Green \"O\" rings are used for gas joints and Black \"O\" rings for water joints. Use Greasil 4000 (Approved Silicone Grease).",
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "13.1 Changing Components",
+          "table_title": null,
+          "source_quote": "NOTE: When reassembling always fit new 'O' rings, ensuring their correct location on the spigot. Green \"O\" rings are used for gas joints and Black \"O\" rings for water joints. Use Greasil 4000 (Approved Silicone Grease)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Gas Tightness Check",
+      "text": "Check for gas tightness after replacing gas valve.",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "13.8 Gas Valve (Fig. 53)",
+          "table_title": null,
+          "source_quote": "NOTE: Check for gas tightness after replacing gas valve."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Combustion Box Door Seals",
+      "text": "On refitting the combustion box door check the condition of the combustion box door seals.",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": "13.10 Burner (Fig. 56)",
+          "table_title": null,
+          "source_quote": "IMPORTANT: On refitting the combustion box door check the condition of the combustion box door seals."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Fan Voltage",
+      "text": "The fan is supplied with 325 Vdc.",
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "15.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "NOTE: The fan is supplied with 325 Vdc."
+        },
+        {
+          "page_number": 45,
+          "section_title": "15.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "NOTE: The fan is supplied with 325 Vdc."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Fan Fault Finding Isolation",
+      "text": "Fan Fault Finding should only be carried out after the boiler has been electrically isolated.",
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "15.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Fan Fault Finding should only be carried out after the boiler has been electrically isolated."
+        },
+        {
+          "page_number": 45,
+          "section_title": "15.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Fan Fault Finding should only be carried out after the boiler has been electrically isolated."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Fault Finding Qualification",
+      "text": "General Fault Finding should only be carried out by someone who is appropriately qualified.",
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "15.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "General Fault Finding should only be carried out by someone who is appropriately qualified."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "maintenance_tasks": [
+    {
+      "task_name": "Complete Installation and Commissioning sections of Log Book",
+      "description": "Ensure your installer has completed the Installation and Commissioning sections of the Log Book and hands the Log Book over. The details of the Log Book will be required in the event of any warranty work.",
+      "interval": "After installation",
+      "required_qualification": "CORGI registered installer",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "\"Benchmark\" Installation, Commissioning and Service Record Log Book",
+          "table_title": null,
+          "source_quote": "Please ensure that your installer has completed the Installation and Commissioning sections of the Log Book and hands the Log Book over. The details of the Log Book will be required in the event of any warranty work."
+        },
+        {
+          "page_number": 29,
+          "section_title": "11.1 Fitting The Outer Case",
+          "table_title": null,
+          "source_quote": "Carefully read and complete ali sections of the \"Benchmark\" Installation, Commissioning and Service Record Log Book that are relevant to the appliance and installation."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Keep Log Book in a safe place",
+      "description": "Keep the Log Book in a safe place and ensure that the relevant sections are completed at each subsequent regular service visit.",
+      "interval": "Ongoing",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "\"Benchmark\" Installation, Commissioning and Service Record Log Book",
+          "table_title": null,
+          "source_quote": "Keep the Log Book in a safe place and ensure that the relevant sections are completed at each subsequent regular service visit."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Check inhibitor concentration",
+      "description": "Check the inhibitor concentration after installation, system modification and at every service in accordance with the manufacturer's instructions.",
+      "interval": "After installation, system modification, and at every service",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "6.2 Treatment of Water Circulating Systems",
+          "table_title": null,
+          "source_quote": "It is important to check the inhibitor concentration after installation, system modification and at every service in accordance with the manufacturer's instructions."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Annual Servicing",
+      "description": "For reasons of safety and economy, it is recommended that the boiler is serviced annually. Includes cleaning burner, heat exchanger fins, fan compartment, insulation, door seals, electrodes, condensate trap, top of heat exchanger, and checking CO/CO2 ratio.",
+      "interval": "Annually",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "12.1 Annual Servicing",
+          "table_title": null,
+          "source_quote": "For reasons of safety and economy, it is recommended that the boiler is serviced annually."
+        },
+        {
+          "page_number": 30,
+          "section_title": "12.1 Annual Servicing",
+          "table_title": null,
+          "source_quote": "9. Visually check for debris/damage and clean or replace if necessary the following: a) Burner. b) Heat exchanger fins. c) Fan compartment (Check also for condensate leaks). d) Insulation. e) Door seals-Important: Pay particular attention to the condition of the combustion box door seals. f) Electrodes. g) The condensate trap must be thoroughly cleaned at every service (see section 13.9 for removal). h) Top of heat exchanger."
+        },
+        {
+          "page_number": 31,
+          "section_title": "12.1 Annual Servicing (Cont)",
+          "table_title": null,
+          "source_quote": "11. Check CO/CO² ratio at flue sampling point (Fig.4la). See section 4.0."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Instruct user on boiler controls and hand over documents",
+      "description": "Instruct the user in the operation of the boiler controls. Hand over the User's Operating, Installation and Servicing Instructions and the Log Book, giving advice on the necessity of regular servicing.",
+      "interval": "After installation",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "11.1 Fitting The Outer Case",
+          "table_title": null,
+          "source_quote": "Instruct the user in the operation of the boiler controls. Hand over the User's Operating, Installation and Servicing Instructions and the Log Book, giving advice on the necessity of regular servicing."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Re-commission boiler",
+      "description": "After changing a component re-commission the boiler where appropriate and check the inhibitor concentration.",
+      "interval": "After component change",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "13.1 Changing Components",
+          "table_title": null,
+          "source_quote": "After changing a component re-commission the boiler where appropriate and check the inhibitor concentration (see Section 6.2 and 10.1)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Drain the boiler/system",
+      "description": "Isolate the water circuit and drain the system as necessary. A drain point is located on the heat exchanger manifold at the right hand side of the boiler to enable the heat exchanger to be drained.",
+      "interval": "Before certain component changes (e.g., thermistor, flowswitch, heat exchanger)",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "13.1 Changing Components",
+          "table_title": null,
+          "source_quote": "Isolate the water circuit and drain the system as necessary. A drain point is located on the heat exchanger manifold at the nght hand side of the boiler (Fig. 45) to enable the heat exchanger to be drained."
+        },
+        {
+          "page_number": 33,
+          "section_title": "13.3 Flowswitch (Fig. 47)",
+          "table_title": null,
+          "source_quote": "1. Drain the boiler (see Section 13.1 paragraph 2 & 3)."
+        },
+        {
+          "page_number": 37,
+          "section_title": "13.11 Heat Exchanger",
+          "table_title": null,
+          "source_quote": "1. Drain the boiler (see section 13.1 paragraph 2 & 3)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "search_terms": [
+    "Baxi 100/2 HE Plus",
+    "Installation",
+    "Servicing",
+    "Instructions",
+    "Boiler",
+    "Condensing",
+    "Gas Fired",
+    "Central Heating",
+    "Technical Data",
+    "Fault Finding",
+    "Troubleshooting",
+    "Error Codes",
+    "Maintenance",
+    "Electrical",
+    "Flue",
+    "Dimensions",
+    "Clearances",
+    "Water Treatment",
+    "System Controls",
+    "Sealed Systems",
+    "Condensate Drain",
+    "Ignition Lockout",
+    "Dry-Fire",
+    "Overheat Lockout",
+    "Fan Lockout",
+    "PCB Fault",
+    "Thermistor",
+    "Flow Switch",
+    "Safety Thermostat",
+    "Gas Valve",
+    "Heat Exchanger",
+    "Burner",
+    "Electrodes",
+    "Pump",
+    "Wiring Diagram"
+  ],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.95,
+    "review_required": false,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": []
+  }
+}

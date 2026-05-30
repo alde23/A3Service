@@ -1,0 +1,3262 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "BAXI",
+    "product_family": "Baxi System",
+    "model_names": [
+      "Baxi System 818",
+      "Baxi System 824"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "Installation and Service Manual High Efficiency Wall Hung Condensing Gas Boiler",
+    "document_code": "7729931-01",
+    "publication_date": null,
+    "language": "en",
+    "region": "United Kingdom",
+    "source_file": "baxi_baxi-818-system_boiler-manual_baxi-800-system-installation-and-service-manual.pdf",
+    "file_hash": "7b7d4766cc1afb49060e8dbe3c9c280c7cac9eb20343c8db6121a90252db0cee"
+  },
+  "technical_specs": [
+    {
+      "parameter": "CE certificate number",
+      "value": "0085CS0215",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "certifications",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Certifications",
+          "table_title": "Certifications",
+          "source_quote": "CE certificate number 0085CS0215"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx class",
+      "value": "6",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "certifications",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Certifications",
+          "table_title": "Certifications",
+          "source_quote": "NOx class 6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler type",
+      "value": "C13, C33",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "certifications",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Certifications",
+          "table_title": "Certifications",
+          "source_quote": "Boiler type C13, C33"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas category",
+      "value": "I2H",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Gas category",
+          "table_title": "Gas category, type and supply pressure",
+          "source_quote": "Gas category I2H"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas type",
+      "value": "G20",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Gas category",
+          "table_title": "Gas category, type and supply pressure",
+          "source_quote": "Gas type G20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Supply pressure",
+      "value": "20",
+      "unit": "mbar",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Gas category",
+          "table_title": "Gas category, type and supply pressure",
+          "source_quote": "Supply pressure (mbar) 20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas council number",
+      "value": "41 470 73",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi System 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "General",
+          "source_quote": "Gas council numbers 41 470 73"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas council number",
+      "value": "41 470 74",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi System 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "General",
+          "source_quote": "Gas council numbers 41 470 74"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input central heating Net (Qn Hi)",
+      "value": "18.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi System 18"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "General",
+          "source_quote": "Nominal heat input central heating Net (Qn Hi) kW 18.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input central heating Net (Qn Hi)",
+      "value": "24.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi System 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "General",
+          "source_quote": "Nominal heat input central heating Net (Qn Hi) kW 24.7"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum rate Gross (Qn Hs)",
+      "value": "20.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi System 18"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "General",
+          "source_quote": "Maximum rate Gross (Qn Hs) kW 20.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum rate Gross (Qn Hs)",
+      "value": "27.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi System 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "General",
+          "source_quote": "Maximum rate Gross (Qn Hs) kW 27.4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input 80/60C° Minimum rate Net (Qn Hi)",
+      "value": "4.64",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi System 18",
+        "Baxi System 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "General",
+          "source_quote": "Nominal heat input 80/60C° Minimum rate Net (Qn Hi) kW 4.64"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input 80/60C° Minimum rate Gross (Qn Hs)",
+      "value": "5.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi System 18",
+        "Baxi System 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "General",
+          "source_quote": "Nominal heat input 80/60C° Minimum rate Gross (Qn Hs) kW 5.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output 80/60°C central heating Maximum rate Pn",
+      "value": "18",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi System 18"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "General",
+          "source_quote": "Nominal heat output 80/60°C central heating Maximum rate Pn kW 18"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output 80/60°C central heating Maximum rate Pn",
+      "value": "24",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi System 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "General",
+          "source_quote": "Nominal heat output 80/60°C central heating Maximum rate Pn kW 24"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output 80/60°C central heating - Factory setting Pn",
+      "value": "18",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi System 18"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "General",
+          "source_quote": "Nominal heat output 80/60°C central heating - Factory setting Pn kW 18"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output 80/60°C central heating - Factory setting Pn",
+      "value": "24",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi System 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "General",
+          "source_quote": "Nominal heat output 80/60°C central heating - Factory setting Pn kW 24"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output 80/60°C Minimum rate Pn",
+      "value": "4.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi System 18",
+        "Baxi System 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "General",
+          "source_quote": "Nominal heat output 80/60°C Minimum rate Pn kW 4.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output 50/30°C central heating Maximum rate Pnc",
+      "value": "19.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi System 18"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "General",
+          "source_quote": "Nominal heat output 50/30°C central heating Maximum rate Pnc kW 19.4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output 50/30°C central heating Maximum rate Pnc",
+      "value": "25.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi System 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "General",
+          "source_quote": "Nominal heat output 50/30°C central heating Maximum rate Pnc kW 25.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output 50/30°C central heating Minimum rate Pn",
+      "value": "4.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi System 18",
+        "Baxi System 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "General",
+          "source_quote": "Nominal heat output 50/30°C central heating Minimum rate Pn kW 4.9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum pressure",
+      "value": "3",
+      "unit": "bar",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "Central heating circuit specifications",
+          "source_quote": "Maximum pressure bar 3"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum pressure",
+      "value": "0.5",
+      "unit": "bar",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "Central heating circuit specifications",
+          "source_quote": "Minimum pressure bar 0.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Central heating temperature adjustment",
+      "value": "25/80",
+      "unit": "°C",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "Central heating circuit specifications",
+          "source_quote": "Central heating temperature adjustment (±5°C) °C 25/80"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion vessel water capacity",
+      "value": "7.0",
+      "unit": "litres",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "Central heating circuit specifications",
+          "source_quote": "Expansion vessel water capacity litres 7.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion vessel pre charge pressure",
+      "value": "1.0",
+      "unit": "bar",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "Central heating circuit specifications",
+          "source_quote": "Expansion vessel pre charge pressure bar 1.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum capacity of central heating system",
+      "value": "100",
+      "unit": "litres",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "Central heating circuit specifications",
+          "source_quote": "Maximum capacity of central heating system litres 100"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Primary water content of boiler (unpressurised)",
+      "value": "2.5",
+      "unit": "litres",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical data",
+          "table_title": "Central heating circuit specifications",
+          "source_quote": "Primary water content of boiler (unpressurised) litres 2.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Natural gas rate (G20) Qmax",
+      "value": "1.96",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "Baxi System 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Characteristics of combustion",
+          "source_quote": "Natural gas rate (G20) Qmax m³/h 1.96"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Natural gas rate (G20) Qmax",
+      "value": "2.61",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "Baxi System 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Characteristics of combustion",
+          "source_quote": "Natural gas rate (G20) Qmax m³/h 2.61"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Natural gas rate (G20) Qmin",
+      "value": "0.49",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "Baxi System 18",
+        "Baxi System 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Characteristics of combustion",
+          "source_quote": "Natural gas rate (G20) Qmin m³/h 0.49"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dynamic (nominal) inlet pressure (Natural gas G20)",
+      "value": "20",
+      "unit": "mbar",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical information",
+          "table_title": null,
+          "source_quote": "Dynamic (nominal) inlet pressure (Natural gas G20) 20mbar with a CV of 37.78 MJ/m³"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal electrical power supply voltage",
+      "value": "230",
+      "unit": "V",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Electrical specifications",
+          "source_quote": "Nominal electrical power supply voltage V 230"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal electrical power supply frequency",
+      "value": "50",
+      "unit": "Hz",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Electrical specifications",
+          "source_quote": "Nominal electrical power supply frequency Hz 50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal power consumption when firing",
+      "value": "70 (18) - 100 (24)",
+      "unit": "W",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Electrical specifications",
+          "source_quote": "Nominal power consumption when firing W 70 (18) 100 (24)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "External fuse rating",
+      "value": "3",
+      "unit": "Amp",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Electrical specifications",
+          "source_quote": "External fuse rating Amp 3"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Internal fuse rating",
+      "value": "F2A H250V",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Electrical specifications",
+          "source_quote": "Internal fuse rating Amp F2A H250V"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Degree of protection against humidity (EN 60529)",
+      "value": "IPX5D",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Other specifications",
+          "source_quote": "Degree of protection against humidity (EN 60529) IP IPX5D"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimensions (height / width / depth)",
+      "value": "H 700/W 390/D 285",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Other specifications",
+          "source_quote": "Dimensions (height / width / depth) mm H 700/W 390/D 285"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas inlet connection size",
+      "value": "22",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Connections (copper tails)",
+          "source_quote": "Gas inlet mm 22"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating flow connection size",
+      "value": "22",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Connections (copper tails)",
+          "source_quote": "Heating flow mm 22"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating return connection size",
+      "value": "22",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Connections (copper tails)",
+          "source_quote": "Heating return mm 22"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure relief discharge connection size",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Connections (copper tails)",
+          "source_quote": "Pressure relief discharge mm 15"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate discharge drain plastic waste pipe connection size",
+      "value": "21.5",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Connections (copper tails)",
+          "source_quote": "Condensate discharge drain plastic waste pipe mm 21.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance above casing",
+      "value": "178",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Clearances",
+          "source_quote": "Above casing mm 178"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance below casing (min)",
+      "value": "150 minimum, 200 recommended",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Clearances",
+          "source_quote": "Below casing (min) mm 150 minimum, 200 recommended"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance front - for servicing",
+      "value": "450",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Clearances",
+          "source_quote": "Front for servicing mm 450"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance front - for operation",
+      "value": "5",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Clearances",
+          "source_quote": "Front for operation mm 5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance sides LH",
+      "value": "5",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Clearances",
+          "source_quote": "Sides LH mm 5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance sides RH",
+      "value": "5",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Clearances",
+          "source_quote": "Sides RH mm 5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Packaged boiler weight",
+      "value": "33.1",
+      "unit": "kg",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Weights",
+          "source_quote": "Packaged boiler kg 33.1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler lift weight (dry)",
+      "value": "28.1",
+      "unit": "kg",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Weights",
+          "source_quote": "Boiler lift weight (dry) kg 28.1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Installed weight (dry)",
+      "value": "29.0",
+      "unit": "kg",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Weights",
+          "source_quote": "Installed weight (dry) kg 29.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Installed weight when filled with water",
+      "value": "31.6",
+      "unit": "kg",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical data",
+          "table_title": "Weights",
+          "source_quote": "Installed weight when filled with water kg 31.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum output",
+      "value": "18 kW - 19.4 kW Pnc (Condensing)",
+      "unit": null,
+      "applies_to_models": [
+        "18 models"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "General description",
+          "table_title": "The boiler is set to give a maximum output of :-",
+          "source_quote": "18 models 18 kW - 19.4 kW Pnc (Condensing)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum output",
+      "value": "24kW - 25.8 kW Pnc (Condensing)",
+      "unit": null,
+      "applies_to_models": [
+        "24 models"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "General description",
+          "table_title": "The boiler is set to give a maximum output of :-",
+          "source_quote": "24 models 24kW - 25.8 kW Pnc (Condensing)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (Directly below an opening, air brick opening window etc.)",
+      "value": "300",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Flue/chimney location",
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "A (1) Directly below an opening, air brick opening window etc. 300 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (Above an opening, air brick, opening window etc.)",
+      "value": "300",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Flue/chimney location",
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "B (1) Above an opening, air brick, opening window etc. 300 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (Horizontally to an opening, air brick, opening window etc.)",
+      "value": "300",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Flue/chimney location",
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "C (1) Horizontally to an opening, air brick, opening window etc. 300 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (From a surface or boundary line facing a terminal)",
+      "value": "600",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Flue/chimney location",
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "J From a surface or boundary line facing a terminal 600 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (From a terminal facing a terminal (Horizontal flue))",
+      "value": "1200",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Flue/chimney location",
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "K From a terminal facing a terminal (Horizontal flue) 1200 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (From a terminal facing a terminal (Vertical flue))",
+      "value": "600",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Flue/chimney location",
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "From a terminal facing a terminal (Vertical flue) 600 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (From an opening in carport (e.g. door, window) into the dwelling)",
+      "value": "1200",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Flue/chimney location",
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "L From an opening in carport (e.g. door, window) into the dwelling 1200 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum permissible equivalent flue length (Horizontal concentric 60/100 Diameter)",
+      "value": "10",
+      "unit": "metres",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Horizontal flue/chimney systems",
+          "table_title": "Maximum permissible equivalent flue lengths are:-",
+          "source_quote": "Horizontal concentric 60/100 Diameter 10 metres"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum permissible equivalent flue length (Horizontal concentric 80/125 Diameter)",
+      "value": "20",
+      "unit": "metres",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Horizontal flue/chimney systems",
+          "table_title": "Maximum permissible equivalent flue lengths are:-",
+          "source_quote": "Horizontal concentric 80/125 Diameter 20 metres"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent length (Concentric pipes 135° bend)",
+      "value": "0.5",
+      "unit": "metres",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Horizontal flue/chimney systems",
+          "table_title": "Their equivalent lengths are:-",
+          "source_quote": "Concentric pipes 135° bend 0.5 metres"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent length (Concentric pipes 93° bend)",
+      "value": "1.0",
+      "unit": "metres",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Horizontal flue/chimney systems",
+          "table_title": "Their equivalent lengths are:-",
+          "source_quote": "Concentric pipes 93° bend 1.0 metres"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Operational (working) gas pressure at inlet gas pressure test point",
+      "value": "AT LEAST 18",
+      "unit": "mb",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Check the operational (working gas inlet pressure and gas rate)",
+          "table_title": null,
+          "source_quote": "1. With the boiler operating in the maximum rate condition check that the operational (working) gas pressure at the inlet gas pressure test point is in accordance with BS 6798 & BS 6891. This must be AT LEAST 18mb!"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CO2 percentage (maximum rate) - Case front panel on",
+      "value": "9.0 + 0.3 - 0.2",
+      "unit": "%",
+      "applies_to_models": [],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Gas valve",
+          "table_title": "Characteristics of combustion",
+          "source_quote": "Case front panel on - CO2 % (maximum) 9.0+ 0.3-0.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CO2 percentage (minimum rate) - Case front panel on",
+      "value": "8.5 + 0.1 - 0.4",
+      "unit": "%",
+      "applies_to_models": [],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Gas valve",
+          "table_title": "Characteristics of combustion",
+          "source_quote": "Case front panel on - CO2 % (minimum) 8.5 + 0.1-0.4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CO2 percentage (maximum rate) - Case front panel off",
+      "value": "8.8 +0.3-0.2",
+      "unit": "%",
+      "applies_to_models": [],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Gas valve",
+          "table_title": "Characteristics of combustion",
+          "source_quote": "Case front panel off - CO2 % (maximum) 8.8 +0.3-0.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CO2 percentage (minimum rate) - Case front panel off",
+      "value": "8.3 +0.1-0.4",
+      "unit": "%",
+      "applies_to_models": [],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Gas valve",
+          "table_title": "Characteristics of combustion",
+          "source_quote": "Case front panel off - CO2 % (minimum) 8.3 +0.1-0.4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion performance (CO/CO2 ratio)",
+      "value": "less than 0.004",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Standard inspection and maintenance operations",
+          "table_title": null,
+          "source_quote": "Remove the plug from the combustion test point, insert the analyser probe and obtain the CO/CO2 ratio. This must be less than 0.004."
+        },
+        {
+          "page_number": 54,
+          "section_title": "Setting the gas valve (CO2)",
+          "table_title": null,
+          "source_quote": "Check the combustion performance (CO/CO2 ratio). This must be less than 0.004."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "E 09",
+      "description": "Gas valve connection cable",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Press the reset button for 1 to 3 seconds. If still flashing or re-occurs regularly, check all PCB connections. If this has no effect replace the PCB.",
+        "Check wiring and PCB - X36 connector. If not correct, replace gas valve."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "wiring",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 09 Gas valve connection cable"
+        },
+        {
+          "page_number": 57,
+          "section_title": "Central heating",
+          "table_title": "Central heating — Follow operational sequence",
+          "source_quote": "E09, 15, 110, 125, 133, 134, 135 or 384 flashing Press the reset button for 1 to 3 seconds If E09, 15, 110 or 384 is flashing or re-occurs regularly, check all PCB connections. If this has no effect replace the PCB."
+        },
+        {
+          "page_number": 58,
+          "section_title": "Fault finding solutions sections A to E",
+          "table_title": null,
+          "source_quote": "Check wiring and PCB - X36 connector see Wiring Diagram YES Replace gas valve"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E 15",
+      "description": "Gas valve fault",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Press the reset button for 1 to 3 seconds. If still flashing or re-occurs regularly, check all PCB connections. If this has no effect replace the PCB.",
+        "Check wiring and PCB - X36 connector. If not correct, replace gas valve."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "fault",
+        "wiring",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 15 Gas valve fault"
+        },
+        {
+          "page_number": 57,
+          "section_title": "Central heating",
+          "table_title": "Central heating — Follow operational sequence",
+          "source_quote": "E09, 15, 110, 125, 133, 134, 135 or 384 flashing Press the reset button for 1 to 3 seconds If E09, 15, 110 or 384 is flashing or re-occurs regularly, check all PCB connections. If this has no effect replace the PCB."
+        },
+        {
+          "page_number": 58,
+          "section_title": "Fault finding solutions sections A to E",
+          "table_title": null,
+          "source_quote": "Check wiring and PCB - X36 connector see Wiring Diagram YES Replace gas valve"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E 20",
+      "description": "Central heating NTC fault",
+      "possible_causes": [
+        "Temperature sensor faulty"
+      ],
+      "manufacturer_steps": [
+        "Go to section 'D' (Temperature sensor faulty).",
+        "Check correct location and wiring of temperature sensor.",
+        "Check cold resistance (approximately 10kΩ @ 25°C, resistance reduces with increase in temp.). If not correct, replace sensor."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "wiring"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "sensor",
+        "temperature",
+        "fault"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 20 Central heating NTC fault"
+        },
+        {
+          "page_number": 57,
+          "section_title": "Central heating",
+          "table_title": "Central heating — Follow operational sequence",
+          "source_quote": "E20, 28, 40 or 321 flashing Go to section 'D'"
+        },
+        {
+          "page_number": 58,
+          "section_title": "Fault finding solutions sections A to E",
+          "table_title": null,
+          "source_quote": "Temperature sensor faulty. Check correct location and wiring. Cold resistance approximately 10ΚΩ @ 25° C (DHW and CH sensors) (resistance reduces with increase in temp.) NO Replace sensor"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E 28",
+      "description": "Flue NTC fault",
+      "possible_causes": [
+        "Temperature sensor faulty"
+      ],
+      "manufacturer_steps": [
+        "Go to section 'D' (Temperature sensor faulty).",
+        "Check correct location and wiring of temperature sensor.",
+        "Check cold resistance (approximately 10kΩ @ 25°C, resistance reduces with increase in temp.). If not correct, replace sensor."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC flue sensor",
+        "wiring"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "flue",
+        "sensor",
+        "temperature",
+        "fault"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 28 Flue NTC fault"
+        },
+        {
+          "page_number": 57,
+          "section_title": "Central heating",
+          "table_title": "Central heating — Follow operational sequence",
+          "source_quote": "E20, 28, 40 or 321 flashing Go to section 'D'"
+        },
+        {
+          "page_number": 58,
+          "section_title": "Fault finding solutions sections A to E",
+          "table_title": null,
+          "source_quote": "Temperature sensor faulty. Check correct location and wiring. Cold resistance approximately 10ΚΩ @ 25° C (DHW and CH sensors) (resistance reduces with increase in temp.) NO Replace sensor"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E 40",
+      "description": "Central heating return NTC fault",
+      "possible_causes": [
+        "Temperature sensor faulty"
+      ],
+      "manufacturer_steps": [
+        "Go to section 'D' (Temperature sensor faulty).",
+        "Check correct location and wiring of temperature sensor.",
+        "Check cold resistance (approximately 10kΩ @ 25°C, resistance reduces with increase in temp.). If not correct, replace sensor."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "heating return sensor",
+        "wiring"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "sensor",
+        "temperature",
+        "fault",
+        "heating return"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 40 Central heating return NTC fault"
+        },
+        {
+          "page_number": 57,
+          "section_title": "Central heating",
+          "table_title": "Central heating — Follow operational sequence",
+          "source_quote": "E20, 28, 40 or 321 flashing Go to section 'D'"
+        },
+        {
+          "page_number": 58,
+          "section_title": "Fault finding solutions sections A to E",
+          "table_title": null,
+          "source_quote": "Temperature sensor faulty. Check correct location and wiring. Cold resistance approximately 10ΚΩ @ 25° C (DHW and CH sensors) (resistance reduces with increase in temp.) NO Replace sensor"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E 83",
+      "description": "Communication error",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "error"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 83 Communication error"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E 109",
+      "description": "Pre-circulation fault",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Go to section 'J' (Ensure that the boiler and system are fully vented).",
+        "Check flow temperature sensor connections and position. Check cold resistance (approximately 10kΩ @ 25°C, resistance reduces with increase in temp.). If not correct, replace sensor.",
+        "If sensor is OK, go to section 'B' (Pump)."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flow temperature sensor",
+        "pump"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "circulation",
+        "pump",
+        "venting",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 109 Pre-circulation fault"
+        },
+        {
+          "page_number": 57,
+          "section_title": "Central heating",
+          "table_title": "Central heating — Follow operational sequence",
+          "source_quote": "E109 flashing Go to section 'J'"
+        },
+        {
+          "page_number": 60,
+          "section_title": "Fault finding solutions sections I to M",
+          "table_title": null,
+          "source_quote": "Check flow temperature sensor connections and position. Cold resistance approximately 10k Ω @ 25° C (CH sensors) (resistance reduces with increase in temp.) NO Replace sensor. If YES, Go to section 'B'"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E 110",
+      "description": "Safety thermostat operated",
+      "possible_causes": [
+        "Overheat of the primary system water",
+        "Safety thermostat operated or faulty",
+        "System faults"
+      ],
+      "manufacturer_steps": [
+        "Press the reset button for 1 to 3 seconds. If still flashing or re-occurs regularly, check all PCB connections. If this has no effect replace the PCB.",
+        "Go to section 'H' (Safety thermostat operated or faulty).",
+        "Check for and correct any system faults.",
+        "Allow to cool. Check continuity across thermostat terminals (more than 1.5 ohm). If not correct, replace safety thermostat.",
+        "If E 110 is still flashing after thermostat check, replace PCB.",
+        "If not flashing, check Flow & Return Sensors (see section 'D')."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Overheat of the primary system water"
+      ],
+      "related_components": [
+        "Safety thermostat",
+        "PCB",
+        "Flow sensor",
+        "Return sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "safety thermostat",
+        "overheat",
+        "temperature",
+        "PCB",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 110 Safety thermostat operated. 110 indicates overheat of the primary system water."
+        },
+        {
+          "page_number": 57,
+          "section_title": "Central heating",
+          "table_title": "Central heating — Follow operational sequence",
+          "source_quote": "E09, 15, 110, 125, 133, 134, 135 or 384 flashing Press the reset button for 1 to 3 seconds If E09, 15, 110 or 384 is flashing or re-occurs regularly, check all PCB connections. If this has no effect replace the PCB. If E 110 is still flashing go to section 'H'. E110 flashing Go to section 'H'"
+        },
+        {
+          "page_number": 59,
+          "section_title": "Fault finding solutions sections F to H",
+          "table_title": null,
+          "source_quote": "Safety thermostat operated or faulty YES Check for and correct any system faults NO Allow to cool. Continuity across thermostat terminals more than 1.5 ohm YES Replace safety thermostat NO Check Flow & Return Sensors see section 'D' YES Is E 110 still flashing ? YES Replace PCB"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E 118",
+      "description": "Primary system water pressure too low",
+      "possible_causes": [
+        "Primary water pressure less than 0.5 bar"
+      ],
+      "manufacturer_steps": [
+        "Go to section 'I' (CH system pressure less than 0.5 bar).",
+        "Restore system pressure.",
+        "Check wiring and PCB - X22 connector for approx. 5V DC between green & black. If not correct, replace hydraulic pressure switch.",
+        "If hydraulic pressure switch is OK, replace PCB."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Primary water pressure less than 0.5 bar"
+      ],
+      "related_components": [
+        "hydraulic pressure switch",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure",
+        "water pressure",
+        "low pressure",
+        "hydraulic pressure switch",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 118 Primary system water pressure too low. 118 is displayed when the primary water pressure is less than 0.5 bar."
+        },
+        {
+          "page_number": 57,
+          "section_title": "Central heating",
+          "table_title": "Central heating — Follow operational sequence",
+          "source_quote": "E118 flashing Go to section 'I'"
+        },
+        {
+          "page_number": 60,
+          "section_title": "Fault finding solutions sections I to M",
+          "table_title": null,
+          "source_quote": "CH system pressure less than 0.5 bar YES Restore system pressure NO Check wiring and PCB - X22 connector for approx. 5V DC between green & black - see Wiring Diagram NO Replace hydraulic pressure switch NO Replace PCB"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E 125",
+      "description": "Circulation fault (primary)",
+      "possible_causes": [
+        "Primary water temperature not changed by 1°C within 15-30 seconds of burner lighting",
+        "Primary water temperature actual temperature twice exceeds selected temperature by 30° within 10 minutes of burner lighting",
+        "Poor primary circulation"
+      ],
+      "manufacturer_steps": [
+        "Press the reset button for 1 to 3 seconds. If still flashing or re-occurs regularly, check all PCB connections. If this has no effect replace the PCB.",
+        "Go to section 'J' (Ensure that the boiler and system are fully vented).",
+        "Check flow temperature sensor connections and position. Check cold resistance (approximately 10kΩ @ 25°C, resistance reduces with increase in temp.). If not correct, replace sensor.",
+        "If sensor is OK, go to section 'B' (Pump)."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Primary water temperature not changing after burner ignition",
+        "Primary water temperature exceeding selected temperature significantly after burner ignition"
+      ],
+      "related_components": [
+        "flow temperature sensor",
+        "pump"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "circulation",
+        "pump",
+        "temperature",
+        "sensor",
+        "venting"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 125 Circulation fault (primary). 125 is displayed in either of two situations:- If between 15 and 30 seconds of the burner lighting, the primary water temperature has not changed by 1° С. If within 10 minutes of the burner lighting, the primary water temperature actual temperature twice exceeds the selected temperature by 30°. In these instances poor primary circulation is indicated."
+        },
+        {
+          "page_number": 57,
+          "section_title": "Central heating",
+          "table_title": "Central heating — Follow operational sequence",
+          "source_quote": "E09, 15, 110, 125, 133, 134, 135 or 384 flashing Press the reset button for 1 to 3 seconds If E09, 15, 110 or 384 is flashing or re-occurs regularly, check all PCB connections. If this has no effect replace the PCB. E125 flashing after 1 min Go to section 'J'"
+        },
+        {
+          "page_number": 60,
+          "section_title": "Fault finding solutions sections I to M",
+          "table_title": null,
+          "source_quote": "Check flow temperature sensor connections and position. Cold resistance approximately 10k Ω @ 25° C (CH sensors) (resistance reduces with increase in temp.) NO Replace sensor. If YES, Go to section 'B'"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E 128",
+      "description": "Flame failure",
+      "possible_causes": [
+        "Flame failure during normal operation"
+      ],
+      "manufacturer_steps": [
+        "Press the reset button for 1 to 3 seconds. If still flashing or re-occurs regularly, check all PCB connections. If this has no effect replace the PCB.",
+        "Go to section 'G' (Check supply pressure at the gas valve).",
+        "Check supply pressure at the gas valve (minimum 17 mbar for Natural Gas).",
+        "Check and correct gas valve settings (CO2 values), flame sensing electrode and lead connections, flame sensing electrode position. If not correct, replace flame sensing electrode or PCB."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve",
+        "flame sensing electrode",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame",
+        "ignition",
+        "gas supply",
+        "flame sensor",
+        "electrode",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 128 Flame failure. 128 is displayed if there has been a flame failure during normal operation."
+        },
+        {
+          "page_number": 57,
+          "section_title": "Central heating",
+          "table_title": "Central heating — Follow operational sequence",
+          "source_quote": "E09, 15, 110, 125, 133, 134, 135 or 384 flashing Press the reset button for 1 to 3 seconds If E09, 15, 110 or 384 is flashing or re-occurs regularly, check all PCB connections. If this has no effect replace the PCB. Burner lights YES Burner goes out after 5 seconds YES E128 flashing Go to section 'G'"
+        },
+        {
+          "page_number": 59,
+          "section_title": "Fault finding solutions sections F to H",
+          "table_title": null,
+          "source_quote": "Check supply pressure at the gas valve:- Natural Gas - Minimum 17 mbar. Check and correct if necessary 1. The set of the gas valve (CO2 values - see instruction) 2. Flame sensing electrode and lead connections 3. Flame sensing electrode position Replace flame sensing electrode or PCB"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E 130",
+      "description": "Flue NTC operated",
+      "possible_causes": [
+        "Temperature sensors faulty",
+        "Heat exchanger obstructed (if pump is running)"
+      ],
+      "manufacturer_steps": [
+        "Go to section 'M' (Temperature sensors faulty).",
+        "Check cold resistance of CH sensor (approx. 10kΩ @ 25°C) and Flue sensor (approx. 20kΩ @ 25°C). If not correct, replace sensor.",
+        "If pump is running and sensors are OK, replace heat exchanger."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC flue sensor",
+        "heat exchanger",
+        "pump"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "flue",
+        "sensor",
+        "temperature",
+        "heat exchanger",
+        "obstruction"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 130 Flue NTC operated"
+        },
+        {
+          "page_number": 57,
+          "section_title": "Central heating",
+          "table_title": "Central heating — Follow operational sequence",
+          "source_quote": "E130 flashing Go to section 'M'"
+        },
+        {
+          "page_number": 60,
+          "section_title": "Fault finding solutions sections I to M",
+          "table_title": null,
+          "source_quote": "Temperature sensors faulty. Cold resistance approximately 10k Ω @ 25° C (CH sensor) 20k Ω @ 25° C (Flue sensor) (resistance reduces with increase in temp.) NO Replace sensor. If pump is running the heat exchanger could be obstructed YES Replace heat exchanger"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E 133",
+      "description": "Interruption of gas supply or flame failure",
+      "possible_causes": [
+        "Gas supply interrupted",
+        "Ignition failed",
+        "Flame not detected"
+      ],
+      "manufacturer_steps": [
+        "Press the reset button for 1 to 3 seconds. If still flashing or re-occurs regularly, check all PCB connections. If this has no effect replace the PCB.",
+        "Go to section 'F' (Ignition electrode and lead, spark gap and position).",
+        "Check and correct ignition electrode and lead, electrode connection, spark gap and position. If not correct, check wiring (Electrical Wiring Diagram page 18). If no effect, replace PCB."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas supply",
+        "ignition electrode",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas supply",
+        "flame failure",
+        "ignition",
+        "electrode",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 133 Interruption of gas supply or flame failure. 133, 134 and 135 indicates that the gas supply has been interrupted, ignition has failed or the flame has not been detected."
+        },
+        {
+          "page_number": 57,
+          "section_title": "Central heating",
+          "table_title": "Central heating — Follow operational sequence",
+          "source_quote": "E09, 15, 110, 125, 133, 134, 135 or 384 flashing Press the reset button for 1 to 3 seconds If E09, 15, 110 or 384 is flashing or re-occurs regularly, check all PCB connections. If this has no effect replace the PCB. Spark at ignition electrodes up to 5 seconds & for 3 attempts YES E133 flashing Go to section 'F'. Press the reset button for 1 to 3 seconds"
+        },
+        {
+          "page_number": 59,
+          "section_title": "Fault finding solutions sections F to H",
+          "table_title": null,
+          "source_quote": "Check and correct if necessary 1. Ignition electrode and lead 2. Electrode connection 3. Spark gap and position YES Check wiring - see Electrical Wiring Diagram page 18 NO Replace PCB"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E 135",
+      "description": "Interruption of gas supply (internal error)",
+      "possible_causes": [
+        "Gas supply interrupted",
+        "Ignition failed",
+        "Flame not detected"
+      ],
+      "manufacturer_steps": [
+        "Press the reset button for 1 to 3 seconds. If still flashing or re-occurs regularly, check all PCB connections. If this has no effect replace the PCB.",
+        "Go to section 'F' (Ignition electrode and lead, spark gap and position).",
+        "Check and correct ignition electrode and lead, electrode connection, spark gap and position. If not correct, check wiring (Electrical Wiring Diagram page 18). If no effect, replace PCB."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas supply",
+        "ignition electrode",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas supply",
+        "internal error",
+        "ignition",
+        "flame",
+        "electrode",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 135 Interruption of gas supply (internal error). 133, 134 and 135 indicates that the gas supply has been interrupted, ignition has failed or the flame has not been detected."
+        },
+        {
+          "page_number": 57,
+          "section_title": "Central heating",
+          "table_title": "Central heating — Follow operational sequence",
+          "source_quote": "E09, 15, 110, 125, 133, 134, 135 or 384 flashing Press the reset button for 1 to 3 seconds If E09, 15, 110 or 384 is flashing or re-occurs regularly, check all PCB connections. If this has no effect replace the PCB. Spark at ignition electrodes up to 5 seconds & for 3 attempts YES E133 flashing Go to section 'F'. Press the reset button for 1 to 3 seconds"
+        },
+        {
+          "page_number": 59,
+          "section_title": "Fault finding solutions sections F to H",
+          "table_title": null,
+          "source_quote": "Check and correct if necessary 1. Ignition electrode and lead 2. Electrode connection 3. Spark gap and position YES Check wiring - see Electrical Wiring Diagram page 18 NO Replace PCB"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E 154",
+      "description": "Flow / return sensor temperature test",
+      "possible_causes": [
+        "Temperature sensor faulty"
+      ],
+      "manufacturer_steps": [
+        "Go to section 'D' (Temperature sensor faulty).",
+        "Check correct location and wiring of temperature sensor.",
+        "Check cold resistance (approximately 10kΩ @ 25°C, resistance reduces with increase in temp.). If not correct, replace sensor."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flow sensor",
+        "return sensor",
+        "wiring"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "sensor",
+        "temperature",
+        "flow",
+        "return",
+        "fault"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 154 Flow / return sensor temperature test"
+        },
+        {
+          "page_number": 57,
+          "section_title": "Central heating",
+          "table_title": "Central heating — Follow operational sequence",
+          "source_quote": "Check Heating flow sensor. Go to section 'D'"
+        },
+        {
+          "page_number": 58,
+          "section_title": "Fault finding solutions sections A to E",
+          "table_title": null,
+          "source_quote": "Temperature sensor faulty. Check correct location and wiring. Cold resistance approximately 10ΚΩ @ 25° C (DHW and CH sensors) (resistance reduces with increase in temp.) NO Replace sensor"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E 160",
+      "description": "Fan or fan wiring fault",
+      "possible_causes": [
+        "Fan jammed or faulty wiring"
+      ],
+      "manufacturer_steps": [
+        "Go to section 'C' (Fan connections correct).",
+        "Check fan connections at fan & PCB X11 and X23 connectors. If not correct, make connections.",
+        "If connections are correct, check 230V at PCB - X11 connector (between blue & brown). If not correct, replace PCB.",
+        "If 230V is present, replace fan or wire if jammed or faulty."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Fan not running after up to 3 minutes",
+        "Fan not running at correct speed"
+      ],
+      "related_components": [
+        "fan",
+        "wiring",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan",
+        "wiring",
+        "fault",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 160 Fan or fan wiring fault"
+        },
+        {
+          "page_number": 57,
+          "section_title": "Central heating",
+          "table_title": "Central heating — Follow operational sequence",
+          "source_quote": "Fan runs after up to 3 minutes NO E160 flashing Go to section 'C'. Fan runs at correct speed NO E160 flashing Go to section 'C'"
+        },
+        {
+          "page_number": 58,
+          "section_title": "Fault finding solutions sections A to E",
+          "table_title": null,
+          "source_quote": "Fan connections correct at fan & PCB X11 and X23 connectors - see Wiring Diagram NO Make connections. 230V at PCB - X11 connector (between blue & brown - see Wiring Diagram) NO Replace PCB. Fan jammed or faulty wiring YES Replace fan or wire"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E 270",
+      "description": "Circulation fault (Dry fire)",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "circulation",
+        "dry fire",
+        "fault"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 270 Circulation fault (Dry fire)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E 321",
+      "description": "Hot water NTC fault",
+      "possible_causes": [
+        "Temperature sensor faulty"
+      ],
+      "manufacturer_steps": [
+        "Go to section 'D' (Temperature sensor faulty).",
+        "Check correct location and wiring of temperature sensor.",
+        "Check cold resistance (approximately 10kΩ @ 25°C, resistance reduces with increase in temp.). If not correct, replace sensor."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "hot water sensor",
+        "wiring"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "sensor",
+        "temperature",
+        "hot water",
+        "fault"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 321 Hot water NTC fault"
+        },
+        {
+          "page_number": 57,
+          "section_title": "Central heating",
+          "table_title": "Central heating — Follow operational sequence",
+          "source_quote": "E20, 28, 40 or 321 flashing Go to section 'D'"
+        },
+        {
+          "page_number": 58,
+          "section_title": "Fault finding solutions sections A to E",
+          "table_title": null,
+          "source_quote": "Temperature sensor faulty. Check correct location and wiring. Cold resistance approximately 10ΚΩ @ 25° C (DHW and CH sensors) (resistance reduces with increase in temp.) NO Replace sensor"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E 384",
+      "description": "False flame",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Press the reset button for 1 to 3 seconds. If still flashing or re-occurs regularly, check all PCB connections. If this has no effect replace the PCB.",
+        "Go to section 'F' (Ignition electrode and lead, spark gap and position).",
+        "Check and correct ignition electrode and lead, electrode connection, spark gap and position. If not correct, check wiring (Electrical Wiring Diagram page 18). If no effect, replace PCB."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "ignition electrode",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame",
+        "false flame",
+        "ignition",
+        "electrode",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error codes",
+          "table_title": "Display of error codes",
+          "source_quote": "E 384 False flame"
+        },
+        {
+          "page_number": 57,
+          "section_title": "Central heating",
+          "table_title": "Central heating — Follow operational sequence",
+          "source_quote": "E09, 15, 110, 125, 133, 134, 135 or 384 flashing Press the reset button for 1 to 3 seconds If E09, 15, 110 or 384 is flashing or re-occurs regularly, check all PCB connections. If this has no effect replace the PCB."
+        },
+        {
+          "page_number": 59,
+          "section_title": "Fault finding solutions sections F to H",
+          "table_title": null,
+          "source_quote": "Check and correct if necessary 1. Ignition electrode and lead 2. Electrode connection 3. Spark gap and position YES Check wiring - see Electrical Wiring Diagram page 18 NO Replace PCB"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "diagnostic_codes": [],
+  "status_codes": [
+    {
+      "code": "OFF",
+      "meaning": "Frost protection still enabled",
+      "operating_mode": "frost protection",
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Control panel description",
+          "table_title": "Display screen",
+          "source_quote": "OFF (frost protection still enabled)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Error symbol (flashing burner icon)",
+      "meaning": "Indicates errors that prevent the burner from starting",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Control panel description",
+          "table_title": "Display screen",
+          "source_quote": "Indicates errors that prevent the burner from starting"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Error symbol (E)",
+      "meaning": "Error - not resettable by user",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Control panel description",
+          "table_title": "Display screen",
+          "source_quote": "Error - not resettable by user"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Water pressure too low symbol",
+      "meaning": "Water pressure too low",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Control panel description",
+          "table_title": "Display screen",
+          "source_quote": "Water pressure too low"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Reset symbol (R)",
+      "meaning": "Indicates a resettable error",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Control panel description",
+          "table_title": "Display screen",
+          "source_quote": "Indicates a resettable error"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "P",
+      "meaning": "Not applicable",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Control panel description",
+          "table_title": "Display screen",
+          "source_quote": "P Not applicable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "j",
+      "meaning": "Not applicable",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Control panel description",
+          "table_title": "Display screen",
+          "source_quote": "j Not applicable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E (generic)",
+      "meaning": "Generic error",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Control panel description",
+          "table_title": "Display screen",
+          "source_quote": "E Generic error"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Heart symbol",
+      "meaning": "Burner lit",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Control panel description",
+          "table_title": "Display screen",
+          "source_quote": "Burner lit"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Heating mode symbol",
+      "meaning": "Heating mode",
+      "operating_mode": "heating",
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Control panel description",
+          "table_title": "Display screen",
+          "source_quote": "Heating mode"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "°C",
+      "meaning": "Units for temperature",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Control panel description",
+          "table_title": "Display screen",
+          "source_quote": "Units for temperature"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "PSI",
+      "meaning": "Units for pressure",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Control panel description",
+          "table_title": "Display screen",
+          "source_quote": "Units for pressure"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "bar",
+      "meaning": "Units for pressure",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Control panel description",
+          "table_title": "Display screen",
+          "source_quote": "Units for pressure"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "safety_warnings": [
+    {
+      "warning_type": "danger",
+      "topic": "Children and appliance use",
+      "text": "This boiler can be used by children aged 8 years and above and by persons with reduced physical, sensory or mental capabilities or lack of experience and knowledge when they have been given supervision or instruction concerning the safe use of the device and understand the resulting risks. Children must not be allowed to play with the appliance. Cleaning and user maintenance must not be carried out by children without supervision.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "General safety instructions",
+          "table_title": null,
+          "source_quote": "Danger This boiler can be used by children aged 8 years and above and by persons with reduced physical, sensory or mental capabilities or lack of experience and knowledge when they have been given supervision or instruction concerning the safe use of the device and understand the resulting risks. Children must not be allowed to play with the appliance. Cleaning and user maintenance must not be carried out by children without supervision."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Gas smell",
+      "text": "If you smell gas: 1. Do not use a naked flame, do not smoke, do not operate electrical contacts or switches (doorbell, light, motor, lift, etc.). 2. Shut off gas supply. 3. Open the windows. 4. Trace possible leaks and seal them immediately. 5. If the gas leak is before the gas meter, contact the supplier 6. Telephone the National Gas Emergency Service on:- 0800 111 999.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "General safety instructions",
+          "table_title": null,
+          "source_quote": "Danger If you smell gas: 1. Do not use a naked flame, do not smoke, do not operate electrical contacts or switches (doorbell, light, motor, lift, etc.). 2. Shut off gas supply. 3. Open the windows. 4. Trace possible leaks and seal them immediately. 5. If the gas leak is before the gas meter, contact the supplier 6. Telephone the National Gas Emergency Service on:- 0800 111 999."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Flue gases smell",
+      "text": "If you smell flue gases: 1. Switch off the boiler. 2. Open the windows. 3. Trace possible leaks and seal them immediately.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "General safety instructions",
+          "table_title": null,
+          "source_quote": "Danger If you smell flue gases: 1. Switch off the boiler. 2. Open the windows. 3. Trace possible leaks and seal them immediately."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Hot flue gas pipes",
+      "text": "Do not touch the flue gas pipes. Depending on the boiler settings, the temperature of the flue gas pipes may exceed 60°C.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "General safety instructions",
+          "table_title": null,
+          "source_quote": "Warning Do not touch the flue gas pipes. Depending on the boiler settings, the temperature of the flue gas pipes may exceed 60°C."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Hot radiators",
+      "text": "Do not touch the radiators for long periods. Depending on the boiler settings, the temperature of the radiators may exceed 60°C.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "General safety instructions",
+          "table_title": null,
+          "source_quote": "Warning Do not touch the radiators for long periods. Depending on the boiler settings, the temperature of the radiators may exceed 60°C."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Hot domestic hot water",
+      "text": "Take precautions with the domestic hot water. Depending on the boiler settings, the domestic hot water temperature may exceed 65°C.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "General safety instructions",
+          "table_title": null,
+          "source_quote": "Warning Take precautions with the domestic hot water. Depending on the boiler settings, the domestic hot water temperature may exceed 65°C."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Electrical work",
+      "text": "Before any work, switch off the mains supply to the boiler.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "General safety instructions",
+          "table_title": null,
+          "source_quote": "Danger Before any work, switch off the mains supply to the boiler."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Leaks after maintenance",
+      "text": "After maintenance or repair work, check the entire heating installation to ensure that there are no leaks.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "General safety instructions",
+          "table_title": null,
+          "source_quote": "Caution After maintenance or repair work, check the entire heating installation to ensure that there are no leaks."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Installation and maintenance qualification",
+      "text": "Installation and maintenance of the boiler must be carried out by a qualified installer in accordance with local and national regulations.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Recommendations",
+          "table_title": null,
+          "source_quote": "Warning Installation and maintenance of the boiler must be carried out by a qualified installer in accordance with local and national regulations."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Damaged mains lead",
+      "text": "If the mains lead is damaged, it must be replaced by the original manufacturer, the manufacturer's dealer or another suitably skilled person to prevent hazardous situations from arising.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Recommendations",
+          "table_title": null,
+          "source_quote": "Warning If the mains lead is damaged, it must be replaced by the original manufacturer, the manufacturer's dealer or another suitably skilled person to prevent hazardous situations from arising."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Working on boiler",
+      "text": "Always disconnect the mains supply and close the main gas tap when working on the boiler.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Recommendations",
+          "table_title": null,
+          "source_quote": "Warning Always disconnect the mains supply and close the main gas tap when working on the boiler."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Boiler installation conditions",
+      "text": "Make sure the boiler can be reached at all times. The boiler must be installed in a frost-free area. In the case of a fixed connection to the power cord, you must always install a main bipolar switch with an opening gap of at least 3 mm (EN 60335-1). Drain the boiler and central heating system if you are not going to use your home for a long time and there is a chance of frost. The frost protection does not work if the boiler is out of operation. The boiler protection only protects the boiler, not the system. Check the water pressure in the system regularly. If the water pressure is lower than 0.8 bar, the system must be topped up (recommended water pressure between 1 and 2 bar).",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Specific safety instructions",
+          "table_title": null,
+          "source_quote": "Caution • Make sure the boiler can be reached at all times. • The boiler must be installed in a frost-free area. • In the case of a fixed connection to the power cord, you must always install a main bipolar switch with an opening gap of at least 3 mm (EN 60335-1). • Drain the boiler and central heating system if you are not going to use your home for a long time and there is a chance of frost. • The frost protection does not work if the boiler is out of operation. • The boiler protection only protects the boiler, not the system. • Check the water pressure in the system regularly. If the water pressure is lower than 0.8 bar, the system must be topped up (recommended water pressure between 1 and 2 bar)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Handling and lifting boiler",
+      "text": "Most injuries as a result of inappropriate handling and lifting are to the back, but all other parts of the body are vulnerable, particularly shoulders, arms and hands. Health & Safety is the responsibility of EVERYONE. There is no \"safe\" limit for one man - each person has different capabilities. The boiler should be handled and lifted by TWO PEOPLE. Do not handle or lift unless you feel physically able. Wear appropriate Personal Protection Equipment e.g. protective gloves, safety footwear etc. IF IN ANY DOUBT DO NO HANDLE OR LIFT THE BOILER - OBTAIN ADVICE OR ASSISTANCE BEFORE PROCEEDING!",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Specific safety instructions",
+          "table_title": null,
+          "source_quote": "Most injuries as a result of inappropriate handling and lifting are to the back, but all other parts of the body are vulnerable, particularly shoulders, arms and hands. Health & Safety is the responsibility of EVERYONE. There is no \"safe\" limit for one man - each person has different capabilities. The boiler should be handled and lifted by TWO PEOPLE. Do not handle or lift unless you feel physically able. Wear appropriate Personal Protection Equipment e.g. protective gloves, safety footwear etc. IF IN ANY DOUBT DO NO HANDLE OR LIFT THE BOILER - OBTAIN ADVICE OR ASSISTANCE BEFORE PROCEEDING!"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Risk of dangerous situations",
+      "text": "Risk of dangerous situations that may result in serious personal injury.",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Symbols used",
+          "table_title": null,
+          "source_quote": "Danger Risk of dangerous situations that may result in serious personal injury."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Electric shock",
+      "text": "Risk of electric shock.",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Symbols used",
+          "table_title": null,
+          "source_quote": "Danger of electric shock Risk of electric shock."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Minor personal injury",
+      "text": "Risk of dangerous situations that may result in minor personal injury.",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Symbols used",
+          "table_title": null,
+          "source_quote": "Warning Risk of dangerous situations that may result in minor personal injury."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Material damage",
+      "text": "Risk of material damage.",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Symbols used",
+          "table_title": null,
+          "source_quote": "Caution Risk of material damage."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Installation, repair and maintenance",
+      "text": "Installation, repair and maintenance must only be carried out by a competent person. This document is intended for use by competent persons.",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Installation regulations",
+          "table_title": null,
+          "source_quote": "Warning Installation, repair and maintenance must only be carried out by a competent person. This document is intended for use by competent persons."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Flue system support",
+      "text": "All flue systems MUST be securely supported at a MINIMUM of once every metre & every change of direction. It is recommended that every straight piece is supported irrespective of length. Additional supports are available as accessories. VOIDS - Consideration must be given to flue systems in voids and the provision of adequate access for subsequent periodic visual inspection.",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Flue/chimney trim",
+          "table_title": null,
+          "source_quote": "Warning SUPPORT - All flue systems MUST be securely supported at a MINIMUM of once every metre & every change of direction. It is recommended that every straight piece is supported irrespective of length. Additional supports are available as accessories. VOIDS - Consideration must be given to flue systems in voids and the provision of adequate access for subsequent periodic visual inspection."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Risk assessment and gas supply",
+      "text": "RISK ASSESSMENT - Before commencing the installation it is recommended that the \"Five Steps to Risk Assessment\" document published by the HSE is consulted, and an assessment performed as described. GAS SUPPLY - The gas supply, gas type and pressure must be checked for suitability before connection.",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Unpacking",
+          "table_title": null,
+          "source_quote": "Caution RISK ASSESSMENT - Before commencing the installation it is recommended that the \"Five Steps to Risk Assessment\" document published by the HSE is consulted, and an assessment performed as described. GAS SUPPLY - The gas supply, gas type and pressure must be checked for suitability before connection."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Boiler compartment storage/ventilation",
+      "text": "If the boiler is installed in a compartment do not use it for storage purposes. Do not obstruct any purpose provided ventilation openings.",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Danger If the boiler is installed in a compartment do not use it for storage purposes. Do not obstruct any purpose provided ventilation openings."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Frost protection in unheated enclosure",
+      "text": "Where the boiler is sited in an unheated enclosure provision must be made to protect against frost, e.g. frost thermostat, pipe thermostat.",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Caution Where the boiler is sited in an unheated enclosure provision must be made to protect against frost, e.g. frost thermostat, pipe thermostat."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Residual water when removing sealing caps",
+      "text": "Some residual water may escape when removing the sealing caps. Take precautions to avoid damage to components!",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "Assembly",
+          "table_title": null,
+          "source_quote": "Warning Some residual water may escape when removing the sealing caps. Take precautions to avoid damage to components !"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Accessories electrical consumption",
+      "text": "Check that the total nominal consumption of the accessories connected to the appliance is less than 1 amp. If it is higher, a relay must be installed between the accessories and the electronic board.",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Electrical connections",
+          "table_title": null,
+          "source_quote": "Warning Check that the total nominal consumption of the accessories connected to the appliance is less than 1 amp. If it is higher, a relay must be installed between the accessories and the electronic board."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System draining and inhibitor",
+      "text": "If the system is drained in the future (even partly, when replacing a radiator for example) the de-aeration function must be repeated. Also the inhibitor concentration must be checked and replenished if necessary.",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Gas settings",
+          "table_title": null,
+          "source_quote": "Caution If the system is drained in the future (even partly, when replacing a radiator for example) the de-aeration function must be repeated. Also the inhibitor concentration must be checked and replenished if necessary."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Flue test point plugs",
+      "text": "Ensure that both flue test point plugs are in place after checking combustion.",
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "Setting chimney sweep mode",
+          "table_title": null,
+          "source_quote": "Warning Ensure that both flue test point plugs are in place after checking combustion."
+        },
+        {
+          "page_number": 48,
+          "section_title": "Standard inspection and maintenance operations",
+          "table_title": null,
+          "source_quote": "Warning After servicing or performing any maintenance on the boiler ensure that • Both flue test point plugs are in place"
+        },
+        {
+          "page_number": 49,
+          "section_title": "Standard inspection and maintenance operations",
+          "table_title": null,
+          "source_quote": "Warning Ensure that both flue test point plugs are in place after checking combustion."
+        },
+        {
+          "page_number": 55,
+          "section_title": "Pump - head only",
+          "table_title": null,
+          "source_quote": "Warning Ensure that both flue test point plugs are in place after checking combustion."
+        },
+        {
+          "page_number": 64,
+          "section_title": "Benchmark commissioning checklist",
+          "table_title": null,
+          "source_quote": "Warning After servicing or performing any maintenance on the boiler ensure that • Both flue test point plugs are in place"
+        },
+        {
+          "page_number": 66,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Warning After servicing or performing any maintenance on the boiler ensure that • Both flue test point plugs are in place"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Component changes and isolation",
+      "text": "When changing components ensure that both the gas and electrical supplies to the boiler are isolated before any work is started. When the component has been changed recommission the boiler. Always examine any seals or gaskets, replacing where necessary. The case front panel MUST seal effectively against the boiler side panels.",
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Warning When changing components ensure that both the gas and electrical supplies to the boiler are isolated before any work is started. When the component has been changed recommission the boiler. Always examine any seals or gaskets, replacing where necessary. The case front panel MUST seal effectively against the boiler side panels."
+        },
+        {
+          "page_number": 51,
+          "section_title": "Specific maintenance instructions",
+          "table_title": null,
+          "source_quote": "Warning When changing components ensure that both the gas and electrical supplies to the boiler are isolated before any work is started. When the component has been changed recommission the boiler. Always examine any seals or gaskets, replacing where necessary. The case font panel MUST seal effectively against the boiler side panels."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Boiler cool and isolated for servicing",
+      "text": "Ensure that the boiler is cool. Ensure that both the gas and electrical supplies to the boiler are isolated.",
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Annual Servicing",
+          "table_title": null,
+          "source_quote": "Warning Ensure that the boiler is cool. Ensure that both the gas and electrical supplies to the boiler are isolated."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Seals, gaskets, and spare parts",
+      "text": "Always examine any seals or gaskets, replacing where necessary. Where a seal or gasket is supplied with a spare part it should be used, irrespective of the condition of the original. Use only original spare parts that are intended for use with this type of boiler.",
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Annual Servicing",
+          "table_title": null,
+          "source_quote": "Caution Always examine any seals or gaskets, replacing where necessary. Where a seal or gasket is supplied with a spare part it should be used, irrespective of the condition of the original. Use only original spare parts that are intended for use with this type of boiler."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Water damage during expansion vessel removal",
+      "text": "Take precautions to protect other components from water damage when removing the expansion vessel.",
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Expansion vessel",
+          "table_title": null,
+          "source_quote": "Warning Take precautions to protect other components from water damage when removing the expansion vessel."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Water damage during pump and auto air vent removal",
+      "text": "Take precautions to protect other components from water damage when removing the pump and auto air vent.",
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": "Pump - complete",
+          "table_title": null,
+          "source_quote": "Warning Take precautions to protect other components from water damage when removing the pump and auto air vent."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Boiler disposal",
+      "text": "Removal and disposal of the boiler must be carried out by a qualified person in accordance with local and national regulations.",
+      "source_refs": [
+        {
+          "page_number": 62,
+          "section_title": "Disposal and recycling",
+          "table_title": null,
+          "source_quote": "Caution Removal and disposal of the boiler must be carried out by a qualified person in accordance with local and national regulations."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "maintenance_tasks": [
+    {
+      "task_name": "Annual Servicing",
+      "description": "For reasons of safety and economy, it is recommended that the boiler and filter are serviced annually. Servicing must be performed by a competent person in accordance with BS 7967-4. After servicing, complete the relevant Service Interval Record section of the Benchmark Commissioning Checklist.",
+      "interval": "annually",
+      "required_qualification": "competent person",
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "For reasons of safety and economy, it is recommended that the boiler and filter are serviced annually. Servicing must be performed by a competent person in accordance with BS 7967-4. After servicing, complete the relevant Service Interval Record section of the Benchmark Commissioning Checklist at the rear of this publication."
+        },
+        {
+          "page_number": 49,
+          "section_title": "Standard inspection and maintenance operations",
+          "table_title": null,
+          "source_quote": "9.2.1 Annual Servicing"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Magnetic filter service",
+      "description": "The magnetic filter fitted on the primary pipework must be serviced annually in accordance with the instructions supplied with it. Only dismantle the filter when the system is cool and the pressure has been relieved. Care should be taken as there will be some loss of system water when performing the filter service.",
+      "interval": "annually",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "IMPORTANT: The magnetic filter fitted on the primary pipework must be serviced annually in accordance with the instructions supplied with it. Only dismantle the filter when the system is cool and the pressure has been relieved. Care should be taken as there will be some loss of system water when performing the filter service."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Check water pressure",
+      "description": "In order for the boiler to operate correctly, the pressure of the water in the heating circuit must be between 1.0 and 1.5 bar. Restore the water pressure if necessary.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "Standard inspection and maintenance operations",
+          "table_title": null,
+          "source_quote": "9.2.2 Checking the water pressure. In order for the boiler to operate correctly, the pressure of the water in the heating circuit must be between 1.0 and 1.5 bar. Restore the water pressure if necessary."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Check expansion vessel",
+      "description": "Check the expansion vessel and recharge or replace it if necessary. Check its pre-charge every year and restore the pressure to 1 bar if necessary.",
+      "interval": "annually",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "Standard inspection and maintenance operations",
+          "table_title": null,
+          "source_quote": "9.2.3 Checking the expansion vessel. Check the expansion vessel and recharge or replace it if necessary. Check its pre-charge every year and restore the pressure to 1 bar if necessary."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Check automatic air vent",
+      "description": "Check that the boiler pump venting valve is working. In the event of a leak, replace the valve.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "Standard inspection and maintenance operations",
+          "table_title": null,
+          "source_quote": "9.2.4 Checking the automatic air vent. Check that the boiler pump venting valve is working. In the event of a leak, replace the valve."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Check burner and clean heat exchanger",
+      "description": "Isolate the boiler from gas & electrical supplies. Remove front panel and silencer. Disconnect spark electrode lead and earth wire. Remove clip securing gas feed pipe to fan and disconnect pipe. Completely remove combustion chamber / burner door assembly. Check detection/spark electrode for wear. Check burner, gasket, insulation board. Remove loose deposits from heat exchanger using vacuum cleaner. Use brush with plastic bristles for stubborn deposits. Do not use chemicals. Check burner for cracks/damage. Reassemble in reverse order.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "Standard inspection and maintenance operations",
+          "table_title": null,
+          "source_quote": "9.2.5 Checking the burner and cleaning the heat exchanger. 1. Isolate the boiler from the gas & electrical supplies. 2. Remove the front panel. 3. Remove the silencer. 4. Disconnect the spark electrode lead and earth wire from the detection / spark electrode. 5. Remove the clip securing the gas feed pipe to the fan. Disconnect the pipe. 6. Completely remove the combustion chamber / burner door assembly by unscrewing the four M6 nuts and drawing it forwards to disengage it from the heat exchanger.. 7. Check that the detection/spark electrode is not worn. Replace the electrode if necessary. 8. Check the condition of the burner, the gasket and the insulation board. 9. Any loose deposits in the heat exchanger should be removed using a vacuum cleaner. 10. A brush with plastic bristles can be used to dislodge any stubborn deposits, which should then also be removed by vacuum. 11. Do not use any chemicals to clean the heat exchanger. 12. The burner does not require any maintenance as it is self-cleaning. Check that there are no cracks and/or other damage on the surface of the burner. If the burner is damaged, replace it. 13. Reassemble in reverse order."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Detection/spark ignition electrode replacement",
+      "description": "Disconnect electrode lead and earthing cable. Remove retaining screws and electrode. Fit new electrode with sealing gasket. Reassemble in reverse order.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "Specific maintenance instructions",
+          "table_title": null,
+          "source_quote": "9.3.1 Detection/spark ignition electrode. 1. Disconnect the electrode lead and earthing cable. 2. Using a T15 Torx key, remove the retaining screws securing the electrode to the combustion chamber door and remove the electrode, noting its orientation. 3. Fit the new electrode with the sealing gasket. 4. Reassemble in reverse order."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "NTC flue sensor replacement",
+      "description": "Turn sensor 90° anticlockwise to remove. Ease retaining tab and disconnect electrical plug. Fit new sensor and reassemble in reverse order.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "Specific maintenance instructions",
+          "table_title": null,
+          "source_quote": "9.3.2 NTC flue sensor. 1. Turn the sensor 90° anticlockwise to remove — it is a bayonet connection. 2. Ease the retaining tab on the sensor away and disconnect the electrical plug. 3. Fit new sensor and reassemble in reverse order."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Flow and return sensors replacement",
+      "description": "Note position of each sensor. Prise sensor clip off pipe and disconnect plug. Connect plug to new sensor and ease clip onto pipe in original position.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "Specific maintenance instructions",
+          "table_title": null,
+          "source_quote": "9.3.3 Flow and return sensors. There is one sensor on the flow (red wires) and one sensor on the return (blue wires). 1. After noting the position of each sensors, prise the sensor clip off the pipe and disconnect the plug. 2. Connect the plug to the new sensor and ease the clip onto the pipe in its original position."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Safety overheat thermostat replacement",
+      "description": "Pull spade connections off. Remove screws securing thermostat to mounting plate. Fit new thermostat to mounting plate. Connect spade connections.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": "Specific maintenance instructions",
+          "table_title": null,
+          "source_quote": "9.3.4 Safety overheat thermostat. 1. Pull the two spade connections off the safety overheat thermostat. 2. Remove the screws securing the thermostat to the mounting plate on the flow pipe and remove it. 3. Fit the new safety overheat thermostat to the mounting plate with the two screw previously removed. 4. Connect the two spade connections to the safety overheat thermostat ensuring that they are pushed fully on."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Pressure Gauge replacement",
+      "description": "Drain primary circuit and undo nut on pressure gauge capillary. Ease retaining tabs and remove bracket. Remove gauge assembly. Examine/replace sealing washer. Reassemble in reverse order with new pressure gauge.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": "Specific maintenance instructions",
+          "table_title": null,
+          "source_quote": "9.3.5 Pressure Gauge. 1. Drain the primary circuit and undo the nut on the pressure gauge capillary. 2. Ease the two retaining tabs holding the pressure gauge bracket away and remove the bracket. 3. Remove the gauge assembly. 4. Examine the sealing washer on the pressure gauge capillary, replace if necessary. 5. Reassemble in reverse order with the new pressure gauge."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Safety pressure relief valve replacement",
+      "description": "Drain primary circuit. Disconnect discharge pipe and remove sealing grommet. Undo grub screw to release valve. Note orientation, rotate and withdraw valve. Fit new valve and 'O' ring seal, set orientation, tighten grub screw. Reconnect discharge pipe ensuring sealing grommet is in place.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": "Specific maintenance instructions",
+          "table_title": null,
+          "source_quote": "9.3.6 Safety pressure relief valve. 1. Drain the primary circuit. 2. Disconnect the discharge pipe from the valve and remove the sealing grommet. 3. Using a suitable hexagon key undo the grub screw sufficiently to release the valve. 4. Note the orientation of the valve, rotate it and withdraw it from the manifold. 5. Fit the new valve and 'O' ring seal and set to the previously noted orientation. Tighten the grub screw. 6. Reconnect the discharge pipe ensuring the sealing grommet is in place to maintain the integrity of the case seal."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Expansion vessel removal/replacement",
+      "description": "Close flow and return isolation taps and drain primary circuit. Relieve pressure from expansion vessel. Remove silencer. Prise off securing clips and disconnect braided hose from vessel and hydraulic inlet assembly. Ensure braided hose is free of restriction. If hose is clear, support vessel, undo locknut and manoeuvre out. Replace with new vessel, reassemble in reverse order and recharge to 1 bar.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Specific maintenance instructions",
+          "table_title": null,
+          "source_quote": "9.3.7 Expansion vessel. 1. Close the flow and return isolation taps and drain the boiler primary circuit. 2. Relieve the pressure from the expansion vessel. 3. Remove the silencer. 4. Prise off the securing clips and disconnect the braided hose from the vessel and hydraulic inlet assembly, taking care as water may still be in the vessel. 5. Ensure that the braided hose is free of restriction, as a boiler with a blocked hose will exhibit symptoms similar to one with a failed vessel. 6. If the hose is clear support the vessel, undo the locknut and manoeuvre the vessel out of the boiler. 7. Replace the expansion vessel with the new one and reassemble in reverse order and recharge to 1 bar."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Gas valve replacement",
+      "description": "Undo screw and disconnect electrical plug. Turn gas cock off and undo nut on gas valve inlet. Undo nut on gas valve outlet. Ease pipe aside. Remove screws securing gas valve to boiler bottom panel. Remove valve. Transfer gas nozzle injector to new valve. Examine/replace sealing washers. Reassemble in reverse order. Check gas tightness and combustion.",
+      "interval": null,
+      "required_qualification": "competent person",
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Specific maintenance instructions",
+          "table_title": null,
+          "source_quote": "9.3.8 Gas valve. 1. Undo the screw and disconnect the electrical plug. 2. Turn the gas cock off and undo the nut on the gas valve inlet underneath the boiler. 3. Undo the nut on the gas valve outlet. Ease the pipe aside. 4. Remove the screws securing the gas valve to the boiler bottom panel. Remove the valve. 5. Transfer the gas nozzle injector to the new valve, ensuring it sits in the valve outlet. Examine the sealing washers, replacing if necessary. 6. Reassemble in reverse order."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Pump head replacement",
+      "description": "Drain boiler primary circuit and disconnect electrical plug from pump. Remove socket head screws securing pump head to body and draw head away. Fit new pump head and reassemble in reverse order.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": "Specific maintenance instructions",
+          "table_title": null,
+          "source_quote": "9.3.9 Pump - head only. 1. Drain the boiler primary circuit and disconnect the electrical plug from the pump 2. Remove the socket head screws securing the pump head to the body and draw the head away. 3. Fit the new pump head and reassemble in reverse order."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Complete pump replacement",
+      "description": "Hinge control box down. Close flow and return isolation taps and drain primary circuit. Disconnect electrical plugs from pump motor. Prise off securing clip holding pump return pipe. Pull out securing clip holding pump body to hydraulic inlet assembly. Prise off securing clip and disconnect braided hose from pump body. Remove screws securing pump to boiler bottom panel. Remove pump. Pull out securing clip and remove automatic air vent, transfer to new pump body. Examine all 'O' ring seals, replace if necessary and reassemble in reverse order.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": "Specific maintenance instructions",
+          "table_title": null,
+          "source_quote": "9.3.10 Pump - complete. 1. Hinge the control box down. 2. Close the flow and return isolation taps and drain the boiler primary circuit. 3. Disconnect the electrical plugs from the pump motor. 4. Prise off the securing clip that is holding the pump return pipe in position. Pull away the pipe. 5. Pull out the securing clip that is holding the pump body to the hydraulic inlet assembly. 6. Prise off the securing clip and disconnect the braided hose from the pump body, taking care as water may still be in the hose. 7. Remove the screws securing the pump to the boiler bottom panel. 8. The pump should now be able to be remove. 9. Pull out the securing clip and remove the automatic air vent, transfering it to the new pump body. 10. Examine all 'O' ring seals, replace if necessary and reassemble in reverse order."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "search_terms": [
+    "Baxi System",
+    "818",
+    "824",
+    "Installation",
+    "Service",
+    "Manual",
+    "High Efficiency",
+    "Wall Hung",
+    "Condensing",
+    "Gas Boiler",
+    "Fault Codes",
+    "Troubleshooting",
+    "Technical Specifications",
+    "Maintenance",
+    "Error Codes",
+    "NTC sensor",
+    "Gas valve",
+    "Pump",
+    "Pressure",
+    "Flue",
+    "Ignition",
+    "Safety",
+    "Electrical",
+    "Dimensions",
+    "CO2",
+    "Combustion"
+  ],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.98,
+    "review_required": false,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": []
+  }
+}

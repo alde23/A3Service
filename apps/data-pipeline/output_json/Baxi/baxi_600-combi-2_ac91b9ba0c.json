@@ -1,0 +1,4316 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "BAXI",
+    "product_family": "600 Combi 2",
+    "model_names": [
+      "600 Combi 24",
+      "600 Combi 30",
+      "600 Combi 36"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "Installation and Service Manual & Boiler Fiche High-efficiency wall-hung condensing gas boiler",
+    "document_code": "7796561 - 03",
+    "publication_date": "04/23",
+    "language": "en",
+    "region": "United Kingdom",
+    "source_file": "baxi_baxi-624-combi-2_boiler-manual_baxi-600-combi-2-install.pdf",
+    "file_hash": "ac91b9ba0c6be01e4b2ee531c56c7d542e469fca59eb11088a52bd72319219e9"
+  },
+  "technical_specs": [
+    {
+      "parameter": "CE certificate number",
+      "value": "0085CU0338",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Certifications",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Certifications",
+          "table_title": "Certifications & G.C. nos.",
+          "source_quote": "0085CU0338"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "UKCA certificate number",
+      "value": "748353",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Certifications",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Certifications",
+          "table_title": "Certifications & G.C. nos.",
+          "source_quote": "748353"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx class",
+      "value": "6",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Certifications",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Certifications",
+          "table_title": "Certifications & G.C. nos.",
+          "source_quote": "6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler type",
+      "value": "C13, C33",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Certifications",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Certifications",
+          "table_title": "Certifications & G.C. nos.",
+          "source_quote": "C13, C33"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G.C. nos.",
+      "value": "47-077-55",
+      "unit": null,
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Certifications",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Certifications",
+          "table_title": "Certifications & G.C. nos.",
+          "source_quote": "624-2: 47-077-55"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G.C. nos.",
+      "value": "47-077-56",
+      "unit": null,
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "Certifications",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Certifications",
+          "table_title": "Certifications & G.C. nos.",
+          "source_quote": "630-2: 47-077-56"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G.C. nos.",
+      "value": "47-077-57",
+      "unit": null,
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "Certifications",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Certifications",
+          "table_title": "Certifications & G.C. nos.",
+          "source_quote": "636-2: 47-077-57"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas type",
+      "value": "G20 (H natural gas)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Gas",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Gas category",
+          "table_title": "Gas category, type and supply pressure",
+          "source_quote": "G20 (H natural gas)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Supply pressure",
+      "value": "20",
+      "unit": "mbar",
+      "applies_to_models": [],
+      "category": "Gas",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Gas category",
+          "table_title": "Gas category, type and supply pressure",
+          "source_quote": "20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas type",
+      "value": "G31 (P LPG)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Gas",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Gas category",
+          "table_title": "Gas category, type and supply pressure",
+          "source_quote": "G31 (P LPG)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Supply pressure",
+      "value": "37",
+      "unit": "mbar",
+      "applies_to_models": [],
+      "category": "Gas",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Gas category",
+          "table_title": "Gas category, type and supply pressure",
+          "source_quote": "37"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensing boiler",
+      "value": "Yes",
+      "unit": null,
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Boiler Type",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical information",
+          "table_title": "Technical settings for combination heaters with boilers",
+          "source_quote": "Yes"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Low-temperature boiler",
+      "value": "No",
+      "unit": null,
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Boiler Type",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical information",
+          "table_title": "Technical settings for combination heaters with boilers",
+          "source_quote": "No"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "B1 boiler",
+      "value": "No",
+      "unit": null,
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Boiler Type",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical information",
+          "table_title": "Technical settings for combination heaters with boilers",
+          "source_quote": "No"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Cogeneration space heater",
+      "value": "No",
+      "unit": null,
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Boiler Type",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "No"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combination heater",
+      "value": "Yes",
+      "unit": null,
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Boiler Type",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "Yes"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output",
+      "value": "20",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output",
+      "value": "25",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "25"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at rated heat output and high temperature setting",
+      "value": "20.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "20.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at rated heat output and high temperature setting",
+      "value": "25.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "25.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at 30% of rated heat output and low temperature setting",
+      "value": "6.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "6.7"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at 30% of rated heat output and low temperature setting",
+      "value": "8.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "8.4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Seasonal space heating energy efficiency",
+      "value": "94",
+      "unit": "%",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "94"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at rated heat output and high temperature setting",
+      "value": "88.2",
+      "unit": "%",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "88.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at rated heat output and high temperature setting",
+      "value": "88.1",
+      "unit": "%",
+      "applies_to_models": [
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "88.1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at 30% of rated heat output and low temperature setting",
+      "value": "99.0",
+      "unit": "%",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "99.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at 30% of rated heat output and low temperature setting",
+      "value": "98.8",
+      "unit": "%",
+      "applies_to_models": [
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "98.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Full load",
+      "value": "0.046",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "0.046"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Full load",
+      "value": "0.061",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "0.061"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Full load",
+      "value": "0.071",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "0.071"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Partial load",
+      "value": "0.008",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "0.008"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Partial load",
+      "value": "0.009",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "0.009"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Standby mode",
+      "value": "0.004",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "0.004"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat loss on standby",
+      "value": "0.04",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "0.04"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Ignition burner power consumption",
+      "value": "0",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual energy consumption",
+      "value": "62",
+      "unit": "GJ",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "62"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual energy consumption",
+      "value": "77",
+      "unit": "GJ",
+      "applies_to_models": [
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "77"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Sound power level, indoors",
+      "value": "50",
+      "unit": "dB",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Acoustics",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Sound power level, indoors",
+      "value": "51",
+      "unit": "dB",
+      "applies_to_models": [
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Acoustics",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "51"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nitrogen oxide emissions",
+      "value": "32",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Emissions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "32"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nitrogen oxide emissions",
+      "value": "31",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Emissions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "31"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Declared load profile",
+      "value": "XL",
+      "unit": null,
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "XL"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily electricity consumption",
+      "value": "0.146",
+      "unit": "kWh",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "0.146"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily electricity consumption",
+      "value": "0.140",
+      "unit": "kWh",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "0.140"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily electricity consumption",
+      "value": "0.138",
+      "unit": "kWh",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "0.138"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual electricity consumption",
+      "value": "32",
+      "unit": "kWh",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "32"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual electricity consumption",
+      "value": "31",
+      "unit": "kWh",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "31"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual electricity consumption",
+      "value": "30",
+      "unit": "kWh",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "30"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily fuel consumption",
+      "value": "20.547",
+      "unit": "kWh",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "20.547"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily fuel consumption",
+      "value": "20.438",
+      "unit": "kWh",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "20.438"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily fuel consumption",
+      "value": "20.473",
+      "unit": "kWh",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "20.473"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual fuel consumption",
+      "value": "16",
+      "unit": "GJ",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "16"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for domestic hot water",
+      "value": "24.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "24.7"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for domestic hot water",
+      "value": "30.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "30.9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for domestic hot water",
+      "value": "36.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "36.9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for heating",
+      "value": "20.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "20.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for heating",
+      "value": "25.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "25.7"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat input (Qn) 80/60 °C",
+      "value": "4.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "4.9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat input (Qn) 80/60 °C",
+      "value": "6.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "6.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat input (Qn) 80/60 °C",
+      "value": "7.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "7.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) for domestic hot water",
+      "value": "24.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "24.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) for domestic hot water",
+      "value": "30.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "30.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) for domestic hot water",
+      "value": "36.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "36.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) 80/60 °C for heating",
+      "value": "20",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) 80/60 °C for heating",
+      "value": "25",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "25"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) 50/30 °C for heating",
+      "value": "21.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "21.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) 50/30 °C for heating",
+      "value": "27.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "27.1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat output (Pn) 80/60 °C",
+      "value": "4.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "4.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat output (Pn) 80/60 °C",
+      "value": "5.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "5.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat output (Pn) 80/60 °C",
+      "value": "7.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "7.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat output (Pn) 50/30 °C",
+      "value": "5.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "5.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat output (Pn) 50/30 °C",
+      "value": "6.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "6.3"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat output (Pn) 50/30 °C",
+      "value": "7.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "7.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated efficiency 50/30 °C (Hi)",
+      "value": "105.8",
+      "unit": "%",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "105.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for domestic hot water (G20+20%H2)",
+      "value": "23.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "23.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for domestic hot water (G20+20%H2)",
+      "value": "29.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "29.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for domestic hot water (G20+20%H2)",
+      "value": "35.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "35.1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for heating (G20+20%H2)",
+      "value": "19.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "19.7"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for heating (G20+20%H2)",
+      "value": "24.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "General",
+          "table_title": "General",
+          "source_quote": "24.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum pressure",
+      "value": "2.5",
+      "unit": "bar",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the heating circuit",
+          "table_title": "Characteristics of the heating circuit",
+          "source_quote": "2.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum pressure",
+      "value": "0.5",
+      "unit": "bar",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the heating circuit",
+          "table_title": "Characteristics of the heating circuit",
+          "source_quote": "0.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Temperature range for heating circuit",
+      "value": "25-80",
+      "unit": "°C",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the heating circuit",
+          "table_title": "Characteristics of the heating circuit",
+          "source_quote": "25-80"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water capacity of expansion vessel",
+      "value": "7",
+      "unit": "l",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the heating circuit",
+          "table_title": "Characteristics of the heating circuit",
+          "source_quote": "7"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum pressure",
+      "value": "0.8",
+      "unit": "bar",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the domestic water circuit",
+          "table_title": "Characteristics of the domestic water circuit",
+          "source_quote": "0.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum pressure",
+      "value": "8.0",
+      "unit": "bar",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the domestic water circuit",
+          "table_title": "Characteristics of the domestic water circuit",
+          "source_quote": "8.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum dynamic pressure",
+      "value": "0.15",
+      "unit": "bar",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the domestic water circuit",
+          "table_title": "Characteristics of the domestic water circuit",
+          "source_quote": "0.15"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum water flow",
+      "value": "2.0",
+      "unit": "l/min",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the domestic water circuit",
+          "table_title": "Characteristics of the domestic water circuit",
+          "source_quote": "2.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Specific flow (D)",
+      "value": "11.5",
+      "unit": "l/min",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the domestic water circuit",
+          "table_title": "Characteristics of the domestic water circuit",
+          "source_quote": "11.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Specific flow (D)",
+      "value": "14.3",
+      "unit": "l/min",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the domestic water circuit",
+          "table_title": "Characteristics of the domestic water circuit",
+          "source_quote": "14.3"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Specific flow (D)",
+      "value": "17.2",
+      "unit": "l/min",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the domestic water circuit",
+          "table_title": "Characteristics of the domestic water circuit",
+          "source_quote": "17.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Temperature range for domestic water circuit",
+      "value": "35-60",
+      "unit": "°C",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the domestic water circuit",
+          "table_title": "Characteristics of the domestic water circuit",
+          "source_quote": "35-60"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic water production with ΔT = 25 °C",
+      "value": "14.1",
+      "unit": "l/min",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the domestic water circuit",
+          "table_title": "Characteristics of the domestic water circuit",
+          "source_quote": "14.1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic water production with ΔT = 25 °C",
+      "value": "17.6",
+      "unit": "l/min",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the domestic water circuit",
+          "table_title": "Characteristics of the domestic water circuit",
+          "source_quote": "17.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic water production with ΔT = 25 °C",
+      "value": "21.0",
+      "unit": "l/min",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the domestic water circuit",
+          "table_title": "Characteristics of the domestic water circuit",
+          "source_quote": "21.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic water production with ΔT = 35 °C",
+      "value": "10.2",
+      "unit": "l/min",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the domestic water circuit",
+          "table_title": "Characteristics of the domestic water circuit",
+          "source_quote": "10.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic water production with ΔT = 35 °C",
+      "value": "12.2",
+      "unit": "l/min",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the domestic water circuit",
+          "table_title": "Characteristics of the domestic water circuit",
+          "source_quote": "12.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic water production with ΔT = 35 °C",
+      "value": "15.0",
+      "unit": "l/min",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the domestic water circuit",
+          "table_title": "Characteristics of the domestic water circuit",
+          "source_quote": "15.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Qmax)",
+      "value": "2.61",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "2.61"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Qmax)",
+      "value": "3.26",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "Gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "3.26"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Qmax)",
+      "value": "3.9",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "Gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "3.9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Qmin)",
+      "value": "0.52",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "0.52"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Qmin)",
+      "value": "0.63",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "Gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "0.63"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Qmin)",
+      "value": "0.78",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "Gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "0.78"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Diameter of coaxial discharge pipes",
+      "value": "60/100",
+      "unit": "mm",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Venting",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "60/100"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (max)",
+      "value": "0.011",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Venting",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "0.011"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (max)",
+      "value": "0.014",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "Venting",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "0.014"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (max)",
+      "value": "0.017",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "Venting",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "0.017"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (min)",
+      "value": "0.002",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Venting",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "0.002"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (min)",
+      "value": "0.003",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "Venting",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "0.003"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (min)",
+      "value": "0.004",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "Venting",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "0.004"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G31 (LPG) gas consumption (Qmax)",
+      "value": "1.92",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "1.92"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G31 (LPG) gas consumption (Qmax)",
+      "value": "2.4",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "Gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "2.4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G31 (LPG) gas consumption (Qmax)",
+      "value": "2.86",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "Gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "2.86"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G31 (LPG) gas consumption (Qmin)",
+      "value": "0.38",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "0.38"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G31 (LPG) gas consumption (Qmin)",
+      "value": "0.47",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "Gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "0.47"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G31 (LPG) gas consumption (Qmin)",
+      "value": "0.58",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "Gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "0.58"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power supply voltage",
+      "value": "230",
+      "unit": "V",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Electrical characteristics",
+          "table_title": "Electrical characteristics",
+          "source_quote": "230"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power supply frequency",
+      "value": "50",
+      "unit": "Hz",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Electrical characteristics",
+          "table_title": "Electrical characteristics",
+          "source_quote": "50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated electric power",
+      "value": "85",
+      "unit": "W",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Electrical characteristics",
+          "table_title": "Electrical characteristics",
+          "source_quote": "85"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated electric power",
+      "value": "88",
+      "unit": "W",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Electrical characteristics",
+          "table_title": "Electrical characteristics",
+          "source_quote": "88"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated electric power",
+      "value": "91",
+      "unit": "W",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Electrical characteristics",
+          "table_title": "Electrical characteristics",
+          "source_quote": "91"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Humidity protection rating (EN 60529)",
+      "value": "X5D",
+      "unit": null,
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Dimensions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Other characteristics",
+          "table_title": "Other characteristics",
+          "source_quote": "X5D"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Net weight when empty/filled with water",
+      "value": "28/30",
+      "unit": "kg",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Dimensions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Other characteristics",
+          "table_title": "Other characteristics",
+          "source_quote": "28/30"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Net weight when empty/filled with water",
+      "value": "29/31",
+      "unit": "kg",
+      "applies_to_models": [
+        "600 Combi 30"
+      ],
+      "category": "Dimensions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Other characteristics",
+          "table_title": "Other characteristics",
+          "source_quote": "29/31"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Net weight when empty/filled with water",
+      "value": "30/31",
+      "unit": "kg",
+      "applies_to_models": [
+        "600 Combi 36"
+      ],
+      "category": "Dimensions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Other characteristics",
+          "table_title": "Other characteristics",
+          "source_quote": "30/31"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimensions (height/width/depth)",
+      "value": "700/395/285",
+      "unit": "mm",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Dimensions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Other characteristics",
+          "table_title": "Other characteristics",
+          "source_quote": "700/395/285"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Outdoor temperature sensor type",
+      "value": "NTC1000 Beta 3688 1 kOhm@25 °C",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Sensors",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "Features of the temperature sensors",
+          "table_title": "Temperature sensor outdoor sensor (NTC1000 Beta 3688 1 kOhm@25 °C)",
+          "source_quote": "Temperature sensor outdoor sensor (NTC1000 Beta 3688 1 kOhm@25 °C)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow/heating circuit return sensor type",
+      "value": "NTC10K Beta 3977 10 kOhm@25 °C",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Sensors",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "Features of the temperature sensors",
+          "table_title": "Temperature flow/heating circuit return sensor (NTC10K Beta 3977 10 kOhm@25 °C)",
+          "source_quote": "Temperature flow/heating circuit return sensor (NTC10K Beta 3977 10 kOhm@25 °C)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature sensor type",
+      "value": "NTC20K Beta 3970 20 kOhm@25 °C",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Sensors",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "Features of the temperature sensors",
+          "table_title": "Flue gas temperature sensor (NTC20K Beta 3970 20 kOhm@25 °C)",
+          "source_quote": "Flue gas temperature sensor (NTC20K Beta 3970 20 kOhm@25 °C)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power supply",
+      "value": "L: Live 230 V ~ 50 Hz, N: Neutral",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Electrical connections",
+          "table_title": "Electrical connections",
+          "source_quote": "Power supply: L: Live 230 V – 50 Hz N: Neutral"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Earthing connector",
+      "value": "null",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Electrical connections",
+          "table_title": "Electrical connections",
+          "source_quote": ":Earthing connector"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Fan supply",
+      "value": "FAN",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Electrical connections",
+          "table_title": "Electrical connections",
+          "source_quote": "Fan supply (FAN)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas valve supply",
+      "value": "GV",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Electrical connections",
+          "table_title": "Electrical connections",
+          "source_quote": "Gas valve (GV)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump power supply",
+      "value": "null",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Electrical connections",
+          "table_title": "Electrical connections",
+          "source_quote": "Pump power supply"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "3-way valve motor power supply",
+      "value": "null",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Electrical connections",
+          "table_title": "Electrical connections",
+          "source_quote": "3-way valve motor power supply"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Earth connections",
+      "value": "null",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Electrical connections",
+          "table_title": "Electrical connections",
+          "source_quote": "Earth connections"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CAN connection",
+      "value": "null",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Electrical connections",
+          "table_title": "Electrical connections",
+          "source_quote": "CAN connection"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Service interface",
+      "value": "null",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Electrical connections",
+          "table_title": "Electrical connections",
+          "source_quote": "Service interface"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Open Therm room unit",
+      "value": "OT",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Electrical connections",
+          "table_title": "Electrical connections",
+          "source_quote": "Open Therm room unit (OT)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Outside sensor",
+      "value": "OS",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Electrical connections",
+          "table_title": "Electrical connections",
+          "source_quote": "Outside sensor (OS)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "External tank sensor",
+      "value": "accessory (BS)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Electrical connections",
+          "table_title": "Electrical connections",
+          "source_quote": "External tank sensor - accessory (BS)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler stoppage",
+      "value": "with open contact",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Electrical connections",
+          "table_title": "Electrical connections",
+          "source_quote": "Boiler stoppage (with open contact)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Room thermostat contact",
+      "value": "230",
+      "unit": "V",
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Electrical connections",
+          "table_title": "Electrical connections",
+          "source_quote": "Room thermostat contact (230 V)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Sensors (X7)",
+      "value": "Limit thermostat (ST), Installation return temperature (SRT), Installation flow temperature (SFL), Flue gas temperature (FS)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Electrical connections",
+          "table_title": "Electrical connections",
+          "source_quote": "Sensors: Limit thermostat (ST) Installation return temperature (SRT) Installation flow temperature (SFL) Flue gas temperature (FS)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Sensors (X8)",
+      "value": "DHW flowmeter (HS), Heating circuit pressure switch (SP), Pump PWM signal (PWM PUMP)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Electrical connections",
+          "table_title": "Electrical connections",
+          "source_quote": "Sensors: DHW flowmeter (HS) Heating circuit pressure switch (SP) Pump PWM signal (PWM PUMP)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Mains supply",
+      "value": "230 V ~ 50 Hz fused at 3 A",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "Electrical supply",
+          "table_title": null,
+          "source_quote": "The mains supply is 230 V ~ 50 Hz fused at 3 A."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical connection cable",
+      "value": "3 core 0.75 mm 3183Y multi strand flexible type",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "Electrical",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "Electrical supply",
+          "table_title": null,
+          "source_quote": "The boiler must be connected to the mains fused 3 A 230 V 50 HZ supply & control system using cable of 3 core 0.75 mm 3183Y multi strand flexible type."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Space heating - Temperature application",
+      "value": "Medium",
+      "unit": null,
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 84,
+          "section_title": "Product fiche - Combination boilers",
+          "table_title": "Product fiche for combination boilers",
+          "source_quote": "Medium"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water heating - Declared load profile",
+      "value": "XL",
+      "unit": null,
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 84,
+          "section_title": "Product fiche - Combination boilers",
+          "table_title": "Product fiche for combination boilers",
+          "source_quote": "XL"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Seasonal space heating energy efficiency class",
+      "value": "A",
+      "unit": null,
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 84,
+          "section_title": "Product fiche - Combination boilers",
+          "table_title": "Product fiche for combination boilers",
+          "source_quote": "A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water heating energy efficiency class",
+      "value": "A",
+      "unit": null,
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 84,
+          "section_title": "Product fiche - Combination boilers",
+          "table_title": "Product fiche for combination boilers",
+          "source_quote": "A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Prated or Psup)",
+      "value": "20",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 84,
+          "section_title": "Product fiche - Combination boilers",
+          "table_title": "Product fiche for combination boilers",
+          "source_quote": "20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Prated or Psup)",
+      "value": "25",
+      "unit": "kW",
+      "applies_to_models": [
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 84,
+          "section_title": "Product fiche - Combination boilers",
+          "table_title": "Product fiche for combination boilers",
+          "source_quote": "25"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Space heating - Annual energy consumption",
+      "value": "62",
+      "unit": "GJ",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 84,
+          "section_title": "Product fiche - Combination boilers",
+          "table_title": "Product fiche for combination boilers",
+          "source_quote": "62"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Space heating - Annual energy consumption",
+      "value": "77",
+      "unit": "GJ",
+      "applies_to_models": [
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 84,
+          "section_title": "Product fiche - Combination boilers",
+          "table_title": "Product fiche for combination boilers",
+          "source_quote": "77"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water heating - Annual energy consumption",
+      "value": "16",
+      "unit": "GJ",
+      "applies_to_models": [
+        "600 Combi 24",
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "DHW",
+      "source_refs": [
+        {
+          "page_number": 84,
+          "section_title": "Product fiche - Combination boilers",
+          "table_title": "Product fiche for combination boilers",
+          "source_quote": "16"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Seasonal space heating energy efficiency",
+      "value": "99.0",
+      "unit": "%",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 84,
+          "section_title": "Product fiche - Combination boilers",
+          "table_title": "Product fiche for combination boilers",
+          "source_quote": "99.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Seasonal space heating energy efficiency",
+      "value": "98.8",
+      "unit": "%",
+      "applies_to_models": [
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Heating",
+      "source_refs": [
+        {
+          "page_number": 84,
+          "section_title": "Product fiche - Combination boilers",
+          "table_title": "Product fiche for combination boilers",
+          "source_quote": "98.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Sound power level LWA indoors",
+      "value": "50",
+      "unit": "dB",
+      "applies_to_models": [
+        "600 Combi 24"
+      ],
+      "category": "Acoustics",
+      "source_refs": [
+        {
+          "page_number": 84,
+          "section_title": "Product fiche - Combination boilers",
+          "table_title": "Product fiche for combination boilers",
+          "source_quote": "50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Sound power level LWA indoors",
+      "value": "51",
+      "unit": "dB",
+      "applies_to_models": [
+        "600 Combi 30",
+        "600 Combi 36"
+      ],
+      "category": "Acoustics",
+      "source_refs": [
+        {
+          "page_number": 84,
+          "section_title": "Product fiche - Combination boilers",
+          "table_title": "Product fiche for combination boilers",
+          "source_quote": "51"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "Verify Flue Integrity (No O2 \",\" CO2)",
+      "description": "Indication that products of combustion & inlet air are mixing - further investigation is required.",
+      "possible_causes": [
+        "Products of combustion & inlet air are mixing"
+      ],
+      "manufacturer_steps": [
+        "Further investigation is required.",
+        "Check all flue components are correctly assembled, fixed & supported.",
+        "Check the flue & terminal are unobstructed."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flue",
+        "Terminal"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flue",
+        "combustion",
+        "air mixing",
+        "integrity"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Combustion procedure",
+          "table_title": null,
+          "source_quote": "Verify Flue Integrity Indication that products of combustion & inlet air are mixing - further investigation is required. Check all flue components are correctly assembled, fixed & supported. Check the flue & terminal are unobstructed."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "Is O2 \",\" CO2 out of range",
+      "description": "O2 and CO2 levels out of range (O2 \",\" 20.6% and CO2 < 0.2% is false).",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "TURN APPLIANCE OFF!",
+        "Call 0344 871 1545 for advice.",
+        "The appliance MUST NOT be commissioned until all problems are identified and resolved."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "O2",
+        "CO2",
+        "combustion",
+        "flue gas"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Combustion procedure",
+          "table_title": null,
+          "source_quote": "Is O2 \",\" 20.6% and CO2 < 0.2%? No TURN APPLIANCE OFF! Call 0344 871 1545 for advice. The appliance MUST NOT be commissioned until all problems are identified and resolved."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "Is CO \",\" CO/CO2 ratio out of range",
+      "description": "CO and CO/CO2 ratio out of range (CO < 350ppm and CO/CO2 ratio < 0.004 is false).",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "TURN APPLIANCE OFF!",
+        "Call 0344 871 1545 for advice.",
+        "The appliance MUST NOT be commissioned until all problems are identified and resolved.",
+        "If commissioning cannot be fully completed the appliance must be disconnected from the gas supply in accordance with the GSIUR.",
+        "Note: Check & record the CO & combustion ratio at both maximum & minimum rates before calling 0344 871 1545."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "CO",
+        "CO/CO2",
+        "combustion",
+        "flue gas"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Combustion procedure",
+          "table_title": null,
+          "source_quote": "Is CO < 350ppm and CO/CO2 ratio < 0.004 ? No TURN APPLIANCE OFF! Call 0344 871 1545 for advice. The appliance MUST NOT be commissioned until all problems are identified and resolved. If commissioning cannot be fully completed the appliance must be disconnected from the gas supply in accordance with the GSIUR. Note: Check & record the CO & combustion ratio at both maximum & minimum rates before calling 0344 871 1545."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "Verify Integrity of Seals",
+      "description": "Unsound seals detected.",
+      "possible_causes": [
+        "Unsound seals"
+      ],
+      "manufacturer_steps": [
+        "Check all burner seals, internal flue seals, door & case seals.",
+        "Replace any seals that appear unsound."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Burner seals",
+        "Flue seals",
+        "Door seals",
+        "Case seals"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "seals",
+        "burner",
+        "flue",
+        "case"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Combustion procedure",
+          "table_title": null,
+          "source_quote": "Verify Integrity of Seals Check all burner seals, internal flue seals, door & case seals. Replace any seals that appear unsound."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "A.00.34",
+      "description": "Outdoor temperature sensor expected but not detected",
+      "possible_causes": [
+        "OUTDOOR SENSOR NOT DETECTED"
+      ],
+      "manufacturer_steps": [
+        "Connect the outdoor sensor",
+        "Outdoor sensor is not connected correctly"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Outdoor sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "sensor",
+        "outdoor",
+        "temperature",
+        "connection"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.00 .34 Outdoor temperature sensor expected but not detected OUTDOOR SENSOR NOT DETECTED Connect the outdoor sensor Outdoor sensor is not connected correctly"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02.06",
+      "description": "Low water pressure",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the system pressure and restore it",
+        "Check the pressure of the expansion vessel",
+        "Check for any system / boiler leaks"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Expansion vessel"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water pressure",
+        "leak",
+        "system",
+        "boiler"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .06 Low water pressure Check the system pressure and restore it Check the pressure of the expansion vessel Check for any system / boiler leaks"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02.18",
+      "description": "OBD error",
+      "possible_causes": [
+        "CONFIGURATION ERROR"
+      ],
+      "manufacturer_steps": [
+        "Re-enter the CN1 and CN2 values",
+        "check the information shown on the data plate"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "configuration",
+        "CN1",
+        "CN2",
+        "data plate"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .18 OBD error CONFIGURATION ERROR Re-enter the CN1 and CN2 values, check the information shown on the data plate"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02.36",
+      "description": "Functional device disconnected",
+      "possible_causes": [
+        "SCB BOARD NOT DETECTED"
+      ],
+      "manufacturer_steps": [
+        "Check the connection and the connectors",
+        "Faulty SCB, replace the board"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "SCB board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "SCB",
+        "board",
+        "connection"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .36 Functional device disconnected SCB BOARD NOT DETECTED Check the connection and the connectors Faulty SCB, replace the board"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02.37",
+      "description": "Passive functional device disconnected",
+      "possible_causes": [
+        "SCB BOARD NOT DETECTED"
+      ],
+      "manufacturer_steps": [
+        "Check the connection and the connectors",
+        "Faulty SCB, replace the board"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "SCB board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "SCB",
+        "board",
+        "connection"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .37 Passive functional device disconnected SCB BOARD NOT DETECTED Check the connection and the connectors Faulty SCB, replace the board"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02.45",
+      "description": "Connection error",
+      "possible_causes": [
+        "SCB BOARD NOT DETECTED"
+      ],
+      "manufacturer_steps": [
+        "Carry out the auto-detect function"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "SCB board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "SCB",
+        "board",
+        "auto-detect"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .45 Connection error SCB BOARD NOT DETECTED Carry out the auto-detect function"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02.46",
+      "description": "Device priority error",
+      "possible_causes": [
+        "SCB BOARD NOT DETECTED"
+      ],
+      "manufacturer_steps": [
+        "Carry out the auto-detect function"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "SCB board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "SCB",
+        "board",
+        "auto-detect"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .46 Device priority error SCB BOARD NOT DETECTED Carry out the auto-detect function"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02.48",
+      "description": "Unit function configuration error",
+      "possible_causes": [
+        "SCB BOARD NOT DETECTED"
+      ],
+      "manufacturer_steps": [
+        "Carry out the auto-detect function"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "SCB board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "SCB",
+        "board",
+        "auto-detect",
+        "configuration"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .48 Unit function configuration error SCB BOARD NOT DETECTED Carry out the auto-detect function"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02.49",
+      "description": "Failed node initialisation",
+      "possible_causes": [
+        "SCB BOARD NOT DETECTED"
+      ],
+      "manufacturer_steps": [
+        "Carry out the auto-detect function"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "SCB board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "SCB",
+        "board",
+        "auto-detect",
+        "initialisation"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .49 Failed node initialisation SCB BOARD NOT DETECTED Carry out the auto-detect function"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02.54",
+      "description": "Open Therm bus power supply error",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Replace the CU-GH board"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "CU-GH board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "Open Therm",
+        "power supply",
+        "CU-GH"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .54 Open Therm bus power supply error Replace the CU-GH board"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02.55",
+      "description": "Incorrect or missing serial number",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Replace the CU-GH board"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "CU-GH board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "serial number",
+        "CU-GH"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .55 Incorrect or missing serial number Replace the CU-GH board"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02.76",
+      "description": "Internal memory reserved for full customisation of settings. No further changes can be made",
+      "possible_causes": [
+        "CONFIGURATION ERROR"
+      ],
+      "manufacturer_steps": [
+        "Re-enter the values CN1 and CN2",
+        "Replace the CU-GH board"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "CU-GH board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "memory",
+        "customisation",
+        "settings",
+        "CN1",
+        "CN2",
+        "CU-GH"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .76 Internal memory reserved for full customisation of settings. No further changes can be made CONFIGURATION ERROR Re-enter the values CN1 and CN2 Replace the CU-GH board"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.00.42",
+      "description": "Pressure sensor open/faulty",
+      "possible_causes": [
+        "RESET PROCEDURE IN PROGRESS"
+      ],
+      "manufacturer_steps": [
+        "No action required"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Pressure sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure sensor",
+        "open",
+        "faulty",
+        "reset"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.00 .42 Pressure sensor open/faulty RESET PROCEDURE IN PROGRESS No action required"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.01.00",
+      "description": "Temporary communication failure between gas valve and boiler PCB.",
+      "possible_causes": [
+        "MAIN PCB ERROR"
+      ],
+      "manufacturer_steps": [
+        "Configure CN1/CN2",
+        "Replace the main PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve",
+        "Main PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "gas valve",
+        "PCB",
+        "CN1",
+        "CN2"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.01 .00 Temporary communication failure between gas valve and boiler PCB. MAIN PCB ERROR Configure CN1/CN2 Replace the main PCB"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.01.05",
+      "description": "Maximum temperature difference value between flow and return reached.",
+      "possible_causes": [
+        "INSUFFICIENT CIRCULATION",
+        "OTHER CAUSES"
+      ],
+      "manufacturer_steps": [
+        "Check the boiler/installation circulation",
+        "Activate a manual venting cycle",
+        "Check the installation pressure",
+        "Check the cleanliness of the exchanger",
+        "Check the operation of the temperature sensors",
+        "Check the connection of the temperature sensors"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Exchanger",
+        "Temperature sensors"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature difference",
+        "flow",
+        "return",
+        "circulation",
+        "venting",
+        "pressure",
+        "exchanger",
+        "sensors"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.01 .05 Maximum temperature difference value between flow and return reached. INSUFFICIENT CIRCULATION Check the boiler/installation circulation Activate a manual venting cycle Check the installation pressure OTHER CAUSES Check the cleanliness of the exchanger Check the operation of the temperature sensors Check the connection of the temperature sensors"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.01.08",
+      "description": "Flow temperature increase in heating mode too quick. Temporary stoppage of 10 minutes.",
+      "possible_causes": [
+        "INSUFFICIENT CIRCULATION",
+        "OTHER CAUSES"
+      ],
+      "manufacturer_steps": [
+        "Check the boiler/installation circulation",
+        "Activate a manual venting cycle",
+        "Check the installation pressure",
+        "Check the cleanliness of the exchanger",
+        "Check the operation of the temperature sensors",
+        "Check the temperature sensor connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Exchanger",
+        "Temperature sensors"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow temperature",
+        "heating",
+        "quick increase",
+        "circulation",
+        "venting",
+        "pressure",
+        "exchanger",
+        "sensors"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.01 .08 Flow temperature increase in heating mode too quick. Temporary stoppage of 10 minutes. INSUFFICIENT CIRCULATION Check the boiler/installation circulation Activate a manual venting cycle Check the installation pressure OTHER CAUSES Check the cleanliness of the exchanger Check the operation of the temperature sensors Check the temperature sensor connection"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.01.14",
+      "description": "Maximum flow temperature value reached.",
+      "possible_causes": [
+        "INSUFFICIENT CIRCULATION"
+      ],
+      "manufacturer_steps": [
+        "Check the boiler/installation circulation",
+        "Activate a manual venting cycle"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow temperature",
+        "circulation",
+        "venting"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.01 .14 Maximum flow temperature value reached. INSUFFICIENT CIRCULATION Check the boiler/installation circulation Activate a manual venting cycle"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.01.18",
+      "description": "No water circulation (temporary).",
+      "possible_causes": [
+        "INSUFFICIENT CIRCULATION",
+        "TEMPERATURE SENSOR ERROR"
+      ],
+      "manufacturer_steps": [
+        "Check the installation pressure",
+        "Activate a manual venting cycle",
+        "Check the operation of the pump",
+        "Check the boiler/installation circulation",
+        "Check the operation of the temperature sensors",
+        "Check the temperature sensor connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Pump",
+        "Temperature sensors"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water circulation",
+        "pump",
+        "pressure",
+        "venting",
+        "sensors"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.01 .18 No water circulation (temporary). INSUFFICIENT CIRCULATION Check the installation pressure Activate a manual venting cycle Check the operation of the pump Check the boiler/installation circulation TEMPERATURE SENSOR ERROR Check the operation of the temperature sensors Check the temperature sensor connection"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.01.21",
+      "description": "Flow temperature increase in domestic water mode too quick. Temporary stoppage of 10 minutes.",
+      "possible_causes": [
+        "INSUFFICIENT CIRCULATION",
+        "TEMPERATURE SENSOR ERROR"
+      ],
+      "manufacturer_steps": [
+        "Check the installation pressure",
+        "Activate a manual venting cycle",
+        "Check the operation of the pump",
+        "Check the boiler/installation circulation",
+        "Check the operation of the temperature sensors",
+        "Check the connection of the temperature sensors"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Pump",
+        "Temperature sensors"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow temperature",
+        "DHW",
+        "quick increase",
+        "circulation",
+        "venting",
+        "pressure",
+        "pump",
+        "sensors"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.01 .21 Flow temperature increase in domestic water mode too quick. Temporary stoppage of 10 minutes. INSUFFICIENT CIRCULATION Check the installation pressure Activate a manual venting cycle Check the operation of the pump Check the boiler/installation circulation TEMPERATURE SENSOR ERROR Check the operation of the temperature sensors Check the connection of the temperature sensors"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02.00",
+      "description": "Reset in progress",
+      "possible_causes": [
+        "CN1/CN2 CONFIGURATION MISSING"
+      ],
+      "manufacturer_steps": [
+        "Configure CN1/CN2"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "reset",
+        "configuration",
+        "CN1",
+        "CN2"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .00 Reset in progress CN1/CN2 CONFIGURATION MISSING Configure CN1/CN2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02.02",
+      "description": "Waiting for configuration settings to be entered (CN1,CN2).",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check configuration CN1/CN2",
+        "Configure CN1/CN2 correctly"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "configuration",
+        "CN1",
+        "CN2"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .02 Waiting for configuration settings to be entered (CN1,CN2). Check configuration CN1/CN2 Configure CN1/CN2 correctly"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02.03",
+      "description": "Configuration settings (CN1, CN2) not entered correctly.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check configuration CN1/CN2",
+        "Configure CN1/CN2 correctly"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "configuration",
+        "CN1",
+        "CN2"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .03 Configuration settings (CN1, CN2) not entered correctly. Check configuration CN1/CN2 Configure CN1/CN2 correctly"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02.04",
+      "description": "PCB settings cannot be read.",
+      "possible_causes": [
+        "MAIN PCB ERROR"
+      ],
+      "manufacturer_steps": [
+        "Configure CN1/CN2",
+        "Replace the main PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Main PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "PCB",
+        "settings",
+        "read",
+        "CN1",
+        "CN2"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .04 PCB settings cannot be read. MAIN PCB ERROR Configure CN1/CN2 Replace the main PCB"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02.05",
+      "description": "Setting memory not compatible with the boiler PCB type",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Replace the main PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Main PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "memory",
+        "PCB",
+        "compatibility"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .05 Setting memory not compatible with the boiler PCB type Replace the main PCB"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02.07",
+      "description": "Low pressure in heating circuit (permanently)",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the system pressure and restore it",
+        "Check the pressure of the expansion vessel",
+        "Check for any system / boiler leaks"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Expansion vessel"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "low pressure",
+        "heating circuit",
+        "system",
+        "boiler",
+        "leaks",
+        "expansion vessel"
+      ],
+      "source_refs": [
+        {
+          "page_number": 74,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .07 Low pressure in heating circuit (permanently) Check the system pressure and restore it Check the pressure of the expansion vessel Check for any system / boiler leaks"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02.09",
+      "description": "Partial stoppage of the boiler",
+      "possible_causes": [
+        "SIGNAL INDICATING BLOCKING INPUT ACTIVE OR FROST PROTECTION ACTIVE",
+        "External cause",
+        "Parameter configuration error",
+        "Faulty wiring connection"
+      ],
+      "manufacturer_steps": [
+        "remove the cause",
+        "check parameters",
+        "check wiring"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "stoppage",
+        "blocking input",
+        "frost protection",
+        "configuration",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 75,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .09 Partial stoppage of the boiler SIGNAL INDICATING BLOCKING INPUT ACTIVE OR FROST PROTECTION ACTIVE External cause: remove the cause Parameter configuration error: check parameters Faulty wiring connection: check wiring"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02.10",
+      "description": "Complete stoppage of the boiler",
+      "possible_causes": [
+        "BLOCKING INPUT SIGNAL (WITHOUT FROST PROTECTION)",
+        "External cause",
+        "Parameter configuration error",
+        "Faulty wiring connection"
+      ],
+      "manufacturer_steps": [
+        "remove the cause",
+        "check parameters",
+        "check wiring"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "stoppage",
+        "blocking input",
+        "frost protection",
+        "configuration",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 75,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .10 Complete stoppage of the boiler BLOCKING INPUT SIGNAL (WITHOUT FROST PROTECTION) External cause: remove the cause Parameter configuration error: check parameters Faulty wiring connection: check wiring"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02.12",
+      "description": "Opening of the control unit input signal contact from the external device",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Not possible"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Control unit"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "control unit",
+        "input signal",
+        "external device"
+      ],
+      "source_refs": [
+        {
+          "page_number": 75,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .12 Opening of the control unit input signal contact from the external device Not possible"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02.38",
+      "description": "No water hardness",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water hardness"
+      ],
+      "source_refs": [
+        {
+          "page_number": 75,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .38 No water hardness"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02.70",
+      "description": "External unit heat recovery test failed",
+      "possible_causes": [
+        "SCB-09 board error"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "SCB-09 board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "heat recovery",
+        "SCB-09"
+      ],
+      "source_refs": [
+        {
+          "page_number": 75,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .70 External unit heat recovery test failed SCB-09 board error"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.03.00",
+      "description": "No identification data for boiler safety device.",
+      "possible_causes": [
+        "MAIN PCB ERROR"
+      ],
+      "manufacturer_steps": [
+        "Replace the main PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Main PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "identification data",
+        "safety device",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 75,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.03 .00 No identification data for boiler safety device. MAIN PCB ERROR Replace the main PCB"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.03.01",
+      "description": "Communication failure in comfort circuit (internal fault in boiler PCB).",
+      "possible_causes": [
+        "MAIN PCB ERROR"
+      ],
+      "manufacturer_steps": [
+        "Replace the main PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Main PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "comfort circuit",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 75,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.03 .01 Communication failure in comfort circuit (internal fault in boiler PCB). MAIN PCB ERROR Replace the main PCB"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": true
+    }
+  ],
+  "diagnostic_codes": [],
+  "status_codes": [],
+  "safety_warnings": [],
+  "maintenance_tasks": [],
+  "search_terms": [],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.0,
+    "review_required": true,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+      "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+    ]
+  }
+}

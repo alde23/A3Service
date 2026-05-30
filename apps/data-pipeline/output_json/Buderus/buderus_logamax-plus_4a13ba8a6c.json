@@ -1,0 +1,4200 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Buderus",
+    "product_family": "Logamax plus",
+    "model_names": [
+      "GB162-80 kW",
+      "GB162-100 kW"
+    ],
+    "manual_type": "installation",
+    "document_title": "Notice de montage Châssis pour cascades pour Logamax plus GB162-80 kW/100 kW",
+    "document_code": "6 720 617 255 (07/2013) US/CA",
+    "publication_date": "07/2013",
+    "language": "fr",
+    "region": "US/CA",
+    "source_file": "bosch_gb162_installation-manual_201309192158100-6720617255-gb162-cascade-frame-installation-instructions-fr-08-2013.pdf",
+    "file_hash": "4a13ba8a6cd8e8b9385f7864c3c431287157ee5da5f411342c3918916c3b3fdd"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "290",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "290 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "270",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "270 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "80",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "80 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "1",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "333",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "333 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "315",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "315 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "100",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "100 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "1",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "580",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "580 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "540",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "540 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "160",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "160 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TL2 ou TR2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TL2 ou TR2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "623",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "623 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "585",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "585 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "180",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "180 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TL2 ou TR2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TL2 ou TR2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "1",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "1",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "666",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "666 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "630",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "630 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "200",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "200 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TL2 ou TR2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TL2 ou TR2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "870",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "870 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "810",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "810 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "240",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "240 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TL3 ou TR3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TL3 ou TR3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "913",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "913 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "855",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "855 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "260",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "260 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TL3 ou TR3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TL3 ou TR3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "1",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "956",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "956 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "900",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "900 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "280",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "280 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TL3 ou TR3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TL3 ou TR3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "1",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "999",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "999 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "945",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "945 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "300",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "300 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TL3 ou TR3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TL3 ou TR3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "1 203",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 203 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "1 125",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 125 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "340",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "340 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TL4 ou TR4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TL4 ou TR4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "1",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "1 246",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 246 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "1 170",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 170 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "360",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "360 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TL4 ou TR4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TL4 ou TR4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "1 289",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 289 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "1 215",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 215 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "380",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "380 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TL4 ou TR4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TL4 ou TR4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "1",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "1 332",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 332 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "1 260",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 260 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "400",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "400 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TL4 ou TR4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TL4 ou TR4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "1 536",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 536 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "1 440",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1,440 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "440",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "440 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR5",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "1 579",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 579 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "1 485",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 485 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "460",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "460 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR5",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "1 622",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 622 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "1 530",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 530 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "480",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "480 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR5",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "1",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "1 665",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 665 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "1 575",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 575 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "500",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "500 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR5",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "5",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "1 826",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 826 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "1 710",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 710 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "520",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "520 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR6",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "1 869",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 869 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "1 755",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 755 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "540",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "540 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR6",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "1 912",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 912 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "1 800",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 800 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "560",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "560 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR6",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "1 955",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 955 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "1 845",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 845 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "580",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "580 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR6",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "1",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "5",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "1 998",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 998 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "1 890",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1 890 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "600",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "600 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR6",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "6",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "2 159",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 159 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "2 025",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 025 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "620",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "620 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR7",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "2 202",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 202 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "2 070",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 070 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "640",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "640 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR7",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "2 245",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 245 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "2 115",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 115 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "660",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "660 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR7",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "5",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "2 288",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 288 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "2 160",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 160 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "680",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "680 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR7",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "1",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "6",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "2 331",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 331 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "2 205",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 205 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "700",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "700 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR7",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "7",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "2 492",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 492 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "2 340",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 340 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "720",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "720 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR8",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "2 535",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 535 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "2 385",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 385 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "740",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "740 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR8",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "5",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "2 578",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 578 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "2 430",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 430 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "760",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "760 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR8",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "6",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "2 621",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 621 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "2 475",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 475 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "780",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "780 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR8",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (80 kW)",
+      "value": "1",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "7",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz naturel)",
+      "value": "2 664",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 664 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation (Gaz liquide)",
+      "value": "2 520",
+      "unit": "k.Btu/hr",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "2 520 k.Btu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Puissance thermique nominale de l'installation",
+      "value": "800",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "800 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Options pour système de cascade",
+      "value": "TR8",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "TR8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nombre de chaudières GB162 (100 kW)",
+      "value": "8",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 1 Sélection de cascade",
+          "source_quote": "8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Configuration de la bouteille de mélange hydraulique",
+      "value": "TL2, TL3",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 2 Configuration de la bouteille de mélange hydraulique",
+          "source_quote": "TL2, TL3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Configuration de la bouteille de mélange hydraulique (dos à dos)",
+      "value": "TR2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 2 Configuration de la bouteille de mélange hydraulique",
+          "source_quote": "TR2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Bouteille casse-pression",
+      "value": "2½\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 2 Configuration de la bouteille de mélange hydraulique",
+          "source_quote": "2½\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Configuration de la bouteille de mélange hydraulique",
+      "value": "TL4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 2 Configuration de la bouteille de mélange hydraulique",
+          "source_quote": "TL4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Configuration de la bouteille de mélange hydraulique (dos à dos)",
+      "value": "TR3, TR4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 2 Configuration de la bouteille de mélange hydraulique",
+          "source_quote": "TR3, TR4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Bouteille casse-pression",
+      "value": "3\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 2 Configuration de la bouteille de mélange hydraulique",
+          "source_quote": "3\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Bouteille casse-pression",
+      "value": "4\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 2 Configuration de la bouteille de mélange hydraulique",
+          "source_quote": "4\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Configuration de la bouteille de mélange hydraulique",
+      "value": "5 chaudières ou plus",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Configurations",
+          "table_title": "Tabl. 2 Configuration de la bouteille de mélange hydraulique",
+          "source_quote": "5 chaudières ou plus"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Hauteur totale du système de cascade",
+      "value": "26 3/4\" (1722 mm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "3 Dimensions",
+          "table_title": null,
+          "source_quote": "263/4\" (1722 mm)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Largeur du système de cascade (vue de dessus)",
+      "value": "20 3/4\" (525 mm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "3 Dimensions",
+          "table_title": null,
+          "source_quote": "203/4\" (525 mm)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Profondeur du système de cascade (vue de dessus)",
+      "value": "11 1/4\" (288 mm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "3 Dimensions",
+          "table_title": null,
+          "source_quote": "111/4\" (288 mm)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Hauteur de la chaudière",
+      "value": "32\" (810 mm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "3 Dimensions",
+          "table_title": null,
+          "source_quote": "32\" (810 mm)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Largeur de la chaudière",
+      "value": "20 3/4\" (525 mm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "3 Dimensions",
+          "table_title": null,
+          "source_quote": "203/4\" (525 mm)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Profondeur de la chaudière",
+      "value": "22 3/4\" (575 mm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "3 Dimensions",
+          "table_title": null,
+          "source_quote": "223/4\" (575 mm)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension L1 (TL2)",
+      "value": "44 3/4\"",
+      "unit": null,
+      "applies_to_models": [
+        "TL2"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 3 TL - Configuration parallèle",
+          "source_quote": "443/4\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension L1 (TL2)",
+      "value": "1 138",
+      "unit": "mm",
+      "applies_to_models": [
+        "TL2"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 3 TL - Configuration parallèle",
+          "source_quote": "1 138 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Largeur (TL2)",
+      "value": "22 3/4\"",
+      "unit": null,
+      "applies_to_models": [
+        "TL2"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 3 TL - Configuration parallèle",
+          "source_quote": "223/4\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Largeur (TL2)",
+      "value": "575",
+      "unit": "mm",
+      "applies_to_models": [
+        "TL2"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 3 TL - Configuration parallèle",
+          "source_quote": "575 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension L1 (TL3)",
+      "value": "65 1/2\"",
+      "unit": null,
+      "applies_to_models": [
+        "TL3"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 3 TL - Configuration parallèle",
+          "source_quote": "651/2\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension L1 (TL3)",
+      "value": "1 663",
+      "unit": "mm",
+      "applies_to_models": [
+        "TL3"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 3 TL - Configuration parallèle",
+          "source_quote": "1 663 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Largeur (TL3)",
+      "value": "22 3/4\"",
+      "unit": null,
+      "applies_to_models": [
+        "TL3"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 3 TL - Configuration parallèle",
+          "source_quote": "223/4\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Largeur (TL3)",
+      "value": "575",
+      "unit": "mm",
+      "applies_to_models": [
+        "TL3"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 3 TL - Configuration parallèle",
+          "source_quote": "575 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension L1 (TL4)",
+      "value": "86 1/4\"",
+      "unit": null,
+      "applies_to_models": [
+        "TL4"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 3 TL - Configuration parallèle",
+          "source_quote": "861/4\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension L1 (TL4)",
+      "value": "2 192",
+      "unit": "mm",
+      "applies_to_models": [
+        "TL4"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 3 TL - Configuration parallèle",
+          "source_quote": "2 192 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Largeur (TL4)",
+      "value": "22 3/4\"",
+      "unit": null,
+      "applies_to_models": [
+        "TL4"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 3 TL - Configuration parallèle",
+          "source_quote": "223/4\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Largeur (TL4)",
+      "value": "575",
+      "unit": "mm",
+      "applies_to_models": [
+        "TL4"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 3 TL - Configuration parallèle",
+          "source_quote": "575 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension L1 (TR2)",
+      "value": "24 1/4\"",
+      "unit": null,
+      "applies_to_models": [
+        "TR2"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 4 TR - Configurations dos à dos",
+          "source_quote": "241/4\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension L1 (TR2)",
+      "value": "613",
+      "unit": "mm",
+      "applies_to_models": [
+        "TR2"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 4 TR - Configurations dos à dos",
+          "source_quote": "613 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Largeur (TR2)",
+      "value": "39\"",
+      "unit": null,
+      "applies_to_models": [
+        "TR2"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 4 TR - Configurations dos à dos",
+          "source_quote": "39\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Largeur (TR2)",
+      "value": "992",
+      "unit": "mm",
+      "applies_to_models": [
+        "TR2"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 4 TR - Configurations dos à dos",
+          "source_quote": "992 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension L1 (TR3, TR4)",
+      "value": "45\"",
+      "unit": null,
+      "applies_to_models": [
+        "TR3",
+        "TR4"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 4 TR - Configurations dos à dos",
+          "source_quote": "45\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension L1 (TR3, TR4)",
+      "value": "1 142",
+      "unit": "mm",
+      "applies_to_models": [
+        "TR3",
+        "TR4"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 4 TR - Configurations dos à dos",
+          "source_quote": "1 142 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Largeur (TR3, TR4)",
+      "value": "39\"",
+      "unit": null,
+      "applies_to_models": [
+        "TR3",
+        "TR4"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 4 TR - Configurations dos à dos",
+          "source_quote": "39\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Largeur (TR3, TR4)",
+      "value": "992",
+      "unit": "mm",
+      "applies_to_models": [
+        "TR3",
+        "TR4"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 4 TR - Configurations dos à dos",
+          "source_quote": "992 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension L1 (TR5, TR6)",
+      "value": "65 3/4\"",
+      "unit": null,
+      "applies_to_models": [
+        "TR5",
+        "TR6"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 4 TR - Configurations dos à dos",
+          "source_quote": "653/4\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension L1 (TR5, TR6)",
+      "value": "1 670",
+      "unit": "mm",
+      "applies_to_models": [
+        "TR5",
+        "TR6"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 4 TR - Configurations dos à dos",
+          "source_quote": "1 670 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Largeur (TR5, TR6)",
+      "value": "39\"",
+      "unit": null,
+      "applies_to_models": [
+        "TR5",
+        "TR6"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 4 TR - Configurations dos à dos",
+          "source_quote": "39\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Largeur (TR5, TR6)",
+      "value": "992",
+      "unit": "mm",
+      "applies_to_models": [
+        "TR5",
+        "TR6"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 4 TR - Configurations dos à dos",
+          "source_quote": "992 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension L1 (TR7, TR8)",
+      "value": "86 1/2\"",
+      "unit": null,
+      "applies_to_models": [
+        "TR7",
+        "TR8"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 4 TR - Configurations dos à dos",
+          "source_quote": "861/2\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension L1 (TR7, TR8)",
+      "value": "2 195",
+      "unit": "mm",
+      "applies_to_models": [
+        "TR7",
+        "TR8"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 4 TR - Configurations dos à dos",
+          "source_quote": "2 195 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Largeur (TR7, TR8)",
+      "value": "39\"",
+      "unit": null,
+      "applies_to_models": [
+        "TR7",
+        "TR8"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 4 TR - Configurations dos à dos",
+          "source_quote": "39\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Largeur (TR7, TR8)",
+      "value": "992",
+      "unit": "mm",
+      "applies_to_models": [
+        "TR7",
+        "TR8"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 4 TR - Configurations dos à dos",
+          "source_quote": "992 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Diamètre bouteille de mélange D1",
+      "value": "2 1/2\"",
+      "unit": "pouces",
+      "applies_to_models": [
+        "TL2",
+        "TL3"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 5 Dimensions bouteilles de mélange",
+          "source_quote": "21/2\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Longueur L1",
+      "value": "19\"",
+      "unit": "pouces",
+      "applies_to_models": [
+        "TL2",
+        "TL3"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 5 Dimensions bouteilles de mélange",
+          "source_quote": "19\" (482 mm)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "F1 (dimension bride)",
+      "value": "Bride vide C2631 37,2 NW 65/76,1 PN6",
+      "unit": "mm",
+      "applies_to_models": [
+        "TL2",
+        "TL3"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 5 Dimensions bouteilles de mélange",
+          "source_quote": "Bride vide C2631 37,2 NW 65/76,1 PN6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Diamètre bouteille de mélange D1",
+      "value": "3\"",
+      "unit": "pouces",
+      "applies_to_models": [
+        "TL4",
+        "TR4"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 5 Dimensions bouteilles de mélange",
+          "source_quote": "3\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Longueur L1",
+      "value": "22 3/4\"",
+      "unit": "pouces",
+      "applies_to_models": [
+        "TL4",
+        "TR4"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 5 Dimensions bouteilles de mélange",
+          "source_quote": "223/4\" (571 mm)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "F1 (dimension bride)",
+      "value": "Bride vide C2631 37,2 NW 80/89 PN6",
+      "unit": "mm",
+      "applies_to_models": [
+        "TL4",
+        "TR4"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 5 Dimensions bouteilles de mélange",
+          "source_quote": "Bride vide C2631 37,2 NW 80/89 PN6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Diamètre bouteille de mélange D1",
+      "value": "4\"",
+      "unit": "pouces",
+      "applies_to_models": [
+        "5 chaudières ou plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 5 Dimensions bouteilles de mélange",
+          "source_quote": "4\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Longueur L1",
+      "value": "25 1/2\"",
+      "unit": "pouces",
+      "applies_to_models": [
+        "5 chaudières ou plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 5 Dimensions bouteilles de mélange",
+          "source_quote": "251/2\" (651 mm)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "F1 (dimension bride)",
+      "value": "Bride vide C2631 37,2 NW 100/114 1/4 PN6",
+      "unit": "mm",
+      "applies_to_models": [
+        "5 chaudières ou plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "3 Dimensions",
+          "table_title": "Tabl. 5 Dimensions bouteilles de mélange",
+          "source_quote": "Bride vide C2631 37,2 NW 100/11414 PN6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [],
+  "diagnostic_codes": [],
+  "status_codes": [],
+  "safety_warnings": [
+    {
+      "warning_type": "unknown",
+      "topic": "General safety",
+      "text": "Lire attentivement avant la mise en service de la chaudière SVP.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "ATTENTION! Lire attentivement avant la mise en service de la chaudière SVP."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Improper installation/maintenance",
+      "text": "Les travaux de montage, réglage, modification, réparation ou entretien, réalisés de manière non conforme peuvent entraîner des dégâts matériels, des accidents ou la mort. Veuillez respecter les informations indiquées dans cette notice. Veuillez vous adresser à une entreprise qualifiée, une société de service appropriée ou à votre fournisseur de gaz si vous avez besoin d'aide ou d'informations supplémentaires.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "AVERTISSEMENT ! Les travaux de montage, réglage, modification, réparation ou entretien, réalisés de manière non conforme peuvent entraîner des dégâts matériels, des accidents ou la mort. Veuillez respecter les informations indiquées dans cette notice. Veuillez vous adresser à une entreprise qualifiée, une société de service appropriée ou à votre fournisseur de gaz si vous avez besoin d'aide ou d'informations supplémentaires."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "User manual information",
+      "text": "La notice d'utilisation fait partie des documents remis à l'utilisateur de l'installation. Expliquez les informations fournies dans cette notice au propriétaire / à l'utilisateur et assurez-vous que ce dernier est informé de toutes les consignes d'utilisation nécessaires.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "ATTENTION! La notice d'utilisation fait partie des documents remis à l'utilisateur de l'installation. Expliquez les informations fournies dans cette notice au propriétaire / à l'utilisateur et assurez-vous que ce dernier est informé de toutes les consignes d'utilisation nécessaires."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Installation requirements (Massachusetts)",
+      "text": "Dans l'Etat du Massachusetts, le montage doit être effectué par un installateur ou un installateur de gaz homologué sur site.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "REMARQUE ! Dans l'Etat du Massachusetts, le montage doit être effectué par un installateur ou un installateur de gaz homologué sur site."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Fire or explosion risk",
+      "text": "risques d'incendie ou d'explosion si ces consignes ne sont pas parfaitement respectées, ce qui peut entraîner d'importants dégâts matériels ou présenter des risques d'accidents graves et danger de mort. Ne stockez ni n'utilisez pas d'essence ou autres liquides ou vapeurs inflammables à proximité de cette chaudière ou de toute autre chaudière. Que faire en cas d'odeur de gaz ? N'essayez en aucun cas de mettre la chaudière en marche. Ne commutez aucun interrupteur électrique; ne pas utiliser de téléphone dans le même bâtiment. Utilisez le téléphone d'un voisin pour avertir le fournisseur de gaz immédiatement. Suivez les consignes du fournisseur de gaz. Si vous ne pouvez pas atteindre votre fournisseur de gaz, appelez les pompiers. Le montage et l'entretien doivent être réalisés par une société de service appropriée ou par le fournisseur de gaz.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Avertissement: risques d'incendie ou d'explosion si ces consignes ne sont pas parfaitement respectées, ce qui peut entraîner d'importants dégâts matériels ou présenter des risques d'accidents graves et danger de mort. Ne stockez ni n'utilisez pas d'essence ou autres liquides ou vapeurs inflammables à proximité de cette chaudière ou de toute autre chaudière. Que faire en cas d'odeur de gaz ? • N'essayez en aucun cas de mettre la chaudière en marche. • Ne commutez aucun interrupteur électrique; ne pas utiliser de téléphone dans le même bâtiment. • Utilisez le téléphone d'un voisin pour avertir le fournisseur de gaz immédiatement. Suivez les consignes du fournisseur de gaz. • Si vous ne pouvez pas atteindre votre fournisseur de gaz, appelez les pompiers. Le montage et l'entretien doivent être réalisés par une société de service appropriée ou par le fournisseur de gaz."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Manual availability",
+      "text": "Cette notice est disponible en allemand, anglais et français. Elle doit être conservée pour toute utilsation ultérieure.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "REMARQUE : Cette notice est disponible en allemand, anglais et français. Elle doit être conservée pour toute utilsation ultérieure."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Installation surface",
+      "text": "S'assurer que le système de cascades est monté sur une surface plane.",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "4.1 Montage du châssis pour cascades",
+          "table_title": null,
+          "source_quote": "ATTENTION! S'assurer que le système de cascades est monté sur une surface plane."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Installation leveling",
+      "text": "S'assurer que le système de cascade est monté horizontalement (utiliser le niveau à bulle).",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "4.1 Montage du châssis pour cascades",
+          "table_title": null,
+          "source_quote": "S'assurer que le système de cascade est monté horizontalement (utiliser le niveau à bulle)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Floor bearing capacity",
+      "text": "S'assurer que la force portante du sol est suffisante pour l'installation (env. 100 kg [220 lbs] par chaudière, accessoires incl.).",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "4.1 Montage du châssis pour cascades",
+          "table_title": null,
+          "source_quote": "S'assurer que la force portante du sol est suffisante pour l'installation (env. 100 kg [220 lbs] par chaudière, accessoires incl.)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "maintenance_tasks": [],
+  "search_terms": [
+    "Logamax plus",
+    "GB162-80 kW",
+    "GB162-100 kW",
+    "Notice de montage",
+    "Châssis pour cascades",
+    "Installation",
+    "Dimensions",
+    "Puissance thermique",
+    "Configuration TL",
+    "Configuration TR",
+    "Bouteille casse-pression",
+    "Montage"
+  ],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.4,
+    "review_required": true,
+    "missing_or_unclear_sections": [
+      "Fault Codes",
+      "Diagnostic Codes",
+      "Status Codes",
+      "Maintenance Tasks"
+    ],
+    "extraction_notes": [
+      "The manual is primarily for the cascade frame installation, not the boiler itself. It refers to other manuals for boiler-specific details like maintenance and commissioning, which explains the absence of fault/diagnostic/status codes and detailed maintenance tasks.",
+      "No fault codes, diagnostic codes, or status codes were extracted. Manual should be reviewed or reprocessed.",
+      "No fault_codes were extracted."
+    ]
+  }
+}

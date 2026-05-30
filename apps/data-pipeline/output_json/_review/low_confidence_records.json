@@ -402,5 +402,3813 @@
         "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
       ]
     }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Unical\\unical_osa_641a48ffd5.json",
+    "confidence": 0.5,
+    "review_required": true,
+    "record": {
+      "parameter": "R factor",
+      "value": "symbol_unclear",
+      "unit": null,
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "R factor チチチ"
+        }
+      ],
+      "confidence": 0.5,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Unical\\unical_osa_641a48ffd5.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Unical\\unical_konf_0c407dfd84.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum clearance (front)",
+      "value": "600",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "3.5 - POSITIONING IN BOILER ROOM",
+          "table_title": null,
+          "source_quote": "600"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Unical\\unical_konf_0c407dfd84.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum clearance (side)",
+      "value": "60",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "3.5 - POSITIONING IN BOILER ROOM",
+          "table_title": null,
+          "source_quote": "60"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Unical\\unical_konf_0c407dfd84.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum clearance (top)",
+      "value": "1200",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "3.5 - POSITIONING IN BOILER ROOM",
+          "table_title": null,
+          "source_quote": "1200"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Unical\\unical_konf_0c407dfd84.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum clearance (bottom)",
+      "value": "200",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "3.5 - POSITIONING IN BOILER ROOM",
+          "table_title": null,
+          "source_quote": "200"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "maintenance_tasks",
+    "output_file": "Unical\\unical_konf_0c407dfd84.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "task_name": "Commissioning checklist",
+      "description": "Before commissioning the boiler, check that the installation meets standards, combustion air intake and flue gas exhaust are proper, fuel supply system is sized correctly, all safety and control devices are present, power supply is 230V - 50Hz, system is filled with water (0.8/1 bar), condensation drain trap is filled, system shut-off gate valves are open, gas type corresponds to boiler calibration, gas supply valve is open, system checked for gas leaks, outside main switch is ON, system safety valve is efficient and connected to drains, condensation drain trap is connected to drains, system checked for water leaks, ventilation conditions and minimum distances are ensured, GAS/HEATING/DHW pipes cleaned, surveillance/protection system against gas leaks installed (optional), system pipes NOT used as electrical earthing, system sized properly for radiator pressure drops, thermostatic valves/radiator stop valves, operator trained and documentation supplied.",
+      "interval": null,
+      "required_qualification": "professionally qualified personnel",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "3.10 - COMMISSIONING",
+          "table_title": null,
+          "source_quote": "Before commissioning the boiler, check that: does the installation meet the specific standards and regulations in force, both relating to the gas part as well as the electrical part? do the combustion air intake and flue gas exhaust take place properly according to what is defined by the specific rules and regulations in force? is the fuel supply system sized according to the capacity required by the boiler? Is it equipped with all safety and control devices required by the standards in force? is the power supply of the boiler 230V - 50Hz? has the system been filled with water (approximately 0.8/1 bar pressure on the pressure gauge with the pump stopped)? Has the condensation drain trap been filled with water as indicated in chapter 3.7? are any system shut-off gate valves open? does the gas to be used correspond to the boiler calibration gas?: otherwise, perform the boiler conversion in order to use the gas available (see section: 4.3\"); this operation must be carried out by technical staff qualified in compliance with the standards in force; is the gas supply valve open? has the system been checked for gas leaks? is the outside main switch ON? is the system safety valve efficient and is it connected to the drains? is the condensation drain trap connected to the drains? has the system been checked for water leaks? are the ventilation conditions and minimum distances to perform any maintenance ensured? have the GAS, HEATING and DOMESTIC HOT WATER pipes been cleaned thoroughly with products suitable for each circuit? has a surveillance and protection system against gas leaks been installed? (Optional) are the system pipes NOT used as the electrical system earthing? has the system been sized properly bearing in mind the radiator pressure drops? thermostatic valves, radiator stop valves has the operator been trained and has the documentation been supplied?"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "maintenance_tasks",
+    "output_file": "Unical\\unical_konf_0c407dfd84.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "task_name": "Heat exchanger body verification and cleaning",
+      "description": "1) Measure Thermal Capacity and compare with table 3.12 to indicate if exchanger needs cleaning. 2) Check that space between rungs of exchanger are not clogged. Use Unical products, wash area with most rungs first, then upper part if necessary.",
+      "interval": "yearly",
+      "required_qualification": null,
+      "source_refs": [],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Unical\\unical_konf_0c407dfd84.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Unical\\unical_konf_294f87b717.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Appliance category",
+      "value": "12H3P",
+      "unit": null,
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Appliance category 12H3P"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Unical\\unical_konf_294f87b717.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Appliance category",
+      "value": "2H3P",
+      "unit": null,
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Appliance category 2H3P"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "safety_warnings",
+    "output_file": "Unical\\unical_condensing-gas-boiler_ead7f9e763.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "warning_type": "notice",
+      "topic": "Data Plate for Collective Smoke Duct",
+      "text": "A data plate must be present at the connection point with the collective smoke duct. Data plate must contained the following information: the collective flue is sized for type C (10) boilers, the maximum mass flow rate allowed of combustion products in Kg/h, size of the connection to common ducts, a warning regarding openings for air outlet and product inlet of the combustion of the smokes collective under pressure; such openings they must be closed and it must be verified their tightness when the boiler is disconnected, name of duct manufacturer, collective smoke or its identification symbol, Refer to the regulations in force for the discharge of combustion products and local provisions",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "FOLLOWS: Installation on collective flues in positive pressure",
+          "table_title": null,
+          "source_quote": null
+        }
+      ],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Unical\\unical_condensing-gas-boiler_ead7f9e763.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_buderus-ssb-boilers_f72be98122.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Boiler Parameter N. 23 (Design Supply Min Limit)",
+      "value": "Min setpoint temperature",
+      "unit": null,
+      "applies_to_models": [
+        "Buderus SSB Boilers"
+      ],
+      "category": "control_setting",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Central Heating with Analog Input Control of setpoint",
+          "table_title": "Parameters",
+          "source_quote": "N. 23 Description Design Supply Min Limit Comment Min setpoint temperature"
+        },
+        {
+          "page_number": 6,
+          "section_title": "Use of the device for a cascade system",
+          "table_title": "Parameters",
+          "source_quote": "N. 23 Description Design Supply Min Limit Comment Min setpoint temperature"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_buderus-ssb-boilers_f72be98122.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Boiler Parameter N. 24 (Design Supply Max Limit) for Setpoint Control",
+      "value": "Max setpoint temperature",
+      "unit": null,
+      "applies_to_models": [
+        "Buderus SSB Boilers"
+      ],
+      "category": "control_setting",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Central Heating with Analog Input Control of setpoint",
+          "table_title": "Parameters",
+          "source_quote": "N. 24 Description Design Supply Max Limit Comment Max setpoint temperature"
+        },
+        {
+          "page_number": 6,
+          "section_title": "Use of the device for a cascade system",
+          "table_title": "Parameters",
+          "source_quote": "N. 24 Description Design Supply Max Limit Comment Max setpoint temperature"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_buderus-ssb-boilers_f72be98122.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Boiler Parameter N. 24 (Design Supply Max Limit) for Modulation Rate Control",
+      "value": "This parameter sets the setpoint of the boiler",
+      "unit": null,
+      "applies_to_models": [
+        "Buderus SSB Boilers"
+      ],
+      "category": "control_setting",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Central Heating with Analog Input Control of Modulation Rate",
+          "table_title": "Parameters",
+          "source_quote": "N. 24 Description Design Supply Max Limit Comment This parameter sets the setpoint of the boiler"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_buderus-ssb-boilers_f72be98122.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Boiler Parameter N. 92 (Fan Speed Maximum)",
+      "value": "This parameter sets the maximum power",
+      "unit": null,
+      "applies_to_models": [
+        "Buderus SSB Boilers"
+      ],
+      "category": "control_setting",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Central Heating with Analog Input Control of Modulation Rate",
+          "table_title": "Parameters",
+          "source_quote": "N. 92 Description Fan Speed Maximum Comment This parameter sets the maximum power"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_buderus-ssb-boilers_f72be98122.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Boiler Parameter N. 93 (Fan Speed Minimum)",
+      "value": "This parameter sets the minimum power",
+      "unit": null,
+      "applies_to_models": [
+        "Buderus SSB Boilers"
+      ],
+      "category": "control_setting",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Central Heating with Analog Input Control of Modulation Rate",
+          "table_title": "Parameters",
+          "source_quote": "N. 93 Description Fan Speed Minimum Comment This parameter sets the minimum power"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Bosch\\bosch_buderus-ssb-boilers_f72be98122.json",
+    "confidence": 0.4,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.4,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Some technical specifications for boiler parameters (N. 23, 24, 92, 93) describe the parameter's function rather than providing a specific numerical value, hence 'review_required' is set to true for these entries.",
+        "No fault codes, diagnostic codes, or status codes were extracted. Manual should be reviewed or reprocessed.",
+        "No fault_codes were extracted."
+      ]
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_94482f02fb.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Direct Vent Terminal Clearance (A. Clearance above grade, veranda, porch, deck, or balcony) - Canadian Installations",
+      "value": "12\" (30.5 cm) for models <100,000 BTUH (30 kW), 36\" (91 cm) for models > 100,000 BTUH (30 kW)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Table 10 Direct Vent Terminal Clearances",
+          "source_quote": "A. Clearance above grade, veranda, porch, deck, or balcony 12\" (30.5 cm) for models <100,000 BTUH (30 kW), 36\" (91 cm) for models > 100,000 BTUH (30 kW)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_94482f02fb.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Direct Vent Terminal Clearance (A. Clearance above grade, veranda, porch, deck, or balcony) - US Installation",
+      "value": "Two-pipe (direct vent) applications: 9\" (23 cm) for models <50,000 BTUH (15 kW), 12\" (30.5 cm) for models >50,000 BTUH (15 kW). Single-pipe applications: 4 feet (1.2 m)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Table 10 Direct Vent Terminal Clearances",
+          "source_quote": "Two-pipe (direct vent) applications: 9\" (23 cm) for models <50,000 BTUH (15 kW), 12\" (30.5 cm) for models >50,000 BTUH (15 kW). ++ Single-pipe applications: 4 feet (1.2 m)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_94482f02fb.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Direct Vent Terminal Clearance (B. Clearance to window or door that may be opened) - Canadian Installations",
+      "value": "12\" (30.5 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Table 10 Direct Vent Terminal Clearances",
+          "source_quote": "B. Clearance to window or door that may be opened 12\" (30.5 cm)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_94482f02fb.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Direct Vent Terminal Clearance (B. Clearance to window or door that may be opened) - US Installation",
+      "value": "12\" (30.5 cm)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Table 10 Direct Vent Terminal Clearances",
+          "source_quote": "B. Clearance to window or door that may be opened 12\" (30.5 cm)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_94482f02fb.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Direct Vent Terminal Clearance (F. Clearance to outside corner) - Canadian Installations",
+      "value": "12\" (30.5 cm) or in accordance with local installation codes and the requirements of the gas supplier",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Table 10 Direct Vent Terminal Clearances",
+          "source_quote": "F. Clearance to outside corner 12\" (30.5 cm) or in accordance with local installation codes and the requirements of the gas supplier"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_94482f02fb.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Direct Vent Terminal Clearance (F. Clearance to outside corner) - US Installation",
+      "value": "12\" (30.5 cm) or in accordance with local installation codes and the requirements of the gas supplier",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Table 10 Direct Vent Terminal Clearances",
+          "source_quote": "F. Clearance to outside corner 12\" (30.5 cm) or in accordance with local installation codes and the requirements of the gas supplier"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_94482f02fb.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Direct Vent Terminal Clearance (K. Clearance to a mechanical supply inlet) - Canadian Installations",
+      "value": "6 feet (1.83 m)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Table 10 Direct Vent Terminal Clearances",
+          "source_quote": "K. Clearance to a mechanical supply inlet 6 feet (1.83 m)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_94482f02fb.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Direct Vent Terminal Clearance (K. Clearance to a mechanical supply inlet) - US Installation",
+      "value": "3 feet (91.4 cm) above if within 10 feet (3 m) horizontally",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "8.4 Combustion Air / Venting",
+          "table_title": "Table 10 Direct Vent Terminal Clearances",
+          "source_quote": "K. Clearance to a mechanical supply inlet 3 feet (91.4 cm) above if within 10 feet (3 m) horizontally"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "safety_warnings",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_94482f02fb.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "warning_type": "caution",
+      "topic": "Injury and/or Property Damage Hazard",
+      "text": "CAUTION: INJURY AND/OR PROPERTY DAMAGE HAZARD",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "CAUTION: INJURY AND/OR PROPERTY DAMAGE HAZARD"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Bosch\\bosch_96-afue-condensing-gas-furnace_94482f02fb.json",
+    "confidence": 0.98,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.98,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Air Delivery - CFM tables (Table 4 and 5) are very large and complex. Only a few representative values were extracted, and the tables are marked for review.",
+        "Direct Vent Terminal Clearances table (Table 10) is large and complex. Only a few representative values were extracted, and the table is marked for review."
+      ]
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Bosch\\bosch_96-afue-gas-furnace_de7c5bfb52.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "No Displayed Codes and No Fan",
+      "description": "System Does Not Start Normally",
+      "possible_causes": [
+        "Loose wires or wrong connections",
+        "No power to the unit",
+        "Door switch not working properly",
+        "Blower access door not closed or fixed properly",
+        "Transformer not working properly",
+        "Blown fuse",
+        "PCB Board not sending 18-31V signals",
+        "No call for heat",
+        "No call for fan",
+        "No power to the circulating fan motor",
+        "Thermostat settings incorrect or faulty thermostat"
+      ],
+      "manufacturer_steps": [
+        "Correct wiring according to wiring diagram",
+        "Check for 115Vac power supply between L1 and common terminal (Figure 1)",
+        "Check for 18-31Vac power between these 2 terminals with multi-meter (Figure 3)",
+        "Replace the door switch",
+        "Ensure the blower access door is closed properly",
+        "Replace the transformer",
+        "Replace the fuse",
+        "Check for 18-31Vac power between \"R\" & \"C\" terminals with multi-meter (Figure 4)",
+        "Check the incoming power supply at connection box",
+        "Replace the control board",
+        "Check for 18-31Vac power between \"W/W1\" & \"C\" terminals with multi-meter (Figure 5)",
+        "Check for 18-31Vac power between \"G\" & \"C\" terminals with multi-meter (Figure 6)",
+        "Check the thermostat settings and/or replace the thermostat",
+        "Check for 18-31Vac power between Hi-heat/lo-heat/hi-cool/lo-cool and COM with multi-meter (Figure 7)",
+        "Check for 115Vac power supply between CIRC-H and N with multi-meter (Figure 7)",
+        "Replace the circulating fan motor"
+      ],
+      "cautions_or_notes": [
+        "Leave \"Park\" terminal unused."
+      ],
+      "symptoms": [
+        "No fan operation",
+        "System does not start normally"
+      ],
+      "related_components": [
+        "Wires",
+        "Control board",
+        "Transformer",
+        "Door switch",
+        "Blower access door",
+        "Fuse",
+        "Thermostat",
+        "Circulating fan motor"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "no power",
+        "no fan",
+        "start failure",
+        "wiring",
+        "fuse",
+        "transformer",
+        "control board",
+        "thermostat",
+        "motor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.1 No Displayed Codes and No Fan (System Does Not Start Normally)",
+          "table_title": "Troubleshooting Chart",
+          "source_quote": "No Displayed Codes and No Fan (System Does Not Start Normally)"
+        },
+        {
+          "page_number": 8,
+          "section_title": "No Displayed Codes and No Fan (System Does Not Start Normally) Figures & Tables",
+          "table_title": null,
+          "source_quote": "1. Check for 115Vac power supply between L1 and common terminal"
+        },
+        {
+          "page_number": 9,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "1. Check for 18-31Vac power between \"W/W1\" & \"C\" terminals with multi-meter"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Bosch\\bosch_96-afue-gas-furnace_de7c5bfb52.json",
+    "confidence": 0.95,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.95,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "The troubleshooting chart for 'No Displayed Codes and No Fan' on page 7 is complex and has been interpreted into a list of possible causes and steps. Review is recommended for completeness and accuracy of this interpretation.",
+        "Air delivery CFM tables on pages 18-19 were not extracted due to their extensive nature and low priority for fault diagnosis/servicing in a concise format."
+      ]
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Buderus\\buderus_logano-g115_d264afeec8.json",
+    "confidence": 0.4,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.4,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "No explicit fault, diagnostic, or status code tables were found in the manual. Homeowner troubleshooting steps were extracted as general information.",
+        "No fault codes, diagnostic codes, or status codes were extracted. Manual should be reviewed or reprocessed.",
+        "No fault_codes were extracted."
+      ]
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Buderus\\buderus_logano_1b3543a96c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "code": "Control and heating system faults",
+      "description": "Faults indicated on the control unit display.",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [
+        "More detailed information can be found in the controls' documentation."
+      ],
+      "symptoms": [
+        "Indicated on the control unit display"
+      ],
+      "related_components": [
+        "Control unit"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "control unit",
+        "display",
+        "fault"
+      ],
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Identifying operating modes and resetting faults",
+          "table_title": null,
+          "source_quote": "Controls and heating system faults are indicated on the control unit display if it has one. More detailed information can be found in the controls' documentation."
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "maintenance_tasks",
+    "output_file": "Buderus\\buderus_logano_496ea1c994.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "task_name": "Cleaning the burner",
+      "description": "Remove burner. Check burner rods for dirt. If necessary, clean burner. Unscrew pilot burner unit from burner. Disconnect pilot gas line from ignition burner unit. Remove pilot gas orifice and blow out. Immerse burner rods in water with cleaning agent and brush off. Rinse out burner rods with a water jet; hold burner so water enters all slots if the burner rods and drains out again. Remove remaining water by swinging the burner. Check that the slots of the burner rods are free. Remove water and dirt residue in the slots. If any slots are damaged the burner must be replaced. Assemble and install the burner in reverse order of removal and disassembly. Tighten the fixing nuts well. Make sure that the front edge of the burner box cover is properly engaged in the sealing grommets. Place boiler in operation. Check operation of AquaSmart. Test low water cut-off if installed. Check area around boiler for hazards.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "Cleaning the burner",
+          "table_title": null,
+          "source_quote": "1. Remove burner (→ page 46). 2. Check burner rods for dirt. If necessary, clean burner as described below. 3. Unscrew pilot burner unit from burner. 4. Disconnect pilot gas line from ignition burner unit. 5. Remove pilot gas orifice and blow out. 6. Immerse burner rods in water with cleaning agent and brush off. 7. Rinse out burner rods with a water jet; hold burner so water enters all slots if the burner rods and drains out again. 8. Remove remaining water by swinging the burner. 9. Check that the slots of the burner rods are free. Remove water and dirt residue in the slots. If any slots are damaged the burner must be replaced. 10. Assemble and install the burner in reverse order of removal and disassembly (→ page 46). Tighten the fixing nuts well. Make sure that the front edge of the burner box cover is properly engaged in the sealing grommets. 11. Place boiler in operation as directed in (→ Chapter 9.1, page 33). 12. Check operation of AquaSmart. 13. Test low water cut-off if installed. 14. Check area around boiler for hazards. The area around the boiler must be free from flammable substances, gasoline or any other flammable or corrosive vapors and liquids."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Buderus\\buderus_logano_496ea1c994.json",
+    "confidence": 0.4,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.4,
+      "review_required": true,
+      "missing_or_unclear_sections": [
+        "Fault codes are presented as flowcharts rather than explicit codes with descriptions, causes, and steps. The troubleshooting section (pages 51-54) was not extracted into fault_codes as it does not fit the structured fault code schema well. It describes troubleshooting logic based on conditions (e.g., 'Fan starts? No') and checks (e.g., 'Check 120 V input voltage'). Extracting this into the fault_codes array would require significant interpretation and generation of 'codes' and 'descriptions' that are not explicitly stated as such by the manufacturer, violating rule 1."
+      ],
+      "extraction_notes": [
+        "The troubleshooting section (pages 51-54) is presented as flowcharts, which do not map directly to the fault_codes schema's 'code', 'description', 'possible_causes', and 'manufacturer_steps' fields without significant interpretation. Therefore, no fault codes were extracted from this section to adhere strictly to the 'MANUFACTURER FACTS ONLY' rule and avoid hallucination. This section would require a different schema or manual summarization to be useful.",
+        "Some technical specifications for 'Adjustment dimension X of combustion air baffle' were extracted from complex tables with multiple conditions (length ranges, room air vs. outside air, rigid vs. flexible pipe). While the values are extracted, the full context of these tables might be better represented in a more flexible schema or require careful review.",
+        "No fault codes, diagnostic codes, or status codes were extracted. Manual should be reviewed or reprocessed.",
+        "No fault_codes were extracted."
+      ]
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (0-4000 ft sea level) for 2 x 80 kW, Ø160 (6\")",
+      "value": "4 m (13 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 80 kW Ø160 (6\") 4 m (13 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (0-4000 ft sea level) for 3 x 80 kW, Ø200 (8\")",
+      "value": "2 m (6.5 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 80 kW Ø200 (8\") 2 m (6.5 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (0-4000 ft sea level) for 4 x 80 kW, Ø250 (10\")",
+      "value": "3 m (10 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 80 kW Ø250 (10\") 3 m (10 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (0-4000 ft sea level) for 2 x 100 kW, Ø200 (8\")",
+      "value": "2 m (6.5 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 100 kW Ø200 (8\") 2 m (6.5 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (0-4000 ft sea level) for 3 x 100 kW, Ø250 (10\")",
+      "value": "3 m (10 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 100 kW Ø250 (10\") 3 m (10 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (0-4000 ft sea level) for 4 x 100 kW, Ø315 (12\")",
+      "value": "3 m (10 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 100 kW Ø315 (12\") 3 m (10 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (0-4000 ft sea level) for 2 x 80 kW, Ø160 (6\")",
+      "value": "44 m (144 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 80 kW Ø160 (6\") 44 m (144 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (0-4000 ft sea level) for 3 x 80 kW, Ø200 (8\")",
+      "value": "46 m (151 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 80 kW Ø200 (8\") 46 m (151 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (0-4000 ft sea level) for 4 x 80 kW, Ø250 (10\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 80 kW Ø250 (10\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (0-4000 ft sea level) for 2 x 100 kW, Ø160 (6\")",
+      "value": "29 m (95 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 100 kW Ø160 (6\") 29 m (95 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (0-4000 ft sea level) for 3 x 100 kW, Ø200 (8\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 100 kW Ø200 (8\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (0-4000 ft sea level) for 4 x 100 kW, Ø250 (10\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 100 kW Ø250 (10\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (8001-10200 ft above sea level) for 2 x 80 kW, Ø200 (8\")",
+      "value": "4 m (13 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 80 kW Ø200 (8\") 4 m (13 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (8001-10200 ft above sea level) for 3 x 80 kW, Ø250 (10\")",
+      "value": "5 m (16 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 80 kW Ø250 (10\") 5 m (16 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (8001-10200 ft above sea level) for 4 x 80 kW, Ø250 (10\")",
+      "value": "5 m (16 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 80 kW Ø250 (10\") 5 m (16 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (8001-10200 ft above sea level) for 2 x 100 kW, Ø250 (10\")",
+      "value": "5 m (16 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 100 kW Ø250 (10\") 5 m (16 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (8001-10200 ft above sea level) for 3 x 100 kW, Ø315 (12\")",
+      "value": "6 m (19 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 100 kW Ø315 (12\") 6 m (19 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (8001-10200 ft above sea level) for 4 x 100 kW, Ø315 (12\")",
+      "value": "6 m (19 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 100 kW Ø315 (12\") 6 m (19 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (8001-10200 ft above sea level) for 2 x 80 kW, Ø250 (10\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 80 kW Ø250 (10\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (8001-10200 ft above sea level) for 3 x 80 kW, Ø250 (10\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 80 kW Ø250 (10\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (8001-10200 ft above sea level) for 4 x 80 kW, Ø250 (10\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 80 kW Ø250 (10\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (8001-10200 ft above sea level) for 2 x 100 kW, Ø250 (10\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 100 kW Ø250 (10\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (8001-10200 ft above sea level) for 3 x 100 kW, Ø315 (12\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 100 kW Ø315 (12\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (8001-10200 ft above sea level) for 4 x 100 kW, Ø315 (12\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 100 kW Ø315 (12\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (4001-8000 ft above sea level) for 2 x 80 kW, Ø160 (6\")",
+      "value": "8 m (26 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 80 kW Ø160 (6\") 8 m (26 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (4001-8000 ft above sea level) for 3 x 80 kW, Ø200 (8\")",
+      "value": "2 m (6.5 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 80 kW Ø200 (8\") 2 m (6.5 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (4001-8000 ft above sea level) for 4 x 80 kW, Ø250 (10\")",
+      "value": "3 m (10 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 80 kW Ø250 (10\") 3 m (10 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (4001-8000 ft above sea level) for 2 x 100 kW, Ø200 (8\")",
+      "value": "2 m (6.5 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 100 kW Ø200 (8\") 2 m (6.5 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (4001-8000 ft above sea level) for 3 x 100 kW, Ø250 (10\")",
+      "value": "3 m (10 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 100 kW Ø250 (10\") 3 m (10 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Minimum flue length L1 (4001-8000 ft above sea level) for 4 x 100 kW, Ø315 (12\")",
+      "value": "3 m (10 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 100 kW Ø315 (12\") 3 m (10 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (4001-8000 ft above sea level) for 2 x 80 kW, Ø160 (6\")",
+      "value": "24 m (79 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 80 kW Ø160 (6\") 24 m (79 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (4001-8000 ft above sea level) for 3 x 80 kW, Ø200 (8\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 80 kW Ø200 (8\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (4001-8000 ft above sea level) for 4 x 80 kW, Ø250 (10\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 80 kW Ø250 (10\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (4001-8000 ft above sea level) for 2 x 100 kW, Ø160 (6\")",
+      "value": "29 m (95 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 100 kW Ø160 (6\") 29 m (95 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (4001-8000 ft above sea level) for 3 x 100 kW, Ø200 (8\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 100 kW Ø200 (8\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Maximum flue length Lmax (4001-8000 ft above sea level) for 4 x 100 kW, Ø250 (10\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 100 kW Ø250 (10\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Buderus\\buderus_logamax-plus_24fefca92c.json",
+    "confidence": 0.4,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.4,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Flue length tables are complex and have been extracted with a confidence of 0.8 and review_required set to true for each entry to ensure accuracy across all conditions (altitude, number of boilers, kW, diameter).",
+        "No fault codes, diagnostic codes, or status codes were extracted. Manual should be reviewed or reprocessed.",
+        "No fault_codes were extracted."
+      ]
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Buderus\\buderus_logamax-plus_4a13ba8a6c.json",
+    "confidence": 0.4,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.4,
+      "review_required": true,
+      "missing_or_unclear_sections": [
+        "Fault Codes",
+        "Diagnostic Codes",
+        "Status Codes",
+        "Maintenance Tasks"
+      ],
+      "extraction_notes": [
+        "The manual is primarily for the cascade frame installation, not the boiler itself. It refers to other manuals for boiler-specific details like maintenance and commissioning, which explains the absence of fault/diagnostic/status codes and detailed maintenance tasks.",
+        "No fault codes, diagnostic codes, or status codes were extracted. Manual should be reviewed or reprocessed.",
+        "No fault_codes were extracted."
+      ]
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Vaillant\\vaillant_aquaplus_4d918d18ca.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Hot-water convenience complying with EN 13203",
+      "value": "***",
+      "unit": null,
+      "applies_to_models": [
+        "VUI 362-7"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "3.1 Technical data",
+          "table_title": null,
+          "source_quote": "Hot-water convenience complying with EN 13203 ***"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Vaillant\\vaillant_aquaplus_4d918d18ca.json",
+    "confidence": 0.8,
+    "review_required": true,
+    "record": {
+      "parameter": "Hot-water quantity complying with EN 13203",
+      "value": "ܪܪܪܪ",
+      "unit": null,
+      "applies_to_models": [
+        "VUI 362-7"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "3.1 Technical data",
+          "table_title": null,
+          "source_quote": "Hot-water quantity complying with EN 13203 ܪܪܪܪ"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Vaillant\\vaillant_aquaplus_4d918d18ca.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Burner pressure (Natural Gas 2H, G20)",
+      "value": "1.2, 1.2, 1.5, 2.5, 3.1, 3.8, 5.3, 7.1, 8.1, 9.7, 12.0",
+      "unit": "mbar",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "7.7 Burner pressure and gas rate",
+          "table_title": "Burner Pressure (aquaPLUS)",
+          "source_quote": "Burner pressure\" [mbar] for G20 1.2 1.2 1.5 2.5 3.1 3.8 5.3 7.1 8.1 9.7 12.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Vaillant\\vaillant_aquaplus_4d918d18ca.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Burner pressure (LPG 3+, G30)",
+      "value": "2.8, 2.8, 3.5, 5.9, 7.3, 8.9, 12.6, 16.8, 19.1, 22.9, 28.2",
+      "unit": "mbar",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "7.7 Burner pressure and gas rate",
+          "table_title": "Burner Pressure (aquaPLUS)",
+          "source_quote": "Burner pressure\" [mbar] for G30 2.8 2.8 3.5 5.9 7.3 8.9 12.6 16.8 19.1 22.9 28.2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Vaillant\\vaillant_aquaplus_4d918d18ca.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Burner pressure (LPG 3+, G31)",
+      "value": "3.5, 3.5, 4.4, 7.3, 9.1, 11.1, 15.6, 20.8, 23.7, 28.3, 34.9",
+      "unit": "mbar",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "7.7 Burner pressure and gas rate",
+          "table_title": "Burner Pressure (aquaPLUS)",
+          "source_quote": "Burner pressure\" [mbar] for G31 3.5 3.5 4.4 7.3 9.1 11.1 15.6 20.8 23.7 28.3 34.9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Vaillant\\vaillant_aquaplus_4d918d18ca.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Gas rate (Natural Gas 2H, G20)",
+      "value": "1.3, 1.4, 1.9, 2.2, 2.4, 2.8, 3.3, 3.5, 3.9, 4.3",
+      "unit": "m³/h",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "7.7 Burner pressure and gas rate",
+          "table_title": "Gas Rate (aquaPLUS)",
+          "source_quote": "Gas rate [m³/h] for G20 1.3 1.4 1.9 2.2 2.4 2.8 3.3 3.5 3.9 4.3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "diagnostic_codes",
+    "output_file": "Vaillant\\vaillant_ecofit-pure_70ab72ed6f.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "code": "d.04",
+      "description": "Water temperature in the cylinder",
+      "value_range": null,
+      "default_value": null,
+      "unit": "\bC",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.04 Water temperature in the cylinder Current value \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b"
+        }
+      ],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Vaillant\\vaillant_ecofit-pure_70ab72ed6f.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Vaillant\\vaillant_ecomax_7cd6ae8fa3.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "F21",
+      "description": "Flame failure fault",
+      "possible_causes": [
+        "Gas supply disturbed or air in the supply network (if d.66 = 2)",
+        "CPU circuit board is defective (if d.66 = 1 or d32 = 0)",
+        "Ignition electrode, ignition lead connections to transformer and electrode (if d32 = 1)"
+      ],
+      "manufacturer_steps": [
+        "Enter diagnostic mode (see Section 8.1), select 'd.66' and press the right button.",
+        "if d.66 = 0, power supply to boiler has been interrupted since fault occurred - proceed as for d.66 = 2",
+        "if d.66 = 1, fault occurred before ignition, CPU circuit board is defective. Replace (see Section 7.22.4)",
+        "if d.66 = 2, fault occurred during ignition. Check that the gas supply is turned on and that it has been correctly purged (see Section 5.2). Press the 'Reset' button. Boiler will attempt to re-light.",
+        "Check if a spark is visible at the ignition electrodes?",
+        "if no: Turn the central heating control to the 'hot water only' position and push the red 'reset' button. Enter diagnostic mode, select d32 and push the right button. Turn the central heating control back to the 'heating and hot water' position to operate the appliance for heating. The boiler will attempt to relight. Check the ignition transformer operation using diagnostic code d.32 during the ignition cycle (approx 10 seconds).",
+        "if d32 = 1, (during ignition cycle), check ignition electrode, the ignition lead connections to transformer and electrode, if all o.k. replace ignition transformer (see section 7.13).",
+        "if d32 = 0, (during ignition cycle), CPU circuit board is defective, replace (see section 7.22.4)."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "CPU circuit board",
+        "ignition electrode",
+        "ignition transformer",
+        "gas supply"
+      ],
+      "severity": "high",
+      "safety_level": "warning",
+      "search_tags": [
+        "flame",
+        "ignition",
+        "gas",
+        "CPU",
+        "electrode",
+        "transformer"
+      ],
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "F21 Flame failure fault Enter diagnostic mode (see Section 8.1), select 'd.66' and press the right button. if d.66 = 0, power supply to boiler has been interrupted since fault occured - proceed as for d.66 = 2 if d.66 = 1, fault occurred before ignition, CPU circuit board is defective. Replace (see Section 7.22.4) if d.66 = 2, fault occurred during ignition. Possible causes: gas supply disturbed or air in the supply network. Check that the gas supply is turned on and that it has been correctly purged (see Section 5.2). Press the 'Reset' button. Boiler will attempt to re-light. Is a spark visible at the ignition electrodes? if no:- Turn the central heating control to the 'hot water only' position and push the red 'reset' button. Enter diagnostic mode, select d32 and push the right button. Turn the central heating control back to the 'heating and hot water' position to operate the appliance for heating. The boiler will attempt to relight. Check the ignition transformer operation using diagnostic code d.32 during the ignition cycle (approx 10 seconds). if d32 = 1, (during ignition cycle), check ignition electrode, the ignition lead connections to transformer and electrode, if all o.k. replace ignition transformer (see section 7.13). if d32 = 0, (during ignition cycle), CPU circuit board is defective, replace (see section 7.22.4)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Vaillant\\vaillant_ecomax_7cd6ae8fa3.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "F22",
+      "description": "Lack of water in system or blocked water circulation",
+      "possible_causes": [
+        "System water pressure too low",
+        "Circulating pump not operating",
+        "NTC 'TO' and 'T1' not giving comparable signals"
+      ],
+      "manufacturer_steps": [
+        "Refill and repressurise the boiler to 1.2 bar (see Section 5.4).",
+        "Enter diagnostic mode, select d.10 and press the right button. Operate the boiler.",
+        "if d10 = 1, check the electrical connections to pump and that the pump is not seized. Repair/replace the pump as necessary (see Section 7.14).",
+        "if d10 = 0, replace the CPU circuit board (see Section 7.22.4).",
+        "Check NTC 'TO' and 'T1' connecting leads for continuity and repair as necessary. If fault still exists replace NTC 'TO' and 'T1'."
+      ],
+      "cautions_or_notes": [
+        "For location of NTC sensors refer to Section 2.4 Function diagram."
+      ],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "NTC 'TO' sensor",
+        "NTC 'T1' sensor",
+        "CPU circuit board"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water pressure",
+        "circulation",
+        "pump",
+        "NTC",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 61,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "F22 Lack of water in system or blocked water circulation 1. System water pressure too low. Refill and repressurise the boiler to 1.2 bar (see Section 5.4) 2. Circulating pump not operating. Enter diagnostic mode (see Section 8.1), select d.10 and press the right button. Operate the boiler. if d10 = 1 check the electrical connections to pump and that the pump is not seized. Repair/replace the pump as necessary (see Section 7.14). if d10 = 0 replace the CPU circuit board (see Section 7.22.4) NTC 'TO'* and 'T1'* not giving comparable signals - Check NTC 'TO' and 'T1' connecting leads for continuity and repair as necessary. If fault still exists replace NTC 'TO' and 'T1'. * For location of NTC sensors refer to Section 2.4 Function diagram."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Vaillant\\vaillant_ecomax_7cd6ae8fa3.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "F30 or F32 or F33",
+      "description": "Lack of air flow through appliance",
+      "possible_causes": [
+        "Air/flue duct obstructed",
+        "Condensate drain obstructed",
+        "Faulty fan"
+      ],
+      "manufacturer_steps": [
+        "Check terminal is clear of obstruction, and the flue is correctly assembled with flue seals and air duct clamps.",
+        "Check condensate drain pipe not obstructed.",
+        "Enter diagnostic mode, select d.34 and press the right button. Operate the boiler. Note the reading obtained. Now select d.33 and press the right button. Compare the reading achieved on d.33 (the required fan speed) with the reading obtained on d.34 (the actual fan speed). If the actual fan speed reading is more than 20 below the required fan speed, check the connections to the fan motor. If electrical connections are satisfactory replace the fan (see Section 7.2)."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "air/flue duct",
+        "condensate drain",
+        "fan"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "airflow",
+        "flue",
+        "condensate",
+        "fan",
+        "obstruction"
+      ],
+      "source_refs": [
+        {
+          "page_number": 61,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "F30 or F32 or F33 Lack of air flow through appliance 1. Air/flue duct obstructed - check terminal is clear of obstruction, and the flue is correctly assembled with flue seals and air duct clamps. 2. Condensate drain obstructed - check condensate drain pipe not obstructed. 3. Faulty fan - check fan performance using diagnostic codes 'd.33' and 'd.34'. Enter diagnostic mode, select 'd.34' and press the right button. Operate the boiler. Note the reading obtained. Now select d.33 and press the right button. Compare the reading achieved on d.33 (the required fan speed) with the reading obtained on d.34 (the actual fan speed). If the actual fan speed reading is more than 20 below the required fan speed, check the connections to the fan motor. If electrical connections are satisfactory replace the fan (see Section 7.2)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Vaillant\\vaillant_ecomax_7cd6ae8fa3.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "F31 or F34",
+      "description": "Air pressure sensor fault",
+      "possible_causes": [
+        "Air/flue duct and condensate discharge are free of obstruction",
+        "Air pressure sensor connections not correctly located on gas valve",
+        "Faulty component"
+      ],
+      "manufacturer_steps": [
+        "Initially check both air/flue duct and condensate discharge are free of obstruction.",
+        "Remedy as necessary.",
+        "Re-locate sensor as necessary, check conection lead.",
+        "Replace air pressure sensor (see Section 7.3)."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "air pressure sensor",
+        "air/flue duct",
+        "condensate discharge",
+        "gas valve"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "air pressure",
+        "sensor",
+        "flue",
+        "condensate",
+        "gas valve"
+      ],
+      "source_refs": [
+        {
+          "page_number": 62,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "F31 or F34 Air pressure sensor fault 1. Initially check both air/flue duct and condensate discharge are free of obstruction 2. Remedy as necessary. 2. Air pressure sensor connections not correctly located on gas valve. - Re-locate sensor as necessary, check conection lead. 3. Faulty component - Replace air pressure sensor (see Section 7.3)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "diagnostic_codes",
+    "output_file": "Vaillant\\vaillant_ecomax_7cd6ae8fa3.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "d.66",
+      "description": "Power supply interruption or fault during ignition",
+      "value_range": "0, 1, 2",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "Enter diagnostic mode (see Section 8.1), select 'd.66' and press the right button. if d.66 = 0, power supply to boiler has been interrupted since fault occured - proceed as for d.66 = 2 if d.66 = 1, fault occurred before ignition, CPU circuit board is defective. Replace (see Section 7.22.4) if d.66 = 2, fault occurred during ignition."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "diagnostic_codes",
+    "output_file": "Vaillant\\vaillant_ecomax_7cd6ae8fa3.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "d.32",
+      "description": "Ignition transformer operation during ignition cycle",
+      "value_range": "0, 1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "Enter diagnostic mode, select d32 and push the right button. ... if d32 = 1, (during ignition cycle), check ignition electrode, the ignition lead connections to transformer and electrode, if all o.k. replace ignition transformer (see section 7.13). if d32 = 0, (during ignition cycle), CPU circuit board is defective, replace (see section 7.22.4)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "diagnostic_codes",
+    "output_file": "Vaillant\\vaillant_ecomax_7cd6ae8fa3.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "d.10",
+      "description": "Pump operation status",
+      "value_range": "0, 1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 61,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "Enter diagnostic mode, select d.10 and press the right button. Operate the boiler. if d10 = 1 check the electrical connections to pump and that the pump is not seized. Repair/replace the pump as necessary (see Section 7.14). if d10 = 0 replace the CPU circuit board (see Section 7.22.4)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "diagnostic_codes",
+    "output_file": "Vaillant\\vaillant_ecomax_7cd6ae8fa3.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "d.34",
+      "description": "Actual fan speed",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 61,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "check fan performance using diagnostic codes 'd.33' and 'd.34'. Enter diagnostic mode, select 'd.34' and press the right button. Operate the boiler. Note the reading obtained. Now select d.33 and press the right button. Compare the reading achieved on d.33 (the required fan speed) with the reading obtained on d.34 (the actual fan speed)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "diagnostic_codes",
+    "output_file": "Vaillant\\vaillant_ecomax_7cd6ae8fa3.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "d.33",
+      "description": "Required fan speed",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 61,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "check fan performance using diagnostic codes 'd.33' and 'd.34'. Enter diagnostic mode, select 'd.34' and press the right button. Operate the boiler. Note the reading obtained. Now select d.33 and press the right button. Compare the reading achieved on d.33 (the required fan speed) with the reading obtained on d.34 (the actual fan speed)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "diagnostic_codes",
+    "output_file": "Vaillant\\vaillant_ecomax_7cd6ae8fa3.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "d.35",
+      "description": "Diverter valve solenoid status",
+      "value_range": "0, 1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": "8.4.4 Fault Diagnosis using the boiler Status Mode: Hot Water Operation",
+          "table_title": "Status Code Displayed",
+          "source_quote": "enter diagnostic mode, select 'd.35' and press the right button. if d35 = 1 check connections to diverter valve solenoid. If ok. replace diverter valve (see Section 7.17). if d35 = 0 replace CPU circuit board (see Section 7.22.4)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Vaillant\\vaillant_ecotec-exclusive_3fbbf7c2f0.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Type designation",
+      "value": "VU(W) ...6/5-7",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Information on the identification plate",
+          "table_title": "Information on the identification plate",
+          "source_quote": "VU(W) ...6/5-7 Type designation"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "status_codes",
+    "output_file": "Vaillant\\vaillant_ecotec-exclusive_3fbbf7c2f0.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "code": "S.93",
+      "meaning": "Flue gas analysis not possible because not all measuring programmes have yet run",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": null
+        }
+      ],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Vaillant\\vaillant_ecotec-exclusive_3fbbf7c2f0.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "diagnostic_codes",
+    "output_file": "Vaillant\\vaillant_ecotec-exclusive_96b5dcd0c0.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "code": "D.092",
+      "description": "actoSTOR communication status",
+      "value_range": "Current value",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "D.092 actoSTOR communication status Current value - actoSTOR module detection 0: Not connected 1: Connection error 2: Connection active Not ad-justable"
+        }
+      ],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Vaillant\\vaillant_ecotec-exclusive_96b5dcd0c0.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "diagnostic_codes",
+    "output_file": "Vaillant\\vaillant_ecotec-plus_0e55af6c78.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "code": "d.65",
+      "description": "Maximum burner ignition time",
+      "value_range": "Current value",
+      "default_value": null,
+      "unit": "s",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Overview of diagnostics",
+          "table_title": null,
+          "source_quote": null
+        }
+      ],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Vaillant\\vaillant_ecotec-plus_0e55af6c78.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Vaillant\\vaillant_ecotec-plus_f57d082aec.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline.",
+        "A technical_specs item was dropped because it was missing parameter or value.",
+        "No fault codes, diagnostic codes, or status codes were extracted. Manual should be reviewed or reprocessed.",
+        "No fault_codes were extracted."
+      ]
+    }
+  },
+  {
+    "section": "diagnostic_codes",
+    "output_file": "Vaillant\\vaillant_ecotec-plus_75778207b2.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "code": "D.090",
+      "description": "Status of digital controller",
+      "value_range": "recognised, not recognised",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.090 Status of digital controller recognised, not recognised Not adjustable"
+        }
+      ],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Vaillant\\vaillant_ecotec-plus_75778207b2.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Vaillant\\vaillant_ecotec-plus_0df1de09e6.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "code": "F.70",
+      "description": "Invalid device specific",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [],
+      "source_refs": [],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Vaillant\\vaillant_ecotec-plus_0df1de09e6.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "diagnostic_codes",
+    "output_file": "Vaillant\\vaillant_ecotec_a1e42c14cd.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "code": "d.22",
+      "description": "Hot water demand",
+      "value_range": "1 = on, O = off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Vaillant\\vaillant_ecotec_a1e42c14cd.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "safety_warnings",
+    "output_file": "Vaillant\\vaillant_ecotec-plus_ff48869b24.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "warning_type": "danger",
+      "topic": "Injury, property damage, neglected maintenance",
+      "text": "Risk of injury and risk of damage to property due to neglected inspection and maintenance! Neglected inspection and maintenance works or not observing the stated inspection and maintenance intervals can interfere with the operational safety of the boiler and can result in damage to property and to persons. ► Point out to the operator that he must observe the demanded inspection and maintenance intervals as a minimum. ➤ Carry out proper regular inspections once a year. ► Carry out regular maintenance as dictated by findings during the inspection process. The frequency of maintenance must not be longer than every 5 years.",
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "Inspection and maintenance intervals",
+          "table_title": null,
+          "source_quote": "Danger! Risk of injury and risk of damage to prop- erty due to neglected inspection and main- tenance! Neglected inspection and maintenance works or not observing the stated inspection and maintenance intervals can interfere with the operational safety of the boiler and can result in damage to property and to persons. ► Point out"
+        }
+      ],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Vaillant\\vaillant_ecotec-plus_ff48869b24.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_100-he_0b53f87e2e.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "Mains LED Off",
+      "description": "The Mains LED is off, indicating no power or a fault in the electrical supply or control system.",
+      "possible_causes": [
+        "Boiler supply fuse is not OK.",
+        "No 230 V at mains input terminal block (A).",
+        "Wiring from mains input terminal block to control PCB is faulty.",
+        "No 230 V at control PCB transformer mains connection (C).",
+        "Control PCB fuse F2 is not OK.",
+        "Short circuits on control PCB and fan.",
+        "Wiring from control PCB to interface PCB is not OK (E).",
+        "Boiler does not produce heat."
+      ],
+      "manufacturer_steps": [
+        "Replace with 3A fuse.",
+        "Rectify wiring from mains input terminal block to control PCB.",
+        "Replace control PCB.",
+        "Check for short circuits on control PCB and fan. If OK replace fuse.",
+        "Rectify wiring from control PCB to interface PCB.",
+        "Replace interface PCB."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Mains LED is off."
+      ],
+      "related_components": [
+        "Boiler supply fuse",
+        "Mains input terminal block",
+        "Control PCB",
+        "Transformer",
+        "Interface PCB",
+        "Fan"
+      ],
+      "severity": "high",
+      "safety_level": "warning",
+      "search_tags": [
+        "power",
+        "electrical",
+        "fuse",
+        "PCB",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "14.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Go to MAINS LED OFF section of the fault finding instructions."
+        },
+        {
+          "page_number": 37,
+          "section_title": "Mains LED Off",
+          "table_title": null,
+          "source_quote": "Is boiler supply fuse OK? Replace with 3A fuse. Is there 230 V at mains input terminal block (A)? No mains supply to boiler. Is there 230 V at mains input connection to control PCB (B)? Wiring from mains input terminal block to control PCB faulty. Replace control PCB. Is there 230 V at control PCB transformer mains connection (C)? Replace control PCB. Is control PCB fuse F2 OK? Check for short circuits on control PCB and fan. If OK replace fuse. Is wiring from control PCB to interface PCB OK (E)? Rectify wiring. Does boiler produce heat? Replace control PCB. Replace interface PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_100-he_0b53f87e2e.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "Mains LED Flashing",
+      "description": "The Mains LED is flashing, indicating a fault related to the control knob, wiring, or heat production.",
+      "possible_causes": [
+        "Control knob is not on.",
+        "Wiring from control PCB to interface PCB is not OK (F).",
+        "Boiler does not produce heat."
+      ],
+      "manufacturer_steps": [
+        "Switch on control knob.",
+        "Rectify wiring from control PCB to interface PCB.",
+        "Replace control PCB.",
+        "Replace interface PCB."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Mains LED is flashing."
+      ],
+      "related_components": [
+        "Control knob",
+        "Control PCB",
+        "Interface PCB"
+      ],
+      "severity": "medium",
+      "safety_level": "unknown",
+      "search_tags": [
+        "LED",
+        "control",
+        "wiring",
+        "heat"
+      ],
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "14.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Go to MAINS LED FLASHING section of the fault finding instructions."
+        },
+        {
+          "page_number": 38,
+          "section_title": "Mains LED Flashing",
+          "table_title": null,
+          "source_quote": "Is control knob on? Switch on. Is wiring from control PCB to interface PCB OK (F)? Rectify wiring. Does boiler produce heat? Replace control PCB. Replace interface PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_100-he_0b53f87e2e.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "Dry-fire Lockout",
+      "description": "Dry-fire lockout, indicated by the Lockout LED flashing 5 times a second, suggesting a lack of water or an issue with the flow switch.",
+      "possible_causes": [
+        "No water in the system or pump is not on.",
+        "Flow switch short circuit (G).",
+        "Flow switch is blocked."
+      ],
+      "manufacturer_steps": [
+        "Fill system and switch pump on.",
+        "Replace control PCB.",
+        "Replace flow switch."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Lockout LED flashing 5 times a second."
+      ],
+      "related_components": [
+        "Pump",
+        "Flow switch",
+        "Control PCB"
+      ],
+      "severity": "high",
+      "safety_level": "warning",
+      "search_tags": [
+        "lockout",
+        "dry-fire",
+        "water",
+        "pump",
+        "flow switch"
+      ],
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "14.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lockout LED flashing 5 times a second? YES Go to DRY-FIRE LOCKOUT section of the fault finding instructions."
+        },
+        {
+          "page_number": 39,
+          "section_title": "Dry-fire Lockout",
+          "table_title": null,
+          "source_quote": "Is there water in system and pump on? Fill system and switch pump on. Is flow switch short circuit (G)? Replace control PCB. Is flow switch blocked? Replace flow switch. Replace control PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_100-he_0b53f87e2e.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "Safety Lockout",
+      "description": "Safety lockout, indicated by the Lockout LED flashing once a second, related to temperature sensors or combustion box seal.",
+      "possible_causes": [
+        "Safety thermostat open circuit (flow temp < 60°C).",
+        "Fan protection stat open circuit (fan ambient temp < 90°C).",
+        "Wiring from control PCB to safety or fan protection thermostats faulty (H).",
+        "Flow temperature thermistor resistance is not between 0.5kΩ and 20kΩ.",
+        "Combustion box door seal is damaged or not in place."
+      ],
+      "manufacturer_steps": [
+        "Replace safety thermostat (black).",
+        "Replace fan protection stat.",
+        "Rectify wiring from control PCB to safety or fan protection thermostats.",
+        "Replace flow temperature thermistor (red).",
+        "Replace combustion box door seal.",
+        "Replace control PCB."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Lockout LED flashing once a second."
+      ],
+      "related_components": [
+        "Safety thermostat",
+        "Fan protection thermostat",
+        "Control PCB",
+        "Flow temperature thermistor",
+        "Combustion box door seal"
+      ],
+      "severity": "critical",
+      "safety_level": "danger",
+      "search_tags": [
+        "lockout",
+        "safety",
+        "thermostat",
+        "sensor",
+        "temperature",
+        "fan",
+        "seal"
+      ],
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "14.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lockout LED flashing once a second? YES Go to SAFETY LOCKOUT section of the fault finding instructions."
+        },
+        {
+          "page_number": 40,
+          "section_title": "Safety Lockout",
+          "table_title": null,
+          "source_quote": "When flow temp < 60°C. Safety thermostat open circuit? (measured at safety thermostat) Replace safety thermostat (black). When fan ambient temp < 90°C. Fan protection stat open circuit? (measured at fan protection thermostat) Replace fan protection stat. Are control PCB safety thermostat connections open circuit? (H) Wiring from control PCB to safety or fan protection thermostats faulty. Is flow temperature thermistor resistance between 0.5kΩ and 20kΩ? (measured at flow temperature thermistor) Replace flow temperature thermistor (red). Is combustion box door seal damaged or not in place? Replace combustion box door seal. Replace control PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_100-he_0b53f87e2e.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "Thermistor Open Circuit",
+      "description": "Thermistor open circuit, indicated by the Lockout LED flashing once every 4 seconds.",
+      "possible_causes": [
+        "Open circuit across thermistor connections.",
+        "Open circuit across thermistor connections on control PCB."
+      ],
+      "manufacturer_steps": [
+        "Replace thermistor.",
+        "Rectify wiring from thermistor to logic PCB.",
+        "Replace control PCB."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Lockout LED flashing once every 4 seconds."
+      ],
+      "related_components": [
+        "Thermistor",
+        "Control PCB"
+      ],
+      "severity": "medium",
+      "safety_level": "unknown",
+      "search_tags": [
+        "thermistor",
+        "open circuit",
+        "sensor",
+        "temperature",
+        "wiring",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "14.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lockout LED flashing once every 4 seconds? YES Go to THERMISTOR OPEN CIRCUIT section of the fault finding instructions."
+        },
+        {
+          "page_number": 40,
+          "section_title": "Thermistor Open Circuit",
+          "table_title": null,
+          "source_quote": "Open circuit across thermistor connections? Replace thermistor. Open circuit across thermistor connections on control PCB? Wiring from thermistor to logic PCB faulty. Replace control PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_100-he_0b53f87e2e.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "Ignition Lockout",
+      "description": "Ignition lockout, indicated by the Lockout LED continuously on, suggesting issues with gas supply, ignition components, or condensate drainage.",
+      "possible_causes": [
+        "Polarity of the mains input to the boiler is reversed.",
+        "Incorrect gas supply to boiler (less than 18.1 mb dynamic at gas valve inlet).",
+        "Condensate trap is blocked.",
+        "Fan does not run after lockout reset.",
+        "No spark and no gas.",
+        "No 230V at control PCB connection to ignition PCB (M).",
+        "Wiring from control PCB to ignition PCB faulty.",
+        "Gas but no spark.",
+        "Spark probe is damaged.",
+        "Wiring from ignition PCB to spark probe not OK.",
+        "Spark but no gas.",
+        "No 230V at ignition PCB connection to gas valve (O).",
+        "Sensing tube is blocked.",
+        "Detection probe is damaged.",
+        "Wiring from ignition PCB to detection probe not OK."
+      ],
+      "manufacturer_steps": [
+        "Rectify mains input polarity.",
+        "Clear blockage and dry sensors in condensate trap.",
+        "Check control PCB fan connection 24 Vac across (L).",
+        "Replace control PCB.",
+        "Rectify wiring from control PCB to fan.",
+        "Replace fan.",
+        "Replace control PCB.",
+        "Replace ignition PCB.",
+        "Replace spark probe.",
+        "Rectify wiring from ignition PCB to spark probe.",
+        "Set spark gap to 4mm.",
+        "Unblock sensing tube.",
+        "Replace gas valve.",
+        "Replace detection probe.",
+        "Rectify wiring from ignition PCB to detection probe."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Lockout LED continuously on.",
+        "No spark or no gas."
+      ],
+      "related_components": [
+        "Gas valve",
+        "Condensate trap",
+        "Fan",
+        "Control PCB",
+        "Ignition PCB",
+        "Spark probe",
+        "Sensing tube",
+        "Detection probe"
+      ],
+      "severity": "critical",
+      "safety_level": "danger",
+      "search_tags": [
+        "lockout",
+        "ignition",
+        "gas",
+        "spark",
+        "condensate",
+        "fan",
+        "probe",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "14.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lockout LED continuously on? YES Go to IGNITION LOCKOUT section of the fault finding instructions."
+        },
+        {
+          "page_number": 42,
+          "section_title": "Ignition Lockout",
+          "table_title": null,
+          "source_quote": "Is 230V S/L-N & L-E at mains input terminal block? The polarity of the mains input to the boiler is reversed. This must be rectified. Is there at least 18.1 mb dynamic at gas valve inlet? Incorrect gas supply to boiler. Is condensate trap blocked? Clear blockage and dry sensors. Reset lockout. Does fan run? Is control PCB fan connection 24 Vac across (L)? Replace control PCB. Is there no spark and no gas? (check at meter) Is there 230V at control PCB connection to ignition PCB (M)? Replace control PCB. Is there gas but no spark? Is spark probe damaged? Replace spark probe. Is wiring from ignition PCB to spark probe OK? Rectify wiring. Set spark gap to 4mm. Is there spark but no gas? Is there 230V at ignition PCB connection to gas valve (O)? Replace ignition PCB. Is sensing tube blocked? Unblock Tube. Replace gas valve. Is the detection probe damaged? Replace detection probe. Is wiring from ignition PCB to detection probe OK? Rectify wiring. Replace control PCB."
+        },
+        {
+          "page_number": 43,
+          "section_title": "Ignition Lockout",
+          "table_title": null,
+          "source_quote": "Is fan connection 24Vac across (L)? Replace fan. Wiring from control PCB to fan faulty. Is there 230V at ignition PCB connection to control PCB (N)? Replace ignition PCB. Wiring from control PCB to ignition PCB faulty. Is ignition PCB fuse OK? Check for short circuits on ignition PCB and gas valve. If OK replace fuse. Replace ignition PCB. Is spark gap between 3 and 5mm? Rectify wiring. Is wiring from ignition PCB to spark probe OK? Set spark gap to 4mm. Is sensing tube blocked? Unblock Tube. Replace gas valve. Is there 230Vdc at the end of the gas valve lead? Replace gas valve lead. Is there 230V ignition PCB burner on pin to control PCB (P)? Replace ignition PCB. Is there 230V control PCB burner on pin to ignition PCB (Q)? Replace control PCB. Burner On wiring from ignition PCB to control PCB faulty."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_100-he_0b53f87e2e.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "No Fan",
+      "description": "The fan is not running, potentially due to a thermistor issue or faulty wiring to the control PCB.",
+      "possible_causes": [
+        "Flow temperature thermistor resistance is not between 0.5kΩ and 20kΩ.",
+        "Control PCB sensor connections (I) are not between 0.5kΩ and 20kΩ."
+      ],
+      "manufacturer_steps": [
+        "Replace flow temperature thermistor (red).",
+        "Rectify wiring from control PCB to sensor.",
+        "Replace control PCB."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Fan not running."
+      ],
+      "related_components": [
+        "Fan",
+        "Flow temperature thermistor",
+        "Control PCB"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan",
+        "motor",
+        "thermistor",
+        "sensor",
+        "PCB",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "14.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Fan not running YES Go to NO FAN section of the fault finding instructions."
+        },
+        {
+          "page_number": 41,
+          "section_title": "No Fan",
+          "table_title": null,
+          "source_quote": "Is flow temperature thermistor between 0.5kΩ and 20kΩ? (measured at flow temperature thermistor) Replace flow temperature thermistor (red). Is control PCB sensor connections 0.5kΩ to 20kΩ? (I) Wiring from control PCB to sensor faulty. Replace control PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_100-he_0b53f87e2e.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "No Lockout Reset",
+      "description": "The boiler lockout cannot be reset, indicating persistent issues with temperature, fan, water, or control knob/PCB.",
+      "possible_causes": [
+        "Flow temperature is > 60° C.",
+        "Fan ambient temperature is > 90° C.",
+        "Water is not in the system or pump is not on.",
+        "Control knob switch short circuit when on and open circuit when off (K).",
+        "Control PCB control knob switch pins short circuit when on and open circuit when off (J)."
+      ],
+      "manufacturer_steps": [
+        "Allow flow temperature to drop below 60° C.",
+        "Allow casing temperature to drop below 90° C.",
+        "Fill system and switch pump on.",
+        "Replace interface PCB.",
+        "Rectify wiring from control PCB to interface PCB.",
+        "Replace control PCB."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Lockout will not reset."
+      ],
+      "related_components": [
+        "Flow overheat thermostat",
+        "Fan protection thermostat",
+        "Pump",
+        "Control knob switch",
+        "Interface PCB",
+        "Control PCB"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "lockout",
+        "reset",
+        "temperature",
+        "fan",
+        "water",
+        "pump",
+        "control knob",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "14.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lockout will not reset? YES Go to NO LOCKOUT RESET section of the fault finding instructions."
+        },
+        {
+          "page_number": 41,
+          "section_title": "No Lockout Reset",
+          "table_title": null,
+          "source_quote": "Is flow temperature > 60° C? Flow overheat thermostat will not reset until flow temperature < 60° C. Is fan ambient temperature > 90° C? Fan protection thermostat will not reset until casing temperature < 90° C. Is water in system and pump on? Dry-fire lockout cannot be reset until there is water in the system and the pump is on. Control knob switch short circuit when on and open circuit when off? (K) Replace interface PCB. Control PCB control knob switch pins short circuit when on and open circuit when off? (J) Wiring from control PCB to interface PCB faulty. Replace control PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Baxi\\baxi_100-he_0b53f87e2e.json",
+    "confidence": 0.95,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.95,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Fault codes are derived from a flowchart structure, where 'codes' are the entry points to troubleshooting sections. Possible causes are conditions leading to a 'NO' branch, and manufacturer steps are actions from both 'YES' and 'NO' branches."
+      ]
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Baxi\\baxi_condensing-combination-boiler_3566da1623.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "Flue Terminal Minimum Distance (Below gutters, soil pipes or drain pipes)",
+      "value": "25 (75)",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "7.8 Flue",
+          "table_title": "Terminal Position with Minimum Distance (Fig. 12)",
+          "source_quote": "D2 Below gutters, soil pipes or drain pipes. 25 (75)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Baxi\\baxi_combi-2-1_9e7ecc070b.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "PCDB Index no.",
+      "value": "TBC",
+      "unit": null,
+      "applies_to_models": [
+        "424-2.1"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "PCDB index",
+          "source_quote": "424-2.1 TBC"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Baxi\\baxi_combi-2-1_9e7ecc070b.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "PCDB Index no.",
+      "value": "TBC",
+      "unit": null,
+      "applies_to_models": [
+        "430-2.1"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "PCDB index",
+          "source_quote": "430-2.1 TBC"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "technical_specs",
+    "output_file": "Baxi\\baxi_combi-2-1_9e7ecc070b.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "parameter": "PCDB Index no.",
+      "value": "TBC",
+      "unit": null,
+      "applies_to_models": [
+        "436-2.1"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "PCDB index",
+          "source_quote": "436-2.1 TBC"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "diagnostic_codes",
+    "output_file": "Baxi\\baxi_combi-2-1_9e7ecc070b.json",
+    "confidence": 1.0,
+    "review_required": true,
+    "record": {
+      "code": "AM016",
+      "description": "Flow temperature",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 54,
+          "section_title": "Reading out measured values",
+          "table_title": "Read-only list of operating parameters",
+          "source_quote": "AM016 Flow temperature °C"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Baxi\\baxi_combi-2-1_9e7ecc070b.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "status_codes",
+    "output_file": "Baxi\\baxi_combi-2_b971273d1c.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "code": "AM016",
+      "meaning": "Flow temperature",
+      "operating_mode": null,
+      "source_refs": [],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Baxi\\baxi_combi-2_b971273d1c.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "safety_warnings",
+    "output_file": "Baxi\\baxi_600-system-2_ef5fe10247.json",
+    "confidence": 1.0,
+    "review_required": true,
+    "record": {
+      "warning_type": "info",
+      "topic": "Gas control valve adjustment",
+      "text": "This appliance is suitable for G20 gas containing up to 20% hydrogen (H2). Due to variations in the percentage of H2, the percentage of O2 may vary over time. (For example: 20% of H2 in the gas may lead to a 1.5% increase of O2 in the flue gases). Under these circumstances it is recommended NOT to adjust the gas control valve.",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Gas category",
+          "table_title": null,
+          "source_quote": "Important This appliance is suitable for G20 gas containing up to 20% hydrogen (H2). Due to variations in the percentage of H2, the percentage of O2 may vary over time. (For example: 20% of H2 in the gas may lead to a 1.5% increase of O2 in the flue gases). Under these circumstances it is recommended NOT to adjust the gas control valve."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Baxi\\baxi_600-system-2_ef5fe10247.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_600-combi-2_ac91b9ba0c.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "Verify Flue Integrity (No O2 \",\" CO2)",
+      "description": "Indication that products of combustion & inlet air are mixing - further investigation is required.",
+      "possible_causes": [
+        "Products of combustion & inlet air are mixing"
+      ],
+      "manufacturer_steps": [
+        "Further investigation is required.",
+        "Check all flue components are correctly assembled, fixed & supported.",
+        "Check the flue & terminal are unobstructed."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flue",
+        "Terminal"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flue",
+        "combustion",
+        "air mixing",
+        "integrity"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Combustion procedure",
+          "table_title": null,
+          "source_quote": "Verify Flue Integrity Indication that products of combustion & inlet air are mixing - further investigation is required. Check all flue components are correctly assembled, fixed & supported. Check the flue & terminal are unobstructed."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_600-combi-2_ac91b9ba0c.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "Is O2 \",\" CO2 out of range",
+      "description": "O2 and CO2 levels out of range (O2 \",\" 20.6% and CO2 < 0.2% is false).",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "TURN APPLIANCE OFF!",
+        "Call 0344 871 1545 for advice.",
+        "The appliance MUST NOT be commissioned until all problems are identified and resolved."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "O2",
+        "CO2",
+        "combustion",
+        "flue gas"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Combustion procedure",
+          "table_title": null,
+          "source_quote": "Is O2 \",\" 20.6% and CO2 < 0.2%? No TURN APPLIANCE OFF! Call 0344 871 1545 for advice. The appliance MUST NOT be commissioned until all problems are identified and resolved."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_600-combi-2_ac91b9ba0c.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "Is CO \",\" CO/CO2 ratio out of range",
+      "description": "CO and CO/CO2 ratio out of range (CO < 350ppm and CO/CO2 ratio < 0.004 is false).",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "TURN APPLIANCE OFF!",
+        "Call 0344 871 1545 for advice.",
+        "The appliance MUST NOT be commissioned until all problems are identified and resolved.",
+        "If commissioning cannot be fully completed the appliance must be disconnected from the gas supply in accordance with the GSIUR.",
+        "Note: Check & record the CO & combustion ratio at both maximum & minimum rates before calling 0344 871 1545."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "CO",
+        "CO/CO2",
+        "combustion",
+        "flue gas"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Combustion procedure",
+          "table_title": null,
+          "source_quote": "Is CO < 350ppm and CO/CO2 ratio < 0.004 ? No TURN APPLIANCE OFF! Call 0344 871 1545 for advice. The appliance MUST NOT be commissioned until all problems are identified and resolved. If commissioning cannot be fully completed the appliance must be disconnected from the gas supply in accordance with the GSIUR. Note: Check & record the CO & combustion ratio at both maximum & minimum rates before calling 0344 871 1545."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_600-combi-2_ac91b9ba0c.json",
+    "confidence": 0.9,
+    "review_required": true,
+    "record": {
+      "code": "Verify Integrity of Seals",
+      "description": "Unsound seals detected.",
+      "possible_causes": [
+        "Unsound seals"
+      ],
+      "manufacturer_steps": [
+        "Check all burner seals, internal flue seals, door & case seals.",
+        "Replace any seals that appear unsound."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Burner seals",
+        "Flue seals",
+        "Door seals",
+        "Case seals"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "seals",
+        "burner",
+        "flue",
+        "case"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Combustion procedure",
+          "table_title": null,
+          "source_quote": "Verify Integrity of Seals Check all burner seals, internal flue seals, door & case seals. Replace any seals that appear unsound."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_600-combi-2_ac91b9ba0c.json",
+    "confidence": 1.0,
+    "review_required": true,
+    "record": {
+      "code": "H.03.01",
+      "description": "Communication failure in comfort circuit (internal fault in boiler PCB).",
+      "possible_causes": [
+        "MAIN PCB ERROR"
+      ],
+      "manufacturer_steps": [
+        "Replace the main PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Main PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "comfort circuit",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 75,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.03 .01 Communication failure in comfort circuit (internal fault in boiler PCB). MAIN PCB ERROR Replace the main PCB"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Baxi\\baxi_600-combi-2_ac91b9ba0c.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_800-system-2_4968349937.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "code": "H.02 .12",
+      "description": "Opening of the control unit input signal contact from the external device",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "control unit",
+        "external device"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "control unit",
+        "input signal",
+        "external device"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .12 Opening of the control unit input signal contact from the external device -"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_800-system-2_4968349937.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "code": "H.02 .38",
+      "description": "No water hardness",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water hardness"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .38 No water hardness Not possible"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_800-system-2_4968349937.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "code": "H.03 .17",
+      "description": "Periodic safety check in progress",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "safety check"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.03 .17 Periodic safety check in progress -"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_800-system-2_4968349937.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "code": "E.00 .06",
+      "description": "Return sensor expected but not detected",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "return sensor"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "return sensor",
+        "not detected"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.00 .06 Return sensor expected but not detected -"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_800-system-2_4968349937.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "code": "E.00 .20",
+      "description": "The flue gas temperature sensor has short-circuited or measured a temperature below the range",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flue gas temperature sensor"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flue gas temperature sensor",
+        "short-circuited",
+        "low temperature"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Troubleshooting",
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.00 .20 The flue gas temperature sensor has short-circuited or measured a temperature below the range -"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_800-system-2_4968349937.json",
+    "confidence": 0.7,
+    "review_required": true,
+    "record": {
+      "code": "E.00 .21",
+      "description": "The flue gas temperature sensor has short-circuited or measured a temperature above the range",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flue gas temperature sensor"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flue gas temperature sensor",
+        "short-circuited",
+        "high temperature"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Troubleshooting",
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.00 .21 The flue gas temperature sensor has short-circuited or measured a temperature above the range -"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    }
+  },
+  {
+    "section": "fault_codes",
+    "output_file": "Baxi\\baxi_800-system-2_4968349937.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "code": "E.02 .13",
+      "description": "St",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [],
+      "source_refs": [],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Baxi\\baxi_800-system-2_4968349937.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
+  },
+  {
+    "section": "diagnostic_codes",
+    "output_file": "Baxi\\baxi_800-combi-2_beb00e344e.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "code": "AM101",
+      "description": "Internal set point",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 59,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": null
+        }
+      ],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  },
+  {
+    "section": "extraction_meta",
+    "output_file": "Baxi\\baxi_800-combi-2_beb00e344e.json",
+    "confidence": 0.0,
+    "review_required": true,
+    "record": {
+      "overall_confidence": 0.0,
+      "review_required": true,
+      "missing_or_unclear_sections": [],
+      "extraction_notes": [
+        "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+        "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+      ]
+    }
   }
 ]

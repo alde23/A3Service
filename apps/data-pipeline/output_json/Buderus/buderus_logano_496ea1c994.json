@@ -1,0 +1,3342 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Buderus",
+    "product_family": "Logano",
+    "model_names": [
+      "Logano GA124"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "Installation and maintenance instructions Sealed combustion gas boiler Logano GA124",
+    "document_code": "6 720 804 890 – 2012/10 EN-US",
+    "publication_date": "2012/10",
+    "language": "en",
+    "region": "US",
+    "source_file": "bosch_ga124_installation-and-service-manual_6720804890-ga124-installation-maintenance-instructions-en-10-2012.pdf",
+    "file_hash": "496ea1c994faecc0446a81b212e2fc97207d6cdf771bfe26984ab8ce5beb9873"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Maximum boiler temperature",
+      "value": "210",
+      "unit": "°F",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Boiler operating conditions",
+          "table_title": null,
+          "source_quote": "Maximum boiler temperature 210 °F"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum operating pressure",
+      "value": "58",
+      "unit": "psi",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Boiler operating conditions",
+          "table_title": null,
+          "source_quote": "Maximum operating pressure 58 psi"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler supply connection",
+      "value": "1\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": null,
+          "source_quote": "VK = Boiler supply - 1\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler return connection",
+      "value": "1\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": null,
+          "source_quote": "RK = Boiler return - 1\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Drain connection",
+      "value": "1/2\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": null,
+          "source_quote": "EL = Drain - 1/2\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection",
+      "value": "1/2\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": null,
+          "source_quote": "GAS = Gas connection - 1/2\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler output",
+      "value": "59",
+      "unit": "MBtu/hr",
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "17 59"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion air connection",
+      "value": "3\"",
+      "unit": "Inches",
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "17 ... 3\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas connection",
+      "value": "3\"",
+      "unit": "Inches",
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "17 ... 3\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension A",
+      "value": "7 1/5\"",
+      "unit": "Inches",
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "17 ... 7 1/5\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension B",
+      "value": "3 1/10\"",
+      "unit": "Inches",
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "17 ... 3 1/10\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. overflow valve cap.",
+      "value": "62",
+      "unit": "Ib/hr",
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "17 ... 62"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Number of orifices",
+      "value": "2",
+      "unit": "Qty",
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "17 ... 2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume",
+      "value": "2.4",
+      "unit": "US gal.",
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "17 ... 2.4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Empty weight",
+      "value": "229",
+      "unit": "Ibs",
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "17 ... 229"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler output",
+      "value": "79",
+      "unit": "MBtu/hr",
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "23 79"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion air connection",
+      "value": "3\"",
+      "unit": "Inches",
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "23 ... 3\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas connection",
+      "value": "3\"",
+      "unit": "Inches",
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "23 ... 3\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension A",
+      "value": "8\"",
+      "unit": "Inches",
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "23 ... 8\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension B",
+      "value": "6 2/3\"",
+      "unit": "Inches",
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "23 ... 6 2/3\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. overflow valve cap.",
+      "value": "86",
+      "unit": "Ib/hr",
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "23 ... 86"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Number of orifices",
+      "value": "3",
+      "unit": "Qty",
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "23 ... 3"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume",
+      "value": "2.9",
+      "unit": "US gal.",
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "23 ... 2.9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Empty weight",
+      "value": "240",
+      "unit": "Ibs",
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "23 ... 240"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler output",
+      "value": "104",
+      "unit": "MBtu/hr",
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "30 104"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion air connection",
+      "value": "3\"",
+      "unit": "Inches",
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "30 ... 3\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas connection",
+      "value": "3\"",
+      "unit": "Inches",
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "30 ... 3\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension A",
+      "value": "9 1/5\"",
+      "unit": "Inches",
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "30 ... 9 1/5\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension B",
+      "value": "10 1/5\"",
+      "unit": "Inches",
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "30 ... 10 1/5\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. overflow valve cap.",
+      "value": "110",
+      "unit": "Ib/hr",
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "30 ... 110"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Number of orifices",
+      "value": "4",
+      "unit": "Qty",
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "30 ... 4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume",
+      "value": "3.4",
+      "unit": "US gal.",
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "30 ... 3.4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Empty weight",
+      "value": "337",
+      "unit": "Ibs",
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": null,
+          "table_title": "Dimensions",
+          "source_quote": "30 ... 337"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum gas supply volume (1/2\" pipe, 10 ft)",
+      "value": "132",
+      "unit": "cubic feet per hour",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": null,
+          "table_title": "Gas pipe supply volume",
+          "source_quote": "10 132"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum gas supply volume (3/4\" pipe, 10 ft)",
+      "value": "278",
+      "unit": "cubic feet per hour",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": null,
+          "table_title": "Gas pipe supply volume",
+          "source_quote": "10 ... 278"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum gas supply volume (1\" pipe, 10 ft)",
+      "value": "520",
+      "unit": "cubic feet per hour",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": null,
+          "table_title": "Gas pipe supply volume",
+          "source_quote": "10 ... 520"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum gas supply volume (1 1/4\" pipe, 10 ft)",
+      "value": "1060",
+      "unit": "cubic feet per hour",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": null,
+          "table_title": "Gas pipe supply volume",
+          "source_quote": "10 ... 1060"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum gas supply volume (1 1/2\" pipe, 10 ft)",
+      "value": "1600",
+      "unit": "cubic feet per hour",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": null,
+          "table_title": "Gas pipe supply volume",
+          "source_quote": "10 ... 1600"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent length 90° angle (1/2\" pipe)",
+      "value": "1.4",
+      "unit": "feet",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": null,
+          "table_title": "Equivalent lengths for pipe fittings",
+          "source_quote": "1/2 1.4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent length T-piece (1/2\" pipe)",
+      "value": "2.7",
+      "unit": "feet",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": null,
+          "table_title": "Equivalent lengths for pipe fittings",
+          "source_quote": "1/2 ... 2.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent length Stop valve (1/2\" pipe)",
+      "value": "0.3",
+      "unit": "feet",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": null,
+          "table_title": "Equivalent lengths for pipe fittings",
+          "source_quote": "1/2 ... 0.3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent length Gas valve (1/2\" pipe)",
+      "value": "0.80",
+      "unit": "feet",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": null,
+          "table_title": "Equivalent lengths for pipe fittings",
+          "source_quote": "1/2 ... 0.80"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Installation altitude limit",
+      "value": "8500",
+      "unit": "feet above sea level",
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "Installation at high altitudes",
+          "table_title": null,
+          "source_quote": "The boiler is designed for installation at altitudes below 8500 feet above sea level."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance to combustibles (horizontal, enclosed)",
+      "value": "8\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": null,
+          "table_title": "Clearance to combustibles for stainless steel vent pipe",
+          "source_quote": "horizontal 8\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance to combustibles (vertical, enclosed)",
+      "value": "4\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": null,
+          "table_title": "Clearance to combustibles for stainless steel vent pipe",
+          "source_quote": "vertical 4\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance to combustibles (horizontal, unenclosed)",
+      "value": "1\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": null,
+          "table_title": "Clearance to combustibles for stainless steel vent pipe",
+          "source_quote": "horizontal 1\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance to combustibles (vertical, unenclosed)",
+      "value": "1\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": null,
+          "table_title": "Clearance to combustibles for stainless steel vent pipe",
+          "source_quote": "vertical 1\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air pipe, 0-12 feet)",
+      "value": "5.0",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 22.",
+          "source_quote": "30 5.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air pipe, 12-20 feet)",
+      "value": "4.5",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 22.",
+          "source_quote": "30 ... 4.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air pipe, 20-30 feet)",
+      "value": "3.5",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 22.",
+          "source_quote": "30 ... 3.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air pipe, 30-40 feet)",
+      "value": "0",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 22.",
+          "source_quote": "30 ... 0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air pipe, up to max. 42 feet)",
+      "value": "0",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 22.",
+          "source_quote": "30 ... 0 (up to 42 feet)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air pipe, 0-12 feet)",
+      "value": "5.0",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 22.",
+          "source_quote": "23 5.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air pipe, 12-20 feet)",
+      "value": "5.0",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 22.",
+          "source_quote": "23 ... 5.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air pipe, 20-30 feet)",
+      "value": "4.5",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 22.",
+          "source_quote": "23 ... 4.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air pipe, 30-40 feet)",
+      "value": "4.0",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 22.",
+          "source_quote": "23 ... 4.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air pipe, up to max. 50 feet)",
+      "value": "4.0",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 22.",
+          "source_quote": "23 ... 4.0 (up to 50 feet)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air pipe, 0-12 feet)",
+      "value": "5.0",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 22.",
+          "source_quote": "17 5.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air pipe, 12-20 feet)",
+      "value": "5.0",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 22.",
+          "source_quote": "17 ... 5.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air pipe, 20-30 feet)",
+      "value": "4.5",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 22.",
+          "source_quote": "17 ... 4.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air pipe, 30-40 feet)",
+      "value": "4.5",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 22.",
+          "source_quote": "17 ... 4.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air pipe, up to max. 50 feet)",
+      "value": "4.0",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 22.",
+          "source_quote": "17 ... 4.0 (up to 50 feet)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air hose, up to 20 feet maximum)",
+      "value": "0",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Flexible combustion air hose 3\" as per Fig. 22",
+          "source_quote": "30 0 (up to 20 feet maximum)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air hose, up to 20 feet maximum)",
+      "value": "4.0",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Flexible combustion air hose 3\" as per Fig. 22",
+          "source_quote": "23 4.0 (up to 20 feet maximum)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue pipe/combustion air hose, up to 30 feet maximum)",
+      "value": "4.0",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Flexible combustion air hose 3\" as per Fig. 22",
+          "source_quote": "17 4.0 (up to 30 feet maximum)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue system using room air, 0-12 feet)",
+      "value": "5.5",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Horizontal flue system using room air as per Fig. 23",
+          "source_quote": "30 5.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue system using room air, 12-20 feet)",
+      "value": "5.0",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Horizontal flue system using room air as per Fig. 23",
+          "source_quote": "30 ... 5.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue system using room air, 20-30 feet)",
+      "value": "5.0",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Horizontal flue system using room air as per Fig. 23",
+          "source_quote": "30 ... 5.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue system using room air, 30-40 feet)",
+      "value": "5.0",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Horizontal flue system using room air as per Fig. 23",
+          "source_quote": "30 ... 5.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue system using room air, up to max. 42 feet)",
+      "value": "5.0",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Horizontal flue system using room air as per Fig. 23",
+          "source_quote": "30 ... 5.0 (up to 42 feet)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue system using room air, 0-12 feet)",
+      "value": "5.5",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Horizontal flue system using room air as per Fig. 23",
+          "source_quote": "23 5.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue system using room air, 12-20 feet)",
+      "value": "5.5",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Horizontal flue system using room air as per Fig. 23",
+          "source_quote": "23 ... 5.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue system using room air, 20-30 feet)",
+      "value": "5.0",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Horizontal flue system using room air as per Fig. 23",
+          "source_quote": "23 ... 5.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue system using room air, 30-40 feet)",
+      "value": "5.0",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Horizontal flue system using room air as per Fig. 23",
+          "source_quote": "23 ... 5.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue system using room air, up to max. 50 feet)",
+      "value": "5.0",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Horizontal flue system using room air as per Fig. 23",
+          "source_quote": "23 ... 5.0 (up to 50 feet)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue system using room air, 0-12 feet)",
+      "value": "5.5",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Horizontal flue system using room air as per Fig. 23",
+          "source_quote": "17 5.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue system using room air, 12-20 feet)",
+      "value": "5.5",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Horizontal flue system using room air as per Fig. 23",
+          "source_quote": "17 ... 5.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue system using room air, 20-30 feet)",
+      "value": "5.0",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Horizontal flue system using room air as per Fig. 23",
+          "source_quote": "17 ... 5.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue system using room air, 30-40 feet)",
+      "value": "5.0",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Horizontal flue system using room air as per Fig. 23",
+          "source_quote": "17 ... 5.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (horizontal flue system using room air, up to max. 50 feet)",
+      "value": "5.0",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": "Horizontal flue system using room air as per Fig. 23",
+          "source_quote": "17 ... 5.0 (up to 50 feet)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (vertical flue pipe/combustion air pipe, up to 5 feet)",
+      "value": "4.5",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 24",
+          "source_quote": "30 4.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (vertical flue pipe/combustion air pipe, up to 30 feet)",
+      "value": "3.5",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 24",
+          "source_quote": "30 ... 3.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (vertical flue pipe/combustion air pipe, up to 45 feet)",
+      "value": "0",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 24",
+          "source_quote": "30 ... 0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (vertical flue pipe/combustion air pipe, up to max. 50 feet)",
+      "value": "0",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 24",
+          "source_quote": "30 ... -"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (vertical flue pipe/combustion air pipe, up to 5 feet)",
+      "value": "4.5",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 24",
+          "source_quote": "23 4.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (vertical flue pipe/combustion air pipe, up to 30 feet)",
+      "value": "4.0",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 24",
+          "source_quote": "23 ... 4.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (vertical flue pipe/combustion air pipe, up to 45 feet)",
+      "value": "2.5",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 24",
+          "source_quote": "23 ... 2.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (vertical flue pipe/combustion air pipe, up to max. 50 feet)",
+      "value": "2.5",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 24",
+          "source_quote": "23 ... 2.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (vertical flue pipe/combustion air pipe, up to 5 feet)",
+      "value": "4.5",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 24",
+          "source_quote": "17 4.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (vertical flue pipe/combustion air pipe, up to 30 feet)",
+      "value": "4.0",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 24",
+          "source_quote": "17 ... 4.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (vertical flue pipe/combustion air pipe, up to 45 feet)",
+      "value": "3.0",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 24",
+          "source_quote": "17 ... 3.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (vertical flue pipe/combustion air pipe, up to max. 50 feet)",
+      "value": "3.0",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Rigid combustion air pipe 3\" as per Fig. 24",
+          "source_quote": "17 ... 3.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (vertical flue pipe/combustion air hose, up to 30 feet maximum)",
+      "value": "0",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Flexible combustion air hose 3\" as per Fig. 24",
+          "source_quote": "30 0 (up to 30 feet maximum)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (vertical flue pipe/combustion air hose, up to 30 feet maximum)",
+      "value": "2.0",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Flexible combustion air hose 3\" as per Fig. 24",
+          "source_quote": "23 2.0 (up to 30 feet maximum)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustment dimension X of combustion air baffle (vertical flue pipe/combustion air hose, up to 30 feet maximum)",
+      "value": "3.0",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": "Flexible combustion air hose 3\" as per Fig. 24",
+          "source_quote": "17 3.0 (up to 30 feet maximum)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum operating pressure (with included relief valve)",
+      "value": "30",
+      "unit": "psi",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Test pressures",
+          "source_quote": "30 psi (with the included relief valve)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum construction site test pressure (with included relief valve)",
+      "value": "45",
+      "unit": "psi",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Test pressures",
+          "source_quote": "45 psi"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum operating pressure (with different relief valve)",
+      "value": "58",
+      "unit": "psi",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Test pressures",
+          "source_quote": "58 psi (with a different relief valve)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum construction site test pressure (with different relief valve)",
+      "value": "75",
+      "unit": "psi",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Test pressures",
+          "source_quote": "75 psi"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Manifold pressure (Natural gas)",
+      "value": "3.6",
+      "unit": "inch W.C.",
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": "Manifold pressure",
+          "source_quote": "17 3.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Manifold pressure (Propane gas)",
+      "value": "8.9",
+      "unit": "inch W.C.",
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": "Manifold pressure",
+          "source_quote": "17 ... 8.9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Manifold pressure (Natural gas)",
+      "value": "3.6",
+      "unit": "inch W.C.",
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": "Manifold pressure",
+          "source_quote": "23 3.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Manifold pressure (Propane gas)",
+      "value": "9.9",
+      "unit": "inch W.C.",
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": "Manifold pressure",
+          "source_quote": "23 ... 9.9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Manifold pressure (Natural gas)",
+      "value": "3.5",
+      "unit": "inch W.C.",
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": "Manifold pressure",
+          "source_quote": "30 3.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Manifold pressure (Propane gas)",
+      "value": "9.5",
+      "unit": "inch W.C.",
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": "Manifold pressure",
+          "source_quote": "30 ... 9.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (Natural gas, 0-8500 ft)",
+      "value": "265",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas",
+          "source_quote": "17 2 265"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (Natural gas, 8501-12000 ft)",
+      "value": "260",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas",
+          "source_quote": "17 ... 260"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated manifold pressure (Natural gas)",
+      "value": "3.6",
+      "unit": "in. W.C.",
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas",
+          "source_quote": "17 ... 3.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (Natural gas, 0-8500 ft)",
+      "value": "250",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas",
+          "source_quote": "23 3 250"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (Natural gas, 8501-12000 ft)",
+      "value": "245",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas",
+          "source_quote": "23 ... 245"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated manifold pressure (Natural gas)",
+      "value": "3.6",
+      "unit": "in. W.C.",
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas",
+          "source_quote": "23 ... 3.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (Natural gas, 0-8500 ft)",
+      "value": "250",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas",
+          "source_quote": "30 4 250"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (Natural gas, 8501-12000 ft)",
+      "value": "245",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas",
+          "source_quote": "30 ... 245"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated manifold pressure (Natural gas)",
+      "value": "3.5",
+      "unit": "in. W.C.",
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas",
+          "source_quote": "30 ... 3.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (LP gas, 0-8500 ft)",
+      "value": "175",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas",
+          "source_quote": "17 2 175"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (LP gas, 8501-12000 ft)",
+      "value": "170",
+      "unit": null,
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas",
+          "source_quote": "17 ... 170"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated manifold pressure (LP gas)",
+      "value": "8.9",
+      "unit": "in. W.C.",
+      "applies_to_models": [
+        "17"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas",
+          "source_quote": "17 ... 8.9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (LP gas, 0-8500 ft)",
+      "value": "160",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas",
+          "source_quote": "23 3 160"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (LP gas, 8501-12000 ft)",
+      "value": "155",
+      "unit": null,
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas",
+          "source_quote": "23 ... 155"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated manifold pressure (LP gas)",
+      "value": "9.9",
+      "unit": "in. W.C.",
+      "applies_to_models": [
+        "23"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas",
+          "source_quote": "23 ... 9.9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (LP gas, 0-8500 ft)",
+      "value": "160",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas",
+          "source_quote": "30 4 160"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (LP gas, 8501-12000 ft)",
+      "value": "155",
+      "unit": null,
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas",
+          "source_quote": "30 ... 155"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated manifold pressure (LP gas)",
+      "value": "9.5",
+      "unit": "in. W.C.",
+      "applies_to_models": [
+        "30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": null,
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas",
+          "source_quote": "30 ... 9.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [],
+  "diagnostic_codes": [],
+  "status_codes": [],
+  "safety_warnings": [
+    {
+      "warning_type": "caution",
+      "topic": "Safety instructions",
+      "text": "Observe the safety instructions of this installation and maintenance manual before placing the boiler in operation.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "CAUTION! Observe the safety instructions of this installation and maintenance manual before placing the boiler in operation."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Unqualified personnel",
+      "text": "If installation, adjustment, modification, operation or maintenance of the heating system is carried out by an unqualified person, this may result in danger to life and limb or property damage. The directions of this installation and maintenance manual must be followed precisely. Contact a qualified service company, service provider or the gas company if support or additional information is required.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "WARNING! If installation, adjustment, modification, operation or maintenance of the heating system is carried out by an unqualified person, this may result in danger to life and limb or property damage. The directions of this installation and maintenance manual must be followed precisely. Contact a qualified service company, service provider or the gas company if support or additional information is required."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Operating manual",
+      "text": "The operating manual is a component of the technical documentation handed over to the operator of the heating system. Discuss the instruction in this manual with the owner or operator of the heating system to ensure that they are familiar with all information required for operation of the heating system.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "CAUTION! The operating manual is a component of the technical documentation handed over to the operator of the heating system. Discuss the instruction in this manual with the owner or operator of the heating system to ensure that they are familiar with all information required for operation of the heating system."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Risk to life",
+      "text": "Identifies possible dangers emanating from a product, which might lead to serious injury or death if appropriate care is not taken.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Observe the following symbols",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE Identifies possible dangers emanating from a product, which might lead to serious injury or death if appropriate care is not taken."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Risk of injury/system damage",
+      "text": "Identifies potentially dangerous situations, which might lead to medium or slight injuries or to material losses.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Observe the following symbols",
+          "table_title": null,
+          "source_quote": "CAUTION! RISK OF INJURY/ SYSTEM DAMAGE Identifies potentially dangerous situations, which might lead to medium or slight injuries or to material losses."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electric shock",
+      "text": "RISK TO LIFE from electric shock.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Observe the following symbols",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from electric shock."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Neglecting own safety",
+      "text": "RISK TO LIFE due to neglecting your own safety in case of emergency, such as with a fire. Never put yourself at risk. Your own safety must always take priority.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Please observe these notes",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE due to neglecting your own safety in case of emergency, such as with a fire. Never put yourself at risk. Your own safety must always take priority."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Explosion of flammable gases",
+      "text": "RISK TO LIFE from explosion of flammable gases. If you smell gas there is a danger of explosion. Never work on gas lines unless you are licensed for this type of work. Make sure that a qualified company installs the boiler, connects gas and venting, places the boiler in operation, connects the electrical power, and maintains and repairs the boiler. No open flame. No smoking. Do not use lighters. Prevent spark formation. Do not operate electrical switches, including telephones, plugs or door bells. Shut off main gas supply valve. Open doors and windows. Warn other occupants of the building, but do not use door bells. Call gas company from outside the building. If gas can be heard escaping, leave the building immediately, prevent other people from entering, notify police and fire from outside the building.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from explosion of flammable gases. If you smell gas there is a danger of explosion.. Never work on gas lines unless you are licensed for this type of work.. • Make sure that a qualified company installs the boiler, connects gas and venting, places the boiler in operation, connects the electrical power, and maintains and repairs the boiler. • No open flame. No smoking. Do not use lighters. • Prevent spark formation. Do not operate electrical switches, including telephones, plugs or door bells. • Shut off main gas supply valve. • Open doors and windows. • Warn other occupants of the building, but do not use door bells. • Call gas company from outside the building. • If gas can be heard escaping, leave the building immediately, prevent other people from entering, notify police and fire from outside the building."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Incorrect installation",
+      "text": "SYSTEM DAMAGE due to incorrect installation. Observe all current standards and guidelines applicable to the installation and operation of the heating system as applicable in your country.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE due to incorrect installation. Observe all current standards and guidelines applicable to the installation and operation of the heating system as applicable in your country."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electric shock",
+      "text": "RISK TO LIFE from electric shock. Disconnect the power supply to the heating system before conducting any work on it, e.g. switch off the heating emergency switch outside the boiler room. It is not sufficient just to switch off the control.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from electric shock. Disconnect the power supply to the heating system before conducting any work on it, e.g. switch off the heating emergency switch outside the boiler room. • It is not sufficient just to switch off the control."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electric shock (electrical work)",
+      "text": "RISK TO LIFE from electric shock. Do not carry out electrical work unless you are qualified for this type of work. Before opening a unit: disconnect electrical power completely and lock to prevent accidental reconnection. Observe the installation regulations.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from electric shock. • Do not carry out electrical work unless you are qualified for this type of work. • Before opening a unit: disconnect electrical power completely and lock to prevent accidental reconnection. • Observe the installation regulations."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Unsatisfactory cleaning and maintenance",
+      "text": "SYSTEM DAMAGE due to unsatisfactory cleaning and maintenance. Clean and service the system once a year. Check that the complete heating system operates correctly. Immediately correct all faults to prevent system damage.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE due to unsatisfactory cleaning and maintenance. Clean and service the system once a year. Check that the complete heating system operates correctly. • Immediately correct all faults to prevent system damage."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Poisoning by insufficient ventilation",
+      "text": "RISK TO LIFE by poisoning. Insufficient ventilation during operation requiring room ventilation may cause dangerous flue gas leaks. Make sure that inlets and outlets are not reduced in size or closed. If faults are not corrected immediately, the boiler must not be operated. Inform the system operator of the fault and the danger in writing.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "Information on the boiler room",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE by poisoning. Insufficient ventilation during operation requiring room ventilation may cause dangerous flue gas leaks. • Make sure that inlets and outlets are not reduced in size or closed. • If faults are not corrected immediately, the boiler must not be operated. • Inform the system operator of the fault and the danger in writing."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Poisoning by leaking flue gas (flue gas monitoring equipment)",
+      "text": "RISK TO LIFE by poisoning. When working on the flue gas monitoring equipment leaking flue gas may endanger the lives of people. Do not attempt to repair the flue gas temperature sensor. Use only original parts when replacing parts. When replacing the flue gas temperature sensor install the new one in the specified position.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "Information on the boiler room",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE by poisoning. When working on the flue gas monitoring equipment leaking flue gas may endanger the lives of people. Do not attempt to repair the flue gas temperature sensor. • Use only original parts when replacing parts. • When replacing the flue gas temperature sensor install the new one in the specified position."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Poisoning by leaking flue gas (frequent trips)",
+      "text": "RISK TO LIFE by poisoning by leaking flue gas. If the flue gas monitor trips frequently, there may be a problem with the chimney or the flue gas venting. If the flue gas monitor trips frequently the fault must be corrected and a function test must be conducted.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "Information on the boiler room",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE by poisoning by leaking flue gas. If the flue gas monitor trips frequently, there may be a problem with the chimney or the flue gas venting. • If the flue gas monitor trips frequently the fault must be corrected and a function test must be conducted."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Poisoning by leaking flue gas (flue gas baffle)",
+      "text": "RISK TO LIFE by poisoning by leaking flue gas. Make sure that the boiler is not fitted with a thermally controlled flue gas baffle after the back flow check.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "Information on the boiler room",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE by poisoning by leaking flue gas. Make sure that the boiler is not fitted with a thermally controlled flue gas baffle after the back flow check."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Fire danger (flammable materials)",
+      "text": "FIRE DANGER due to flammable materials or liquids. Make sure that there are no flammable materials or liquids in the immediate vicinity of the boiler.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "Information on the boiler room",
+          "table_title": null,
+          "source_quote": "WARNING! FIRE DANGER due to flammable materials or liquids. Make sure that there are no flammable materials or liquids in the immediate vicinity of the boiler."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System damage due to bumps",
+      "text": "SYSTEM DAMAGE due to bumps. Check the transport diagrams on the packaging to protect the sensitive components from damage by bumping.",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Moving the boiler",
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE due to bumps. Check the transport diagrams on the packaging to protect the sensitive components from damage by bumping."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Risk of injury (boiler cart)",
+      "text": "RISK OF INJURY if the boiler is not properly secured to the boiler cart. Use suitable transport equipment, such as a boiler cart with a belt. Secure the boiler to prevent it from falling.",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Moving the boiler with boiler cart",
+          "table_title": null,
+          "source_quote": "CAUTION! RISK OF INJURY if the boiler is not properly secured to the boiler cart. Use suitable transport equipment, such as a boiler cart with a belt. • Secure the boiler to prevent it from falling."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Risk of injury (carrying heavy loads)",
+      "text": "RISK OF INJURY due to carrying heavy loads. Lift and carry the boiler with at least four people at the designated hand grip positions.",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Lifting and carrying the boiler",
+          "table_title": null,
+          "source_quote": "CAUTION! RISK OF INJURY due to carrying heavy loads. Lift and carry the boiler with at least four people at the designated hand grip positions."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System damage through frost",
+      "text": "SYSTEM DAMAGE through frost. Place the boiler in a frost-free room.",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Placing the boiler",
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE through frost. Place the boiler in a frost-free room."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Boiler damage through moisture",
+      "text": "BOILER DAMAGE through moisture. Protect the components of the gas ignition system from moisture (dripping, spray, rain) during installation of the boiler, during operation and during maintenance work (such as replacing the pump, replacing the control, etc.).",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Heating circuit connection",
+          "table_title": null,
+          "source_quote": "CAUTION! BOILER DAMAGE through moisture. Protect the components of the gas ignition system from moisture (dripping, spray, rain) during installation of the boiler, during operation and during maintenance work (such as replacing the pump, replacing the control, etc.)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System damage due to overheating (low water)",
+      "text": "SYSTEM DAMAGE due to overheating as a result of low water. Note that a boiler installed above the level of the heating system must be fitted with a low-water alarm. The low-water alarm must be installed during installation of the boiler.",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Heating circuit connection",
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE due to overheating as a result of low water. Note that a boiler installed above the level of the heating system must be fitted with a low-water alarm. The low- water alarm must be installed during installation of the boiler (→ Fig. 9)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System damage due to high temperature variations",
+      "text": "SYSTEM DAMAGE due to high temperature variations in the heating system. If the boiler is operated in connection with a refrigeration system, make sure that the pipes for the refrigerated liquid are connected in parallel to the boiler system with suitable valves to prevent the refrigerated liquid from entering the boiler. The pipe system of a boiler connected to the heating coils of hot-air heating systems that may be exposed to the circulation of cooled air must be fitted with a flow-control valve or some other automatic system for preventing the boiler water from circulating by gravity during the cooling cycle.",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Heating circuit connection",
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE due to high temperature variations in the heating system. If the boiler is operated in connection with a refrigeration system, make sure that the pipes for the refrigerated liquid are connected in parallel to the boiler system with suitable valves to prevent the refrigerated liquid from entering the boiler. • The pipe system of a boiler connected to the heating coils of hot-air heating systems that may be exposed to the circulation of cooled air must be fitted with a flow-control valve or some other automatic system for preventing the boiler water from circulating by gravity during the cooling cycle."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Fire danger due to heat",
+      "text": "FIRE DANGER due to heat. Note that a minimum clearance of two inches is required between pipes carrying hot water and flammable walls in the boiler room.",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "CAUTION! FIRE DANGER due to heat. Note that a minimum clearance of two inches is required between pipes carrying hot water and flammable walls in the boiler room."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Risk to life from electric shock",
+      "text": "RISK TO LIFE from electric shock. When conducting maintenance work label all cables before disconnecting them. If cables are connected incorrectly the system may not operate correctly with possibly dangerous consequences.",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "Electrical connection",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from electric shock. When conducting maintenance work label all cables before disconnecting them. • If cables are connected incorrectly the system may not operate correctly with possibly dangerous consequences."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Danger of explosion from gas leaks",
+      "text": "DANGER OF EXPLOSION Leakage from the gas pipes and gas connections may cause an explosion. Use soap solution to find leaks.",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Fuel supply connection",
+          "table_title": null,
+          "source_quote": "WARNING! DANGER OF EXPLOSION Leakage from the gas pipes and gas connections may cause an explosion. Use soap solution to find leaks."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Operating faults due to strong winds",
+      "text": "OPERATING FAULTS due to strong winds. If a t-piece is not installed at the end of the flue line, the boiler may stop operating in a storm. Note that a termination tee must always be installed at the end of the flue line. The termination tee can be purchased from the selected flue line manufacturer.",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "Installation of flue system",
+          "table_title": null,
+          "source_quote": "CAUTION! OPERATING FAULTS due to strong winds. If a t-piece is not installed at the end of the flue line, the boiler may stop operating in a storm. • Note that a termination tee must always be installed at the end of the flue line. • The termination tee can be purchased from the selected flue line manufacturer."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Risk to life by poisoning by leaking flue gas",
+      "text": "RISK TO LIFE by poisoning by leaking flue gas. Connect the flue system to one boiler only. Connection of another boiler may cause serious injury or death. The flue pipes must not be routed into another vent. In addition, the pipes of the flue system must not be routed through another vent or inside another vent, such as with an existing brick or factory-manufactured chimney lining.",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE by poisoning by leaking flue gas. Connect the flue system to one boiler only. • Connection of another boiler may cause serious injury or death. • The flue pipes must not be routed into another vent. In addition, the pipes of the flue system must not be routed through another vent or inside another vent, such as with an existing brick or factory-manufactured chimney lining."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Fire danger due to insufficient clearance",
+      "text": "FIRE DANGER due to insufficient clearance between flue pipe and flammable building components. Make sure that there is a minimum clearance of two (2) inches to flammable building components. No minimum clearance is required between the wall penetration and flammable building components.",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "WARNING! FIRE DANGER due to insufficient clearance between flue pipe and flammable building components. Make sure that there is a minimum clearance of two (2) inches to flammable building components. • No minimum clearance is required between the wall penetration and flammable building components."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Risk to life by poisoning by leaking flue gas (post-installation check)",
+      "text": "RISK TO LIFE by poisoning by leaking flue gas. After carrying out one of the above installation instructions always check that all connections in the complete flue system are correctly joined and sealed. Check the seams and joints for leaks. Have the complete flue system checked by a technician once a year.",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE by poisoning by leaking flue gas. After carrying out one of the above installation instructions always check that all connections in the complete flue system are correctly joined and sealed. Check the seams and joints for leaks. • Have the complete flue system checked by a technician once a year."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System damage due to overpressure during leak test",
+      "text": "SYSTEM DAMAGE due to overpressure during the leak test. Pressure, control or safety components may be damaged by high pressure. Before conducting the leak test make sure that no pressure, control or safety components that cannot be disconnected from the water compartment of the boiler are installed.",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Filling heating system and checking for leaks",
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE due to overpressure during the leak test. Pressure, control or safety components may be damaged by high pressure. • Before conducting the leak test make sure that no pressure, control or safety components that cannot be disconnected from the water compartment of the boiler are installed."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Boiler damage and operating faults (combustion air/venting)",
+      "text": "BOILER DAMAGE AND OPERATING FAULTS due to missing or inadequate openings for combustion air and venting of the boiler room. The openings for combustion air supply and venting are always required regardless of whether the combustion air is supplied from the room (operation from room air) or directly to the boiler through ducts (operation independent of room air). Inadequate venting of the boiler room may result in excessive ambient temperatures. This can damage the boiler. Inadequate combustion air supply may cause operating faults. Make sure that inlets and outlets are not reduced or closed and that they are adequately sized. If faults are not corrected immediately, the boiler must not be operated. Inform the system operator of the fault and the danger.",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Openings for combustion air supply and venting",
+          "table_title": null,
+          "source_quote": "CAUTION! BOILER DAMAGE AND OPERATING FAULTS due to missing or inadequate openings for combustion air and venting of the boiler room. The openings for combustion air supply and venting are always required regardless of whether the combustion air is supplied from the room (operation from room air) or directly to the boiler through ducts (operation independent of room air). Inadequate venting of the boiler room may result in excessive ambient temperatures. This can damage the boiler. Inadequate combustion air supply may cause operating faults. • Make sure that inlets and outlets are not reduced or closed and that they are adequately sized. • If faults are not corrected immediately, the boiler must not be operated. • Inform the system operator of the fault and the danger."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Fire danger (flammable materials/liquids)",
+      "text": "FIRE DANGER due to flammable materials or liquids. Do not store flammable materials or liquids in the immediate vicinity of the heat generator.",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Openings for combustion air supply and venting",
+          "table_title": null,
+          "source_quote": "WARNING! FIRE DANGER due to flammable materials or liquids. Do not store flammable materials or liquids in the immediate vicinity of the heat generator."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Boiler damage due to contaminated combustion air",
+      "text": "BOILER DAMAGE due to contaminated combustion air. Never use cleaning agents that contain chlorine and halogenated hydrocarbons (e.g. spray bottles, solvents, and cleaning agents, paints, glues). Do not store or use these substances in the boiler room. Prevent excessive dust levels.",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Openings for combustion air supply and venting",
+          "table_title": null,
+          "source_quote": "CAUTION! BOILER DAMAGE due to contaminated combustion air. Never use cleaning agents that contain chlorine and halogenated hydrocarbons (e.g. spray bottles, solvents, and cleaning agents, paints, glues). • Do not store or use these substances in the boiler room. • Prevent excessive dust levels."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Risk to life due to electrical current (unit open)",
+      "text": "RISK TO LIFE due to electrical current when the unit is open. Before opening the unit: To prevent electrical shock, isolate the heating system with the heating system emergency stop switch or by shutting off the main fuse. Lock the heating system to prevent accidental reactivation.",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Placing the heating system in operation",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE due to electrical current when the unit is open. Before opening the unit: To prevent electrical shock, isolate the heating system with the heating system emergency stop switch or by shutting off the main fuse. • Lock the heating system to prevent accidental reactivation."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Risk to life (incorrect operation)",
+      "text": "RISK TO LIFE due to not observing the start-up instructions and resulting incorrect operation. If these instructions are not followed exactly, a fire or explosion may be caused with serious property damage or loss of life or serious injury. Observe the start-up instructions.",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "Start-up instructions",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE due to not observing the start-up instructions and resulting incorrect operation. • If these instructions are not followed exactly, a fire or explosion may be caused with serious property damage or loss of life or serious injury. • Observe the start-up instructions."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Danger of explosion (gas smell)",
+      "text": "DANGER OF EXPLOSION If you smell gas there is a danger of explosion. No open flame. No smoking. Prevent spark formation. Do not operate electrical switches, including telephones, plugs or door bells. Shut off main gas supply valve. Open doors and windows. Warn other occupants of the building. Evacuate the building. Call gas company, heating service company or fire department from outside the building.",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "Start-up instructions",
+          "table_title": null,
+          "source_quote": "WARNING! DANGER OF EXPLOSION If you smell gas there is a danger of explosion.. No open flame. No smoking. • Prevent spark formation. Do not operate electrical switches, including telephones, plugs or door bells. • Shut off main gas supply valve. • Open doors and windows. • Warn other occupants of the building. • Evacuate the building. • Call gas company, heating service company or fire department from outside the building."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System damage through frost (control not switched on)",
+      "text": "SYSTEM DAMAGE due to frost. The heating system may freeze in frosty conditions if the control is not switched on. Protect the heating system from freezing when there is a danger of frost. When the main switch or control is switched off, drain the water from the boiler, the tank and the pipes of the heating system.",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Instruct owner/operator and hand over technical documentation",
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE due to frost. The heating system may freeze in frosty conditions if the control is not switched on. • Protect the heating system from freezing when there is a danger of frost. • When the main switch or control is switched off, drain the water from the boiler, the tank and the pipes of the heating system."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System damage through frost (boiler shut down)",
+      "text": "SYSTEM DAMAGE through frost. The heating system can freeze up in cold weather if it is shut down. Leave the heating system switched ON constantly as much as possible. Protect the heating system from freezing by draining the heater and water pipes at the lowest point.",
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Normal boiler shut-down",
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE through frost. The heating system can freeze up in cold weather if it is shut down. • Leave the heating system switched ON constantly as much as possible. • Protect the heating system from freezing by draining the heater and water pipes at the lowest point."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Risk to life from electric shock (preparing for cleaning)",
+      "text": "RISK TO LIFE from electric shock. Before opening a unit: disconnect electrical power completely and lock to prevent accidental reconnection.",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Preparing boiler for cleaning",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from electric shock. Before opening a unit: disconnect electrical power completely and lock to prevent accidental reconnection."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Risk to life from explosion of flammable gases (preparing for cleaning)",
+      "text": "RISK TO LIFE from explosion of flammable gases. Never work on gas lines unless you are licensed for this type of work.",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Preparing boiler for cleaning",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from explosion of flammable gases. Never work on gas lines unless you are licensed for this type of work.."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Risk to life from explosion of flammable gases (gas residues)",
+      "text": "RISK TO LIFE from explosion of flammable gases. Wait five (5) minutes until all gas residues have dissipated. Check whether there is any smell of gas, including at floor level. If there is a gas odor: STOP! Follow instructions in section \"B\" of the safety instructions on page 35 If there is no sign of a gas odor, continue with the next step.",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Preparing boiler for cleaning",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from explosion of flammable gases. Wait five (5) minutes until all gas residues have dissipated. Check whether there is any smell of gas, including at floor level. If there is a gas odor: STOP! Follow instructions in section \"B\" of the safety instructions on → page 35 If there is no sign of a gas odor, continue with the next step."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Risk to life from electric shock (cleaning boiler)",
+      "text": "RISK TO LIFE from electric shock. Label all electrical wiring before disconnecting it for cleaning the boiler. If cables are connected incorrectly the system may not operate correctly with possibly dangerous consequences. After maintenance test the heating system for proper function.",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "Cleaning the boiler with brushes",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from electric shock. Label all electrical wiring before disconnecting it for cleaning the boiler. If cables are connected incorrectly the system may not operate correctly with possibly dangerous consequences. • After maintenance test the heating system for proper function."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Risk to life from electric shock (opening unit for cleaning)",
+      "text": "RISK TO LIFE from electric shock. Before opening a unit: disconnect electrical power completely and lock to prevent accidental reconnection.",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "Cleaning the boiler with brushes",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from electric shock. Before opening a unit: disconnect electrical power completely and lock to prevent accidental reconnection."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Risk to life from explosion of flammable gases (after maintenance)",
+      "text": "RISK TO LIFE from explosion of flammable gases. After maintenance work leaks may occur in pipes and threaded fastenings. Make a thorough check for leaks. Use only approved leak testing agents to search for leaks.",
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "Cleaning the burner",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from explosion of flammable gases. After maintenance work leaks may occur in pipes and threaded fastenings. Make a thorough check for leaks. • Use only approved leak testing agents to search for leaks."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "maintenance_tasks": [
+    {
+      "task_name": "Regular maintenance",
+      "description": "To maintain high efficiency operation and to operate the heating system economically (low fuel consumption). To sustain safe operation. To maintain combustion at an environmentally friendly level.",
+      "interval": "annually",
+      "required_qualification": "qualified customer service technician",
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "Why is regular maintenance important?",
+          "table_title": null,
+          "source_quote": "Heating systems require regular maintenance for the following reasons: – To maintain high efficiency operation and to operate the heating system economically (low fuel consumption). – To sustain safe operation. – To maintain combustion at an environmentally friendly level. All maintenance work must be carried out by a qualified customer service technician only. When replacing components use only parts approved by Buderus. Maintenance is required once a year. Record the results of the inspection in the protocol at → page 55."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Testing the flue system, including combustion air, air inlets and Ventilation openings",
+      "description": "Check the venting system, including the combustion air, inlet and outlet openings. All faults must be repaired immediately. Make sure that the combustion air feed and the inlets and outlets are not blocked at any point.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "Testing the flue system, including combustion air, air inlets and Ventilation openings",
+          "table_title": null,
+          "source_quote": "Check the venting system, including the combustion air, inlet and outlet openings. All faults must be repaired immediately. Make sure that the combustion air feed and the inlets and outlets are not blocked at any point."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Inspection of the boiler and burner",
+      "description": "Visually check the boiler and burner for external dirt. Check burner box, supply air hose and burner rods for dirt. Check air supply hose for damage and replace if necessary. If dirt is found, clean boiler and burner.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "Inspection of the boiler and burner",
+          "table_title": null,
+          "source_quote": "1. Visually check the boiler and burner for external dirt. 2. Check burner box, supply air hose and burner rods for dirt. 3. Check air supply hose for damage and replace if necessary. 4. If dirt is found, clean boiler and burner."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Cleaning the boiler",
+      "description": "The boiler can be cleaned with brushes and/or by wet cleaning. Cleaning tools are available as accessories.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "Cleaning the boiler",
+          "table_title": null,
+          "source_quote": "The boiler can be cleaned with brushes and/or by wet cleaning. Cleaning tools are available as accessories."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Cleaning the burner",
+      "description": "Remove burner. Check burner rods for dirt. If necessary, clean burner. Unscrew pilot burner unit from burner. Disconnect pilot gas line from ignition burner unit. Remove pilot gas orifice and blow out. Immerse burner rods in water with cleaning agent and brush off. Rinse out burner rods with a water jet; hold burner so water enters all slots if the burner rods and drains out again. Remove remaining water by swinging the burner. Check that the slots of the burner rods are free. Remove water and dirt residue in the slots. If any slots are damaged the burner must be replaced. Assemble and install the burner in reverse order of removal and disassembly. Tighten the fixing nuts well. Make sure that the front edge of the burner box cover is properly engaged in the sealing grommets. Place boiler in operation. Check operation of AquaSmart. Test low water cut-off if installed. Check area around boiler for hazards.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "Cleaning the burner",
+          "table_title": null,
+          "source_quote": "1. Remove burner (→ page 46). 2. Check burner rods for dirt. If necessary, clean burner as described below. 3. Unscrew pilot burner unit from burner. 4. Disconnect pilot gas line from ignition burner unit. 5. Remove pilot gas orifice and blow out. 6. Immerse burner rods in water with cleaning agent and brush off. 7. Rinse out burner rods with a water jet; hold burner so water enters all slots if the burner rods and drains out again. 8. Remove remaining water by swinging the burner. 9. Check that the slots of the burner rods are free. Remove water and dirt residue in the slots. If any slots are damaged the burner must be replaced. 10. Assemble and install the burner in reverse order of removal and disassembly (→ page 46). Tighten the fixing nuts well. Make sure that the front edge of the burner box cover is properly engaged in the sealing grommets. 11. Place boiler in operation as directed in (→ Chapter 9.1, page 33). 12. Check operation of AquaSmart. 13. Test low water cut-off if installed. 14. Check area around boiler for hazards. The area around the boiler must be free from flammable substances, gasoline or any other flammable or corrosive vapors and liquids."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "task_name": "Inspection of the flue system including combustion air, inlet and outlet openings",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": null,
+          "table_title": "Maintenance protocol",
+          "source_quote": "1. Inspection of the flue system including combustion air, inlet and outlet openings page 44"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Inspection of boiler",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": null,
+          "table_title": "Maintenance protocol",
+          "source_quote": "2. Inspection of boiler page 44"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Inspection of burner",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": null,
+          "table_title": "Maintenance protocol",
+          "source_quote": "3. Inspection of burner page 44"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Cleaning boiler",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": null,
+          "table_title": "Maintenance protocol",
+          "source_quote": "4. Cleaning boiler page 46"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Cleaning burner",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": null,
+          "table_title": "Maintenance protocol",
+          "source_quote": "5. Cleaning burner page 50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Measuring gas supply pressure",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": null,
+          "table_title": "Maintenance protocol",
+          "source_quote": "6. Measuring gas supply pressure page 34"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Measuring manifold pressure",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": null,
+          "table_title": "Maintenance protocol",
+          "source_quote": "7 Measuring manifold pressure page 37"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Checking for leaks in operating condition",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": null,
+          "table_title": "Maintenance protocol",
+          "source_quote": "8. Checking for leaks in operating condition page 34"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Checking pilot and main burner flame",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": null,
+          "table_title": "Maintenance protocol",
+          "source_quote": "9. Checking pilot and main burner flame page 38"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Check operation of venting fan",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": null,
+          "table_title": "Maintenance protocol",
+          "source_quote": "10: Check operation of venting fan."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Check maximum aquasmart",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": null,
+          "table_title": "Maintenance protocol",
+          "source_quote": "11. Check maximum aquasmart page 50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Check the area around the boiler for flammable materials, gasoline or other corrosive liquids",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": null,
+          "table_title": "Maintenance protocol",
+          "source_quote": "12. Check the area around the boiler for flammable materials, gasoline or other corrosive liquids. page 50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Confirm maintenance",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": null,
+          "table_title": "Maintenance protocol",
+          "source_quote": "13. Confirm maintenance"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "search_terms": [
+    "Logano GA124",
+    "gas boiler",
+    "sealed combustion",
+    "installation",
+    "maintenance",
+    "troubleshooting",
+    "specifications",
+    "dimensions",
+    "connections",
+    "flue system",
+    "combustion air",
+    "gas pressure",
+    "manifold pressure",
+    "orifice",
+    "safety",
+    "cleaning",
+    "burner",
+    "aquasmart",
+    "electrical connection",
+    "leak test",
+    "start-up",
+    "shut-down",
+    "frost protection",
+    "venting",
+    "boiler temperature",
+    "operating pressure"
+  ],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.4,
+    "review_required": true,
+    "missing_or_unclear_sections": [
+      "Fault codes are presented as flowcharts rather than explicit codes with descriptions, causes, and steps. The troubleshooting section (pages 51-54) was not extracted into fault_codes as it does not fit the structured fault code schema well. It describes troubleshooting logic based on conditions (e.g., 'Fan starts? No') and checks (e.g., 'Check 120 V input voltage'). Extracting this into the fault_codes array would require significant interpretation and generation of 'codes' and 'descriptions' that are not explicitly stated as such by the manufacturer, violating rule 1."
+    ],
+    "extraction_notes": [
+      "The troubleshooting section (pages 51-54) is presented as flowcharts, which do not map directly to the fault_codes schema's 'code', 'description', 'possible_causes', and 'manufacturer_steps' fields without significant interpretation. Therefore, no fault codes were extracted from this section to adhere strictly to the 'MANUFACTURER FACTS ONLY' rule and avoid hallucination. This section would require a different schema or manual summarization to be useful.",
+      "Some technical specifications for 'Adjustment dimension X of combustion air baffle' were extracted from complex tables with multiple conditions (length ranges, room air vs. outside air, rigid vs. flexible pipe). While the values are extracted, the full context of these tables might be better represented in a more flexible schema or require careful review.",
+      "No fault codes, diagnostic codes, or status codes were extracted. Manual should be reviewed or reprocessed.",
+      "No fault_codes were extracted."
+    ]
+  }
+}

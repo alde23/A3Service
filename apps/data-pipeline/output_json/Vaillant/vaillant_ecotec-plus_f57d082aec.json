@@ -1,0 +1,3855 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Vaillant",
+    "product_family": "ecoTEC plus",
+    "model_names": [
+      "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+      "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+      "VU 20CS/1-5 (N-GB) ecoTEC plus 620",
+      "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+      "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+      "VU 35CS/1-5 (N-GB) ecoTEC plus 635",
+      "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+      "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+      "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836",
+      "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "Installation and maintenance instructions",
+    "document_code": "0020308118_05",
+    "publication_date": "31.05.2023",
+    "language": "en",
+    "region": "GB, IE",
+    "source_file": "vaillant_vaillant-ecotec-plus-610_boiler-manual_ecotplus10.pdf",
+    "file_hash": "f57d082aecd66258407655e4cdc71edcafba40eedb99dfdfc06e4ee9aa590b62"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Designated country",
+      "value": "GB, IE",
+      "unit": null,
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Designated country (designation in accordance with ISO 3166) GB, IE"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Permitted gas boiler category",
+      "value": "II2H3P",
+      "unit": null,
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Permitted gas boiler category (depending on the unit version) II2H3P"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CE PIN",
+      "value": "0063CU3910",
+      "unit": null,
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "CE PIN 0063CU3910"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "UKCA PIN",
+      "value": "0063CU3910",
+      "unit": null,
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "UKCA PIN 0063CU3910"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection, boiler side",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Gas connection, boiler side 15 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow/return heating connections, boiler side",
+      "value": "G 3/4",
+      "unit": "″",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Flow/return heating connections, boiler side G 3/4 ″"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow/return cylinder connections, boiler side",
+      "value": "–",
+      "unit": null,
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Flow/return cylinder connections, boiler side –"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot/cold water connections, boiler side",
+      "value": "–",
+      "unit": null,
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Domestic hot/cold water connections, boiler side –"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion relief valve connection",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Expansion relief valve connection 15 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate discharge hose connection",
+      "value": "19",
+      "unit": "mm",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Condensate discharge hose connection 19 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Air/flue pipe connection",
+      "value": "60/100",
+      "unit": "mm",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Air/flue pipe connection 60/100 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Capacity of the heating expansion vessel",
+      "value": "10",
+      "unit": "l",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Capacity of the heating expansion vessel 10 l"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pre-charge pressure of the heating expansion vessel",
+      "value": "70 kPa (700 mbar)",
+      "unit": null,
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Pre-charge pressure of the heating expansion vessel 70 kPa (700 mbar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas temperature",
+      "value": "35",
+      "unit": "℃",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Min. flue gas temperature 35 ℃"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flue gas temperature",
+      "value": "85",
+      "unit": "℃",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Max. flue gas temperature 85 ℃"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Approved gas boiler types",
+      "value": "C13, C33, C43, C53",
+      "unit": null,
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Approved gas boiler types C13, C33, C43, C53"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx class",
+      "value": "6",
+      "unit": null,
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "NOx class 6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SAP 2009/2012 annual efficiency",
+      "value": "–",
+      "unit": "%",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "SAP 2009/2012 annual efficiency (%) –"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight with packaging (incl. accessories)",
+      "value": "37",
+      "unit": "kg",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Weight with packaging (incl. accessories) 37 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight (without packaging, without water)",
+      "value": "34",
+      "unit": "kg",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Weight (without packaging, without water) 34 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight ready for operation (filled)",
+      "value": "37",
+      "unit": "kg",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Weight ready for operation (filled) 37 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Designated country",
+      "value": "GB, IE",
+      "unit": null,
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Designated country (designation in accordance with ISO 3166) GB, IE"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Permitted gas boiler category",
+      "value": "II2H3P",
+      "unit": null,
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Permitted gas boiler category (depending on the unit version) II2H3P"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Permitted gas boiler category",
+      "value": "I2H",
+      "unit": null,
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Permitted gas boiler category (depending on the unit version) I2H"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CE PIN",
+      "value": "0063CU3910",
+      "unit": null,
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "CE PIN 0063CU3910"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "UKCA PIN",
+      "value": "0063CU3910",
+      "unit": null,
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "UKCA PIN 0063CU3910"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection, boiler side",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Gas connection, boiler side 15 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow/return heating connections, boiler side",
+      "value": "G 3/4",
+      "unit": "″",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Flow/return heating connections, boiler side G 3/4 ″"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow/return cylinder connections, boiler side",
+      "value": "–",
+      "unit": null,
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Flow/return cylinder connections, boiler side –"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot/cold water connections, boiler side",
+      "value": "–",
+      "unit": null,
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Domestic hot/cold water connections, boiler side –"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion relief valve connection",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Expansion relief valve connection 15 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate discharge hose connection",
+      "value": "19",
+      "unit": "mm",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Condensate discharge hose connection 19 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Air/flue pipe connection",
+      "value": "60/100",
+      "unit": "mm",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Air/flue pipe connection 60/100 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Capacity of the heating expansion vessel",
+      "value": "10",
+      "unit": "l",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Capacity of the heating expansion vessel 10 l"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pre-charge pressure of the heating expansion vessel",
+      "value": "70 kPa (700 mbar)",
+      "unit": null,
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Pre-charge pressure of the heating expansion vessel 70 kPa (700 mbar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas temperature",
+      "value": "35",
+      "unit": "℃",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Min. flue gas temperature 35 ℃"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flue gas temperature",
+      "value": "85",
+      "unit": "℃",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Max. flue gas temperature 85 ℃"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Approved gas boiler types",
+      "value": "C13, C33, C43, C53",
+      "unit": null,
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Approved gas boiler types C13, C33, C43, C53"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx class",
+      "value": "6",
+      "unit": null,
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "NOx class 6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SAP 2009/2012 annual efficiency",
+      "value": "–",
+      "unit": "%",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "SAP 2009/2012 annual efficiency (%) –"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight with packaging (incl. accessories)",
+      "value": "39",
+      "unit": "kg",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Weight with packaging (incl. accessories) 39 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight with packaging (incl. accessories)",
+      "value": "41",
+      "unit": "kg",
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Weight with packaging (incl. accessories) 41 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight (without packaging, without water)",
+      "value": "36",
+      "unit": "kg",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Weight (without packaging, without water) 36 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight (without packaging, without water)",
+      "value": "40.5",
+      "unit": "kg",
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Weight (without packaging, without water) 40.5 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight ready for operation (filled)",
+      "value": "41",
+      "unit": "kg",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Weight ready for operation (filled) 41 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight ready for operation (filled)",
+      "value": "44",
+      "unit": "kg",
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Weight ready for operation (filled) 44 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Designated country",
+      "value": "GB, IE",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Designated country (designation in accordance with ISO 3166) GB, IE"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Permitted gas boiler category",
+      "value": "II2H3P",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Permitted gas boiler category (depending on the unit version) II2H3P"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CE PIN",
+      "value": "0063CU3910",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "CE PIN 0063CU3910"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "UKCA PIN",
+      "value": "0063CU3910",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "UKCA PIN 0063CU3910"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection, boiler side",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Gas connection, boiler side 15 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow/return heating connections, boiler side",
+      "value": "G 3/4",
+      "unit": "″",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Flow/return heating connections, boiler side G 3/4 ″"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow/return cylinder connections, boiler side",
+      "value": "–",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Flow/return cylinder connections, boiler side –"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot/cold water connections, boiler side",
+      "value": "G 3/4",
+      "unit": "″",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Domestic hot/cold water connections, boiler side G 3/4 ″"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion relief valve connection",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Expansion relief valve connection 15 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate discharge hose connection",
+      "value": "19",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Condensate discharge hose connection 19 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Air/flue pipe connection",
+      "value": "60/100",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Air/flue pipe connection 60/100 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Capacity of the heating expansion vessel",
+      "value": "10",
+      "unit": "l",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Capacity of the heating expansion vessel 10 l"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pre-charge pressure of the heating expansion vessel",
+      "value": "70 kPa (700 mbar)",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Pre-charge pressure of the heating expansion vessel 70 kPa (700 mbar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas temperature",
+      "value": "35",
+      "unit": "℃",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Min. flue gas temperature 35 ℃"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flue gas temperature",
+      "value": "85",
+      "unit": "℃",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Max. flue gas temperature 85 ℃"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Approved gas boiler types",
+      "value": "C13, C33, C43, C53",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Approved gas boiler types C13, C33, C43, C53"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx class",
+      "value": "6",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "NOx class 6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SAP 2009/2012 annual efficiency",
+      "value": "–",
+      "unit": "%",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "SAP 2009/2012 annual efficiency (%) –"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight with packaging (incl. accessories)",
+      "value": "39",
+      "unit": "kg",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Weight with packaging (incl. accessories) 39 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight with packaging (incl. accessories)",
+      "value": "41",
+      "unit": "kg",
+      "applies_to_models": [
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Weight with packaging (incl. accessories) 41 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight (without packaging, without water)",
+      "value": "36",
+      "unit": "kg",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Weight (without packaging, without water) 36 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight (without packaging, without water)",
+      "value": "37",
+      "unit": "kg",
+      "applies_to_models": [
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Weight (without packaging, without water) 37 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight ready for operation (filled)",
+      "value": "40",
+      "unit": "kg",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Weight ready for operation (filled) 40 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight ready for operation (filled)",
+      "value": "43",
+      "unit": "kg",
+      "applies_to_models": [
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Weight ready for operation (filled) 43 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Designated country",
+      "value": "GB, IE",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Designated country (designation in accordance with ISO 3166) GB, IE"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Permitted gas boiler category",
+      "value": "I2H",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Permitted gas boiler category (depending on the unit version) I2H"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CE PIN",
+      "value": "0063CU3910",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "CE PIN 0063CU3910"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "UKCA PIN",
+      "value": "0063CU3910",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "UKCA PIN 0063CU3910"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection, boiler side",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Gas connection, boiler side 15 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow/return heating connections, boiler side",
+      "value": "G 3/4",
+      "unit": "″",
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Flow/return heating connections, boiler side G 3/4 ″"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow/return cylinder connections, boiler side",
+      "value": "–",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Flow/return cylinder connections, boiler side –"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot/cold water connections, boiler side",
+      "value": "G 3/4",
+      "unit": "″",
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Domestic hot/cold water connections, boiler side G 3/4 ″"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion relief valve connection",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Expansion relief valve connection 15 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate discharge hose connection",
+      "value": "19",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Condensate discharge hose connection 19 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Air/flue pipe connection",
+      "value": "60/100",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Air/flue pipe connection 60/100 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Capacity of the heating expansion vessel",
+      "value": "10",
+      "unit": "l",
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Capacity of the heating expansion vessel 10 l"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pre-charge pressure of the heating expansion vessel",
+      "value": "70 kPa (700 mbar)",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Pre-charge pressure of the heating expansion vessel 70 kPa (700 mbar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas temperature",
+      "value": "35",
+      "unit": "℃",
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Min. flue gas temperature 35 ℃"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flue gas temperature",
+      "value": "85",
+      "unit": "℃",
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Max. flue gas temperature 85 ℃"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Approved gas boiler types",
+      "value": "C13, C33, C43, C53",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Approved gas boiler types C13, C33, C43, C53"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx class",
+      "value": "6",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "NOx class 6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SAP 2009/2012 annual efficiency",
+      "value": "–",
+      "unit": "%",
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "SAP 2009/2012 annual efficiency (%) –"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight with packaging (incl. accessories)",
+      "value": "44",
+      "unit": "kg",
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Technical data – General",
+          "table_title": null,
+          "source_quote": "Weight with packaging (incl. accessories) 44 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight (without packaging, without water)",
+      "value": "41",
+      "unit": "kg",
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Weight (without packaging, without water) 41 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight ready for operation (filled)",
+      "value": "48",
+      "unit": "kg",
+      "applies_to_models": [
+        "VUW 30/40CS/1-5 (N-GB) ecoTEC plus 840"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Weight ready for operation (filled) 48 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection pressure, G20 natural gas",
+      "value": "2.0 kPa (20.0 mbar)",
+      "unit": null,
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Gas connection pressure, G20 natural gas 2.0 kPa (20.0 mbar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx emission, weighted, G20 (EN 15502-2-1)",
+      "value": "35.70",
+      "unit": "mg/kW⋅h",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "NOx emission, weighted, G20 (EN 15502-2-1) 35.70 mg/kW⋅h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx emission, weighted, G20 (EN 15502-2-1)",
+      "value": "35.00",
+      "unit": "mg/kW⋅h",
+      "applies_to_models": [
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "NOx emission, weighted, G20 (EN 15502-2-1) 35.00 mg/kW⋅h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx emission, weighted, G20 (EN 15502-2-1)",
+      "value": "33.20",
+      "unit": "mg/kW⋅h",
+      "applies_to_models": [
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "NOx emission, weighted, G20 (EN 15502-2-1) 33.20 mg/kW⋅h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "30% efficiency, G20",
+      "value": "108.2",
+      "unit": "%",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "30% efficiency, G20 108.2 %"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "30% efficiency, G20",
+      "value": "108.5",
+      "unit": "%",
+      "applies_to_models": [
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "30% efficiency, G20 108.5 %"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "30% efficiency, G20",
+      "value": "108.8",
+      "unit": "%",
+      "applies_to_models": [
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "30% efficiency, G20 108.8 %"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate for max. gas volume at 15 °C and 1013 mbar, G20",
+      "value": "2.16",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Gas flow rate for max. gas volume at 15 °C and 1013 mbar, G20 2.16 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate for max. gas volume at 15 °C and 1013 mbar, G20",
+      "value": "2.59",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Gas flow rate for max. gas volume at 15 °C and 1013 mbar, G20 2.59 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 40/30 °C",
+      "value": "2.9 to 10.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 40/30 °C 2.9 to 10.9 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 40/30 °C",
+      "value": "2.9 to 16.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 40/30 °C 2.9 to 16.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 40/30 °C",
+      "value": "2.9 to 21.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 40/30 °C 2.9 to 21.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 50/30 °C",
+      "value": "2.8 to 10.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 50/30 °C 2.8 to 10.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 50/30 °C",
+      "value": "2.8 to 15.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 50/30 °C 2.8 to 15.9 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 50/30 °C",
+      "value": "2.8 to 21.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 50/30 °C 2.8 to 21.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 60/40 °C",
+      "value": "2.6 to 10.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 60/40 °C 2.6 to 10.1 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 60/40 °C",
+      "value": "2.6 to 15.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 60/40 °C 2.6 to 15.1 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 60/40 °C",
+      "value": "2.6 to 20.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 60/40 °C 2.6 to 20.3 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 80/60 °C",
+      "value": "2.5 to 9.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 80/60 °C 2.5 to 9.9 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 80/60 °C",
+      "value": "2.5 to 14.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 80/60 °C 2.5 to 14.8 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 80/60 °C",
+      "value": "2.5 to 19.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 80/60 °C 2.5 to 19.8 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. heat input for heating",
+      "value": "10.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Max. heat input for heating 10.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. heat input for heating",
+      "value": "15.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Max. heat input for heating 15.3 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. heat input for heating",
+      "value": "20.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Max. heat input for heating 20.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating min. heat input",
+      "value": "2.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Heating min. heat input 2.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas mass flow rate",
+      "value": "1.23 g/s (4.43 kg/h)",
+      "unit": null,
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615",
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Min. flue gas mass flow rate 1.23 g/s (4.43 kg/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flue gas mass flow rate",
+      "value": "10.28 g/s (37.01 kg/h)",
+      "unit": null,
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Max. flue gas mass flow rate 10.28 g/s (37.01 kg/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flue gas mass flow rate",
+      "value": "12.34 g/s (44.42 kg/h)",
+      "unit": null,
+      "applies_to_models": [
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Max. flue gas mass flow rate 12.34 g/s (44.42 kg/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. DHW heat output",
+      "value": "19.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Max. DHW heat output 19.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. DHW heat output",
+      "value": "23.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Max. DHW heat output 23.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW nominal heat input",
+      "value": "20.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610",
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "DHW nominal heat input 20.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW nominal heat input",
+      "value": "24.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "DHW nominal heat input 24.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input range for heating",
+      "value": "2.7 to 10.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat input range for heating 2.7 to 10.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input range for heating",
+      "value": "2.7 to 15.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat input range for heating 2.7 to 15.3 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input range for heating",
+      "value": "2.7 to 20.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat input range for heating 2.7 to 20.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating adjustment range",
+      "value": "10.2 kW (auto)",
+      "unit": null,
+      "applies_to_models": [
+        "VU 10CS/1-5 (N-GB) ecoTEC plus 610"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Heating adjustment range 10.2 kW (auto)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating adjustment range",
+      "value": "2.7 to 15.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 15CS/1-5 (N-GB) ecoTEC plus 615"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Heating adjustment range 2.7 to 15.3 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating adjustment range",
+      "value": "2.7 to 20.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 20CS/1-5 (N-GB) ecoTEC plus 620"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Heating adjustment range 2.7 to 20.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection pressure, G20 natural gas",
+      "value": "2.0 kPa (20.0 mbar)",
+      "unit": null,
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Gas connection pressure, G20 natural gas 2.0 kPa (20.0 mbar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx emission, weighted, G20 (EN 15502-2-1)",
+      "value": "27.00",
+      "unit": "mg/kW⋅h",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "NOx emission, weighted, G20 (EN 15502-2-1) 27.00 mg/kW⋅h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx emission, weighted, G20 (EN 15502-2-1)",
+      "value": "27.80",
+      "unit": "mg/kW⋅h",
+      "applies_to_models": [
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "NOx emission, weighted, G20 (EN 15502-2-1) 27.80 mg/kW⋅h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx emission, weighted, G20 (EN 15502-2-1)",
+      "value": "27.30",
+      "unit": "mg/kW⋅h",
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "NOx emission, weighted, G20 (EN 15502-2-1) 27.30 mg/kW⋅h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "30% efficiency, G20",
+      "value": "109.4",
+      "unit": "%",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625",
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "30% efficiency, G20 109.4 %"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "30% efficiency, G20",
+      "value": "109.1",
+      "unit": "%",
+      "applies_to_models": [
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "30% efficiency, G20 109.1 %"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate for max. gas volume at 15 °C and 1013 mbar, G20",
+      "value": "3.24",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Gas flow rate for max. gas volume at 15 °C and 1013 mbar, G20 3.24 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate for max. gas volume at 15 °C and 1013 mbar, G20",
+      "value": "3.76",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Gas flow rate for max. gas volume at 15 °C and 1013 mbar, G20 3.76 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate for max. gas volume at 15 °C and 1013 mbar, G20",
+      "value": "4.32",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Gas flow rate for max. gas volume at 15 °C and 1013 mbar, G20 4.32 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 40/30 °C",
+      "value": "4.0 to 26.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 40/30 °C 4.0 to 26.9 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 40/30 °C",
+      "value": "4.3 to 32.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 40/30 °C 4.3 to 32.9 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 40/30 °C",
+      "value": "5.2 to 37.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 40/30 °C 5.2 to 37.8 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 50/30 °C",
+      "value": "3.9 to 26.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 50/30 °C 3.9 to 26.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 50/30 °C",
+      "value": "4.2 to 32.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 50/30 °C 4.2 to 32.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 50/30 °C",
+      "value": "5.0 to 37.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 50/30 °C 5.0 to 37.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 60/40 °C",
+      "value": "3.6 to 25.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 60/40 °C 3.6 to 25.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 60/40 °C",
+      "value": "4.0 to 31.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 60/40 °C 4.0 to 31.1 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 60/40 °C",
+      "value": "4.8 to 36.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 60/40 °C 4.8 to 36.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 80/60 °C",
+      "value": "3.5 to 24.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 80/60 °C 3.5 to 24.9 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 80/60 °C",
+      "value": "3.7 to 29.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 80/60 °C 3.7 to 29.9 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 80/60 °C",
+      "value": "4.5 to 34.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 80/60 °C 4.5 to 34.9 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. heat input for heating",
+      "value": "25.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Max. heat input for heating 25.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. heat input for heating",
+      "value": "30.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Max. heat input for heating 30.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. heat input for heating",
+      "value": "35.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Max. heat input for heating 35.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating min. heat input",
+      "value": "3.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Heating min. heat input 3.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating min. heat input",
+      "value": "4.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Heating min. heat input 4.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating min. heat input",
+      "value": "4.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Heating min. heat input 4.8 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas mass flow rate",
+      "value": "1.71 g/s (6.16 kg/h)",
+      "unit": null,
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Min. flue gas mass flow rate 1.71 g/s (6.16 kg/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas mass flow rate",
+      "value": "1.94 g/s (6.98 kg/h)",
+      "unit": null,
+      "applies_to_models": [
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Min. flue gas mass flow rate 1.94 g/s (6.98 kg/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas mass flow rate",
+      "value": "2.22 g/s (7.99 kg/h)",
+      "unit": null,
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Min. flue gas mass flow rate 2.22 g/s (7.99 kg/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flue gas mass flow rate",
+      "value": "14.68 g/s (52.85 kg/h)",
+      "unit": null,
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Max. flue gas mass flow rate 14.68 g/s (52.85 kg/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flue gas mass flow rate",
+      "value": "17.52 g/s (63.07 kg/h)",
+      "unit": null,
+      "applies_to_models": [
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Max. flue gas mass flow rate 17.52 g/s (63.07 kg/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flue gas mass flow rate",
+      "value": "20.55 g/s (73.98 kg/h)",
+      "unit": null,
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Max. flue gas mass flow rate 20.55 g/s (73.98 kg/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. DHW heat output",
+      "value": "29.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Max. DHW heat output 29.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. DHW heat output",
+      "value": "34.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Max. DHW heat output 34.3 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. DHW heat output",
+      "value": "39.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Max. DHW heat output 39.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW nominal heat input",
+      "value": "30.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "DHW nominal heat input 30.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW nominal heat input",
+      "value": "35.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "DHW nominal heat input 35.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW nominal heat input",
+      "value": "40.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "DHW nominal heat input 40.8 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input range for heating",
+      "value": "3.7 to 25.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat input range for heating 3.7 to 25.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input range for heating",
+      "value": "4.2 to 30.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat input range for heating 4.2 to 30.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input range for heating",
+      "value": "4.8 to 35.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat input range for heating 4.8 to 35.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating adjustment range",
+      "value": "3.7 to 25.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 25CS/1-5 (N-GB) ecoTEC plus 625"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Heating adjustment range 3.7 to 25.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating adjustment range",
+      "value": "4.2 to 30.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 30CS/1-5 (N-GB) ecoTEC plus 630"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Heating adjustment range 4.2 to 30.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating adjustment range",
+      "value": "4.8 to 35.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "VU 35CS/1-5 (N-GB) ecoTEC plus 635"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Heating adjustment range 4.8 to 35.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection pressure, G20 natural gas",
+      "value": "2.0 kPa (20.0 mbar)",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826",
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832",
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Gas connection pressure, G20 natural gas 2.0 kPa (20.0 mbar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx emission, weighted, G20 (EN 15502-2-1)",
+      "value": "33.20",
+      "unit": "mg/kW⋅h",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "NOx emission, weighted, G20 (EN 15502-2-1) 33.20 mg/kW⋅h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx emission, weighted, G20 (EN 15502-2-1)",
+      "value": "27.00",
+      "unit": "mg/kW⋅h",
+      "applies_to_models": [
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "NOx emission, weighted, G20 (EN 15502-2-1) 27.00 mg/kW⋅h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx emission, weighted, G20 (EN 15502-2-1)",
+      "value": "27.80",
+      "unit": "mg/kW⋅h",
+      "applies_to_models": [
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "NOx emission, weighted, G20 (EN 15502-2-1) 27.80 mg/kW⋅h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "30% efficiency, G20",
+      "value": "108.8",
+      "unit": "%",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "30% efficiency, G20 108.8 %"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "30% efficiency, G20",
+      "value": "109.4",
+      "unit": "%",
+      "applies_to_models": [
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "30% efficiency, G20 109.4 %"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "30% efficiency, G20",
+      "value": "109.1",
+      "unit": "%",
+      "applies_to_models": [
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "30% efficiency, G20 109.1 %"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate for max. gas volume at 15 °C and 1013 mbar, G20",
+      "value": "2.80",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Gas flow rate for max. gas volume at 15 °C and 1013 mbar, G20 2.80 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate for max. gas volume at 15 °C and 1013 mbar, G20",
+      "value": "3.45",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Gas flow rate for max. gas volume at 15 °C and 1013 mbar, G20 3.45 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate for max. gas volume at 15 °C and 1013 mbar, G20",
+      "value": "3.88",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Gas flow rate for max. gas volume at 15 °C and 1013 mbar, G20 3.88 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 40/30 °C",
+      "value": "2.9 to 21.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 40/30 °C 2.9 to 21.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 40/30 °C",
+      "value": "4.0 to 26.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 40/30 °C 4.0 to 26.9 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 40/30 °C",
+      "value": "4.3 to 32.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 40/30 °C 4.3 to 32.9 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 50/30 °C",
+      "value": "2.8 to 21.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 50/30 °C 2.8 to 21.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 50/30 °C",
+      "value": "3.9 to 26.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 50/30 °C 3.9 to 26.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 50/30 °C",
+      "value": "4.2 to 32.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 50/30 °C 4.2 to 32.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 60/40 °C",
+      "value": "2.6 to 20.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 20/26CS/1-5 (N-GB) ecoTEC plus 826"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 60/40 °C 2.6 to 20.3 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 60/40 °C",
+      "value": "3.6 to 25.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 25/32CS/1-5 (N-GB) ecoTEC plus 832"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 60/40 °C 3.6 to 25.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range at 60/40 °C",
+      "value": "4.0 to 31.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 30/36CS/1-5 (N-GB) ecoTEC plus 836"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Technical data – G20 output/heat input (depending on the unit version)",
+          "table_title": null,
+          "source_quote": "Nominal heat output range at 60/40 °C 4.0 to 31.1 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [],
+  "diagnostic_codes": [],
+  "status_codes": [],
+  "safety_warnings": [],
+  "maintenance_tasks": [],
+  "search_terms": [],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.0,
+    "review_required": true,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+      "overall_confidence was missing or invalid and was set to 0.0 by the pipeline.",
+      "A technical_specs item was dropped because it was missing parameter or value.",
+      "No fault codes, diagnostic codes, or status codes were extracted. Manual should be reviewed or reprocessed.",
+      "No fault_codes were extracted."
+    ]
+  }
+}
