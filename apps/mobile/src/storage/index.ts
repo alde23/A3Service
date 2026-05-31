@@ -12,6 +12,7 @@ import FaultCode from './models/FaultCode';
 import Warranty from './models/Warranty';
 import TechnicalProperty from './models/TechnicalProperty';
 import ReferenceTable from './models/ReferenceTable';
+import Expense from './models/Expense';
 import ServiceLog from './models/ServiceLog';
 import LaborEntry from './models/LaborEntry';
 import ConsumedPart from './models/ConsumedPart';
@@ -43,6 +44,7 @@ export function getDatabase(): Database {
         Warranty,
         TechnicalProperty,
         ReferenceTable,
+        Expense,
         ServiceLog,
         LaborEntry,
         ConsumedPart,

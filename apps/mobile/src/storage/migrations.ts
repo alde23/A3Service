@@ -7,6 +7,29 @@ import {
 export const migrations = schemaMigrations({
   migrations: [
     {
+      toVersion: 4,
+      steps: [
+        addColumns({
+          table: 'service_logs',
+          columns: [
+            { name: 'skipped_validation', type: 'boolean', isOptional: true },
+          ],
+        }),
+        createTable({
+          name: 'expenses',
+          columns: [
+            { name: 'job_id', type: 'string', isOptional: true, isIndexed: true },
+            { name: 'amount', type: 'number' },
+            { name: 'currency', type: 'string', isOptional: true },
+            { name: 'description', type: 'string', isOptional: true },
+            { name: 'incurred_at', type: 'number' },
+            { name: 'skipped_validation', type: 'boolean', isOptional: true },
+            { name: 'remote_id', type: 'string', isOptional: true, isIndexed: true },
+          ],
+        }),
+      ],
+    },
+    {
       toVersion: 3,
       steps: [
         createTable({

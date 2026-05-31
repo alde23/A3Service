@@ -27,6 +27,7 @@ export type ServiceLogDto = {
   status: ServiceLogStatus;
   summary?: string | null;
   notes?: string | null;
+  skippedValidation: boolean;
   syncedAt?: string | null;
   createdAt: string;
   updatedAt: string;

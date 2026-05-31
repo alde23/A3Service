@@ -121,12 +121,18 @@ export class JobsService {
         throw new NotFoundException('Job not found');
       }
 
-      // Technicians can only update status/notes on their own jobs.
       return this.prisma.job.update({
         where: { id },
         data: {
+          scheduledDate,
+          estimatedDuration: dto.estimatedDuration,
           status: dto.status,
+          priority: dto.priority,
           notes: dto.notes,
+          technicianId: dto.technicianId,
+          managerId: dto.managerId,
+          siteId: dto.siteId,
+          rawAddress: dto.rawAddress,
         },
       });
     }
