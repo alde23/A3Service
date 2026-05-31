@@ -33,7 +33,7 @@
       "executor": "@nx/vitest:test",
       "outputs": ["{workspaceRoot}/coverage/apps/api"],
       "options": {
-        "config": "apps/api/vitest.config.ts"
+        "config": "apps/api/vitest.config.mts"
       }
     },
     "prune-lockfile": {

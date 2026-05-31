@@ -39,4 +39,16 @@ export default [
     // Override or add rules here
     rules: {},
   },
+  {
+    files: [
+      '**/*.spec.ts',
+      '**/*.spec.tsx',
+      '**/*.test.ts',
+      '**/*.test.tsx',
+      '**/test-setup.ts'
+    ],
+    rules: {
+      '@typescript-eslint/no-explicit-any': 'off'
+    }
+  }
 ];

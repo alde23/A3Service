@@ -1,5 +1,5 @@
 import { describe, expect, it, beforeEach, vi } from 'vitest';
-import { BadRequestException } from '@nestjs/common';
+
 import { Prisma, ServiceLogStatus, SyncResult, UserRole } from '../../generated/prisma/client';
 import type { PrismaService } from '../../prisma/prisma.service';
 import { ServiceLogService } from './service-logs.service';
@@ -160,6 +160,20 @@ describe('ServiceLogService', () => {
     prisma.$transaction.mockImplementation(async (cb) => cb(prisma));
     prisma.part.findMany.mockResolvedValue([{ id: 'part-1' }]);
     prisma.serviceLog.update.mockResolvedValue({
+      id: 'log-1',
+      jobId: 'job-1',
+      status: ServiceLogStatus.SYNCED,
+      summary: null,
+      notes: null,
+      syncedAt: now,
+      isDeleted: false,
+      deletedAt: null,
+      createdAt: now,
+      updatedAt: now,
+      laborEntries: [],
+      consumedParts: [],
+    });
+    prisma.serviceLog.findUnique.mockResolvedValue({
       id: 'log-1',
       jobId: 'job-1',
       status: ServiceLogStatus.SYNCED,

@@ -100,7 +100,7 @@ export default function JobsScreen() {
     } else {
       void ensureJobsSeeded();
     }
-  }, [token]);
+  }, [token, t]);
 
   const todayJobsCount = useMemo(
     () =>

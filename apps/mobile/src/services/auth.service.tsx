@@ -174,7 +174,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         setLoading(false);
       }
     })();
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [devBypassEnabled, devBypassToken]);
 
   const login = async (email: string, password: string) => {
     if (devBypassEnabled) {
