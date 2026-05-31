@@ -1,0 +1,1632 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Bosch",
+    "product_family": "96% AFUE Gas Furnace",
+    "model_names": [
+      "BGH96 Model"
+    ],
+    "manual_type": "troubleshooting_guide",
+    "document_title": "Bosch 96% AFUE Gas Furnace BGH96 Model Troubleshooting Guide",
+    "document_code": "BTC 770502101 E",
+    "publication_date": "02.2025",
+    "language": "en",
+    "region": null,
+    "source_file": "bosch_bgh96_troubleshooting-guide_bosch-96-furnace-revb-troubleshooting-guide-02-2025.pdf",
+    "file_hash": "de7c5bfb5249c52749da53e3ea9d84f19d3f7bfd52b2a0d5d161753ea1a67b2c"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Flame sense signal",
+      "value": "0.5 - 6",
+      "unit": "microamps",
+      "applies_to_models": [],
+      "category": "ignition",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4.2 E7 (System Lock-Out due to Failed Ignition) E8 (System Lock-Out due to too Many Flame Dropouts)",
+          "table_title": null,
+          "source_quote": "The flame sense signal should be 0.5 - 6 microamps."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Manifold Gas Pressure",
+      "value": "3.5",
+      "unit": "in. W.C.",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "E7 (System Lock-Out due to Failed Ignition) E8 (System Lock-Out due to too Many Flame Dropouts) Figures & Tables",
+          "table_title": "Table 2 Manifold Gas Pressure",
+          "source_quote": "Natural Gas 3.5 in. W.C."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Manifold Gas Pressure",
+      "value": "10",
+      "unit": "in. W.C.",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "E7 (System Lock-Out due to Failed Ignition) E8 (System Lock-Out due to too Many Flame Dropouts) Figures & Tables",
+          "table_title": "Table 2 Manifold Gas Pressure",
+          "source_quote": "Propane Gas 10 in. W.C."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Inlet Gas Supply Pressure Minimum",
+      "value": "4.5",
+      "unit": "in. W.C.",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "E7 (System Lock-Out due to Failed Ignition) E8 (System Lock-Out due to too Many Flame Dropouts) Figures & Tables",
+          "table_title": "Table 3 Inlet Gas Supply Pressure",
+          "source_quote": "Natural Gas Minimum: 4.5 in. W.C."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Inlet Gas Supply Pressure Maximum",
+      "value": "10.5",
+      "unit": "in. W.C.",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "E7 (System Lock-Out due to Failed Ignition) E8 (System Lock-Out due to too Many Flame Dropouts) Figures & Tables",
+          "table_title": "Table 3 Inlet Gas Supply Pressure",
+          "source_quote": "Natural Gas Maximum: 10.5 in. W.C."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Inlet Gas Supply Pressure Minimum",
+      "value": "11.0",
+      "unit": "in. W.C.",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "E7 (System Lock-Out due to Failed Ignition) E8 (System Lock-Out due to too Many Flame Dropouts) Figures & Tables",
+          "table_title": "Table 3 Inlet Gas Supply Pressure",
+          "source_quote": "Propane Gas Minimum: 11.0 in. W.C."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Inlet Gas Supply Pressure Maximum",
+      "value": "13.0",
+      "unit": "in. W.C.",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "E7 (System Lock-Out due to Failed Ignition) E8 (System Lock-Out due to too Many Flame Dropouts) Figures & Tables",
+          "table_title": "Table 3 Inlet Gas Supply Pressure",
+          "source_quote": "Propane Gas Maximum: 13.0 in. W.C."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Low Pressure Switch Set Point",
+      "value": "0.55",
+      "unit": "in. WC",
+      "applies_to_models": [],
+      "category": "pressure",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "E2 (Low Pressure Switch Stuck Open) E4 (Pressure Switch Cycle Lockout) E3 (High Pressure Switch Stuck Open) Figures",
+          "table_title": null,
+          "source_quote": "(1) Low Pressure Switch Set Point: 0.55 in. WC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "High Pressure Switch Set Point",
+      "value": "1.1",
+      "unit": "in. WC",
+      "applies_to_models": [],
+      "category": "pressure",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "E2 (Low Pressure Switch Stuck Open) E4 (Pressure Switch Cycle Lockout) E3 (High Pressure Switch Stuck Open) Figures",
+          "table_title": null,
+          "source_quote": "(2) High Pressure Switch Set Point: 1.1 in. WC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Temperature rise range",
+      "value": "40-55",
+      "unit": "°F",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "4.5 E5 (Limit/Rollout Switch Open Less than 5 Mins) E6 (Limit/Rollout Switch Open More than 5 Mins)",
+          "table_title": null,
+          "source_quote": "Verify that the temperature rise is between 40-55°F."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rollout switch - resettable",
+      "value": "300",
+      "unit": "°F",
+      "applies_to_models": [
+        "BGH96M060B3B",
+        "BGH96M080B3B",
+        "BGH96M080C4B",
+        "BGH96M100C5B",
+        "BGH96M100D5B",
+        "BGH96M120D5B"
+      ],
+      "category": "safety",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "E5(Limit/Rollout Switch Open Less than 5 Mins) E6 (Limit/Rollout Switch Open More than 5 Mins) Figures & Tables",
+          "table_title": "Table 4",
+          "source_quote": "Rollout switch - resettable 300"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Chamber Limit Switch - fixed",
+      "value": "150/120",
+      "unit": "°F",
+      "applies_to_models": [
+        "BGH96M060B3B",
+        "BGH96M080B3B",
+        "BGH96M080C4B",
+        "BGH96M100C5B",
+        "BGH96M100D5B",
+        "BGH96M120D5B"
+      ],
+      "category": "safety",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "E5(Limit/Rollout Switch Open Less than 5 Mins) E6 (Limit/Rollout Switch Open More than 5 Mins) Figures & Tables",
+          "table_title": "Table 4",
+          "source_quote": "Chamber Limit Switch - fixed Off/On °F 150/120"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Fan Mounted Temperature Limit Switch",
+      "value": "100/85",
+      "unit": "°F",
+      "applies_to_models": [
+        "BGH96M060B3B",
+        "BGH96M080B3B",
+        "BGH96M080C4B",
+        "BGH96M100C5B",
+        "BGH96M100D5B",
+        "BGH96M120D5B"
+      ],
+      "category": "safety",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "E5(Limit/Rollout Switch Open Less than 5 Mins) E6 (Limit/Rollout Switch Open More than 5 Mins) Figures & Tables",
+          "table_title": "Table 4",
+          "source_quote": "Fan Mounted Temperature Limit Switch Off/On °F 100/85"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Inducer start on HIGH speed and low pressure switch closes duration (W1 signal)",
+      "value": "15",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "A1.1 Low Fire Heating Mode Logic (only W1 signal):",
+          "table_title": null,
+          "source_quote": "When there is a call for heat (W1), the inducer will start on HIGH speed and the low pressure switch closes. This will last for 15s."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Inducer to low speed and ignitor energize preheating sequence duration (W1 signal)",
+      "value": "17",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "A1.1 Low Fire Heating Mode Logic (only W1 signal):",
+          "table_title": null,
+          "source_quote": "Inducer will turn to low speed and ignitor will energize. This preheating sequence lasts for 17s."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Ignitor turn off after gas valve opens and burners light duration (W1 signal)",
+      "value": "3",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "A1.1 Low Fire Heating Mode Logic (only W1 signal):",
+          "table_title": null,
+          "source_quote": "After preheating, gas valve opens and the burners light. The ignitor will turn off after 3s."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Time delay before blower motor starts (W1 signal)",
+      "value": "30",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "A1.1 Low Fire Heating Mode Logic (only W1 signal):",
+          "table_title": null,
+          "source_quote": "There is 30s time delay before blower motor starts."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Post-purge duration (W1 signal)",
+      "value": "15",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "A1.1 Low Fire Heating Mode Logic (only W1 signal):",
+          "table_title": null,
+          "source_quote": "When there is no call for heat (no W1 call) and no flame is sensed, post-purge begins. This will last for 15s."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Fan delay to dissipate heat (W1 signal, default)",
+      "value": "90",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "A1.1 Low Fire Heating Mode Logic (only W1 signal):",
+          "table_title": null,
+          "source_quote": "There is a fan delay to dissipate heat in the system. This time depends on the dip switch S2-1 & S2-2. The default time is 90s."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Inducer start on HIGH speed and low pressure switch closes duration (W1+W2 signal)",
+      "value": "15",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "A1.2 High Fire Heating Mode Logic (W1+W2 Signal):",
+          "table_title": null,
+          "source_quote": "When there is a call for heat (W1), the inducer will start on HIGH speed and the low pressure switch closes. This will last for 15s."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Inducer to low speed and ignitor energize preheating sequence duration (W1+W2 signal)",
+      "value": "17",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "A1.2 High Fire Heating Mode Logic (W1+W2 Signal):",
+          "table_title": null,
+          "source_quote": "Inducer will turn to low speed and ignitor will energize. This preheating sequence lasts for 17s."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Ignitor turn off after gas valve opens and burners light duration (W1+W2 signal)",
+      "value": "3",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "A1.2 High Fire Heating Mode Logic (W1+W2 Signal):",
+          "table_title": null,
+          "source_quote": "After preheating, gas valve opens and the burners light. The ignitor will turn off after 3s."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Delay before gas valve, inducer, pressure switch turn to high stage (W1+W2 signal)",
+      "value": "5",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "A1.2 High Fire Heating Mode Logic (W1+W2 Signal):",
+          "table_title": null,
+          "source_quote": "Before gas valve, inducer, pressure switch turn to high stage, there is a 5s delay."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Time delay before blower motor starts (W1+W2 signal)",
+      "value": "30",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "A1.2 High Fire Heating Mode Logic (W1+W2 Signal):",
+          "table_title": null,
+          "source_quote": "There is a time delay of 30s before blower motor starts."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Time delay before inducer shuts down (W1+W2 signal)",
+      "value": "15",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "A1.2 High Fire Heating Mode Logic (W1+W2 Signal):",
+          "table_title": null,
+          "source_quote": "When there is no call for heat, there is a time delay before inducer shuts down. This will last for 15s."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Blower motor run at high speed for fan delay (W1+W2 signal)",
+      "value": "30",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "A1.2 High Fire Heating Mode Logic (W1+W2 Signal):",
+          "table_title": null,
+          "source_quote": "The blower motor will run at high speed for 30s for fan delay."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Fan delay to dissipate heat (W1+W2 signal, default)",
+      "value": "90",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "A1.2 High Fire Heating Mode Logic (W1+W2 Signal):",
+          "table_title": null,
+          "source_quote": "There is a fan delay to dissipate heat in the system. This time depends on the dip switch S2-1 & S2-2. The default time is 90s."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Inducer start on HIGH speed and low pressure switch closes duration (Ignition Failure)",
+      "value": "15",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "A2 Ignition Failure and Reignition Sequence",
+          "table_title": null,
+          "source_quote": "When there is a call for heat (W1), the inducer will start on HIGH speed and the low pressure switch closes. This will last for 15s."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Inducer to low speed and ignitor energize preheating sequence duration (Ignition Failure)",
+      "value": "17",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "A2 Ignition Failure and Reignition Sequence",
+          "table_title": null,
+          "source_quote": "Inducer will turn to low speed and ignitor will energize. This preheating sequence lasts for 17s."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Ignitor turn off after gas valve opens and burners light duration (Ignition Failure)",
+      "value": "3",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "A2 Ignition Failure and Reignition Sequence",
+          "table_title": null,
+          "source_quote": "After preheating, gas valve opens and the burners light. The ignitor will turn off after 3s."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas valve open duration if no flame (Ignition Failure)",
+      "value": "4",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "A2 Ignition Failure and Reignition Sequence",
+          "table_title": null,
+          "source_quote": "The gas valve will open for 4s if there is no flame."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Inducer run at high speed duration (Ignition Failure)",
+      "value": "60",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "A2 Ignition Failure and Reignition Sequence",
+          "table_title": null,
+          "source_quote": "The inducer will run at high speed for 60s."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Preheating duration (Ignition Failure)",
+      "value": "27",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "A2 Ignition Failure and Reignition Sequence",
+          "table_title": null,
+          "source_quote": "Preheating occurs for 27s."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Ignitor turn off after preheating, gas valve opens duration (Ignition Failure)",
+      "value": "3",
+      "unit": "s",
+      "applies_to_models": [],
+      "category": "operation_timing",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "A2 Ignition Failure and Reignition Sequence",
+          "table_title": null,
+          "source_quote": "After preheating, gas valve opens. The ignitor will turn off after 3s."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "No Displayed Codes and No Fan",
+      "description": "System Does Not Start Normally",
+      "possible_causes": [
+        "Loose wires or wrong connections",
+        "No power to the unit",
+        "Door switch not working properly",
+        "Blower access door not closed or fixed properly",
+        "Transformer not working properly",
+        "Blown fuse",
+        "PCB Board not sending 18-31V signals",
+        "No call for heat",
+        "No call for fan",
+        "No power to the circulating fan motor",
+        "Thermostat settings incorrect or faulty thermostat"
+      ],
+      "manufacturer_steps": [
+        "Correct wiring according to wiring diagram",
+        "Check for 115Vac power supply between L1 and common terminal (Figure 1)",
+        "Check for 18-31Vac power between these 2 terminals with multi-meter (Figure 3)",
+        "Replace the door switch",
+        "Ensure the blower access door is closed properly",
+        "Replace the transformer",
+        "Replace the fuse",
+        "Check for 18-31Vac power between \"R\" & \"C\" terminals with multi-meter (Figure 4)",
+        "Check the incoming power supply at connection box",
+        "Replace the control board",
+        "Check for 18-31Vac power between \"W/W1\" & \"C\" terminals with multi-meter (Figure 5)",
+        "Check for 18-31Vac power between \"G\" & \"C\" terminals with multi-meter (Figure 6)",
+        "Check the thermostat settings and/or replace the thermostat",
+        "Check for 18-31Vac power between Hi-heat/lo-heat/hi-cool/lo-cool and COM with multi-meter (Figure 7)",
+        "Check for 115Vac power supply between CIRC-H and N with multi-meter (Figure 7)",
+        "Replace the circulating fan motor"
+      ],
+      "cautions_or_notes": [
+        "Leave \"Park\" terminal unused."
+      ],
+      "symptoms": [
+        "No fan operation",
+        "System does not start normally"
+      ],
+      "related_components": [
+        "Wires",
+        "Control board",
+        "Transformer",
+        "Door switch",
+        "Blower access door",
+        "Fuse",
+        "Thermostat",
+        "Circulating fan motor"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "no power",
+        "no fan",
+        "start failure",
+        "wiring",
+        "fuse",
+        "transformer",
+        "control board",
+        "thermostat",
+        "motor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.1 No Displayed Codes and No Fan (System Does Not Start Normally)",
+          "table_title": "Troubleshooting Chart",
+          "source_quote": "No Displayed Codes and No Fan (System Does Not Start Normally)"
+        },
+        {
+          "page_number": 8,
+          "section_title": "No Displayed Codes and No Fan (System Does Not Start Normally) Figures & Tables",
+          "table_title": null,
+          "source_quote": "1. Check for 115Vac power supply between L1 and common terminal"
+        },
+        {
+          "page_number": 9,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "1. Check for 18-31Vac power between \"W/W1\" & \"C\" terminals with multi-meter"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "E7",
+      "description": "System Lock-Out due to Failed Ignition",
+      "possible_causes": [
+        "Loose wires or wrong connections",
+        "Gas valve switched to 'Off' position",
+        "Ignitor not glowing red/orange",
+        "Ignitor not working properly",
+        "No power to the ignitor",
+        "Flame not reaching the flame sensor",
+        "Flame sensor dirty or broken",
+        "Manifold gas pressure not meeting requirement",
+        "Inlet gas pressure not meeting requirement",
+        "Orifices blocked or clogged"
+      ],
+      "manufacturer_steps": [
+        "Correct wiring according to wiring diagram",
+        "Turn the gas valve switch to 'On'",
+        "Replace the ignitor",
+        "Check the wire connections between ignitor and PCB Board",
+        "Clean with steel wool or replace the flame sensor",
+        "Adjust gas valve to ensure it meets gas pressure requirement",
+        "Replace the gas valve if the pressure cannot be adjusted",
+        "Adjust the inlet gas pressure",
+        "Remove the blockage",
+        "Replace the PCB board"
+      ],
+      "cautions_or_notes": [
+        "The flame sense signal should be 0.5 - 6 microamps."
+      ],
+      "symptoms": [
+        "System lockout",
+        "Failed ignition"
+      ],
+      "related_components": [
+        "Wires",
+        "Gas valve",
+        "Ignitor",
+        "Flame sensor",
+        "PCB board",
+        "Burner orifices"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition",
+        "lockout",
+        "flame",
+        "gas pressure",
+        "ignitor",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4.2 E7 (System Lock-Out due to Failed Ignition) E8 (System Lock-Out due to too Many Flame Dropouts)",
+          "table_title": "Troubleshooting Chart",
+          "source_quote": "E7 (System Lock-Out due to Failed Ignition)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "E8",
+      "description": "System Lock-Out due to too Many Flame Dropouts",
+      "possible_causes": [
+        "Loose wires or wrong connections",
+        "Gas valve switched to 'Off' position",
+        "Ignitor not glowing red/orange",
+        "Ignitor not working properly",
+        "No power to the ignitor",
+        "Flame not reaching the flame sensor",
+        "Flame sensor dirty or broken",
+        "Manifold gas pressure not meeting requirement",
+        "Inlet gas pressure not meeting requirement",
+        "Orifices blocked or clogged"
+      ],
+      "manufacturer_steps": [
+        "Correct wiring according to wiring diagram",
+        "Turn the gas valve switch to 'On'",
+        "Replace the ignitor",
+        "Check the wire connections between ignitor and PCB Board",
+        "Clean with steel wool or replace the flame sensor",
+        "Adjust gas valve to ensure it meets gas pressure requirement",
+        "Replace the gas valve if the pressure cannot be adjusted",
+        "Adjust the inlet gas pressure",
+        "Remove the blockage",
+        "Replace the PCB board"
+      ],
+      "cautions_or_notes": [
+        "The flame sense signal should be 0.5 - 6 microamps."
+      ],
+      "symptoms": [
+        "System lockout",
+        "Too many flame dropouts"
+      ],
+      "related_components": [
+        "Wires",
+        "Gas valve",
+        "Ignitor",
+        "Flame sensor",
+        "PCB board",
+        "Burner orifices"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition",
+        "lockout",
+        "flame",
+        "gas pressure",
+        "ignitor",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4.2 E7 (System Lock-Out due to Failed Ignition) E8 (System Lock-Out due to too Many Flame Dropouts)",
+          "table_title": "Troubleshooting Chart",
+          "source_quote": "E8 (System Lock-Out due to too Many Flame Dropouts)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "E1",
+      "description": "Low Fire Pressure Switch Stuck Closed",
+      "possible_causes": [
+        "Loose wires or wrong connections",
+        "Low fire pressure switch stuck closed",
+        "Blocked vent"
+      ],
+      "manufacturer_steps": [
+        "Correct wiring according to the wiring diagram",
+        "Replace the pressure switch",
+        "Replace the PCB Board",
+        "Check vent for obstructions"
+      ],
+      "cautions_or_notes": [
+        "This error could also be caused by a blocked vent. Check vent for obstructions. If a vent is blocked, unit's safety protection logic will turn off unit."
+      ],
+      "symptoms": [],
+      "related_components": [
+        "Wires",
+        "Low fire pressure switch",
+        "PCB Board",
+        "Vent"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure switch",
+        "stuck closed",
+        "vent",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "4.3 E1 (Low Fire Pressure Switch Stuck Closed)",
+          "table_title": "Troubleshooting Chart",
+          "source_quote": "E1 (Low Fire Pressure Switch Stuck Closed)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "E2",
+      "description": "Low Pressure Switch Stuck Open",
+      "possible_causes": [
+        "Loose wires or wrong connections",
+        "Pressure switch not closed",
+        "Blockage in the pressure hose or loose hose",
+        "Blockage in the exhaust pipe",
+        "Incorrect pressure at the pressure switch"
+      ],
+      "manufacturer_steps": [
+        "Correct wiring according to the wiring diagram",
+        "Replace the PCB Board",
+        "Remove blockage or fix the pressure hose",
+        "Remove blockage in the exhaust pipe",
+        "Replace the inducer",
+        "Replace the pressure switch"
+      ],
+      "cautions_or_notes": [
+        "The pressure switch that you are checking in this step depends on the fault code displayed on the LCD screen. Refer to the code descriptions above for troubleshooting steps."
+      ],
+      "symptoms": [],
+      "related_components": [
+        "Wires",
+        "Pressure switch",
+        "PCB Board",
+        "Pressure hose",
+        "Exhaust pipe",
+        "Inducer"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure switch",
+        "stuck open",
+        "hose",
+        "exhaust",
+        "inducer",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "4.4 E2 (Low Pressure Switch Stuck Open) E4 (Pressure Switch Cycle Lockout) E3 (High Pressure Switch Stuck Open)",
+          "table_title": "Troubleshooting Chart",
+          "source_quote": "E2 (Low Pressure Switch Stuck Open)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "E4",
+      "description": "Pressure Switch Cycle Lockout",
+      "possible_causes": [
+        "Loose wires or wrong connections",
+        "Pressure switch not closed",
+        "Blockage in the pressure hose or loose hose",
+        "Blockage in the exhaust pipe",
+        "Incorrect pressure at the pressure switch"
+      ],
+      "manufacturer_steps": [
+        "Correct wiring according to the wiring diagram",
+        "Replace the PCB Board",
+        "Remove blockage or fix the pressure hose",
+        "Remove blockage in the exhaust pipe",
+        "Replace the inducer",
+        "Replace the pressure switch"
+      ],
+      "cautions_or_notes": [
+        "The pressure switch that you are checking in this step depends on the fault code displayed on the LCD screen. Refer to the code descriptions above for troubleshooting steps."
+      ],
+      "symptoms": [
+        "System lockout"
+      ],
+      "related_components": [
+        "Wires",
+        "Pressure switch",
+        "PCB Board",
+        "Pressure hose",
+        "Exhaust pipe",
+        "Inducer"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure switch",
+        "lockout",
+        "hose",
+        "exhaust",
+        "inducer",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "4.4 E2 (Low Pressure Switch Stuck Open) E4 (Pressure Switch Cycle Lockout) E3 (High Pressure Switch Stuck Open)",
+          "table_title": "Troubleshooting Chart",
+          "source_quote": "E4 (Pressure Switch Cycle Lockout)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "E3",
+      "description": "High Pressure Switch Stuck Open",
+      "possible_causes": [
+        "Loose wires or wrong connections",
+        "Pressure switch not closed",
+        "Blockage in the pressure hose or loose hose",
+        "Blockage in the exhaust pipe",
+        "Incorrect pressure at the pressure switch"
+      ],
+      "manufacturer_steps": [
+        "Correct wiring according to the wiring diagram",
+        "Replace the PCB Board",
+        "Remove blockage or fix the pressure hose",
+        "Remove blockage in the exhaust pipe",
+        "Replace the inducer",
+        "Replace the pressure switch"
+      ],
+      "cautions_or_notes": [
+        "The pressure switch that you are checking in this step depends on the fault code displayed on the LCD screen. Refer to the code descriptions above for troubleshooting steps."
+      ],
+      "symptoms": [],
+      "related_components": [
+        "Wires",
+        "Pressure switch",
+        "PCB Board",
+        "Pressure hose",
+        "Exhaust pipe",
+        "Inducer"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure switch",
+        "stuck open",
+        "hose",
+        "exhaust",
+        "inducer",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "4.4 E2 (Low Pressure Switch Stuck Open) E4 (Pressure Switch Cycle Lockout) E3 (High Pressure Switch Stuck Open)",
+          "table_title": "Troubleshooting Chart",
+          "source_quote": "E3 (High Pressure Switch Stuck Open)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "E5",
+      "description": "Limit/Rollout Switch Open Less than 5 Mins",
+      "possible_causes": [
+        "Loose wires or wrong connections",
+        "Limit switches not working properly",
+        "Blockage in the exhaust pipe",
+        "Rollout limit switch showing resistance other than '0'",
+        "Chamber/fan mounted limit switches not in right modes",
+        "Circulating fan motor not turning on after 30s delay",
+        "Blockage on the filter",
+        "Circulating fan motor speed not correctly set"
+      ],
+      "manufacturer_steps": [
+        "Correct wiring according to wiring diagram",
+        "Turn off the equipment for 10 minutes to ensure sufficient cooling off period. Measure the resistance between two leads on the limit switches",
+        "Replace the (chamber/fan mounted) Limit Switch",
+        "Replace the PCB Board",
+        "Remove blockage in the exhaust pipe",
+        "Replace the Rollout Switch",
+        "Manual reset of the limit switch (by pressing the button on switch)",
+        "Replace the Limit Switch",
+        "Replace the circulating fan motor",
+        "Clean/Replace the filter",
+        "Check the airflow duct for blockage",
+        "Correct the circulating fan motor speed or replace the motor if necessary"
+      ],
+      "cautions_or_notes": [
+        "\"SW2\" is used for the fan delay after burner starts.",
+        "Verify that the temperature rise is between 40-55°F."
+      ],
+      "symptoms": [],
+      "related_components": [
+        "Wires",
+        "Limit switches",
+        "Rollout switch",
+        "Exhaust pipe",
+        "PCB Board",
+        "Circulating fan motor",
+        "Filter",
+        "Airflow duct"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "limit switch",
+        "rollout switch",
+        "open",
+        "fan motor",
+        "filter",
+        "exhaust",
+        "temperature"
+      ],
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "4.5 E5 (Limit/Rollout Switch Open Less than 5 Mins) E6 (Limit/Rollout Switch Open More than 5 Mins)",
+          "table_title": "Troubleshooting Chart",
+          "source_quote": "E5 (Limit/Rollout Switch Open Less than 5 Mins)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "E6",
+      "description": "Limit/Rollout Switch Open More than 5 Mins",
+      "possible_causes": [
+        "Loose wires or wrong connections",
+        "Limit switches not working properly",
+        "Blockage in the exhaust pipe",
+        "Rollout limit switch showing resistance other than '0'",
+        "Chamber/fan mounted limit switches not in right modes",
+        "Circulating fan motor not turning on after 30s delay",
+        "Blockage on the filter",
+        "Circulating fan motor speed not correctly set"
+      ],
+      "manufacturer_steps": [
+        "Correct wiring according to wiring diagram",
+        "Turn off the equipment for 10 minutes to ensure sufficient cooling off period. Measure the resistance between two leads on the limit switches",
+        "Replace the (chamber/fan mounted) Limit Switch",
+        "Replace the PCB Board",
+        "Remove blockage in the exhaust pipe",
+        "Replace the Rollout Switch",
+        "Manual reset of the limit switch (by pressing the button on switch)",
+        "Replace the Limit Switch",
+        "Replace the circulating fan motor",
+        "Clean/Replace the filter",
+        "Check the airflow duct for blockage",
+        "Correct the circulating fan motor speed or replace the motor if necessary"
+      ],
+      "cautions_or_notes": [
+        "\"SW2\" is used for the fan delay after burner starts.",
+        "Verify that the temperature rise is between 40-55°F."
+      ],
+      "symptoms": [],
+      "related_components": [
+        "Wires",
+        "Limit switches",
+        "Rollout switch",
+        "Exhaust pipe",
+        "PCB Board",
+        "Circulating fan motor",
+        "Filter",
+        "Airflow duct"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "limit switch",
+        "rollout switch",
+        "open",
+        "fan motor",
+        "filter",
+        "exhaust",
+        "temperature"
+      ],
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "4.5 E5 (Limit/Rollout Switch Open Less than 5 Mins) E6 (Limit/Rollout Switch Open More than 5 Mins)",
+          "table_title": "Troubleshooting Chart",
+          "source_quote": "E6 (Limit/Rollout Switch Open More than 5 Mins)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "FE",
+      "description": "Flame Sensed with Gas Valve Off",
+      "possible_causes": [
+        "Loose wires or wrong connections for flame sensor",
+        "Flame sensor not sitting in correct location"
+      ],
+      "manufacturer_steps": [
+        "Correct wiring according to the wiring diagram",
+        "Correct the flame sensor location",
+        "Restart system",
+        "Replace flame sensor",
+        "Replace control board"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Wires",
+        "Flame sensor",
+        "Control board"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame sensor",
+        "gas valve",
+        "wiring",
+        "control board"
+      ],
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "4.6 FE (Flame Sensed with Gas Valve Off)",
+          "table_title": "Troubleshooting Chart",
+          "source_quote": "FE (Flame Sensed with Gas Valve Off)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "PR",
+      "description": "Incorrect Polarity of L1/L2",
+      "possible_causes": [
+        "Incorrect wire connection (black and white wire)"
+      ],
+      "manufacturer_steps": [
+        "Correct the wire connection (black and white wire) according to wiring diagram. See Figure 24."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Wiring"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "polarity",
+        "wiring",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "4.7 PR (Incorrect Polarity of L1/L2)",
+          "table_title": "Troubleshooting Chart",
+          "source_quote": "PR (Incorrect Polarity of L1/L2)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "FL",
+      "description": "Low Flame",
+      "possible_causes": [
+        "Manifold gas pressure not meeting requirement",
+        "Inlet gas pressure not meeting requirement",
+        "Flame sensor dirty or broken",
+        "PCB Board not grounded properly",
+        "Orifices blocked or clogged"
+      ],
+      "manufacturer_steps": [
+        "Adjust the gas valve to ensure manifold gas pressure meets the required values",
+        "Replace the gas valve if the pressure cannot be adjusted",
+        "Adjust the inlet gas pressure",
+        "Clean with steel wool or replace the Flame Sensor",
+        "Properly ground the PCB Board",
+        "Remove the blockage",
+        "Replace the PCB Board"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve",
+        "Flame sensor",
+        "PCB Board",
+        "Burner orifices"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "low flame",
+        "gas pressure",
+        "flame sensor",
+        "grounding",
+        "orifices",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "4.8 FL (Low Flame)",
+          "table_title": "Troubleshooting Chart",
+          "source_quote": "FL (Low Flame)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    }
+  ],
+  "diagnostic_codes": [],
+  "status_codes": [
+    {
+      "code": "--",
+      "meaning": "standby mode",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "3 Normal Operation Codes",
+          "table_title": "Table 1",
+          "source_quote": "-- standby mode"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H1",
+      "meaning": "1st stage heating",
+      "operating_mode": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "3 Normal Operation Codes",
+          "table_title": "Table 1",
+          "source_quote": "H1 1st stage heating"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H2",
+      "meaning": "2nd stage heating",
+      "operating_mode": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "3 Normal Operation Codes",
+          "table_title": "Table 1",
+          "source_quote": "H2 2nd stage heating"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "CF",
+      "meaning": "fan mode only",
+      "operating_mode": "fan",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "3 Normal Operation Codes",
+          "table_title": "Table 1",
+          "source_quote": "CF fan mode only"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "C1",
+      "meaning": "1st stage cooling",
+      "operating_mode": "cooling",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "3 Normal Operation Codes",
+          "table_title": "Table 1",
+          "source_quote": "C1 1st stage cooling"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "C2",
+      "meaning": "2nd stage cooling",
+      "operating_mode": "cooling",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "3 Normal Operation Codes",
+          "table_title": "Table 1",
+          "source_quote": "C2 2nd stage cooling"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "safety_warnings": [
+    {
+      "warning_type": "warning",
+      "topic": "Untrained personnel / Service",
+      "text": "Untrained personnel (homeowners) may only clean and replace filters and replace fuses as required by basic maintenance. All other operations, including installation, repair, and service must be performed by a qualified installer, service agency, or the gas supplier.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.2 Safety",
+          "table_title": null,
+          "source_quote": "Untrained personnel (homeowners) may only clean and replace filters and replace fuses as required by basic maintenance. All other operations, including installation, repair, and service must be performed by a qualified installer, service agency, or the gas supplier."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Fire or Explosion Hazard",
+      "text": "Do not store or use gasoline or other flammable vapors and liquids in the vicinity of this or any other appliance.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.2 Safety",
+          "table_title": null,
+          "source_quote": "WARNING: FIRE OR EXPLOSION HAZARD Do not store or use gasoline or other flammable vapors and liquids in the vicinity of this or any other appliance."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Gas Leak",
+      "text": "WHAT TO DO IF YOU SMELL GAS: Do not try to light any appliance. Do not touch any electrical switch; do not use any phone in your building. Leave the building immediately. Immediately call your gas supplier from a neighbor's phone. Follow the gas supplier's instructions. If you cannot reach your gas supplier, call the fire department. Installation and service must be performed by a qualified installer, service agency, or the gas supplier.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.2 Safety",
+          "table_title": null,
+          "source_quote": "WHAT TO DO IF YOU SMELL GAS: Do not try to light any appliance. Do not touch any electrical switch; do not use any phone in your building. Leave the building immediately. Immediately call your gas supplier from a neighbor's phone. Follow the gas supplier's instructions. If you cannot reach your gas supplier, call the fire department. Installation and service must be performed by a qualified installer, service agency, or the gas supplier."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Flood-damaged furnace",
+      "text": "Do not use this furnace if any part has been under water. A flood-damaged furnace is extremely dangerous. Attempts to use the furnace can result in fire or explosion. A qualified service agent must inspect the furnace and replace all gas controls, control system parts, and electrical parts that have been wet, or the furnace if deemed necessary.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.2 Safety",
+          "table_title": null,
+          "source_quote": "WARNING: Do not use this furnace if any part has been under water. A flood-damaged furnace is extremely dangerous. Attempts to use the furnace can result in fire or explosion. A qualified service agent must inspect the furnace and replace all gas controls, control system parts, and electrical parts that have been wet, or the furnace if deemed necessary."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Fire or Explosion Hazard - Fuel Type",
+      "text": "The furnace is designed and approved for use with Natural Gas and Propane (LP) Gas ONLY. DO NOT BURN ANY LIQUID FUEL OR SOLID FUEL IN THIS FURNACE. Burning any unapproved fuel will result in damage to the furnace's heat exchanger, which could result in Fire, Personal Injury, and/or Property Damage.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.2 Safety",
+          "table_title": null,
+          "source_quote": "WARNING: FIRE OR EXPLOSION HAZARD The furnace is designed and approved for use with Natural Gas and Propane (LP) Gas ONLY. DO NOT BURN ANY LIQUID FUEL OR SOLID FUEL IN THIS FURNACE. Burning any unapproved fuel will result in damage to the furnace's heat exchanger, which could result in Fire, Personal Injury, and/or Property Damage."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Safety Codes",
+      "text": "Wear safety glasses, protective clothing, and work gloves. Have a fire extinguisher available. Read these instructions thoroughly and follow all warnings or cautions included in literature and attached to the unit. Consult local building codes as well as the current editions of the National Fuel Gas Code (NFGC) NFPA 54/ANSI Z223.1 and the National Electrical Code (NEC) NFPA 70.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "WARNING: FOLLOW ALL SAFETY CODES Wear safety glasses, protective clothing, and work gloves. Have a fire extinguisher available. Read these instructions thoroughly and follow all warnings or cautions included in literature and attached to the unit. Consult local building codes as well as the current editions of the National Fuel Gas Code (NFGC) NFPA 54/ANSI Z223.1 and the National Electrical Code (NEC) NFPA 70."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Gas Leaks",
+      "text": "Check entire gas assembly for leaks after lighting this appliance. Never test for gas leaks with an open flame. Use a commercially available soap solution made specifically for the detection of leaks to check all connections, as specified in the Installation, Operation, and Maintenance Manual.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "WARNING: FIRE, EXPLOSION Check entire gas assembly for leaks after lighting this appliance. Never test for gas leaks with an open flame. Use a commercially available soap solution made specifically for the detection of leaks to check all connections, as specified in the Installation, Operation, and Maintenance Manual."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Dangerous Operation / Improper Installation",
+      "text": "Failure to follow this warning could result in dangerous operation, serious injury, death, or property damage. Improper installation, adjustment, alteration, maintenance, or use could cause carbon monoxide poisoning, explosion, fire, electrical shock, or other conditions which may cause personal injury or property damage. Consult a qualified service agency, local gas supplier, or your distributor for information or assistance.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "WARNING: FIRE, EXPLOSION, ELECTRICAL SHOCK, AND CARBON MONOXIDE POISONING HAZARD Failure to follow this warning could result in dangerous operation, serious injury, death, lor property damage. Improper installation, ladjustment, alteration, maintenance, lor use could cause carbon monoxide poisoning, explosion, fire, electrical shock, or other conditions which may cause personal injury or property damage. Consult a qualified service agency, local gas supplier, or your distributor for information or assistance."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Gas Supply / Overheating",
+      "text": "See instructions for lighting/shutdown operation (as shown on a sticker directly on the inside of the furnace panel). Should the gas supply fail to shut off or if overheating occurs, shut off the gas valve to the furnace before shutting off the electrical supply.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "WARNING: FIRE, EXPLOSION See instructions for lighting/shutdown operation (as shown on a sticker directly on the inside of the furnace panel). Should the gas supply fail to shut off or if overheating occurs, shut off the gas valve to the furnace before shutting off the electrical supply."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Chemical Exposure (California Prop 65)",
+      "text": "This product can expose you to chemicals including Lead and Lead components, which are known to the State of California to cause cancer and birth defects or other reproductive harm. For more information go to www.P65Warnings.ca.gov.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "WARNING: This product can expose you to chemicals including Lead and Lead components, which are known to the State of California to cause cancer and birth defects or other reproductive harm. For more information go to www.P65Warnings.ca.gov."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Fire Hazard - Insulating Materials",
+      "text": "The furnaces must be kept free and clear of insulating materials. Inspect surrounding area to ensure insulation material is at a safe distance when installing furnaces or adding insulation materials. Insulation materials may be combustible. Maintain a 1 in. clearance from combustible materials to supply air ductwork for a distance of 36 in. horizontally from the furnace. See NFPA 90B or local code for further requirements. These furnaces SHALL NOT be installed directly on carpeting, tile, or any other combustible material other than wood flooring. In downflow installations, field supplied floor base MUST be used when installed on combustible materials and wood flooring. Special base is not required when this furnace is installed on industry standard Coil Assembly matching correct furnace width.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "WARNING: FIRE HAZARD The furnaces must be kept free and clear of insulating materials. Inspect surrounding area to ensure insulation material is is at a safe distance when installing furnaces or adding insulation materials. Insulation materials may be combustible. Maintain a 1 in. clearance from combustible materials to supply air ductwork for a distance of 36 in. horizontally from the furnace. See NFPA 90B or local code for further requirements. These furnaces SHALL NOT be installed directly on carpeting, tile, or any other combustible material other than wood flooring. In downflow installations, field supplied floor base MUST be used when installed on combustible materials and wood flooring. Special base is not required when this furnace is installed on industry standard Coil Assembly matching correct furnace width."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Cut Hazard",
+      "text": "Failure to follow this caution may result in personal injury. Sheet metal parts may have sharp edges or burrs. Use care and wear appropriate protective clothing, safety glasses and gloves when handling parts and servicing furnaces.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "CAUTION: CUT HAZARD Failure to follow this caution may result in personal injury. Sheet metal parts may have sharp edges or burrs. Use care and wear appropriate protective clothing, safety glasses and gloves when handling parts and servicing furnaces."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Fire, Explosion and Asphyxiation Hazard",
+      "text": "Installation and service must be performed by a qualified service agency or the gas supplier.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2 Troubleshooting",
+          "table_title": null,
+          "source_quote": "WARNING: FIRE, EXPLOSION AND ASPHYXIATION HAZARD Installation and service must be performed by a qualified service agency or the gas supplier."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Electrostatic Discharge (ESD) Precautions",
+      "text": "Discharge body's static electricity before touching unit. An electrostatic discharge can adversely affect electrical components.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Electrostatic Discharge (ESD) Precautions",
+          "table_title": null,
+          "source_quote": "NOTICE: Discharge body's static electricity before touching unit. An electrostatic discharge can adversely affect electrical components."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "maintenance_tasks": [],
+  "search_terms": [
+    "Bosch",
+    "BGH96",
+    "96% AFUE Gas Furnace",
+    "Troubleshooting Guide",
+    "Error Codes",
+    "Fault Codes",
+    "Diagnostic Codes",
+    "Status Codes",
+    "Safety Warnings",
+    "Maintenance",
+    "Technical Specifications",
+    "Gas Furnace",
+    "Condensing Gas Furnace",
+    "Ignition Failure",
+    "Flame Dropouts",
+    "Pressure Switch",
+    "Limit Switch",
+    "Rollout Switch",
+    "Flame Sensor",
+    "Polarity",
+    "Low Flame",
+    "Sequence of Operation",
+    "Heating Modes",
+    "Reignition Sequence",
+    "Manifold Gas Pressure",
+    "Inlet Gas Supply Pressure",
+    "CFM",
+    "Air Delivery"
+  ],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.95,
+    "review_required": true,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "The troubleshooting chart for 'No Displayed Codes and No Fan' on page 7 is complex and has been interpreted into a list of possible causes and steps. Review is recommended for completeness and accuracy of this interpretation.",
+      "Air delivery CFM tables on pages 18-19 were not extracted due to their extensive nature and low priority for fault diagnosis/servicing in a concise format."
+    ]
+  }
+}

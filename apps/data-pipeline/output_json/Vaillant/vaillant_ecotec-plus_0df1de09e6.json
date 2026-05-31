@@ -1,0 +1,6267 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Vaillant",
+    "product_family": "ecoTEC plus",
+    "model_names": [
+      "ecoTEC plus VU, VUW",
+      "612 (VU GB 126/5-5 A) ecoTEC plus",
+      "615 (VU GB 156/5-5 A) ecoTEC plus",
+      "618 (VU GB 186/5-5 A) ecoTEC plus",
+      "618 (VU GB 186/5-5 A LPG) ecoTEC plus",
+      "624 (VU GB 246/5-5 A) ecoTEC plus",
+      "630 (VU GB 306/5-5 A) ecoTEC plus",
+      "630 (VU GB 306/5-5 A LPG) ecoTEC plus",
+      "637 (VU GB 376/5-5 A) ecoTEC plus",
+      "825 (VUW GB 256/5-5) ecoTEC plus",
+      "832 (VUW GB 326/5-5) ecoTEC plus",
+      "832 (VUW GB 326/5-5 LPG) ecoTEC plus",
+      "835 (VUW GB 356/5-5) ecoTEC plus",
+      "838 (VUW GB 386/5-5) ecoTEC plus"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "Installation and maintenance instructions",
+    "document_code": "0020209591_00",
+    "publication_date": null,
+    "language": "en",
+    "region": "GB, IE",
+    "source_file": "vaillant_vaillant-ecotec-plus-612-vu-gb-126-5-5a_boiler-manual_new-ecotec-plus.pdf",
+    "file_hash": "0df1de09e6d872f4750a64d02b1448c5e0e4e159bf76a100d4dcfc5d439c12b5"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Calorific value power/product generation equipment",
+      "value": "..6/5-5",
+      "unit": null,
+      "applies_to_models": [],
+      "category": null,
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "..6/5-5 Calorific value power/product generation equipment"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Product description",
+      "value": "ecoTEC plus",
+      "unit": null,
+      "applies_to_models": [],
+      "category": null,
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "ecoTEC plus Product description"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas group and gas connection pressure as set at the factory",
+      "value": "2H, G20 - 20 mbar (2.0 kPa)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "2H, G20 - 20 mbar (2.0 kPa) Gas group and gas connection pressure as set at the factory"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Date of manufacture",
+      "value": "Week/year",
+      "unit": null,
+      "applies_to_models": [],
+      "category": null,
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "ww/yyyy Date of manufacture: Week/year"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Permissible gas categories",
+      "value": "Cat.",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "Cat. Permissible gas categories"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approved gas-fired units",
+      "value": "Types",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "Types Approved gas-fired units"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Permissible total overpressure in heating mode",
+      "value": "PMS",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "PMS Permissible total overpressure in heating mode"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Permissible total overpressure during hot water generation",
+      "value": "PMW",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "PMW Permissible total overpressure during hot water generation"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flow temperature",
+      "value": "Tmax.",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "Tmax. Max. flow temperature"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Current efficiency directive fulfilled with 4* rating",
+      "value": "ED 92/42",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "ED 92/42 Current efficiency directive fulfilled with 4* rating"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Mains voltage and mains frequency",
+      "value": "V Hz",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "V Hz Mains voltage and mains frequency"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. electrical power consumption",
+      "value": "W",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "W Max. electrical power consumption"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Level of protection",
+      "value": "IP",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "IP Level of protection"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating mode",
+      "value": "Ⅲ",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "Ⅲ Heating mode"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Hot water generation",
+      "value": "P",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "P Hot water generation"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range",
+      "value": "Q",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "Q Nominal heat output range"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat input range",
+      "value": "D",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "D Heat input range"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal hot water draw-off rate",
+      "value": "Proper disposal of the product",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "4 Installation",
+          "table_title": "Information on the identification plate",
+          "source_quote": "Nominal hot water draw-off rate Proper disposal of the product"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Installation depth, dimension B",
+      "value": "338 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "4 Installation",
+          "table_title": "Installation depth, dimension B",
+          "source_quote": "612 (VU GB 126/5-5 A) ecoTEC plus 338 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Installation depth, dimension B",
+      "value": "372 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "4 Installation",
+          "table_title": "Installation depth, dimension B",
+          "source_quote": "630 (VU GB 306/5-5 A) ecoTEC plus 372 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Installation depth, dimension B",
+      "value": "406 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "4 Installation",
+          "table_title": "Installation depth, dimension B",
+          "source_quote": "637 (VU GB 376/5-5 A) ecoTEC plus 406 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance A (Air/flue pipe)",
+      "value": "165 mm",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "4.5 Minimum clearances",
+          "table_title": "Minimum clearance",
+          "source_quote": "A 165 mm: Air/flue pipe, 60/100 mm diameter"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance A (Air/flue pipe)",
+      "value": "275 mm",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "4.5 Minimum clearances",
+          "table_title": "Minimum clearance",
+          "source_quote": "A 275 mm: Air/flue pipe, 80/125 mm diameter"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance B",
+      "value": "180 mm",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "4.5 Minimum clearances",
+          "table_title": "Minimum clearance",
+          "source_quote": "B 180 mm; optimum approx. 250 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance B (optimum)",
+      "value": "approx. 250 mm",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "4.5 Minimum clearances",
+          "table_title": "Minimum clearance",
+          "source_quote": "B 180 mm; optimum approx. 250 mm"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance C",
+      "value": "5 mm",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "4.5 Minimum clearances",
+          "table_title": "Minimum clearance",
+          "source_quote": "C 5 mm; optimum approx. 50 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance C (optimum)",
+      "value": "approx. 50 mm",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "4.5 Minimum clearances",
+          "table_title": "Minimum clearance",
+          "source_quote": "C 5 mm; optimum approx. 50 mm"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance D",
+      "value": "500 mm",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "4.5 Minimum clearances",
+          "table_title": "Minimum clearance",
+          "source_quote": "D 500 mm in front of the heat generator to enable easy access for maintenance work (may be provided by an opening door)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection, boiler side",
+      "value": "15 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 63,
+          "section_title": "K Technical data",
+          "table_title": "Technical data - General",
+          "source_quote": "Gas connection, boiler side 15 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow/return heating connections, boiler side",
+      "value": "22 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 63,
+          "section_title": "K Technical data",
+          "table_title": "Technical data - General",
+          "source_quote": "Flow/return heating connections, boiler side 22 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion relief valve connector (min.)",
+      "value": "15 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 63,
+          "section_title": "K Technical data",
+          "table_title": "Technical data - General",
+          "source_quote": "Expansion relief valve connector (min.) 15 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Air/flue gas connection",
+      "value": "60/100 mm",
+      "unit": null,
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 63,
+          "section_title": "K Technical data",
+          "table_title": "Technical data - General",
+          "source_quote": "Air/flue gas connection 60/100 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate drain pipework (min.)",
+      "value": "19 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 63,
+          "section_title": "K Technical data",
+          "table_title": "Technical data - General",
+          "source_quote": "Condensate drain pipework (min.) 19 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 natural gas flow pressure",
+      "value": "2.0 kPa (20.0 mbar)",
+      "unit": null,
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 63,
+          "section_title": "K Technical data",
+          "table_title": "Technical data - General",
+          "source_quote": "G20 natural gas flow pressure 2.0 kPa (20.0 mbar)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "G31 propane gas flow pressure",
+      "value": "3.7 kPa (37.0 mbar)",
+      "unit": null,
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 63,
+          "section_title": "K Technical data",
+          "table_title": "Technical data - General",
+          "source_quote": "G31 propane gas flow pressure 3.7 kPa (37.0 mbar)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G20",
+      "value": "1.3 m³/h",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 63,
+          "section_title": "K Technical data",
+          "table_title": "Technical data - General",
+          "source_quote": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G20 1.3 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G20",
+      "value": "1.7 m³/h",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5 A) ecoTEC plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 63,
+          "section_title": "K Technical data",
+          "table_title": "Technical data - General",
+          "source_quote": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G20 1.7 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G20",
+      "value": "2.0 m³/h",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 63,
+          "section_title": "K Technical data",
+          "table_title": "Technical data - General",
+          "source_quote": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G20 2.0 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G20",
+      "value": "2.6 m³/h",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 63,
+          "section_title": "K Technical data",
+          "table_title": "Technical data - General",
+          "source_quote": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G20 2.6 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G20",
+      "value": "3.7 m³/h",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 63,
+          "section_title": "K Technical data",
+          "table_title": "Technical data - General",
+          "source_quote": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G20 3.7 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G20",
+      "value": "4.1 m³/h",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 63,
+          "section_title": "K Technical data",
+          "table_title": "Technical data - General",
+          "source_quote": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G20 4.1 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G31",
+      "value": "1.5 kg/h",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G31 1.5 kg/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G31",
+      "value": "1.9 kg/h",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G31 1.9 kg/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G31",
+      "value": "2.4 kg/h",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G31 2.4 kg/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G31",
+      "value": "3.0 kg/h",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15 °C and 1013 mbar (based on hot water generation, if applicable), G31 3.0 kg/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas mass rate (G20)",
+      "value": "1.44 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Min. flue gas mass rate (G20) 1.44 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas mass rate (G20)",
+      "value": "1.80 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Min. flue gas mass rate (G20) 1.80 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas mass rate (G20)",
+      "value": "2.47 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Min. flue gas mass rate (G20) 2.47 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas mass rate (G20)",
+      "value": "2.78 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Min. flue gas mass rate (G20) 2.78 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas mass rate (G20)",
+      "value": "3.05 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Min. flue gas mass rate (G20) 3.05 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas mass rate (G31)",
+      "value": "2.40 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Min. flue gas mass rate (G31) 2.40 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas mass rate (G31)",
+      "value": "2.90 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Min. flue gas mass rate (G31) 2.90 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas mass rate (G31)",
+      "value": "4.08 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Min. flue gas mass rate (G31) 4.08 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flue gas mass rate",
+      "value": "5.6 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Max. flue gas mass rate 5.6 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flue gas mass rate",
+      "value": "7.0 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5 A) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Max. flue gas mass rate 7.0 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flue gas mass rate",
+      "value": "8.4 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Max. flue gas mass rate 8.4 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flue gas mass rate",
+      "value": "11.1 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Max. flue gas mass rate 11.1 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flue gas mass rate",
+      "value": "13.9 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Max. flue gas mass rate 13.9 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flue gas mass rate",
+      "value": "17.4 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Max. flue gas mass rate 17.4 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas temperature",
+      "value": "40 °C",
+      "unit": "°C",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Min. flue gas temperature 40 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flue gas temperature",
+      "value": "70 °C",
+      "unit": "°C",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Max. flue gas temperature 70 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approved gas-fired units",
+      "value": "C13, C33, C43, C53",
+      "unit": null,
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Approved gas-fired units C13, C33, C43, C53"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "30% efficiency",
+      "value": "108%",
+      "unit": null,
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "30% efficiency 108%"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "30% efficiency",
+      "value": "108.5%",
+      "unit": null,
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "30% efficiency 108.5%"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "30% efficiency",
+      "value": "109%",
+      "unit": null,
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "30% efficiency 109%"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx class",
+      "value": "5",
+      "unit": null,
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "NOx class 5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "SEDBUK (2005)",
+      "value": "A",
+      "unit": null,
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "SEDBUK (2005) A"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "SEDBUK (2009) (G20/G31)",
+      "value": "89.3%",
+      "unit": null,
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "SEDBUK (2009) (G20/G31) 89.3%"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler dimension, width",
+      "value": "440 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Boiler dimension, width 440 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler dimension, height",
+      "value": "720 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Boiler dimension, height 720 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler dimension, depth",
+      "value": "338 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Boiler dimension, depth 338 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler dimension, depth",
+      "value": "372 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Boiler dimension, depth 372 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler dimension, depth",
+      "value": "406 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Boiler dimension, depth 406 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Mounting weight",
+      "value": "36 kg",
+      "unit": "kg",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Mounting weight 36 kg"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Mounting weight",
+      "value": "37 kg",
+      "unit": "kg",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Mounting weight 37 kg"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Mounting weight",
+      "value": "38 kg",
+      "unit": "kg",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Mounting weight 38 kg"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Mounting weight",
+      "value": "43 kg",
+      "unit": "kg",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Mounting weight 43 kg"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas mass rate (G31)",
+      "value": "1.80 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Min. flue gas mass rate (G31) 1.80 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas mass rate (G31)",
+      "value": "2.47 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Min. flue gas mass rate (G31) 2.47 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas mass rate (G31)",
+      "value": "2.78 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Min. flue gas mass rate (G31) 2.78 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. flue gas mass rate (G31)",
+      "value": "3.05 g/s",
+      "unit": "g/s",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Min. flue gas mass rate (G31) 3.05 g/s"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30 °C",
+      "value": "3.3 - 12.9 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30 °C 3.3 12.9 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30 °C",
+      "value": "3.3 - 16.1 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30 °C 3.3 16.1 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30 °C",
+      "value": "4.2 - 19.3 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30 °C 4.2 19.3 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30 °C",
+      "value": "5.7 - 25.7 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30 °C 5.7 25.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30 °C",
+      "value": "6.4 - 32.2 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30 °C 6.4 32.2 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30 °C",
+      "value": "7.1 - 39.6 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30 °C 7.1 39.6 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30 °C",
+      "value": "4.2 - 20.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30 °C 4.2 20.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30 °C",
+      "value": "5.7 - 25.7 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30 °C 5.7 25.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30 °C",
+      "value": "6.4 - 32.2 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30 °C 6.4 32.2 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30 °C",
+      "value": "7.1 - 30.1 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30 °C 7.1 30.1 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60 °C",
+      "value": "3.0 - 12.2 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60 °C 3.0 12.2 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60 °C",
+      "value": "3.0 - 15.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60 °C 3.0 15.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60 °C",
+      "value": "3.8 - 18.5 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60 °C 3.8 18.5 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60 °C",
+      "value": "5.2 - 24.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60 °C 5.2 24.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60 °C",
+      "value": "5.8 - 30.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60 °C 5.8 30.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60 °C",
+      "value": "6.4 - 37.6 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60 °C 6.4 37.6 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60 °C",
+      "value": "3.8 - 19.3 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60 °C 3.8 19.3 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60 °C",
+      "value": "5.2 - 24.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60 °C 5.2 24.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60 °C",
+      "value": "5.8 - 30.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60 °C 5.8 30.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60 °C",
+      "value": "6.4 - 28.6 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60 °C 6.4 28.6 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "12.2 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 12.2 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "15.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 15.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "18.5 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 18.5 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "24.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 24.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "30.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 30.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "37.6 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 37.6 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "25.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 25.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "31.8 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 31.8 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "35.0 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 35.0 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "38.7 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 38.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "12.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 12.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "15.7 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 15.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "18.9 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 18.9 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "24.9 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 24.9 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "31.0 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 31.0 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "38.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 38.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "25.9 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 25.9 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "32.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 32.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "35.7 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 35.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "39.5 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 39.5 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "12.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 12.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "15.5 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 15.5 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "18.6 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 18.6 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "24.7 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 24.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "30.9 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 30.9 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "38.1 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 38.1 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "19.6 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 19.6 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "24.7 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 24.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "31.0 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 31.0 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "28.9 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 28.9 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input",
+      "value": "3.2 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Minimum heat input 3.2 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input",
+      "value": "4.0 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Minimum heat input 4.0 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input",
+      "value": "5.5 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Minimum heat input 5.5 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input",
+      "value": "6.2 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Minimum heat input 6.2 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input",
+      "value": "6.8 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Minimum heat input 6.8 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating adjustment range",
+      "value": "3 ... 12 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Heating adjustment range 3 ... 12 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating adjustment range",
+      "value": "3 ... 15 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Heating adjustment range 3 ... 15 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating adjustment range",
+      "value": "4 ... 19 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Heating adjustment range 4 ... 19 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating adjustment range",
+      "value": "5 ... 24 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Heating adjustment range 5 ... 24 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating adjustment range",
+      "value": "6 ... 30 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Heating adjustment range 6 ... 30 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating adjustment range",
+      "value": "6 ... 38 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Heating adjustment range 6 ... 38 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating adjustment range",
+      "value": "4 ... 19 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Heating adjustment range 4 ... 19 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating adjustment range",
+      "value": "5 ... 24 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Heating adjustment range 5 ... 24 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating adjustment range",
+      "value": "6 ... 30 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Heating adjustment range 6 ... 30 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating adjustment range",
+      "value": "6 ... 29 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Technical data – G20 power/loading",
+          "table_title": null,
+          "source_quote": "Heating adjustment range 6 ... 29 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30 °C",
+      "value": "5.5 - 19.3 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30 °C 5.5 19.3 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30 °C",
+      "value": "6.7 - 25.7 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30 °C 6.7 25.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30 °C",
+      "value": "9.4 - 32.1 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30 °C 9.4 32.1 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30 °C",
+      "value": "9.4 - 39.6 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30 °C 9.4 39.6 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30 °C",
+      "value": "5.5 - 19.3 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30 °C 5.5 19.3 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30 °C",
+      "value": "6.7 - 25.7 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30 °C 6.7 25.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30 °C",
+      "value": "9.4 - 30.1 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30 °C 9.4 30.1 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60 °C",
+      "value": "5.0 - 18.5 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60 °C 5.0 18.5 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60 °C",
+      "value": "6.0 - 24.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60 °C 6.0 24.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60 °C",
+      "value": "8.5 - 30.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60 °C 8.5 30.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60 °C",
+      "value": "8.5 - 37.6 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60 °C 8.5 37.6 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60 °C",
+      "value": "5.0 - 19.3 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60 °C 5.0 19.3 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60 °C",
+      "value": "6.0 - 24.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60 °C 6.0 24.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60 °C",
+      "value": "8.5 - 28.6 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60 °C 8.5 28.6 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "18.5 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 18.5 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "24.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 24.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "30.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 30.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "37.6 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 37.6 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "25.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 25.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "31.8 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 31.8 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "35.0 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 35.0 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "38.7 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 38.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "18.9 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 18.9 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "24.9 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 24.9 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "31.0 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 31.0 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "38.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 38.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "25.9 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 25.9 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "32.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 32.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "35.7 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 35.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "39.5 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 39.5 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "18.6 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 18.6 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "24.7 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 24.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "30.9 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 30.9 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "38.1 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 38.1 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "19.6 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 19.6 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "24.7 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 24.7 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "30.9 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 30.9 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input, heating side",
+      "value": "28.9 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Maximum heat input, heating side 28.9 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input",
+      "value": "5.3 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Minimum heat input 5.3 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input",
+      "value": "6.4 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Minimum heat input 6.4 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input",
+      "value": "9.0 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Power/loading G31",
+          "table_title": null,
+          "source_quote": "Minimum heat input 9.0 kW"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum flow temperature",
+      "value": "85 °C",
+      "unit": "°C",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Maximum flow temperature 85 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flow temperature adjustment range (default setting: 75 °C)",
+      "value": "30 ... 80 °C",
+      "unit": "°C",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Max. flow temperature adjustment range (default setting: 75 °C) 30 ... 80 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Permissible total overpressure",
+      "value": "0.3 MPa (3.0 bar)",
+      "unit": null,
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Permissible total overpressure 0.3 MPa (3.0 bar)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum pressure for full operation",
+      "value": "0.08 MPa (0.80 bar)",
+      "unit": null,
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Minimum pressure for full operation 0.08 MPa (0.80 bar)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion vessel capacity",
+      "value": "10 l",
+      "unit": "l",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Expansion vessel capacity 10 l"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (with reference to ΔΤ= 20 Κ)",
+      "value": "525 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Circulation water volume (with reference to ΔΤ= 20 Κ) 525 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (with reference to ΔΤ= 20 Κ)",
+      "value": "662 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Circulation water volume (with reference to ΔΤ= 20 Κ) 662 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (with reference to ΔΤ= 20 Κ)",
+      "value": "796 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Circulation water volume (with reference to ΔΤ= 20 Κ) 796 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (with reference to ΔΤ= 20 Κ)",
+      "value": "1,049 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Circulation water volume (with reference to ΔΤ= 20 Κ) 1,049 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (with reference to ΔΤ= 20 Κ)",
+      "value": "1,307 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Circulation water volume (with reference to ΔΤ= 20 Κ) 1,307 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (with reference to ΔΤ= 20 Κ)",
+      "value": "1,617 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Circulation water volume (with reference to ΔΤ= 20 Κ) 1,617 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (with reference to ΔΤ= 20 Κ)",
+      "value": "830 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Circulation water volume (with reference to ΔΤ= 20 Κ) 830 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (with reference to ΔΤ= 20 Κ)",
+      "value": "1,049 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Circulation water volume (with reference to ΔΤ= 20 Κ) 1,049 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (with reference to ΔΤ= 20 Κ)",
+      "value": "1,307 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Circulation water volume (with reference to ΔΤ= 20 Κ) 1,307 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (with reference to ΔΤ= 20 Κ)",
+      "value": "1,230 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Circulation water volume (with reference to ΔΤ= 20 Κ) 1,230 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode",
+      "value": "1.2 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode 1.2 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode",
+      "value": "1.6 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode 1.6 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode",
+      "value": "1.9 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode 1.9 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode",
+      "value": "2.5 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode 2.5 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode",
+      "value": "3.1 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode 3.1 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode",
+      "value": "3.8 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode 3.8 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode",
+      "value": "2.0 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode 2.0 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode",
+      "value": "2.5 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode 2.5 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode",
+      "value": "3.1 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode 3.1 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode",
+      "value": "2.9 l/h",
+      "unit": "l/h",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Approx. condensate rate (pH value 3.5 to 4.0) in 50/30 °C heating mode 2.9 l/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Remaining feed head of pump (at nominal circulation water volume)",
+      "value": "0.025 MPa (0.250 bar)",
+      "unit": null,
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 66,
+          "section_title": "Technical data – Heating",
+          "table_title": null,
+          "source_quote": "Remaining feed head of pump (at nominal circulation water volume) 0.025 MPa (0.250 bar)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Lowest water volume",
+      "value": "2.0 l/min",
+      "unit": "l/min",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Hot water handling",
+          "table_title": null,
+          "source_quote": "Lowest water volume 2.0 l/min"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔΤ = 30 Κ)",
+      "value": "12.3 l/min",
+      "unit": "l/min",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Hot water handling",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔΤ = 30 Κ) 12.3 l/min"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔΤ = 30 Κ)",
+      "value": "15.2 l/min",
+      "unit": "l/min",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Hot water handling",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔΤ = 30 Κ) 15.2 l/min"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔΤ = 30 Κ)",
+      "value": "16.7 l/min",
+      "unit": "l/min",
+      "applies_to_models": [
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Hot water handling",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔΤ = 30 Κ) 16.7 l/min"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔΤ = 30 Κ)",
+      "value": "18.5 l/min",
+      "unit": "l/min",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Hot water handling",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔΤ = 30 Κ) 18.5 l/min"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔΤ = 35 Κ)",
+      "value": "10.5 l/min",
+      "unit": "l/min",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Hot water handling",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔΤ = 35 Κ) 10.5 l/min"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔΤ = 35 Κ)",
+      "value": "13.0 l/min",
+      "unit": "l/min",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Hot water handling",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔΤ = 35 Κ) 13.0 l/min"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔΤ = 35 Κ)",
+      "value": "14.3 l/min",
+      "unit": "l/min",
+      "applies_to_models": [
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Hot water handling",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔΤ = 35 Κ) 14.3 l/min"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔΤ = 35 Κ)",
+      "value": "15.9 l/min",
+      "unit": "l/min",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Hot water handling",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔΤ = 35 Κ) 15.9 l/min"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔΤ = 42 Κ)",
+      "value": "8.8 l/min",
+      "unit": "l/min",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Hot water handling",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔΤ = 42 Κ) 8.8 l/min"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔΤ = 42 Κ)",
+      "value": "10.9 l/min",
+      "unit": "l/min",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Hot water handling",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔΤ = 42 Κ) 10.9 l/min"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔΤ = 42 Κ)",
+      "value": "11.9 l/min",
+      "unit": "l/min",
+      "applies_to_models": [
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Hot water handling",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔΤ = 42 Κ) 11.9 l/min"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔΤ = 42 Κ)",
+      "value": "13.2 l/min",
+      "unit": "l/min",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Hot water handling",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔΤ = 42 Κ) 13.2 l/min"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Permitted overpressure",
+      "value": "1.0 MPa (10.0 bar)",
+      "unit": null,
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Hot water handling",
+          "table_title": null,
+          "source_quote": "Permitted overpressure 1.0 MPa (10.0 bar)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Required connection pressure",
+      "value": "0.035 MPa (0.350 bar)",
+      "unit": null,
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Hot water handling",
+          "table_title": null,
+          "source_quote": "Required connection pressure 0.035 MPa (0.350 bar)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Hot water output temperature range",
+      "value": "35 ... 65 °C",
+      "unit": "°C",
+      "applies_to_models": [
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "hot_water",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Hot water handling",
+          "table_title": null,
+          "source_quote": "Hot water output temperature range 35 ... 65 °C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Electric connection",
+      "value": "230 V/50 Hz",
+      "unit": null,
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Electrics",
+          "table_title": null,
+          "source_quote": "Electric connection 230 V/50 Hz"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Permissible connected voltage",
+      "value": "190 ... 253 V",
+      "unit": "V",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Electrics",
+          "table_title": null,
+          "source_quote": "Permissible connected voltage 190 ... 253 V"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Built-in fuse (slow-blow)",
+      "value": "2 A",
+      "unit": "A",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Electrics",
+          "table_title": null,
+          "source_quote": "Built-in fuse (slow-blow) 2 A"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. electrical power consumption",
+      "value": "35 W",
+      "unit": "W",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Electrics",
+          "table_title": null,
+          "source_quote": "Min. electrical power consumption 35 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. electrical power consumption",
+      "value": "45 W",
+      "unit": "W",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Electrics",
+          "table_title": null,
+          "source_quote": "Min. electrical power consumption 45 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. electrical power consumption",
+      "value": "55 W",
+      "unit": "W",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Electrics",
+          "table_title": null,
+          "source_quote": "Min. electrical power consumption 55 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. electrical power consumption",
+      "value": "50 W",
+      "unit": "W",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Electrics",
+          "table_title": null,
+          "source_quote": "Max. electrical power consumption 50 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. electrical power consumption",
+      "value": "55 W",
+      "unit": "W",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5 A) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Electrics",
+          "table_title": null,
+          "source_quote": "Max. electrical power consumption 55 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. electrical power consumption",
+      "value": "65 W",
+      "unit": "W",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Electrics",
+          "table_title": null,
+          "source_quote": "Max. electrical power consumption 65 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. electrical power consumption",
+      "value": "70 W",
+      "unit": "W",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5 A) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Electrics",
+          "table_title": null,
+          "source_quote": "Max. electrical power consumption 70 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. electrical power consumption",
+      "value": "80 W",
+      "unit": "W",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Electrics",
+          "table_title": null,
+          "source_quote": "Max. electrical power consumption 80 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. electrical power consumption",
+      "value": "115 W",
+      "unit": "W",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5 A) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Electrics",
+          "table_title": null,
+          "source_quote": "Max. electrical power consumption 115 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. electrical power consumption",
+      "value": "85 W",
+      "unit": "W",
+      "applies_to_models": [
+        "832 (VUW GB 326/5-5) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 68,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Max. electrical power consumption 85 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. electrical power consumption",
+      "value": "90 W",
+      "unit": "W",
+      "applies_to_models": [
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 68,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Max. electrical power consumption 90 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. electrical power consumption",
+      "value": "120 W",
+      "unit": "W",
+      "applies_to_models": [
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 68,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Max. electrical power consumption 120 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Standby electrical power consumption",
+      "value": "< 2 W",
+      "unit": "W",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Electrics",
+          "table_title": null,
+          "source_quote": "Standby electrical power consumption < 2 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Standby electrical power consumption",
+      "value": "< 3 W",
+      "unit": "W",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Electrics",
+          "table_title": null,
+          "source_quote": "Standby electrical power consumption < 3 W"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Level of protection",
+      "value": "IP X4 D",
+      "unit": null,
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Electrics",
+          "table_title": null,
+          "source_quote": "Level of protection IP X4 D"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Test symbol/registration no.",
+      "value": "CE-0085CM0320",
+      "unit": null,
+      "applies_to_models": [
+        "612 (VU GB 126/5-5 A) ecoTEC plus",
+        "615 (VU GB 156/5-5 A) ecoTEC plus",
+        "618 (VU GB 186/5-5 A) ecoTEC plus",
+        "624 (VU GB 246/5-5 A) ecoTEC plus",
+        "630 (VU GB 306/5-5 A) ecoTEC plus",
+        "637 (VU GB 376/5-5 A) ecoTEC plus",
+        "825 (VUW GB 256/5-5) ecoTEC plus",
+        "832 (VUW GB 326/5-5) ecoTEC plus",
+        "835 (VUW GB 356/5-5) ecoTEC plus",
+        "838 (VUW GB 386/5-5) ecoTEC plus"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 67,
+          "section_title": "Technical data – Electrics",
+          "table_title": null,
+          "source_quote": "Test symbol/registration no. CE-0085CM0320"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "F.92",
+      "description": "Combustion quality inadequate. CO2 content is incorrect.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Start check programme P.01 and adjust the CO2 content with the adjusting screw in the Venturi.",
+        "Check that the gas restrictor is correct (yellow: G20 natural gas, blue: G25 natural gas, grey: Liquid gas) and undamaged.",
+        "Repeat the gas family check."
+      ],
+      "cautions_or_notes": [
+        "Inadequate combustion quality (CO), indicated by F.92/93, leads to an increased risk of poisoning. Make sure that the fault is completely eliminated before starting up the product for continuous operation."
+      ],
+      "symptoms": [],
+      "related_components": [
+        "Venturi",
+        "gas restrictor"
+      ],
+      "severity": "high",
+      "safety_level": "danger",
+      "search_tags": [
+        "combustion",
+        "CO2",
+        "gas",
+        "Venturi"
+      ],
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "7.6 Performing a gas family check",
+          "table_title": null,
+          "source_quote": "F.92 Combustion quality inadequate. CO2 content is incorrect. Start check programme P.01 and adjust the CO2 content with the adjusting screw in the Venturi. If the correct CO2 content cannot be set: Check that the gas restrictor is correct (yellow: G20 natural gas, blue: G25 natural gas, grey: Liquid gas) and undamaged. Repeat the gas family check."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.93",
+      "description": "Combustion quality outside permissible range.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check combustion."
+      ],
+      "cautions_or_notes": [
+        "Inadequate combustion quality (CO), indicated by F.92/93, leads to an increased risk of poisoning. Make sure that the fault is completely eliminated before starting up the product for continuous operation."
+      ],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "high",
+      "safety_level": "danger",
+      "search_tags": [
+        "combustion",
+        "CO2",
+        "gas"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "C Status codes – Overview",
+          "table_title": null,
+          "source_quote": "S.63 Gas family check unsuccessful: Combustion quality outside permissible range (see F.93). Check combustion."
+        },
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.93 Poor combustion quality Combustion regulation has detected poor combustion quality"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.00",
+      "description": "Flow temperature sensor interruption",
+      "possible_causes": [
+        "NTC plug not plugged in or has come loose",
+        "multiple plug on the PCB not plugged in correctly",
+        "interruption in cable harness",
+        "NTC defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "PCB",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "sensor",
+        "flow temperature",
+        "NTC",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.00 Flow temperature sensor interruption NTC plug not plugged in or has come loose, multiple plug on the PCB not plugged in correctly, interruption in cable harness, NTC defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.01",
+      "description": "Return temperature sensor interruption",
+      "possible_causes": [
+        "NTC plug not plugged in or has come loose",
+        "multiple plug on the PCB not plugged in correctly",
+        "interruption in cable harness",
+        "NTC defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "PCB",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "sensor",
+        "return temperature",
+        "NTC",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.01 Return temperature sensor interruption NTC plug not plugged in or has come loose, multiple plug on the PCB not plugged in correctly, interruption in cable harness, NTC defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.02",
+      "description": "Interruption cylinder charging sensor actoSTOR (NTC) only in combination with F.91",
+      "possible_causes": [
+        "NTC defective",
+        "NTC cable defective",
+        "defective plug connection on NTC",
+        "defective plug connection on actoSTOR electronics"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "actoSTOR electronics",
+        "cable"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "sensor",
+        "cylinder charging",
+        "NTC",
+        "actoSTOR",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.02 Interruption cylinder charging sensor actoSTOR (NTC) only in combination with F.91 NTC defective, NTC cable defective, defective plug connection on NTC, defective plug connection on actoSTOR electronics"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.03",
+      "description": "Interruption cylinder sensor actoSTOR (NTC) only in combination with F.91",
+      "possible_causes": [
+        "NTC defective",
+        "NTC cable defective",
+        "defective plug connection on NTC",
+        "defective plug connection on actoSTOR electronics"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "actoSTOR electronics",
+        "cable"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "sensor",
+        "cylinder",
+        "NTC",
+        "actoSTOR",
+        "electrical"
+      ],
+      "source_refs": [],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.10",
+      "description": "Flow NTC short circuit",
+      "possible_causes": [
+        "NTC defective",
+        "short circuit in cable harness",
+        "cable/casing"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "sensor",
+        "flow temperature",
+        "NTC",
+        "electrical",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.10 Flow NTC short circuit NTC defective, short circuit in cable harness, cable/casing"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.11",
+      "description": "Return NTC short circuit",
+      "possible_causes": [
+        "NTC defective",
+        "short circuit in cable harness",
+        "cable/casing"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "sensor",
+        "return temperature",
+        "NTC",
+        "electrical",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.11 Return NTC short circuit NTC defective, short circuit in cable harness, cable/casing"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.12",
+      "description": "Short circuit at cylinder charging sensor (NTC) only in combination with F.91",
+      "possible_causes": [
+        "NTC defective",
+        "short circuit in cable harness",
+        "cable/casing"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "sensor",
+        "cylinder charging",
+        "NTC",
+        "electrical",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.12 Short circuit at cylinder charging sensor (NTC) only in combination with F.91 NTC defective, short circuit in cable harness, cable/casing"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.13",
+      "description": "Product with integrated hot water generation: Short circuit warm start sensor/cylinder sensor",
+      "possible_causes": [
+        "NTC defective",
+        "short circuit in cable harness",
+        "cable/casing"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "warm start sensor",
+        "cylinder sensor",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "sensor",
+        "hot water",
+        "NTC",
+        "electrical",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.13 Product with integrated hot water generation: Short circuit warm start sensor/cylinder sensor NTC defective, short circuit in cable harness, cable/casing"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.20",
+      "description": "Product with integrated hot water generation and actoSTOR: Short circuit cylinder sensor (NTC) only in combination with F.91",
+      "possible_causes": [
+        "NTC defective",
+        "short circuit in cable harness",
+        "cable/casing"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "cylinder sensor",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "sensor",
+        "hot water",
+        "actoSTOR",
+        "NTC",
+        "electrical",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.20 Product with integrated hot water generation and actoSTOR: Short circuit cylinder sensor (NTC) only in combination with F.91 NTC defective, short circuit in cable harness, cable/casing"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.22",
+      "description": "Safety switch-off: Low water pressure",
+      "possible_causes": [
+        "No or insufficient water in the product",
+        "water pressure sensor defective",
+        "cable to pump or water pressure sensor loose/not connected/defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "The display shows F.22."
+      ],
+      "related_components": [
+        "water pressure sensor",
+        "pump"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water pressure",
+        "safety switch-off",
+        "pump",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "7.9 Preventing low water pressure",
+          "table_title": null,
+          "source_quote": "If the filling pressure falls below 0.05 MPa (0.5 bar), the product switches off. The display shows F.22."
+        },
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.22 Safety switch-off: Low water pressure No or insufficient water in the product, water pressure sensor defective, cable to pump or water pressure sensor loose/not connected/defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.23",
+      "description": "Safety switch-off: Temperature difference too great",
+      "possible_causes": [
+        "Pump blocked",
+        "insufficient pump output",
+        "air in product",
+        "flow and return NTC connected the wrong way round"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "NTC sensor"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature difference",
+        "safety switch-off",
+        "pump",
+        "air",
+        "NTC sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.23 Safety switch-off: Temperature difference too great Pump blocked, insufficient pump output, air in product, flow and return NTC connected the wrong way round"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.24",
+      "description": "Safety switch-off: Temperature rise too fast",
+      "possible_causes": [
+        "Pump blocked",
+        "insufficient pump output",
+        "air in product",
+        "system pressure too low",
+        "non-return valve blocked/incorrectly installed"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "non-return valve"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature rise",
+        "safety switch-off",
+        "pump",
+        "air",
+        "pressure",
+        "non-return valve"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.24 Safety switch-off: Temperature rise too fast Pump blocked, insufficient pump output, air in product, system pressure too low, non-return valve blocked/incorrectly installed"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.25",
+      "description": "Safety switch-off: Flue gas temperature too high",
+      "possible_causes": [
+        "Break in plug connection for optional flue gas safety temperature limiter (STB)",
+        "break in cable harness"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flue gas safety temperature limiter (STB)",
+        "cable harness"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flue gas temperature",
+        "safety switch-off",
+        "STB",
+        "cable harness"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.25 Safety switch-off: Flue gas temperature too high Break in plug connection for optional flue gas safety temperature limiter (STB), break in cable harness"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.26",
+      "description": "Fault: Gas valve without function",
+      "possible_causes": [
+        "Gas valve stepper motor not connected",
+        "multiple plug on the PCB not plugged in correctly",
+        "interruption in cable harness",
+        "gas valve stepper motor defective",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve stepper motor",
+        "PCB",
+        "cable harness",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "stepper motor",
+        "electrical",
+        "electronics"
+      ],
+      "source_refs": [],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.27",
+      "description": "Safety switch-off: Flame simulation",
+      "possible_causes": [
+        "Moisture on the electronics",
+        "electronics (flame monitor) defective",
+        "gas solenoid valve leaking"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electronics",
+        "flame monitor",
+        "gas solenoid valve"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame simulation",
+        "safety switch-off",
+        "electronics",
+        "gas valve"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.27 Safety switch-off: Flame simulation Moisture on the electronics, electronics (flame monitor) defective, gas solenoid valve leaking"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.28",
+      "description": "Failure during start-up: Ignition unsuccessful",
+      "possible_causes": [
+        "Gas meter defective or gas pressure monitor has triggered",
+        "air in gas",
+        "gas flow pressure too low",
+        "thermal isolator device (TAE) has triggered",
+        "condensate duct blocked",
+        "incorrect gas restrictor",
+        "incorrect spare part gas valve",
+        "fault on the gas valve",
+        "multiple plug on PCB incorrectly plugged in",
+        "break in cable harness",
+        "ignition system (ignition transformer, ignition cable, ignition plug, ignition electrode) defective",
+        "ionisation current interrupted (cable, electrode)",
+        "incorrect earthing of product",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas meter",
+        "gas pressure monitor",
+        "thermal isolator device (TAE)",
+        "condensate duct",
+        "gas restrictor",
+        "gas valve",
+        "PCB",
+        "cable harness",
+        "ignition system",
+        "ignition transformer",
+        "ignition cable",
+        "ignition plug",
+        "ignition electrode",
+        "ionisation current",
+        "electronics"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition",
+        "start-up failure",
+        "gas",
+        "pressure",
+        "condensate",
+        "electrical",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.28 Failure during start-up: Ignition unsuccessful Gas meter defective or gas pressure monitor has triggered, air in gas, gas flow pressure too low, thermal isolator device (TAE) has triggered, condensate duct blocked, incorrect gas restrictor, incorrect spare part gas valve, fault on the gas valve, multiple plug on PCB incorrectly plugged in, break in cable harness, ignition system (ignition transformer, ignition cable, ignition plug, ignition electrode) defective, ionisation current interrupted (cable, electrode), incorrect earthing of product, electronics defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.29",
+      "description": "Failure during operation: Re-ignition unsuccessful",
+      "possible_causes": [
+        "Gas supply temporarily stopped",
+        "flue gas recirculation",
+        "condensate duct blocked",
+        "defective earthing of product",
+        "ignition transformer has spark failure"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas supply",
+        "flue gas",
+        "condensate duct",
+        "ignition transformer"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "re-ignition",
+        "operation failure",
+        "gas",
+        "flue gas",
+        "condensate",
+        "ignition"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.29 Failure during operation: Re-ignition unsuccessful Gas supply temporarily stopped, flue gas recirculation, condensate duct blocked, defective earthing of product, ignition transformer has spark failure"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.32",
+      "description": "Fan fault",
+      "possible_causes": [
+        "Plug on fan not correctly plugged in",
+        "multiple plug on PCB not correctly plugged in",
+        "break in cable harness",
+        "fan blocked",
+        "Hall sensor defective",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "fan",
+        "PCB",
+        "cable harness",
+        "Hall sensor",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan",
+        "electrical",
+        "electronics",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.32 Fan fault Plug on fan not correctly plugged in, multiple plug on PCB not correctly plugged in, break in cable harness, fan blocked, Hall sensor defective, electronics defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.42",
+      "description": "Coding resistance fault (possible in combination with F.70)",
+      "possible_causes": [
+        "Short circuit/interruption in output range coding resistance (in cable harness at heat exchanger)",
+        "gas group resistor (on PCB)"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "coding resistance",
+        "cable harness",
+        "heat exchanger",
+        "gas group resistor",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "coding resistance",
+        "electrical",
+        "PCB",
+        "heat exchanger"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.42 Coding resistance fault (possible in combination with F.70) Short circuit/interruption in output range coding resistance (in cable harness at heat exchanger) or gas group resistor (on PCB)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.49",
+      "description": "Fault: eBUS",
+      "possible_causes": [
+        "Short circuit on eBUS",
+        "eBUS overload",
+        "two power supplies with different polarities on the eBUS"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "eBUS"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "eBUS",
+        "electrical",
+        "short circuit",
+        "overload"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.49 Fault: eBUS Short circuit on eBUS, eBUS overload or two power supplies with different polarities on the eBUS"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.52",
+      "description": "Contact fault mass flow sensor/Venturi",
+      "possible_causes": [
+        "The mass flow sensor/Venturi is not connected electrically",
+        "The plug is not plugged in correctly",
+        "The plug is defective",
+        "The slot is defective (loose connection)",
+        "Mass flow sensor/Venturi defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "mass flow sensor",
+        "Venturi"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "mass flow sensor",
+        "Venturi",
+        "electrical",
+        "connection"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.52 Contact fault mass flow sensor/Venturi The mass flow sensor/Venturi is not connected electrically The plug is not plugged in correctly The plug is not plugged in The plug is defective The slot is defective (loose connection) Mass flow sensor/Venturi defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.53",
+      "description": "Combustion regulation fault",
+      "possible_causes": [
+        "The combustion regulation has detected a fault",
+        "Gas flow pressure too low",
+        "Liquid gas coding resistance used when operating with natural gas",
+        "Gas valve defective",
+        "Mass flow sensor/Venturi defective, wet or blocked"
+      ],
+      "manufacturer_steps": [
+        "If the fault occurs again after being cleared: Do not wet the sensor, do not use any lubricants on the O-ring on the Venturi."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas flow pressure",
+        "gas valve",
+        "mass flow sensor",
+        "Venturi",
+        "O-ring"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "combustion",
+        "gas",
+        "pressure",
+        "Venturi",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.53 Combustion regulation fault The combustion regulation has detected a fault Gas flow pressure too low Liquid gas coding resistance used when operating with natural gas If the fault occurs again after being cleared: Gas valve defective Mass flow sensor/Venturi defective, wet or blocked (if the fault occurs again after being cleared): Do not wet the sensor, do not use any lubricants on the O-ring on the Venturi."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.54",
+      "description": "Fault in the gas supply (in combination with F.28/F.29)",
+      "possible_causes": [
+        "There is insufficient gas supply to operate the unit",
+        "Gas isolator cock(s) closed",
+        "Gas flow pressure is too low",
+        "Gas valve defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas isolator cock",
+        "gas flow pressure",
+        "gas valve"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas supply",
+        "gas pressure",
+        "gas valve"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.54 Fault in the gas supply (in combination with F.28/F.29) There is insufficient gas supply to operate the unit Gas isolator cock(s) closed Gas flow pressure is too low Gas valve defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.56",
+      "description": "Combustion component fault",
+      "possible_causes": [
+        "A component in the combustion regulation is defective",
+        "Contact fault at the gas valve (plug not plugged in correctly or not plugged in, plug defective, slot is defective (loose connection))",
+        "Natural gas coding resistance used when operating with liquid gas"
+      ],
+      "manufacturer_steps": [
+        "If the fault occurs again after being cleared: The gas valve is defective"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "combustion",
+        "gas valve",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.56 Combustion component fault A component in the combustion regulation is defective Contact fault at the gas valve (plug not plugged in correctly or not plugged in, plug defective, slot is defective (loose connection)) Natural gas coding resistance used when operating with liquid gas If the fault occurs again after being cleared: The gas valve is defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.57",
+      "description": "End comfort protection mode",
+      "possible_causes": [
+        "Active comfort protection mode has detected a regulation fault"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "comfort protection",
+        "regulation"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.57 End comfort protection mode Active comfort protection mode has detected a regulation fault"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.61",
+      "description": "Gas valve actuation fault",
+      "possible_causes": [
+        "Ignition electrode highly corroded",
+        "The gas valve cannot be actuated",
+        "Cable harness supply line to the gas valve is defective (short to earth, short circuit)",
+        "Gas valve defective",
+        "PCB defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "ignition electrode",
+        "gas valve",
+        "cable harness",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "ignition",
+        "electrical",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.61 Gas valve actuation fault Ignition electrode highly corroded The gas valve cannot be actuated Cable harness supply line to the gas valve is defective (short to earth, short circuit) Gas valve defective PCB defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.62",
+      "description": "Gas valve switch-off delay",
+      "possible_causes": [
+        "Delayed shutdown of gas valve detected",
+        "Secondary light (ignition and monitoring electrode indicates delayed extinguishing of the flame signal)",
+        "Gas valve defective",
+        "PCB defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve",
+        "ignition electrode",
+        "monitoring electrode",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "shutdown",
+        "ignition",
+        "flame",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.62 Gas valve switch-off delay Delayed shutdown of gas valve detected Secondary light (ignition and monitoring electrode indicates delayed extinguishing of the flame signal) Gas valve defective PCB defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.63",
+      "description": "Fault: EEPROM",
+      "possible_causes": [
+        "Electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "EEPROM",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.63 Fault: EEPROM Electronics defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.64",
+      "description": "Fault: Electronics/NTC",
+      "possible_causes": [
+        "Flow or return NTC short circuited",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "electronics",
+        "NTC",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.64 Fault: Electronics/NTC Flow or return NTC short circuited, electronics defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.65",
+      "description": "Fault: Electronics temp.",
+      "possible_causes": [
+        "Electronics overheating due to external influences",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "electronics",
+        "overheating"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.65 Fault: Electronics temp. Electronics overheating due to external influences, electronics defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.67",
+      "description": "Fault: Electronics/flame",
+      "possible_causes": [
+        "Implausible flame signal",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "electronics",
+        "flame signal"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.67 Fault: Electronics/flame Implausible flame signal, electronics defective"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.68",
+      "description": "Fault: Unstable flame signal",
+      "possible_causes": [
+        "Air in gas",
+        "gas flow pressure too low",
+        "incorrect air ratio",
+        "condensate duct blocked",
+        "incorrect gas restrictor",
+        "ionisation flow interruption (cable, electrode)",
+        "flue gas recirculation",
+        "condensate duct"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas",
+        "gas flow pressure",
+        "condensate duct",
+        "gas restrictor",
+        "ionisation flow",
+        "cable",
+        "electrode",
+        "flue gas"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame signal",
+        "gas",
+        "pressure",
+        "condensate",
+        "ionisation",
+        "flue gas"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "D Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.68 Fault: Unstable flame signal Air in gas, gas flow pressure too low, incorrect air ratio, condensate duct blocked, incorrect gas restrictor, ionisation flow interruption (cable, electrode), flue gas recirculation, condensate duct"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "F.70",
+      "description": "Invalid device specific",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [],
+      "source_refs": [],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  ],
+  "diagnostic_codes": [],
+  "status_codes": [],
+  "safety_warnings": [],
+  "maintenance_tasks": [],
+  "search_terms": [],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.0,
+    "review_required": true,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+      "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+    ]
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "BOSCH",
+    "product_family": "Buderus SSB Boilers",
+    "model_names": [
+      "Analogic 0-10 VDC Input Device"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "ANALOGIC 0-10 VDC INPUT DEVICE FOR BUDERUS SSB BOILERS",
+    "document_code": "6720819841 (2016/04) US",
+    "publication_date": "2016/04",
+    "language": "en",
+    "region": "US",
+    "source_file": "bosch_0-10v-module_installation-manual_6720819841-im-0-10vdc-en-usa-04-2016-us.pdf",
+    "file_hash": "f72be9812253edc9d7b7e1576368eb4b09e9f3f3bbedef5051e1c32e5bc331d8"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Supply Voltage",
+      "value": "120VAC",
+      "unit": "VAC",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Connection to the boiler",
+          "table_title": null,
+          "source_quote": "SUPPLY 120VAC / 60Hz, 24 hour dedicated circuit."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Supply Frequency",
+      "value": "60Hz",
+      "unit": "Hz",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Connection to the boiler",
+          "table_title": null,
+          "source_quote": "SUPPLY 120VAC / 60Hz, 24 hour dedicated circuit."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Analog Input Voltage Range (Linear Control)",
+      "value": "1VDC to 9VDC",
+      "unit": "VDC",
+      "applies_to_models": [],
+      "category": "control",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Central Heating with Analog Input Control of setpoint",
+          "table_title": null,
+          "source_quote": "The setpoint of the boiler is linearly controlled into the voltage interval of 1VDC to 9VDC from a minimum value equal to Par. 23 to a maximum value equal to Par. 24."
+        },
+        {
+          "page_number": 5,
+          "section_title": "Central Heating with Analog Input Control of Modulation Rate",
+          "table_title": null,
+          "source_quote": "The power of the boiler is linearly controlled into the voltage interval of 1VDC to 9VDC from a minimum value defined by the Par. 93 to a maximum value defined by the Par. 92."
+        },
+        {
+          "page_number": 6,
+          "section_title": "Use of the device for a cascade system",
+          "table_title": null,
+          "source_quote": "The setpoint of the cascade system is linearly controlled into the voltage interval of 1VDC to 9VDC from a minimum value equal to Par. 23 to a maximum value equal to Par. 24."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler Start Voltage",
+      "value": "> 1.5VDC",
+      "unit": "VDC",
+      "applies_to_models": [],
+      "category": "control",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Central Heating with Analog Input Control of setpoint",
+          "table_title": null,
+          "source_quote": "The boiler starts when the voltage is higher than 1.5VDC and turns off when the voltage is lower than 1VDC."
+        },
+        {
+          "page_number": 5,
+          "section_title": "Central Heating with Analog Input Control of Modulation Rate",
+          "table_title": null,
+          "source_quote": "The boiler starts when the voltage is higher than 1.5VDC and turns off when the voltage is lower than 1VDC."
+        },
+        {
+          "page_number": 6,
+          "section_title": "Use of the device for a cascade system",
+          "table_title": null,
+          "source_quote": "The cascade starts when the voltage is higher than 1.5VDC and turns off when the voltage is lower than 1VDC."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler Off Voltage",
+      "value": "< 1VDC",
+      "unit": "VDC",
+      "applies_to_models": [],
+      "category": "control",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Central Heating with Analog Input Control of setpoint",
+          "table_title": null,
+          "source_quote": "The boiler starts when the voltage is higher than 1.5VDC and turns off when the voltage is lower than 1VDC."
+        },
+        {
+          "page_number": 5,
+          "section_title": "Central Heating with Analog Input Control of Modulation Rate",
+          "table_title": null,
+          "source_quote": "The boiler starts when the voltage is higher than 1.5VDC and turns off when the voltage is lower than 1VDC."
+        },
+        {
+          "page_number": 6,
+          "section_title": "Use of the device for a cascade system",
+          "table_title": null,
+          "source_quote": "The cascade starts when the voltage is higher than 1.5VDC and turns off when the voltage is lower than 1VDC."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Analog Input Voltage for Maximum Setpoint/Power",
+      "value": "9VDC to 10VDC",
+      "unit": "VDC",
+      "applies_to_models": [],
+      "category": "control",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Central Heating with Analog Input Control of setpoint",
+          "table_title": null,
+          "source_quote": "For a voltage between 9VDC and 10VDC the setpoint is in any case set to the maximum value."
+        },
+        {
+          "page_number": 5,
+          "section_title": "Central Heating with Analog Input Control of Modulation Rate",
+          "table_title": null,
+          "source_quote": "For a voltage between 9VDC and 10VDC the power is in any case set to the maximum value."
+        },
+        {
+          "page_number": 6,
+          "section_title": "Use of the device for a cascade system",
+          "table_title": null,
+          "source_quote": "For a voltage between 9VDC and 10VDC the setpoint is in any case set to the maximum value."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler Parameter N. 1 (Central Heating (CH) Mode) for Setpoint Control",
+      "value": "4",
+      "unit": null,
+      "applies_to_models": [
+        "Buderus SSB Boilers"
+      ],
+      "category": "control_setting",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Central Heating with Analog Input Control of setpoint",
+          "table_title": "Parameters",
+          "source_quote": "N. 1 Description Central Heating (CH) Mode Comment This parameter must be set to 4"
+        },
+        {
+          "page_number": 6,
+          "section_title": "Use of the device for a cascade system",
+          "table_title": "Parameters",
+          "source_quote": "N. 1 Description Central Heating (CH) Mode Comment This parameter must be set to 4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler Parameter N. 23 (Design Supply Min Limit)",
+      "value": "Min setpoint temperature",
+      "unit": null,
+      "applies_to_models": [
+        "Buderus SSB Boilers"
+      ],
+      "category": "control_setting",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Central Heating with Analog Input Control of setpoint",
+          "table_title": "Parameters",
+          "source_quote": "N. 23 Description Design Supply Min Limit Comment Min setpoint temperature"
+        },
+        {
+          "page_number": 6,
+          "section_title": "Use of the device for a cascade system",
+          "table_title": "Parameters",
+          "source_quote": "N. 23 Description Design Supply Min Limit Comment Min setpoint temperature"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "parameter": "Boiler Parameter N. 24 (Design Supply Max Limit) for Setpoint Control",
+      "value": "Max setpoint temperature",
+      "unit": null,
+      "applies_to_models": [
+        "Buderus SSB Boilers"
+      ],
+      "category": "control_setting",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Central Heating with Analog Input Control of setpoint",
+          "table_title": "Parameters",
+          "source_quote": "N. 24 Description Design Supply Max Limit Comment Max setpoint temperature"
+        },
+        {
+          "page_number": 6,
+          "section_title": "Use of the device for a cascade system",
+          "table_title": "Parameters",
+          "source_quote": "N. 24 Description Design Supply Max Limit Comment Max setpoint temperature"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "parameter": "Boiler Parameter N. 1 (Central Heating (CH) Mode) for Modulation Rate Control",
+      "value": "5",
+      "unit": null,
+      "applies_to_models": [
+        "Buderus SSB Boilers"
+      ],
+      "category": "control_setting",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Central Heating with Analog Input Control of Modulation Rate",
+          "table_title": "Parameters",
+          "source_quote": "N. 1 Description Central Heating (CH) Mode Comment This parameter must be set to 5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler Parameter N. 24 (Design Supply Max Limit) for Modulation Rate Control",
+      "value": "This parameter sets the setpoint of the boiler",
+      "unit": null,
+      "applies_to_models": [
+        "Buderus SSB Boilers"
+      ],
+      "category": "control_setting",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Central Heating with Analog Input Control of Modulation Rate",
+          "table_title": "Parameters",
+          "source_quote": "N. 24 Description Design Supply Max Limit Comment This parameter sets the setpoint of the boiler"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "parameter": "Boiler Parameter N. 92 (Fan Speed Maximum)",
+      "value": "This parameter sets the maximum power",
+      "unit": null,
+      "applies_to_models": [
+        "Buderus SSB Boilers"
+      ],
+      "category": "control_setting",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Central Heating with Analog Input Control of Modulation Rate",
+          "table_title": "Parameters",
+          "source_quote": "N. 92 Description Fan Speed Maximum Comment This parameter sets the maximum power"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "parameter": "Boiler Parameter N. 93 (Fan Speed Minimum)",
+      "value": "This parameter sets the minimum power",
+      "unit": null,
+      "applies_to_models": [
+        "Buderus SSB Boilers"
+      ],
+      "category": "control_setting",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Central Heating with Analog Input Control of Modulation Rate",
+          "table_title": "Parameters",
+          "source_quote": "N. 93 Description Fan Speed Minimum Comment This parameter sets the minimum power"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  ],
+  "fault_codes": [],
+  "diagnostic_codes": [],
+  "status_codes": [],
+  "safety_warnings": [
+    {
+      "warning_type": "danger",
+      "topic": "Hazardous Situation",
+      "text": "DANGER indicates a hazardous situation which, if not avoided, will result in death or serious injury.",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": "Key to symbols",
+          "table_title": null,
+          "source_quote": "DANGER indicates a hazardous situation which, if not avoided, will result in death or serious injury."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Hazardous Situation",
+      "text": "WARNING indicates a hazardous situation which, if not avoided, could result in death or serious injury.",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": "Key to symbols",
+          "table_title": null,
+          "source_quote": "WARNING indicates a hazardous situation which, if not avoided, could result in death or serious injury."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Hazardous Situation",
+      "text": "CAUTION indicates a hazardous situation which, if not avoided, could result in minor to moderate injury.",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": "Key to symbols",
+          "table_title": null,
+          "source_quote": "CAUTION indicates a hazardous situation which, if not avoided, could result in minor to moderate injury."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Practices not related to personal injury",
+      "text": "NOTICE is used to address practices not related to personal injury.",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": "Key to symbols",
+          "table_title": null,
+          "source_quote": "NOTICE is used to address practices not related to personal injury."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Control Mounting and Wiring",
+      "text": "This control may be mounted remotely from the boiler. Please make sure this control is not subjected to high heat, excessive moisture, or dust. All wiring shall be accomplished by a licensed electrician according to Federal, State and/or local codes.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "NOTICE: This control may be mounted remotely from the boiler. Please make sure this control is not subjected to high heat, excessive moisture, or dust. All wiring shall be accomplished by a licensed electrician according to Federal, State and/or local codes."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "maintenance_tasks": [],
+  "search_terms": [
+    "Analogic 0-10 VDC Input Device",
+    "Buderus SSB Boilers",
+    "BMS",
+    "Building Management System",
+    "Central Heating Control",
+    "Setpoint Control",
+    "Modulation Rate Control",
+    "Cascade System",
+    "Wiring Instructions",
+    "Installation",
+    "Service",
+    "120VAC",
+    "0-10VDC",
+    "Control Parameters",
+    "CH Mode",
+    "Design Supply Min Limit",
+    "Design Supply Max Limit",
+    "Fan Speed Maximum",
+    "Fan Speed Minimum"
+  ],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.4,
+    "review_required": true,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "Some technical specifications for boiler parameters (N. 23, 24, 92, 93) describe the parameter's function rather than providing a specific numerical value, hence 'review_required' is set to true for these entries.",
+      "No fault codes, diagnostic codes, or status codes were extracted. Manual should be reviewed or reprocessed.",
+      "No fault_codes were extracted."
+    ]
+  }
+}

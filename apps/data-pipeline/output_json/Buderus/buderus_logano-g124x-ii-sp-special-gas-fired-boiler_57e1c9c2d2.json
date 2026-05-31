@@ -1,0 +1,2815 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Buderus",
+    "product_family": "Logano G124X II/SP special gas-fired boiler",
+    "model_names": [
+      "Logano G124X II",
+      "Logano G124X SP"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "Installation and maintenance instructions",
+    "document_code": "6304 0308 – 2018/06 US/CA",
+    "publication_date": "2018/06",
+    "language": "en",
+    "region": "US/CA",
+    "source_file": "bosch_g124x_installation-and-maintenance-manual_63040308-g124x-ii-sp-installation-and-maintenance-instructions-en-06-2018.pdf",
+    "file_hash": "57e1c9c2d2c7bce58148a736130ff35e3d25e2bec94300eb813a65d36fa0c2be"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Maximum boiler temperature",
+      "value": "220",
+      "unit": "°F",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "Maximum boiler temperature 220 °F"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum operating pressure",
+      "value": "58",
+      "unit": "psi",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "Maximum operating pressure 58 psi"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler output",
+      "value": "74",
+      "unit": "MBtu/hr",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 18",
+        "Logano G124X SP Boiler size 18"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": "Dimensions",
+          "source_quote": "18 74 MBtu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler output",
+      "value": "103",
+      "unit": "MBtu/hr",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 25",
+        "Logano G124X SP Boiler size 25"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": "Dimensions",
+          "source_quote": "25 103 MBtu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler output",
+      "value": "132.5",
+      "unit": "MBtu/hr",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 32",
+        "Logano G124X SP Boiler size 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": "Dimensions",
+          "source_quote": "32 132,5 MBtu/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue connection",
+      "value": "5",
+      "unit": "inches",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 18",
+        "Logano G124X SP Boiler size 18",
+        "Logano G124X II Boiler size 25",
+        "Logano G124X SP Boiler size 25"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": "Dimensions",
+          "source_quote": "5\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue connection",
+      "value": "6",
+      "unit": "inches",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 32",
+        "Logano G124X SP Boiler size 32"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": "Dimensions",
+          "source_quote": "6\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum overflow valve capacity",
+      "value": "62",
+      "unit": "lb/hr",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 18",
+        "Logano G124X SP Boiler size 18"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": "Dimensions",
+          "source_quote": "62 Ib/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum overflow valve capacity",
+      "value": "86",
+      "unit": "lb/hr",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 25",
+        "Logano G124X SP Boiler size 25"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": "Dimensions",
+          "source_quote": "86 Ib/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum overflow valve capacity",
+      "value": "110",
+      "unit": "lb/hr",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 32",
+        "Logano G124X SP Boiler size 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": "Dimensions",
+          "source_quote": "110 Ib/hr"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Number of Nozzles",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [
+        "Logano G124X II Boiler size 18",
+        "Logano G124X SP Boiler size 18"
+      ],
+      "category": "burner",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": "Dimensions",
+          "source_quote": "2 Qty"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Number of Nozzles",
+      "value": "3",
+      "unit": null,
+      "applies_to_models": [
+        "Logano G124X II Boiler size 25",
+        "Logano G124X SP Boiler size 25"
+      ],
+      "category": "burner",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": "Dimensions",
+          "source_quote": "3 Qty"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Number of Nozzles",
+      "value": "4",
+      "unit": null,
+      "applies_to_models": [
+        "Logano G124X II Boiler size 32",
+        "Logano G124X SP Boiler size 32"
+      ],
+      "category": "burner",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": "Dimensions",
+          "source_quote": "4 Qty"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume",
+      "value": "2.4",
+      "unit": "US gal.",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 18",
+        "Logano G124X SP Boiler size 18"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": "Dimensions",
+          "source_quote": "2.4 US gal."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume",
+      "value": "2.9",
+      "unit": "US gal.",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 25",
+        "Logano G124X SP Boiler size 25"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": "Dimensions",
+          "source_quote": "2.9 US gal."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume",
+      "value": "3.4",
+      "unit": "US gal.",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 32",
+        "Logano G124X SP Boiler size 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": "Dimensions",
+          "source_quote": "3.4 US gal."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Empty weight",
+      "value": "229",
+      "unit": "lbs",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 18",
+        "Logano G124X SP Boiler size 18"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": "Dimensions",
+          "source_quote": "229 Ibs"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Empty weight",
+      "value": "240",
+      "unit": "lbs",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 25",
+        "Logano G124X SP Boiler size 25"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": "Dimensions",
+          "source_quote": "240 Ibs"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Empty weight",
+      "value": "337",
+      "unit": "lbs",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 32",
+        "Logano G124X SP Boiler size 32"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Dimensions and connections",
+          "table_title": "Dimensions",
+          "source_quote": "337 Ibs"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance, front (door open)",
+      "value": "33",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Placing the boiler",
+          "table_title": null,
+          "source_quote": "A space of at least 33 inches is required in front of the boiler with the door open to allow sufficient access space for operation and maintenance."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance, front (door closed)",
+      "value": "2",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Placing the boiler",
+          "table_title": null,
+          "source_quote": "When the door is closed, a minimum clearance of 2 inches is required at the front and sides"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance, sides",
+      "value": "2",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Placing the boiler",
+          "table_title": null,
+          "source_quote": "When the door is closed, a minimum clearance of 2 inches is required at the front and sides"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance, flue pipe",
+      "value": "2",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Placing the boiler",
+          "table_title": null,
+          "source_quote": "2 inches clearance is also required for the flue pipe"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance, ceiling",
+      "value": "30",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Placing the boiler",
+          "table_title": null,
+          "source_quote": "and 30 inches clearance to the ceiling."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance, hot water pipes to flammable walls",
+      "value": "2",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Boiler installation",
+          "table_title": null,
+          "source_quote": "Note that a minimum clearance of two inches is required between pipes carrying hot water and flammable walls in the boiler room."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance, flue pipes to flammable materials",
+      "value": "18",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "Flue pipe installation",
+          "table_title": null,
+          "source_quote": "A minimum clearance of 18\" is required between the flue pipes and all flammable materials."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum operating pressure (with included relief valve)",
+      "value": "30",
+      "unit": "psi",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Filling heating system and checking for leaks",
+          "table_title": "Test pressures",
+          "source_quote": "30 psi (with the included relief valve)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum operating pressure (with different relief valve)",
+      "value": "58",
+      "unit": "psi",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Filling heating system and checking for leaks",
+          "table_title": "Test pressures",
+          "source_quote": "58 psi (with a different relief valve)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum construction site test pressure (for 30 psi operating)",
+      "value": "45",
+      "unit": "psi",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Filling heating system and checking for leaks",
+          "table_title": "Test pressures",
+          "source_quote": "45 psi"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum construction site test pressure (for 58 psi operating)",
+      "value": "75",
+      "unit": "psi",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Filling heating system and checking for leaks",
+          "table_title": "Test pressures",
+          "source_quote": "75 psi"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas supply pressure (natural gas)",
+      "value": "4.7\" to 10.5\"",
+      "unit": "W.C.",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Placing the heating system in operation",
+          "table_title": null,
+          "source_quote": "The supply pressure for natural gas must be between 4.7\" and 10.5\" W.C."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas supply pressure (propane gas)",
+      "value": "11\" and 13\"",
+      "unit": "W.C.",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Placing the heating system in operation",
+          "table_title": null,
+          "source_quote": "and between 11\" and 13\" W.C. for propane gas."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Manifold pressure (natural gas)",
+      "value": "3.6",
+      "unit": "inch W.C.",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 18",
+        "Logano G124X SP Boiler size 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Placing the heating system in operation",
+          "table_title": "Manifold pressure",
+          "source_quote": "18 3.6"
+        },
+        {
+          "page_number": 38,
+          "section_title": "Placing the heating system in operation",
+          "table_title": "Manifold pressure",
+          "source_quote": "18 3.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Manifold pressure (natural gas)",
+      "value": "3.5",
+      "unit": "inch W.C.",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 25",
+        "Logano G124X SP Boiler size 25"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Placing the heating system in operation",
+          "table_title": "Manifold pressure",
+          "source_quote": "25 3.5"
+        },
+        {
+          "page_number": 38,
+          "section_title": "Placing the heating system in operation",
+          "table_title": "Manifold pressure",
+          "source_quote": "25 3.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Manifold pressure (natural gas)",
+      "value": "3.6",
+      "unit": "inch W.C.",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 32",
+        "Logano G124X SP Boiler size 32"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Placing the heating system in operation",
+          "table_title": "Manifold pressure",
+          "source_quote": "32 3.6"
+        },
+        {
+          "page_number": 38,
+          "section_title": "Placing the heating system in operation",
+          "table_title": "Manifold pressure",
+          "source_quote": "32 3.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Manifold pressure (propane gas)",
+      "value": "9.8",
+      "unit": "inch W.C.",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 18",
+        "Logano G124X SP Boiler size 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Placing the heating system in operation",
+          "table_title": "Manifold pressure",
+          "source_quote": "18 9.8"
+        },
+        {
+          "page_number": 38,
+          "section_title": "Placing the heating system in operation",
+          "table_title": "Manifold pressure",
+          "source_quote": "18 9.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Manifold pressure (propane gas)",
+      "value": "10.3",
+      "unit": "inch W.C.",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 25",
+        "Logano G124X SP Boiler size 25"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Placing the heating system in operation",
+          "table_title": "Manifold pressure",
+          "source_quote": "25 10.3"
+        },
+        {
+          "page_number": 38,
+          "section_title": "Placing the heating system in operation",
+          "table_title": "Manifold pressure",
+          "source_quote": "25 10.3"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Manifold pressure (propane gas)",
+      "value": "10.0",
+      "unit": "inch W.C.",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 32",
+        "Logano G124X SP Boiler size 32"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Placing the heating system in operation",
+          "table_title": "Manifold pressure",
+          "source_quote": "32 10.0"
+        },
+        {
+          "page_number": 38,
+          "section_title": "Placing the heating system in operation",
+          "table_title": "Manifold pressure",
+          "source_quote": "32 10.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pilot flame setting",
+      "value": "1 1/2 to 1 1/2",
+      "unit": "inches",
+      "applies_to_models": [
+        "Logano G124X II"
+      ],
+      "category": "burner",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "Placing the heating system in operation",
+          "table_title": null,
+          "source_quote": "The flame must envelope the flame guard 1/2 to 1 1/2 inches."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Pilot flame thermal element coverage",
+      "value": "3/8 to 1/2",
+      "unit": "inch",
+      "applies_to_models": [
+        "Logano G124X SP"
+      ],
+      "category": "burner",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": "Placing the heating system in operation",
+          "table_title": null,
+          "source_quote": "The pilot flame must surround the thermal element 3/8 to 1/2 inch."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (natural gas, 0-8500 ft)",
+      "value": "285",
+      "unit": null,
+      "applies_to_models": [
+        "Logano G124X II Boiler size 18",
+        "Logano G124X SP Boiler size 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas orifice",
+          "source_quote": "18 2 285"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (natural gas, 8501-12000 ft)",
+      "value": "280",
+      "unit": null,
+      "applies_to_models": [
+        "Logano G124X II Boiler size 18",
+        "Logano G124X SP Boiler size 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas orifice",
+          "source_quote": "18 280"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated manifold pressure (natural gas)",
+      "value": "3.6",
+      "unit": "in. W.C.",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 18",
+        "Logano G124X SP Boiler size 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas orifice",
+          "source_quote": "18 3.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (natural gas, 0-8500 ft)",
+      "value": "275",
+      "unit": null,
+      "applies_to_models": [
+        "Logano G124X II Boiler size 25",
+        "Logano G124X SP Boiler size 25"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas orifice",
+          "source_quote": "25 3 275"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (natural gas, 8501-12000 ft)",
+      "value": "270",
+      "unit": null,
+      "applies_to_models": [
+        "Logano G124X II Boiler size 25",
+        "Logano G124X SP Boiler size 25"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas orifice",
+          "source_quote": "25 270"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated manifold pressure (natural gas)",
+      "value": "3.5",
+      "unit": "in. W.C.",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 25",
+        "Logano G124X SP Boiler size 25"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas orifice",
+          "source_quote": "25 3.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (natural gas, 0-8500 ft)",
+      "value": "270",
+      "unit": null,
+      "applies_to_models": [
+        "Logano G124X II Boiler size 32",
+        "Logano G124X SP Boiler size 32"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas orifice",
+          "source_quote": "32 4 270"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (natural gas, 8501-12000 ft)",
+      "value": "265",
+      "unit": null,
+      "applies_to_models": [
+        "Logano G124X II Boiler size 32",
+        "Logano G124X SP Boiler size 32"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas orifice",
+          "source_quote": "32 265"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated manifold pressure (natural gas)",
+      "value": "3.6",
+      "unit": "in. W.C.",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 32",
+        "Logano G124X SP Boiler size 32"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for natural gas orifice",
+          "source_quote": "32 3.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (LP gas, 0-8500 ft)",
+      "value": "180",
+      "unit": null,
+      "applies_to_models": [
+        "Logano G124X II Boiler size 18",
+        "Logano G124X SP Boiler size 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas orifice",
+          "source_quote": "18 2 180"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (LP gas, 8501-12000 ft)",
+      "value": "175",
+      "unit": null,
+      "applies_to_models": [
+        "Logano G124X II Boiler size 18",
+        "Logano G124X SP Boiler size 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas orifice",
+          "source_quote": "18 175"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated manifold pressure (LP gas)",
+      "value": "9.8",
+      "unit": "in. W.C.",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 18",
+        "Logano G124X SP Boiler size 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas orifice",
+          "source_quote": "18 9.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (LP gas, 0-8500 ft)",
+      "value": "175",
+      "unit": null,
+      "applies_to_models": [
+        "Logano G124X II Boiler size 25",
+        "Logano G124X SP Boiler size 25"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas orifice",
+          "source_quote": "25 3 175"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (LP gas, 8501-12000 ft)",
+      "value": "170",
+      "unit": null,
+      "applies_to_models": [
+        "Logano G124X II Boiler size 25",
+        "Logano G124X SP Boiler size 25"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas orifice",
+          "source_quote": "25 170"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated manifold pressure (LP gas)",
+      "value": "10.3",
+      "unit": "in. W.C.",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 25",
+        "Logano G124X SP Boiler size 25"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas orifice",
+          "source_quote": "25 10.3"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (LP gas, 0-8500 ft)",
+      "value": "170",
+      "unit": null,
+      "applies_to_models": [
+        "Logano G124X II Boiler size 32",
+        "Logano G124X SP Boiler size 32"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas orifice",
+          "source_quote": "32 4 170"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Main gas orifice identification (LP gas, 8501-12000 ft)",
+      "value": "165",
+      "unit": null,
+      "applies_to_models": [
+        "Logano G124X II Boiler size 32",
+        "Logano G124X SP Boiler size 32"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas orifice",
+          "source_quote": "32 165"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated manifold pressure (LP gas)",
+      "value": "10.0",
+      "unit": "in. W.C.",
+      "applies_to_models": [
+        "Logano G124X II Boiler size 32",
+        "Logano G124X SP Boiler size 32"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Specifications",
+          "table_title": "Main gas orifice identification and rated manifold pressure for LP gas orifice",
+          "source_quote": "32 10.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "No Heat Requirement / Vent Damper / Limit Switch (G124X II)",
+      "description": "Room thermostat (control) does not signal heat requirement, Vent Damper (if installed) is not open, or the limit switch is not present.",
+      "possible_causes": [
+        "Electrical power supply issue",
+        "Low-voltage transformer issue",
+        "Thermostat (control) issue",
+        "Wiring issue",
+        "Vent Damper malfunction",
+        "Missing limit switch"
+      ],
+      "manufacturer_steps": [
+        "Check electrical power supply, low-voltage transformer, thermostat (control) and wiring.",
+        "Check that the Vent Damper (if installed) is open and the limit switch is present.",
+        "On models with vent damper check that it operates and Limit switches are present. If necessary, replace vent damper."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Room thermostat",
+        "Vent Damper",
+        "Limit switch",
+        "Low-voltage transformer"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "thermostat",
+        "vent damper",
+        "limit switch",
+        "electrical",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Troubleshooting on the G124X II",
+          "table_title": null,
+          "source_quote": "Close gas valve. Set thermostat (control) to require heat (flue baffle open). Switch on power. -> No -> Check electrical power supply, low-voltage transformer, thermostat (control) and wiring. Check that the Vent Damper (if installed) is open and the limit switch is present. On models with vent damper check that it operates and Limit switches are present. If necessary, replace vent damper."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "No Ignition Sparks (G124X II)",
+      "description": "Ignition sparks are not observed in the gap between the electrode and sensor through the sight glass.",
+      "possible_causes": [
+        "Ignition wiring issue",
+        "Ceramic insulator of ignition electrode issue",
+        "Ignition gap issue",
+        "Ignition cable contact issue (scorching or kinking)",
+        "Ignition control unit fault"
+      ],
+      "manufacturer_steps": [
+        "Check ignition wiring, ceramic insulator of ignition electrode and ignition gap, adjust if necessary.",
+        "Check the ignition cable contact for signs of scorching or kinking.",
+        "Replace ignition control unit."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Ignition electrode",
+        "Ignition sensor",
+        "Ignition wiring",
+        "Ignition cable",
+        "Ignition control unit"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition",
+        "spark",
+        "electrode",
+        "sensor",
+        "wiring",
+        "control unit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Troubleshooting on the G124X II",
+          "table_title": null,
+          "source_quote": "Observe ignition sparks in gap between electrode and sensor through sight glass. -> No -> Check ignition wiring, ceramic insulator of ignition electrode and ignition gap, adjust if necessary. Check the ignition cable contact for signs of scorching or kinking. Replace ignition control unit."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "Ignition Flame Not Burning (G124X II)",
+      "description": "Main gas valve is open, but ignition flame is not burning.",
+      "possible_causes": [
+        "Manually operated vent dampers not open",
+        "Incorrect gas connections or pressures",
+        "Main orifices blocked",
+        "Electrical connection issue between ignition module and gas valve",
+        "Insufficient 24 V alternating current at automatic ignition",
+        "Gas valve fault",
+        "Automatic ignition fault"
+      ],
+      "manufacturer_steps": [
+        "Check that all manually operated vent dampers are open; check that gas connections and pressures are correct and that main orifices are not blocked.",
+        "Check electrical connection between ignition module and connection on the gas valve.",
+        "Use MV-MV/PV terminals to check 24 V alternating current at the automatic ignition. If the voltage is correct replace gas valve, otherwise replace automatic ignition."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Main gas valve",
+        "Ignition module",
+        "Vent damper",
+        "Gas connections",
+        "Main orifices",
+        "Automatic ignition"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition",
+        "flame",
+        "gas valve",
+        "vent damper",
+        "pressure",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Troubleshooting on the G124X II",
+          "table_title": null,
+          "source_quote": "Open main gas valve. Ignition flame is burning. -> No -> Check that all manually operated vent dampers are open; check that gas connections and pressures are correct and that main orifices are not blocked. Check electrical connection between ignition module and connection on the gas valve. Use MV-MV/PV terminals to check 24 V alternating current at the automatic ignition. If the voltage is correct replace gas valve, otherwise replace automatic ignition."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "Ignition Spark Continues (G124X II)",
+      "description": "Ignition spark continues even after the ignition flame is burning.",
+      "possible_causes": [
+        "Ignition wiring issue",
+        "Ground continuity issue",
+        "Ignition electrode issue",
+        "Electrical connections between ignition electrode and ignition module issue",
+        "Broken ceramic insulator in ignition electrode",
+        "Ignition flame not surrounding electrode, not burning steadily, or not bluish",
+        "Pilot flame adjustment needed",
+        "Ignition module fault"
+      ],
+      "manufacturer_steps": [
+        "Check ignition wiring and ground for continuity.",
+        "Check ignition electrode.",
+        "Check electrical connections between ignition electrode and ignition module.",
+        "Check whether the ceramic insulator in the ignition electrode is broken.",
+        "Check that the ignition flame surrounds the electrode and burns steadily with a bluish flame.",
+        "Adjust pilot flame.",
+        "If this does not correct the fault, replace the ignition module."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Ignition spark",
+        "Ignition flame",
+        "Ignition wiring",
+        "Ground",
+        "Ignition electrode",
+        "Ignition module",
+        "Pilot flame"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition",
+        "spark",
+        "flame",
+        "electrode",
+        "ground",
+        "wiring",
+        "pilot flame"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Troubleshooting on the G124X II",
+          "table_title": null,
+          "source_quote": "Ignition spark stops as soon as ignition flame burns. -> No -> Check ignition wiring and ground for continuity. Check ignition electrode. Check electrical connections between ignition electrode and ignition module. Check whether the ceramic insulator in the ignition electrode is broken. Check that the ignition flame surrounds the electrode and burns steadily with a bluish flame. Adjust pilot flame. If this does not correct the fault, replace the ignition module."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "Main Burner No Ignition (G124X II)",
+      "description": "Main burner does not ignite after pilot flame is established.",
+      "possible_causes": [
+        "Insufficient 24 V alternating current at automatic ignition",
+        "Ignition control fault",
+        "Electrical connection issue between ignition module and gas valve",
+        "Gas valve fault"
+      ],
+      "manufacturer_steps": [
+        "Use MV-MV/PV terminals to check 24 V alternating current, closed current circuit at the automatic ignition. If there is no voltage, replace ignition control.",
+        "Check electrical connection between ignition module and gas valve. If OK, replace gas valve."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Main burner",
+        "Automatic ignition",
+        "Ignition control",
+        "Ignition module",
+        "Gas valve"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "main burner",
+        "ignition",
+        "electrical",
+        "gas valve",
+        "ignition control"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Troubleshooting on the G124X II",
+          "table_title": null,
+          "source_quote": "Main burner ignites. -> No -> Use MV-MV/PV terminals to check 24 V alternating current, closed current circuit at the automatic ignition. If there is no voltage, replace ignition control. Check electrical connection between ignition module and gas valve. If OK, replace gas valve."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "System Stops Prematurely (G124X II)",
+      "description": "The system does not operate continuously until the heat requirement ends.",
+      "possible_causes": [
+        "Weak or faulty ground in ignition wiring",
+        "Ignition flame not surrounding electrode, not burning evenly, or not bluish",
+        "Pilot assembly fault",
+        "Ignition module fault"
+      ],
+      "manufacturer_steps": [
+        "Check ignition wiring and ground for continuity. Note: If the ground is weak or faulty, the system may switch off at random, even if the heating system operates correctly when checked.",
+        "Check that the ignition flame surrounds the electrode and burns evenly with a bluish flame. If OK replace pilot assembly.",
+        "If everything is OK replace ignition module."
+      ],
+      "cautions_or_notes": [
+        "If the ground is weak or faulty, the system may switch off at random, even if the heating system operates correctly when checked."
+      ],
+      "symptoms": [
+        "System switches off at random"
+      ],
+      "related_components": [
+        "Ignition wiring",
+        "Ground",
+        "Ignition flame",
+        "Electrode",
+        "Pilot assembly",
+        "Ignition module"
+      ],
+      "severity": "medium",
+      "safety_level": "unknown",
+      "search_tags": [
+        "system operation",
+        "ignition",
+        "ground",
+        "flame",
+        "pilot assembly",
+        "ignition module"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Troubleshooting on the G124X II",
+          "table_title": null,
+          "source_quote": "System operates until the heat requirement ends. -> No -> Check ignition wiring and ground for continuity. Note: If the ground is weak or faulty, the system may switch off at random, even if the heating system operates correctly when checked. Check that the ignition flame surrounds the electrode and burns evenly with a bluish flame. If OK replace pilot assembly. If everything is OK replace ignition module."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "System Fails to Shut Off / Vent Damper Open (G124X II)",
+      "description": "After the heat requirement has ended, the system does not switch off, or the vent damper does not close.",
+      "possible_causes": [
+        "Thermostat (control) malfunction",
+        "24-V connection to gas valve issue",
+        "Gas valve fault"
+      ],
+      "manufacturer_steps": [
+        "Check operation of thermostat (control).",
+        "Disconnect 24-V connection to gas valve. If gas valve closes, check thermostat and connection line again.",
+        "If the gas valve does not close, replace gas valve."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Thermostat",
+        "Gas valve",
+        "Vent damper"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "shut off",
+        "vent damper",
+        "thermostat",
+        "gas valve",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Troubleshooting on the G124X II",
+          "table_title": null,
+          "source_quote": "Heat requirement ended, system switches off, vent damper closes. -> No -> Check operation of thermostat (control). Disconnect 24-V connection to gas valve. If gas valve closes, check thermostat and connection line again. If the gas valve does not close, replace gas valve."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "No Heat Requirement / Vent Damper / Limit Switch (G124X SP)",
+      "description": "Room thermostat (control) does not signal heat requirement, Vent Damper (if installed) is not open, or the limit switch is not present.",
+      "possible_causes": [
+        "Electrical power supply issue",
+        "Low-voltage transformer issue",
+        "Thermostat (control) issue",
+        "Wiring issue",
+        "Vent damper malfunction",
+        "Missing limit switch"
+      ],
+      "manufacturer_steps": [
+        "Check electrical power supply, low-voltage transformer, thermostat (control) and wiring.",
+        "Check that the vent damper (if installed) is open and the limit switch is present."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Room thermostat",
+        "Vent Damper",
+        "Limit switch",
+        "Low-voltage transformer"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "thermostat",
+        "vent damper",
+        "limit switch",
+        "electrical",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "Troubleshooting on the G124X SP",
+          "table_title": null,
+          "source_quote": "Set gas valve ON/OFF button clockwise to OFF position. Close main gas valve. Set thermostat (control) to heat requirement (vent damper opens). Switch on power. -> No -> Check electrical power supply, low-voltage transformer, thermostat (control) and wiring. Check that the vent damper (if installed) is open and the limit switch is present."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "Ignition Flame Not Burning (G124X SP)",
+      "description": "After setting to PILOT position, opening main gas valve, pressing reset button, and attempting to ignite, the ignition flame is not burning or goes out.",
+      "possible_causes": [
+        "Manually operated baffles not open",
+        "Incorrect gas connections or pressures",
+        "Main orifices blocked",
+        "Thermal element not firmly screwed to gas valve",
+        "Pilot assembly fault",
+        "Gas valves fault"
+      ],
+      "manufacturer_steps": [
+        "Check that all manually operated baffles are open; check that gas connections and pressures are correct and that main orifices are not blocked.",
+        "Check connections to gas valve.",
+        "If the ignition flame goes out, check that the thermal element is firmly screwed to the gas valve; if yes, replace pilot assembly.",
+        "If the ignition flame continues to go out, replace gas valves."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Main gas valve",
+        "Ignition flame",
+        "Reset button",
+        "Manually operated baffles",
+        "Gas connections",
+        "Main orifices",
+        "Thermal element",
+        "Pilot assembly"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition",
+        "flame",
+        "gas valve",
+        "pilot",
+        "thermal element",
+        "gas pressure"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "Troubleshooting on the G124X SP",
+          "table_title": null,
+          "source_quote": "Set gas valve ON/OFF button counterclockwise to PILOT position. Open main gas valve. Press red reset button and ignite ignition flame. Hold down red reset button for one minute and then release. Ignition flame is burning. -> No -> Check that all manually operated baffles are open; check that gas connections and pressures are correct and that main orifices are not blocked. Check connections to gas valve. If the ignition flame goes out, check that the thermal element is firmly screwed to the gas valve; if yes, replace pilot assembly. If the ignition flame continues to go out, replace gas valves."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "Main Burner No Ignition (G124X SP)",
+      "description": "After setting to ON position, the main burner does not ignite.",
+      "possible_causes": [
+        "Insufficient 24-V voltage at the gas valve",
+        "Electrical connections to gas valve issue",
+        "Gas valve fault"
+      ],
+      "manufacturer_steps": [
+        "Check 24-V voltage at the gas valve.",
+        "Check electrical connections to gas valve. If OK replace gas valve."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Main burner",
+        "Gas valve"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "main burner",
+        "ignition",
+        "electrical",
+        "gas valve"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "Troubleshooting on the G124X SP",
+          "table_title": null,
+          "source_quote": "Set gas valve ON/OFF button counterclockwise to ON. Main burner ignites. -> No -> Check 24-V voltage at the gas valve. Check electrical connections to gas valve. If OK replace gas valve."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "System Stops Prematurely (G124X SP)",
+      "description": "The system does not operate continuously until the heat requirement ends.",
+      "possible_causes": [
+        "Ignition flame not surrounding thermocouple, not burning evenly, or not bluish",
+        "Thermocouple fault"
+      ],
+      "manufacturer_steps": [
+        "Check that the ignition flame surrounds the thermocouple and burns evenly with a bluish flame. If OK replace thermocouple."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Ignition flame",
+        "Thermocouple"
+      ],
+      "severity": "medium",
+      "safety_level": "unknown",
+      "search_tags": [
+        "system operation",
+        "ignition flame",
+        "thermocouple"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "Troubleshooting on the G124X SP",
+          "table_title": null,
+          "source_quote": "System operates until the heat requirement ends. -> No -> Check that the ignition flame surrounds the thermocouple and burns evenly with a bluish flame. If OK replace thermocouple."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "Ignition Flame Continues (G124X SP)",
+      "description": "After the heat requirement has ended, the system switches off, the vent damper closes, but the ignition flame continues to burn.",
+      "possible_causes": [
+        "Thermostat (control) malfunction",
+        "24-V connection to gas fitting issue",
+        "Gas valve fault"
+      ],
+      "manufacturer_steps": [
+        "Check operation of thermostat (control).",
+        "Disconnect 24-V connection to gas fitting. If gas valve closes, check thermostat and connection line again.",
+        "If the gas valve does not close, replace gas valve."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Thermostat",
+        "Gas fitting",
+        "Gas valve",
+        "Vent damper",
+        "Ignition flame"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "shut off",
+        "ignition flame",
+        "vent damper",
+        "thermostat",
+        "gas valve",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "Troubleshooting on the G124X SP",
+          "table_title": null,
+          "source_quote": "Heat requirement ended, system switches off, vent damper closes. Ignition flame continues to burn. -> No -> Check operation of thermostat (control). Disconnect 24-V connection to gas fitting. If gas valve closes, check thermostat and connection line again. If the gas valve does not close, replace gas valve."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "diagnostic_codes": [],
+  "status_codes": [],
+  "safety_warnings": [
+    {
+      "warning_type": "caution",
+      "topic": "General Safety",
+      "text": "Observe the safety instructions of this installation and maintenance manual before placing the boiler in operation.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "CAUTION! Observe the safety instructions of this installation and maintenance manual before placing the boiler in operation."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Unqualified Personnel",
+      "text": "If installation, adjustment, modification, operation or maintenance of the heating system is carried out by an unqualified person, this may result in danger to life and limb or property damage. The directions of this installation and maintenance manual must be followed precisely. Contact a qualified service company, service provider or the gas company if support or additional information is required.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "WARNING! If installation, adjustment, modification, operation or maintenance of the heating system is carried out by an unqualified person, this may result in danger to life and limb or property damage. The directions of this installation and maintenance manual must be followed precisely. Contact a qualified service company, service provider or the gas company if support or additional information is required."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Operating Manual",
+      "text": "The operating manual is a component of the technical documentation handed over to the operator of the heating system. Discuss the instruction in this manual with the owner or operator of the heating system to ensure that they are familiar with all information required for operation of the heating system.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "CAUTION! The operating manual is a component of the technical documentation handed over to the operator of the heating system. Discuss the instruction in this manual with the owner or operator of the heating system to ensure that they are familiar with all information required for operation of the heating system."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Risk to Life",
+      "text": "Identifies possible dangers emanating from a product, which might lead to serious injury or death if appropriate care is not taken.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "RISK TO LIFE Identifies possible dangers emanating from a product, which might lead to serious injury or death if appropriate care is not taken."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Risk of Injury / System Damage",
+      "text": "Identifies potentially dangerous situations, which might lead to medium or slight injuries or to material losses.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "RISK OF INJURY/ SYSTEM DAMAGE Identifies potentially dangerous situations, which might lead to medium or slight injuries or to material losses."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electric Shock",
+      "text": "RISK TO LIFE from electric shock.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from electric shock."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Emergency Safety",
+      "text": "RISK TO LIFE due to neglecting your own safety in case of emergency, such as with a fire. Never put yourself at risk. Your own safety must always take priority.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE due to neglecting your own safety in case of emergency, such as with a fire. Never put yourself at risk. Your own safety must always take priority."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Explosion of Flammable Gases",
+      "text": "RISK TO LIFE from explosion of flammable gases. If you smell gas there is a danger of explosion. Never work on gas lines unless you are licensed for this type of work. Make sure that a qualified company installs the boiler, connects gas and venting, places the boiler in operation, connects the electrical power, and maintains and repairs the boiler. No open flame. No smoking. Do not use lighters. Prevent spark formation. Do not operate electrical switches, including telephones, plugs or door bells. Close main gas valve. Open doors and windows. Warn other occupants of the building, but do not use door bells. Call gas company from outside the building. If gas can be heard escaping, leave the building immediately, prevent other people from entering, notify police and fire from outside the building.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from explosion of flammable gases. If you smell gas there is a danger of explosion. Never work on gas lines unless you are licensed for this type of work. • Make sure that a qualified company installs the boiler, connects gas and venting, places the boiler in operation, connects the electrical power, and maintains and repairs the boiler. • No open flame. No smoking. Do not use lighters. • Prevent spark formation. Do not operate electrical switches, including telephones, plugs or door bells. • Close main gas valve. • Open doors and windows. • Warn other occupants of the building, but do not use door bells. • Call gas company from outside the building. • If gas can be heard escaping, leave the building immediately, prevent other people from entering, notify police and fire from outside the building."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System Damage from Cleaning and Maintenance",
+      "text": "SYSTEM DAMAGE due to unsatisfactory cleaning and maintenance. Clean and service the system once a year. Check that the complete heating system operates correctly. Immediately correct all faults to prevent system damage.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE due to unsatisfactory cleaning and maintenance. Clean and service the system once a year. Check that the complete heating system operates correctly. • Immediately correct all faults to prevent system damage."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electric Shock during Electrical Work",
+      "text": "RISK TO LIFE from electric shock. Do not carry out electrical work unless you are qualified for this type of work. Before opening a unit: disconnect electrical power completely and lock to prevent accidental reconnection. Observe the installation regulations.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from electric shock. Do not carry out electrical work unless you are qualified for this type of work. • Before opening a unit: disconnect electrical power completely and lock to prevent accidental reconnection. • Observe the installation regulations."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System Damage from Incorrect Installation",
+      "text": "SYSTEM DAMAGE due to incorrect installation. Observe all current standards and guidelines applicable to the installation and operation of the heating system as applicable in your country.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE due to incorrect installation. Observe all current standards and guidelines applicable to the installation and operation of the heating system as applicable in your country."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Poisoning from Flue Gas Leaks",
+      "text": "RISK TO LIFE by poisoning. Insufficient ventilation may cause dangerous flue gas leaks. Make sure that inlets and outlets are not reduced in size or closed. If faults are not corrected immediately, the boiler must not be operated. Inform the system operator of the fault and the danger in writing.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE by poisoning. Insufficient ventilation may cause dangerous flue gas leaks. • Make sure that inlets and outlets are not reduced in size or closed. • If faults are not corrected immediately, the boiler must not be operated. • Inform the system operator of the fault and the danger in writing."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Flue Gas Monitoring Equipment",
+      "text": "RISK TO LIFE by poisoning. When working on the flue gas monitoring equipment leaking flue gas may endanger the lives of people. Do not attempt to repair the flue gas temperature sensor. Use only original parts when replacing parts. When replacing the flue gas temperature sensor install the new one in the specified position.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE by poisoning. When working on the flue gas monitoring equipment leaking flue gas may endanger the lives of people. • Do not attempt to repair the flue gas temperature sensor. • Use only original parts when replacing parts. • When replacing the flue gas temperature sensor install the new one in the specified position."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Frequent Flue Gas Monitor Trips",
+      "text": "RISK TO LIFE by poisoning by leaking flue gas. If the flue gas monitor trips frequently, there may be a problem with the chimney or the flue gas venting. If the flue gas monitor trips frequently the fault must be corrected and a function test must be conducted.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE by poisoning by leaking flue gas. If the flue gas monitor trips frequently, there may be a problem with the chimney or the flue gas venting. • If the flue gas monitor trips frequently the fault must be corrected and a function test must be conducted."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Thermally Controlled Flue Gas Baffle",
+      "text": "RISK TO LIFE by poisoning by leaking flue gas. Make sure that the boiler is not fitted with a thermally controlled flue gas baffle after the back flow check.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE by poisoning by leaking flue gas. Make sure that the boiler is not fitted with a thermally controlled flue gas baffle after the back flow check."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Fire Danger from Flammable Materials",
+      "text": "FIRE DANGER due to flammable materials or liquids. Make sure that there are no flammable materials or liquids in the immediate vicinity of the boiler.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "WARNING! FIRE DANGER due to flammable materials or liquids. Make sure that there are no flammable materials or liquids in the immediate vicinity of the boiler."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System Damage from Bumps",
+      "text": "SYSTEM DAMAGE due to bumps. Check the transport diagrams on the packaging to protect the sensitive components from damage by bumping.",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Moving the boiler",
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE due to bumps. Check the transport diagrams on the packaging to protect the sensitive components from damage by bumping."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Risk of Injury from Unsecured Boiler",
+      "text": "RISK OF INJURY if the boiler is not properly secured to the trolley. Use suitable transport equipment, such as a boiler cart with a belt. Secure the boiler to prevent it from falling.",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Moving the boiler",
+          "table_title": null,
+          "source_quote": "CAUTION! RISK OF INJURY if the boiler is not properly secured to the trolley. Use suitable transport equipment, such as a boiler cart with a belt. • Secure the boiler to prevent it from falling."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Risk of Injury from Heavy Loads",
+      "text": "RISK OF INJURY due to carrying heavy loads. Lift and carry the boiler with at least four people at the designated hand grip positions.",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Moving the boiler",
+          "table_title": null,
+          "source_quote": "CAUTION! RISK OF INJURY due to carrying heavy loads. Lift and carry the boiler with at least four people at the designated hand grip positions."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System Damage from Frost",
+      "text": "SYSTEM DAMAGE through frost. Place the boiler in a frost-free room.",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Placing the boiler",
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE through frost. Place the boiler in a frost-free room."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Boiler Damage from Moisture",
+      "text": "BOILER DAMAGE through moisture. Protect the components of the gas ignition system from moisture (dripping, spray, rain) during installation of the boiler, during operation and during maintenance work (such as replacing the pump, replacing the control, etc.).",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Connecting the heating system",
+          "table_title": null,
+          "source_quote": "CAUTION! BOILER DAMAGE through moisture. Protect the components of the gas ignition system from moisture (dripping, spray, rain) during installation of the boiler, during operation and during maintenance work (such as replacing the pump, replacing the control, etc.)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System Damage from Low Water",
+      "text": "SYSTEM DAMAGE due to overheating as a result of low water. Note that a boiler installed above the level of the heating system must be fitted with a low-water cutoff. The low-water cutoff must be installed during installation of the boiler (→ Fig. 10).",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Connecting the heating system",
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE due to overheating as a result of low water. Note that a boiler installed above the level of the heating system must be fitted with a low-water cutoff. The low-water cutoff must be installed during installation of the boiler (→ Fig. 10)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System Damage from High Temperature Variations",
+      "text": "SYSTEM DAMAGE due to high temperature variations in the heating system. If the boiler is operated in connection with a refrigeration system, make sure that the pipes for the refrigerated liquid are connected in parallel to the boiler system with suitable valves to prevent the refrigerated liquid from entering the boiler. The pipe system of a boiler connected to the heating coils of hot-air heating systems that may be exposed to the circulation of cooled air must be fitted with a flow-control valve or some other automatic system for preventing the boiler water from circulating by gravity during the cooling cycle.",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Connecting the heating system",
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE due to high temperature variations in the heating system. If the boiler is operated in connection with a refrigeration system, make sure that the pipes for the refrigerated liquid are connected in parallel to the boiler system with suitable valves to prevent the refrigerated liquid from entering the boiler. • The pipe system of a boiler connected to the heating coils of hot-air heating systems that may be exposed to the circulation of cooled air must be fitted with a flow-control valve or some other automatic system for preventing the boiler water from circulating by gravity during the cooling cycle."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Fire Danger from Frost",
+      "text": "FIRE DANGER through frost. Note that a minimum clearance of two inches is required between pipes carrying hot water and flammable walls in the boiler room.",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Boiler installation",
+          "table_title": null,
+          "source_quote": "CAUTION! FIRE DANGER through frost. Note that a minimum clearance of two inches is required between pipes carrying hot water and flammable walls in the boiler room."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electric Shock during Maintenance",
+      "text": "RISK TO LIFE from electric shock. When conducting maintenance work label all cables before disconnecting them. If cables are connected incorrectly the system may not operate correctly with possibly dangerous consequences. Check that the heating system functions correctly after any maintenance work.",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "Electrical connection",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from electric shock. When conducting maintenance work label all cables before disconnecting them. If cables are connected incorrectly the system may not operate correctly with possibly dangerous consequences. • Check that the heating system functions correctly after any maintenance work."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Fire Danger from Hot Boiler Components",
+      "text": "FIRE DANGER Hot boiler components may damage electrical wiring. Make sure that all cables are routed in the ducts or on the boiler insulation.",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "Boiler installation",
+          "table_title": null,
+          "source_quote": "WARNING! FIRE DANGER Hot boiler components may damage electrical wiring. Make sure that all cables are routed in the ducts or on the boiler insulation."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System Damage from Dirt",
+      "text": "SYSTEM DAMAGE due to dirt. If the boiler is assembled and not in use, note the following: Protect the boiler connections from dirt by closing the connections.",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "Boiler installation",
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE due to dirt. If the boiler is assembled and not in use, note the following: • Protect the boiler connections from dirt by closing the connections."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Danger of Explosion from Gas Leaks",
+      "text": "DANGER OF EXPLOSION Leakage from the gas pipes and gas connections may cause an explosion. Use soap solution to find leaks.",
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Fuel supply connection",
+          "table_title": null,
+          "source_quote": "WARNING! DANGER OF EXPLOSION Leakage from the gas pipes and gas connections may cause an explosion. Use soap solution to find leaks."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System Damage from Overpressure",
+      "text": "SYSTEM DAMAGE due to overpressure during the leak test. Pressure, control or safety components may be damaged by high pressure. Before conducting the leak test make sure that no pressure, control or safety components that cannot be disconnected from the water compartment of the boiler are installed.",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Filling heating system and checking for leaks",
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE due to overpressure during the leak test. Pressure, control or safety components may be damaged by high pressure. • Before conducting the leak test make sure that no pressure, control or safety components that cannot be disconnected from the water compartment of the boiler are installed."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Boiler Damage and Operating Faults from Inadequate Air Supply/Venting",
+      "text": "BOILER DAMAGE AND OPERATING FAULTS due to missing or inadequate openings for combustion air and venting of the boiler room. Inadequate venting of the boiler room may result in excessive ambient temperatures. This can damage the boiler. Inadequate combustion air supply may cause operating faults. Make sure that inlets and outlets are not reduced or closed and that they are adequately dimensioned. If faults are not corrected immediately, the boiler must not be operated. Inform the system operator of the fault and the danger.",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "Check openings for combustion air supply and venting",
+          "table_title": null,
+          "source_quote": "CAUTION! BOILER DAMAGE AND OPERATING FAULTS due to missing or inadequate openings for combustion air and venting of the boiler room. Inadequate venting of the boiler room may result in excessive ambient temperatures. This can damage the boiler. Inadequate combustion air supply may cause operating faults. • Make sure that inlets and outlets are not reduced or closed and that they are adequately dimensioned. • If faults are not corrected immediately, the boiler must not be operated. • Inform the system operator of the fault and the danger."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Boiler Damage from Contaminated Combustion Air",
+      "text": "BOILER DAMAGE due to contaminated combustion air. Never use cleaning agents that contain chlorine and halogenated hydrocarbons (e.g. spray bottles, solvents and cleaning agents, paints, glues). Do not store or use these substances in the boiler room. Prevent excessive dust levels.",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "Check openings for combustion air supply and venting",
+          "table_title": null,
+          "source_quote": "CAUTION! BOILER DAMAGE due to contaminated combustion air. Never use cleaning agents that contain chlorine and halogenated hydrocarbons (e.g. spray bottles, solvents and cleaning agents, paints, glues). • Do not store or use these substances in the boiler room. • Prevent excessive dust levels."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Fire Danger from Flammable Materials in Boiler Room",
+      "text": "FIRE DANGER due to flammable materials or liquids. Do not store flammable materials or liquids in the immediate vicinity of the heat generator.",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "Check openings for combustion air supply and venting",
+          "table_title": null,
+          "source_quote": "WARNING! FIRE DANGER due to flammable materials or liquids. Do not store flammable materials or liquids in the immediate vicinity of the heat generator."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electric Shock when Unit is Open",
+      "text": "RISK TO LIFE due to electrical current when the unit is open. Before opening the unit: To prevent electrical shock, isolate the heating system with the heating system emergency stop switch or by shutting off the main fuse. Lock the heating system to prevent accidental reactivation.",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "Placing the heating system in operation",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE due to electrical current when the unit is open. Before opening the unit: To prevent electrical shock, isolate the heating system with the heating system emergency stop switch or by shutting off the main fuse. • Lock the heating system to prevent accidental reactivation."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Incorrect Operation and Start-up",
+      "text": "RISK TO LIFE due to not observing the start-up instructions and resulting incorrect operation. If these instructions are not followed exactly, a fire or explosion may be caused with serious property damage or loss of life or serious injury. Observe the installation instructions.",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "Placing the heating system in operation",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE due to not observing the start-up instructions and resulting incorrect operation. • If these instructions are not followed exactly, a fire or explosion may be caused with serious property damage or loss of life or serious injury. • Observe the installation instructions."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Danger of Explosion from Gas Smell",
+      "text": "DANGER OF EXPLOSION If you smell gas there is a danger of explosion. No open flame. No smoking. Prevent spark formation. Do not operate electrical switches, including telephones, plugs or door bells. Close main gas valve. Open doors and windows. Warn other occupants of the building. Evacuate the building. Call gas company, heating service company or fire department from outside the building.",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "Placing the heating system in operation",
+          "table_title": null,
+          "source_quote": "WARNING! DANGER OF EXPLOSION If you smell gas there is a danger of explosion. No open flame. No smoking. • Prevent spark formation. Do not operate electrical switches, including telephones, plugs or door bells. • Close main gas valve. • Open doors and windows. • Warn other occupants of the building. • Evacuate the building. • Call gas company, heating service company or fire department from outside the building."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Poisoning by Leaking Gas (Reset Button)",
+      "text": "RISK TO LIFE due to poisoning by leaking gas. If the red reset button does not pop up when you release it, STOP. Close gas shut-off immediately to prevent gas from leaking. Contact your service technician or LP gas supplier immediately and have the fault repaired. If the pilot burner continues to go out after several attempts, turn the ON/OFF button on the gas valve to OFF immediately to prevent gas from leaking.",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": "Placing the heating system in operation",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE due to poisoning by leaking gas. If the red reset button does not pop up when you release it, STOP. Close gas shut-off immediately to prevent gas from leaking. • Contact your service technician or LP gas supplier immediately and have the fault repaired. • If the pilot burner continues to go out after several attempts, turn the ON/OFF button on the gas valve to OFF immediately to prevent gas from leaking."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System Damage from Frost during Shut-down",
+      "text": "SYSTEM DAMAGE due to frost. The heating system may freeze in frosty weather if it is not switched on with the main switch or control. Protect the heating system from freezing when there is a danger of frost. If the main switch or control is switched off, drain the water from the boiler, the tank and the pipe of the heating system.",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Placing the heating system in operation",
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE due to frost. The heating system may freeze in frosty weather if it is not switched on with the main switch or control. • Protect the heating system from freezing when there is a danger of frost. • If the main switch or control is switched off, drain the water from the boiler, the tank and the pipe of the heating system."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System Damage from Frost during Shut-down",
+      "text": "SYSTEM DAMAGE through frost. The heating system can freeze up in cold weather if it is shut down. Leave the heating system switched ON constantly as much as possible. Protect the heating system from freezing by draining the heater and water pipes at the lowest point.",
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Taking the boiler out of operation",
+          "table_title": null,
+          "source_quote": "CAUTION! SYSTEM DAMAGE through frost. The heating system can freeze up in cold weather if it is shut down. • Leave the heating system switched ON constantly as much as possible. • Protect the heating system from freezing by draining the heater and water pipes at the lowest point."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electric Shock before Opening Unit",
+      "text": "RISK TO LIFE from electric shock. Before opening a unit: disconnect electrical power completely and lock to prevent accidental reconnection.",
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "Boiler inspection and maintenance",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from electric shock. Before opening a unit: disconnect electrical power completely and lock to prevent accidental reconnection."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Explosion of Flammable Gases (Gas Lines)",
+      "text": "RISK TO LIFE from explosion of flammable gases. Never work on gas lines unless you are certified or licensed for this type of work.",
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "Boiler inspection and maintenance",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from explosion of flammable gases. Never work on gas lines unless you are certified or licensed for this type of work."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Explosion of Flammable Gases (Gas Residues)",
+      "text": "RISK TO LIFE from explosion of flammable gases. Wait five (5) minutes until all gas residues have dissipated. Check whether there is any smell of gas, including at floor level. If there is a gas odor: STOP! Follow instructions in section \"B\" of the safety instructions on → page 30 of this manual. If there is no sign of a gas odor, continue with the next step.",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Boiler inspection and maintenance",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from explosion of flammable gases. Wait five (5) minutes until all gas residues have dissipated. Check whether there is any smell of gas, including at floor level. If there is a gas odor: STOP! Follow instructions in section \"B\" of the safety instructions on → page 30 of this manual. If there is no sign of a gas odor, continue with the next step."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electric Shock (Incorrect Wiring)",
+      "text": "RISK TO LIFE from electric shock. Label all electrical wiring before disconnecting it for cleaning the boiler. If cables are connected incorrectly the system may not operate correctly with possibly dangerous consequences. After maintenance test the heating system for proper function.",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Boiler inspection and maintenance",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from electric shock. Label all electrical wiring before disconnecting it for cleaning the boiler. If cables are connected incorrectly the system may not operate correctly with possibly dangerous consequences. • After maintenance test the heating system for proper function."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electric Shock (Prior to Opening Boiler)",
+      "text": "RISK TO LIFE from electric shock. Prior to opening boiler: Disconnect electricity and secure against accidental activation.",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Boiler inspection and maintenance",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from electric shock. Prior to opening boiler: Disconnect electricity and secure against accidental activation."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Explosion of Flammable Gases (Post-Maintenance Leaks)",
+      "text": "RISK TO LIFE from explosion of flammable gases. After maintenance work leaks may occur in pipes and threaded fastenings. Make a thorough check for leaks. Use only approved leak testing agents to search for leaks.",
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "Boiler inspection and maintenance",
+          "table_title": null,
+          "source_quote": "WARNING! RISK TO LIFE from explosion of flammable gases. After maintenance work leaks may occur in pipes and threaded fastenings. Make a thorough check for leaks. • Use only approved leak testing agents to search for leaks."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "maintenance_tasks": [
+    {
+      "task_name": "Boiler service",
+      "description": "The boiler must be serviced annually.",
+      "interval": "annually",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "The boiler must be serviced annually (→ Chapter 13, page 44)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "System cleaning and service",
+      "description": "Clean and service the system once a year. Check that the complete heating system operates correctly. Immediately correct all faults to prevent system damage.",
+      "interval": "annually",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "Clean and service the system once a year. Check that the complete heating system operates correctly. • Immediately correct all faults to prevent system damage."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Disposal of packaging material",
+      "description": "Dispose of the packaging material in an environmentally compatible fashion.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "Dispose of the packaging material in an environmentally compatible fashion."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Disposal of heating system components",
+      "description": "Dispose of any components of the heating system that require replacement in an environmentally compatible fashion.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "Safety",
+          "table_title": null,
+          "source_quote": "Dispose of any components of the heating system that require replacement in an environmentally compatible fashion."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Flue system check",
+      "description": "All connection points on the complete venting system must be checked for correct installation and sealing immediately after carrying out one of the installation steps. The seams and connections must be checked for gas leaks. Regulations require the complete flue system to be checked at least once a year by a qualified technician after installation and initial operation.",
+      "interval": "annually",
+      "required_qualification": "qualified technician",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "Flue pipe installation",
+          "table_title": null,
+          "source_quote": "All connection points on the complete venting system must be checked for correct installation and sealing immediately after carrying out one of the installation steps. The seams and connections must be checked for gas leaks. Regulations require the complete flue system to be checked at least once a year by a qualified technician after installation and initial operation."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Testing the flue system, including combustion air, air inlets and ventilation openings",
+      "description": "Check the venting system, including the combustion air, inlet and outlet openings. All faults must be repaired immediately. Make sure that the combustion air feed and the inlets and outlets are not blocked at any point.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "Boiler inspection and maintenance",
+          "table_title": null,
+          "source_quote": "13.2 Testing the flue system, including combustion air, air inlets and ventilation openings. Check the venting system, including the combustion air, inlet and outlet openings. All faults must be repaired immediately. Make sure that the combustion air feed and the inlets and outlets are not blocked at any point."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Inspection of the boiler and burner",
+      "description": "Visually check the boiler and burner for external dirt. If dirt is found, clean boiler and burner.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "Boiler inspection and maintenance",
+          "table_title": null,
+          "source_quote": "13.3 Inspection of the boiler and burner 1. Visually check the boiler and burner for external dirt. 2. If dirt is found, clean boiler and burner."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Preparing boiler for cleaning",
+      "description": "Take the boiler out of operation.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "Boiler inspection and maintenance",
+          "table_title": null,
+          "source_quote": "13.4 Preparing boiler for cleaning 1. Take the boiler out of operation (→ Chapter 12.1, page 43)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Cleaning the boiler",
+      "description": "The boiler can be cleaned with brushes and/or by wet cleaning. Cleaning tools are available as accessories.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Boiler inspection and maintenance",
+          "table_title": null,
+          "source_quote": "13.5 Cleaning the boiler The boiler can be cleaned with brushes and/or by wet cleaning. Cleaning tools are available as accessories."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Cleaning the boiler with brushes",
+      "description": "Remove burner, disconnect pilot gas line, ignition cable, thermal element, tie gas line, remove screws between gas valve and burner, label wires of flame roll-out switch and disconnect from switch, unscrew nuts and remove burner. Remove boiler jacket, fold insulation, unscrew cleaning cover, cover control with foil, use boiler brush to clean flue gas passages, clean combustion chamber and bottom insulation, screw cleaning cover into place and replace insulation.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Boiler inspection and maintenance",
+          "table_title": null,
+          "source_quote": "13.5.1 Cleaning the boiler with brushes Remove burner: 3. Disconnect pilot gas line from gas valve. 4. G124X II only: Disconnect ignition cable from ignition module. 5. G124X SP only: Disconnect thermal element from gas valve. 6. Tie gas line with wire or cord (secure). 7. Remove screws between gas valve and burner. Place the gas supply pipe gasket in a safe place. 8. Label wires of flame roll-out switch and disconnect from the switch. 9. Unscrew nuts and remove burner"
+        },
+        {
+          "page_number": 47,
+          "section_title": "Boiler inspection and maintenance",
+          "table_title": null,
+          "source_quote": "10. Remove boiler jacket. 11. Fold insulation to the side. 12. Unscrew cleaning cover from the venting manifold. 13. Cover control with foil to prevent entry of metal dust into the control. 14. Use boiler brush to clean out flue gas passages. 15. Clean combustion chamber and bottom insulation. 16. Screw cleaning cover into place and replace insulation."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Wet cleaning (chemical cleaning)",
+      "description": "For the wet cleaning use a suitable cleaning agent for the degree of build-up of dirt (soot or scale). Cover control with foil, ventilate boiler room, spray flue gas vents, replace and install burner, place heating system in operation, heat boiler water to at least 122 °F, take boiler out of operation, allow boiler to cool, remove burner, brush out flue gas passages, clean combustion chamber and bottom insulation, ventilate boiler room again, install burner, attach boiler jacket.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "Boiler inspection and maintenance",
+          "table_title": null,
+          "source_quote": "13.5.2 Wet cleaning (chemical cleaning) For the wet cleaning use a suitable cleaning agent for the degree of build-up of dirt (soot or scale). Use the same procedure as described for cleaning with brushes (→ Chapter 13.5.1, page 45). 17. Cover control with foil to prevent entry of spray into the control. 18. Ventilate boiler room well. 19. Spray flue gas vents evenly with the cleaning agent. 20. Replace and install the burner in reverse order of removal and disassembly (→ page 45). 21. Place the heating system in operation. 22. Heat the boiler water to a temperature of at least 122 °F. 23. Take the boiler out of operation. 24. Allow boiler to cool. 25. Remove burner (→ page 45). 26. Brush out flue gas passages. 27. Clean combustion chamber and bottom insulation. 28. Ventilate boiler room well again. 29. Install burner. 30. Attach boiler jacket."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Cleaning the burner",
+      "description": "Remove burner, check burner tubes for dirt, unscrew pilot burner unit, disconnect pilot gas line, remove pilot orifice and blow out, immerse burner rods in water with cleaning agent and brush off, rinse out burner tubes with water, remove remaining water by swinging the burner, check that the slots of the burner tubes are free, remove water and dirt residue in the slots. If any slots are damaged the burner must be replaced. Assemble and install the burner in reverse order of removal and disassembly. Place boiler in operation. Check operation of aquastat. Test low water cut-off if installed. Check area around boiler for hazards. The area around the boiler must be free from flammable substances, gasoline or any other flammable or corrosive vapors and liquids.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "Boiler inspection and maintenance",
+          "table_title": null,
+          "source_quote": "13.6 Cleaning the burner 1. Remove burner (→ page 45). 2. Check burner tubes for dirt. If necessary, clean burner as described below. 3. Unscrew pilot burner unit from burner. 4. Disconnect pilot gas line from pilot burner unit. 5. Remove pilot orifice and blow out. 6. Immerse burner rods in water with cleaning agent and brush off. 7. Rinse out burner tubes with water; hold burner so water enters all slots if the burner tubes and drains out again. 8. Remove remaining water by swinging the burner. 9. Check that the slots of the burner tubes are free. Remove water and dirt residue in the slots. If any slots are damaged the burner must be replaced. 10. Assemble and install the burner in reverse order of removal and disassembly (→ page 45). 11. Place boiler in operation as directed in → Chapter 11 \"Placing the heating system in operation\", page 28 to page 42. 12. Check operation of aquastat. 13. Test low water cut-off if installed. 14. Check area around boiler for hazards. The area around the boiler must be free from flammable substances, gasoline or any other flammable or corrosive vapors and liquids."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Maintenance protocol completion",
+      "description": "Complete the maintenance protocol to confirm that all maintenance work has been conducted. Sign the maintenance protocol and discuss it with the owner of the heating system.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "Boiler inspection and maintenance",
+          "table_title": null,
+          "source_quote": "Complete the maintenance protocol to confirm that all maintenace work has been conducted. Sign the maintenance protocol and discuss it with the owner of the heating system."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Inspection of the flue system including combustion air, inlet and outlet openings",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Maintenance protocol",
+          "table_title": "Maintenance protocol",
+          "source_quote": "1. Inspection of the flue system including combustion air, inlet and outlet openings"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Inspection of boiler",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Maintenance protocol",
+          "table_title": "Maintenance protocol",
+          "source_quote": "2. Inspection of boiler"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Inspection of burner",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Maintenance protocol",
+          "table_title": "Maintenance protocol",
+          "source_quote": "3. Inspection of burner"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Cleaning boiler",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Maintenance protocol",
+          "table_title": "Maintenance protocol",
+          "source_quote": "4. Cleaning boiler"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Cleaning burner",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Maintenance protocol",
+          "table_title": "Maintenance protocol",
+          "source_quote": "5. Cleaning burner"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Measuring gas supply pressure",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Maintenance protocol",
+          "table_title": "Maintenance protocol",
+          "source_quote": "6. Measuring gas supply pressure"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Measuring manifold pressure",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Maintenance protocol",
+          "table_title": "Maintenance protocol",
+          "source_quote": "7 Measuring manifold pressure"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Checking for leaks in operating condition",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Maintenance protocol",
+          "table_title": "Maintenance protocol",
+          "source_quote": "8. Checking for leaks in operating condition"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Checking pilot and main burner flame",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Maintenance protocol",
+          "table_title": "Maintenance protocol",
+          "source_quote": "9. Checking pilot and main burner flame"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Check maximum aquastat setting",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Maintenance protocol",
+          "table_title": "Maintenance protocol",
+          "source_quote": "10. Check maximum aquastat setting"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Check the area around the boiler for flammable materials, gasoline or other corrosive liquids.",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Maintenance protocol",
+          "table_title": "Maintenance protocol",
+          "source_quote": "11. Check the area around the boiler for flammable materials, gasoline or other corrosive liquids."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Confirm maintenance",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "Maintenance protocol",
+          "table_title": "Maintenance protocol",
+          "source_quote": "12. Confirm maintenance"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "search_terms": [
+    "Buderus",
+    "Logano G124X II",
+    "Logano G124X SP",
+    "Gas boiler",
+    "Installation",
+    "Maintenance",
+    "Troubleshooting",
+    "Fault codes",
+    "Technical specifications",
+    "Safety warnings",
+    "Boiler output",
+    "Manifold pressure",
+    "Gas supply pressure",
+    "Flue connection",
+    "Ignition",
+    "Burner",
+    "Aquastat",
+    "Vent damper",
+    "Logamatic 2107",
+    "Gas conversion",
+    "Altitude"
+  ],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.95,
+    "review_required": false,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "Fault codes were extracted from flowcharts on pages 49 and 51. No explicit alphanumeric fault codes (e.g., F.xx) were found, so descriptive codes were created based on the fault conditions in the flowcharts.",
+      "Diagnostic codes and status codes were not explicitly found in the 'd.xxx' or 'S.xx' format as per schema definition."
+    ]
+  }
+}

@@ -1,0 +1,6251 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Vaillant",
+    "product_family": "ecoTEC plus",
+    "model_names": [
+      "VU",
+      "VUW",
+      "612 (VU GB 126/5-5)",
+      "615 (VU GB 156/5-5)",
+      "618 (VU GB 186/5-5)",
+      "618 (VU GB 186/5-5) (LPG)",
+      "624 (VU GB 246/5-5)",
+      "630 (VU GB 306/5-5)",
+      "630 (VU GB 306/5-5) (LPG)",
+      "637 (VU GB 376/5-5)",
+      "824 (VUW GB 246/5-5)",
+      "831 (VUW GB 316/5-5)",
+      "831 (VUW GB 316/5-5) (LPG)",
+      "837 (VUW GB 376/5-5)"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "Installation and maintenance instructions",
+    "document_code": "0020116700_06",
+    "publication_date": "012014",
+    "language": "en",
+    "region": "GB, IE",
+    "source_file": "vaillant_vaillant-ecotec-plus-612-vu-gb-126-5-5_boiler-manual_ecotecy.pdf",
+    "file_hash": "75778207b256e9a0f6e9d64f34f6ea4993b48670e8e33b19f93e84471f5a8a18"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Nominal heat output range P at 50/30°C",
+      "value": "3.3-12.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30°C 3.3-12.9 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30°C",
+      "value": "3.3-16.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30°C 3.3-16.1 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30°C",
+      "value": "4.2-19.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30°C 4.2-19.3 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30°C",
+      "value": "5.7-25.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30°C 5.7-25.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30°C",
+      "value": "6.4-32.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30°C 6.4-32.1 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30°C",
+      "value": "7.1-39.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30°C 7.1-39.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60°C",
+      "value": "3.0-12.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60°C 3.0-12.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60°C",
+      "value": "3.0-15.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60°C 3.0-15.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60°C",
+      "value": "3.8-18.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60°C 3.8-18.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60°C",
+      "value": "5.2-24.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60°C 5.2-24.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60°C",
+      "value": "5.8-30.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60°C 5.8-30.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60°C",
+      "value": "6.4-37.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60°C 6.4-37.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "12.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 12.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "15.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 15.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "18.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 18.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "24.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 24.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "30.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 30.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "37.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 37.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input",
+      "value": "12.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat input 12.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input",
+      "value": "15.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat input 15.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input",
+      "value": "18.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat input 18.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input",
+      "value": "24.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat input 24.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input",
+      "value": "30.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat input 30.9 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input",
+      "value": "38.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat input 38.1 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input G20",
+      "value": "3.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)",
+        "615 (VU GB 156/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat input G20 3.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input G20",
+      "value": "4.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat input G20 4.0 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input G20",
+      "value": "5.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat input G20 5.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input G20",
+      "value": "6.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat input G20 6.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input G20",
+      "value": "6.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat input G20 6.8 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input G31",
+      "value": "5.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5) (LPG)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat input G31 5.3 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input G31",
+      "value": "6.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat input G31 6.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input G31",
+      "value": "9.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5) (LPG)",
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat input G31 9.0 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat output with G31",
+      "value": "5.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5) (LPG)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat output with G31 5.0 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat output with G31",
+      "value": "6.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat output with G31 6.0 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat output with G31",
+      "value": "8.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5) (LPG)",
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat output with G31 8.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating output setting range",
+      "value": "3-12",
+      "unit": "kW",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Heating output setting range 3-12 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating output setting range",
+      "value": "3-15",
+      "unit": "kW",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Heating output setting range 3-15 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating output setting range",
+      "value": "4-18",
+      "unit": "kW",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Heating output setting range 4-18 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating output setting range",
+      "value": "5-24",
+      "unit": "kW",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Heating output setting range 5-24 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating output setting range",
+      "value": "6-30",
+      "unit": "kW",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Heating output setting range 6-30 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating output setting range",
+      "value": "6-37",
+      "unit": "kW",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Heating output setting range 6-37 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flow temperature",
+      "value": "85",
+      "unit": "°C",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Max. flow temperature 85 °C"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flow temperature setting range (factory setting: 75 °C)",
+      "value": "30-80",
+      "unit": "°C",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Max. flow temperature setting range (factory setting: 75 °C) 30-80 °C"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. pressure for full operation",
+      "value": "0.08/0.8",
+      "unit": "MPa/bar",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Min. pressure for full operation 0.08/0.8 MPa/bar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Permissible total over-pressure",
+      "value": "0.3/3",
+      "unit": "MPa/bar",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Permissible total over-pressure 0.3/3 MPa/bar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion vessel capacity",
+      "value": "10",
+      "unit": "l",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Expansion vessel capacity 10 l"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water quantity (with reference to ΔT = 20 K)",
+      "value": "516",
+      "unit": "l/h",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Circulation water quantity (with reference to ΔT = 20 K) 516 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water quantity (with reference to ΔT = 20 K)",
+      "value": "645",
+      "unit": "l/h",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Circulation water quantity (with reference to ΔT = 20 K) 645 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water quantity (with reference to ΔT = 20 K)",
+      "value": "774",
+      "unit": "l/h",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Circulation water quantity (with reference to ΔT = 20 K) 774 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water quantity (with reference to ΔT = 20 K)",
+      "value": "1032",
+      "unit": "l/h",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Circulation water quantity (with reference to ΔT = 20 K) 1032 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water quantity (with reference to ΔT = 20 K)",
+      "value": "1290",
+      "unit": "l/h",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Circulation water quantity (with reference to ΔT = 20 K) 1290 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water quantity (with reference to ΔT = 20 K)",
+      "value": "1591",
+      "unit": "l/h",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Circulation water quantity (with reference to ΔT = 20 K) 1591 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate rate approx. (pH value 3.5-4.0) in heating mode 50°C supply/30°C return",
+      "value": "1.2",
+      "unit": "l/h",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Condensate rate approx. (pH value 3.5-4.0) in heating mode 50°C supply/30°C return 1.2 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate rate approx. (pH value 3.5-4.0) in heating mode 50°C supply/30°C return",
+      "value": "1.6",
+      "unit": "l/h",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Condensate rate approx. (pH value 3.5-4.0) in heating mode 50°C supply/30°C return 1.6 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate rate approx. (pH value 3.5-4.0) in heating mode 50°C supply/30°C return",
+      "value": "1.9",
+      "unit": "l/h",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Condensate rate approx. (pH value 3.5-4.0) in heating mode 50°C supply/30°C return 1.9 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate rate approx. (pH value 3.5-4.0) in heating mode 50°C supply/30°C return",
+      "value": "2.5",
+      "unit": "l/h",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Condensate rate approx. (pH value 3.5-4.0) in heating mode 50°C supply/30°C return 2.5 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate rate approx. (pH value 3.5-4.0) in heating mode 50°C supply/30°C return",
+      "value": "3.1",
+      "unit": "l/h",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Condensate rate approx. (pH value 3.5-4.0) in heating mode 50°C supply/30°C return 3.1 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate rate approx. (pH value 3.5-4.0) in heating mode 50°C supply/30°C return",
+      "value": "3.8",
+      "unit": "l/h",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Condensate rate approx. (pH value 3.5-4.0) in heating mode 50°C supply/30°C return 3.8 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Remaining feed head of pump (at nominal circulation water volume)",
+      "value": "0.025/0.25",
+      "unit": "MPa/bar",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)",
+        "615 (VU GB 156/5-5)",
+        "618 (VU GB 186/5-5)",
+        "624 (VU GB 246/5-5)",
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Remaining feed head of pump (at nominal circulation water volume) 0.025/0.25 MPa/bar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Remaining feed head of pump (at nominal circulation water volume)",
+      "value": "0.020/0.20",
+      "unit": "MPa/bar",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Remaining feed head of pump (at nominal circulation water volume) 0.020/0.20 MPa/bar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection, boiler side",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)",
+        "615 (VU GB 156/5-5)",
+        "618 (VU GB 186/5-5)",
+        "624 (VU GB 246/5-5)",
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Gas connection, boiler side 15 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection, boiler side",
+      "value": "22",
+      "unit": "mm",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Gas connection, boiler side 22 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow/return heating connections, boiler side",
+      "value": "22",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Flow/return heating connections, boiler side 22 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Hot and cold water connection, boiler side",
+      "value": "G 3/4",
+      "unit": "Inches",
+      "applies_to_models": [],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Hot and cold water connection, boiler side G 3/4 Inches"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Connector expansion relief valve (minimum)",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Connector expansion relief valve (minimum) 15 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate discharge pipework (minimum)",
+      "value": "19",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Condensate discharge pipework (minimum) 19 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas spigot",
+      "value": "60/100 (concentric), optional 80/125 (concentric)",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Flue gas spigot 60/100 (concentric), optional 80/125 (concentric) mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection pressure (gas inlet working pressure) natural gas, G20",
+      "value": "0.20/20",
+      "unit": "kPa/mbar",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Gas connection pressure (gas inlet working pressure) natural gas, G20 0.20/20 kPa/mbar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection pressure (gas inlet working pressure) propane, G31",
+      "value": "0.37/37",
+      "unit": "kPa/mbar",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Gas connection pressure (gas inlet working pressure) propane, G31 0.37/37 kPa/mbar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20",
+      "value": "1.3",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20 1.3 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20",
+      "value": "1.6",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20 1.6 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20",
+      "value": "2.0",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20 2.0 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20",
+      "value": "2.6",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20 2.6 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20",
+      "value": "3.3",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20 3.3 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20",
+      "value": "4.0",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20 4.0 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31",
+      "value": "0.96",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31 0.96 kg/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31",
+      "value": "1.2",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31 1.2 kg/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31",
+      "value": "1.44",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31 1.44 kg/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31",
+      "value": "1.92",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31 1.92 kg/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31",
+      "value": "2.4",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31 2.4 kg/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31",
+      "value": "2.96",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31 2.96 kg/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow min./max.",
+      "value": "1.4/5.6",
+      "unit": "g/s",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow min./max. 1.4/5.6 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow min./max.",
+      "value": "1.4/7.0",
+      "unit": "g/s",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow min./max. 1.4/7.0 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow min./max.",
+      "value": "1.8/8.4",
+      "unit": "g/s",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow min./max. 1.8/8.4 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow min./max.",
+      "value": "2.4/11.1",
+      "unit": "g/s",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow min./max. 2.4/11.1 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow min./max.",
+      "value": "2.7/13.9",
+      "unit": "g/s",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow min./max. 2.7/13.9 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow min./max.",
+      "value": "3.0/17.1",
+      "unit": "g/s",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow min./max. 3.0/17.1 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature min./max.",
+      "value": "40/70",
+      "unit": "°C",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Flue gas temperature min./max. 40/70 °C"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Certificated flue gas connections",
+      "value": "C13, C33, C43, C53, C83, C93, B53P",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Certificated flue gas connections C13, C33, C43, C53, C83, C93, B53P"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx class",
+      "value": "5",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "NOx class 5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOX",
+      "value": "19.7",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "NOX 19.7 mg/kWh"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOX",
+      "value": "22.9",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "NOX 22.9 mg/kWh"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOX",
+      "value": "25.9",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "NOX 25.9 mg/kWh"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOX",
+      "value": "32.3",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "NOX 32.3 mg/kWh"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOX",
+      "value": "30.2",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "NOX 30.2 mg/kWh"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOX",
+      "value": "36.0",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "NOX 36.0 mg/kWh"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SEDBUK (2005)",
+      "value": "A",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "SEDBUK (2005) A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SEDBUK (2009) (G20/G31)",
+      "value": "89.0/-",
+      "unit": null,
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "SEDBUK (2009) (G20/G31) 89.0/-"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SEDBUK (2009) (G20/G31)",
+      "value": "89.1/-",
+      "unit": null,
+      "applies_to_models": [
+        "615 (VU GB 156/5-5)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "SEDBUK (2009) (G20/G31) 89.1/-"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SEDBUK (2009) (G20/G31)",
+      "value": "89.3/90.3",
+      "unit": null,
+      "applies_to_models": [
+        "618 (VU GB 186/5-5)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "SEDBUK (2009) (G20/G31) 89.3/90.3"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SEDBUK (2009) (G20/G31)",
+      "value": "89.4/-",
+      "unit": null,
+      "applies_to_models": [
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "SEDBUK (2009) (G20/G31) 89.4/-"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SEDBUK (2009) (G20/G31)",
+      "value": "89.4/90.4",
+      "unit": null,
+      "applies_to_models": [
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "SEDBUK (2009) (G20/G31) 89.4/90.4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SEDBUK (2009) (G20/G31)",
+      "value": "89.2/-",
+      "unit": null,
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "SEDBUK (2009) (G20/G31) 89.2/-"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler dimensions (H x W x D)",
+      "value": "720 x 440 x 338",
+      "unit": "mm",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)",
+        "615 (VU GB 156/5-5)",
+        "618 (VU GB 186/5-5)",
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Boiler dimensions (H x W x D) 720 x 440 x 338 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler dimensions (H x W x D)",
+      "value": "720 x 440 x 372",
+      "unit": "mm",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Boiler dimensions (H x W x D) 720 x 440 x 372 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler dimensions (H x W x D)",
+      "value": "720 x 440 x 406",
+      "unit": "mm",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Boiler dimensions (H x W x D) 720 x 440 x 406 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Mounting weight approx.",
+      "value": "35",
+      "unit": "kg",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)",
+        "615 (VU GB 156/5-5)",
+        "618 (VU GB 186/5-5)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Mounting weight approx. 35 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Mounting weight approx.",
+      "value": "37",
+      "unit": "kg",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Mounting weight approx. 37 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Mounting weight approx.",
+      "value": "39",
+      "unit": "kg",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Mounting weight approx. 39 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Mounting weight approx.",
+      "value": "41",
+      "unit": "kg",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Mounting weight approx. 41 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical connection",
+      "value": "230/50",
+      "unit": "V/Hz",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Electrical connection 230/50 V/Hz"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Built-in fuse",
+      "value": "2 A, slow-blow",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Built-in fuse 2 A, slow-blow"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical power consumption min./max.",
+      "value": "65/90",
+      "unit": "W",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Electrical power consumption min./max. 65/90 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical power consumption min./max.",
+      "value": "70/95",
+      "unit": "W",
+      "applies_to_models": [
+        "615 (VU GB 156/5-5)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Electrical power consumption min./max. 70/95 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical power consumption min./max.",
+      "value": "75/100",
+      "unit": "W",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5)",
+        "624 (VU GB 246/5-5)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Electrical power consumption min./max. 75/100 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical power consumption min./max.",
+      "value": "75/110",
+      "unit": "W",
+      "applies_to_models": [
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Electrical power consumption min./max. 75/110 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical power consumption min./max.",
+      "value": "100/130",
+      "unit": "W",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Electrical power consumption min./max. 100/130 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical power consumption at 30% partial load",
+      "value": "40",
+      "unit": "W",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)",
+        "615 (VU GB 156/5-5)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Electrical power consumption at 30% partial load 40 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical power consumption at 30% partial load",
+      "value": "45",
+      "unit": "W",
+      "applies_to_models": [
+        "618 (VU GB 186/5-5)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Electrical power consumption at 30% partial load 45 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical power consumption at 30% partial load",
+      "value": "50",
+      "unit": "W",
+      "applies_to_models": [
+        "624 (VU GB 246/5-5)",
+        "630 (VU GB 306/5-5)",
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Electrical power consumption at 30% partial load 50 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Standby electrical consumption",
+      "value": "< 2",
+      "unit": "W",
+      "applies_to_models": [
+        "612 (VU GB 126/5-5)",
+        "615 (VU GB 156/5-5)",
+        "618 (VU GB 186/5-5)",
+        "624 (VU GB 246/5-5)",
+        "630 (VU GB 306/5-5)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Standby electrical consumption < 2 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Standby electrical consumption",
+      "value": "< 3,3",
+      "unit": "W",
+      "applies_to_models": [
+        "637 (VU GB 376/5-5)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Standby electrical consumption < 3,3 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Level of protection",
+      "value": "IP X4 D",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Level of protection IP X4 D"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Certification number",
+      "value": "CE-0085CM0320",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 79,
+          "section_title": "17.1 Technical data for ecoTEC plus VU boiler",
+          "table_title": null,
+          "source_quote": "Certification number CE-0085CM0320"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30°C",
+      "value": "4.2 - 20.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30°C 4.2 - 20.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30°C",
+      "value": "5.7-25.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30°C 5.7-25.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 50/30°C",
+      "value": "7.1-30.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 50/30°C 7.1-30.1 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60°C",
+      "value": "3.8-19.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60°C 3.8-19.3 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60°C",
+      "value": "5.2-24.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60°C 5.2-24.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output range P at 80/60°C",
+      "value": "6.4-28.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Nominal heat output range P at 80/60°C 6.4-28.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "24.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 24.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "30.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 30.8 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output for hot water generation",
+      "value": "38.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat output for hot water generation 38.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "24.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 24.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "31.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 31.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input for hot water generation",
+      "value": "39.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat input for hot water generation 39.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input at the heating side",
+      "value": "19.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat input at the heating side 19.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input at the heating side",
+      "value": "24.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat input at the heating side 24.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input at the heating side",
+      "value": "28.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Maximum heat input at the heating side 28.9 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input G20",
+      "value": "4.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat input G20 4.0 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input G20",
+      "value": "5.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat input G20 5.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input G20",
+      "value": "6.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat input G20 6.8 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input G31",
+      "value": "6.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)",
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat input G31 6.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input G31",
+      "value": "9.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat input G31 9.0 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat output with G31",
+      "value": "6.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)",
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat output with G31 6.0 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat output with G31",
+      "value": "8.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Minimum heat output with G31 8.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating output setting range",
+      "value": "4-19",
+      "unit": "kW",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Heating output setting range 4-19 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating output setting range",
+      "value": "5-24",
+      "unit": "kW",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Heating output setting range 5-24 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating output setting range",
+      "value": "6-28",
+      "unit": "kW",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Heating output setting range 6-28 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Lowest water volume",
+      "value": "1.5",
+      "unit": "l/min",
+      "applies_to_models": [],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Lowest water volume 1.5 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔT = 42 K)",
+      "value": "8.2",
+      "unit": "l/min",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔT = 42 K) 8.2 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔT = 42 K)",
+      "value": "10.3",
+      "unit": "l/min",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔT = 42 K) 10.3 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔT = 42 K)",
+      "value": "13.0",
+      "unit": "l/min",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔT = 42 K) 13.0 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔT = 35 K)",
+      "value": "9,8",
+      "unit": "l/min",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔT = 35 K) 9,8 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔT = 35 K)",
+      "value": "12,4",
+      "unit": "l/min",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔT = 35 K) 12,4 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔT = 35 K)",
+      "value": "15,6",
+      "unit": "l/min",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔT = 35 K) 15,6 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔT = 30 K)",
+      "value": "11.5",
+      "unit": "l/min",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔT = 30 K) 11.5 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔT = 30 K)",
+      "value": "14.5",
+      "unit": "l/min",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔT = 30 K) 14.5 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water volume (at ΔT = 30 K)",
+      "value": "18.2",
+      "unit": "l/min",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Water volume (at ΔT = 30 K) 18.2 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Permitted overpressure",
+      "value": "1.0/10",
+      "unit": "MPa/bar",
+      "applies_to_models": [],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Permitted overpressure 1.0/10 MPa/bar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Required connection pressure",
+      "value": "0.035/0.35",
+      "unit": "MPa/bar",
+      "applies_to_models": [],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Required connection pressure 0.035/0.35 MPa/bar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Hot water output temperature range",
+      "value": "35-65",
+      "unit": "°C",
+      "applies_to_models": [],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Hot water output temperature range 35-65 °C"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection, boiler side",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)",
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Gas connection, boiler side 15 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection, boiler side",
+      "value": "22",
+      "unit": "mm",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Gas connection, boiler side 22 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow/return heating connections, boiler side",
+      "value": "22",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Flow/return heating connections, boiler side 22 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Hot and cold water connection, boiler side",
+      "value": "G 3/4",
+      "unit": "Inches",
+      "applies_to_models": [],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Hot and cold water connection, boiler side G 3/4 Inches"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Connector expansion relief valve (minimum)",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Connector expansion relief valve (minimum) 15 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate discharge pipework (minimum)",
+      "value": "19",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Condensate discharge pipework (minimum) 19 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas spigot",
+      "value": "60/100 (concentric), optional 80/125 (concentric)",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Flue gas spigot 60/100 (concentric), optional 80/125 (concentric) mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20",
+      "value": "2.6",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20 2.6 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20",
+      "value": "3.3",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20 3.3 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20",
+      "value": "4.1",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G20 4.1 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31",
+      "value": "1.924",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31 1.924 kg/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31",
+      "value": "2.42",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31 2.42 kg/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31",
+      "value": "3.05",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Gas flow rate at 15°C and 1013 mbar (based on hot water generation if applicable) G31 3.05 kg/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow min./max.",
+      "value": "1.8/11.1",
+      "unit": "g/s",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow min./max. 1.8/11.1 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow min./max.",
+      "value": "2.4/14.0",
+      "unit": "g/s",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow min./max. 2.4/14.0 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow min./max.",
+      "value": "3.0/17.6",
+      "unit": "g/s",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow min./max. 3.0/17.6 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOX",
+      "value": "27.7",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "NOX 27.7 mg/kWh"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOX",
+      "value": "32.3",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "NOX 32.3 mg/kWh"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOX",
+      "value": "27.4",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "NOX 27.4 mg/kWh"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SEDBUK (2009) (G20/G31)",
+      "value": "89.1/-",
+      "unit": null,
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "SEDBUK (2009) (G20/G31) 89.1/-"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SEDBUK (2009) (G20/G31)",
+      "value": "89.3/90.3",
+      "unit": null,
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "SEDBUK (2009) (G20/G31) 89.3/90.3"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SEDBUK (2009) (G20/G31)",
+      "value": "89.3/-",
+      "unit": null,
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "SEDBUK (2009) (G20/G31) 89.3/-"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler dimensions (H x W x D)",
+      "value": "720 x 440 x 338",
+      "unit": "mm",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Boiler dimensions (H x W x D) 720 x 440 x 338 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler dimensions (H x W x D)",
+      "value": "720 x 440 x 372",
+      "unit": "mm",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Boiler dimensions (H x W x D) 720 x 440 x 372 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler dimensions (H x W x D)",
+      "value": "720 x 440 x 41",
+      "unit": "mm",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Boiler dimensions (H x W x D) 720 x 440 x 41 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Mounting weight approx.",
+      "value": "36",
+      "unit": "kg",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Mounting weight approx. 36 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Mounting weight approx.",
+      "value": "38",
+      "unit": "kg",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Mounting weight approx. 38 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Mounting weight approx.",
+      "value": "41",
+      "unit": "kg",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Mounting weight approx. 41 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical power consumption min./max.",
+      "value": "80/105",
+      "unit": "W",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Electrical power consumption min./max. 80/105 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical power consumption min./max.",
+      "value": "70/105",
+      "unit": "W",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Electrical power consumption min./max. 70/105 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical power consumption min./max.",
+      "value": "100/130",
+      "unit": "W",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Electrical power consumption min./max. 100/130 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical power consumption at 30% partial load",
+      "value": "45",
+      "unit": "W",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Electrical power consumption at 30% partial load 45 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical power consumption at 30% partial load",
+      "value": "50",
+      "unit": "W",
+      "applies_to_models": [
+        "831 (VUW GB 316/5-5)",
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Electrical power consumption at 30% partial load 50 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Standby electrical consumption",
+      "value": "< 2",
+      "unit": "W",
+      "applies_to_models": [
+        "824 (VUW GB 246/5-5)",
+        "831 (VUW GB 316/5-5)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Standby electrical consumption < 2 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Standby electrical consumption",
+      "value": "< 3,3",
+      "unit": "W",
+      "applies_to_models": [
+        "837 (VUW GB 376/5-5)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 80,
+          "section_title": "17.2 Technical data for ecoTEC plus VUW boiler",
+          "table_title": null,
+          "source_quote": "Standby electrical consumption < 3,3 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "F.00",
+      "description": "Flow temperature sensor interruption",
+      "possible_causes": [
+        "NTC plug not plugged in or has come loose",
+        "multiple plug on the PCB not plugged in correctly",
+        "interruption in cable harness",
+        "NTC defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC plug",
+        "PCB",
+        "cable harness",
+        "NTC sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature sensor",
+        "NTC",
+        "interruption",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 68,
+          "section_title": "13.2.8 Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.00 Flow temperature sensor interruption NTC plug not plugged in or has come loose, multiple plug on the PCB not plugged in correctly, interruption in cable harness, NTC defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.01",
+      "description": "Return temperature sensor interruption",
+      "possible_causes": [
+        "NTC plug not plugged in or has come loose",
+        "multiple plug on the PCB not plugged in correctly",
+        "interruption in cable harness",
+        "NTC defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC plug",
+        "PCB",
+        "cable harness",
+        "NTC sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature sensor",
+        "NTC",
+        "interruption",
+        "wiring"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.02",
+      "description": "Interruption cylinder charging sensor actoSTOR (NTC) only in combination with F.91",
+      "possible_causes": [
+        "NTC defective",
+        "NTC cable defective",
+        "defective plug connection on NTC",
+        "defective plug connection on actoSTOR electronics"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "NTC cable",
+        "actoSTOR electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "cylinder sensor",
+        "NTC",
+        "actoSTOR",
+        "interruption",
+        "wiring"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.03",
+      "description": "Interruption cylinder sensor actoSTOR (NTC) only in combination with F.91",
+      "possible_causes": [
+        "NTC defective",
+        "NTC cable defective",
+        "defective plug connection on NTC",
+        "defective plug connection on actoSTOR electronics"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "NTC cable",
+        "actoSTOR electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "cylinder sensor",
+        "NTC",
+        "actoSTOR",
+        "interruption",
+        "wiring"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.10",
+      "description": "Flow NTC short circuit",
+      "possible_causes": [
+        "NTC defective",
+        "short circuit in cable harness",
+        "cable/casing"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow sensor",
+        "NTC",
+        "short circuit",
+        "wiring"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.11",
+      "description": "Return NTC short circuit",
+      "possible_causes": [
+        "NTC defective",
+        "short circuit in cable harness",
+        "cable/casing"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "return sensor",
+        "NTC",
+        "short circuit",
+        "wiring"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.12",
+      "description": "Short circuit at cylinder charging sensor (NTC) only in combination with F.91",
+      "possible_causes": [
+        "NTC defective",
+        "short circuit in cable harness",
+        "cable/casing"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "cylinder sensor",
+        "NTC",
+        "short circuit",
+        "wiring"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.13",
+      "description": "VU-/VUW boiler: Short circuit warm start sensor/cylinder sensor; VUW boiler with actoSTOR: Short circuit cylinder sensor (NTC) only in combination with F.91",
+      "possible_causes": [
+        "NTC defective",
+        "short circuit in cable harness",
+        "cable/casing"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "warm start sensor",
+        "cylinder sensor",
+        "NTC",
+        "short circuit",
+        "wiring"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.20",
+      "description": "Safety switch-off: temperature limiter",
+      "possible_causes": [
+        "Incorrect earth connection between cable harness and boiler",
+        "flow or return NTC defective (loose connection)",
+        "black discharge via ignition cable",
+        "ignition plug or ignition electrode"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "cable harness",
+        "NTC sensor",
+        "ignition cable",
+        "ignition plug",
+        "ignition electrode"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature limiter",
+        "safety switch-off",
+        "earth connection",
+        "NTC",
+        "ignition"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.22",
+      "description": "Safety switch-off: low water pressure",
+      "possible_causes": [
+        "No or too low water pressure in the boiler",
+        "water pressure sensor defective",
+        "cable to pump or water pressure sensor loose/not connected/defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "water pressure sensor",
+        "pump"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "low water pressure",
+        "safety switch-off",
+        "pressure sensor",
+        "pump"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.23",
+      "description": "Safety switch-off: Temperature difference too great",
+      "possible_causes": [
+        "Pump blocked",
+        "insufficient pump output",
+        "air in boiler",
+        "flow and return NTC interchanged"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "NTC sensor"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature difference",
+        "safety switch-off",
+        "pump",
+        "air",
+        "NTC"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.24",
+      "description": "Safety switch-off: Temperature rise too fast",
+      "possible_causes": [
+        "Pump blocked",
+        "poor pump performance",
+        "air in boiler",
+        "system pressure too low",
+        "non-return valve blocks/incorrectly installed"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "non-return valve"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature rise",
+        "safety switch-off",
+        "pump",
+        "air",
+        "pressure",
+        "non-return valve"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.25",
+      "description": "Safety switch-off: Flue gas temperature too high",
+      "possible_causes": [
+        "Break in plug connection for optional flue gas safety thermostat (STB)",
+        "break in cable harness"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flue gas safety thermostat",
+        "cable harness"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flue gas temperature",
+        "safety switch-off",
+        "thermostat",
+        "wiring"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.26",
+      "description": "Fault: Gas valve without function",
+      "possible_causes": [
+        "Gas valve stepper motor not connected",
+        "multiple plug on the PCB not plugged in correctly",
+        "interruption in cable harness",
+        "gas valve stepper motor defective",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve stepper motor",
+        "PCB",
+        "cable harness",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "stepper motor",
+        "PCB",
+        "wiring",
+        "electronics"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.27",
+      "description": "Safety switch-off: Flame simulation",
+      "possible_causes": [
+        "Moisture on the electronics",
+        "electronics (flame monitor) defective",
+        "gas solenoid valve leaking"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electronics",
+        "flame monitor",
+        "gas solenoid valve"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame simulation",
+        "safety switch-off",
+        "electronics",
+        "gas valve"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.28",
+      "description": "Failure during start-up: ignition unsuccessful",
+      "possible_causes": [
+        "Gas meter defective or gas pressure regulator has triggered",
+        "air in gas",
+        "gas flow pressure too low",
+        "thermal isolator device (TAE) has triggered",
+        "condensate duct blocked",
+        "incorrect gas restrictor",
+        "incorrect ET gas valve",
+        "fault on the gas valve",
+        "multiple plug on PCB incorrectly plugged in",
+        "break in cable harness",
+        "ignition system (ignition transformer, ignition cable, ignition plug, ignition electrode) defective",
+        "ionisation current interrupted (cable, electrode)",
+        "incorrect earthing of boiler",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas meter",
+        "gas pressure regulator",
+        "thermal isolator device (TAE)",
+        "condensate duct",
+        "gas restrictor",
+        "ET gas valve",
+        "gas valve",
+        "PCB",
+        "cable harness",
+        "ignition system",
+        "ignition transformer",
+        "ignition cable",
+        "ignition plug",
+        "ignition electrode",
+        "ionisation current",
+        "electronics"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition",
+        "start-up failure",
+        "gas supply",
+        "pressure",
+        "condensate",
+        "flame sensor",
+        "electronics"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.29",
+      "description": "Failure during operation: Re-ignition unsuccessful",
+      "possible_causes": [
+        "Gas supply temporarily stopped",
+        "flue gas recirculation",
+        "condensate duct blocked",
+        "faulty earthing of boiler",
+        "ignition transformer has spark failure"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas supply",
+        "flue gas system",
+        "condensate duct",
+        "ignition transformer"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "re-ignition",
+        "operation failure",
+        "gas supply",
+        "flue gas",
+        "condensate",
+        "ignition"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.32",
+      "description": "Fan fault",
+      "possible_causes": [
+        "Plug at fan not correctly plugged in",
+        "multiple plug on PCB not correctly plugged in",
+        "break in cable harness",
+        "fan blocked",
+        "Hall sensor defective",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "fan",
+        "PCB",
+        "cable harness",
+        "Hall sensor",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan",
+        "motor",
+        "PCB",
+        "wiring",
+        "Hall sensor",
+        "electronics"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.35",
+      "description": "Air/flue gas duct fault",
+      "possible_causes": [
+        "Air/flue gas duct blocked"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "air/flue gas duct"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flue gas duct",
+        "venting",
+        "blocked"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.42",
+      "description": "Coding resistor fault (possible in combination with F.70)",
+      "possible_causes": [
+        "Short circuit/interruption in coding resistor output range (in cable harness at heat exchanger) or gas group resistor (on PCB)"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "coding resistor",
+        "cable harness",
+        "heat exchanger",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "coding resistor",
+        "short circuit",
+        "interruption",
+        "wiring",
+        "PCB"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.49",
+      "description": "eBUS fault",
+      "possible_causes": [
+        "Short circuit on eBUS",
+        "eBUS overload or two power supplies with different polarities on the eBUS"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "eBUS"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "eBUS",
+        "short circuit",
+        "overload",
+        "power supply"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.52",
+      "description": "Mass flow sensor connection fault",
+      "possible_causes": [
+        "Mass flow sensor not connected/disconnected",
+        "plug not connected or incorrectly connected"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "mass flow sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "mass flow sensor",
+        "connection",
+        "wiring"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.53",
+      "description": "Mass flow sensor fault",
+      "possible_causes": [
+        "Mass flow sensor faulty",
+        "filter below venturi filter cap wet or blocked",
+        "gas flow pressure too low"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "mass flow sensor",
+        "venturi filter",
+        "gas supply"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "mass flow sensor",
+        "venturi",
+        "gas pressure"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.54",
+      "description": "Gas pressure fault (in combination with F.28/F.29)",
+      "possible_causes": [
+        "No or too little gas supply pressure",
+        "gas valve closed"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas supply",
+        "gas valve"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas pressure",
+        "gas supply",
+        "gas valve"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.56",
+      "description": "Fault: Mass flow sensor regulation",
+      "possible_causes": [
+        "Gas valve defective",
+        "cable harness to gas valve defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "mass flow sensor",
+        "regulation",
+        "gas valve",
+        "wiring"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.57",
+      "description": "Fault during comfort safety mode",
+      "possible_causes": [
+        "Ignition electrode highly corroded"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "ignition electrode"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "comfort mode",
+        "safety mode",
+        "ignition electrode"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.61",
+      "description": "Fault: Gas valve regulation",
+      "possible_causes": [
+        "Short circuit/short to earth in cable harness for the gas valve",
+        "Gas valve defective (coils shorted to earth)",
+        "Electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve",
+        "cable harness",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "regulation",
+        "short circuit",
+        "wiring",
+        "electronics"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.62",
+      "description": "Fault: Gas valve switch-off delay",
+      "possible_causes": [
+        "Delayed shutdown of gas valve",
+        "Delayed extinguishing of flame signal",
+        "Gas valve leaking",
+        "Electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve",
+        "flame sensor",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "shutdown",
+        "flame signal",
+        "leaking",
+        "electronics"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.63",
+      "description": "EEPROM error",
+      "possible_causes": [
+        "Electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "EEPROM",
+        "electronics",
+        "error"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.64",
+      "description": "Electronics/NTC fault",
+      "possible_causes": [
+        "Supply or return NTC short circuited",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "electronics",
+        "NTC",
+        "short circuit"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.65",
+      "description": "Electronic temperature fault",
+      "possible_causes": [
+        "Electronics overheating due to external influences",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "electronics",
+        "temperature",
+        "overheating"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.67",
+      "description": "Electronics/flame fault",
+      "possible_causes": [
+        "Implausible flame signal",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flame sensor",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "electronics",
+        "flame",
+        "signal"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.68",
+      "description": "Unstable flame signal fault",
+      "possible_causes": [
+        "Air in gas",
+        "gas flow pressure too low",
+        "wrong air ratio",
+        "condensate route blocked",
+        "wrong gas restrictor",
+        "ionisation flow interruption (cables, electrodes)",
+        "flue gas recirculation",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas supply",
+        "condensate route",
+        "gas restrictor",
+        "ionisation cables",
+        "electrodes",
+        "flue gas system",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame signal",
+        "gas",
+        "air ratio",
+        "condensate",
+        "ionisation",
+        "flue gas",
+        "electronics"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.70",
+      "description": "Invalid device specific number (DSN)",
+      "possible_causes": [
+        "Spare part case: Display and PCB replaced at same time and DSN not set",
+        "wrong or missing output range coding resistor"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "display",
+        "PCB",
+        "coding resistor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "DSN",
+        "device number",
+        "display",
+        "PCB",
+        "coding resistor"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.71",
+      "description": "Flow NTC fault",
+      "possible_causes": [
+        "Flow temperature sensor signalling constant value:",
+        "Flow temperature sensor incorrectly positioned at supply pipe.",
+        "Flow temperature sensor defective."
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flow temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow sensor",
+        "NTC",
+        "temperature",
+        "defective"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.72",
+      "description": "Flow/return NTC fault",
+      "possible_causes": [
+        "Flow/return temperature difference too great -> flow and/or return temperature sensor defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flow temperature sensor",
+        "return temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow sensor",
+        "return sensor",
+        "NTC",
+        "temperature difference"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.73",
+      "description": "Water pressure sensor signal in the wrong range (too low)",
+      "possible_causes": [
+        "Interruption/short circuit of water pressure sensor",
+        "interruption/short circuit to GND in supply line to water pressure sensor or water pressure sensor defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "water pressure sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water pressure sensor",
+        "signal",
+        "range",
+        "short circuit",
+        "wiring"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.74",
+      "description": "Water pressure sensor signal outside correct range (too high)",
+      "possible_causes": [
+        "Cable to water pressure sensor has short-circuited at 5 V/24 V",
+        "internal fault in water pressure sensor"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "water pressure sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water pressure sensor",
+        "signal",
+        "range",
+        "short circuit",
+        "wiring"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.75",
+      "description": "Fault, no pressure change detection when starting pump",
+      "possible_causes": [
+        "Water pressure sensor and/or pump defective",
+        "air in heating installation",
+        "too low water pressure in boiler",
+        "check adjustable bypass",
+        "connect external expansion vessel to return"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "water pressure sensor",
+        "pump",
+        "bypass",
+        "expansion vessel"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure change",
+        "pump",
+        "water pressure",
+        "bypass",
+        "expansion vessel"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.76",
+      "description": "Overheating protection on primary heat exchanger has responded",
+      "possible_causes": [
+        "Cable or cable connections for safety fuse in primary heat exchanger or primary heat exchanger defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "primary heat exchanger",
+        "safety fuse"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "overheating",
+        "heat exchanger",
+        "safety fuse",
+        "wiring"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.77",
+      "description": "Flue non-return flap/condensate pump fault",
+      "possible_causes": [
+        "No response from flue non-return flap or condensate pump defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flue non-return flap",
+        "condensate pump"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flue flap",
+        "condensate pump",
+        "fault"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.78",
+      "description": "Interruption to DHW outlet sensor at external controller",
+      "possible_causes": [
+        "UK link box is connected, but hot water NTC not bridged"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "DHW outlet sensor",
+        "UK link box",
+        "NTC"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "DHW sensor",
+        "NTC",
+        "external controller",
+        "UK link box"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.83",
+      "description": "Flow and/or return temperature sensor temperature change fault",
+      "possible_causes": [
+        "When the burner starts, the temperature change registered at flow and/or return temperature sensor is non-existent or too small.",
+        "Not enough water in the boiler",
+        "Flow and/return temperature sensor not in correct position at pipe."
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flow temperature sensor",
+        "return temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature sensor",
+        "temperature change",
+        "water",
+        "position"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.84",
+      "description": "Fault: Flow/return temperature sensor temperature difference implausible",
+      "possible_causes": [
+        "Flow and return temperature sensors returning implausible values.",
+        "Flow and return temperature sensors have been inverted.",
+        "Flow and return temperature sensors have not been correctly fitted."
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flow temperature sensor",
+        "return temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature sensor",
+        "temperature difference",
+        "implausible",
+        "inverted",
+        "fitted"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.85",
+      "description": "Fault: Flow and return temperature sensors incorrectly fitted",
+      "possible_causes": [
+        "Flow and/or return temperature sensors have been fitted to the same pipe/wrong pipe."
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flow temperature sensor",
+        "return temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature sensor",
+        "fitting",
+        "pipe"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.92",
+      "description": "Coding resistor fault",
+      "possible_causes": [
+        "The coding resistor on the PCB does not match the entered gas family",
+        "Check the resistor",
+        "repeat the gas family check and enter the correct gas family."
+      ],
+      "manufacturer_steps": [
+        "Check the resistor",
+        "repeat the gas family check and enter the correct gas family."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "coding resistor",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "coding resistor",
+        "gas family",
+        "PCB"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.93",
+      "description": "Gas group fault",
+      "possible_causes": [
+        "Combustion quality outside the permitted range",
+        "Wrong gas restrictor",
+        "recirculation",
+        "wrong gas group",
+        "internal pressure measuring point in venturi blocked (do not use lubricant on O-ring in venturi.)",
+        "Gas family check prematurely terminated."
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas restrictor",
+        "venturi"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas group",
+        "combustion",
+        "gas restrictor",
+        "recirculation",
+        "venturi"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Communication fault",
+      "description": "No communication with the PCB",
+      "possible_causes": [
+        "Communication fault between display and PCB in the electronics box"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "display",
+        "PCB",
+        "electronics box"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "PCB",
+        "display",
+        "electronics"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "diagnostic_codes": [
+    {
+      "code": "D.000",
+      "description": "Heating partial load",
+      "value_range": "Adjustable heating partial load in kW",
+      "default_value": "Auto",
+      "unit": "kW",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.000 Heating partial load Adjustable heating partial load in kW Auto"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.001",
+      "description": "Overrun time of internal pump for heating mode",
+      "value_range": "1-60 min",
+      "default_value": "5 min",
+      "unit": "min",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.001 Overrun time of internal pump for heating mode 1-60 min 5 min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.002",
+      "description": "Max. burner anti-cycling time heating at 20 °C flow temperature",
+      "value_range": "2-60 min",
+      "default_value": "20 min",
+      "unit": "min",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.002 Max. burner anti-cycling time heating at 20 °C flow temperature 2-60 min 20 min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.003",
+      "description": "Outlet temp. actual value",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.003 Outlet temp. actual value In °C Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.004",
+      "description": "Measured value of hot water sensor",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.004 Measured value of hot water sensor In °C Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.005",
+      "description": "Flow temperature target value (or return target value)",
+      "value_range": "In °C, max. of the value set in d.71, limited by an eBUS controller if connected)",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.005 Flow temperature target value (or return target value) In °C, max. of the value set in d.71, limited by an eBUS controller if connected) Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.006",
+      "description": "Hot water temperature target value (VUW boilers only)",
+      "value_range": "35 to 65°C",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.006 Hot water temperature target value (VUW boilers only) 35 to 65°C Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.007",
+      "description": "Warm start temperature target value (only with VUW boilers); Cylinder temperature target value (only with VU boilers)",
+      "value_range": "40 to 65 °C; 15 °C frost protection, then 40 to 70°C; (max. temperature can be adjusted under D.020)",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.007 Warm start temperature target value (only with VUW boilers) Cylinder temperature target value (only with VU boilers) 40 to 65 °C 15 °C frost protection, then 40 to 70°C; (max. temperature can be adjusted under D.020) Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.008",
+      "description": "Room thermostat at terminal RT",
+      "value_range": "Room thermostat open (no heat requirement); Room thermostat closed (heat requirement)",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.008 Room thermostat at terminal RT Room thermostat open (no heat requirement) Room thermostat closed (heat requirement) Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.009",
+      "description": "Target value from external eBus controller",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.009 Target value from external eBus controller In °C Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.010",
+      "description": "Status of internal pump",
+      "value_range": "On, Off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.010 Status of internal pump On, Off Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.011",
+      "description": "Status of external heating pump",
+      "value_range": "On, Off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.011 Status of external heating pump On, Off Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.012",
+      "description": "Status of cylinder charge pump",
+      "value_range": "On, Off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.012 Status of cylinder charge pump On, Off Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.013",
+      "description": "Status of hot water circulation pump",
+      "value_range": "On, Off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.013 Status of hot water circulation pump On, Off Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.014",
+      "description": "Target pump speed (high-efficiency pump)",
+      "value_range": "Not relevant",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.014 Target pump speed (high-efficiency pump) Not relevant Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.015",
+      "description": "Actual pump speed (high-efficiency pump)",
+      "value_range": "Not relevant",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.015 Actual pump speed (high-efficiency pump) Not relevant Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.016",
+      "description": "Room thermostat 24 V DC open/closed",
+      "value_range": "Heating mode Off/On",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.016 Room thermostat 24 V DC open/closed Heating mode Off/On Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.017",
+      "description": "Heating flow/return regulation changeover",
+      "value_range": "Control type: flow, return",
+      "default_value": "Flow",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.017 Heating flow/return regulation changeover Control type: flow, return Flow"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.018",
+      "description": "Pump operating mode setting",
+      "value_range": "Comfort (continuously operating pump); Eco (intermittently operating pump)",
+      "default_value": "Eco",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.018 Pump operating mode setting Comfort (continuously operating pump) Eco (intermittently operating pump) Eco"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.019",
+      "description": "Operating mode of 2-stage pump",
+      "value_range": "Setting for operating mode of 2-stage pump: 0 = Burner operation = stage 2, Flow/overrun = stage 1; 1 = Heating + Overrun = stage 1, Hot water = stage 2; 2 = Like 1, but rotational speed during heating mode depending on heating partial load, 3 = always stage 2; 4 = Rotational speed during heating mode depending on heating partial load, otherwise always stage 1",
+      "default_value": "2",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.019 Operating mode of 2-stage pump Setting for operating mode of 2-stage pump: 0 = Burner operation = stage 2, Flow/overrun = stage 1; 1 = Heating + Overrun = stage 1, Hot water = stage 2, 2 = Like 1, but rotational speed during heating mode depending on heating partial load, 3 = always stage 2; 4 = Rotational speed during heating mode depending on heating partial load, otherwise always stage 1 2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.020",
+      "description": "Max. setting for cylinder target value",
+      "value_range": "Setting range: 50°C -70 °C (actoSTOR 65°C)",
+      "default_value": "65 °C",
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.020 Max. setting for cylinder target value Setting range: 50°C -70 °C (actoSTOR 65°C) 65 °C"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.022",
+      "description": "Hot water requirement via C1/C2, impeller or APC",
+      "value_range": "On, Off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.022 Hot water requirement via C1/C2, impeller or APC On, Off Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.023",
+      "description": "Summer/winter operating mode (heating on/off)",
+      "value_range": "Heating on, heating off (summer mode)",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.023 Summer/winter operating mode (heating on/off) Heating on, heating off (summer mode) Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.025",
+      "description": "Hot water generation enabled by eBUS controller",
+      "value_range": "On, Off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "11.1 Diagnosis codes",
+          "table_title": null,
+          "source_quote": "D.025 Hot water generation enabled by eBUS controller On, Off Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.026",
+      "description": "Auxiliary relay control",
+      "value_range": "Circulation pump; External pump; Cylinder charging pump; Extractor hood; External solenoid valve; External fault message; Solar pump (not active); eBUS remote control (not active); Legionella protection pump (not active); Solar valve (not active)",
+      "default_value": "External pump",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.026 Auxiliary relay control Circulation pump External pump Cylinder charging pump Extractor hood External solenoid valve External fault message Solar pump (not active) eBUS remote control (not active) Legionella protection pump (not active) Solar valve (not active) External pump"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.027",
+      "description": "Switching of relay 1 on the \"2 in 7\" multi-functional module VR 40",
+      "value_range": "Circulation pump; External pump; Cylinder charging pump; Extractor hood; External solenoid valve; External fault message; Solar pump (not active); eBUS remote control (not active); Legionella protection pump (not active); Solar valve (not active)",
+      "default_value": "External pump",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.027 Switching of relay 1 on the \"2 in 7\" multi-functional module VR 40 Circulation pump External pump Cylinder charging pump Extractor hood External solenoid valve External fault message Solar pump (not active) eBUS remote control (not active) Legionella protection pump (not active) Solar valve (not active) External pump"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.028",
+      "description": "Switching of relay 2 on the \"2 in 7\" multi-functional module VR 40",
+      "value_range": "Circulation pump; External pump; Cylinder charging pump; Extractor hood; External solenoid valve; External fault message; Solar pump (not active); Remote control eBUS (not active); Legionella protection pump (not active); Solar valve (not active)",
+      "default_value": "External pump",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.028 Switching of relay 2 on the \"2 in 7\" multi-functional module VR 40 Circulation pump External pump Cylinder charging pump Extractor hood External solenoid valve External fault message Solar pump (not active) Remote control eBUS (not active) Legionella protection pump (not active) Solar valve (not active) External pump"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.033",
+      "description": "Fan speed target value",
+      "value_range": null,
+      "default_value": null,
+      "unit": "rpm",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.033 Fan speed target value In rpm Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.034",
+      "description": "Fan speed actual value",
+      "value_range": null,
+      "default_value": null,
+      "unit": "rpm",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.034 Fan speed actual value In rpm Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.035",
+      "description": "Position of the diverter valve",
+      "value_range": "Heating mode; Parallel operation; DHW mode",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.035 Position of the diverter valve Heating mode Parallel operation DHW mode Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.036",
+      "description": "Hot water flow quantity (impeller sensor)",
+      "value_range": null,
+      "default_value": null,
+      "unit": "l/min",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.036 Hot water flow quantity (impeller sensor) In l/min Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.039",
+      "description": "Solar feed temperature",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.039 Solar feed temperature Actual value in °C Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.040",
+      "description": "Flow temperature",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.040 Flow temperature Actual value in °C Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.041",
+      "description": "Return temperature",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.041 Return temperature Actual value in °C Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.044",
+      "description": "Digitised ionisation value",
+      "value_range": "Display range 0 to 1020, > 800 no flame, < 400 good flame",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.044 Digitised ionisation value Display range 0 to 1020, > 800 no flame < 400 good flame Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.046",
+      "description": "Pump type",
+      "value_range": "Disable via relay; Disable via PWM",
+      "default_value": "Disable via relay",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.046 Pump type Disable via relay Disable via PWM Disable via relay"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.047",
+      "description": "Outside temperature (with weather-controlled Vaillant controller)",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.047 Outside temperature (with weather-controlled Vaillant controller) Actual value in °C Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.050",
+      "description": "Offset for minimum speed",
+      "value_range": "0 to 3000",
+      "default_value": "Nominal value set in factory",
+      "unit": "rpm",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.050 Offset for minimum speed In rpm, setting range: 0 to 3000 Nominal value set in factory"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.051",
+      "description": "Offset for maximum speed",
+      "value_range": "-990 to 0",
+      "default_value": "Nominal value set in factory",
+      "unit": "rpm",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.051 Offset for maximum speed In rpm, setting range: -990 to 0 Nominal value set in factory"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.058",
+      "description": "Activation of solar post-heating for VUW boilers; Switch hot water mode",
+      "value_range": "Solar post-heating mode deactivated; DHW activation target value minimum 60°C",
+      "default_value": "Solar post-heating mode deactivated",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.058 Activation of solar post-heating for VUW boilers; Switch hot water mode Solar post-heating mode deactivated DHW activation target value minimum 60°C Solar post-heating mode deactivated"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.060",
+      "description": "Number of temperature limiter shutdowns",
+      "value_range": "Number of shutdowns",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.060 Number of temperature limiter shutdowns Number of shutdowns Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.061",
+      "description": "Number of ignition device cutoffs",
+      "value_range": "Number of unsuccessful ignitions in the last attempt",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.061 Number of ignition device cutoffs Number of unsuccessful ignitions in the last attempt Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.064",
+      "description": "Average ignition time",
+      "value_range": null,
+      "default_value": null,
+      "unit": "seconds",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.064 Average ignition time In seconds Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.065",
+      "description": "Maximum ignition time",
+      "value_range": null,
+      "default_value": null,
+      "unit": "seconds",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.065 Maximum ignition time In seconds Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.067",
+      "description": "Remaining burner anti-cycling time",
+      "value_range": null,
+      "default_value": null,
+      "unit": "minutes",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.067 Remaining burner anti-cycling time In minutes Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.068",
+      "description": "Unsuccessful ignitions at 1st attempt",
+      "value_range": "Number of unsuccessful ignitions",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.068 Unsuccessful ignitions at 1st attempt Number of unsuccessful ignitions Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.069",
+      "description": "Unsuccessful ignitions at 2nd attempt",
+      "value_range": "Number of unsuccessful ignitions",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.069 Unsuccessful ignitions at 2nd attempt Number of unsuccessful ignitions Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.070",
+      "description": "Setting diverter valve position",
+      "value_range": "Normal operating mode; Mid-position (parallel operation); Continuous heating adjustment",
+      "default_value": "Normal operating mode",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.070 Setting diverter valve position Normal operating mode Mid-position (parallel operation) Continuous heating adjustment Normal operating mode"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.071",
+      "description": "Target value maximum heating flow temperature",
+      "value_range": "40 to 80°C",
+      "default_value": "75°C",
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.071 Target value maximum heating flow temperature 40 to 80°C 75°C"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.072",
+      "description": "Internal pump overrun after cylinder charging",
+      "value_range": "0 - 10 minutes in increments of 1 minute",
+      "default_value": "2 mins",
+      "unit": "minutes",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.072 Internal pump overrun after cylinder charging Adjustable from 0 - 10 minutes in increments of 1 minute 2 mins"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.073",
+      "description": "Warm start target offset",
+      "value_range": "-15 K to 5 K",
+      "default_value": "0",
+      "unit": "K",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.073 Warm start target offset Adjustable from -15 K to 5 K 0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.075",
+      "description": "Max. charging time for domestic hot water cylinder without independent control system",
+      "value_range": "20-90 min",
+      "default_value": "45 mins",
+      "unit": "min",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.075 Max. charging time for domestic hot water cylinder without independent control system 20-90 min 45 mins"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.076",
+      "description": "Device specific number",
+      "value_range": "1 = VU 612; 3 = VU 615; 4 = VU 618; 9 = VU 624; 14 = VU 630; 20 = VU 637; 6 = VUW 824; 10 = VUW 831; 17 = VUW 837",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.076 Device specific number 1 = VU 612 3 = VU 615 4 = VU 618 9 = VU 624 14 = VU 630 20 = VU 637 6 = VUW 824 10 = VUW 831 17 VUW 837 Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.077",
+      "description": "Limit on cylinder charging output in kW",
+      "value_range": "Limit on cylinder charging output in kW",
+      "default_value": null,
+      "unit": "kW",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.077 Limit on cylinder charging output in kW Limit on cylinder charging output in kW Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.078",
+      "description": "Limit on cylinder charging temperature in °C",
+      "value_range": "55°C-80°C",
+      "default_value": "75°C",
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.078 Limit on cylinder charging temperature in °C 55°C-80°C Note: The chosen value must be at least 15 K or 15 °C above the set cylinder target value. 75°C"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.080",
+      "description": "Operating hours, heating",
+      "value_range": null,
+      "default_value": null,
+      "unit": "hours (h)",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.080 Operating hours, heating In hours (h) Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.081",
+      "description": "Operating hours, hot water generation",
+      "value_range": null,
+      "default_value": null,
+      "unit": "hours (h)",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.081 Operating hours, hot water generation In hours (h) Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.082",
+      "description": "Number of burner start-ups in heating mode",
+      "value_range": "Number of start-ups",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.082 Number of burner start-ups in heating mode Number of start-ups Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.083",
+      "description": "Number of burner start-ups in hot water mode",
+      "value_range": "Number of start-ups",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.083 Number of burner start-ups in hot water mode Number of start-ups Not adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.084",
+      "description": "Maintenance indicator: Number of hours until the next maintenance",
+      "value_range": "0 to 3000 hrs and \"---\" for deactivated",
+      "default_value": "\"---\"",
+      "unit": "hours",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.084 Maintenance indicator: Number of hours until the next maintenance Setting range: 0 to 3000 hrs and \"---\" for deactivated \"---\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.088",
+      "description": "Start delay for hot water draw-off detection via impeller (VUW boilers only)",
+      "value_range": "1.5 l/min and no delay; 3.7 l/min and 2 s delay",
+      "default_value": "1.5 l/min and no delay",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.088 Start delay for hot water draw-off detection via impeller (VUW boilers only) 1.5 l/min and no delay, 3.7 l/min and 2 s delay 1.5 l/min and no delay"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "D.090",
+      "description": "Status of digital controller",
+      "value_range": "recognised, not recognised",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "11.1 Diagnosis codes (continued)",
+          "table_title": null,
+          "source_quote": "D.090 Status of digital controller recognised, not recognised Not adjustable"
+        }
+      ],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  ],
+  "status_codes": [],
+  "safety_warnings": [],
+  "maintenance_tasks": [],
+  "search_terms": [],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.0,
+    "review_required": true,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+      "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+    ]
+  }
+}

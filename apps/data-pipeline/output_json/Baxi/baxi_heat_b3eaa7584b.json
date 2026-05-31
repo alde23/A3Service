@@ -1,0 +1,3276 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "BAXI",
+    "product_family": "Heat",
+    "model_names": [
+      "Baxi 412 Heat ErP",
+      "Baxi 415 Heat ErP",
+      "Baxi 418 Heat ErP",
+      "Baxi 424 Heat ErP",
+      "Baxi 430 Heat ErP"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "Installation and Service Manual",
+    "document_code": "7684223-01",
+    "publication_date": "06/17",
+    "language": "en",
+    "region": "GB, IE",
+    "source_file": "baxi_baxi-412-heat-erp_boiler-manual_baxi-400-heat.pdf",
+    "file_hash": "b3eaa7584bee2c85cdf71245655349b249fea3943383bd31b6b48a7de93c2410"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Appliance Type",
+      "value": "C13, C33",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": null,
+          "source_quote": "Appliance Type C13 C33"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Appliance Category",
+      "value": "CAT I 2H",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": null,
+          "source_quote": "Appliance Category CAT I 2H"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nox Class",
+      "value": "5",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": null,
+          "source_quote": "Nox Class 5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue Terminal Diameter",
+      "value": "100",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": null,
+          "source_quote": "Flue Terminal Dimensions Diameter 100mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue Terminal Projection",
+      "value": "125",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": null,
+          "source_quote": "Flue Terminal Dimensions Projection 125mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical Supply",
+      "value": "230V~50Hz",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": null,
+          "source_quote": "Electrical Supply 230V~50Hz"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Input Qn Hs (Gross) Max",
+      "value": "14.88",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 412 Heat ErP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Heat Input Qn Hs (Gross)",
+          "source_quote": "412 model kW 14.88"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Input Qn Hs (Gross) Min",
+      "value": "8.59",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 412 Heat ErP",
+        "Baxi 415 Heat ErP",
+        "Baxi 418 Heat ErP",
+        "Baxi 424 Heat ErP",
+        "Baxi 430 Heat ErP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Heat Input Qn Hs (Gross)",
+          "source_quote": "Min 8.59"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Input Qn Hs (Gross) Max",
+      "value": "18.32",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 415 Heat ErP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Heat Input Qn Hs (Gross)",
+          "source_quote": "415 model kW 18.32"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Input Qn Hs (Gross) Max",
+      "value": "21.75",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 418 Heat ErP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Heat Input Qn Hs (Gross)",
+          "source_quote": "418 model kW 21.75"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Input Qn Hs (Gross) Max",
+      "value": "28.62",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 424 Heat ErP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Heat Input Qn Hs (Gross)",
+          "source_quote": "424 model kW 28.62"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Input Qn Hs (Gross) Max",
+      "value": "34.35",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 430 Heat ErP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Heat Input Qn Hs (Gross)",
+          "source_quote": "430 model kW 34.35"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output Pn (Non Condensing 70° C Mean Water Temp) Max",
+      "value": "13",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 412 Heat ErP"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Heat Output Pn (Non Condensing 70° C Mean Water Temp)",
+          "source_quote": "412 model kW 13"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output Pn (Non Condensing 70° C Mean Water Temp) Min",
+      "value": "7.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 412 Heat ErP",
+        "Baxi 415 Heat ErP",
+        "Baxi 418 Heat ErP",
+        "Baxi 424 Heat ErP",
+        "Baxi 430 Heat ErP"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Heat Output Pn (Non Condensing 70° C Mean Water Temp)",
+          "source_quote": "Min 7.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output Pn (Non Condensing 70° C Mean Water Temp) Max",
+      "value": "16",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 415 Heat ErP"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Heat Output Pn (Non Condensing 70° C Mean Water Temp)",
+          "source_quote": "415 model kW 16"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output Pn (Non Condensing 70° C Mean Water Temp) Max",
+      "value": "19",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 418 Heat ErP"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Heat Output Pn (Non Condensing 70° C Mean Water Temp)",
+          "source_quote": "418 model kW 19"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output Pn (Non Condensing 70° C Mean Water Temp) Max",
+      "value": "25",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 424 Heat ErP"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Heat Output Pn (Non Condensing 70° C Mean Water Temp)",
+          "source_quote": "424 model kW 25"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output Pn (Non Condensing 70° C Mean Water Temp) Max",
+      "value": "30",
+      "unit": "kW",
+      "applies_to_models": [
+        "Baxi 430 Heat ErP"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Heat Output Pn (Non Condensing 70° C Mean Water Temp)",
+          "source_quote": "430 model kW 30"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Gas Rate (Natural Gas - G20) (After 10 Mins)",
+      "value": "1.42",
+      "unit": "m³/hr",
+      "applies_to_models": [
+        "Baxi 412 Heat ErP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Max Gas Rate (Natural Gas - G20)",
+          "source_quote": "412 model m³/hr 1.42"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Gas Rate (Natural Gas - G20) (After 10 Mins)",
+      "value": "1.75",
+      "unit": "m³/hr",
+      "applies_to_models": [
+        "Baxi 415 Heat ErP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Max Gas Rate (Natural Gas - G20)",
+          "source_quote": "415 model m³/hr 1.75"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Gas Rate (Natural Gas - G20) (After 10 Mins)",
+      "value": "2.07",
+      "unit": "m³/hr",
+      "applies_to_models": [
+        "Baxi 418 Heat ErP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Max Gas Rate (Natural Gas - G20)",
+          "source_quote": "418 model m³/hr 2.07"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Gas Rate (Natural Gas - G20) (After 10 Mins)",
+      "value": "2.73",
+      "unit": "m³/hr",
+      "applies_to_models": [
+        "Baxi 424 Heat ErP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Max Gas Rate (Natural Gas - G20)",
+          "source_quote": "424 model m³/hr 2.73"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Gas Rate (Natural Gas - G20) (After 10 Mins)",
+      "value": "3.27",
+      "unit": "m³/hr",
+      "applies_to_models": [
+        "Baxi 430 Heat ErP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Max Gas Rate (Natural Gas - G20)",
+          "source_quote": "430 model m³/hr 3.27"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dynamic (nominal) Inlet Pressure (Natural Gas - G20)",
+      "value": "20",
+      "unit": "mbar",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Dynamic (nominal) Inlet Pressure (Natural Gas - G20)",
+          "source_quote": "20 mbar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow Temperature (adjustable)",
+      "value": "30° C to 80° C (± 5° C)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": null,
+          "source_quote": "Flow Temperature (adjustable) 30° C to 80° C (± 5° C)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Recommended System Temperature Drop",
+      "value": "20°C",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": null,
+          "source_quote": "Recommended System Temperature Drop Condensing 20°C"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas Supply Connection",
+      "value": "22",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Connections",
+          "source_quote": "Gas Supply Connection 22mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Central Heating Flow Connection",
+      "value": "22",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Connections",
+          "source_quote": "Central Heating Flow (use ONLY compression fitting) 22mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Central Heating Return Connection",
+      "value": "22",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Connections",
+          "source_quote": "Central Heating Return (use ONLY compression fitting) 22mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate Drain Connection",
+      "value": "22mm for 21.5mm plastic waste pipe",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Connections",
+          "source_quote": "Condensate Drain 22mm for 21.5mm plastic waste pipe"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Overall Height Inc Flue Elbow",
+      "value": "790",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Outercase Dimensions",
+          "source_quote": "Overall Height Inc Flue Elbow 790mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Casing Height",
+      "value": "625",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Outercase Dimensions",
+          "source_quote": "Casing Height 625mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Casing Width",
+      "value": "370",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Outercase Dimensions",
+          "source_quote": "Casing Width 370mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Casing Depth",
+      "value": "270",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Outercase Dimensions",
+          "source_quote": "Casing Depth 270mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Both Sides",
+      "value": "5",
+      "unit": "mm Min",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Clearances",
+          "source_quote": "Both Sides 5mm Min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Above Casing (Top Flue)",
+      "value": "190",
+      "unit": "mm Min",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Clearances",
+          "source_quote": "Above Casing (Top Flue) 190mm Min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Above Casing (Rear Flue)",
+      "value": "35",
+      "unit": "mm Min",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Clearances",
+          "source_quote": "Above Casing (Rear Flue) 35mm Min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Below Casing (in Cupboard)",
+      "value": "35",
+      "unit": "mm Min",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Clearances",
+          "source_quote": "Below Casing (in Cupboard) 35mm Min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Below Casing",
+      "value": "120",
+      "unit": "mm Min",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Clearances",
+          "source_quote": "Below Casing 120 mm Min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Front (For Servicing)",
+      "value": "500",
+      "unit": "mm Min",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Clearances",
+          "source_quote": "Front (For Servicing) 500mm Min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Front (In Operation)",
+      "value": "5",
+      "unit": "mm Min",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Clearances",
+          "source_quote": "Front (In Operation) 5mm Min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power Consumption Max Rate",
+      "value": "17",
+      "unit": "W",
+      "applies_to_models": [
+        "Baxi 412 Heat ErP"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Power Consumption",
+          "source_quote": "412 model W 17"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power Consumption Max Rate",
+      "value": "20",
+      "unit": "W",
+      "applies_to_models": [
+        "Baxi 415 Heat ErP"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Power Consumption",
+          "source_quote": "415 model W 20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power Consumption Max Rate",
+      "value": "23",
+      "unit": "W",
+      "applies_to_models": [
+        "Baxi 418 Heat ErP"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Power Consumption",
+          "source_quote": "418 model W 23"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power Consumption Max Rate",
+      "value": "33",
+      "unit": "W",
+      "applies_to_models": [
+        "Baxi 424 Heat ErP"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Power Consumption",
+          "source_quote": "424 model W 33"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power Consumption Max Rate",
+      "value": "44",
+      "unit": "W",
+      "applies_to_models": [
+        "Baxi 430 Heat ErP"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Power Consumption",
+          "source_quote": "430 model W 44"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "External Fuse Rating",
+      "value": "3",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": null,
+          "source_quote": "External Fuse Rating 3A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Internal Fuse Rating (Terminal Strip)",
+      "value": "1.6T",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Internal Fuse Rating (Terminal Strip)",
+          "source_quote": "Fuse 1.6T"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical Protection",
+      "value": "IPX4D",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": null,
+          "source_quote": "Electrical Protection IPX4D"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water Content",
+      "value": "1.7",
+      "unit": "litres",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": null,
+          "source_quote": "Water Content litres 1.7"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Static Head Max",
+      "value": "25",
+      "unit": "metres",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Static Head",
+          "source_quote": "max 25 metres"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Low Head",
+      "value": "0.4",
+      "unit": "m min",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": null,
+          "source_quote": "Low Head 0.4m min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "System Detail",
+      "value": "fully pumped open vented & sealed systems",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "System Detail",
+          "source_quote": "fully pumped open vented & sealed systems"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure Switch",
+      "value": "Not Fitted",
+      "unit": null,
+      "applies_to_models": [
+        "12 model",
+        "15 model",
+        "18 model"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Pressure Switch",
+          "source_quote": "12/15/18 Model - Not Fitted"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure Switch",
+      "value": "Fitted",
+      "unit": null,
+      "applies_to_models": [
+        "24 model",
+        "30 model"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Pressure Switch",
+          "source_quote": "24/30 Model - Fitted"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Packaged Boiler Carton Weight",
+      "value": "21.5",
+      "unit": "kg",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Weights",
+          "source_quote": "Packaged Boiler Carton 21.5 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Installation Lift Weight",
+      "value": "19.5",
+      "unit": "kg",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": "Weights",
+          "source_quote": "Installation Lift Weight 19.5 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CO/CO2 Ratio",
+      "value": "Up to a maximum of 0.004",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical Data",
+          "table_title": null,
+          "source_quote": "CO/CO2 Ratio Up to a maximum of 0.004"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SAP 2009 Annual Efficiency",
+      "value": "89.2",
+      "unit": "%",
+      "applies_to_models": [
+        "12 model",
+        "15 model",
+        "18 model"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Product Characteristics Database (SEDBUK)",
+          "table_title": "SAP 2009 Annual Efficiency",
+          "source_quote": "12 model - 89.2% 15 model - 89.2% 18 model - 89.2%"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SAP 2009 Annual Efficiency",
+      "value": "89.1",
+      "unit": "%",
+      "applies_to_models": [
+        "24 model",
+        "30 model"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Product Characteristics Database (SEDBUK)",
+          "table_title": "SAP 2009 Annual Efficiency",
+          "source_quote": "24 model - 89.1% 30 model - 89.1%"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensing boiler",
+      "value": "Yes",
+      "unit": null,
+      "applies_to_models": [
+        "412",
+        "415",
+        "418",
+        "424",
+        "430"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Condensing boiler Yes"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Low-temperature boiler",
+      "value": "No",
+      "unit": null,
+      "applies_to_models": [
+        "412",
+        "415",
+        "418",
+        "424",
+        "430"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Low-temperature boiler(1) No"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "B1 boiler",
+      "value": "No",
+      "unit": null,
+      "applies_to_models": [
+        "412",
+        "415",
+        "418",
+        "424",
+        "430"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "B1 boiler No"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Cogeneration space heater",
+      "value": "No",
+      "unit": null,
+      "applies_to_models": [
+        "412",
+        "415",
+        "418",
+        "424",
+        "430"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Cogeneration space heater No"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combination heater",
+      "value": "No",
+      "unit": null,
+      "applies_to_models": [
+        "412",
+        "415",
+        "418",
+        "424",
+        "430"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Combination heater No"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Prated)",
+      "value": "13",
+      "unit": "kW",
+      "applies_to_models": [
+        "412"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Rated heat output Prated kW 13"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Prated)",
+      "value": "16",
+      "unit": "kW",
+      "applies_to_models": [
+        "415"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Rated heat output Prated kW 16"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Prated)",
+      "value": "19",
+      "unit": "kW",
+      "applies_to_models": [
+        "418"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Rated heat output Prated kW 19"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Prated)",
+      "value": "25",
+      "unit": "kW",
+      "applies_to_models": [
+        "424"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Rated heat output Prated kW 25"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Prated)",
+      "value": "30",
+      "unit": "kW",
+      "applies_to_models": [
+        "430"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Rated heat output Prated kW 30"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at rated heat output and high temperature regime (P4)",
+      "value": "13.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "412"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Useful heat output at rated heat output and high temperature regime P4 kW 13.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at rated heat output and high temperature regime (P4)",
+      "value": "16.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "415"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Useful heat output at rated heat output and high temperature regime P4 kW 16.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at rated heat output and high temperature regime (P4)",
+      "value": "19.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "418"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Useful heat output at rated heat output and high temperature regime P4 kW 19.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at rated heat output and high temperature regime (P4)",
+      "value": "25.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "424"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Useful heat output at rated heat output and high temperature regime P4 kW 25.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at rated heat output and high temperature regime (P4)",
+      "value": "30.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "430"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Useful heat output at rated heat output and high temperature regime P4 kW 30.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at 30% of rated heat output and low temperature regime (P1)",
+      "value": "4.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "412"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Useful heat output at 30% of rated heat output and low temperature regime (1) P1 kW 4.3"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at 30% of rated heat output and low temperature regime (P1)",
+      "value": "5.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "415"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Useful heat output at 30% of rated heat output and low temperature regime (1) P1 kW 5.4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at 30% of rated heat output and low temperature regime (P1)",
+      "value": "6.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "418"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Useful heat output at 30% of rated heat output and low temperature regime (1) P1 kW 6.4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at 30% of rated heat output and low temperature regime (P1)",
+      "value": "8.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "424"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Useful heat output at 30% of rated heat output and low temperature regime (1) P1 kW 8.4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at 30% of rated heat output and low temperature regime (P1)",
+      "value": "10.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "430"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Useful heat output at 30% of rated heat output and low temperature regime (1) P1 kW 10.1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Seasonal space heating energy efficiency (ηs)",
+      "value": "93",
+      "unit": "%",
+      "applies_to_models": [
+        "412",
+        "415",
+        "418",
+        "424",
+        "430"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Seasonal space heating energy efficiency ηs % 93"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at rated heat output and high temperature regime (η4)",
+      "value": "88.0",
+      "unit": "%",
+      "applies_to_models": [
+        "412"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Useful efficiency at rated heat output and high temperature regime (2) η4 % 88.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at rated heat output and high temperature regime (η4)",
+      "value": "87.9",
+      "unit": "%",
+      "applies_to_models": [
+        "415"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Useful efficiency at rated heat output and high temperature regime (2) η4 % 87.9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at rated heat output and high temperature regime (η4)",
+      "value": "87.8",
+      "unit": "%",
+      "applies_to_models": [
+        "418"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Useful efficiency at rated heat output and high temperature regime (2) η4 % 87.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at rated heat output and high temperature regime (η4)",
+      "value": "87.7",
+      "unit": "%",
+      "applies_to_models": [
+        "424"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Useful efficiency at rated heat output and high temperature regime (2) η4 % 87.7"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at rated heat output and high temperature regime (η4)",
+      "value": "87.5",
+      "unit": "%",
+      "applies_to_models": [
+        "430"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Useful efficiency at rated heat output and high temperature regime (2) η4 % 87.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at 30% of rated heat output and low temperature regime (η1)",
+      "value": "98.0",
+      "unit": "%",
+      "applies_to_models": [
+        "412",
+        "415",
+        "418",
+        "424",
+        "430"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Useful efficiency at 30% of rated heat output and low temperature regime (1) η1 % 98.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Full load (elmax)",
+      "value": "0.017",
+      "unit": "kW",
+      "applies_to_models": [
+        "412"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Full load elmax kW 0.017"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Full load (elmax)",
+      "value": "0.020",
+      "unit": "kW",
+      "applies_to_models": [
+        "415"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Full load elmax kW 0.020"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Full load (elmax)",
+      "value": "0.023",
+      "unit": "kW",
+      "applies_to_models": [
+        "418"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Full load elmax kW 0.023"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Full load (elmax)",
+      "value": "0.033",
+      "unit": "kW",
+      "applies_to_models": [
+        "424"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Full load elmax kW 0.033"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Full load (elmax)",
+      "value": "0.044",
+      "unit": "kW",
+      "applies_to_models": [
+        "430"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Full load elmax kW 0.044"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Part load (elmin)",
+      "value": "0.014",
+      "unit": "kW",
+      "applies_to_models": [
+        "412",
+        "415",
+        "418",
+        "424",
+        "430"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Part load elmin kW 0.014"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Standby mode (PSB)",
+      "value": "0",
+      "unit": "kW",
+      "applies_to_models": [
+        "412",
+        "415",
+        "418",
+        "424",
+        "430"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Standby mode PSB kW 0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Standby heat loss (Pstby)",
+      "value": "0.028",
+      "unit": "kW",
+      "applies_to_models": [
+        "412",
+        "415",
+        "418",
+        "424",
+        "430"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Standby heat loss Pstby kW 0.028"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Ignition burner power consumption (Pign)",
+      "value": "- ",
+      "unit": "kW",
+      "applies_to_models": [
+        "412",
+        "415",
+        "418",
+        "424",
+        "430"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Ignition burner power consumption Pign kW -"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual energy consumption (QHE)",
+      "value": "11183",
+      "unit": "kWh",
+      "applies_to_models": [
+        "412"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Annual energy consumption QHE kWh 11183"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual energy consumption (QHE)",
+      "value": "40",
+      "unit": "GJ",
+      "applies_to_models": [
+        "412"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Annual energy consumption QHE GJ 40"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual energy consumption (QHE)",
+      "value": "13764",
+      "unit": "kWh",
+      "applies_to_models": [
+        "415"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Annual energy consumption QHE kWh 13764"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual energy consumption (QHE)",
+      "value": "50",
+      "unit": "GJ",
+      "applies_to_models": [
+        "415"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Annual energy consumption QHE GJ 50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual energy consumption (QHE)",
+      "value": "16344",
+      "unit": "kWh",
+      "applies_to_models": [
+        "418"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Annual energy consumption QHE kWh 16344"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual energy consumption (QHE)",
+      "value": "59",
+      "unit": "GJ",
+      "applies_to_models": [
+        "418"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Annual energy consumption QHE GJ 59"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual energy consumption (QHE)",
+      "value": "21506",
+      "unit": "kWh",
+      "applies_to_models": [
+        "424"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Annual energy consumption QHE kWh 21506"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual energy consumption (QHE)",
+      "value": "77",
+      "unit": "GJ",
+      "applies_to_models": [
+        "424"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Annual energy consumption QHE GJ 77"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual energy consumption (QHE)",
+      "value": "25807",
+      "unit": "kWh",
+      "applies_to_models": [
+        "430"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Annual energy consumption QHE kWh 25807"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual energy consumption (QHE)",
+      "value": "93",
+      "unit": "GJ",
+      "applies_to_models": [
+        "430"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Annual energy consumption QHE GJ 93"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Sound power level, indoors (LWA)",
+      "value": "32",
+      "unit": "dB",
+      "applies_to_models": [
+        "412"
+      ],
+      "category": "noise",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Sound power level, indoors LWA dB 32"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Sound power level, indoors (LWA)",
+      "value": "33",
+      "unit": "dB",
+      "applies_to_models": [
+        "415"
+      ],
+      "category": "noise",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Sound power level, indoors LWA dB 33"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Sound power level, indoors (LWA)",
+      "value": "34",
+      "unit": "dB",
+      "applies_to_models": [
+        "418"
+      ],
+      "category": "noise",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Sound power level, indoors LWA dB 34"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Sound power level, indoors (LWA)",
+      "value": "37",
+      "unit": "dB",
+      "applies_to_models": [
+        "424"
+      ],
+      "category": "noise",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Sound power level, indoors LWA dB 37"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Sound power level, indoors (LWA)",
+      "value": "41",
+      "unit": "dB",
+      "applies_to_models": [
+        "430"
+      ],
+      "category": "noise",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Sound power level, indoors LWA dB 41"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Emissions of nitrogen oxides (NOX)",
+      "value": "18",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "412"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Emissions of nitrogen oxides NOX mg/kWh 18"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Emissions of nitrogen oxides (NOX)",
+      "value": "20",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "415"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Emissions of nitrogen oxides NOX mg/kWh 20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Emissions of nitrogen oxides (NOX)",
+      "value": "21",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "418"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Emissions of nitrogen oxides NOX mg/kWh 21"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Emissions of nitrogen oxides (NOX)",
+      "value": "24",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "424"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Emissions of nitrogen oxides NOX mg/kWh 24"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Emissions of nitrogen oxides (NOX)",
+      "value": "25",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "430"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Technical Parameters",
+          "table_title": "Technical parameters for boiler space heaters",
+          "source_quote": "Emissions of nitrogen oxides NOX mg/kWh 25"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum permissible Horizontal Concentric equivalent flue length (60/100)",
+      "value": "6",
+      "unit": "metres",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Horizontal Flue/Chimney Systems",
+          "table_title": null,
+          "source_quote": "Maximum permissible Horizontal Concentric equivalent flue lengths are:- (60/100) 6 metres"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum permissible Horizontal Concentric equivalent flue length (80/125)",
+      "value": "12",
+      "unit": "metres",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Horizontal Flue/Chimney Systems",
+          "table_title": null,
+          "source_quote": "Maximum permissible Horizontal Concentric equivalent flue lengths are:- (80/125) 12 metres"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent length for 135° bend",
+      "value": "0.5",
+      "unit": "metres",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Horizontal Flue/Chimney Systems",
+          "table_title": null,
+          "source_quote": "135° bend 0.5 metres"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent length for 93° bend",
+      "value": "1.0",
+      "unit": "metres",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Horizontal Flue/Chimney Systems",
+          "table_title": null,
+          "source_quote": "93° bend 1.0 metres"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "1 flash green",
+      "description": "Temperature protection",
+      "possible_causes": [
+        "Maximum flow temperature exceeded",
+        "Flow temperature rise rate too high",
+        "Excessive difference between flow and return temperature"
+      ],
+      "manufacturer_steps": [
+        "Check system circulation & pump operation",
+        "Check demands for boiler operation (switched live operation)",
+        "Check temperature setting",
+        "Check temperature sensors in boiler"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "temperature sensors"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature",
+        "protection",
+        "flow",
+        "pump",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error Codes - Auto Reset",
+          "table_title": null,
+          "source_quote": "1 flash green Temperature protection Maximum flow temperature exceeded, Flow temperature rise rate too high, Excessive difference between flow and return temperature Check system circulation & pump operation Check demands for boiler operation (switched live operation) Check temperature setting Check temperature sensors in boiler"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "2 flashes green",
+      "description": "Shutdown input",
+      "possible_causes": [
+        "BL terminals on User Interaction Controller are open circuit"
+      ],
+      "manufacturer_steps": [
+        "If condensate pump is wired to these terminals check operation of condensate pump",
+        "Check wiring to BL terminals (link present or connections to external device correct)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "condensate pump",
+        "User Interaction Controller"
+      ],
+      "severity": "medium",
+      "safety_level": "unknown",
+      "search_tags": [
+        "shutdown",
+        "condensate pump",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error Codes - Auto Reset",
+          "table_title": null,
+          "source_quote": "2 flashes green Shutdown input BL terminals on User Interaction Controller are open circuit If condensate pump is wired to these terminals check operation of condensate pump Check wiring to BL terminals (link present or connections to external device correct)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "3 flashes green",
+      "description": "Flame loss",
+      "possible_causes": [
+        "No flame detected during operation"
+      ],
+      "manufacturer_steps": [
+        "Check gas supply is turned on and gas is available if on a pre-payment meter",
+        "Check flue condition"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas supply",
+        "flue"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame",
+        "ignition",
+        "gas",
+        "flue"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error Codes - Auto Reset",
+          "table_title": null,
+          "source_quote": "3 flashes green Flame loss No flame detected during operation Check gas supply is turned on and gas is available if on a pre-payment meter Check flue condition"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "4 flashes green",
+      "description": "Communication fault",
+      "possible_causes": [
+        "Bad connection or wiring fault",
+        "Internal communication fault"
+      ],
+      "manufacturer_steps": [
+        "Check wiring/connections between boiler and User Interaction Controller and within the box",
+        "If necessary replace combustion control unit"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "wiring",
+        "User Interaction Controller",
+        "combustion control unit"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "wiring",
+        "control unit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error Codes - Auto Reset",
+          "table_title": null,
+          "source_quote": "4 flashes green Communication fault Bad connection or wiring fault Internal communication fault Check wiring/connections between boiler and User Interaction Controller and within the box If necessary replace combustion control unit"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "5 flashes green",
+      "description": "Parameter fault",
+      "possible_causes": [
+        "Parameter error or faulty PU",
+        "Configuration error or PCB fault"
+      ],
+      "manufacturer_steps": [
+        "Replace combustion control unit"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Parameter Unit (PU)",
+        "PCB",
+        "combustion control unit"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "parameter",
+        "PCB",
+        "control unit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error Codes - Auto Reset",
+          "table_title": null,
+          "source_quote": "5 flashes green Parameter fault Parameter error or faulty PU Configuration error or PCB fault Replace combustion control unit"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "6 flashes green",
+      "description": "Miscellaneous",
+      "possible_causes": [
+        "Internal fault in combustion control unit"
+      ],
+      "manufacturer_steps": [
+        "Replace combustion control unit"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "combustion control unit"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "internal fault",
+        "control unit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Error Codes - Auto Reset",
+          "table_title": null,
+          "source_quote": "6 flashes green Miscellaneous Internal fault in combustion control unit Replace combustion control unit"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "1 flash red",
+      "description": "Sensor error",
+      "possible_causes": [
+        "Bad connection to flow or return temperature sensor",
+        "Fault with flow or return temperature sensor(s)",
+        "Low or no flow through boiler",
+        "Reverse flow through boiler"
+      ],
+      "manufacturer_steps": [
+        "Check connections to temperature sensors/PCB and condition of wiring loom",
+        "Check resistance of temperature sensors",
+        "Check pump operation and system circulation"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flow temperature sensor",
+        "return temperature sensor",
+        "PCB",
+        "wiring loom",
+        "pump"
+      ],
+      "severity": "critical",
+      "safety_level": "unknown",
+      "search_tags": [
+        "sensor",
+        "temperature",
+        "flow",
+        "pump",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": "Lock-out conditions (Red flashes on \"chimney sweep\")",
+          "table_title": null,
+          "source_quote": "1 flash red Sensor error Bad connection to flow or return temperature sensor Fault with flow or return temperature sensor(s) Low or no flow through boiler Reverse flow through boiler Check connections to temperature sensors/PCB and condition of wiring loom Check resistance of temperature sensors Check pump operation and system circulation"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "2 flashes red",
+      "description": "High temperature protection",
+      "possible_causes": [
+        "Over-temperature thermostat on heat exchanger activated",
+        "No water flow through heat exchanger",
+        "Over-temperature thermostat fault or bad connection (open circuit)",
+        "PCB over-temperature condition",
+        "Flue fault resulting in recirculation or activation of air pressure switch (if fitted)"
+      ],
+      "manufacturer_steps": [
+        "Check connections to and operation of O/T thermostat and air pressure switch (if fitted) and PCB and condition of wiring loom",
+        "Check system pressure or that system is not air-locked",
+        "Check pump operation and system circulation",
+        "Check flue condition"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "over-temperature thermostat",
+        "heat exchanger",
+        "PCB",
+        "air pressure switch",
+        "pump",
+        "flue"
+      ],
+      "severity": "critical",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature",
+        "overheat",
+        "flow",
+        "pump",
+        "flue",
+        "pressure switch"
+      ],
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": "Lock-out conditions (Red flashes on \"chimney sweep\")",
+          "table_title": null,
+          "source_quote": "2 flashes red High temperature protection Over-temperature thermostat on heat exchanger activated No water flow through heat exchanger Over-temperature thermostat fault or bad connection (open circuit). PCB over-temperature condition Flue fault resulting in recirculation or activation of air pressure switch (if fitted) Check connections to and operation of O/T thermostat and air pressure switch (if fitted) and PCB and condition of wiring loom Check system pressure or that system is not air-locked Check pump operation and system circulation Check flue condition"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "3 flashes red",
+      "description": "Ignition fault",
+      "possible_causes": [
+        "No ignition",
+        "No flame detected following ignition",
+        "False flame signal detected",
+        "Repeated loss of flame detected"
+      ],
+      "manufacturer_steps": [
+        "Check earthing of the appliance",
+        "Check ignition electrode condition and clean/replace if necessary",
+        "Check gas valve operation",
+        "Check flue condition",
+        "Check correct combustion/gas valve settings",
+        "Check condensate drain for blockage"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "ignition electrode",
+        "gas valve",
+        "flue",
+        "condensate drain"
+      ],
+      "severity": "critical",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition",
+        "flame",
+        "gas valve",
+        "flue",
+        "condensate"
+      ],
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": "Lock-out conditions (Red flashes on \"chimney sweep\")",
+          "table_title": null,
+          "source_quote": "3 flashes red Ignition fault No ignition No flame detected following ignition False flame signal detected Repeated loss of flame detected Check earthing of the appliance Check ignition electrode condition and clean/replace if necessary Check gas valve operation Check flue condition Check correct combustion/gas valve settings Check condensate drain for blockage"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "4 flashes red",
+      "description": "Fan fault",
+      "possible_causes": [
+        "Fan calibration error",
+        "Fan failure"
+      ],
+      "manufacturer_steps": [
+        "If fan operates, check flue installation and condition.",
+        "Replace combustion control unit"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "fan",
+        "flue",
+        "combustion control unit"
+      ],
+      "severity": "critical",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan",
+        "flue",
+        "calibration"
+      ],
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": "Lock-out conditions (Red flashes on \"chimney sweep\")",
+          "table_title": null,
+          "source_quote": "4 flashes red Fan fault Fan calibration error Fan failure If fan operates, check flue installation and condition. Replace combustion control unit"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "5 flashes red",
+      "description": "Parameter fault",
+      "possible_causes": [
+        "Bad connection to PU",
+        "Parameter error or faulty PU"
+      ],
+      "manufacturer_steps": [
+        "PCB and condition of wiring loom",
+        "Replace combustion control unit"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Parameter Unit (PU)",
+        "PCB",
+        "wiring loom",
+        "combustion control unit"
+      ],
+      "severity": "critical",
+      "safety_level": "unknown",
+      "search_tags": [
+        "parameter",
+        "PU",
+        "PCB",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": "Lock-out conditions (Red flashes on \"chimney sweep\")",
+          "table_title": null,
+          "source_quote": "5 flashes red Parameter fault Bad connection to PU Parameter error or faulty PU PCB and condition of wiring loom Replace combustion control unit"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "6 flashes red",
+      "description": "Miscellaneous",
+      "possible_causes": [
+        "Bad connection or wiring fault internal or external to the boiler",
+        "Parameter error",
+        "Communication error"
+      ],
+      "manufacturer_steps": [
+        "Check all wiring connections are correctly made",
+        "Using a service tool or Recom software check all parameter settings",
+        "Replace combustion control unit"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "wiring",
+        "combustion control unit"
+      ],
+      "severity": "critical",
+      "safety_level": "unknown",
+      "search_tags": [
+        "wiring",
+        "parameter",
+        "communication",
+        "control unit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": "Lock-out conditions (Red flashes on \"chimney sweep\")",
+          "table_title": null,
+          "source_quote": "6 flashes red Miscellaneous Bad connection or wiring fault internal or external to the boiler Parameter error Communication error Check all wiring connections are correctly made Using a service tool or Recom software check all parameter settings Replace combustion control unit"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "diagnostic_codes": [],
+  "status_codes": [],
+  "safety_warnings": [
+    {
+      "warning_type": "warning",
+      "topic": "Installation, repair and maintenance",
+      "text": "Installation, repair and maintenance must only be carried out only by a competent person. This document is intended for use by competent persons.",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Installation, repair and maintenance must only be carried out only by a competent person. This document is intended for use by competent persons,"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Data plate compatibility",
+      "text": "Check the information on the data plate is compatible with local supply conditions.",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Check the information on the data plate is compatible with local supply conditions."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Physical injury",
+      "text": "Risk of a dangerous situation causing serious physical injury.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Symbols Used",
+          "table_title": null,
+          "source_quote": "DANGER Risk of a dangerous situation causing serious physical injury."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Physical injury",
+      "text": "Risk of a dangerous situation causing slight physical injury.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Symbols Used",
+          "table_title": null,
+          "source_quote": "WARNING Risk of a dangerous situation causing slight physical injury."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Material damage",
+      "text": "Risk of material damage.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Symbols Used",
+          "table_title": null,
+          "source_quote": "CAUTION Risk of material damage."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Gas smell",
+      "text": "If you smell gas: 1. Turn off the gas supply at the meter 2. Open windows and doors in the hazardous area 3. Do not operate light switches 4. Do not operate any electrical equipment 5. Do not use a telephone in the hazardous area 6. Extinguish any naked flame and do not smoke 7. Warn any other occupants and vacate the premises 8. Telephone the National Gas Emergency Service on:- 0800 111 999",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "General Safety Instructions",
+          "table_title": null,
+          "source_quote": "DANGER If you smell gas: 1. Turn off the gas supply at the meter 2. Open windows and doors in the hazardous area 3. Do not operate light switches 4. Do not operate any electrical equipment 5. Do not use a telephone in the hazardous area 6. Extinguish any naked flame and do not smoke 7. Warn any other occupants and vacate the premises 8. Telephone the National Gas Emergency Service on:- 0800 111 999"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Children and appliance use",
+      "text": "This boiler can be used by children aged 8 years and above and by persons with reduced physical, sensory or mental capabilities or lack of experience and knowledge when they have been given supervision or instruction concerning the safe use of the device and understand the resulting risks. Children must not be allowed to play with the appliance. Cleaning and user maintenance must not be carried out by children without supervision.",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Recommendations",
+          "table_title": null,
+          "source_quote": "WARNING This boiler can be used by children aged 8 years and above and by persons with reduced physical, sensory or mental capabilities or lack of experience and knowledge when they have been given supervision or instruction concerning the safe use of the device and understand the resulting risks. Children must not be allowed to play with the appliance. Cleaning and user maintenance must not be carried out by children without supervision."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Installation, repair and maintenance",
+      "text": "Installation, repair and maintenance must be carried out by a Gas Safe Registered Engineer (in accordance with prevailing local and national regulations).",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Recommendations",
+          "table_title": null,
+          "source_quote": "WARNING Installation, repair and maintenance must be carried out by a Gas Safe Registered Engineer (in accordance with prevailing local and national regulations)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Working on the boiler",
+      "text": "When working on the boiler, always disconnect the boiler from the mains and close the main gas inlet valve.",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Recommendations",
+          "table_title": null,
+          "source_quote": "When working on the boiler, always disconnect the boiler from the mains and close the main gas inlet valve."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Leaks after maintenance",
+      "text": "After maintenance or repair work, check the installation to ensure that there are no leaks.",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Recommendations",
+          "table_title": null,
+          "source_quote": "After maintenance or repair work, check the installation to ensure that there are no leaks."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Frost protection",
+      "text": "The boiler should be protected from frost.",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Recommendations",
+          "table_title": null,
+          "source_quote": "CAUTION The boiler should be protected from frost."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Casing removal",
+      "text": "Only remove the casing for maintenance and repair operations. Replace the casing after maintenance and repair operations.",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Recommendations",
+          "table_title": null,
+          "source_quote": "Only remove the casing for maintenance and repair operations. Replace the casing after maintenance and repair operations."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Installation, repair and maintenance",
+      "text": "Installation, repair and maintenance must only be carried out by a competent person. This document is intended for use by competent persons.",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "Installation Regulations",
+          "table_title": null,
+          "source_quote": "WARNING Installation, repair and maintenance must only be carried out by a competent person. This document is intended for use by competent persons."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "First firing odour",
+      "text": "On first firing the boiler, an odour may be present for a short period.",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Commissioning Procedure",
+          "table_title": null,
+          "source_quote": "CAUTION On first firing the boiler, an odour may be present for a short period."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Changing components",
+      "text": "When changing components ensure that both the gas and electrical supplies to the boiler are isolated before any work is started. Electrical isolation can be checked at the electrical test point. When a component has been changed recommission the boiler as described in Section 7. The Case Front Panel MUST seal effectively against the boiler side panels.",
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "WARNING When changing components ensure that both the gas and electrical supplies to the boiler are isolated before any work is started. Electrical isolation can be checked at the electrical test point. When a component has been changed recommission the boiler as described in Section 7. The Case Front Panel MUST seal effectively against the boiler side panels."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Boiler cool and isolated",
+      "text": "Ensure that the boiler is cool. Ensure that both the gas and electrical supplies to the boiler are isolated. Electrical isolation can be checked at the electrical test point.",
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Standard Inspection and Maintenance Operation",
+          "table_title": null,
+          "source_quote": "WARNING Ensure that the boiler is cool. Ensure that both the gas and electrical supplies to the boiler are isolated. Electrical isolation can be checked at the electrical test point."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Seals, gaskets and spare parts",
+      "text": "Always examine any seals or gaskets, replacing where necessary. Where a seal or gasket is supplied with a spare part it should be used, irrespective of the condition of the original. Use only original spare parts that are intended for use with this type of boiler.",
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Standard Inspection and Maintenance Operation",
+          "table_title": null,
+          "source_quote": "CAUTION Always examine any seals or gaskets, replacing where necessary. Where a seal or gasket is supplied with a spare part it should be used, irrespective of the condition of the original. Use only original spare parts that are intended for use with this type of boiler."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Seals, gaskets and connectors",
+      "text": "Ensure that all seals and gaskets are in position. Ensure that all connectors are refitted to the PCB.",
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "Standard Inspection and Maintenance Operation (cont.)",
+          "table_title": null,
+          "source_quote": "CAUTION Ensure that all seals and gaskets are in position. Ensure that all connectors are refitted to the PCB."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Changing components",
+      "text": "When changing components ensure that both the gas and electrical supplies to the boiler are isolated before any work is started. Electrical isolation can be checked at the electrical test point. When a component has been changed recommission the boiler as described in Section 7. Always examine any seals or gaskets, replacing where necessary. Where a seal or gasket is supplied with a spare part it should be used, irrespective of the condition of the original. The Case Front Panel MUST seal effectively against the air box side panels.",
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "Specific Maintenance Operation",
+          "table_title": null,
+          "source_quote": "WARNING When changing components ensure that both the gas and electrical supplies to the boiler are isolated before any work is started. Electrical isolation can be checked at the electrical test point. When a component has been changed recommission the boiler as described in Section 7. Always examine any seals or gaskets, replacing where necessary. Where a seal or gasket is supplied with a spare part it should be used, irrespective of the condition of the original. The Case Front Panel MUST seal effectively against the air box side panels."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "maintenance_tasks": [
+    {
+      "task_name": "Regular checks and maintenance",
+      "description": "The product will provide good service for a longer period of time if it is regularly checked and maintained.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Please note that the product will provide good service for a longer period of time if it is regularly checked and maintained."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "System flushing and inhibitor treatment",
+      "description": "All systems must be thoroughly cleansed, flushed and treated with inhibitor. Failure to do so will invalidate the appliance warranty.",
+      "interval": "After installation, at every service",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Manufacturer's Liability",
+          "table_title": null,
+          "source_quote": "Prior to commissioning all systems must be thoroughly flushed and treated after installation with inhibitor (see section 5.2.6). Failure to do so will invalidate the appliance warranty."
+        },
+        {
+          "page_number": 23,
+          "section_title": "Treatment of Water Circulating Systems",
+          "table_title": null,
+          "source_quote": "Failure to flush and add inhibitor to the system will invalidate the appliance warranty."
+        },
+        {
+          "page_number": 23,
+          "section_title": "Treatment of Water Circulating Systems",
+          "table_title": null,
+          "source_quote": "It is important to check the inhibitor concentration after installation, system modification and at every service in accordance with the inhibitor manufacturer."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Annual service",
+      "description": "It is recommended that the boiler is serviced annually. Servicing must be performed by a competent person in accordance with B.S. 7967-4.",
+      "interval": "annually",
+      "required_qualification": "competent person",
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "For reasons of safety and economy, it is recommended that the boiler is serviced annually. Servicing must be performed by a competent person in accordance with B.S. 7967-4."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Complete Service Interval Record",
+      "description": "After servicing, complete the relevant Service Interval Record section of the Benchmark Commissioning Checklist at the rear of this publication.",
+      "interval": "After servicing",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "After servicing, complete the relevant Service Interval Record section of the Benchmark Commissioning Checklist at the rear of this publication."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Routine servicing checks",
+      "description": "During routine servicing, and after any maintenance or change of part of the combustion circuit, the integrity of the complete flue system and the flue seals, the integrity of the boiler combustion circuit and relevant seals, the operational gas inlet pressure and gas rate, and the combustion performance must be checked.",
+      "interval": "During routine servicing",
+      "required_qualification": "competent person",
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "During routine servicing, and after any maintenance or change of part of the combustion circuit, the following must be checked:- The integrity of the complete flue system and the flue seals by checking air inlet sample to eliminate the possibility of recirculation. O2 ≥ 20.6% & CO2 < 0.2% - The integrity of the boiler combustion circuit and relevant seals. - The operational gas inlet pressure and the gas rate as described in Section 7.5.1. - The combustion performance as described in 'Check the Combustion Performance' below."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Check Combustion Performance (CO/CO2 ratio)",
+      "description": "Set the boiler to operate at maximum rate, remove the plug from the flue sampling point, insert the analyser probe and obtain the CO/CO2 ratio. This must be less than 0.004.",
+      "interval": "During servicing",
+      "required_qualification": "competent person",
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Set the boiler to operate at maximum rate as described in Section 7.4. Remove the plug from the flue sampling point (Fig. 42), insert the analyser probe and obtain the CO/CO2 ratio. This must be less than 0.004."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Visual check for debris/damage and clean/replace",
+      "description": "Visually check for debris/damage and clean or replace if necessary the water pressure (sealed systems), flue pipes and air supply pipes for leaks, condensate trap, ignition electrode, combustion, and air inlet deflector.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Standard Inspection and Maintenance Operation",
+          "table_title": null,
+          "source_quote": "Visually check for debris/damage and clean or replace if necessary the following: a) Check the water pressure (sealed systems) b) Check the flue pipes and air supply pipes for leaks c) Check and clean (if necessary) the condensate trap (see Section 5.4.4) d) Check the ignition electrode (replace if necessary) e) Check the combustion f) Complete the relevant Service Interval Record section of the Benchmark Commissioning Checklist at the rear of this publication and then hand it back to the user. g) Check and clean (if necessary) the air inlet deflector"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Check and replace ignition electrode",
+      "description": "Remove the ignition electrode and check its condition. Replace if necessary.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "Standard Inspection and Maintenance Operation (cont.)",
+          "table_title": null,
+          "source_quote": "Remove the ignition electrode (Fig 46c) and check the condition. Replace if necessary."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Clean heat exchanger and check burner",
+      "description": "Remove the gasket and burner from the top of the heat exchanger. Use a suitable vacuum cleaner to clean the top part of the heat exchanger. The burner must be checked for cracks or deterioration, and replaced if necessary.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "Standard Inspection and Maintenance Operation (cont.)",
+          "table_title": null,
+          "source_quote": "Remove the gasket and burner from the top of the heat exchanger (Fig. 46d). Use a suitable vacuum cleaner to clean the top part of the heat exchanger (Fig. 46e). The burner does not require any maintenance but must be checked for cracks or deterioration, and replaced if necessary."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Reassemble and recommission boiler",
+      "description": "Reassemble in reverse order and recommission the boiler.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "Standard Inspection and Maintenance Operation (cont.)",
+          "table_title": null,
+          "source_quote": "Reassemble in reverse order and recommission the boiler."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Decommissioning Procedure",
+      "description": "Isolate the gas & electric supplies and disconnect them. Drain the primary circuit and disconnect the filling device. Dismantle the chimney system and remove the boiler from the wall mounting frame.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 58,
+          "section_title": "Decommissioning Procedure",
+          "table_title": null,
+          "source_quote": "1. Isolate the gas & electric supplies and disconnect them. 2. Drain the primary circuit and disconnect the filling device. 3. Dismantle the chimney system and remove the boiler from the wall mounting frame."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "search_terms": [
+    "Baxi",
+    "400 Heat",
+    "Boiler",
+    "Installation",
+    "Service",
+    "Manual",
+    "Condensing",
+    "Gas Fired",
+    "Wall Mounted",
+    "Technical Specifications",
+    "Fault Codes",
+    "Troubleshooting",
+    "Maintenance",
+    "Error Codes",
+    "Lockout",
+    "Commissioning",
+    "Gas Settings",
+    "Chimney Sweep Mode",
+    "CO2 Check",
+    "Gas Inlet Pressure",
+    "Gas Rate",
+    "Safety Warnings",
+    "Frost Protection",
+    "Spare Parts",
+    "Benchmark Checklist",
+    "Flue",
+    "Condensate Drain",
+    "Electrical Connections",
+    "Heat Output",
+    "Heat Input",
+    "Dimensions",
+    "Pressure Switch",
+    "Temperature Sensor",
+    "Ignition Electrode",
+    "Automatic Air Vent",
+    "Combustion Control Unit"
+  ],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.98,
+    "review_required": false,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": []
+  }
+}

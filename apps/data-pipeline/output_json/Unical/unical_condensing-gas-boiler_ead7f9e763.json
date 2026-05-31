@@ -1,0 +1,4697 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Unical",
+    "product_family": "Condensing Gas Boiler",
+    "model_names": [
+      "R 24",
+      "C 24",
+      "R 32",
+      "C 32",
+      "X R 24",
+      "X C 24",
+      "X R 32",
+      "X C 32"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "INSTALLATION AND SERVICING MANUAL",
+    "document_code": "00338718EN",
+    "publication_date": "04/2024",
+    "language": "en",
+    "region": "EU",
+    "source_file": "X2846allegatoMANUALE_INSTALLAZIONE1-2X_00338718en_x-installatore-condevo-2024.pdf",
+    "file_hash": "ead7f9e7630133b524e42bdb680d0190538cd9752d92b6bb33167da73ae47b5a"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Ideal water pH in heating systems",
+      "value": "6.5 - 8",
+      "unit": "pH",
+      "applies_to_models": [],
+      "category": "water_quality",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "1.7 - WATER TREATMENT",
+          "table_title": null,
+          "source_quote": "The ideal water pH in heating systems must be within: VALUE PH MIN 6.5 MAX 8"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Hardness",
+      "value": "9 - 15",
+      "unit": "°fr",
+      "applies_to_models": [],
+      "category": "water_quality",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "1.7 - WATER TREATMENT",
+          "table_title": null,
+          "source_quote": "Hardness [°fr] 9 15"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler Width",
+      "value": "420",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "420"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler Height",
+      "value": "700",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "700"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler Depth",
+      "value": "345",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "345"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas Inlet Connection Size",
+      "value": "G 3/4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "2.2 - VIEW WITH THE INDICATION OF THE MAIN COMPONENTS AND DIMENSIONS",
+          "table_title": "KEY",
+          "source_quote": "G Gas inlet G 3/4"
+        },
+        {
+          "page_number": 29,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "G GAS 3/4\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic Hot Water Outlet Connection Size",
+      "value": "G 1/2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "2.2 - VIEW WITH THE INDICATION OF THE MAIN COMPONENTS AND DIMENSIONS",
+          "table_title": "KEY",
+          "source_quote": "C Domestic hot water outlet G1/2"
+        },
+        {
+          "page_number": 29,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "C HOT 1/2\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Cold Water Inlet Connection Size",
+      "value": "G 1/2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "2.2 - VIEW WITH THE INDICATION OF THE MAIN COMPONENTS AND DIMENSIONS",
+          "table_title": "KEY",
+          "source_quote": "F Cold water inlet G1/2"
+        },
+        {
+          "page_number": 29,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "F COLD 1/2\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating System Flow Connection Size",
+      "value": "G 3/4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "2.2 - VIEW WITH THE INDICATION OF THE MAIN COMPONENTS AND DIMENSIONS",
+          "table_title": "KEY",
+          "source_quote": "M Heating system flow G 3/4"
+        },
+        {
+          "page_number": 29,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "M FLOW 3/4\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating System Return Connection Size",
+      "value": "G 3/4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "2.2 - VIEW WITH THE INDICATION OF THE MAIN COMPONENTS AND DIMENSIONS",
+          "table_title": "KEY",
+          "source_quote": "R Heating system return G 3/4"
+        },
+        {
+          "page_number": 29,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "R RETURN 3/4\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input in CH / DHW mode",
+      "value": "24/28",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Nominal heat input in CH / DHW mode (***) kW X R 24/C 24 24/28"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input in CH / DHW mode",
+      "value": "32/32",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Nominal heat input in CH / DHW mode (***) kW X R 32/C 32 32/32"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input with Nat. Gas / Propane",
+      "value": "5/5",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Minimum heat input with Nat. Gas / Propane kW 5/5 5/5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input on L.V.C. Qn with gas 20%H2NG",
+      "value": "22,5",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Nominal heat input on L.V.C. Qn with gas 20%H2NG kW 22,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input on L.V.C. Qn with gas 20%H2NG",
+      "value": "30,1",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Nominal heat input on L.V.C. Qn with gas 20%H2NG kW 30,1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input onu L.V.C. Qmin with gas 20%H2NG",
+      "value": "4,6",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Minimum heat input onu L.V.C. Qmin with gas 20%H2NG kW 4,6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input onu L.V.C. Qmin with gas 20%H2NG",
+      "value": "4,7",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Minimum heat input onu L.V.C. Qmin with gas 20%H2NG kW 4,7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input DHW with gas 20%H2NG",
+      "value": "26,3",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Nominal heat input DHW with gas 20%H2NG kW 26,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input DHW with gas 20%H2NG",
+      "value": "30,1",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Nominal heat input DHW with gas 20%H2NG kW 30,1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output / DHW",
+      "value": "23,4/27,3",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Nominal heat output / DHW (***) kW 23,4/27,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output / DHW",
+      "value": "31,2/31,2",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Nominal heat output / DHW (***) kW 31,2/31,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat output / DHW",
+      "value": "4,8/4,8",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Minimum heat output / DHW (***) kW 4,8/4,8 4,8/4,8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal output in condensation 50/30",
+      "value": "25,2",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Nominal output in condensation 50/30 kW 25,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal output in condensation 50/30",
+      "value": "33,6",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Nominal output in condensation 50/30 kW 33,6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat output in condensation 50/30",
+      "value": "5,3",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Minimum heat output in condensation 50/30 kW 5,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat output in condensation 50/30",
+      "value": "5,4",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Minimum heat output in condensation 50/30 kW 5,4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion efficiency at full load",
+      "value": "97,7",
+      "unit": "%",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Combustion efficiency at full load % 97,7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion efficiency at full load",
+      "value": "97,8",
+      "unit": "%",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Combustion efficiency at full load % 97,8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion efficiency at part load",
+      "value": "97,8",
+      "unit": "%",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Combustion efficiency at part load % 97,8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion efficiency at part load",
+      "value": "97,7",
+      "unit": "%",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Combustion efficiency at part load % 97,7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat losses through the casing (min.-max.)",
+      "value": "1,3 - 0,2",
+      "unit": "%",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Heat losses through the casing (min.-max.) % 1,3 - 0,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat losses through the casing (min.-max.)",
+      "value": "1,3 - 0,4",
+      "unit": "%",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Heat losses through the casing (min.-max.) % 1,3 - 0,4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Net flue gas temperature tf-ta (max.)",
+      "value": "46,5",
+      "unit": "°C",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "(*) Net flue gas temperature tf-ta (max.) °C 46,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Net flue gas temperature tf-ta (max.)",
+      "value": "44,3",
+      "unit": "°C",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "(*) Net flue gas temperature tf-ta (max.) °C 44,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (min.-max)",
+      "value": "2,3 - 13,8",
+      "unit": "g/s",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate (min.-max) g/s 2,3 - 13,8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (min.-max)",
+      "value": "2,3 - 14,7",
+      "unit": "g/s",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate (min.-max) g/s 2,3 - 14,7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Air excess A",
+      "value": "26,8",
+      "unit": "%",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Air excess A % 26,8 26,8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CO",
+      "value": "9,0-9,0",
+      "unit": "%",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "CO % 9,0-9,0 9,0-9,0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CO at 0% of O₂ (min. - max)",
+      "value": "4-131",
+      "unit": "ppm",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "CO at 0% of O₂ (min. - max) ppm 4-131"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CO at 0% of O₂ (min. - max)",
+      "value": "4-151",
+      "unit": "ppm",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "CO at 0% of O₂ (min. - max) ppm 4-151"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum production of condensate",
+      "value": "3,9",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Maximum production of condensate kg/h 3,9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum production of condensate",
+      "value": "5,2",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Maximum production of condensate kg/h 5,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Chimney heat losses with burner ON (min. - max.)",
+      "value": "2,2 - 2,3",
+      "unit": "%",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Chimney heat losses with burner ON (min. - max.) % 2,2 - 2,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Chimney heat losses with burner ON (min. - max.)",
+      "value": "2,3 - 2,2",
+      "unit": "%",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Chimney heat losses with burner ON (min. - max.) % 2,3 - 2,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Chimney heat losses with burner OFF",
+      "value": "0,5",
+      "unit": "%",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Chimney heat losses with burner OFF % 0,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Chimney heat losses with burner OFF",
+      "value": "0,3",
+      "unit": "%",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Chimney heat losses with burner OFF % 0,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Head available at the base of the chimney min. / max.",
+      "value": "2/70",
+      "unit": "Pa",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "Head available at the base of the chimney min. / max. Pa 2/70 2/70"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Sound pressure level LpA at nominal operation",
+      "value": "43",
+      "unit": "dB(A)",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "noise",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "(**) Sound pressure level LpA at nominal operation dB(A) 43"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Sound pressure level LpA at nominal operation",
+      "value": "46",
+      "unit": "dB(A)",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "noise",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA",
+          "table_title": null,
+          "source_quote": "(**) Sound pressure level LpA at nominal operation dB(A) 46"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Appliance category",
+      "value": "12H3P",
+      "unit": null,
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Appliance category 12H3P 12H3P"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat. circuit output (At 20 °C)",
+      "value": "3,5",
+      "unit": "l/min",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Minimum heat. circuit output (At 20 °C) l/min 3,5 3,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heating circuit pressure",
+      "value": "0,5",
+      "unit": "bar",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Minimum heating circuit pressure bar 0,5 0,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heating circuit pressure",
+      "value": "3",
+      "unit": "bar",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Maximum heating circuit pressure bar 3 3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Primary circuit content",
+      "value": "2,5",
+      "unit": "l",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Primary circuit content | 2,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Primary circuit content",
+      "value": "2,8",
+      "unit": "l",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Primary circuit content | 2,8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum operating temperature in heat.",
+      "value": "85",
+      "unit": "°C",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Maximum operating temperature in heat. °C 85 85"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum operating temperature in heat.",
+      "value": "30",
+      "unit": "°C",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Minimum operating temperature in heat. °C 30 30"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion vessel total capacity",
+      "value": "10",
+      "unit": "l",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Expansion vessel total capacity l 10 10"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion vessel pre-load",
+      "value": "1",
+      "unit": "bar",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Expansion vessel pre-load bar 1 1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum system capacity (max temp. calc.)",
+      "value": "205",
+      "unit": null,
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Maximum system capacity (max temp. calc.) l 205 205"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum domestic hot water circuit flow rate",
+      "value": "2,0",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Minimum domestic hot water circuit flow rate l/min. - 2,0 2,0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum domestic hot water circuit pressure",
+      "value": "0,5",
+      "unit": "bar",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Minimum domestic hot water circuit pressure bar - 0,5 0,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum domestic hot water circuit pressure",
+      "value": "6",
+      "unit": "bar",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Maximum domestic hot water circuit pressure bar - 6 6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot water specific flow rate (At 30 °C) \"D\"",
+      "value": "13,5",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Domestic hot water specific flow rate (At 30 °C) \"D\" l/min. - 13,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot water specific flow rate (At 30 °C) \"D\"",
+      "value": "15,5",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Domestic hot water specific flow rate (At 30 °C) \"D\" l/min. - 15,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with At 45 K",
+      "value": "9",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with At 45 K l/min. - 9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with At 45 K",
+      "value": "10,1",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with At 45 K l/min. - 10,1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with At 40 K",
+      "value": "10,1",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with At 40 K l/min. - 10,1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with At 40 K",
+      "value": "11,4",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with At 40 K l/min. - 11,4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with At 35 K",
+      "value": "11,6",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with At 35 K l/min. - 11,6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with At 35 K",
+      "value": "13",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with At 35 K l/min. - 13"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with At 30 K",
+      "value": "13,5",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with At 30 K l/min. - 13,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with At 30 K",
+      "value": "15,2",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with At 30 K l/min. - 15,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with At 25 K",
+      "value": "16,2",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with At 25 K (*) l/min. - 16,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with At 25 K",
+      "value": "18,2",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with At 25 K (*) l/min. - 18,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustable DHW temperature",
+      "value": "38-60",
+      "unit": "°C",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Adjustable DHW temperature °C 38-60 38-60"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Voltage/Frequency electric power supply",
+      "value": "230/50",
+      "unit": "V-Hz",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Voltage/Frequency electric power supply V-Hz 230/50 230/50"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Fuse on the power supply",
+      "value": "3,15",
+      "unit": "A (F)",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Fuse on the power supply A (F) 3,15 3,15"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Power consumption max",
+      "value": "0,095",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Power consumption max kW 0,095 0,095"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Power consumption max",
+      "value": "0,115",
+      "unit": "kW",
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Power consumption max kW 0,115 0,115"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Protection rating",
+      "value": "X5D",
+      "unit": null,
+      "applies_to_models": [
+        "X R 24",
+        "X C 24",
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Protection rating IP X5D X5D"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Net weight",
+      "value": "38,5",
+      "unit": "kg",
+      "applies_to_models": [
+        "X R 24"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Net weight kg 38,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Net weight",
+      "value": "40",
+      "unit": "kg",
+      "applies_to_models": [
+        "X C 24"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Net weight kg 40"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Net weight",
+      "value": "39,5",
+      "unit": "kg",
+      "applies_to_models": [
+        "X R 32"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Net weight kg 39,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Net weight",
+      "value": "41",
+      "unit": "kg",
+      "applies_to_models": [
+        "X C 32"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Net weight kg 41"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gross weight",
+      "value": "41,5",
+      "unit": "kg",
+      "applies_to_models": [
+        "X R 24"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Gross weight kg 41,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gross weight",
+      "value": "43",
+      "unit": "kg",
+      "applies_to_models": [
+        "X C 24"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Gross weight kg 43"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gross weight",
+      "value": "42,5",
+      "unit": "kg",
+      "applies_to_models": [
+        "X R 32"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Gross weight kg 42,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gross weight",
+      "value": "44",
+      "unit": "kg",
+      "applies_to_models": [
+        "X C 32"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Gross weight kg 44"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "F Factor",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [
+        "X R 24",
+        "X C 24"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "F Factor 2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "F Factor",
+      "value": "3",
+      "unit": null,
+      "applies_to_models": [
+        "X R 32",
+        "X C 32"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "F Factor 3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal Heat Output",
+      "value": "23",
+      "unit": "kW",
+      "applies_to_models": [
+        "R 24",
+        "C 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Nominal Heat Output Pnominal kW 23"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal Heat Output",
+      "value": "31",
+      "unit": "kW",
+      "applies_to_models": [
+        "R 32",
+        "C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Nominal Heat Output Pnominal kW 31"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Seasonal space heating energy efficiency",
+      "value": "93",
+      "unit": "%",
+      "applies_to_models": [
+        "R 24",
+        "C 24",
+        "R 32",
+        "C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Seasonal space heating energy efficiency ηs % 93 93"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Seasonal efficiency class in heating mode",
+      "value": "A",
+      "unit": null,
+      "applies_to_models": [
+        "R 24",
+        "C 24",
+        "R 32",
+        "C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Seasonal efficiency class in heating mode A A"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful Heat Output in high-temperature regime (Tr 60 °C/Tm 80 °C)",
+      "value": "23,4",
+      "unit": "kW",
+      "applies_to_models": [
+        "R 24",
+        "C 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful Heat Output in high-temperature regime P4 kW 23,4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful Heat Output in high-temperature regime (Tr 60 °C/Tm 80 °C)",
+      "value": "31,2",
+      "unit": "kW",
+      "applies_to_models": [
+        "R 32",
+        "C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful Heat Output in high-temperature regime P4 kW 31,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at nom. heat output in high-temperature regime (Tr 60 °C/Tm 80 °C)",
+      "value": "87,8",
+      "unit": "%",
+      "applies_to_models": [
+        "R 24",
+        "C 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful efficiency at nom. heat output in high-temperature regime η4 % 87,8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at nom. heat output in high-temperature regime (Tr 60 °C/Tm 80 °C)",
+      "value": "87,7",
+      "unit": "%",
+      "applies_to_models": [
+        "R 32",
+        "C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful efficiency at nom. heat output in high-temperature regime η4 % 87,7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at 30% of nom. heat output in low-temperature regime (Tr 30 °C)",
+      "value": "7,8",
+      "unit": "kW",
+      "applies_to_models": [
+        "R 24",
+        "C 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful heat output at 30% of nom. heat output in low-temperature regime P1 kW 7,8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at 30% of nom. heat output in low-temperature regime (Tr 30 °C)",
+      "value": "10,4",
+      "unit": "kW",
+      "applies_to_models": [
+        "R 32",
+        "C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful heat output at 30% of nom. heat output in low-temperature regime P1 kW 10,4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at 30% of nom. heat output in low-temperature regime (Tr 30 °C)",
+      "value": "97,9",
+      "unit": "%",
+      "applies_to_models": [
+        "R 24",
+        "C 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful efficiency at 30% of nom. heat output in low-temperature regime η1 % 97,9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at 30% of nom. heat output in low-temperature regime (Tr 30 °C)",
+      "value": "97,8",
+      "unit": "%",
+      "applies_to_models": [
+        "R 32",
+        "C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful efficiency at 30% of nom. heat output in low-temperature regime η1 % 97,8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Range-rated boiler",
+      "value": "NO",
+      "unit": null,
+      "applies_to_models": [
+        "R 24",
+        "C 24",
+        "R 32",
+        "C 32"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Range-rated boiler: YES / NO NO NO"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption At full load",
+      "value": "0,035",
+      "unit": "kW",
+      "applies_to_models": [
+        "R 24",
+        "C 24"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "At full load elmax kW 0,035"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption At full load",
+      "value": "0,064",
+      "unit": "kW",
+      "applies_to_models": [
+        "R 32",
+        "C 32"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "At full load elmax kW 0,064"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption At part load",
+      "value": "0,013",
+      "unit": "kW",
+      "applies_to_models": [
+        "R 24",
+        "C 24"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "At part load elmin kW 0,013"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption At part load",
+      "value": "0,012",
+      "unit": "kW",
+      "applies_to_models": [
+        "R 32",
+        "C 32"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "At part load elmin kW 0,012"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption In stand-by mode",
+      "value": "0,003",
+      "unit": "kW",
+      "applies_to_models": [
+        "R 24",
+        "C 24",
+        "R 32",
+        "C 32"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "In stand-by mode PSB kW 0,003 0,003"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat loss in stand-by",
+      "value": "0,118",
+      "unit": "kW",
+      "applies_to_models": [
+        "R 24",
+        "C 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Heat loss in stand-by Pstb kW 0,118"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat loss in stand-by",
+      "value": "0,100",
+      "unit": "kW",
+      "applies_to_models": [
+        "R 32",
+        "C 32"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Heat loss in stand-by Pstb kW 0,100"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Emissions of nitrogen oxides ref. PCS",
+      "value": "45",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "R 24",
+        "C 24"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Emissions of nitrogen oxides ref. PCS NOX mg/kWh 45"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Emissions of nitrogen oxides ref. PCS",
+      "value": "49",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "R 32",
+        "C 32"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Emissions of nitrogen oxides ref. PCS NOX mg/kWh 49"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx Class",
+      "value": "6",
+      "unit": null,
+      "applies_to_models": [
+        "R 24",
+        "C 24",
+        "R 32",
+        "C 32"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "NOx Class 6 6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual electricity consumption",
+      "value": "73",
+      "unit": "GJ",
+      "applies_to_models": [
+        "R 24",
+        "C 24"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Annual electricity consumption QHE GJ 73"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual electricity consumption",
+      "value": "97",
+      "unit": "GJ",
+      "applies_to_models": [
+        "R 32",
+        "C 32"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Annual electricity consumption QHE GJ 97"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Declared load profile",
+      "value": "XL",
+      "unit": null,
+      "applies_to_models": [
+        "R 24",
+        "C 24",
+        "R 32",
+        "C 32"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Declared load profile - - XL XL"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Energy efficiency in DHW production mode",
+      "value": "87",
+      "unit": "%",
+      "applies_to_models": [
+        "R 24",
+        "C 24"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Energy efficiency in DHW production mode ηwh % - 87"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Energy efficiency in DHW production mode",
+      "value": "89",
+      "unit": "%",
+      "applies_to_models": [
+        "R 32",
+        "C 32"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Energy efficiency in DHW production mode ηwh % - 89"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily electricity consumption",
+      "value": "0,10",
+      "unit": "kWh",
+      "applies_to_models": [
+        "R 24",
+        "C 24"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Daily electricity consumption Qelec kWh - 0,10"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily electricity consumption",
+      "value": "0,09",
+      "unit": "kWh",
+      "applies_to_models": [
+        "R 32",
+        "C 32"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Daily electricity consumption Qelec kWh - 0,09"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily fuel consumption",
+      "value": "22,45",
+      "unit": "kWh",
+      "applies_to_models": [
+        "R 24",
+        "C 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Daily fuel consumptionl Qfuel kWh - 22,45"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily fuel consumption",
+      "value": "21,9",
+      "unit": "kWh",
+      "applies_to_models": [
+        "R 32",
+        "C 32"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Daily fuel consumptionl Qfuel kWh - 21,9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual electricity consumption",
+      "value": "404",
+      "unit": "kWh",
+      "applies_to_models": [
+        "R 24",
+        "C 24"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Annual electricity consumption AEC kWh 404"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual electricity consumption",
+      "value": "403",
+      "unit": "kWh",
+      "applies_to_models": [
+        "R 32",
+        "C 32"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Annual electricity consumption AEC kWh 403"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual fuel consumption",
+      "value": "17",
+      "unit": "GJ",
+      "applies_to_models": [
+        "R 24",
+        "C 24",
+        "R 32",
+        "C 32"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Annual fuel consumption AFC GJ 17 17"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Seasonal efficiency class in DHW production mode",
+      "value": "A",
+      "unit": null,
+      "applies_to_models": [
+        "R 24",
+        "C 24",
+        "R 32",
+        "C 32"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.6 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Seasonal efficiency class in DHW production mode - A A"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Mains pressure",
+      "value": "1 and 3",
+      "unit": "bar",
+      "applies_to_models": [],
+      "category": "water_pressure",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "The mains pressure must be within 1 and 3 bar (in the event of greater pressure install a pressure reducer)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum recirculation value allowed in windy conditions",
+      "value": "10",
+      "unit": "%",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "FOLLOWS: Installation on collective flues in positive pressure",
+          "table_title": null,
+          "source_quote": "The maximum recirculation value allowed in windy conditions is 10%."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum pressure difference allowed (inlet of combustion products and air outlet of collective flue)",
+      "value": "25",
+      "unit": "Pa",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "FOLLOWS: Installation on collective flues in positive pressure",
+          "table_title": null,
+          "source_quote": "The maximum pressure difference allowed (25 Pa) between the inlet of the combustion products and the air outlet of a collective flue cannot be exceeded"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Collective flue duct overpressure adequacy",
+      "value": "200",
+      "unit": "Pa",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "FOLLOWS: Installation on collective flues in positive pressure",
+          "table_title": null,
+          "source_quote": "The collective flue duct must be adequate for an overpressure of at least 200 Pa"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "09",
+      "description": "EXTERNAL PROBE interrupted",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the wiring, if needed replace the external probe"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "External probe"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "probe",
+        "external",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "09 0 EXTERNAL PROBE interrupted Check the wiring, if needed replace the external probe"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "14",
+      "description": "RETURN PROBE Auxiliary (SRR) sensor interrupted",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the wiring, if needed replace the auxiliary sensor (22)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Return probe",
+        "SRR sensor (22)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "probe",
+        "return",
+        "sensor",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "14 1 RETURN PROBE Auxiliary (SRR) sensor interrupted Check the wiring, if needed replace the auxiliary sensor (22)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "30",
+      "description": "SERVICE PARAMETERS Service parameters altered due to possible electromagnetic interferences",
+      "possible_causes": [
+        "possible electromagnetic interferences"
+      ],
+      "manufacturer_steps": [
+        "Reset the altered parameters via the panel and/or regolafacile"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "parameters",
+        "service",
+        "electromagnetic",
+        "interference",
+        "reset"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "30 2 SERVICE PARAMETERS Service parameters altered due to possible electromagnetic interferences Reset the altered parameters via the panel and/or regolafacile"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "21",
+      "description": "POOR WATER CIRCULATION Poor circulation in primary circuit",
+      "possible_causes": [
+        "Poor circulation in primary circuit"
+      ],
+      "manufacturer_steps": [
+        "Check pump operation (12) and speed, if there are any obstructions or system closure."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Pump (12)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water circulation",
+        "pump",
+        "obstruction",
+        "primary circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "21 3 POOR WATER CIRCULATION Poor circulation in primary circuit Check pump operation (12) and speed, if there are any obstructions or system closure."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "17",
+      "description": "FLAME CONTROL FREQUENCY BEYOND LIMIT",
+      "possible_causes": [
+        "Depends on the power supply mains (Frequency and voltage beyond default limits)"
+      ],
+      "manufacturer_steps": [
+        "Wait for the values to return to the default limits"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame control",
+        "frequency",
+        "voltage",
+        "power supply"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "17 4 FLAME CONTROL FREQUENCY BEYOND LIMIT Depends on the power supply mains (Frequency and voltage beyond default limits) Wait for the values to return to the default limits"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "15",
+      "description": "WATER CIRCULATION INSUFFICIENT Primary circuit water circulation insufficient (At > 35° C)",
+      "possible_causes": [
+        "Primary circuit water circulation insufficient (At > 35° C)"
+      ],
+      "manufacturer_steps": [
+        "Check pump operation (12) and speed - remove any heating system obstructions - clean the scaled domestic hot water exchanger"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Pump (12)",
+        "domestic hot water exchanger"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water circulation",
+        "pump",
+        "obstruction",
+        "exchanger",
+        "primary circuit",
+        "DHW"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "15 5 WATER CIRCULATION INSUFFICIENT Primary circuit water circulation insufficient (At > 35° C) Check pump operation (12) and speed - remove any heating system obstructions - clean the scaled domestic hot water exchanger"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "22",
+      "description": "INCORRECT SENSOR POSITIONING Flow and return sensors inverted",
+      "possible_causes": [
+        "Flow and return sensors inverted"
+      ],
+      "manufacturer_steps": [
+        "Check the wiring (11) (22)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flow sensor (11)",
+        "Return sensor (22)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "sensor",
+        "position",
+        "wiring",
+        "flow",
+        "return"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "22 6 INCORRECT SENSOR POSITIONING Flow and return sensors inverted Check the wiring (11) (22)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "24",
+      "description": "SPEED OUT OF CONTROL Alteration of the fan speed; the speed is not reached.",
+      "possible_causes": [
+        "Alteration of the fan speed; the speed is not reached."
+      ],
+      "manufacturer_steps": [
+        "Check fan operation (18) and the connections."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Fan (18)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan",
+        "speed",
+        "control"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "24 7 SPEED OUT OF CONTROL Alteration of the fan speed; the speed is not reached. Check fan operation (18) and the connections."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "26",
+      "description": "SPEED OUT OF CONTROL Alteration of the fan speed; the speed is above that requested.",
+      "possible_causes": [
+        "Alteration of the fan speed; the speed is above that requested."
+      ],
+      "manufacturer_steps": [
+        "Check fan operation (18) and the connections."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Fan (18)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan",
+        "speed",
+        "control"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "26 8 SPEED OUT OF CONTROL Alteration of the fan speed; the speed is above that requested. Check fan operation (18) and the connections."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "6",
+      "description": "HIGH TEMPERATURE Boiler temperature too high.",
+      "possible_causes": [
+        "Boiler temperature too high."
+      ],
+      "manufacturer_steps": [
+        "Check pump operation and if needed clean the exchanger (24)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Pump",
+        "exchanger (24)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "high temperature",
+        "overheating",
+        "pump",
+        "exchanger"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "6 8 HIGH TEMPERATURE Boiler temperature too high. Check pump operation and if needed clean the exchanger (24)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "8",
+      "description": "WATER DEFICIENCY Insufficient water pressure and consequent intervention of the minimum water pressure - pressure switch (13).",
+      "possible_causes": [
+        "Insufficient water pressure",
+        "intervention of the minimum water pressure - pressure switch (13)."
+      ],
+      "manufacturer_steps": [
+        "Fill the heating circuit as described in chap. 3.8 and wait for the values to return within default limits.",
+        "If needed, check the electrical connections and replace the minimum water pressure switch."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Pressure switch (13)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water pressure",
+        "deficiency",
+        "pressure switch",
+        "filling"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "8 9 WATER DEFICIENCY Insufficient water pressure and consequent intervention of the minimum water pressure - pressure switch (13). Fill the heating circuit as described in chap. 3.8 and wait for the values to return within default limits. If needed, check the electrical connections and replace the minimum water pressure switch."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "16",
+      "description": "EXCHANGER FREEZING (24) Exchanger freezing is detected If the heating sensor detects a temperature below 2° C, burner ignition is inhibited until the sensor detects a temperature above 5°C.",
+      "possible_causes": [
+        "Exchanger freezing is detected",
+        "heating sensor detects a temperature below 2° C"
+      ],
+      "manufacturer_steps": [
+        "Disconnect the from the power supply, close the gas valve, defrost the exchanger carefully."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "burner ignition is inhibited"
+      ],
+      "related_components": [
+        "Exchanger (24)",
+        "heating sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "freezing",
+        "exchanger",
+        "frost",
+        "temperature",
+        "heating sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "16 10 EXCHANGER FREEZING (24) Exchanger freezing is detected If the heating sensor detects a temperature below 2° C, burner ignition is inhibited until the sensor detects a temperature above 5°C. Disconnect the from the power supply, close the gas valve, defrost the exchanger carefully."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "LIMIT THERM.",
+      "description": "SAFETY THERMOSTAT Intervention of the safety thermostat (10).",
+      "possible_causes": [
+        "Intervention of the safety thermostat (10)."
+      ],
+      "manufacturer_steps": [
+        "Press the unblock button on the panel and/or check that the thermostat or its connections are not interrupted."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Safety thermostat (10)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "safety thermostat",
+        "overheating",
+        "unblock"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "LIMIT THERM. 11 SAFETY THERMOSTAT Intervention of the safety thermostat (10). Press the unblock button on the panel and/or check that the thermostat or its connections are not interrupted."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "13",
+      "description": "DOMESTIC HOT WATER SENSOR Domestic hot water sensor fault (1).",
+      "possible_causes": [
+        "Domestic hot water sensor fault (1)."
+      ],
+      "manufacturer_steps": [
+        "Check the efficiency of the sensor (see table Res/Temp) (Par.4) and its connections."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Domestic hot water sensor (1)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "DHW sensor",
+        "hot water",
+        "sensor fault"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "13 12 DOMESTIC HOT WATER SENSOR Domestic hot water sensor fault (1). Check the efficiency of the sensor (see table Res/Temp) (Par.4) and its connections."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "12",
+      "description": "HEATING SENSOR (11) Heating sensor fault.",
+      "possible_causes": [
+        "Heating sensor fault."
+      ],
+      "manufacturer_steps": [
+        "Check the efficiency of the sensor (see table Res/Temp) (Par.4) and its connections."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Heating sensor (11)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "heating sensor",
+        "sensor fault"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "12 13 HEATING SENSOR (11) Heating sensor fault. Check the efficiency of the sensor (see table Res/Temp) (Par.4) and its connections."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "38",
+      "description": "FACTORY PARAMETERS Alteration of the factory parameters due to possible electromagnetic interferences.",
+      "possible_causes": [
+        "possible electromagnetic interferences"
+      ],
+      "manufacturer_steps": [
+        "Press the unblock key; if the anomaly persists, replace the board."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "factory parameters",
+        "electromagnetic",
+        "interference",
+        "board"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "38 14 FACTORY PARAMETERS Alteration of the factory parameters due to possible electromagnetic interferences. Press the unblock key; if the anomaly persists, replace the board."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "4",
+      "description": "BLOCK No gas or failed burner ignition",
+      "possible_causes": [
+        "No gas",
+        "failed burner ignition"
+      ],
+      "manufacturer_steps": [
+        "Check the gas supply or that the ignition/detection electrode is working properly (4)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Ignition/detection electrode (4)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "block",
+        "no gas",
+        "ignition",
+        "burner"
+      ],
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "4 15 BLOCK No gas or failed burner ignition Check the gas supply or that the ignition/detection electrode is working properly (4)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "11",
+      "description": "PARASITE FLAME Flame detected upon ignition.",
+      "possible_causes": [
+        "Flame detected upon ignition."
+      ],
+      "manufacturer_steps": [
+        "Check the wiring of the Ign/Det. electrode and remove any oxidation, check for humidity between drain wire and ceramic, if necessary, press the unblock key, if the anomaly persists, replace the electrode (4)."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Ignition/detection electrode (4)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "parasite flame",
+        "ignition",
+        "electrode",
+        "wiring",
+        "oxidation",
+        "humidity"
+      ],
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "11 16 PARASITE FLAME Flame detected upon ignition. Check the wiring of the Ign/Det. electrode and remove any oxidation, check for humidity between drain wire and ceramic, if necessary, press the unblock key, if the anomaly persists, replace the electrode (4)."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "20",
+      "description": "PARASITE FLAME Flame detected after switch-off.",
+      "possible_causes": [
+        "Flame detected after switch-off."
+      ],
+      "manufacturer_steps": [
+        "Check the wiring and for any leaks from the gas valve (3) (3) if needed replace the gas valve."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve (3)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "parasite flame",
+        "switch-off",
+        "gas valve",
+        "wiring",
+        "leaks"
+      ],
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "20 17 PARASITE FLAME Flame detected after swtich-off. Check the wiring and for any leaks from the gas valve (3) (3) if needed replace the gas valve."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "46",
+      "description": "FLUE GAS COLLECTOR SAFETY THERMOSTAT Intervention of the flue gas collector safety thermostat (23).",
+      "possible_causes": [
+        "Intervention of the flue gas collector safety thermostat (23)."
+      ],
+      "manufacturer_steps": [
+        "Check the wiring"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flue gas collector safety thermostat (23)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flue gas",
+        "thermostat",
+        "safety",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "46 18 FLUE GAS COLLECTOR SAFETY THERMOSTAT Intervention of the flue gas collector safety thermostat (23). Check the wiring"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "19",
+      "description": "FLAME CONTROL Flame control damaged",
+      "possible_causes": [
+        "Flame control damaged"
+      ],
+      "manufacturer_steps": [
+        "Replace the board."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame control",
+        "damaged",
+        "board"
+      ],
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "4.6 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "19 22 FLAME CONTROL Flame control damaged Replace the board."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    }
+  ],
+  "diagnostic_codes": [
+    {
+      "code": "HP",
+      "description": "Maximum Heating Output",
+      "value_range": "0 (Min) - 99 (Max)",
+      "default_value": "99",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "4.2 - PARAMETERS THAT CAN BE EDITED FROM THE CONTROL PANEL",
+          "table_title": "MAXIMUM HEATING OUTPUT VALUES",
+          "source_quote": "HP MAXIMUM HEATING OUTPUT VALUES FROM 0 (Min) TO 99 (Max) DEFAULT 99"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "PH",
+      "description": "Preheating",
+      "value_range": "0 - 1",
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "4.2 - PARAMETERS THAT CAN BE EDITED FROM THE CONTROL PANEL",
+          "table_title": "PREHEATING VALUES",
+          "source_quote": "PH PREHEATING VALUES FROM 0 TO 1 DEFAULT 0"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "Po",
+      "description": "Pump Post Circulation",
+      "value_range": "0 (5 min) - 1 (ALWAYS)",
+      "default_value": "0 (5 min)",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "4.2 - PARAMETERS THAT CAN BE EDITED FROM THE CONTROL PANEL",
+          "table_title": "PUMP POST CIRCULATION VALUES",
+          "source_quote": "Po PUMP POST CIRCULATION VALUES FROM 0 (5 min) TO 1 (ALWAYS) DEFAULT 0 (5 min)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "oC",
+      "description": "External Probe Temperature",
+      "value_range": "0 (-20°C) - 30 (+10°C)",
+      "default_value": "20 (0°C)",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "4.2 - PARAMETERS THAT CAN BE EDITED FROM THE CONTROL PANEL",
+          "table_title": "EXTERNAL PROBE TEMPERATURE VALUES",
+          "source_quote": "oC EXTERNAL PROBE TEMPERATURE VALUES FROM 0 (-20°C) TO 30 (+10°C) DEFAULT 20 (0°C)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "nr",
+      "description": "Night Reduction",
+      "value_range": "0 (TA -0°) - 30 (TA-30°)",
+      "default_value": "0 (TA -0°)",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "4.2 - PARAMETERS THAT CAN BE EDITED FROM THE CONTROL PANEL",
+          "table_title": "NIGHT REDUCTION VALUES",
+          "source_quote": "nr NIGHT REDUCTION VALUES FROM 0 (ΤΑ -0°) TO 5 (TA -5°) TO 30 (TA-30°) DEFAULT 0 (ΤΑ -0°)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    }
+  ],
+  "status_codes": [
+    {
+      "code": "AP",
+      "meaning": "Air bleed function active",
+      "operating_mode": "air bleed",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "3.10.1 - AIR BLEED FUNCTION OF BOILER / SYSTEM (AP)",
+          "table_title": null,
+          "source_quote": "The procedure has a duration of 10 minutes and for the entire time of the procedure the display shows AP flashing."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    }
+  ],
+  "safety_warnings": [
+    {
+      "warning_type": "notice",
+      "topic": "Product Disposal",
+      "text": "At the end of its life cycle the product must not be disposed of as urban waste. It can be taken to a special recycling centre managed by the local authorities, or to a dealer who offers this service. Separate disposal of a domestic appliance avoids possible negative consequences for the environment and human health deriving from inappropriate waste handling and allows the recovery of the materials of which it is made, in order to obtain significant energy and resource savings.",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Provisions for proper disposal of the product. At the end of its life cycle the product must not be disposed of as urban waste. It can be taken to a special recycling centre managed by the local authorities, or to a dealer who offers this service. Separate disposal of a domestic appliance avoids possible negative consequences for the environment and human health deriving from inappropriate waste handling and allows the recovery of the materials of which it is made, in order to obtain significant energy and resource savings."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Manual Importance",
+      "text": "The instruction booklet is an integral and essential part of the product and must be kept by the user.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "The instruction booklet is an integral and essential part of the product and must be kept by the user."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Manual Consultation",
+      "text": "Read the warnings contained in this instruction booklet carefully as they provide important guidelines regarding installation, use and maintenance safety. Keep the booklet with care for further consultation.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Read the warnings contained in this instruction booklet carefully as they provide important guidelines regarding installation, use and maintenance safety. Keep the booklet with care for further consultation."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Installation and Maintenance Qualification",
+      "text": "Installation and maintenance must be performed in compliance with the standards in force according to the instructions of the manufacturer, up to standard and by personnel qualified and certified in compliance with law.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Installation and maintenance must be performed in compliance with the standards in force according to the instructions of the manufacturer, up to standard and by personnel qualified and certified in compliance with law."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Domestic Hot Water System Materials",
+      "text": "Systems for the production of domestic hot water MUST be constructed entirely with compliant materials.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Systems for the production of domestic hot water MUST be constructed entirely with compliant materials."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Definition of Professionally Qualified Personnel",
+      "text": "By professionally qualified personnel we mean: personnel with specific technical skill in the field of heating system components for civil use, domestic hot water production and maintenance. Personnel must have the qualifications provided for by current legislation.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "By professionally qualified personnel we mean: personnel with specific technical skill in the field of heating system components for civil use, domestic hot water production and maintenance. Personnel must have the qualifications provided for by current legislation."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Manufacturer Responsibility",
+      "text": "Incorrect installation or improper maintenance can cause damage to persons, animals or objects for which the manufacturer is not responsible.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Incorrect installation or improper maintenance can cause damage to persons, animals or objects for which the manufacturer is not responsible."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electrical Disconnection",
+      "text": "Before performing any cleaning or maintenance, disconnect the appliance from the energy mains by acting on the switch of the system and/or through the specific cut-off devices.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Before performing any cleaning or maintenance, disconnect the appliance from the energy mains by acting on the switch of the system and/or through the specific cut-off devices."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Intake/Exhaust Obstruction",
+      "text": "Do not obstruct the terminals of the intake/exhaust ducts.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Do not obstruct the terminals of the intake/exhaust ducts."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Appliance Malfunction/Repair",
+      "text": "In case of failure and/or malfunctioning of the appliance, switch it off and do not try to repair it or intervene on it directly. Contact only personnel qualified in compliance with law.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "In case of failure and/or malfunctioning of the appliance, switch it off and do not try to repair it or intervene on it directly. Contact only personnel qualified in compliance with law."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Repairs and Warranty",
+      "text": "Any repairs must be performed solely by personnel authorised by Unical AG S.p.A., using original spare parts only. Failure to comply with the above can compromise the safety of the appliance and void the warranty.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Any repairs must be performed solely by personnel authorised by Unical AG S.p.A., using original spare parts only. Failure to comply with the above can compromise the safety of the appliance and void the warranty."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Yearly Maintenance",
+      "text": "To guarantee appliance efficiency and its correct operation, yearly maintenance must be performed by qualified personnel.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "To guarantee appliance efficiency and its correct operation, yearly maintenance must be performed by qualified personnel."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Decommissioning",
+      "text": "Should you decide not to use the appliance, parts entailing potential sources of hazard must be made safe.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Should you decide not to use the appliance, parts entailing potential sources of hazard must be made safe."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "DHW System Flushing",
+      "text": "Before commissioning an appliance that has not been used, wash the domestic hot water production system, making the water flow until it has been fully replaced.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Before commissioning an appliance that has not been used, wash the domestic hot water production system, making the water flow until it has been fully replaced."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Manual Transfer",
+      "text": "Should the appliance be sold or transferred to a new owner or if you move and leave the appliance, always make sure that the instruction booklet accompanies it in order to be consulted by the new owner and/or installer.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Should the appliance be sold or transferred to a new owner or if you move and leave the appliance, always make sure that the instruction booklet accompanies it in order to be consulted by the new owner and/or installer."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Original Accessories",
+      "text": "Only original accessories must be used for all appliances with optionals or kits (including electric).",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Only original accessories must be used for all appliances with optionals or kits (including electric)."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Improper Use",
+      "text": "This appliance is intended solely for the use for which it was expressly designed. Any other use is to be considered improper and therefore dangerous (*).",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "This appliance is intended solely for the use for which it was expressly designed. Any other use is to be considered improper and therefore dangerous (*)."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Safety and Health",
+      "text": "Serious danger to safety and health",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.2 - SYMBOLS USED IN THE MANUAL",
+          "table_title": null,
+          "source_quote": "DANGER! Serious danger to safety and health"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Product and Environment",
+      "text": "Possible dangerous situation for the product and the environment",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.2 - SYMBOLS USED IN THE MANUAL",
+          "table_title": null,
+          "source_quote": "ATTENTION! Possible dangerous situation for the product and the environment"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Burns",
+      "text": "Danger of burns!",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.2 - SYMBOLS USED IN THE MANUAL",
+          "table_title": null,
+          "source_quote": "DANGER! Danger of burns!"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Personal Protection",
+      "text": "wear gloves protective",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.2 - SYMBOLS USED IN THE MANUAL",
+          "table_title": null,
+          "source_quote": "OBLIGATION! wear gloves protective"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Improper Use and Safety",
+      "text": "The boiler has been built according to the current level of engineering and acknowledged technical safety rules. Nonetheless, if improperly used, dangers could arise for the safety and life of the user and other persons or damage to the equipment or other objects.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.3 - APPROPRIATE USE OF APPLIANCE",
+          "table_title": null,
+          "source_quote": "The boiler has been built according to the current level of engineering and acknowledged technical safety rules. Nonetheless, if improperly used, dangers could arise for the safety and life of the user and other persons or damage to the equipment or other objects."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Intended Use",
+      "text": "The appliance is designed to work in heating systems, with hot water circulation, for the production of domestic hot water. Any other use is considered improper.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.3 - APPROPRIATE USE OF APPLIANCE",
+          "table_title": null,
+          "source_quote": "The appliance is designed to work in heating systems, with hot water circulation, for the production of domestic hot water. Any other use is considered improper."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Manufacturer Responsibility for Improper Use",
+      "text": "For any damage resulting from improper use UNICAL AG. S.p.A. assumes no responsibility.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.3 - APPROPRIATE USE OF APPLIANCE",
+          "table_title": null,
+          "source_quote": "For any damage resulting from improper use UNICAL AG. S.p.A. assumes no responsibility."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Compliance with Instructions",
+      "text": "Use according to the intended purposes also includes strict compliance with the instructions in this manual.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.3 - APPROPRIATE USE OF APPLIANCE",
+          "table_title": null,
+          "source_quote": "Use according to the intended purposes also includes strict compliance with the instructions in this manual."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "User Documentation",
+      "text": "Deliver these instructions to the user, as well as other documents concerning the appliance inserted in the envelope inside the packaging. The user must keep this documentation safe for future consultation.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.4 - INFORMATION PROVIDED TO THE USER",
+          "table_title": null,
+          "source_quote": "Deliver these instructions to the user, as well as other documents concerning the appliance inserted in the envelope inside the packaging. The user must keep this documentation safe for future consultation."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Air Vents and Flue Gas System",
+      "text": "Inform the user about the importance of the air vents and the flue gas exhaust system, highlighting their essential features and the absolute prohibition of modifying them.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.4 - INFORMATION PROVIDED TO THE USER",
+          "table_title": null,
+          "source_quote": "Inform the user about the importance of the air vents and the flue gas exhaust system, high- lighting their essential features and the absolute prohibition of modifying them."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "System Water Pressure",
+      "text": "Inform the user concerning controlling the system's water pressure as well as operations to restore it.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.4 - INFORMATION PROVIDED TO THE USER",
+          "table_title": null,
+          "source_quote": "Inform the user concerning controlling the system's water pressure as well as operations to restore it."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Temperature Control for Energy Saving",
+      "text": "Inform the user concerning correct temperature control, control units/thermostats and radiators for saving energy.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.4 - INFORMATION PROVIDED TO THE USER",
+          "table_title": null,
+          "source_quote": "Inform the user concerning correct temperature control, control units/thermostats and radiators for saving energy."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Maintenance Frequency",
+      "text": "Please note that, in compliance with the standards in force, the inspection and maintenance of the appliance must be carried out in compliance with the regulations and frequency indicated by the manufacturer.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.4 - INFORMATION PROVIDED TO THE USER",
+          "table_title": null,
+          "source_quote": "Please note that, in compliance with the standards in force, the inspection and maintenance of the appliance must be carried out in compliance with the regulations and frequency indicated by the manufacturer."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Manual Transfer to New Owner",
+      "text": "Should the appliance be sold or transferred to a new owner or if you move and leave the appliance, always make sure that the instruction booklet accompanies it in order to be consulted by the new owner and/or installer.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.4 - INFORMATION PROVIDED TO THE USER",
+          "table_title": null,
+          "source_quote": "Should the appliance be sold or transferred to a new owner or if you move and leave the appliance, always make sure that the instruction booklet accompanies it in order to be consulted by the new owner and/or installer."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Manufacturer Liability",
+      "text": "The manufacturer will not be held liable in the event of damage to persons, animals or objects resulting from failure to comply with the instructions contained in this manual.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.4 - INFORMATION PROVIDED TO THE USER",
+          "table_title": null,
+          "source_quote": "The manufacturer will not be held liable in the event of damage to persons, animals or objects resulting from failure to comply with the instructions contained in this manual."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Children and Appliance Use",
+      "text": "The boiler cannot be used by children. The boiler can be used by adults and only after having carefully read the user's manual. Children should be supervised to ensure that they do not play or tamper with the device.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "ATTENTION! The boiler cannot be used by children. The boiler can be used by adults and only after having carefully read the user's manual. Children should be supervised to ensure that they do not play or tamper with the device."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Installation, Adjustment, Maintenance Qualification",
+      "text": "The appliance must be installed, adjusted and maintained by professionally qualified personnel, in compliance with the standards and provisions in force. Incorrect installation can cause damage to persons, animals and objects for which the manufacturer cannot be held responsible.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "ATTENTION! The appliance must be installed, adjusted and maintained by professionally qualified personnel, in compliance with the standards and provisions in force. Incorrect installation can cause damage to persons, animals and objects for which the manufacturer cannot be held responsible."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Unauthorized Maintenance or Repairs",
+      "text": "NEVER attempt performing maintenance or repairs on the boiler on your own initiative. Any work must be done by professionally qualified personnel. We recommend stipulating a maintenance contract. Insufficient or irregular maintenance can jeopardise the operating safety of the appliance and cause damage to persons, animals and objects for which the manufacturer cannot be held responsible.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "DANGER! NEVER attempt performing maintenance or repairs on the boiler on your own initiative. Any work must be done by professionally qualified personnel. We recommend stipulating a maintenance contract. Insufficient or irregular maintenance can jeopardise the operating safety of the appliance and cause damage to persons, animals and objects for which the manufacturer cannot be held responsible."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Unauthorized Modifications",
+      "text": "Do not modify the following parts: the boiler, the gas, air, water and electricity supply lines, the flue gas pipe, the safety valve and the exhaust pipe, the construction parts which affect the operating safety of the appliance",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "Changes to the parts connected to the appliance (once the appliance installation is complete) Do not modify the following parts: the boiler the gas, air, water and electricity supply lines the flue gas pipe, the safety valve and the exhaust pipe the construction parts which affect the operating safety of the appliance"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Tools for Fittings",
+      "text": "To tighten or loosen the screwed fittings, use only appropriate fixed spanners. Incompliant use and/or inappropriate tools can cause damage (e.g. water or gas leakage).",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "Attention! To tighten or loosen the screwed fittings, use only appropriate fixed spanners. Incompliant use and/or inappropriate tools can cause damage (e.g. water or gas leakage)."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Propane Gas Tank Deaeration",
+      "text": "Make sure that the gas tank has been deaerated before installing the appliance. For state-of-the-art tank venting, contact the LPG supplier or person qualified in compliance with the law requirement. If the tank has not been professionally deaerated, ignition problems could arise. In that case, contact the supplier of the LPG tank.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "ATTENTION! Indications for propane gas-fired appliances Make sure that the gas tank has been deaerated before installing the appliance. For state-of-the-art tank venting, contact the LPG supplier or person qualified in compliance with the law requirement. If the tank has not been professionally deaerated, ignition problems could arise. In that case, contact the supplier of the LPG tank."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Smell of Gas",
+      "text": "Should a smell of gas be perceived, follow these safety guidelines: do not turn electric switches on or off, do not smoke, do not use the telephone, close the gas shut-off valve, air out the area where the gas leakage has occurred, inform the gas supplier or a company specialised in installation and maintenance of heating systems.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "Smell of gas Should a smell of gas be perceived, follow these safety guidelines: do not turn electric switches on or off do not smoke do not use the telephone close the gas shut-off valve air out the area where the gas leakage has occurred inform the gas supplier or a company specialised in installation and maintenance of heating systems."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Explosive and Flammable Substances",
+      "text": "Do not use or store explosive or easily flammable materials (e.g. petrol, paints, paper) in the room where the appliance is installed.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "Explosive and easily flammable substances Do not use or store explosive or easily flammable materials (e.g. petrol, paints, paper) in the room where the appliance is installed."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Appliance as Supporting Base",
+      "text": "Do not use the appliance as a supporting base for objects. In particular, do not place receptacles containing liquids (Bottles, Glasses, Jars or Detergents) on top of the appliance. If the appliance is installed inside a housing, do not insert or rest other objects inside this housing.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "DANGER! Do not use the appliance as a supporting base for objects. In particular, do not place receptacles containing liquids (Bottles, Glasses, Jars or Detergents) on top of the appliance. If the appliance is installed inside a housing, do not insert or rest other objects inside this housing."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Water Quality and Warranty",
+      "text": "ANY DAMAGE TO THE BOILER CAUSED BY THE FORMATION OF FOULING OR BY CORROSIVE WATER WILL NOT BE COVERED BY THE WARRANTY.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "1.7 - WATER TREATMENT",
+          "table_title": null,
+          "source_quote": "ATTENTION! ANY DAMAGE TO THE BOILER CAUSED BY THE FORMATION OF FOULING OR BY CORROSIVE WATER WILL NOT BE COVERED BY THE WARRANTY."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Corrosion Minimization",
+      "text": "To minimise corrosion, it is crucial to use a corrosion inhibitor; in order for it to work properly, the metal surfaces must be clean.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "1.7 - WATER TREATMENT",
+          "table_title": null,
+          "source_quote": "To minimise corrosion, it is crucial to use a corrosion inhibitor; in order for it to work properly, the metal surfaces must be clean."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Potable Water Production",
+      "text": "The heating only models are NOT suitable for the production of water for human consumption according to Ministerial Decree D.M. 174/2004.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "1.7 - WATER TREATMENT",
+          "table_title": null,
+          "source_quote": "The heating only models are NOT suitable for the production of water for human consumption according to Ministerial Decree D.M. 174/2004."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Outdoor Installation Frost Protection",
+      "text": "For outdoor installations, in partially protected places, it is necessary to use the additional resistance kit (optional) for the anti-freeze protection of the DHW and siphon fittings. Declared room temperature, with use of the resistance kit = -15 ° C.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "1.7 - WATER TREATMENT",
+          "table_title": null,
+          "source_quote": "For outdoor installations, in partially protected places, it is necessary to use the additional resistance kit (optional) for the anti-freeze protection of the DHW and siphon fittings. Declared room temperature, with use of the resistance kit = -15 ° C."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Antifreeze Function Power Supply",
+      "text": "This protection can intervene only if the electricity and gas supplies are connected.",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "1.8 - BOILER ANTIFREEZE PROTECTION",
+          "table_title": null,
+          "source_quote": "This protection can intervene only if the electricity and gas supplies are connected."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Antifreeze Function with Missing Supply",
+      "text": "If one of the two is not available and upon reset 11 (SR) a temperature of < 2 °C is detected, the appliance will behave as described in tab. pos 2.",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "1.8 - BOILER ANTIFREEZE PROTECTION",
+          "table_title": null,
+          "source_quote": "If one of the two is not available and upon reset 11 (SR) a temperature of < 2 °C is detected, the appliance will behave as described in tab. pos 2."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Antifreeze Products for Heating Systems",
+      "text": "The heating system can be protected effectively from frost by using antifreeze products with inhibitor for heating systems (specific for multidmetal)",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "1.8 - BOILER ANTIFREEZE PROTECTION",
+          "table_title": null,
+          "source_quote": "The heating system can be protected effectively from frost by using antifreeze products with inhibitor for heating systems (specific for multidmetal)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Car Engine Antifreeze Products",
+      "text": "Do not use car engine antifreeze products as they could damage the water gaskets.",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "1.8 - BOILER ANTIFREEZE PROTECTION",
+          "table_title": null,
+          "source_quote": "Do not use car engine antifreeze products as they could damage the water gaskets."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Boiler Intended Use",
+      "text": "This boiler is intended solely for the use for which it was expressly designed. Any other use is to be considered improper and therefore dangerous. This boiler heats water at a temperature lower than the atmospheric pressure boiling temperature.",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "3.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "ATTENTION! This boiler is intended solely for the use for which it was expressly designed. Any other use is to be considered improper and therefore dangerous. This boiler heats water at a temperature lower than the atmospheric pressure boiling temperature."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Installation Room Environment",
+      "text": "If there is dust and/or if there are aggressive/corrosive vapours present in the installation room, the appliance must be protected suitably and must be able to operate independently from the air in the room.",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "3.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "ATTENTION! If there is dust and/or if there are aggressive/corrosive vapours present in the installation room, the appliance must be protected suitably and must be able to operate independently from the air in the room."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Appliance Mounting",
+      "text": "Only mount the appliance on a closed wall, made of non-flammable material, flat, vertical so that the minimum distances required for installation and maintenance can be observed.",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "3.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "ATTENTION! Only mount the appliance on a closed wall, made of non-flammable material, flat, vertical so that the minimum distances required for installation and maintenance can be observed."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Boiler Connection to Systems",
+      "text": "The boiler must be connected to a central heating system and/or domestic hot water supply network compatible with its efficiency and output.",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "3.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "The boiler must be connected to a central heating system and/or domestic hot water supply network compatible with its efficiency and output."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Outdoor Installation",
+      "text": "The boiler can be installed outside in a partially protected place or in any case in a place where the boiler is not exposed to the direct action of atmospheric agents.",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "3.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "The boiler can be installed outside in a partially protected place or in any case in a place where the boiler is not exposed to the direct action of atmospheric agents."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System Piping Flushing",
+      "text": "Before connecting the boiler, have professionally qualified personnel: a) Thoroughly wash all the piping of the system to remove any residues or impurities which could jeopardise proper operation of the boiler, even from a hygienic point of view.",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "3.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Before connecting the boiler, have professionally qualified personnel: a) Thoroughly wash all the piping of the system to remove any residues or impurities which could jeopardise proper operation of the boiler, even from a hygienic point of view."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Boiler Fuel Type Check",
+      "text": "Check that boiler is set up to operate with the available type of fuel. This can be seen written on the package and on the technical feature plate;",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "3.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "b)Check that boiler is set up to operate with the available type of fuel. This can be seen written on the package and on the technical feature plate;"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Chimney/Flue System Check",
+      "text": "Check that the chimney/flue has an appropriate draught, without any bottlenecks, and that no exhausts from other appliances are inserted, unless the flue has been implemented to accommodate several utilities according to specific standards and regulations in force. Only after this check can the fitting between the boiler and chimney/flue be mounted;",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "3.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "c) Check that the chimney/flue has an appropriate draught, without any bottlenecks, and that no exhausts from other appliances are inserted, unless the flue has been implemented to accommodate several utilities according to specific standards and regulations in force. Only after this check can the fitting between the boiler and chimney/flue be mounted;"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Packaging and Children",
+      "text": "The packaging elements (cardboard box, straps, plastic bags, etc.) must be kept out of the reach of children as they are potential sources of danger. Unical AG S.p.A. will not be held liable for damage to persons, animals or objects due to failure to comply with the instruction above.",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": null,
+          "source_quote": "The packaging elements (cardboard box, straps, plastic bags, etc.) must be kept out of the reach of children as they are potential sources of danger. Unical AG S.p.A. will not be held liable for damage to persons, animals or objects due to failure to comply with the instruction above."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Wear Protective Gloves",
+      "text": "wear protective gloves",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": null,
+          "source_quote": "OBLIGATION! wear protective gloves"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Lifting the Boiler",
+      "text": "The boilers must always be lifted and carried by two people, or a carrier carriage or special transport equipment must be used.",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": null,
+          "source_quote": "The boilers must always be lifted and carried by two people, or a carrier carriage or special transport equipment must be used."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Frost Protection for Installation Room",
+      "text": "Place the appliance in rooms protected from frost.",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "3.5 - POSITIONING THE BOILER",
+          "table_title": null,
+          "source_quote": "Place the appliance in rooms protected from frost."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Installation Room Atmosphere",
+      "text": "Avoid installation in rooms with a corrosive or very dusty atmosphere.",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "3.5 - POSITIONING THE BOILER",
+          "table_title": null,
+          "source_quote": "Avoid installation in rooms with a corrosive or very dusty atmosphere."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Installation Wall Requirements",
+      "text": "The appliance must only be installed on a vertical and solid wall which can support its weight. The wall must not be made of flammable material.",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "3.5 - POSITIONING THE BOILER",
+          "table_title": null,
+          "source_quote": "The appliance must only be installed on a vertical and solid wall which can support its weight. The wall must not be made of flammable material."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Flue Gas Pipe Replacement",
+      "text": "In the event the boiler is replaced, ALWAYS replace the flue gas pipe as well.",
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "3.6 - FLUE GAS EXHAUST PIPE CONNECTION",
+          "table_title": null,
+          "source_quote": "In the event the boiler is replaced, ALWAYS replace the flue gas pipe as well."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Flue Length Calculation",
+      "text": "LT** total length is a reference value for the dimensioning of the ducts of A (intake) and S (Exhaust). Subtracting the values of LT reported, at values of bends* / terminals* / extensions* you get the value: if > 0 = OK POSSIBLE configuration if < 0 = NO WRONG configuration",
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Calculation to determine the lengths of the exhaust configurations",
+          "table_title": null,
+          "source_quote": "CAUTION LT** total length is a reference value for the dimensioning of the ducts of A (intake) and S (Exhaust). Subtracting the values of LT repor- ted, at values of bends* / terminals* / extensions* you get the value: if > 0 = OK POSSIBLE configuration if < 0 = NO WRONG configuration"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Flue System Compliance",
+      "text": "The flue must comply with standards in force.",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "ATTENTION: The flue must comply with standards in force."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Smoke Exhaust Diameter",
+      "text": "Ø 50 smoke exhaust, only for type B23P type and C53.",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "ATTENTION Ø 50 smoke exhaust, only for type B23P type and C53."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "B23P Installation Rules",
+      "text": "For the type of connection B23P the room follows the same installation rules for boilers with natural draught.",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "ATTENTION: For the type of connection B23P the room follows the same installation rules for boilers with natural draught."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Collective Flue Compatibility",
+      "text": "The appliances connected to a collective flue, must all be of the same type and have equivalent combustion characteristics.",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "FOLLOWS: Installation on collective flues in positive pressure",
+          "table_title": null,
+          "source_quote": "WARNINGS: - The appliances connected to a collecti- ve flue, must all be of the same type and have equivalent combustion characteri- stics."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Collective Flue Draft",
+      "text": "Terminal of collective duct must generate a draft.",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "FOLLOWS: Installation on collective flues in positive pressure",
+          "table_title": null,
+          "source_quote": "Terminal of collective duct must generate a draft."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electrical Power Supply Disconnection",
+      "text": "Before carrying out any operation, disconnect the electrical power supply to the appliance.",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "FOLLOWS: Installation on collective flues in positive pressure",
+          "table_title": null,
+          "source_quote": "Before carrying out any operation, di- sconnect the electrical power supply to the appliance."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Seals Lubrication",
+      "text": "Before assembly, lubricate seals with non-corrosive grease.",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "FOLLOWS: Installation on collective flues in positive pressure",
+          "table_title": null,
+          "source_quote": "Before assembly, lubricate seals with non-corrosive grease."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Exhaust Duct Inclination",
+      "text": "The exhaust duct must be inclined, in the case of a horizontal duct, by 3° towards the boiler.",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "FOLLOWS: Installation on collective flues in positive pressure",
+          "table_title": null,
+          "source_quote": "The exhaust duct must be inclined, in the case of a horizontal duct, by 3° towards the boiler."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Collective Flue Appliance Characteristics",
+      "text": "Number and characteristics of appliances connected to the collective flue, must be adequate to the characteristics of the collective flue.",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "FOLLOWS: Installation on collective flues in positive pressure",
+          "table_title": null,
+          "source_quote": "Number and characteristics of applian- ces connected to the collective flue, must be adequate to the characteristics of the collective flue."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Condensation in Boiler",
+      "text": "Condensation can flow inside the boiler.",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "FOLLOWS: Installation on collective flues in positive pressure",
+          "table_title": null,
+          "source_quote": "Condensation can flow inside the boiler."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Collective Flue Components",
+      "text": "The collective flue must not be equipped with a draft-breaking-windproof device.",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "FOLLOWS: Installation on collective flues in positive pressure",
+          "table_title": null,
+          "source_quote": "The collective flue must not be equip- ped with a draft-breaking-windproof device."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Non-Return Valve for Collective Flues",
+      "text": "The non-return valve (clapet) is a mandatory device in case of installations in positive pressure collective flue systems. This is an optional kit not present inside the boiler.",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "FOLLOWS: Installation on collective flues in positive pressure",
+          "table_title": null,
+          "source_quote": "N.B.: The non-return valve (clapet) is a mandatory device in case of installa- tions in positive pressure collective flue systems. This is an optional kit not present inside the boiler."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Duct Assembly for Condensation",
+      "text": "The assembly of the ducts must be carried out in such a way as to avoid condensation which would prevent the correct evacuation of the combustion products.",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "FOLLOWS: Installation on collective flues in positive pressure",
+          "table_title": null,
+          "source_quote": "The assembly of the ducts must be carried out in such a way as to avoid con- densation which would prevent the correct evacuation of the combustion products."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Data Plate for Collective Smoke Duct",
+      "text": "A data plate must be present at the connection point with the collective smoke duct. Data plate must contained the following information: the collective flue is sized for type C (10) boilers, the maximum mass flow rate allowed of combustion products in Kg/h, size of the connection to common ducts, a warning regarding openings for air outlet and product inlet of the combustion of the smokes collective under pressure; such openings they must be closed and it must be verified their tightness when the boiler is disconnected, name of duct manufacturer, collective smoke or its identification symbol, Refer to the regulations in force for the discharge of combustion products and local provisions",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "FOLLOWS: Installation on collective flues in positive pressure",
+          "table_title": null,
+          "source_quote": null
+        }
+      ],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  ],
+  "maintenance_tasks": [],
+  "search_terms": [],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.0,
+    "review_required": true,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+      "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+    ]
+  }
+}
