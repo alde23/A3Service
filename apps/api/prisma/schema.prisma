@@ -1,71 +1,507 @@
+// Triggering Migrate workflow v19
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
 datasource db {
   provider = "postgresql"
+  // url and directUrl are configured in prisma.config.ts (Prisma 7 standard)
 }
 
-generator client {
-  provider = "prisma-client-js"
-}
 
-enum Role {
+// ─────────────────────────────────────────
+// ENUMS
+// ─────────────────────────────────────────
+
+
+enum UserRole {
   TECHNICIAN
   MANAGER
 }
 
 enum JobStatus {
   PENDING
-  SCHEDULED
+  IN_PROGRESS
   COMPLETED
   CANCELLED
 }
 
-model User {
-  id           String @id @default(uuid())
-  email        String @unique
-  passwordHash String
-  fullName     String
-  role         Role   @default(TECHNICIAN)
-
-  jobs Job[] @relation("TechnicianJobs")
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+enum JobPriority {
+  ROUTINE
+  MAINTENANCE
+  URGENT
 }
 
-model Client {
-  id        String  @id @default(uuid())
-  name      String
-  phone     String?
-  address   String
-  latitude  Float?
-  longitude Float?
+enum SyncAction {
+  UPLOAD
+  DOWNLOAD
+  CONFLICT
+}
 
-  jobs Job[]
+enum SyncResult {
+  SUCCESS
+  FAIL
+}
+
+enum ConflictResolutionPolicy {
+  SERVER_WINS
+  CLIENT_WINS
+  MANUAL_REVIEW
+}
+
+enum ConflictStatus {
+  OPEN
+  RESOLVED
+}
+
+enum WarrantyStatus {
+  ACTIVE
+  EXPIRED
+  VOID
+}
+
+enum IngestionStatus {
+  PENDING
+  COMPLETED
+  FAILED
+}
+
+enum ServiceLogStatus {
+  DRAFT
+  SYNCED
+}
+
+// ─────────────────────────────────────────
+// AUTH MODELS
+// ─────────────────────────────────────────
+
+model User {
+  id                 String   @id @default(uuid(7))
+  username           String   @unique
+  email              String   @unique
+  passwordHash       String
+  role               UserRole @default(TECHNICIAN)
+  languagePreference String   @default("bs")
+  isLoggedIn         Boolean  @default(false)
+  firstLogin         Boolean  @default(true)
+
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime?
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+
+  profile         Profile?
+  refreshSessions RefreshSession[]
+  jobs            Job[]            @relation("TechnicianJobs")
+  managedJobs     Job[]            @relation("ManagerJobs")
+
+  @@map("users")
+}
+
+model Profile {
+  id                String  @id @default(uuid(7))
+  userId            String  @unique
+  bio               String?
+  specialization    String?
+  yearsExperience   Int?
+  certificateNumber String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("profiles")
+}
+
+model RefreshSession {
+  id        String    @id @default(uuid(7))
+  userId    String
+  token     String    @unique
+  expiresAt DateTime
+  createdAt DateTime  @default(now())
+  revokedAt DateTime?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("refresh_sessions")
+}
+
+// ─────────────────────────────────────────
+// JOBS & SCHEDULING MODELS
+// ─────────────────────────────────────────
+
+model Client {
+  id    String  @id @default(uuid(7))
+  name  String
+  email String?
+  phone String?
+
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime?
+
+  createdAt DateTime @default(now())
+
+  sites Site[]
+
+  @@map("clients")
+}
+
+model Site {
+  id                 String  @id @default(uuid(7))
+  clientId           String
+  rawAddress         String
+  latitude           Float
+  longitude          Float
+  accessInstructions String?
+
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime?
+
+  client Client @relation(fields: [clientId], references: [id])
+  jobs   Job[]
+
+  @@index([clientId])
+  @@map("sites")
 }
 
 model Job {
-  id              String    @id @default(uuid())
-  title           String
-  scheduledAt     DateTime
-  durationMinutes Int
-  status          JobStatus @default(PENDING)
-  notes           String?
-  latitude        Float?
-  longitude       Float?
+  id                String      @id @default(uuid(7))
+  siteId            String
+  technicianId      String?
+  managerId         String?
+  rawAddress        String?
+  scheduledDate     DateTime
+  status            JobStatus   @default(PENDING)
+  priority          JobPriority @default(ROUTINE)
+  estimatedDuration Int?
+  actualStartTime   DateTime?
+  actualEndTime     DateTime?
+  notes             String?
 
-  technicianId String
-  technician   User @relation("TechnicianJobs", fields: [technicianId], references: [id], onDelete: Restrict)
+  lastSyncedAt DateTime?
 
-  clientId String
-  client   Client @relation(fields: [clientId], references: [id], onDelete: Restrict)
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime?
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
+  site        Site         @relation(fields: [siteId], references: [id])
+  technician  User?        @relation("TechnicianJobs", fields: [technicianId], references: [id])
+  manager     User?        @relation("ManagerJobs", fields: [managerId], references: [id])
+  syncLogs    SyncLog[]
+  serviceLogs ServiceLog[]
+  warranties  Warranty[]
+  serviceLogSyncs ServiceLogSync[]
+
   @@index([technicianId])
-  @@index([clientId])
-  @@index([status])
-  @@index([scheduledAt])
+  @@index([status, scheduledDate])
+  @@map("jobs")
 }
+
+// ─────────────────────────────────────────
+// SYNC MODELS
+// ─────────────────────────────────────────
+
+model SyncLog {
+  id        String     @id @default(uuid(7))
+  timestamp DateTime   @default(now())
+  action    SyncAction
+
+  affectedEntity String
+  affectedId     String
+  idempotencyKey String
+
+  result          SyncResult
+  conflictDetails Json?
+
+  jobId String?
+  job   Job?    @relation(fields: [jobId], references: [id])
+
+  @@index([jobId])
+  @@index([affectedEntity, affectedId])
+  @@unique([affectedEntity, affectedId, action, idempotencyKey])
+  @@map("sync_logs")
+}
+
+model SyncConflict {
+  id             String                   @id @default(uuid(7))
+  affectedEntity String
+  affectedId     String
+  policy         ConflictResolutionPolicy?
+  status         ConflictStatus           @default(OPEN)
+  details        Json?
+  resolutionNotes String?
+  resolvedAt     DateTime?
+  createdAt      DateTime                 @default(now())
+  updatedAt      DateTime                 @updatedAt
+
+  @@index([status])
+  @@index([affectedEntity, affectedId])
+  @@map("sync_conflicts")
+}
+
+// ─────────────────────────────────────────
+// SPRINT 2+ STUBS
+// ─────────────────────────────────────────
+
+model ServiceLog {
+  id        String           @id @default(uuid(7))
+  jobId     String
+  status    ServiceLogStatus @default(DRAFT)
+  summary   String?
+  notes     String?
+  skippedValidation Boolean @default(false)
+
+  syncedAt DateTime?
+
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  job           Job              @relation(fields: [jobId], references: [id])
+  laborEntries  LaborEntry[]
+  consumedParts ConsumedPart[]
+  syncEvents    ServiceLogSync[]
+
+  @@index([jobId])
+  @@map("service_logs")
+}
+
+model LaborEntry {
+  id           String  @id @default(uuid(7))
+  serviceLogId String
+  hours        Float
+  hourlyRate   Decimal @db.Decimal(10, 2)
+  description  String?
+
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  serviceLog ServiceLog @relation(fields: [serviceLogId], references: [id])
+
+  @@index([serviceLogId])
+  @@map("labor_entries")
+}
+
+model ConsumedPart {
+  id           String  @id @default(uuid(7))
+  serviceLogId String
+  partId       String
+  quantity     Int
+  unitPrice    Decimal? @db.Decimal(10, 2)
+  notes        String?
+
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  serviceLog ServiceLog @relation(fields: [serviceLogId], references: [id])
+  part       Part       @relation(fields: [partId], references: [id])
+
+  @@index([serviceLogId])
+  @@index([partId])
+  @@map("consumed_parts")
+}
+
+model BoilerModel {
+  id             String  @id @default(uuid(7))
+  manufacturerId String?
+  modelName      String
+  isDeleted      Boolean @default(false)
+  series               String?
+  fuelType             String?
+  productionStartYear  Int?
+  productionEndYear    Int?
+
+  warranties      Warranty[]
+  manuals         Manual[]
+  referenceTables ReferenceTable[]
+  modelFaultCodes ModelFaultCode[]
+  modelParts      ModelPart[]
+
+  @@index([manufacturerId])
+  @@index([modelName])
+  @@map("boiler_models")
+}
+
+model Part {
+  id        String  @id @default(uuid(7))
+  sku       String
+  name      String
+  isDeleted Boolean @default(false)
+  brand         String?
+  unitPrice     Decimal? @db.Decimal(10, 2)
+  aliases       String[]
+  inventoryStatus String?
+
+  modelParts    ModelPart[]
+  consumedParts ConsumedPart[]
+  @@unique([sku])
+  @@map("parts")
+}
+
+model FaultCode {
+  id    String @id @default(uuid(7))
+  code  String
+  title String
+  description String?
+  severity    String?
+
+  modelFaultCodes ModelFaultCode[]
+
+  @@unique([code])
+  @@map("fault_codes")
+}
+
+model Warranty {
+  id            String         @id @default(uuid(7))
+  boilerModelId String
+  jobId         String?
+  startDate     DateTime       @default(now())
+  durationMonths Int           @default(12)
+  expiresAt     DateTime?
+  status        WarrantyStatus @default(ACTIVE)
+  skippedValidation Boolean @default(false)
+  notes         String?
+
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  boilerModel BoilerModel @relation(fields: [boilerModelId], references: [id])
+  job         Job?       @relation(fields: [jobId], references: [id])
+
+  @@index([boilerModelId])
+  @@index([jobId])
+  @@index([status])
+  @@index([expiresAt])
+  @@map("warranties")
+}
+
+model TechnicalProperty {
+  id          String   @id @default(uuid(7))
+  code        String   @unique
+  label       String
+  unit        String?
+  description String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  referenceTables ReferenceTable[]
+
+  @@map("technical_properties")
+}
+
+model ReferenceTable {
+  id          String   @id @default(uuid(7))
+  boilerModelId String
+  propertyId  String
+  minValue    Decimal? @db.Decimal(10, 2)
+  maxValue    Decimal? @db.Decimal(10, 2)
+  required    Boolean  @default(true)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  boilerModel BoilerModel      @relation(fields: [boilerModelId], references: [id])
+  property    TechnicalProperty @relation(fields: [propertyId], references: [id])
+
+  @@unique([boilerModelId, propertyId])
+  @@index([boilerModelId])
+  @@index([propertyId])
+  @@map("reference_tables")
+}
+
+model Manual {
+  id            String @id @default(uuid(7))
+  boilerModelId String
+  version     String?
+  language    String?
+  sourceUrl   String?
+  addedAt     DateTime @default(now())
+  isValidated Boolean  @default(false)
+
+  boilerModel BoilerModel @relation(fields: [boilerModelId], references: [id])
+
+  @@index([boilerModelId])
+  @@map("manuals")
+}
+
+model ModelFaultCode {
+  modelId     String
+  faultCodeId String
+  model     BoilerModel @relation(fields: [modelId], references: [id])
+  faultCode FaultCode   @relation(fields: [faultCodeId], references: [id])
+  @@id([modelId, faultCodeId])
+  @@index([faultCodeId])
+  @@map("model_fault_codes")
+}
+
+model ModelPart {
+  modelId String
+  partId  String
+  model BoilerModel @relation(fields: [modelId], references: [id])
+  part  Part        @relation(fields: [partId], references: [id])
+  @@id([modelId, partId])
+  @@index([partId])
+  @@map("model_parts")
+}
+
+model LibraryIngestionRun {
+  id            String          @id @default(uuid(7))
+  status        IngestionStatus @default(PENDING)
+  sourceVersion String?
+  acceptedCount Int             @default(0)
+  rejectedCount Int             @default(0)
+  createdAt     DateTime        @default(now())
+  completedAt   DateTime?
+  errorSummary  Json?
+  @@map("library_ingestion_runs")
+}
+
+model ServiceLogSync {
+  id             String     @id @default(uuid(7))
+  serviceLogId   String
+  jobId          String?
+  idempotencyKey String     @unique
+  result         SyncResult @default(SUCCESS)
+  payload        Json?
+  createdAt      DateTime   @default(now())
+  serviceLog ServiceLog @relation(fields: [serviceLogId], references: [id])
+  job        Job?       @relation(fields: [jobId], references: [id])
+  @@index([serviceLogId])
+  @@index([jobId])
+  @@map("service_log_syncs")
+}
+
+model Expense {
+  id          String   @id @default(uuid(7))
+  amount      Decimal  @db.Decimal(10, 2)
+  category    String
+  description String?
+  incurredAt  DateTime
+
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([incurredAt])
+  @@index([category])
+  @@map("expenses")
+}
+
+

@@ -1,0 +1,5626 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "BAXI",
+    "product_family": "Combi 2.1",
+    "model_names": [
+      "400 Combi 2.1",
+      "600 Combi 2",
+      "800 Combi 2",
+      "Assure 500 Combi 2"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "Installation and Service Manual & Boiler Fiche High-efficiency wall-hung condensing gas boiler",
+    "document_code": "7875578-02",
+    "publication_date": "2024-07",
+    "language": "en",
+    "region": "United Kingdom",
+    "source_file": "baxi_baxi-424-2-1-combi-2-1_boiler-manual_baxi400-comni-2-1.pdf",
+    "file_hash": "9e7ecc070bb9a06f6d9b285bee8fbd043e48dc27b30c85c13ea1c37dfed20f9f"
+  },
+  "technical_specs": [
+    {
+      "parameter": "CE Certificate no.",
+      "value": "0085CU0338",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "certifications",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Certifications",
+          "table_title": null,
+          "source_quote": "CE Certificate no. 0085CU0338"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "UKCE Certificate no.",
+      "value": "748353",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "certifications",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Certifications",
+          "table_title": null,
+          "source_quote": "UKCE Certificate no. 748353"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx class",
+      "value": "6",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Certifications",
+          "table_title": null,
+          "source_quote": "NOx class 6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler type",
+      "value": "C13, C33",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Certifications",
+          "table_title": null,
+          "source_quote": "Boiler type C13, C33"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G.C. nos.",
+      "value": "424-2.1 47-077-74, 430-2.1 47-077-75, 436-2.1 47-077-76, 624-2 47-077-55, 630-2 47-077-56, 636-2 47-077-57, 824-2 47-077-63, 830-2 47-077-64, 836-2 47-077-65, Assure 524-2 47-077-59, Assure 530-2 47-077-60, Assure 536-2 47-077-61",
+      "unit": null,
+      "applies_to_models": [
+        "400 Combi 2.1",
+        "600 Combi 2",
+        "800 Combi 2",
+        "Assure 500 Combi 2"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Certifications",
+          "table_title": null,
+          "source_quote": "G.C. nos. 424-2.1 47-077-74, 430-2.1 47-077-75, 436-2.1 47-077-76 624-2 47-077-55, 630-247-077-56, 636-247-077-57 824-2 47-077-63, 830-247-077-64, 836-2 47-077-65 Assure 524-247-077-59, Assure 530-247-077-60, Assure 536-2 47-077-61"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas type",
+      "value": "G20 (H natural gas)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Gas category",
+          "table_title": null,
+          "source_quote": "G20 (H natural gas)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Supply pressure",
+      "value": "20",
+      "unit": "mbar",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Gas category",
+          "table_title": null,
+          "source_quote": "20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas type",
+      "value": "G31 (P LPG)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Gas category",
+          "table_title": null,
+          "source_quote": "G31 (P LPG)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Supply pressure",
+      "value": "37",
+      "unit": "mbar",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Gas category",
+          "table_title": null,
+          "source_quote": "37"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensing boiler",
+      "value": "Yes",
+      "unit": null,
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "Technical settings for combination heaters with boilers",
+          "source_quote": "Condensing boiler Yes Yes Yes"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Low-temperature boiler",
+      "value": "No",
+      "unit": null,
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "Technical settings for combination heaters with boilers",
+          "source_quote": "Low-temperature boiler(1) No No No"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "B1 boiler",
+      "value": "No",
+      "unit": null,
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "Technical settings for combination heaters with boilers",
+          "source_quote": "B1 boiler No No No"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "PCDB Index no.",
+      "value": "TBC",
+      "unit": null,
+      "applies_to_models": [
+        "424-2.1"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "PCDB index",
+          "source_quote": "424-2.1 TBC"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "parameter": "PCDB Index no.",
+      "value": "019079",
+      "unit": null,
+      "applies_to_models": [
+        "524-2"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "PCDB index",
+          "source_quote": "524-2 019079"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "PCDB Index no.",
+      "value": "019076",
+      "unit": null,
+      "applies_to_models": [
+        "624-2"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "PCDB index",
+          "source_quote": "624-2 019076"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "PCDB Index no.",
+      "value": "019082",
+      "unit": null,
+      "applies_to_models": [
+        "824-2"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "PCDB index",
+          "source_quote": "824-2 019082"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "PCDB Index no.",
+      "value": "TBC",
+      "unit": null,
+      "applies_to_models": [
+        "430-2.1"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "PCDB index",
+          "source_quote": "430-2.1 TBC"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "parameter": "PCDB Index no.",
+      "value": "019080",
+      "unit": null,
+      "applies_to_models": [
+        "530-2"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "PCDB index",
+          "source_quote": "530-2 019080"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "PCDB Index no.",
+      "value": "019077",
+      "unit": null,
+      "applies_to_models": [
+        "630-2"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "PCDB index",
+          "source_quote": "630-2 019077"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "PCDB Index no.",
+      "value": "019083",
+      "unit": null,
+      "applies_to_models": [
+        "830-2"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "PCDB index",
+          "source_quote": "830-2 019083"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "PCDB Index no.",
+      "value": "TBC",
+      "unit": null,
+      "applies_to_models": [
+        "436-2.1"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "PCDB index",
+          "source_quote": "436-2.1 TBC"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "parameter": "PCDB Index no.",
+      "value": "019081",
+      "unit": null,
+      "applies_to_models": [
+        "536-2"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "PCDB index",
+          "source_quote": "536-2 019081"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "PCDB Index no.",
+      "value": "019078",
+      "unit": null,
+      "applies_to_models": [
+        "636-2"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "PCDB index",
+          "source_quote": "636-2 019078"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "PCDB Index no.",
+      "value": "019084",
+      "unit": null,
+      "applies_to_models": [
+        "836-2"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical information",
+          "table_title": "PCDB index",
+          "source_quote": "836-2 019084"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Prated)",
+      "value": "20",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "Prated kW 20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at rated heat output and high temp. setting",
+      "value": "20.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "P4 kW 20.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at 30% of heat output and low temp. setting",
+      "value": "6.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "P1 kW 6.7"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Seasonal space heating energy efficiency",
+      "value": "94",
+      "unit": "%",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "ηs % 94"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at rated heat output and high temp. setting",
+      "value": "88.2",
+      "unit": "%",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "η4 % 88.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at 30% of heat output and low temp. setting",
+      "value": "99.0",
+      "unit": "%",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "η1 % 99.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption (Full load)",
+      "value": "0.046",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "elmax kW 0.046"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption (Partial load)",
+      "value": "0.008",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "elmin kW 0.008"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption (Standby mode)",
+      "value": "0.004",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "PSB kW 0.004"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat loss on standby",
+      "value": "0.04",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "Pstby kW 0.04"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Ignition burner power consumption",
+      "value": "0",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "Pign kW 0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual energy consumption (QHE)",
+      "value": "62",
+      "unit": "GJ",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "QHE GJ 62"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Sound power level, indoors (LWA)",
+      "value": "50",
+      "unit": "dB",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "noise",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "LWA dB 50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nitrogen oxide emissions (NOx)",
+      "value": "32",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "NOx mg/kWh 32"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Declared load profile",
+      "value": "XL",
+      "unit": null,
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "Declared load profile XL"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily electricity consumption (Qelec)",
+      "value": "0.146",
+      "unit": "kWh",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "Qelec kWh 0.146"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual electricity consumption (AEC)",
+      "value": "32",
+      "unit": "kWh",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "AEC kWh 32"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily fuel consumption (Qfuel)",
+      "value": "20.547",
+      "unit": "kWh",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "Qfuel kWh 20.547"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual fuel consumption (AFC)",
+      "value": "16",
+      "unit": "GJ",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "AFC GJ 16"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for DHW",
+      "value": "24.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Rated heat input (Qn) for DHW kW 24.7"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for CH",
+      "value": "20.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Rated heat input (Qn) for CH kW 20.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat input (Qn) 80/60 °C",
+      "value": "4.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Reduced heat input (Qn) 80/60 °C kW 4.9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) for DHW",
+      "value": "24.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Rated heat output (Pn) for DHW kW 24.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) 80/60 °C for CH",
+      "value": "20",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Rated heat output (Pn) 80/60 °C for CH kW 20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) 50/30 °C for CH",
+      "value": "21.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Rated heat output (Pn) 50/30 °C for CH kW 21.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat output (Pn) 80/60 °C",
+      "value": "4.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Reduced heat output (Pn) 80/60 °C kW 4.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat output (Pn) 50/30 °C",
+      "value": "5.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Reduced heat output (Pn) 50/30 °C kW 5.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated efficiency 50/30 °C (Hi)",
+      "value": "105.8",
+      "unit": "%",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Rated efficiency 50/30 °C (Hi) % 105.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for DHW (G20+20%H2)",
+      "value": "24.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Rated heat input (Qn) for DHW (G20+20%H2) kW 24.7"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for CH (G20+20%H2)",
+      "value": "20.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Rated heat input (Qn) for CH (G20+20%H2) kW 20.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Prated)",
+      "value": "25",
+      "unit": "kW",
+      "applies_to_models": [
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "Prated kW 25"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at rated heat output and high temp. setting",
+      "value": "25.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "P4 kW 25.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at 30% of heat output and low temp. setting",
+      "value": "8.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "P1 kW 8.4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at rated heat output and high temp. setting",
+      "value": "88.1",
+      "unit": "%",
+      "applies_to_models": [
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "η4 % 88.1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at 30% of heat output and low temp. setting",
+      "value": "98.8",
+      "unit": "%",
+      "applies_to_models": [
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "η1 % 98.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption (Full load)",
+      "value": "0.061",
+      "unit": "kW",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "elmax kW 0.061"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption (Partial load)",
+      "value": "0.009",
+      "unit": "kW",
+      "applies_to_models": [
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "elmin kW 0.009"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual energy consumption (QHE)",
+      "value": "77",
+      "unit": "GJ",
+      "applies_to_models": [
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "QHE GJ 77"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Sound power level, indoors (LWA)",
+      "value": "51",
+      "unit": "dB",
+      "applies_to_models": [
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "noise",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "LWA dB 51"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nitrogen oxide emissions (NOx)",
+      "value": "31",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "NOx mg/kWh 31"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily electricity consumption (Qelec)",
+      "value": "0.140",
+      "unit": "kWh",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "Qelec kWh 0.140"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual electricity consumption (AEC)",
+      "value": "31",
+      "unit": "kWh",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "AEC kWh 31"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily fuel consumption (Qfuel)",
+      "value": "20.438",
+      "unit": "kWh",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "Qfuel kWh 20.438"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for DHW",
+      "value": "30.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Rated heat input (Qn) for DHW kW 30.9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for CH",
+      "value": "25.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Rated heat input (Qn) for CH kW 25.7"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat input (Qn) 80/60 °C",
+      "value": "6.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Reduced heat input (Qn) 80/60 °C kW 6.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) for DHW",
+      "value": "30.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Rated heat output (Pn) for DHW kW 30.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) 80/60 °C for CH",
+      "value": "25",
+      "unit": "kW",
+      "applies_to_models": [
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Rated heat output (Pn) 80/60 °C for CH kW 25"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) 50/30 °C for CH",
+      "value": "27.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Rated heat output (Pn) 50/30 °C for CH kW 27.1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat output (Pn) 80/60 °C",
+      "value": "5.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Reduced heat output (Pn) 80/60 °C kW 5.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat output (Pn) 50/30 °C",
+      "value": "6.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Reduced heat output (Pn) 50/30 °C kW 6.3"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for DHW (G20+20%H2)",
+      "value": "30.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Rated heat input (Qn) for DHW (G20+20%H2) kW 30.9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for CH (G20+20%H2)",
+      "value": "25.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Rated heat input (Qn) for CH (G20+20%H2) kW 25.7"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption (Full load)",
+      "value": "0.071",
+      "unit": "kW",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "elmax kW 0.071"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily electricity consumption (Qelec)",
+      "value": "0.138",
+      "unit": "kWh",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "Qelec kWh 0.138"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual electricity consumption (AEC)",
+      "value": "30",
+      "unit": "kWh",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "AEC kWh 30"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily fuel consumption (Qfuel)",
+      "value": "20.473",
+      "unit": "kWh",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Technical data",
+          "table_title": null,
+          "source_quote": "Qfuel kWh 20.473"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for DHW",
+      "value": "36.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Rated heat input (Qn) for DHW kW 36.9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat input (Qn) 80/60 °C",
+      "value": "7.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Reduced heat input (Qn) 80/60 °C kW 7.4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) for DHW",
+      "value": "36.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Rated heat output (Pn) for DHW kW 36.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat output (Pn) 80/60 °C",
+      "value": "7.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Reduced heat output (Pn) 80/60 °C kW 7.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat output (Pn) 50/30 °C",
+      "value": "7.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "Reduced heat output (Pn) 50/30 °C kW 7.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum pressure (heating circuit)",
+      "value": "2.5",
+      "unit": "bar",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of the heating circuit",
+          "table_title": null,
+          "source_quote": "Maximum pressure bar 2.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum pressure (heating circuit)",
+      "value": "0.5",
+      "unit": "bar",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of the heating circuit",
+          "table_title": null,
+          "source_quote": "Minimum pressure bar 0.5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Temperature range for CH circuit",
+      "value": "25-80",
+      "unit": "°C",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of the heating circuit",
+          "table_title": null,
+          "source_quote": "Temperature range for CH circuit °C 25-80"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water capacity of expansion vessel",
+      "value": "7",
+      "unit": "l",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of the heating circuit",
+          "table_title": null,
+          "source_quote": "Water capacity of expansion vessel l 7"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum pressure (DHW circuit)",
+      "value": "8.0",
+      "unit": "bar",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of the domestic hot water circuit",
+          "table_title": null,
+          "source_quote": "Maximum pressure bar 8.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum pressure (DHW circuit)",
+      "value": "0.8",
+      "unit": "bar",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of the domestic hot water circuit",
+          "table_title": null,
+          "source_quote": "Minimum pressure bar 0.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum dynamic pressure",
+      "value": "0.15",
+      "unit": "bar",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of the domestic hot water circuit",
+          "table_title": null,
+          "source_quote": "Minimum dynamic pressure bar 0.15"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum water flow",
+      "value": "2.0",
+      "unit": "l/min",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of the domestic hot water circuit",
+          "table_title": null,
+          "source_quote": "Minimum water flow I/min 2.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Temperature range for DHW circuit",
+      "value": "35-60",
+      "unit": "°C",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of the domestic hot water circuit",
+          "table_title": null,
+          "source_quote": "Temperature range for DHW circuit °C 35-60"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW production with ΔT = 25 °C",
+      "value": "14.1",
+      "unit": "l/min",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of the domestic hot water circuit",
+          "table_title": null,
+          "source_quote": "DHW production with ΔT = 25 °C I/min 14.1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW production with ΔT = 35 °C",
+      "value": "10.2",
+      "unit": "l/min",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of the domestic hot water circuit",
+          "table_title": null,
+          "source_quote": "DHW production with ΔT = 35 °C I/min 10.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW production with ΔT = 25 °C",
+      "value": "17.6",
+      "unit": "l/min",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of the domestic hot water circuit",
+          "table_title": null,
+          "source_quote": "DHW production with ΔT = 25 °C I/min 17.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW production with ΔT = 35 °C",
+      "value": "12.2",
+      "unit": "l/min",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of the domestic hot water circuit",
+          "table_title": null,
+          "source_quote": "DHW production with ΔT = 35 °C I/min 12.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW production with ΔT = 25 °C",
+      "value": "21.0",
+      "unit": "l/min",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of the domestic hot water circuit",
+          "table_title": null,
+          "source_quote": "DHW production with ΔT = 25 °C I/min 21.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW production with ΔT = 35 °C",
+      "value": "15.0",
+      "unit": "l/min",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of the domestic hot water circuit",
+          "table_title": null,
+          "source_quote": "DHW production with ΔT = 35 °C I/min 15.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Q max)",
+      "value": "2.61",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "G20 gas consumption (Q max) m³/h 2.61"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Q min)",
+      "value": "0.52",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "G20 gas consumption (Q min) m³/h 0.52"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Diameter of coaxial discharge pipes",
+      "value": "60/100",
+      "unit": "mm",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "Diameter of coaxial discharge pipes mm 60/100"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas flow rate (max)",
+      "value": "0.011",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "Flue gas flow rate (max) kg/sec 0.011"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas flow rate (min)",
+      "value": "0.002",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "Flue gas flow rate (min) kg/sec 0.002"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Q max)",
+      "value": "3.26",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "G20 gas consumption (Q max) m³/h 3.26"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Q min)",
+      "value": "0.63",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "G20 gas consumption (Q min) m³/h 0.63"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas flow rate (max)",
+      "value": "0.014",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "Flue gas flow rate (max) kg/sec 0.014"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas flow rate (min)",
+      "value": "0.003",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "Flue gas flow rate (min) kg/sec 0.003"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Q max)",
+      "value": "3.9",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "G20 gas consumption (Q max) m³/h 3.9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Q min)",
+      "value": "0.78",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "G20 gas consumption (Q min) m³/h 0.78"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas flow rate (max)",
+      "value": "0.017",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "Flue gas flow rate (max) kg/sec 0.017"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas flow rate (min)",
+      "value": "0.004",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "Flue gas flow rate (min) kg/sec 0.004"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G31 (LPG) gas consumption (Q max)",
+      "value": "1.92",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "G31 (LPG) gas consumption (Q max) kg/h 1.92"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G31 (LPG) gas consumption (Q min)",
+      "value": "0.38",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "G31 (LPG) gas consumption (Q min) kg/h 0.38"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G31 (LPG) gas consumption (Q max)",
+      "value": "2.4",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "G31 (LPG) gas consumption (Q max) kg/h 2.4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G31 (LPG) gas consumption (Q min)",
+      "value": "0.47",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "G31 (LPG) gas consumption (Q min) kg/h 0.47"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G31 (LPG) gas consumption (Q max)",
+      "value": "2.86",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "G31 (LPG) gas consumption (Q max) kg/h 2.86"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G31 (LPG) gas consumption (Q min)",
+      "value": "0.58",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Characteristics of combustion",
+          "table_title": null,
+          "source_quote": "G31 (LPG) gas consumption (Q min) kg/h 0.58"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power supply voltage",
+      "value": "230",
+      "unit": "V",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Electrical characteristics",
+          "table_title": null,
+          "source_quote": "Power supply voltage V 230"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power supply frequency",
+      "value": "50",
+      "unit": "Hz",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Electrical characteristics",
+          "table_title": null,
+          "source_quote": "Power supply frequency Hz 50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated electric power",
+      "value": "85",
+      "unit": "W",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Electrical characteristics",
+          "table_title": null,
+          "source_quote": "Rated electric power W 85"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated electric power",
+      "value": "88",
+      "unit": "W",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Electrical characteristics",
+          "table_title": null,
+          "source_quote": "Rated electric power W 88"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated electric power",
+      "value": "91",
+      "unit": "W",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Electrical characteristics",
+          "table_title": null,
+          "source_quote": "Rated electric power W 91"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Humidity protection rating (EN 60529)",
+      "value": "X5D",
+      "unit": null,
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Other characteristics",
+          "table_title": null,
+          "source_quote": "Humidity protection rating (EN 60529) IP X5D"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Net weight when empty/filled with water",
+      "value": "28/30",
+      "unit": "kg",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Other characteristics",
+          "table_title": null,
+          "source_quote": "Net weight when empty/filled with water kg 28/30"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimensions (height/width/depth)",
+      "value": "700/395/285",
+      "unit": "mm",
+      "applies_to_models": [
+        "24 Combi",
+        "30 Combi",
+        "36 Combi"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Other characteristics",
+          "table_title": null,
+          "source_quote": "Dimensions (height/width/depth) mm 700/395/285"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Net weight when empty/filled with water",
+      "value": "29/31",
+      "unit": "kg",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Other characteristics",
+          "table_title": null,
+          "source_quote": "Net weight when empty/filled with water kg 29/31"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Net weight when empty/filled with water",
+      "value": "30/31",
+      "unit": "kg",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Other characteristics",
+          "table_title": null,
+          "source_quote": "Net weight when empty/filled with water kg 30/31"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power supply",
+      "value": "230 V ~ 50 Hz",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Electrical supply",
+          "table_title": null,
+          "source_quote": "The mains supply is 230 V ~ 50 Hz fused at 3 A."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Fuse rating",
+      "value": "3 A",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Electrical supply",
+          "table_title": null,
+          "source_quote": "The mains supply is 230 V ~ 50 Hz fused at 3 A."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical cable type",
+      "value": "3 core 0.75 mm 3183Y multi strand flexible type",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Electrical supply",
+          "table_title": null,
+          "source_quote": "The boiler must be connected to the mains fused 3 A 230 V 50 HZ supply & control system using cable of 3 core 0.75 mm 3183Y multi strand flexible type."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure relief valve setting",
+      "value": "3",
+      "unit": "bar",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Drain & safety pressure relief valve",
+          "table_title": null,
+          "source_quote": "The pressure relief valve is set at 3 bar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure relief discharge pipe diameter",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Drain & safety pressure relief valve",
+          "table_title": null,
+          "source_quote": "The pressure relief discharge pipe should be not less than 15 mm diameter"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Working gas inlet pressure (Natural Gas)",
+      "value": "17.5",
+      "unit": "mb",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Gas settings",
+          "table_title": null,
+          "source_quote": "This must be AT LEAST 17.5 mb (Natural Gas)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Working gas inlet pressure (LPG)",
+      "value": "29.5",
+      "unit": "mb",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Gas settings",
+          "table_title": null,
+          "source_quote": "or 29.5 mb (LPG) !"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas rate (Natural Gas)",
+      "value": "2.61",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Gas settings",
+          "table_title": null,
+          "source_quote": "24 2.61 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas rate (LPG)",
+      "value": "1.92",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "24 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Gas settings",
+          "table_title": null,
+          "source_quote": "24 1.92 kg/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas rate (Natural Gas)",
+      "value": "3.26",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Gas settings",
+          "table_title": null,
+          "source_quote": "30 3.26 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas rate (LPG)",
+      "value": "2.40",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "30 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Gas settings",
+          "table_title": null,
+          "source_quote": "30 2.40 kg/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas rate (Natural Gas)",
+      "value": "3.90",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Gas settings",
+          "table_title": null,
+          "source_quote": "36 3.90 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas rate (LPG)",
+      "value": "2.86",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "36 Combi"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Gas settings",
+          "table_title": null,
+          "source_quote": "36 2.86 kg/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CO2 % nominal & range of tolerance (Max)",
+      "value": "10.3% (10.2 to 10.7)",
+      "unit": null,
+      "applies_to_models": [
+        "Combi 24",
+        "Combi 30"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": "Frontal panel closed - Combi 24 & 30",
+          "source_quote": "CO₂% nominal & range of tolerance Max 10.3% (10.2 to 10.7)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CO2 % nominal & range of tolerance (Min)",
+      "value": "9.7% (9.2 to 9.8)",
+      "unit": null,
+      "applies_to_models": [
+        "Combi 24",
+        "Combi 30"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": "Frontal panel closed - Combi 24 & 30",
+          "source_quote": "CO₂% nominal & range of tolerance Min 9.7% (9.2 to 9.8)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "O2 % nominal & range of tolerance (Max)",
+      "value": "5.2% (5.4 to 4.6)",
+      "unit": null,
+      "applies_to_models": [
+        "Combi 24",
+        "Combi 30"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": "Frontal panel closed - Combi 24 & 30",
+          "source_quote": "O₂% nominal & range of tolerance Max 5.2% (5.4 to 4.6)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "O2 % nominal & range of tolerance (Min)",
+      "value": "6.1% (6.9 to 6.0)",
+      "unit": null,
+      "applies_to_models": [
+        "Combi 24",
+        "Combi 30"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": "Frontal panel closed - Combi 24 & 30",
+          "source_quote": "O₂% nominal & range of tolerance Min 6.1% (6.9 to 6.0)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CO2 % nominal & range of tolerance (Max)",
+      "value": "10.0% (10.0 to 10.5)",
+      "unit": null,
+      "applies_to_models": [
+        "Combi 36"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": "Frontal panel closed - Combi 36",
+          "source_quote": "CO₂% nominal & range of tolerance Max 10.0% (10.0 to 10.5)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CO2 % nominal & range of tolerance (Min)",
+      "value": "9.6% (9.2 to 9.8)",
+      "unit": null,
+      "applies_to_models": [
+        "Combi 36"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": "Frontal panel closed - Combi 36",
+          "source_quote": "CO₂% nominal & range of tolerance Min 9.6% (9.2 to 9.8)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "O2 % nominal & range of tolerance (Max)",
+      "value": "5.7% (5.7 to 4.9)",
+      "unit": null,
+      "applies_to_models": [
+        "Combi 36"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": "Frontal panel closed - Combi 36",
+          "source_quote": "O₂% nominal & range of tolerance Max 5.7% (5.7 to 4.9)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "O2 % nominal & range of tolerance (Min)",
+      "value": "6.3% (6.9 to 6.0)",
+      "unit": null,
+      "applies_to_models": [
+        "Combi 36"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": "Frontal panel closed - Combi 36",
+          "source_quote": "O₂% nominal & range of tolerance Min 6.3% (6.9 to 6.0)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CO2 % (maximum)",
+      "value": "8.8 to 9.4",
+      "unit": null,
+      "applies_to_models": [
+        "24-30-36 Combi"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Adjusting the gas valve",
+          "table_title": null,
+          "source_quote": "CO₂ % (maximum) 8.8 to 9.4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CO2 % (minimum)",
+      "value": "8.1 to 8.6",
+      "unit": null,
+      "applies_to_models": [
+        "24-30-36 Combi"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Adjusting the gas valve",
+          "table_title": null,
+          "source_quote": "CO₂ % (minimum) 8.1 to 8.6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "H.02 .07",
+      "description": "Low pressure in heating circuit (permanently)",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the system pressure and restore it"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure",
+        "heating circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Error codes",
+          "table_title": "Short list of faults",
+          "source_quote": "H.02 .07 Low pressure in heating circuit (permanently) Check the system pressure and restore it"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.03 .02",
+      "description": "Temporary flame loss",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the electrode, gas supply and flue pipe"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electrode",
+        "gas supply",
+        "flue pipe"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame",
+        "ignition",
+        "gas"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Error codes",
+          "table_title": "Short list of faults",
+          "source_quote": "H.03 .02 Temporary flame loss Check the electrode, gas supply and flue pipe"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.01 .05",
+      "description": "Maximum temperature difference value between flow and return reached.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the boiler/installation circulation",
+        "Check the installation pressure"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature",
+        "circulation",
+        "pressure"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Error codes",
+          "table_title": "Short list of faults",
+          "source_quote": "H.01 .05 Maximum temperature difference value between flow and return reached. Check the boiler/installation circulation Check the installation pressure"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.04 .10",
+      "description": "Burner failed to ignite after 4 attempts",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the electrode, gas supply and flue pipe"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electrode",
+        "gas supply",
+        "flue pipe",
+        "burner"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "burner",
+        "ignition",
+        "gas",
+        "flame"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Error codes",
+          "table_title": "Short list of faults",
+          "source_quote": "E.04 .10 Burner failed to ignite after 4 attempts Check the electrode, gas supply and flue pipe"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.01 .21",
+      "description": "Flow temperature increase during domestic hot water operation too fast",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the boiler/installation circulation",
+        "Check the installation pressure"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature",
+        "DHW",
+        "circulation",
+        "pressure"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Error codes",
+          "table_title": "Short list of faults",
+          "source_quote": "H.01 .21 Flow temperature increase during domestic hot water operation too fast Check the boiler/installation circulation Check the installation pressure"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.00 .42",
+      "description": "Pressure sensor open/faulty",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the operation of the pressure sensor and system pressure"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pressure sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure sensor",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Error codes",
+          "table_title": "Short list of faults",
+          "source_quote": "H.00 .42 Pressure sensor open/faulty Check the operation of the pressure sensor and system pressure"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.01 .08",
+      "description": "Flow temperature increase in heating mode too quick. Temporary stoppage of 10 minutes.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the boiler/installation circulation",
+        "Check the installation pressure"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature",
+        "heating",
+        "circulation",
+        "pressure"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Error codes",
+          "table_title": "Short list of faults",
+          "source_quote": "H.01 .08 Flow temperature increase in heating mode too quick. Temporary stoppage of 10 minutes. Check the boiler/installation circulation Check the installation pressure"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.01 .18",
+      "description": "No water circulation (temporary).",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the boiler/installation circulation",
+        "Check the installation pressure"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "circulation",
+        "water",
+        "pressure"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Error codes",
+          "table_title": "Short list of faults",
+          "source_quote": "H.01 .18 No water circulation (temporary). Check the boiler/installation circulation Check the installation pressure"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.04 .03",
+      "description": "Maximum flow temperature exceeded or flow temperature sensor short circuited",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the boiler/installation circulation",
+        "Check the installation pressure"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flow temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature",
+        "sensor",
+        "circulation",
+        "pressure"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Error codes",
+          "table_title": "Short list of faults",
+          "source_quote": "E.04 .03 Maximum flow temperature exceeded or flow temperature sensor short circuited Check the boiler/installation circulation Check the installation pressure"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.00 .28",
+      "description": "Solar temperature sensor is either removed or measures a temperature below range",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the solar temperature sensor wiring.",
+        "Replace the sensor if necessary.",
+        "In case of removal of the solar tank, set the parameter DP150=1."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "solar temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "solar",
+        "temperature sensor",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "A.00 .28 Solar temperature sensor is either removed or measures a temperature below range Check the solar temperature sensor wiring. Replace the sensor if necessary. In case of removal of the solar tank, set the parameter DP150=1."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.00 .29",
+      "description": "Solar temperature sensor is either shorted or measures a temperature above range",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the solar temperature sensor wiring.",
+        "Replace the sensor if necessary."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "solar temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "solar",
+        "temperature sensor",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "A.00 .29 Solar temperature sensor is either shorted or measures a temperature above range Check the solar temperature sensor wiring. Replace the sensor if necessary."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.00 .34",
+      "description": "Outdoor temperature sensor expected but not detected",
+      "possible_causes": [
+        "Outdoor sensor is not connected correctly"
+      ],
+      "manufacturer_steps": [
+        "Enter the correct value of the parameter AP091 (AP091=0)",
+        "Connect the outdoor sensor"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "outdoor temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "outdoor sensor",
+        "temperature sensor",
+        "connection"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "A.00 .34 Outdoor temperature sensor expected but not detected Enter the correct value of the parameter AP091 (AP091=0) Connect the outdoor sensor Outdoor sensor is not connected correctly"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .06",
+      "description": "Low system pressure in heating circuit",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the installation pressure and restore",
+        "Check the expansion vessel pressure",
+        "Check for boiler/installation leaks"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "expansion vessel"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure",
+        "heating circuit",
+        "leaks",
+        "expansion vessel"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "A.02 .06 Low system pressure in heating circuit Check the installation pressure and restore Check the expansion vessel pressure Check for boiler/installation leaks"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .18",
+      "description": "OBD error",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Re-enter the CN1 and CN2 values, check the information shown on the data plate"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "OBD",
+        "configuration"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "A.02 .18 OBD error Re-enter the CN1 and CN2 values, check the information shown on the data plate"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .36",
+      "description": "Functional device disconnected",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Start the auto-detect function (parameter AD)",
+        "Check the devices connected to contact X9"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "device",
+        "connection",
+        "auto-detect"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "A.02 .36 Functional device disconnected Start the auto-detect function (parameter AD) Check the devices connected to contact X9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .37",
+      "description": "Passive functional device disconnected",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Start the auto-detect function (parameter AD)",
+        "Check the devices connected to contact X9"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "device",
+        "connection",
+        "auto-detect"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "A.02 .37 Passive functional device disconnected Start the auto-detect function (parameter AD) Check the devices connected to contact X9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .45",
+      "description": "Connection error",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Start the auto-detect function (parameter AD))"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "connection",
+        "auto-detect"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "A.02 .45 Connection error Start the auto-detect function (parameter AD))"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .46",
+      "description": "Device priority error",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Start the auto-detect function (parameter AD)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "device",
+        "priority",
+        "auto-detect"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "A.02 .46 Device priority error Start the auto-detect function (parameter AD)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .48",
+      "description": "Unit function configuration error",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Start the auto-detect function (parameter AD))",
+        "Check electrical connections of external devices"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "configuration",
+        "electrical connection",
+        "auto-detect"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "A.02 .48 Unit function configuration error Start the auto-detect function (parameter AD)) Check electrical connections of external devices"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .49",
+      "description": "Failed node initialisation",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Start the auto-detect function (parameter AD))",
+        "Check electrical connections of external devices"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "initialisation",
+        "electrical connection",
+        "auto-detect"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "A.02 .49 Failed node initialisation Start the auto-detect function (parameter AD)) Check electrical connections of external devices"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .54",
+      "description": "Open Therm bus power supply error",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the devices connected to contact X17 - Terminal board M2 (7-8)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "OpenTherm bus"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "OpenTherm",
+        "power supply",
+        "connection"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "A.02 .54 Open Therm bus power supply error Check the devices connected to contact X17 - Terminal board M2 (7-8)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .55",
+      "description": "Incorrect or missing serial number",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Replace the main PCB (CU-GH)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "main PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "serial number",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "A.02 .55 Incorrect or missing serial number Replace the main PCB (CU-GH)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .76",
+      "description": "Internal memory reserved for full customisation of settings. No further changes can be made",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Re-enter the values CN1 and CN2",
+        "Replace the CU-GH board"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "CU-GH board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "memory",
+        "settings",
+        "configuration",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "A.02 .76 Internal memory reserved for full customisation of settings. No further changes can be made Re-enter the values CN1 and CN2 Replace the CU-GH board"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.00 .42",
+      "description": "Pressure sensor open/faulty",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the operation of the pressure sensor",
+        "Check the sensor/PCB connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pressure sensor",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure sensor",
+        "sensor",
+        "connection"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "H.00 .42 Pressure sensor open/faulty Check the operation of the pressure sensor Check the sensor/PCB connection"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.00 .81",
+      "description": "Room unit disconnected",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the operation of the room unit.",
+        "Check the room unit/PCB connection.",
+        "When removing the room unit, switch the power supply off and on again and set parameter CP780 =0 to remove the error."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "room unit",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "room unit",
+        "connection",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "H.00 .81 Room unit disconnected Check the operation of the room unit. Check the room unit/PCB connection. When removing the room unit, switch the power supply off and on again and set parameter CP780 =0 to remove the error."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.01 .00",
+      "description": "Temporary communication failure between gas valve and boiler PCB.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Configure CN1/CN2",
+        "Replace the main PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve",
+        "boiler PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "gas valve",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "H.01 .00 Temporary communication failure between gas valve and boiler PCB. Configure CN1/CN2 Replace the main PCB"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.01 .05",
+      "description": "Maximum temperature difference value between flow and return reached.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the boiler/installation circulation",
+        "Activate a manual venting cycle",
+        "Check the installation pressure",
+        "Check the cleanliness of the exchanger",
+        "Check the operation of the temperature sensors",
+        "Check the connection of the temperature sensors"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "heat exchanger",
+        "temperature sensors"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature",
+        "circulation",
+        "venting",
+        "pressure",
+        "heat exchanger",
+        "sensors"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "H.01 .05 Maximum temperature difference value between flow and return reached. Check the boiler/installation circulation Activate a manual venting cycle Check the installation pressure OTHER CAUSES Check the cleanliness of the exchanger Check the operation of the temperature sensors Check the connection of the temperature sensors"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.01 .08",
+      "description": "Flow temperature increase in heating mode too quick. Temporary stoppage of 10 minutes.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the boiler/installation circulation",
+        "Activate a manual venting cycle",
+        "Check the installation pressure",
+        "Check the cleanliness of the exchanger",
+        "Check the operation of the temperature sensors",
+        "Check the temperature sensor connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "heat exchanger",
+        "temperature sensors"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow temperature",
+        "heating",
+        "circulation",
+        "venting",
+        "pressure",
+        "heat exchanger",
+        "sensors"
+      ],
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "List of temporary faults",
+          "source_quote": "H.01 .08 Flow temperature increase in heating mode too quick. Temporary stoppage of 10 minutes. INSUFFICIENT CIRCULATION Check the boiler/installation circulation Activate a manual venting cycle Check the installation pressure OTHER CAUSES Check the cleanliness of the exchanger Check the operation of the temperature sensors Check the temperature sensor connection"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.01 .14",
+      "description": "Maximum flow or return temperature value reached.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the boiler/installation circulation",
+        "Activate a manual venting cycle",
+        "Check the installation pressure"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature",
+        "circulation",
+        "venting",
+        "pressure"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "H.01 .14 Maximum flow or return temperature value reached. INSUFFICIENT CIRCULATION Check the boiler/installation circulation Activate a manual venting cycle Check the installation pressure"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.01 .18",
+      "description": "No water circulation (temporary).",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the installation pressure",
+        "Activate a manual venting cycle",
+        "Check the operation of the pump",
+        "Check the boiler/installation circulation",
+        "Check the operation of the temperature sensors",
+        "Check the temperature sensor connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "temperature sensors"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water circulation",
+        "pressure",
+        "venting",
+        "pump",
+        "temperature sensors"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "H.01 .18 No water circulation (temporary). Check the installation pressure Activate a manual venting cycle Check the operation of the pump Check the boiler/installation circulation TEMPERATURE SENSOR ERROR Check the operation of the temperature sensors Check the temperature sensor connection"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.01 .21",
+      "description": "Flow temperature increase during domestic hot water operation too fast.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the installation pressure",
+        "Activate a manual venting cycle",
+        "Check the operation of the pump",
+        "Check the boiler/installation circulation",
+        "Check the operation of the temperature sensors",
+        "Check the temperature sensor connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "temperature sensors"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow temperature",
+        "DHW",
+        "pressure",
+        "venting",
+        "pump",
+        "temperature sensors"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "H.01 .21 Flow temperature increase during domestic hot water operation too fast. INSUFFICIENT CIRCULATION Check the installation pressure Activate a manual venting cycle Check the operation of the pump Check the boiler/installation circulation TEMPERATURE SENSOR ERROR Check the operation of the temperature sensors Check the temperature sensor connection"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .00",
+      "description": "Reset in progress",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Configure CN1/CN2"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "reset",
+        "configuration"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "H.02 .00 Reset in progress CN1/CN2 CONFIGURATION MISSING Configure CN1/CN2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .02",
+      "description": "Waiting for configuration settings to be entered (CN1,CN2).",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check configuration CN1/CN2"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "configuration",
+        "settings"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "H.02 .02 Waiting for configuration settings to be entered (CN1,CN2). Check configuration CN1/CN2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .03",
+      "description": "Configuration settings (CN1,CN2) not entered correctly.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Configure CN1/CN2 correctly"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "configuration",
+        "settings"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "H.02 .03 Configuration settings (CN1,CN2) not entered correctly. Configure CN1/CN2 correctly"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .04",
+      "description": "PCB settings cannot be read.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Configure CN1/CN2",
+        "Replace the main PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "main PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "PCB",
+        "settings",
+        "read"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "H.02 .04 PCB settings cannot be read. MAIN PCB ERROR Configure CN1/CN2 Replace the main PCB"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .05",
+      "description": "Setting memory not compatible with the boiler PCB type",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Reset CN codes.",
+        "Replace main PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "main PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "memory",
+        "PCB",
+        "settings"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "H.02 .05 Setting memory not compatible with the boiler PCB type Reset CN codes. Replace main PCB"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .07",
+      "description": "Low pressure in heating circuit (permanently)",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the system pressure and restore it",
+        "Check the pressure of the expansion vessel",
+        "Check for any system/boiler leaks"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "expansion vessel"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure",
+        "heating circuit",
+        "expansion vessel",
+        "leaks"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "H.02 .07 Low pressure in heating circuit (permanently) Check the system pressure and restore it Check the pressure of the expansion vessel Check for any system/boiler leaks"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .09",
+      "description": "Partial stoppage of the boiler (antifreeze function active)",
+      "possible_causes": [
+        "Contact X15 open, check connected devices",
+        "Parameter configuration error: Check AP001"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "antifreeze",
+        "stoppage",
+        "connection",
+        "configuration"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "H.02 .09 Partial stoppage of the boiler (antifreeze function active) SIGNAL INDICATING BLOCKING INPUT Contact X15 open, check connected devices Parameter configuration error: Check AP001"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .10",
+      "description": "Total stoppage of the boiler (antifreeze function not active)",
+      "possible_causes": [
+        "Contact X15 open, check connected devices",
+        "Parameter configuration error: Check AP001"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "antifreeze",
+        "stoppage",
+        "connection",
+        "configuration"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "H.02 .10 Total stoppage of the boiler (antifreeze function not active) SIGNAL INDICATING BLOCKING INPUT Contact X15 open, check connected devices Parameter configuration error: Check AP001"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .70",
+      "description": "External unit heat recovery test failed",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the device connected to contact X9",
+        "Replace the main PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "main PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "heat recovery",
+        "external unit",
+        "connection",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "H.02 .70 External unit heat recovery test failed PCB accessory error SCB-09 Check the device connected to contact X9 Replace the main PCB"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.03 .00",
+      "description": "No identification data for boiler safety device.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the electrode connection and wiring",
+        "Check the condition of the electrode",
+        "Check the gas supply pressure",
+        "Check the gas valve calibration",
+        "Check the pipes and the terminal"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electrode",
+        "gas valve",
+        "flue pipes"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "safety device",
+        "electrode",
+        "gas supply",
+        "flue"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "H.03 .00 No identification data for boiler safety device. ELECTRODE PROBLEM Check the electrode connection and wiring Check the condition of the electrode GAS SUPPLY Check the gas supply pressure Check the gas valve calibration FLUE GAS PIPES Check the pipes and the termina"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.03 .02",
+      "description": "Temporary flame loss",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the electrode electrical connections",
+        "Check the condition of the electrode",
+        "Check the gas inlet pressure",
+        "Check the gas valve calibration",
+        "Check the air intake and flue gas exhaust terminal",
+        "Check the power supply voltage"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electrode",
+        "gas valve",
+        "flue gas exhaust"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame loss",
+        "electrode",
+        "gas",
+        "flue",
+        "power supply"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "H.03 .02 Temporary flame loss ELECTRODE PROBLEM Check the electrode electrical connections Check the condition of the electrode GAS SUPPLY Check the gas inlet pressure Check the gas valve calibration FLUE GAS EXHAUST PIPE Check the air intake and flue gas exhaust termi nal Check the power supply voltage"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.03 .05",
+      "description": "Power supply voltage too low",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the electrode electrical connections",
+        "Check the condition of the electrode",
+        "Check the gas inlet pressure",
+        "Check the gas valve calibration",
+        "Check the air intake and flue gas exhaust terminal",
+        "Check the power supply voltage"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electrode",
+        "gas valve",
+        "flue gas exhaust"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "power supply",
+        "voltage",
+        "electrode",
+        "gas",
+        "flue"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "H.03 .05 Power supply voltage too low ELECTRODE PROBLEM Check the electrode electrical connections Check the condition of the electrode GAS SUPPLY Check the gas inlet pressure Check the gas valve calibration FLUE GAS EXHAUST PIPE Check the air intake and flue gas exhaust termi nal Check the power supply voltage"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "H.03 .54",
+      "description": "Temporary flame loss Shutdown due to the power supply voltage being too low",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the electrode electrical connections",
+        "Check the condition of the electrode",
+        "Check the gas inlet pressure",
+        "Check the gas valve calibration",
+        "Check the air intake and flue gas exhaust terminal",
+        "Check the power supply voltage"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electrode",
+        "gas valve",
+        "flue gas exhaust"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame loss",
+        "power supply",
+        "voltage",
+        "electrode",
+        "gas",
+        "flue"
+      ],
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "H.03 .54 Temporary flame loss Shutdown due to the power supply voltage being too low ELECTRODE PROBLEM Check the electrode electrical connections Check the condition of the electrode GAS SUPPLY Check the gas inlet pressure Check the gas valve calibration FLUE GAS EXHAUST PIPE Check the air intake and flue gas exhaust termi nal Check the power supply voltage"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.00 .04",
+      "description": "Return temperature sensor disconnected",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the operation of the temperature sensor",
+        "Check the sensor/PCB connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "return temperature sensor",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature sensor",
+        "disconnected",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": null,
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.00 .04 Return temperature sensor disconnected SENSOR/CONNECTION PROBLEM Check the operation of the temperature sensor Check the sensor/PCB connection"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.00 .05",
+      "description": "Return temperature sensor short circuited",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the operation of the sensor",
+        "Check the sensor/PCB connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "return temperature sensor",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature sensor",
+        "short circuited",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": null,
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.00 .05 Return temperature sensor short circuited SENSOR/CONNECTION PROBLEM Check the operation of the sensor Check the sensor/PCB connection"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.00 .16",
+      "description": "DHW tank temperature sensor not connected",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the operation of the sensor",
+        "Check the sensor/PCB connection",
+        "When removing a domestic hot water tank, set parameter DP150=1"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "DHW tank temperature sensor",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "DHW",
+        "tank",
+        "temperature sensor",
+        "disconnected",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": null,
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.00 .16 DHW tank temperature sensor not connected SENSOR OPEN Check the operation of the sensor Check the sensor/PCB connection parameter DP150=1 When removing a domestic hot water tank, set"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.00 .17",
+      "description": "DHW tank temperature sensor short-circuited",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the operation of the sensor",
+        "Check the sensor/PCB connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "DHW tank temperature sensor",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "DHW",
+        "tank",
+        "temperature sensor",
+        "short circuited",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": null,
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.00 .17 DHW tank temperature sensor short-circuited SENSOR CLOSED Check the operation of the sensor Check the sensor/PCB connection"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.00 .20",
+      "description": "The flue gas temperature sensor is not connected or measured a temperature below the range",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the operation of the sensor",
+        "Check the sensor/PCB connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flue gas temperature sensor",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flue gas",
+        "temperature sensor",
+        "disconnected",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": null,
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.00 .20 The flue gas temperature sensor is not connected or measured a temperature below the range SENSOR OPEN Check the operation of the sensor Check the sensor/PCB connection"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.00 .21",
+      "description": "The flue gas temperature sensor has short-circuited or measured a temperature above the range",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the operation of the sensor",
+        "Check the sensor/PCB connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flue gas temperature sensor",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flue gas",
+        "temperature sensor",
+        "short circuited",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": null,
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.00 .21 The flue gas temperature sensor has short-circuited or measured a temperature above the range SENSOR CLOSED Check the operation of the sensor Check the sensor/PCB connection"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.01 .04",
+      "description": "Flame loss detected five times in 24 hours",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the gas supply pressure",
+        "Check the gas valve calibration",
+        "Check the electrode connection and wiring",
+        "Check the condition of the electrode",
+        "Check the air intake and flue gas exhaust pipes",
+        "Check the cleanliness of the exchanger",
+        "Check the power supply voltage"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas supply",
+        "gas valve",
+        "electrode",
+        "flue gas pipes",
+        "exchanger"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame loss",
+        "gas",
+        "electrode",
+        "flue",
+        "heat exchanger",
+        "power supply"
+      ],
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": null,
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.01 .04 Flame loss detected five times in 24 hours GAS SUPPLY Check the gas supply pressure Check the gas valve calibration ELECTRODE PROBLEM Check the electrode connection and wiring Check the condition of the electrode FLUE GAS PIPES Check the air intake and flue gas exhaust pipes EXCHANGER ON FLUE GAS SIDE BLOCKED Check the cleanliness of the exchanger MAINS VOLTAGE Check the power supply voltage"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.01 .12",
+      "description": "Temperature measured by return sensor greater than flow temperature",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check that the sensors are positioned the correct way around",
+        "Check that the flow sensor is in the correct position",
+        "Check the return temperature in the boiler",
+        "Check the operation of the sensors"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "return sensor",
+        "flow sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature",
+        "sensor",
+        "flow",
+        "return"
+      ],
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": null,
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.01 .12 Temperature measured by return sensor greater than flow temperature SENSOR/CONNECTION PROBLEM Check that the sensors are positioned the correct way around Check that the flow sensor is in the correct position Check the return temperature in the boiler Check the operation of the sensors"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.01 .17",
+      "description": "No water circulation (permanent)",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the installation pressure",
+        "Activate a manual venting cycle",
+        "Check the operation of the pump",
+        "Check the boiler/installation circulation",
+        "Check the operation of the temperature sensors",
+        "Check the temperature sensor connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "temperature sensors"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water circulation",
+        "pressure",
+        "venting",
+        "pump",
+        "temperature sensors"
+      ],
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": null,
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.01 .17 No water circulation (permanent) INSUFFICIENT CIRCULATION Check the installation pressure Activate a manual venting cycle Check the operation of the pump Check the boiler/installation circulation SENSOR ERROR Check the operation of the temperature sensors Check the temperature sensor connection"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.01 .20",
+      "description": "Maximum flue gas temperature reached",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the cleanliness of the exchanger"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "exchanger"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flue gas",
+        "temperature",
+        "heat exchanger"
+      ],
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": null,
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.01 .20 Maximum flue gas temperature reached EXCHANGER ON FLUE GAS SIDE BLOCKED Check the cleanliness of the exchanger"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.02 .13",
+      "description": "Total stoppage of the boiler (antifreeze function not active)",
+      "possible_causes": [
+        "Contact X15 open, check connected devices",
+        "Parameter configuration error: Check setting AP001"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "stoppage",
+        "antifreeze",
+        "connection",
+        "configuration"
+      ],
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": null,
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.02 .13 Total stoppage of the boiler (antifreeze function not active) SIGNAL INDICATING BLOCKING INPUT Contact X15 open, check connected devices Parameter configuration error: Check setting AP001"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.02 .17",
+      "description": "Permanent communication failure between gas valve and boiler PCB",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check for any electromagnetic interference",
+        "Replace the main PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve",
+        "boiler PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "gas valve",
+        "PCB",
+        "interference"
+      ],
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": null,
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.02 .17 Permanent communication failure between gas valve and boiler PCB MAIN PCB ERROR Check for any electromagnetic interference Replace the main PCB"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.02 .35",
+      "description": "Critical safety device disconnected",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Start the auto-detect function (parameter AD)",
+        "Check the devices connected to contact X9"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "safety device",
+        "disconnected",
+        "auto-detect",
+        "connection"
+      ],
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": null,
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.02 .35 Critical safety device disconnected COMMUNICATION FAULT Start the auto-detect function (parameter AD) Check the devices connected to contact X9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.02 .39",
+      "description": "Minimum pressure not reached after 6 minutes of automatic filling",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check automatic filling is working (if fitted)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure",
+        "filling",
+        "automatic filling"
+      ],
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": null,
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.02 .39 Minimum pressure not reached after 6 minutes of automatic filling Check automatic filling is working (if fitted)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.02 .47",
+      "description": "Connection to external device unsuccessful",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Start the auto-detect function (parameter AD)",
+        "Check the electrical connections of external devices."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "connection",
+        "external device",
+        "auto-detect",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 52,
+          "section_title": null,
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.02 .47 Connection to external device unsuccessful ELECTRICAL CONNECTION ERROR Start the auto-detect function (parameter AD) Check the electrical connections of external devices."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.04 .01",
+      "description": "Flow temperature sensor short circuited",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the sensor/PCB connection",
+        "Check the operation of the sensor"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flow temperature sensor",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow temperature sensor",
+        "short circuited",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "E.04 .01 Flow temperature sensor short circuited SENSOR/CONNECTION PROBLEM Check the sensor/PCB connection Check the operation of the sensor"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.04 .02",
+      "description": "Flow temperature sensor disconnected",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the sensor/PCB connection",
+        "Check the operation of the sensor"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flow temperature sensor",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow temperature sensor",
+        "disconnected",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "E.04 .02 Flow temperature sensor disconnected SENSOR/CONNECTION PROBLEM Check the sensor/PCB connection Check the operation of the sensor"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.04 .03",
+      "description": "Maximum flow temperature exceeded or flow temperature sensor short circuited",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the boiler/installation circulation",
+        "Activate a manual venting cycle",
+        "Check the operation of the sensors"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flow temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow temperature",
+        "sensor",
+        "circulation",
+        "venting"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "E.04 .03 Maximum flow temperature exceeded or flow temperature sensor short circuited INSUFFICIENT CIRCULATION Check the boiler/installation circulation Activate a manual venting cycle Check the operation of the sensors"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.04 .08",
+      "description": "Maximum safe temperature value reached",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the pressure in the installation",
+        "Switch on the manual de-aeration function",
+        "Check that the pump is working",
+        "Check the circulation in the boiler/installation",
+        "Check the safety thermostat connection",
+        "Check that the safety thermostat is working correctly"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "safety thermostat"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature",
+        "pressure",
+        "de-aeration",
+        "pump",
+        "circulation",
+        "safety thermostat"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "E.04 .08 Maximum safe temperature value reached INSUFFICIENT CIRCULATION Check the pressure in the installation Switch on the manual de-aeration function Check that the pump is working Check the circulation in the boiler/installation OTHER POSSIBLE CAUSES Check the safety thermostat connection Check that the safety thermostat is working correctly"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.04 .10",
+      "description": "Burner failed to ignite after 4 attempts",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the gas supply pressure",
+        "Check the gas valve electrical connection",
+        "Check the gas valve calibration",
+        "Check the operation of the gas valve",
+        "Check the electrode electrical connections",
+        "Check the electrode condition",
+        "Check the operation of the fan",
+        "Check the condition of the flue gas exhaust (blockages)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas supply",
+        "gas valve",
+        "electrode",
+        "fan",
+        "flue gas exhaust"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "burner",
+        "ignition",
+        "gas",
+        "electrode",
+        "fan",
+        "flue"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "E.04 .10 Burner failed to ignite after 4 attempts GAS SUPPLY Check the gas supply pressure Check the gas valve electrical connection Check the gas valve calibration Check the operation of the gas valve ELECTRODE PROBLEM Check the electrode electrical connections Check the electrode condition OTHER CAUSES Check the operation of the fan Check the condition of the flue gas exhaust (blockages)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.04 .12",
+      "description": "Ignition failure -flame monitoring",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the earth circuit",
+        "Check the power supply voltage",
+        "Check the electrode conditions"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electrode"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition",
+        "flame monitoring",
+        "earth circuit",
+        "power supply",
+        "electrode"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "E.04 .12 Ignition failure -flame monitoring Check the earth circuit Check the power supply voltage Check the electrode conditions"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.04 .13",
+      "description": "Fan impeller blocked or maximum rpm exceeded",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the PCB-fan connection",
+        "Check the fan operation"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "fan",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan",
+        "impeller",
+        "rpm",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "E.04 .13 Fan impeller blocked or maximum rpm exceeded FAN/PCB PROBLEM Check the PCB-fan connection Check the fan operation"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.04 .17",
+      "description": "Fault in gas valve control circuit",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the electrical connections for the gas valve",
+        "Replace the main PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve",
+        "main PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "control circuit",
+        "electrical connection",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "E.04 .17 Fault in gas valve control circuit MAIN PCB ERROR Check the electrical connections for the gas valve Replace the main PCB"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.04 .18",
+      "description": "The flow temperature is below the minimum temperature or the flow temperature sensor is not connected",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the sensor/PCB connection",
+        "Check the operation of the sensor"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flow temperature sensor",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow temperature",
+        "sensor",
+        "disconnected",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "E.04 .18 The flow temperature is below the minimum temperature or the flow temperature sensor is not connected SENSOR/CONNECTION PROBLEM Check the sensor/PCB connection Check the operation of the sensor"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.04 .23",
+      "description": "Communication internal stoppage",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Switch the power supply off and on again and then RESET"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "stoppage",
+        "reset"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "E.04 .23 Communication internal stoppage Switch the power supply off and on again and then RESET"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.04 .254",
+      "description": "Fault in gas valve control circuit",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the electrical connections",
+        "Switch the power supply off and on again and then RESET"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "control circuit",
+        "electrical connection",
+        "reset"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "E.04 .254 Fault in gas valve control circuit MAIN PCB ERROR Check the electrical connections Switch the power supply off and on again and then RESET"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.04 .29",
+      "description": "Communication internal stoppage",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the wiring on the gas valve"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "stoppage",
+        "gas valve",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "E.04 .29 Communication internal stoppage Check the wiring on the gas valve"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "E.04 .54",
+      "description": "Fault in gas valve control circuit",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Replace the gas valve or PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "control circuit",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": null,
+          "table_title": "Boiler display",
+          "source_quote": "E.04 .54 Fault in gas valve control circuit Replace the gas valve or PCB"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "diagnostic_codes": [
+    {
+      "code": "AP073",
+      "description": "Average external temperature [°C] when switching from summer/winter mode (with outside sensor)",
+      "value_range": "10-30",
+      "default_value": "22",
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "List of parameters",
+          "table_title": null,
+          "source_quote": "AP073 Average external temperature [°C] when switching from summer/winter mode (with outside sensor) 22 10 30 User"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "AP079",
+      "description": "Building insulation level (with outside sensor) (0: Poorly insulated building, 15: Well insulated building)",
+      "value_range": "0-15",
+      "default_value": "3",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "List of parameters",
+          "table_title": null,
+          "source_quote": "AP079 Building insulation level (with outside sensor) 0: Poorly insulated building 15: Well insulated building 3 0 15 Installer"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "CP000",
+      "description": "Max. settable heating setpoint temperature [°C]",
+      "value_range": "25-80",
+      "default_value": "80",
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "List of parameters",
+          "table_title": null,
+          "source_quote": "CP000 Max. settable heating setpoint temperature [°C] 80 25 80 Installer"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "CP020",
+      "description": "Zone function (0: Disabled, 1: Enabled)",
+      "value_range": null,
+      "default_value": "1",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "List of parameters",
+          "table_title": null,
+          "source_quote": "CP020 Zone function 0: Disabled 1: Enabled 1 - - Installer"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "CP210",
+      "description": "Comfort mode heating curve offset (with outside sensor)",
+      "value_range": "15-90",
+      "default_value": "15",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "List of parameters",
+          "table_title": null,
+          "source_quote": "CP210 Comfort mode heating curve offset (with outside sensor) 15 15 90 Installer"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "CP230",
+      "description": "Heating curve slope (with outside sensor)",
+      "value_range": "0-4",
+      "default_value": "1.5",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "List of parameters",
+          "table_title": null,
+          "source_quote": "CP230 Heating curve slope (with outside sensor) 1.5 0 4 Installer"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "CP470",
+      "description": "Number of days required for the screed drying program",
+      "value_range": "0-30",
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "List of parameters",
+          "table_title": null,
+          "source_quote": "CP470 Number of days required for the screed drying program 0 0 30 Installer"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "CP480",
+      "description": "Screed drying starting temperature [°C]",
+      "value_range": "20-50",
+      "default_value": "20",
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "List of parameters",
+          "table_title": null,
+          "source_quote": "CP480 Screed drying starting temperature [°C] 20 20 50 Installer"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "CP490",
+      "description": "Screed drying stop temperature [°C]",
+      "value_range": "20-50",
+      "default_value": "20",
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "List of parameters",
+          "table_title": null,
+          "source_quote": "CP490 Screed drying stop temperature [°C] 20 20 50 Installer"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "CP780",
+      "description": "Zone control strategy selection (0: Automatic, 1: Room Temp. based, 2: Outdoor Temp. based, 3: Outdoor & room based)",
+      "value_range": null,
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "List of parameters",
+          "table_title": null,
+          "source_quote": "CP780 Zone control strategy selection 0: Automatic 1: Room Temp. based 2: Outdoor Temp. based 3: Outdoor & room based 0 - - Installer"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "AM001",
+      "description": "DHW (Domestic Hot Water) mode enabled (0: Disabled, 1: Enabled)",
+      "value_range": "0/1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 54,
+          "section_title": "Reading out measured values",
+          "table_title": "Read-only list of operating parameters",
+          "source_quote": "AM001 DHW (Domestic Hot Water) mode enabled (0: Disabled, 1: Enabled) 0/1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "AM010",
+      "description": "Pump speed (0 ÷ 100%)",
+      "value_range": "0-100",
+      "default_value": null,
+      "unit": "%",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 54,
+          "section_title": "Reading out measured values",
+          "table_title": "Read-only list of operating parameters",
+          "source_quote": "AM010 Pump speed (0 ÷ 100%) %"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "AM011",
+      "description": "Service required (0: Disabled, 1: Enabled)",
+      "value_range": "0/1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 54,
+          "section_title": "Reading out measured values",
+          "table_title": "Read-only list of operating parameters",
+          "source_quote": "AM011 Service required (0: Disabled, 1: Enabled) 0/1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "AM012",
+      "description": "Status of appliance",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 54,
+          "section_title": "Reading out measured values",
+          "table_title": "Read-only list of operating parameters",
+          "source_quote": "AM012 Status of appliance List of statuses"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "AM014",
+      "description": "Sub Status of appliance",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 54,
+          "section_title": "Reading out measured values",
+          "table_title": "Read-only list of operating parameters",
+          "source_quote": "AM014 Sub Status of appliance List of sub-statuses"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "AM015",
+      "description": "Pump operation (0: Disabled, 1: Enabled)",
+      "value_range": "0/1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 54,
+          "section_title": "Reading out measured values",
+          "table_title": "Read-only list of operating parameters",
+          "source_quote": "AM015 Pump operation (0: Disabled, 1: Enabled) 0/1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "AM016",
+      "description": "Flow temperature",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 54,
+          "section_title": "Reading out measured values",
+          "table_title": "Read-only list of operating parameters",
+          "source_quote": "AM016 Flow temperature °C"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": true
+    }
+  ],
+  "status_codes": [],
+  "safety_warnings": [],
+  "maintenance_tasks": [],
+  "search_terms": [],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.0,
+    "review_required": true,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+      "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+    ]
+  }
+}

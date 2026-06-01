@@ -1,183 +1,277 @@
-import { PrismaClient, Role, JobStatus } from '@prisma/client';
+import { PrismaClient, UserRole, JobStatus, JobPriority, SyncAction, SyncResult } from '../src/generated/prisma/client';
+import { PrismaPg } from '@prisma/adapter-pg';
+import { z } from 'zod';
 import { config as dotenvConfig } from 'dotenv';
-import { existsSync } from 'fs';
 import { join } from 'path';
+import { existsSync } from 'fs';
 
-// Ensure DATABASE_URL is available when running from the repo root.
-const envPath = join(process.cwd(), 'apps', 'api', '.env');
+// Load .env manually — seed runs outside NestJS, no ConfigModule available
+const envPath = join(process.cwd(), '../../.env');
 if (existsSync(envPath)) {
   dotenvConfig({ path: envPath });
 }
 
-const prisma = new PrismaClient();
+// Validate required env vars before Prisma initialises
+const EnvSchema = z.object({
+  DATABASE_URL: z.url('DATABASE_URL must be a valid URL'),
+  DIRECT_URL:   z.url('DIRECT_URL must be a valid URL'),
+});
+
+EnvSchema.parse(process.env);
+
+const prisma = new PrismaClient({
+  adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
+});
+
+// ─────────────────────────────────────────
+// SEED DATA
+// ─────────────────────────────────────────
 
 const SEED = {
-  users: {
-    technician: {
-      id: '11111111-1111-1111-1111-111111111111',
-      email: 'tech@a3service.local',
-      passwordHash: 'seed-tech-not-a-real-hash',
-      fullName: 'Seed Technician',
-      role: Role.TECHNICIAN,
+  users: [
+    {
+      id:                 '0197f8a0-0001-7000-8000-000000000001',
+      username:           'alic.kovac',
+      email:              'alic.kovac@a3service.ba',
+      passwordHash:       '$2b$10$placeholderHashForSeedDataOnly.AAAAAAAAAAAAAAAAAAAAAA',
+      role:               UserRole.MANAGER,
+      languagePreference: 'bs',
+      profile: {
+        specialization:    'HVAC Systems Management',
+        yearsExperience:   12,
+        certificateNumber: 'BA-MGR-2014-0042',
+        bio:               'Senior manager with 12 years in commercial HVAC.',
+      },
     },
-    manager: {
-      id: '22222222-2222-2222-2222-222222222222',
-      email: 'manager@a3service.local',
-      passwordHash: 'seed-manager-not-a-real-hash',
-      fullName: 'Seed Manager',
-      role: Role.MANAGER,
+    {
+      id:                 '0197f8a0-0001-7000-8000-000000000002',
+      username:           'emir.basic',
+      email:              'emir.basic@a3service.ba',
+      passwordHash:       '$2b$10$placeholderHashForSeedDataOnly.AAAAAAAAAAAAAAAAAAAAAA',
+      role:               UserRole.TECHNICIAN,
+      languagePreference: 'bs',
+      profile: {
+        specialization:    'Boiler Installation & Repair',
+        yearsExperience:   7,
+        certificateNumber: 'BA-TECH-2018-0117',
+        bio:               'Certified boiler technician, residential and commercial.',
+      },
     },
-  },
-  client: {
-    id: '33333333-3333-3333-3333-333333333333',
-    name: 'Seed Client',
-    phone: '555-0100',
-    address: '123 Seed St, Test City',
-    latitude: 40.7128,
-    longitude: -74.006,
-  },
-  jobs: {
-    job1: {
-      id: '44444444-4444-4444-4444-444444444444',
-      title: 'Seed Job 1 - HVAC Inspection',
-      scheduledAt: new Date('2026-04-06T15:30:00.000Z'),
-      durationMinutes: 60,
-      status: JobStatus.SCHEDULED,
-      notes: 'Seeded job for testing',
-      latitude: 40.7128,
-      longitude: -74.006,
+    {
+      id:                 '0197f8a0-0001-7000-8000-000000000003',
+      username:           'nina.hadzic',
+      email:              'nina.hadzic@a3service.ba',
+      passwordHash:       '$2b$10$placeholderHashForSeedDataOnly.AAAAAAAAAAAAAAAAAAAAAA',
+      role:               UserRole.TECHNICIAN,
+      languagePreference: 'bs',
+      profile: {
+        specialization:    'Preventive Maintenance',
+        yearsExperience:   4,
+        certificateNumber: 'BA-TECH-2021-0089',
+        bio:               'Specialist in scheduled maintenance and fault diagnostics.',
+      },
     },
-    job2: {
-      id: '55555555-5555-5555-5555-555555555555',
-      title: 'Seed Job 2 - Replace Thermostat',
-      scheduledAt: new Date('2026-04-07T14:00:00.000Z'),
-      durationMinutes: 90,
-      status: JobStatus.PENDING,
-      notes: 'Second seeded job for testing',
-      latitude: 40.7139,
-      longitude: -74.005,
+  ],
+
+  clients: [
+    {
+      id:    '0197f8a0-0002-7000-8000-000000000001',
+      name:  'Termograd d.o.o.',
+      email: 'kontakt@termograd.ba',
+      phone: '+38761100200',
+      sites: [
+        {
+          id:                 '0197f8a0-0003-7000-8000-000000000001',
+          rawAddress:         'Ul. Mustafe Pintola 2, 71000 Sarajevo',
+          latitude:           43.8563,
+          longitude:          18.4131,
+          accessInstructions: 'Kod portira na ulazu, pitati za tehničku sobu B2.',
+        },
+      ],
     },
-  },
+    {
+      id:    '0197f8a0-0002-7000-8000-000000000002',
+      name:  'Toplana Zenica d.d.',
+      email: 'servis@toplana-zenica.ba',
+      phone: '+38732401500',
+      sites: [
+        {
+          id:                 '0197f8a0-0003-7000-8000-000000000002',
+          rawAddress:         'Bulevar Kralja Tvrtka I 14, 72000 Zenica',
+          latitude:           44.2028,
+          longitude:          17.9078,
+          accessInstructions: 'Prijaviti se na recepciji, pratiti oznake prema kotlarnici.',
+        },
+        {
+          id:                 '0197f8a0-0003-7000-8000-000000000003',
+          rawAddress:         'Ul. Zmaja od Bosne 3, 72000 Zenica',
+          latitude:           44.1985,
+          longitude:          17.9134,
+          accessInstructions: null,
+        },
+      ],
+    },
+  ],
+
+  jobs: [
+    {
+      id:                '0197f8a0-0004-7000-8000-000000000001',
+      siteId:            '0197f8a0-0003-7000-8000-000000000001',
+      technicianId:      '0197f8a0-0001-7000-8000-000000000002',
+      managerId:         '0197f8a0-0001-7000-8000-000000000001',
+      rawAddress:        'Ul. Mustafe Pintola 2, 71000 Sarajevo',
+      scheduledDate:     new Date('2026-05-06T08:00:00.000Z'),
+      status:            JobStatus.PENDING,
+      priority:          JobPriority.ROUTINE,
+      estimatedDuration: 120,
+      notes:             'Godišnji servis kotla — provjera filtera i brener.',
+    },
+    {
+      id:                '0197f8a0-0004-7000-8000-000000000002',
+      siteId:            '0197f8a0-0003-7000-8000-000000000002',
+      technicianId:      '0197f8a0-0001-7000-8000-000000000002',
+      managerId:         '0197f8a0-0001-7000-8000-000000000001',
+      rawAddress:        'Bulevar Kralja Tvrtka I 14, 72000 Zenica',
+      scheduledDate:     new Date('2026-05-07T09:00:00.000Z'),
+      status:            JobStatus.IN_PROGRESS,
+      priority:          JobPriority.URGENT,
+      estimatedDuration: 240,
+      actualStartTime:   new Date('2026-05-07T09:12:00.000Z'),
+      notes:             'Kvar na ekspanzijskoj posudi — hitna intervencija.',
+    },
+    {
+      id:                '0197f8a0-0004-7000-8000-000000000003',
+      siteId:            '0197f8a0-0003-7000-8000-000000000003',
+      technicianId:      '0197f8a0-0001-7000-8000-000000000003',
+      managerId:         '0197f8a0-0001-7000-8000-000000000001',
+      rawAddress:        'Ul. Zmaja od Bosne 3, 72000 Zenica',
+      scheduledDate:     new Date('2026-05-08T10:00:00.000Z'),
+      status:            JobStatus.PENDING,
+      priority:          JobPriority.MAINTENANCE,
+      estimatedDuration: 90,
+      notes:             'Redovni pregled — čišćenje izmjenjivača topline.',
+    },
+    {
+      id:                '0197f8a0-0004-7000-8000-000000000004',
+      siteId:            '0197f8a0-0003-7000-8000-000000000001',
+      technicianId:      '0197f8a0-0001-7000-8000-000000000003',
+      managerId:         '0197f8a0-0001-7000-8000-000000000001',
+      rawAddress:        'Ul. Mustafe Pintola 2, 71000 Sarajevo',
+      scheduledDate:     new Date('2026-04-28T08:00:00.000Z'),
+      status:            JobStatus.COMPLETED,
+      priority:          JobPriority.ROUTINE,
+      estimatedDuration: 60,
+      actualStartTime:   new Date('2026-04-28T08:05:00.000Z'),
+      actualEndTime:     new Date('2026-04-28T09:10:00.000Z'),
+      notes:             'Zamjena filtera — završeno bez problema.',
+    },
+  ],
+
+  serviceLogs: [
+    {
+      id:    '0197f8a0-0005-7000-8000-000000000001',
+      jobId: '0197f8a0-0004-7000-8000-000000000004',
+    },
+  ],
+
+  syncLogs: [
+    {
+      id:             '0197f8a0-0006-7000-8000-000000000001',
+      idempotencyKey: 'seed-sync-1',
+      action:         SyncAction.UPLOAD,
+      affectedEntity: 'Job',
+      affectedId:     '0197f8a0-0004-7000-8000-000000000004',
+      result:         SyncResult.SUCCESS,
+      jobId:          '0197f8a0-0004-7000-8000-000000000004',
+    },
+    {
+      id:              '0197f8a0-0006-7000-8000-000000000002',
+      idempotencyKey:  'seed-sync-2',
+      action:          SyncAction.UPLOAD,
+      affectedEntity:  'Job',
+      affectedId:      '0197f8a0-0004-7000-8000-000000000002',
+      result:          SyncResult.FAIL,
+      conflictDetails: { reason: 'Network timeout during field sync', retryable: true },
+      jobId:           '0197f8a0-0004-7000-8000-000000000002',
+    },
+  ],
 } as const;
 
+// ─────────────────────────────────────────
+// MAIN
+// ─────────────────────────────────────────
+
 async function main() {
-  const technician = await prisma.user.upsert({
-    where: { email: SEED.users.technician.email },
-    update: {
-      fullName: SEED.users.technician.fullName,
-      role: SEED.users.technician.role,
-      passwordHash: SEED.users.technician.passwordHash,
-    },
-    create: {
-      id: SEED.users.technician.id,
-      email: SEED.users.technician.email,
-      passwordHash: SEED.users.technician.passwordHash,
-      fullName: SEED.users.technician.fullName,
-      role: SEED.users.technician.role,
-    },
-  });
+  console.log('🌱 Seeding database...');
 
-  await prisma.user.upsert({
-    where: { email: SEED.users.manager.email },
-    update: {
-      fullName: SEED.users.manager.fullName,
-      role: SEED.users.manager.role,
-      passwordHash: SEED.users.manager.passwordHash,
-    },
-    create: {
-      id: SEED.users.manager.id,
-      email: SEED.users.manager.email,
-      passwordHash: SEED.users.manager.passwordHash,
-      fullName: SEED.users.manager.fullName,
-      role: SEED.users.manager.role,
-    },
-  });
+  // 1. Users + Profiles
+  for (const { profile, ...userData } of SEED.users) {
+    await prisma.user.upsert({
+      where:  { id: userData.id },
+      update: {},
+      create: {
+        ...userData,
+        profile: { create: profile },
+      },
+    });
+  }
+  console.log(`✔ Users (${SEED.users.length})`);
 
-  const client = await prisma.client.upsert({
-    where: { id: SEED.client.id },
-    update: {
-      name: SEED.client.name,
-      phone: SEED.client.phone,
-      address: SEED.client.address,
-      latitude: SEED.client.latitude,
-      longitude: SEED.client.longitude,
-    },
-    create: {
-      id: SEED.client.id,
-      name: SEED.client.name,
-      phone: SEED.client.phone,
-      address: SEED.client.address,
-      latitude: SEED.client.latitude,
-      longitude: SEED.client.longitude,
-    },
-  });
+  // 2. Clients + Sites
+  for (const { sites, ...clientData } of SEED.clients) {
+    await prisma.client.upsert({
+      where:  { id: clientData.id },
+      update: {},
+      create: clientData,
+    });
 
-  await prisma.job.upsert({
-    where: { id: SEED.jobs.job1.id },
-    update: {
-      title: SEED.jobs.job1.title,
-      scheduledAt: SEED.jobs.job1.scheduledAt,
-      durationMinutes: SEED.jobs.job1.durationMinutes,
-      status: SEED.jobs.job1.status,
-      notes: SEED.jobs.job1.notes,
-      latitude: SEED.jobs.job1.latitude,
-      longitude: SEED.jobs.job1.longitude,
-      technicianId: technician.id,
-      clientId: client.id,
-    },
-    create: {
-      id: SEED.jobs.job1.id,
-      title: SEED.jobs.job1.title,
-      scheduledAt: SEED.jobs.job1.scheduledAt,
-      durationMinutes: SEED.jobs.job1.durationMinutes,
-      status: SEED.jobs.job1.status,
-      notes: SEED.jobs.job1.notes,
-      latitude: SEED.jobs.job1.latitude,
-      longitude: SEED.jobs.job1.longitude,
-      technicianId: technician.id,
-      clientId: client.id,
-    },
-  });
+    for (const siteData of sites) {
+      await prisma.site.upsert({
+        where:  { id: siteData.id },
+        update: {},
+        create: { ...siteData, clientId: clientData.id },
+      });
+    }
+  }
+  console.log(`✔ Clients (${SEED.clients.length}) + Sites`);
 
-  await prisma.job.upsert({
-    where: { id: SEED.jobs.job2.id },
-    update: {
-      title: SEED.jobs.job2.title,
-      scheduledAt: SEED.jobs.job2.scheduledAt,
-      durationMinutes: SEED.jobs.job2.durationMinutes,
-      status: SEED.jobs.job2.status,
-      notes: SEED.jobs.job2.notes,
-      latitude: SEED.jobs.job2.latitude,
-      longitude: SEED.jobs.job2.longitude,
-      technicianId: technician.id,
-      clientId: client.id,
-    },
-    create: {
-      id: SEED.jobs.job2.id,
-      title: SEED.jobs.job2.title,
-      scheduledAt: SEED.jobs.job2.scheduledAt,
-      durationMinutes: SEED.jobs.job2.durationMinutes,
-      status: SEED.jobs.job2.status,
-      notes: SEED.jobs.job2.notes,
-      latitude: SEED.jobs.job2.latitude,
-      longitude: SEED.jobs.job2.longitude,
-      technicianId: technician.id,
-      clientId: client.id,
-    },
-  });
+  // 3. Jobs
+  for (const jobData of SEED.jobs) {
+    await prisma.job.upsert({
+      where:  { id: jobData.id },
+      update: {},
+      create: jobData,
+    });
+  }
+  console.log(`✔ Jobs (${SEED.jobs.length})`);
 
-  console.log('Seed complete');
-  console.log({
-    technicianId: technician.id,
-    clientId: client.id,
-    jobIds: [SEED.jobs.job1.id, SEED.jobs.job2.id],
-  });
+  // 4. ServiceLogs
+  for (const logData of SEED.serviceLogs) {
+    await prisma.serviceLog.upsert({
+      where:  { id: logData.id },
+      update: {},
+      create: logData,
+    });
+  }
+  console.log(`✔ ServiceLogs (${SEED.serviceLogs.length})`);
+
+  // 5. SyncLogs
+  for (const syncData of SEED.syncLogs) {
+    await prisma.syncLog.upsert({
+      where:  { id: syncData.id },
+      update: {},
+      create: syncData,
+    });
+  }
+  console.log(`✔ SyncLogs (${SEED.syncLogs.length})`);
+
+  console.log('✅ Seed complete.');
 }
 
 main()
-  .catch((e) => {
-    console.error(e);
-    process.exitCode = 1;
+  .catch((err) => {
+    console.error('❌ Seed failed:', err);
+    process.exit(1);
   })
   .finally(async () => {
     await prisma.$disconnect();

@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: a3service-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: a3service
+    ports:
+      - "5433:5432"
+    volumes:
+      - a3service-data:/var/lib/postgresql/data
+
+volumes:
+  a3service-data:

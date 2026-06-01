@@ -1,5 +1,5 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
-import { useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import {
   Platform,
   Pressable,
@@ -9,6 +9,9 @@ import {
   View,
 } from 'react-native';
 import MapView, { Marker, Polyline, PROVIDER_GOOGLE } from 'react-native-maps';
+import { useTranslation } from 'react-i18next';
+import { useAuth } from '../services/auth.service';
+import { API_URL, authJsonHeaders } from '../services/api.config';
 
 type JobOnMap = {
   id: string;
@@ -51,9 +54,59 @@ const JOBS_ON_MAP: JobOnMap[] = [
 ];
 
 export default function HomeScreen() {
+  const { t } = useTranslation();
+  const { token } = useAuth();
+  const [jobsOnMap, setJobsOnMap] = useState<JobOnMap[]>(JOBS_ON_MAP);
+
+  useEffect(() => {
+    if (!token) return;
+
+    (async () => {
+      try {
+        // Fetch jobs from backend
+        const res = await fetch(`${API_URL}/jobs`, {
+          method: 'GET',
+          headers: authJsonHeaders(token),
+        });
+
+        if (res.ok) {
+          const jobs = await res.json();
+          
+          // Transform backend jobs to map format
+          const mappedJobs = jobs
+            .filter((job: any) => job.siteId)
+            .map((job: any, index: number) => {
+              // For now, generate coordinates near current location
+              // In production, this would come from site data
+              const offsetLat = (Math.random() - 0.5) * 0.05;
+              const offsetLng = (Math.random() - 0.5) * 0.05;
+              
+              return {
+                id: String(job.id),
+                name: job.rawAddress || `Job #${job.id}`,
+                distanceMi: Math.round(Math.random() * 5 * 10) / 10,
+                coordinate: {
+                  latitude: CURRENT_LOCATION.latitude + offsetLat,
+                  longitude: CURRENT_LOCATION.longitude + offsetLng,
+                },
+                status: (job.status === 'IN_PROGRESS' ? 'active' : 'upcoming') as 'active' | 'upcoming',
+              };
+            });
+
+          if (mappedJobs.length > 0) {
+            setJobsOnMap(mappedJobs);
+          }
+        }
+      } catch (error) {
+        console.error('Failed to fetch jobs:', error);
+        // Keep mock data on error
+      }
+    })();
+  }, [token]);
+
   const nextJob = useMemo(
-    () => [...JOBS_ON_MAP].sort((a, b) => a.distanceMi - b.distanceMi)[0],
-    []
+    () => [...jobsOnMap].sort((a, b) => a.distanceMi - b.distanceMi)[0],
+    [jobsOnMap]
   );
 
   const routeCoordinates = useMemo(
@@ -79,19 +132,19 @@ export default function HomeScreen() {
           strokeWidth={6}
         />
 
-        <Marker
+            <Marker
           coordinate={CURRENT_LOCATION}
-          title="You"
-          description="Current location"
+          title={t('map.you')}
+          description={t('map.current_location')}
           pinColor="#2563eb"
         />
 
-        {JOBS_ON_MAP.map((job) => (
-          <Marker
+        {jobsOnMap.map((job) => (
+            <Marker
             key={job.id}
             coordinate={job.coordinate}
             title={job.name}
-            description={`${job.id} · ${job.status}`}
+            description={`${job.id} · ${t(`status.${job.status}`)}`}
             pinColor={job.status === 'active' ? '#dc2626' : '#f59e0b'}
           />
         ))}
@@ -103,7 +156,7 @@ export default function HomeScreen() {
             <View style={styles.homeIconWrap}>
               <Ionicons name="home-outline" size={16} color="#111827" />
             </View>
-            <Text style={styles.homeTitle}>Home</Text>
+            <Text style={styles.homeTitle}>{t('home.title')}</Text>
           </View>
 
           <View style={styles.destinationCard}>
@@ -112,7 +165,7 @@ export default function HomeScreen() {
             </View>
 
             <View style={styles.cardMainTextWrap}>
-              <Text style={styles.distanceText}>{nextJob.distanceMi.toFixed(1)} mi</Text>
+              <Text style={styles.distanceText}>{nextJob.distanceMi.toFixed(1)} {t('unit.mi')}</Text>
               <Text style={styles.placeNameText}>{nextJob.name}</Text>
             </View>
 
@@ -135,7 +188,7 @@ export default function HomeScreen() {
         </View>
 
         <View style={styles.bottomStatsCard}>
-          <Text style={styles.bottomStatsText}>{JOBS_ON_MAP.length} jobs visible on map</Text>
+          <Text style={styles.bottomStatsText}>{t('home.jobs_visible', { count: jobsOnMap.length })}</Text>
         </View>
       </View>
     </SafeAreaView>

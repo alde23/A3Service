@@ -1,0 +1,706 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Buderus",
+    "product_family": "Logano",
+    "model_names": [
+      "Logano G115 WS US/CA"
+    ],
+    "manual_type": "operating",
+    "document_title": "Operating Instructions Low-temperature oil boiler",
+    "document_code": "6 720 804 873 (2019/09) EN-US",
+    "publication_date": "2019/09",
+    "language": "en",
+    "region": "US/CA",
+    "source_file": "bosch_g115ws_operating-manual_6720804873-g115ws-operating-instructions-en-09-2019.pdf",
+    "file_hash": "1b3543a96c98ed73770b35af35f147aa9994979014477c4a388fafd793964369"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Design operating pressure (optimum setting)",
+      "value": "at least 15",
+      "unit": "psi",
+      "applies_to_models": [],
+      "category": "heating system pressure",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Checking the operating pressure",
+          "table_title": "Operating pressure (entered by system installer)",
+          "source_quote": "Your heating contractor will have set the system to the required operating pressure of at least 15 psi (1 bar) and entered the setting in Tab. 1, page 5."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Design operating pressure (optimum setting)",
+      "value": "1",
+      "unit": "bar",
+      "applies_to_models": [],
+      "category": "heating system pressure",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Checking the operating pressure",
+          "table_title": "Operating pressure (entered by system installer)",
+          "source_quote": "Your heating contractor will have set the system to the required operating pressure of at least 15 psi (1 bar) and entered the setting in Tab. 1, page 5."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heating system operating pressure (standard)",
+      "value": "30",
+      "unit": "psi",
+      "applies_to_models": [],
+      "category": "heating system pressure",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": null,
+          "table_title": "Operating pressure (entered by system installer)",
+          "source_quote": "Maximum heating system operating pressure (standard = 30 psi)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum flow temperature for filling",
+      "value": "100",
+      "unit": "°F",
+      "applies_to_models": [],
+      "category": "heating system temperature",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Topping up the boiler water and bleeding the system",
+          "table_title": null,
+          "source_quote": "Only fill the heating system when cold (the flow temperature should be no more than 100 °F)."
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "Burner fault",
+      "description": "Burner fault indicated by the fault indicator lamp on the burner.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Press reset button on burner."
+      ],
+      "cautions_or_notes": [
+        "Always follow the burner manufacturer's instructions.",
+        "Too many resets can damage the burner's ignition transformer.",
+        "Do not press the reset button more than three times in a row.",
+        "If the fault does not reset after the third attempt, localize and rectify the fault with the help of the burner documentation.",
+        "Notify a service contractor if necessary."
+      ],
+      "symptoms": [
+        "Fault indicator lamp on the burner comes on"
+      ],
+      "related_components": [
+        "Burner",
+        "Ignition transformer"
+      ],
+      "severity": "unknown",
+      "safety_level": "caution",
+      "search_tags": [
+        "burner",
+        "reset",
+        "ignition",
+        "transformer"
+      ],
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Identifying operating modes and resetting faults",
+          "table_title": null,
+          "source_quote": "If there is a burner fault the fault indicator lamp on the burner comes on (→ burner documentation). Such faults can generally be reset by pressing the reset button on the burner."
+        },
+        {
+          "page_number": 7,
+          "section_title": "Correcting burner faults",
+          "table_title": null,
+          "source_quote": "Press reset button on burner."
+        },
+        {
+          "page_number": 7,
+          "section_title": "Correcting burner faults",
+          "table_title": null,
+          "source_quote": "CAUTION: Risk of system damage due to too many resets. Always follow the burner manufacturer's instructions. Too many resets can damage the bur-ner's ignition transformer. Do not press the reset button more than three times in a row. If the fault does not reset after the third attempt, localize and rectify the fault with the help of the burner documentation. Notify a service contractor if necessary."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "Control and heating system faults",
+      "description": "Faults indicated on the control unit display.",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [
+        "More detailed information can be found in the controls' documentation."
+      ],
+      "symptoms": [
+        "Indicated on the control unit display"
+      ],
+      "related_components": [
+        "Control unit"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "control unit",
+        "display",
+        "fault"
+      ],
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Identifying operating modes and resetting faults",
+          "table_title": null,
+          "source_quote": "Controls and heating system faults are indicated on the control unit display if it has one. More detailed information can be found in the controls' documentation."
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "code": "Blocked vent switch (WMO) tripped",
+      "description": "The blocked vent switch (WMO) has interrupted the burner due to an obstructed flue gas pipe.",
+      "possible_causes": [
+        "Obstructed flue gas pipe"
+      ],
+      "manufacturer_steps": [
+        "Call your boiler service technician if you suspect the WMO may have tripped."
+      ],
+      "cautions_or_notes": [
+        "Canadian installations of this boiler are required to be equipped with a blocked vent switch (WMO)."
+      ],
+      "symptoms": [
+        "Burner interrupted"
+      ],
+      "related_components": [
+        "Blocked vent switch (WMO)",
+        "Flue gas pipe",
+        "Burner"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "WMO",
+        "vent switch",
+        "flue gas",
+        "obstruction",
+        "Canada"
+      ],
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Canadian installations of this boiler are required to be equipped with a blocked vent switch (WMO) that interrupts the burner in case of an obstructed flue gas pipe. Call your boiler service technician if you suspect the WMO may have tripped."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "diagnostic_codes": [],
+  "status_codes": [],
+  "safety_warnings": [
+    {
+      "warning_type": "danger",
+      "topic": "Fire or explosion",
+      "text": "If these instructions are not followed exactly, a fire or explosion may be caused with serious property damage or loss of life and serious injury. Do not store or use gasoline or any other flammable liquids or vapors in the vicinity of this system or any other heating system.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "DANGER! If these instructions are not followed exactly, a fire or explosion may be caused with serious property damage or loss of life and serious injury. Do not store or use gasoline or any other flammable liquids or vapors in the vicinity of this system or any other heating system."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Property damage",
+      "text": "Caution indicates that minor damage to property may occur.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Explanation of symbols",
+          "table_title": null,
+          "source_quote": "Caution indicates that minor damage to property may occur."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Personal injury or property damage",
+      "text": "Warning indicates that minor personal injury or severe damage to property may occur.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Explanation of symbols",
+          "table_title": null,
+          "source_quote": "Warning indicates that minor personal injury or severe damage to property may occur."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Severe personal injury or death",
+      "text": "Danger means that severe personal injury may occur. Very serious cases may result in death.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Explanation of symbols",
+          "table_title": null,
+          "source_quote": "Danger means that severe personal injury may occur. Very serious cases may result in death."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Flue gas smell",
+      "text": "If you smell flue gas: Switch off the boiler (→ page 6). Open windows and doors. Inform an authorized heating contractor.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Safety instructions",
+          "table_title": null,
+          "source_quote": "If you smell flue gas\n► Switch off the boiler (→ page 6).\n► Open windows and doors.\n► Inform an authorized heating contractor."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Installation",
+      "text": "Correct and proper installation and adjustment of the burner and the controls are the fundamental requirements for safe and economical operation of the boiler. The boiler may only be installed or converted by an approved heating contractor. Do not modify any parts that carry flue gas. The hot water tank may only be used for heating domestic hot water. Never shut off safety valves! Water must be able to escape from the safety valve for the hot water system and piping when the water is being heated.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Safety instructions",
+          "table_title": null,
+          "source_quote": "Installation\n► Correct and proper installation and adjustment of the burner and the controls are the fundamental requirements for safe and economical operation of the boiler.\n► The boiler may only be installed or converted by an approved heating contractor.\n► Do not modify any parts that carry flue gas.\n► The hot water tank may only be used for heating domestic hot water.\n► Never shut off safety valves! Water must be able to escape from the safety valve for the hot water system and piping when the water is being heated."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Servicing and repairs",
+      "text": "Servicing and repairs may only be carried out by a trained heating contractor. Have any faults immediately corrected in order to prevent damage to the system. The operator is responsible for the general and environmental safety of the heating system. Use only genuine Buderus spare parts. Damage caused by the use of parts not supplied by Buderus is not covered by the Buderus warranty.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Safety instructions",
+          "table_title": null,
+          "source_quote": "Recommendation for users:\n► Servicing and repairs may only be carried out by a trained heating contractor.\n► Have any faults immediately corrected in order to prevent damage to the system.\n► The operator is responsible for the general and environmental safety of the heating system.\n► Use only genuine Buderus spare parts. Damage caused by the use of parts not supplied by Buderus is not covered by the Buderus warranty."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Emergency (fire)",
+      "text": "Never put yourself at risk. Your own safety must always take the highest priority.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Safety instructions",
+          "table_title": null,
+          "source_quote": "Danger by failing to consider your own safety in an emergency such as a fire\n► Never put yourself at risk. Your own safety must always take the highest priority."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Explosive and flammable materials",
+      "text": "Any work on components that carry oil may only be carried out by a certified heating contractor. Do not use or store flammable (paper, thinners, paints, etc.) near the boiler. Maintain a clearance of at least 16 inches from the boiler.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Safety instructions",
+          "table_title": null,
+          "source_quote": "Dangers posed by explosive and flammable materials\n► Any work on components that carry oil may only be carried out by a certified heating contractor.\n► Do not use or store flammable (paper, thinners, paints, etc.) near the boiler.\n► Maintain a clearance of at least 16 inches from the boiler."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Poisoning (flue gas leaks)",
+      "text": "Insufficient ventilation may cause dangerous flue gas leaks. Never close off or reduce the size of air inlet or outlet vents. The boiler must not be operated until the obstruction has been removed.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Safety instructions",
+          "table_title": null,
+          "source_quote": "Risk of poisoning. Insufficient ventilation may cause dangerous flue gas leaks.\n► Never close off or reduce the size of air inlet or outlet vents.\n► The boiler must not be operated until the obstruction has been removed."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Carbon monoxide",
+      "text": "Carbon monoxide (CO) is a poisonous gas, which arises during the incomplete combustion of fossil fuels such as oil, gas or solid fuels. Dangers arise, if carbon monoxide escapes from the heating system due to a fault or a leak and collects unnoticed in enclosed spaces. You can neither see, taste nor smell carbon monoxide. To avoid danger from carbon monoxide: Have the heating system inspected and serviced regularly by an approved contractor. Use a CO detector, which gives an alarm in good time if CO escapes. If you suspect a CO leak: Warn your neighbours and leave the building immediately. Call an approved contractor. Have any defects rectified.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Safety instructions",
+          "table_title": null,
+          "source_quote": "Danger to life from carbon monoxide\nCarbon monoxide (CO) is a poisonous gas, which arises during the incomplete combustion of fossil fuels such as oil, gas or solid fuels.\nDangers arise, if carbon monoxide escapes from the heating system due to a fault or a leak and collects unnoticed in enclosed spaces.\nYou can neither see, taste nor smell carbon monoxide.\nTo avoid danger from carbon monoxide:\n► Have the heating system inspected and serviced regularly by an approved contractor.\n► Use a CO detector, which gives an alarm in good time if CO escapes.\n► If you suspect a CO leak:\nWarn your neighbours and leave the building immediately.\nCall an approved contractor.\nHave any defects rectified."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Water damage",
+      "text": "Do not use the appliance if any part of it has been under water. Call in a qualified customer service technician immediately to check the appliance and replace any controls that have been under water.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Safety instructions",
+          "table_title": null,
+          "source_quote": "Risk of water damage\n► Do not use the appliance if any part of it has been under water.\n► Call in a qualified customer service technician immediately to check the appliance and replace any controls that have been under water."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Combustion air",
+      "text": "Keep the combustion air free of corrosive substances (e. g. halogenated hydrocarbons that contain chlorine or fluorine compounds). In that way you will prevent corrosion.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Safety instructions",
+          "table_title": null,
+          "source_quote": "Combustion air\n► Keep the combustion air free of corrosive substances (e. g. halogenated hydrocarbons that contain chlorine or fluorine compounds). In that way you will prevent corrosion."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Operator instruction",
+      "text": "The operator must read the information on how the boiler works and have the heating system installer explain how to operate it.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Safety instructions",
+          "table_title": null,
+          "source_quote": "Instructing the operator\n► The operator must read the information on how the boiler works and have the heating system installer explain how to operate it."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Contaminated domestic water",
+      "text": "Health risk from contaminated domestic water. It is imperative that you observe all regulations and standards applicable in your country regarding prevention of domestic water contamination.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Topping up the boiler water and bleeding the system",
+          "table_title": null,
+          "source_quote": "CAUTION: Health risk from contaminated domestic water. ► It is imperative that you observe all regulations and standards applicable in your country regarding prevention of domestic water contamination."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System damage due to temperature stress",
+      "text": "If you fill the heating system when it is hot, the resulting temperature stress can cause stress cracks and a leak in the boiler. Only fill the heating system when cold (the flow temperature should be no more than 100 °F).",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Topping up the boiler water and bleeding the system",
+          "table_title": null,
+          "source_quote": "CAUTION: Risk of damage to system due to temperature stress. If you fill the heating system when it is hot, the resulting temperature stress can cause stress cracks and a leak in the boiler. Only fill the heating system when cold (the flow temperature should be no more than 100 °F)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System damage due to frequent topping up",
+      "text": "If you have to top up the heating water frequently, the heating system may suffer damage from corrosion or scaling due to repeated introduction of oxygen. Ask your heating contractor if the local water can be used untreated or whether it needs to be treated. Notify your heating contractor if you find you need to top up your heating system frequently, as there may be a leak.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Topping up the boiler water and bleeding the system",
+          "table_title": null,
+          "source_quote": "CAUTION: Risk of system damage due to frequent topping up. If you have to top up the heating water frequently, the heating system may suffer damage from corrosion or scaling due to repeated introduction of oxygen. ► Ask your heating contractor if the local water can be used untreated or whether it needs to be treated. ► Notify your heating contractor if you find you need to top up your heating system frequently, as there may be a leak."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System damage from freezing",
+      "text": "If the heating system has been switched off, it may freeze up. Leave the heating system permanently switched on as much as possible. Protect your heating system against freezing by draining the heating system and hot water pipes at the lowest point.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "Action in an emergency",
+          "table_title": null,
+          "source_quote": "CAUTION: Risk of system damage from freezing. If the heating system has been switched off, it may freeze up. ► Leave the heating system permanently switched on as much as possible. Protect your heating system against freezing by draining the heating system and hot water pipes at the lowest point."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System damage from incorrect fuel",
+      "text": "Only use the fuel specified. The correct fuel is entered in Tab. 2 by the heating system installer.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "The right fuel",
+          "table_title": null,
+          "source_quote": "CAUTION: Risk of system damage from use of incorrect fuel. Only use the fuel specified. The correct fuel is entered in Tab. 2 by the heating system installer."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Boiler damage from contaminated combustion air",
+      "text": "Keep the combustion air free of corrosive substances (e.g. halogenated hydrocarbons that contain chlorine or fluorine compounds). Prevent heavy accumulation of dust.",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Information on the boiler room",
+          "table_title": null,
+          "source_quote": "CAUTION: Risk of boiler damage from contaminated combustion air. ► Keep the combustion air free of corrosive substances (e.g. halogenated hydrocarbons that contain chlorine or fluorine compounds). Prevent heavy accumulation of dust."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System damage from water (flooding)",
+      "text": "In the event of severe risk of flooding, disconnect the boiler from its power supply and shut off the fuel supply before water enters the boiler room. After the flood has subsided, ask your installer to check the heating system before starting it up again. All parts that have been in contact with flood water must be replaced by a qualified heating contractor.",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Information on the boiler room",
+          "table_title": null,
+          "source_quote": "CAUTION: Risk of system damage from water. ► In the event of severe risk of flooding, disconnect the boiler from its power supply and shut off the fuel supply before water enters the boiler room. ► After the flood has subsided, ask your installer to check the heating system before starting it up again. ► All parts that have been in contact with flood water must be replaced by a qualified heating contractor."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System damage due to lack of or inadequate cleaning and maintenance",
+      "text": "Have your heating system inspected, cleaned and maintained by a heating contractor once a year. We recommend you sign a contract covering an annual inspection and maintenance on an as-required basis.",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Why is regular servicing important?",
+          "table_title": null,
+          "source_quote": "CAUTION: Risk of system damage due to lack of or inadequate cleaning and maintenance. ► Have your heating system inspected, cleaned and maintained by a heating contractor once a year. ► We recommend you sign a contract covering an annual inspection and maintenance on an as-required basis."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System damage due to too many resets",
+      "text": "Always follow the burner manufacturer's instructions. Too many resets can damage the burner's ignition transformer. Do not press the reset button more than three times in a row. If the fault does not reset after the third attempt, localize and rectify the fault with the help of the burner documentation. Notify a service contractor if necessary.",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Correcting burner faults",
+          "table_title": null,
+          "source_quote": "CAUTION: Risk of system damage due to too many resets. Always follow the burner manufacturer's instructions. Too many resets can damage the bur-ner's ignition transformer. Do not press the reset button more than three times in a row. If the fault does not reset after the third attempt, localize and rectify the fault with the help of the burner documentation. Notify a service contractor if necessary."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System damage from freezing (fault shutdown)",
+      "text": "The heating system can freeze up in cold weather if it has been switched off or disabled by a fault shutdown. Rectify the fault immediately and restart the heating system. If that is not possible, protect the heating system against freezing by draining it at the lowest point.",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Identifying operating modes and resetting faults",
+          "table_title": null,
+          "source_quote": "CAUTION: Risk of system damage from freezing. The heating system can freeze up in cold weather if it has been switched off or disabled by a fault shutdown. ► Rectify the fault immediately and restart the heating system. ► If that is not possible, protect the heating system against freezing by draining it at the lowest point."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "maintenance_tasks": [
+    {
+      "task_name": "Regular maintenance of heating system",
+      "description": "To maintain a high level of efficiency, operate economically, and maintain cleanest combustion.",
+      "interval": "annually",
+      "required_qualification": "trained heating contractor",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Maintenance and servicing",
+          "table_title": null,
+          "source_quote": "Heating systems should be regularly maintained for the following reasons:\n• to maintain a high level of efficiency and to operate the system economically (low fuel consumption),\n• to achieve a high level of operational reliability,\n• to maintain the cleanest combustion.\n► sign a maintenance and servicing contract with an approved heating contractor covering annual servicing and maintenance.\n► The flue system must be inspected once a year. Have all parts that show any signs of damage from corrosion or other causes replaced.\n► The boiler must be serviced by qualified boiler service company once a year. Servicing must include the burner, the entire flue and combustion air system and any air inlet/outlet vents. All parts that show any signs of damage from corrosion or other causes must be replaced."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Flue system inspection",
+      "description": "Inspect the flue system and replace any damaged parts.",
+      "interval": "once a year",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Maintenance and servicing",
+          "table_title": null,
+          "source_quote": "► The flue system must be inspected once a year. Have all parts that show any signs of damage from corrosion or other causes replaced."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Boiler service",
+      "description": "Servicing must include the burner, the entire flue and combustion air system and any air inlet/outlet vents. All parts that show any signs of damage from corrosion or other causes must be replaced.",
+      "interval": "once a year",
+      "required_qualification": "qualified boiler service company",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Maintenance and servicing",
+          "table_title": null,
+          "source_quote": "► The boiler must be serviced by qualified boiler service company once a year. Servicing must include the burner, the entire flue and combustion air system and any air inlet/outlet vents. All parts that show any signs of damage from corrosion or other causes must be replaced."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Annual inspection and maintenance contract",
+      "description": "Sign a contract covering annual inspection and maintenance.",
+      "interval": "annually",
+      "required_qualification": "approved heating contractor",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Maintenance and servicing",
+          "table_title": null,
+          "source_quote": "► sign a maintenance and servicing contract with an approved heating contractor covering annual servicing and maintenance."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Heating system inspection, cleaning and maintenance",
+      "description": null,
+      "interval": "once a year",
+      "required_qualification": "heating contractor",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Why is regular servicing important?",
+          "table_title": null,
+          "source_quote": "► Have your heating system inspected, cleaned and maintained by a heating contractor once a year."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Sign annual inspection and maintenance contract",
+      "description": null,
+      "interval": "annually",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Why is regular servicing important?",
+          "table_title": null,
+          "source_quote": "► We recommend you sign a contract covering an annual inspection and maintenance on an as-required basis."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "search_terms": [
+    "Buderus",
+    "Logano G115 WS US/CA",
+    "oil boiler",
+    "operating instructions",
+    "troubleshooting",
+    "faults",
+    "maintenance",
+    "safety",
+    "burner",
+    "pressure",
+    "temperature",
+    "carbon monoxide",
+    "flue gas",
+    "WMO",
+    "blocked vent switch"
+  ],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.95,
+    "review_required": false,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": []
+  }
+}

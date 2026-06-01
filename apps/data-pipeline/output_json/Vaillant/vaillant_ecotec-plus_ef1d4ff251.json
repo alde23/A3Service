@@ -1,0 +1,4318 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Vaillant",
+    "product_family": "ecoTEC plus",
+    "model_names": [
+      "ecoTEC plus 415",
+      "ecoTEC plus 418",
+      "ecoTEC plus 428",
+      "ecoTEC plus 438"
+    ],
+    "manual_type": "installation_and_servicing",
+    "document_title": "Instructions for installation and servicing ecoTEC plus Wall hung open vent condensing boiler",
+    "document_code": "0020020828_02",
+    "publication_date": "August 2006",
+    "language": "en",
+    "region": "GB",
+    "source_file": "vaillant_vaillant-ecotec-plus-415_boiler-manual_ecotec-plus-open-vent-installation-and-servicing.pdf",
+    "file_hash": "ef1d4ff251cc4b285b68b2bb44e42015a34885a07d8d21434f6429e3d9e5117d"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Maximum CH heat input (net)",
+      "value": "15.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 415"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Maximum CH heat input (net) kW 15.3"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum CH heat input (net)",
+      "value": "18.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 418"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Maximum CH heat input (net) kW 18.9"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum CH heat input (net)",
+      "value": "28.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 428"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Maximum CH heat input (net) kW 28.6"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum CH heat input (net)",
+      "value": "38.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 438"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Maximum CH heat input (net) kW 38.4"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output (80/60 °C)",
+      "value": "5.0-15.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 415"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "CH heat output (80/60 °C) kW 5.0-15.0"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output (80/60 °C)",
+      "value": "5.0-18.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 418"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "CH heat output (80/60 °C) kW 5.0-18.6"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output (80/60 °C)",
+      "value": "5.3-28.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 428"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "CH heat output (80/60 °C) kW 5.3-28.2"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output (80/60 °C)",
+      "value": "6.3-38.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 438"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "CH heat output (80/60 °C) kW 6.3-38.0"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output (50/30 °C)",
+      "value": "5.3-16.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 415"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "CH heat output (50/30 °C) kW 5.3-16.2"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output (50/30 °C)",
+      "value": "5.3-20.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 418"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "CH heat output (50/30 °C) kW 5.3- 20.0"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output (50/30 °C)",
+      "value": "5.7-30.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 428"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "CH heat output (50/30 °C) kW 5.7-30.6"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output (50/30 °C)",
+      "value": "6.8-41.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 438"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "CH heat output (50/30 °C) kW 6.8-41.0"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "SEDBUK Band",
+      "value": "A",
+      "unit": null,
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418",
+        "ecoTEC plus 428",
+        "ecoTEC plus 438"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "SEDBUK Band A"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "SAP Seasonal Efficiency",
+      "value": "90.5",
+      "unit": "%",
+      "applies_to_models": [
+        "ecoTEC plus 415"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "SAP Seasonal Efficiency % 90.5"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "SAP Seasonal Efficiency",
+      "value": "90.4",
+      "unit": "%",
+      "applies_to_models": [
+        "ecoTEC plus 418"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "SAP Seasonal Efficiency % 90.4"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "SAP Seasonal Efficiency",
+      "value": "90.6",
+      "unit": "%",
+      "applies_to_models": [
+        "ecoTEC plus 428"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "SAP Seasonal Efficiency % 90.6"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "SAP Seasonal Efficiency",
+      "value": "90.8",
+      "unit": "%",
+      "applies_to_models": [
+        "ecoTEC plus 438"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "SAP Seasonal Efficiency % 90.8"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx Class",
+      "value": "5",
+      "unit": null,
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418",
+        "ecoTEC plus 428",
+        "ecoTEC plus 438"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "NOx Class 5"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "IP rating",
+      "value": "IPX4D",
+      "unit": null,
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418",
+        "ecoTEC plus 428",
+        "ecoTEC plus 438"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "\"IP rating\" IPX4D"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Inlet gas working pressure required (natural gas)",
+      "value": "20",
+      "unit": "mbar",
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418",
+        "ecoTEC plus 428",
+        "ecoTEC plus 438"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Inlet gas working pressure mbar 20 required (natural gas)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas supply (G20) Gross CV (s.t.)",
+      "value": "37.8",
+      "unit": "MJ/m3",
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418",
+        "ecoTEC plus 428",
+        "ecoTEC plus 438"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Gas supply (G20) Gross CV (s.t.) MJ/m3 37.8"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum gas rate",
+      "value": "1.61",
+      "unit": "M³/h",
+      "applies_to_models": [
+        "ecoTEC plus 415"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Maximum gas rate M³/h 1.61"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum gas rate",
+      "value": "2.0",
+      "unit": "M³/h",
+      "applies_to_models": [
+        "ecoTEC plus 418"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Maximum gas rate M³/h 2.0"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum gas rate",
+      "value": "3.02",
+      "unit": "M³/h",
+      "applies_to_models": [
+        "ecoTEC plus 428"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Maximum gas rate M³/h 3.02"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum gas rate",
+      "value": "4.06",
+      "unit": "M³/h",
+      "applies_to_models": [
+        "ecoTEC plus 438"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Maximum gas rate M³/h 4.06"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum gas rate",
+      "value": "0.53",
+      "unit": "M³/h",
+      "applies_to_models": [
+        "ecoTEC plus 415"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Minimum gas rate M³/h 0.53"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum gas rate",
+      "value": "0.53",
+      "unit": "M³/h",
+      "applies_to_models": [
+        "ecoTEC plus 418"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Minimum gas rate M³/h 0.53"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum gas rate",
+      "value": "0.56",
+      "unit": "M³/h",
+      "applies_to_models": [
+        "ecoTEC plus 428"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Minimum gas rate M³/h 0.56"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum gas rate",
+      "value": "0.71",
+      "unit": "M³/h",
+      "applies_to_models": [
+        "ecoTEC plus 438"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Minimum gas rate M³/h 0.71"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Burner % CO2 (Case on)",
+      "value": "9.3 + 0.2 - 0.5",
+      "unit": "%",
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418",
+        "ecoTEC plus 428"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Burner % CO2 (Case on) % 9.3+0.2 0.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Burner % CO2 (Case on)",
+      "value": "9.0 + 0.2 - 0.5",
+      "unit": "%",
+      "applies_to_models": [
+        "ecoTEC plus 438"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Burner % CO2 (Case on) % 9.0+ 0.2 0.5"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection (compression)",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418",
+        "ecoTEC plus 428",
+        "ecoTEC plus 438"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Gas connection (compression) mm 15"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Water connections (compression)",
+      "value": "22",
+      "unit": "mm",
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418",
+        "ecoTEC plus 428",
+        "ecoTEC plus 438"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Water connections (compression) mm 22"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate drain (internal diameter)",
+      "value": "19 min.",
+      "unit": "mm",
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418",
+        "ecoTEC plus 428",
+        "ecoTEC plus 438"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Condensate drain (internal diameter) mm 19 min."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Fuse ratings fan supply PCB",
+      "value": "3.15 AT",
+      "unit": "A",
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418",
+        "ecoTEC plus 428",
+        "ecoTEC plus 438"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Fuse ratings fan supply PCB A 3.15 AT"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Main PCB",
+      "value": "125 mAT",
+      "unit": "A",
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418",
+        "ecoTEC plus 428",
+        "ecoTEC plus 438"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Main PCB A 125 mAT"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum flow rate of water through the boiler",
+      "value": "10.8",
+      "unit": "L/min.",
+      "applies_to_models": [
+        "ecoTEC plus 415"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Minimum flow rate of water L/min. 10.8 through the boiler"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum flow rate of water through the boiler",
+      "value": "12.9",
+      "unit": "L/min.",
+      "applies_to_models": [
+        "ecoTEC plus 418"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Minimum flow rate of water L/min. 12.9 through the boiler"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum flow rate of water through the boiler",
+      "value": "20.3",
+      "unit": "L/min.",
+      "applies_to_models": [
+        "ecoTEC plus 428"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Minimum flow rate of water L/min. 20.3 through the boiler"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum flow rate of water through the boiler",
+      "value": "27.2",
+      "unit": "L/min.",
+      "applies_to_models": [
+        "ecoTEC plus 438"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Minimum flow rate of water L/min. 27.2 through the boiler"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight",
+      "value": "3.1",
+      "unit": "kg",
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Weight kg 3.1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight",
+      "value": "3.3",
+      "unit": "kg",
+      "applies_to_models": [
+        "ecoTEC plus 428",
+        "ecoTEC plus 438"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Weight kg 3.3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical supply",
+      "value": "230/~50",
+      "unit": "V~/HZ",
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418",
+        "ecoTEC plus 428",
+        "ecoTEC plus 438"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Electrical supply V~/HZ 230/~50"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "External fuse",
+      "value": "3",
+      "unit": "A",
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418",
+        "ecoTEC plus 428",
+        "ecoTEC plus 438"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "External fuse A 3"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Power input",
+      "value": "60",
+      "unit": "W",
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418",
+        "ecoTEC plus 428",
+        "ecoTEC plus 438"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Power input W 60"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Case height",
+      "value": "600",
+      "unit": "mm",
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418",
+        "ecoTEC plus 428",
+        "ecoTEC plus 438"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Case height mm 600"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Case width",
+      "value": "375",
+      "unit": "mm",
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418",
+        "ecoTEC plus 428",
+        "ecoTEC plus 438"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Case width mm 375"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Case depth",
+      "value": "334",
+      "unit": "mm",
+      "applies_to_models": [
+        "ecoTEC plus 415",
+        "ecoTEC plus 418",
+        "ecoTEC plus 428",
+        "ecoTEC plus 438"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Technical data",
+          "table_title": "Table 2.1 Technical data",
+          "source_quote": "Case depth mm 334"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "F.0",
+      "description": "Flow-NTC open circuit",
+      "possible_causes": [
+        "NTC broken",
+        "NTC cable broken",
+        "Defective connection at NTC",
+        "Defective connection at electronics"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC",
+        "NTC cable",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "flow sensor",
+        "open circuit",
+        "wiring",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes",
+          "source_quote": "F. O Flow-NTC open circuit NTC broken, NTC cable broken, Defective connection at NTC, Defective connection at electronics"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.1",
+      "description": "Return-NTC open circuit",
+      "possible_causes": [
+        "NTC broken",
+        "NTC cable broken",
+        "Defective connection at NTC",
+        "Defective connection at electronics"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC",
+        "NTC cable",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "return sensor",
+        "open circuit",
+        "wiring",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes",
+          "source_quote": "F. 1 Return-NTC open circuit NTC broken, NTC cable broken, Defective connection at NTC, Defective connection at electronics"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.10",
+      "description": "Flow NTC short circuit",
+      "possible_causes": [
+        "NTC defective",
+        "short circuit in cable harness",
+        "cable/casing short cut"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "flow sensor",
+        "short circuit",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes",
+          "source_quote": "F.10 Flow NTC short circuit NTC defective, short circuit in cable harness, cable/casing short cut"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.11",
+      "description": "Return NTC short circuit",
+      "possible_causes": [
+        "NTC defective",
+        "short circuit in cable harness",
+        "cable/casing short cut"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "return sensor",
+        "short circuit",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes",
+          "source_quote": "F.11 Return NTC short circuit NTC defective, short circuit in cable harness, cable/casing short cut"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.13",
+      "description": "Tank NTC short circuit",
+      "possible_causes": [
+        "NTC defective",
+        "short circuit in cable harness",
+        "cable/casing short cut"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "tank sensor",
+        "short circuit",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes",
+          "source_quote": "F.13 Tank NTC short circuit NTC defective, short circuit in cable harness, cable/casing short cut"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.20",
+      "description": "Safety temperature limiter by NTC activated",
+      "possible_causes": [
+        "Flow-NTC not correctly thermal-connected or defective",
+        "appliance does not shut down"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flow-NTC",
+        "safety temperature limiter"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "temperature",
+        "safety limiter"
+      ],
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes",
+          "source_quote": "F.20 Safety temperature limiter by NTC activated Flow-NTC not correctly thermal-connected or defective; appliance does not shut down"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.22",
+      "description": "Dry fire",
+      "possible_causes": [
+        "Too little water in the appliance",
+        "water pressure sensor defective",
+        "cable to pump or water sensor defective",
+        "pump blocked or defective",
+        "pump output too low"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "water pressure sensor",
+        "pump",
+        "water sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water pressure",
+        "pump",
+        "dry fire",
+        "water shortage"
+      ],
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes",
+          "source_quote": "F.22 Dry fire Too little water in the appliance, water pressure sensor defective, cable to pump or water sensor defective, pump blocked or defective, pump output too low"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.23",
+      "description": "Water shortage, temperature difference between flow and return NTC too large",
+      "possible_causes": [
+        "Pump blocked or defective",
+        "pump output too low",
+        "flow and return NTC interchanged"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "flow NTC",
+        "return NTC"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water shortage",
+        "pump",
+        "NTC",
+        "temperature difference"
+      ],
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes",
+          "source_quote": "F.23 Water shortage, temperature difference between flow and return NTC too large Pump blocked or defective, pump output too low, flow and return NTC interchanged"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.24",
+      "description": "Water shortage, temperature rise too quick",
+      "possible_causes": [
+        "Pump blocked",
+        "insufficient pump output",
+        "air in appliance",
+        "water pressure too low"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "water pressure"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water shortage",
+        "pump",
+        "air",
+        "water pressure"
+      ],
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes",
+          "source_quote": "F.24 Water shortage, temperature rise too quick Pump blocked, insufficient pump output, air in appliance, water pressure too low"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.27",
+      "description": "Incorrect sensing of flame",
+      "possible_causes": [
+        "Flame detector defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flame detector"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame",
+        "ignition",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.27 Incorrect sensing of flame Flame detector defective"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.28",
+      "description": "Appliance does not start: Attempts to ignite during start failed",
+      "possible_causes": [
+        "Faults in the gas supply such as:- Gas meter or gas pressure detector defective",
+        "Air in gas",
+        "Gas flow pressure too low",
+        "Fire protection tap has disengaged",
+        "Faults in the gas valve",
+        "wrong gas setting",
+        "igniter (ignition transformer, ignition cable, ignition plug) defective",
+        "ionisation current stopped (cable, electrode)",
+        "faulty earthing in appliance",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas meter",
+        "gas pressure detector",
+        "gas valve",
+        "igniter",
+        "ignition transformer",
+        "ignition cable",
+        "ignition plug",
+        "ionisation current",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition",
+        "gas supply",
+        "gas pressure",
+        "gas valve",
+        "igniter",
+        "flame",
+        "earthing",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.28 Appliance does not start: Attempts to ignite during start failed Faults in the gas supply such as:- Gas meter or gas pressure detector defective - Air in gas- Gas flow pressure too low - Fire protection tap has disengaged Faults in the gas valve, wrong gas setting, igniter (ignition transformer, ignition cable, ignition plug) defective, ionisation current stopped (cable, electrode), faulty earthing in appliance, electronics defective"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.29",
+      "description": "Flame goes off during operation and subsequent ignition attempts failed",
+      "possible_causes": [
+        "Gas supply temporarily stopped",
+        "faulty earthing of appliance"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas supply",
+        "earthing"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame",
+        "ignition",
+        "gas supply",
+        "earthing"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.29 Flame goes off during operation and subsequent ignition attempts failed Gas supply temporarily stopped, faulty earthing of appliance"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.32",
+      "description": "Fan speed variation",
+      "possible_causes": [
+        "Fan blocked",
+        "plug not inserted correctly on fan",
+        "hall sensor defective",
+        "fault in cable harness",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "fan",
+        "hall sensor",
+        "cable harness",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan",
+        "speed",
+        "motor",
+        "electronics",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.32 Fan speed variation Fan blocked, plug not inserted correctly on fan, hall sensor defective, fault in cable harness, electronics defective"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.49",
+      "description": "eBUS under voltage",
+      "possible_causes": [
+        "Short circuit on eBUS",
+        "overload on eBUS",
+        "two power sources on eBUS with different polarity"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "eBUS"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "eBUS",
+        "voltage",
+        "short circuit",
+        "polarity"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.49 eBUS under voltage Short circuit on eBUS, overload on eBUS or two power sources on eBUS with different polarity"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.61",
+      "description": "Gas-valve control defective",
+      "possible_causes": [
+        "Short circuit/earth (ground) leak in cable harness to gas valves",
+        "gas valve assembly defective (earth/ground leak from coils)",
+        "electronic control system defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve",
+        "cable harness",
+        "electronic control system"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "wiring",
+        "short circuit",
+        "earth leak",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.61 Gas-valve control defective Short circuit/earth (ground) leak in cable harness to gas valves, gas valve assembly defective (earth/ground leak from coils), electronic control system defective"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.62",
+      "description": "Gas valve shut off delay",
+      "possible_causes": [
+        "Gas valve leaking",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "leak",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.62 Gas valve shut off delay Gas valve leaking, electronics defective"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.63",
+      "description": "EEPROM error",
+      "possible_causes": [
+        "Electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "EEPROM",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.63 EEPROM error Electronics defective"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.64",
+      "description": "Electronics/NTC fault",
+      "possible_causes": [
+        "Short-circuit in flow or return NTC or electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "electronics",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.64 Electronics/NTC fault Short-circuit in flow or return NTC or electronics defective"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.65",
+      "description": "Electronics temperature too high",
+      "possible_causes": [
+        "Electronics too hot due to external effect",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "electronics",
+        "temperature"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.65 Electronics temperature too high Electronics too hot due to external effect, electronics defective"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.67",
+      "description": "Flame detector input signal is outside the limits (0 or 5 V)",
+      "possible_causes": [
+        "Electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flame detector",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame detector",
+        "signal",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.67 Flame detector input signal is outside the limits (O or 5 V) Electronics defective"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.70",
+      "description": "No valid DSN in display and/or main board",
+      "possible_causes": [
+        "Spare part failure display and main board interchanged at same time and device specific number not adjusted"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "display",
+        "main board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "DSN",
+        "display",
+        "main board",
+        "replacement"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.70 No valid DSN in display and/or main board Spare part failure display and main board interchanged at same time and device specific number not adjusted"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.71",
+      "description": "Flow NTC reports constant value (stuck at)",
+      "possible_causes": [
+        "Flow NTC is defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flow NTC"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "flow sensor",
+        "stuck"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.71 Flow NTC reports constant value (stuck at) Flow NTC is defective"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.72",
+      "description": "Flow and/or return NTC fault",
+      "possible_causes": [
+        "Flow and/or return NTC is defective (tolerances too big)"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flow NTC",
+        "Return NTC"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "flow sensor",
+        "return sensor",
+        "tolerance"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.72 Flow and/or return NTC fault Flow and/or return NTC is defective (tolerances too big)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.75",
+      "description": "No pressure rise was detected on turning on the pump",
+      "possible_causes": [
+        "Water pressure sensor or/and pump defective",
+        "Air in the heating system",
+        "quick bleeder defective",
+        "Too little water in appliance",
+        "check adjustable by-pass",
+        "connect external expansion vessel to return"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "water pressure sensor",
+        "pump",
+        "quick bleeder",
+        "expansion vessel"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure",
+        "pump",
+        "air",
+        "water",
+        "bleeder",
+        "expansion vessel"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.75 No pressure rise was detected on turning on the pump Water pressure sensor or/and pump defective Air in the heating system, quick bleeder defective Too little water in appliance; check adjustable by-pass; connect external expansion vessel to return"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.76",
+      "description": "Overheating protection on primary heat exchanger triggered",
+      "possible_causes": [
+        "Cable or cable connection of fuse in the primary heat exchanger defective",
+        "primary heat exchanger defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "primary heat exchanger",
+        "fuse",
+        "cable"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "overheating",
+        "heat exchanger",
+        "fuse",
+        "cable"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.76 Overheating protection on primary heat exchanger triggered Cable or cable connection of fuse in the primary heat exchanger defective, or primary heat exchanger defective"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.77",
+      "description": "Condensate pump or feedback of accessories blocks heating",
+      "possible_causes": [
+        "Condensate pump defective or flume flap feedback triggered"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "condensate pump",
+        "flume flap"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "condensate pump",
+        "heating",
+        "accessories"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.77 Condensate pump or feedback of accessories blocks heating Condensate pump defective or flume flap feedback triggered"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "F.78",
+      "description": "Wrong configuration with accessory",
+      "possible_causes": [
+        "link box VR65 connected to combination boiler"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "VR65 link box"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "configuration",
+        "accessory",
+        "VR65",
+        "combination boiler"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "F.78 Wrong configuration with accessory link box VR65 connected to combination boiler"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "con",
+      "description": "No communication to main board",
+      "possible_causes": [
+        "Connection error display main board"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "main board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "main board",
+        "connection error"
+      ],
+      "source_refs": [
+        {
+          "page_number": 43,
+          "section_title": "Fault codes",
+          "table_title": "Table 10.4 Error codes (continued)",
+          "source_quote": "con No communication to main board Connection error display main board"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    }
+  ],
+  "diagnostic_codes": [
+    {
+      "code": "d.0",
+      "description": "Adjustable heating part load in kW (factory setting: max. output)",
+      "value_range": null,
+      "default_value": "max. output",
+      "unit": "kW",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d. O Heating part load Adjustable heating part load in kW (factory setting: max. output)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.1",
+      "description": "Water pump over run time for heating mode",
+      "value_range": "2 - 60 min",
+      "default_value": "5 min",
+      "unit": "min",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d. 1 Water pump over run time for heating mode 2 - 60 min (factory setting: 5 min)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.2",
+      "description": "Max. burner anti cycling period at 20 °C Flow temperature",
+      "value_range": "2 - 60 min",
+      "default_value": "20 min",
+      "unit": "min",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d. 2 Max. burner anti cycling period at 20 °C Flow temperature 2 - 60 min (factory setting: 20 min)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.3",
+      "description": "Hot water flow temperature reading (when accessories are fitted)",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d. 3 Hot water flow temperature reading (when accessories are fitted) in °C"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.4",
+      "description": "Current temperature for warm start sensor (when accessories are fitted) Current storage tank sensor",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d. 4 Current temperature for warm start sensor (when accessories are fitted) Current storage tank sensor in °C"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.5",
+      "description": "Flow temperature target value or return target value when return regulation is set.",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d. 5 Flow temperature target value or return target value when return regulation is set. in °C, max. the value set in d.71 Limited by the eBUS controller (if an eBUS controller is connected)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.6",
+      "description": "Hot water temperature target value",
+      "value_range": "35 to 65 °C",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d. 6 Hot water temperature target value in °C, 35 to 65 °C"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.7",
+      "description": "Warm start temperature target value (when accessories are fitted) Storage temperature target value (system boiler only)",
+      "value_range": "40 to 65 °C in °C, 15 °C for left stop, then 40 to 70 °C",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d. 7 Warm start temperature target value (when accessories are fitted) Storage temperature target value (system boiler only) in °C, 40 to 65 °C in °C, 15 °C for left stop, then 40 to 70 °C"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.8",
+      "description": "External controls heat demand (terminals 3-4)",
+      "value_range": "0 = open (no heat request) 1 = closed (heat request)",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d. 8 External controls heat demand (terminals 3-4) 0 = open (no heat request) 1 = closed (heat request)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.9",
+      "description": "Flow target temperature from external analogue regulator to terminal 7-8-9/eBUS",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d. 9 Flow target temperature from external analogue regulator to terminal 7-8-9/eBUS in °C, minimum from ext. eBUS target value and target value terminal 7"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.10",
+      "description": "Status internal heating pump",
+      "value_range": "1 = on, 0 = off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.10 Status internal heating pump 1 = on, 0 = off"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.11",
+      "description": "Status external heating pump",
+      "value_range": "1 to 100 = on, O = off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.11 Status external heating pump 1 to 100 = on, O = off"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.12",
+      "description": "Cylinder charging pump (via accessory module)",
+      "value_range": "1 to 100 = on, O = off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.12 Cylinder charging pump (via accessory module) 1 to 100 = on, O = off"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.13",
+      "description": "Hot water circulation pump (via accessory module)",
+      "value_range": "1 to 100 = on, O = off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.13 Hot water circulation pump (via accessory module) 1 to 100 = on, O = off"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.22",
+      "description": "Hot water demand",
+      "value_range": "1 = on, 0 = off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.22 Hot water demand 1 on, 0 off"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.23",
+      "description": "Summer/Winter function",
+      "value_range": "1 = Winter, O = Summer",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.23 Summer/Winter function 1 = Winter, O = Summer"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.25",
+      "description": "Hot water activation via eBUS Control",
+      "value_range": "1 = yes, O = no",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.25 Hot water activation via eBUS Control 1 = yes, O = no"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.30",
+      "description": "Control signal for both gas valves",
+      "value_range": "1 = on, O = off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.30 Control signal for both gas valves 1 = on, O = off"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.33",
+      "description": "Fan speed target value",
+      "value_range": null,
+      "default_value": null,
+      "unit": "rpm/10",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.33 Fan speed target value in rpm/10"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.34",
+      "description": "Fan speed actual value",
+      "value_range": null,
+      "default_value": null,
+      "unit": "rpm/10",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.34 Fan speed actual value in rpm/10"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.35",
+      "description": "Position of diverter valve (when accessories are fitted)",
+      "value_range": "O = Heating; 100 = Hot water; 40 = Centre position",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.35 Position of diverter valve (when accessories are fitted) O = Heating; 100 = Hot water; 40 = Centre position"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.36",
+      "description": "Hot water flow sensor",
+      "value_range": null,
+      "default_value": null,
+      "unit": "l/min",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.36 Hot water flow sensor in I/min"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.40",
+      "description": "Flow temperature Actual value",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.40 Flow temperature Actual value in °C"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.41",
+      "description": "Return temperature Actual value",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.41 Return temperature Actual value in °C"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.44",
+      "description": "Digitised ionisation potential",
+      "value_range": "0 to 102, > 80 no flame, < 40 even flame",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.44 Digitised ionisation potential Display range of 0 to 102, > 80 no flame, < 40 even flame"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.47",
+      "description": "Outside temperature (with weather compensating Vaillant controller only)",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.47 Outside temperature (with weather compensating Vaillant controller only) Actual value in °C"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.67",
+      "description": "Remaining burner anti cycling time",
+      "value_range": null,
+      "default_value": null,
+      "unit": "min",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.67 Remaining burner anti cycling time in min"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.76",
+      "description": "Appliance variant (device specific number)",
+      "value_range": "00 to 99",
+      "default_value": null,
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.76 Appliance variant (device specific number) 00 to 99"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.90",
+      "description": "Digital regulator status",
+      "value_range": "1 = identified, O = unidentified (eBUS Address <=10)",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.90 Digital regulator status 1 = identified, O = unidentified (eBUS Address <=10)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.91",
+      "description": "DCF status with connected external probe with DCF77 receiver",
+      "value_range": "0 = no reception, 1 = reception, 2 = synchronised, 3 = valid",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.91 DCF status with connected external probe with DCF77 receiver 0 = no reception, 1 = reception, 2 = synchronised, 3 = valid"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.97",
+      "description": "Activation of the second diagnostic level",
+      "value_range": null,
+      "default_value": "17",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.2 Diagnostics codes of the first diagnostic level",
+          "source_quote": "d.97 Activation of the second diagnostic level Password: 17"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.17",
+      "description": "Heating flow/return regulation change over",
+      "value_range": "0 = flow, 1 = return",
+      "default_value": "O",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.17 Heating flow/return regulation change over 0 = flow, 1 = return (factory setting: O)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.18",
+      "description": "Pump mode (return)",
+      "value_range": "0 = return, 1 = nonstop, 2 = winter",
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.18 Pump mode (return) 0 = return, 1 = nonstop, 2 = winter (factory setting: 0)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.19",
+      "description": "Operating modes of the two-speed heating pump",
+      "value_range": "O = pre ignition speed 1, hot water or heating speed 2, overrun speed 1; 1 = pre ignition speed 1, hot water speed 2, heating speed 1 overrun speed 1; 2 = like 1, but speed in heating mode dependent on heating part load d. O (if d.0 is below 60% of full load, then pump speed 1, other-wise speed 2); 3 = always speed 2",
+      "default_value": "2",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.19 Operating modes of the two-speed heating pump O = pre ignition speed 1, hot water or heating speed 2, overrun speed 1 1 = pre ignition speed 1, hot water speed 2, heating speed 1 overrun speed 1 2 = like 1, but speed in heating mode dependent on heating part load d. O (if d.0 is below 60% of full load, then pump speed 1, other-wise speed 2) 3 = always speed 2 (factory setting: 2)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.20",
+      "description": "Maximum set value for target cylinder temperature (system boilers only)",
+      "value_range": "50 to 70 °C",
+      "default_value": "65 °C",
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.20 Maximum set value for target cylinder temperature Setting range: 50 to 70 °C (factory setting: 65 °C) (system boilers only)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.27",
+      "description": "Switching accessory relay 1 in the accessory module",
+      "value_range": "1 = Circulation pump (default), 2 = Ext. pump, 3 = Storage charging pump, 4 = Flue gas flap/extractor hood, 5 = External gas valve, 6 = External error message",
+      "default_value": "1",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.27 Switching accessory relay 1 in the accessory module 1 = Circulation pump (default) 2 = Ext. pump 3 = Storage charging pump 4 = Flue gas flap/extractor hood 5 = External gas valve 6 = External error message"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.28",
+      "description": "Switching accessory relay 2 in the accessory module",
+      "value_range": "1 = Circulation pump, 2 = Ext. pump (default), 3 = Storage charging pump, 4 = Flue gas flap/extractor hood, 5 = External gas valve, 6 = External error message",
+      "default_value": "2",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.28 Switching accessory relay 2 in the accessory module 1 = Circulation pump 2 = Ext. pump (default) 3 = Storage charging pump 4 = Flue gas flap/extractor hood 5 = External gas valve 6 = External error message"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.50",
+      "description": "Offset for minimum speed",
+      "value_range": "0 to 300",
+      "default_value": null,
+      "unit": "rpm/10",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.50 Offset for minimum speed in rpm/10, adjustment range: 0 to 300"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.51",
+      "description": "Offset for maximum speed",
+      "value_range": "-99 to 0",
+      "default_value": null,
+      "unit": "rpm/10",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.51 Offset for maximum speed in rpm/10, adjustment range: -99 to 0"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.58",
+      "description": "From the third quarter of 2006: Activation of solar reheating",
+      "value_range": "0 to 30 = solar reheating disabled (factory setting) 3 = activation of min. hot water target value = 60 °C for solar reheating",
+      "default_value": "0 to 30",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.58 From the third quarter of 2006: Activation of solar Setting range: reheating 0 to 30 = solar reheating disabled (factory setting) 3 = activation of min. hot water target value = 60 °C for solar reheating"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.60",
+      "description": "Number of safety temperature limiter cut offs",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.60 Number of safety temperature limiter cut offs Quantity"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.61",
+      "description": "Number of lock outs",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.61 Number of lock outs Number of unsuccessful ignitions in the last attempt"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.64",
+      "description": "Average ignition time",
+      "value_range": null,
+      "default_value": null,
+      "unit": "seconds",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.64 Average ignition time in seconds"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.65",
+      "description": "Maximum ignition time",
+      "value_range": null,
+      "default_value": null,
+      "unit": "seconds",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.65 Maximum ignition time in seconds"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.68",
+      "description": "Unsuccessful ignitions in the first attempt",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.68 Unsuccessful ignitions in the first attempt Quantity"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.69",
+      "description": "Unsuccessful ignitions in the second attempt",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.69 Unsuccessful ignitions in the second attempt Quantity"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.70",
+      "description": "Set diverter valve position",
+      "value_range": "0 = Normal mode (factory setting), 1 = Centre position, 2 = permanent heating position",
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.70 Set diverter valve position 0 = Normal mode (factory setting) 1 = Centre position 2 = permanent heating position"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.71",
+      "description": "Maximum setting of heater control knob",
+      "value_range": "40 to 85 °C",
+      "default_value": "75 °C",
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.71 Maximum setting of heater control knob Adjustment range in °C: 40 to 85 (Factory setting: 75)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.72",
+      "description": "Pump overrun time after warm start (combination boilers only) or charging an electronically controlled hot water storage through C1-C2 (system boilers only)",
+      "value_range": "0, 10, 20 to 600",
+      "default_value": "80",
+      "unit": "sec",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.72 Pump overrun time after warm start (combination boilers only) or charging an electronically controlled hot water storage through C1-C2 (system boilers only) Adjustment range in sec: 0, 10, 20 to 600 Factory setting (when accessories are fitted): 80 Factory setting for system boilers: 300"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.73",
+      "description": "Offset for warm start target value (when accessories are fitted)",
+      "value_range": "-15 K to +5 K",
+      "default_value": "OK",
+      "unit": "K",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.73 Offset for warm start target value (when accessories are fitted) Adjustment range: -15 K to +5 K (Factory setting: OK)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.75",
+      "description": "Maximum charging time for a storage without own controller (system boilers only)",
+      "value_range": "20, 21, 22 to 90",
+      "default_value": "45",
+      "unit": "min",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.75 Maximum charging time for a storage without own controller (system boilers only) Adjustment range in min: 20, 21, 22 to 90 (Factory setting: 45)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.77",
+      "description": "Storage partial load (storage charging capacity limit, system boilers only)",
+      "value_range": null,
+      "default_value": "max output",
+      "unit": "kW",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level",
+          "source_quote": "d.77 Storage partial load (storage charging capacity limit, system boilers only) Adjustment range in kW: appliance specific Factory setting: max output"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.78",
+      "description": "Storage charging temperature limit (target flow temperature in storage mode, system boilers only)",
+      "value_range": "55 to 90 °C",
+      "default_value": "80 °C",
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level (continued)",
+          "source_quote": "d.78 Storage charging temperature limit (target flow temperature in storage mode, system boilers only) Adjustment range in °C 55 to 90 (factory setting: 80)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.80",
+      "description": "Heating operating hours",
+      "value_range": null,
+      "default_value": null,
+      "unit": "h",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level (continued)",
+          "source_quote": "d.80 Heating operating hours in h¹)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.81",
+      "description": "Water heating operating hours (when accessories are fitted)",
+      "value_range": null,
+      "default_value": null,
+      "unit": "h",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level (continued)",
+          "source_quote": "d.81 Water heating operating hours (when accessories are fitted) in h¹)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.82",
+      "description": "Cycles in heating mode",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level (continued)",
+          "source_quote": "d.82 Cycles in heating mode Quantity/1001) (3 corresponds 300)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.83",
+      "description": "Cycles in hot water operation",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level (continued)",
+          "source_quote": "d.83 Cycles in hot water operation Quantity/1001) (3 corresponds 300)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.84",
+      "description": "Maintenance indicator: Number of hours until the next maintenance",
+      "value_range": "0 to 3000 h and \"-\" for disabled",
+      "default_value": "\"-\"",
+      "unit": "h",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level (continued)",
+          "source_quote": "d.84 Maintenance indicator: Number of hours until the next maintenance Adjustment range: 0 to 3000 h and \"-\" for disabled Factory setting: \"-\" (300 corresponds to 3000 h)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.93",
+      "description": "DSN appliance variant setting",
+      "value_range": "0 to 99",
+      "default_value": null,
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level (continued)",
+          "source_quote": "d.93 DSN appliance variant setting Adjustment range: 0 to 99"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "d.96",
+      "description": "Factory setting",
+      "value_range": null,
+      "default_value": "1 = Resetting adjustable parameters to factory setting",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "Diagnostic codes",
+          "table_title": "Table 10.3 Diagnostics codes of the second diagnostic level (continued)",
+          "source_quote": "d.96 Factory setting 1 = Resetting adjustable parameters to factory setting"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    }
+  ],
+  "status_codes": [
+    {
+      "code": "S.0",
+      "meaning": "No heat demand",
+      "operating_mode": "Heating mode (all models)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S. O No heat demand"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.1",
+      "meaning": "Fan running",
+      "operating_mode": "Heating mode (all models)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S. 1 Fan running"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.2",
+      "meaning": "Water pump running",
+      "operating_mode": "Heating mode (all models)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S. 2 Water pump running"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.3",
+      "meaning": "Ignition sequence",
+      "operating_mode": "Heating mode (all models)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S. 3 Ignition sequence"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.4",
+      "meaning": "Burner ignited",
+      "operating_mode": "Heating mode (all models)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S. 4 Burner ignited"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.5",
+      "meaning": "Fan and pump running",
+      "operating_mode": "Heating mode (all models)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S. 5 Fan and pump running"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.6",
+      "meaning": "Fan over run",
+      "operating_mode": "Heating mode (all models)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S. 6 Fan over run"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.7",
+      "meaning": "Pump over run",
+      "operating_mode": "Heating mode (all models)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S. 7 Pump over run"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.8",
+      "meaning": "Anti cycling mode",
+      "operating_mode": "Heating mode (all models)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S. 8 Anti cycling mode"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.20",
+      "meaning": "Warmstart demand",
+      "operating_mode": "Domestic hot water mode (when accessories are fitted)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S.20 Warmstart demand"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.21",
+      "meaning": "Fan running",
+      "operating_mode": "Domestic hot water mode (when accessories are fitted)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S.21 Fan running"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.22",
+      "meaning": "Pump running",
+      "operating_mode": "Domestic hot water mode (when accessories are fitted)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S.22 Pump running"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.23",
+      "meaning": "Ignition sequence",
+      "operating_mode": "Domestic hot water mode (when accessories are fitted)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S.23 Ignition sequence"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.24",
+      "meaning": "Burner ignited",
+      "operating_mode": "Domestic hot water mode (when accessories are fitted)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S.24 Burner ignited"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.25",
+      "meaning": "Fan and water pump running",
+      "operating_mode": "Domestic hot water mode (when accessories are fitted)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S.25 Fan and water pump running"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.26",
+      "meaning": "Fan over run",
+      "operating_mode": "Domestic hot water mode (when accessories are fitted)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S.26 Fan over run"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.27",
+      "meaning": "Pump over run",
+      "operating_mode": "Domestic hot water mode (when accessories are fitted)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S.27 Pump over run"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.28",
+      "meaning": "Anti cycling mode",
+      "operating_mode": "Domestic hot water mode (when accessories are fitted)",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes",
+          "source_quote": "S.28 Anti cycling mode"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.30",
+      "meaning": "No heating demand from external controls (clamp 3-4 open)",
+      "operating_mode": "All boilers",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes (continued)",
+          "source_quote": "S.30 No heating demand from external controls (clamp 3-4 open)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.31",
+      "meaning": "Central heating thermostat knob turned off or no heat demand by the eBUS control unit",
+      "operating_mode": "All boilers",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes (continued)",
+          "source_quote": "S.31 Central heating thermostat knob turned off or no heat demand by the eBUS control unit"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.32",
+      "meaning": "Heat exchanger antifreeze active, as fan speed variation is too high. Appliance is within the waiting time of the operation block function",
+      "operating_mode": "All boilers",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes (continued)",
+          "source_quote": "S.32 Heat exchanger antifreeze active, as fan speed variation is too high. Appliance is within the waiting time of the operation block function"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.34",
+      "meaning": "Anti frost mode active",
+      "operating_mode": "All boilers",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes (continued)",
+          "source_quote": "S.34 Anti frost mode active"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.36",
+      "meaning": "No heating demand from low voltage controls (clamp 7-8-9)",
+      "operating_mode": "All boilers",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes (continued)",
+          "source_quote": "S.36 No heating demand from low voltage controls (clamp 7-8-9)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.41",
+      "meaning": "Water pressure > 2,9 bar",
+      "operating_mode": "All boilers",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes (continued)",
+          "source_quote": "S.41 Water pressure > 2,9 bar"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.42",
+      "meaning": "Response from accessory module or defective condensate pump is blocking burner operation",
+      "operating_mode": "All boilers",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes (continued)",
+          "source_quote": "S.42 Response from accessory module or defective condensate pump is blocking burner operation"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.53",
+      "meaning": "Appliance is within the waiting period of the operation block function due to water shortage (VL-RL spread too big)",
+      "operating_mode": "All boilers",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes (continued)",
+          "source_quote": "S.53 Appliance is within the waiting period of the operation block function due to water shortage (VL-RL spread too big)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.54",
+      "meaning": "Appliance is within the waiting period of the operation block function due to water shortage (temperature gradient)",
+      "operating_mode": "All boilers",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes (continued)",
+          "source_quote": "S.54 Appliance is within the waiting period of the operation block function due to water shortage (temperature gradient)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.96",
+      "meaning": "Return-sensor check is running, demand (DHW or heating) is blocked",
+      "operating_mode": "All boilers",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes (continued)",
+          "source_quote": "S.96 Return-sensor check is running, demand (DHW or heating) is blocked"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "code": "S.98",
+      "meaning": "Flow-/Return-sensor check is running, demand (DHW or heating) is blocked",
+      "operating_mode": "All boilers",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "Status codes",
+          "table_title": "Table 10.1 Status codes (continued)",
+          "source_quote": "S.98 Flow-/Return-sensor check is running, demand (DHW or heating) is blocked"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    }
+  ],
+  "safety_warnings": [
+    {
+      "warning_type": "danger",
+      "topic": "Serious injury or death",
+      "text": "Immediate risk of serious injury or death!",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Safety instructions and symbols",
+          "table_title": null,
+          "source_quote": "Danger! Immediate risk of serious injury or death!"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Electric shock",
+      "text": "Risk of death from electric shock!",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Safety instructions and symbols",
+          "table_title": null,
+          "source_quote": "Danger! Risk of death from electric shock!"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Burns or scalding",
+      "text": "Risk of burns or scalding!",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Safety instructions and symbols",
+          "table_title": null,
+          "source_quote": "Danger! Risk of burns or scalding!"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Product and environment damage",
+      "text": "Potentially dangerous situations for the product and environment.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Safety instructions and symbols",
+          "table_title": null,
+          "source_quote": "Caution! Potentially dangerous situations for the product and environment."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "General information",
+      "text": "Useful information and instructions.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Safety instructions and symbols",
+          "table_title": null,
+          "source_quote": "Note! Useful information and instructions."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Competent person for installation/servicing",
+      "text": "This boiler must be installed and serviced by a competent person in accordance with the Gas Safety (Installation and Use) Regulations 1998. In the UK 'CORGI' registered installers undertake the work in compliance with safe and satisfactory standard.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Safety instructions and symbols",
+          "table_title": null,
+          "source_quote": "Note! This boiler must be installed and serviced by a competent person in accordance with the Gas Safety (Installation and Use) Regulations 1998. In the UK 'CORGI' registered installers undertake the work in compliance with safe and satisfactory standard."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Incorrect use",
+      "text": "Any incorrect use is forbidden.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "General notes",
+          "table_title": null,
+          "source_quote": "Caution! Any incorrect use is forbidden."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Gas leak, poisoning, explosion",
+      "text": "If you smell gas or suspect a gas leak: • Do not switch lights on or off. • Do not use any other electrical switches. • Do not use a telephone in the hazardous area. • Do not use naked flames, such as matches or cigarette lighters. • Do not smoke. • Turn off the gas supply at the gas meter. • Open the windows and doors. • Warn other residents. • Get out of the house. • Consult your gas supplier, service agent or other competent person.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Gas leak or fault",
+          "table_title": null,
+          "source_quote": "Danger! Smell of gas. Risk of poisoning and explosion due to a malfunction If you smell gas or suspect a gas leak: • Do not switch lights on or off. • Do not use any other electrical switches. • Do not use a telephone in the hazardous area. • Do not use naked flames, such as matches or cigarette lighters. • Do not smoke. • Turn off the gas supply at the gas meter. • Open the windows and doors. • Warn other residents. • Get out of the house. • Consult your gas supplier, service agent or other competent person."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Electrical earthing",
+      "text": "This boiler must be earthed.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Electrical supply failure",
+          "table_title": null,
+          "source_quote": "Danger This boiler must be earthed."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Tool use for connections",
+      "text": "When tightening or slackening screwed connections always use suitable open-ended spanners (not pipe wrench, or extensions, etc.). Incorrect use and/or unsuitable tools can lead to damage being caused (e.g. gas or water leakage)!",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "General requirements",
+          "table_title": null,
+          "source_quote": "Caution! When tightening or slackening screwed connections always use suitable open-ended spanners (not pipe wrench, or extensions, etc.). Incorrect use and/or unsuitable tools can lead to damage being caused (e.g. gas or water leakage)!"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Installation location (frost, aggressive environment)",
+      "text": "Do not !install the appliance in rooms prone to frost. In rooms with aggressive steam or dust, the appliance must be operated independent of the ambient air.",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Installation site",
+          "table_title": null,
+          "source_quote": "Caution Do not !install the appliance in rooms prone to frost. In rooms with aggressive steam or dust, the appliance must be operated independent of the ambient air."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Competent person for installation/servicing",
+      "text": "The appliance must be installed and serviced by a competent person as stated in the Gas Safety (Installation and Use) Regulations 1998. In IE, the installation must be in accordance with the current edition of I.S.813 'Domestic Gas Installations', the current Building Regulations and reference should be made to the current ETCI rules for electrical installation.",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Related documents",
+          "table_title": null,
+          "source_quote": "Caution! The appliance must be installed and serviced by a competent person as stated in the Gas Safety (Installation and Use) Regulations 1998. In IE, the installation must be in accordance with the current edition of I.S.813 'Domestic Gas Installations', the current Building Regulations and reference should be made to the current ETCI rules for electrical installation."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Flue pipe usage",
+      "text": "Vaillant appliances are certified only for use with genuine Vaillant flue pipes. Only use genuine Vaillant flue pipes. Malfunctions can occur if you use other accessories. These may result in damage and injury. You will find a list of genuine flue pipes in the Vaillant installation manual for flue pipes. The CE mark is valid only if the appliance is operated with Vaillant flue pipes.",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Gas supply",
+          "table_title": null,
+          "source_quote": "Danger! Vaillant appliances are certified only for use with genuine Vaillant flue pipes. Only use genuine Vaillant flue pipes. Malfunctions can occur if you use other accessories. These may result in damage and injury. You will find a list of genuine flue pipes in the Vaillant installation manual for flue pipes. The CE mark is valid only if the appliance is operated with Vaillant flue pipes."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Domestic hot water cylinder type",
+      "text": "Single feed indirect cylinders are not suitable. The domestic hot water cylinder must be of the double feed fully indirect coil type. It must be suitable for working at a gauge pressure of 0.35 bar above the safety valve setting.",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Domestic hot water cylinder",
+          "table_title": null,
+          "source_quote": "Caution! Single feed indirect cylinders are not suitable. The domestic hot water cylinder must be of the double feed fully indirect coil type. It must be suitable for working at a gauge pressure of 0.35 bar above the safety valve setting."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System flushing and inhibitor",
+      "text": "It is ESSENTIAL that the cleanser is fully removed from the system after flushing and before adding inhibitor. Take care to ensure that all low points in the system are fully drained.",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Cleanser and inhibitor",
+          "table_title": null,
+          "source_quote": "Caution! It is ESSENTIAL that the cleanser is fully removed from the system after flushing and before adding inhibitor. Take care to ensure that all low points in the system are fully drained."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Handling sheet metal parts",
+      "text": "When installing the appliance, care should be taken to avoid any possibility of personal injury when handling sheet metal parts.",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "Sheet metal parts",
+          "table_title": null,
+          "source_quote": "Caution! When installing the appliance, care should be taken to avoid any possibility of personal injury when handling sheet metal parts."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Flue pipe usage",
+      "text": "Vaillant appliances are certified only for use with genuine Vaillant flue pipes. Only use genuine Vaillant flue pipes. Malfunctions can occur if you use other accessories. These may result in damage and injury. You will find a list of genuine flue pipes in the Vaillant installation manual for flue pipes. The CE mark is valid only if the appliance is operated with Vaillant flue pipes.",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Flue exit",
+          "table_title": null,
+          "source_quote": "Danger! Vaillant appliances are certified only for use with genuine Vaillant flue pipes. Only use genuine Vaillant flue pipes. Malfunctions can occur if you use other accessories. These may result in damage and injury. You will find a list of genuine flue pipes in the Vaillant installation manual for flue pipes. The CE mark is valid only if the appliance is operated with Vaillant flue pipes."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Gas connection",
+      "text": "The gas connection may only be made by a competent person. The legal directives and the local regulations for gas supply companies must be observed.",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "Gas connection",
+          "table_title": null,
+          "source_quote": "Danger! The gas connection may only be made by a competent person. The legal directives and the local regulations for gas supply companies must be observed."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Gas pipe stress relief",
+      "text": "Ensure a stress-relief assembly of the gas pipes to avoid leakages!",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "Gas connection",
+          "table_title": null,
+          "source_quote": "Caution! Ensure a stress-relief assembly of the gas pipes to avoid leakages!"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Gas regulating block pressure test",
+      "text": "The gas regulating block may be tested for leakage only with a maximum pressure of 150 mbar! Higher testing pressures can damage the gas fitting.",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "Gas connection",
+          "table_title": null,
+          "source_quote": "Caution! The gas regulating block may be tested for leakage only with a maximum pressure of 150 mbar! Higher testing pressures can damage the gas fitting."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Soldered fittings, heat transfer (gas connection)",
+      "text": "When making final connection to the boiler, if using soldered fittings, extra care should be taken to avoid damage to isolation valves through heat transfer. Before connection check the supply of local gas.",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "Gas connection",
+          "table_title": null,
+          "source_quote": "Caution! When making final connection to the boiler, if using soldered fittings, extra care should be taken to avoid damage to isolation valves through heat transfer. Before connection check the supply of local gas."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Soldered fittings, heat transfer (water connections)",
+      "text": "When making final connection to the boiler, if using soldered fittings, extra care should be taken to avoid damage through heat transfer.",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "Water connections",
+          "table_title": null,
+          "source_quote": "Caution! When making final connection to the boiler, if using soldered fittings, extra care should be taken to avoid damage through heat transfer."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Electrical earthing, electrocution",
+      "text": "This appliance must be earthed. Electrocution caused by touching live parts can be fatal. Before working on the appliance, turn off the power supply and secure against restart.",
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Electrical connections",
+          "table_title": null,
+          "source_quote": "Danger! This appliance must be earthed. Electrocution caused by touching live parts can be fatal. Before working on the appliance, turn off the power supply and secure against restart."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Wiring",
+      "text": "This appliance must be wired in accordance with these instructions. Any fault arising from incorrect wiring cannot be put right under the terms of the Vaillant guarantee.",
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Electrical connections",
+          "table_title": null,
+          "source_quote": "Caution! This appliance must be wired in accordance with these instructions. Any fault arising from incorrect wiring cannot be put right under the terms of the Vaillant guarantee."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Live mains terminals",
+      "text": "Mains connection terminals L and N remain live \"unless isolated at the fused spur or electrical outlet supplying the boiler\".",
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Electrical connections",
+          "table_title": null,
+          "source_quote": "Danger! Mains connection terminals L and N remain live \"unless isolated at the fused spur or electrical outlet supplying the boiler\"."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Electrical connections",
+      "text": "Do not connect any mains 230V power to the connections 7-8-9 or BUS (+,-).",
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "Electrical connections",
+          "table_title": null,
+          "source_quote": "Caution! Do not connect any mains 230V power to the connections 7-8-9 or BUS (+,-)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Electrical connections, damage to electronics",
+      "text": "Do not connect supply voltage! Risk of damage to electronics!",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Electrical board layout",
+          "table_title": null,
+          "source_quote": "Caution: Do not connect supply voltage! Risk of damage to electronics!"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Natural gas inlet pressure",
+      "text": "DO NOT proceed with the adjustment or attempt to put the unit into service if the inlet working pressure lies outside the 17-25 mbar range.",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "Gas supply",
+          "table_title": null,
+          "source_quote": "Natural gas: DO NOT proceed with the adjustment or attempt to put the unit into service if the inlet working pressure lies outside the 17-25 mbar range."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "LPG inlet pressure",
+      "text": "DO NOT proceed with the adjustment or attempt to put the unit into service if the inlet working pressure is lower than 34 mbar.",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "Gas supply",
+          "table_title": null,
+          "source_quote": "LPG: DO NOT proceed with the adjustment or attempt to put the unit into service if the inlet working pressure is lower than 34 mbar."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Gas type check",
+      "text": "Before operating the boiler check the type plate and ensure that the correct gas type",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "Gas supply",
+          "table_title": null,
+          "source_quote": "Caution! Before operating the boiler check the type plate and ensure that the correct gas type"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Inappropriate modifications",
+      "text": "Inappropriate modifications can cause damage. If your boiler still does not operate then please consult the trouble shooting section of this literature.",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "Initial Lighting",
+          "table_title": null,
+          "source_quote": "Caution! Inappropriate modifications can cause damage. If your boiler still does not operate then please consult the trouble shooting section of this literature."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Boiler shutdown after multiple resets",
+      "text": "If the boiler still shuts off after three attempts of resetting, please consult the trouble shooting section of this literature.",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "Ignition problems",
+          "table_title": null,
+          "source_quote": "Caution! If the boiler still shuts off after three attempts of resetting, please consult the trouble shooting section of this literature."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "LPG conversion commissioning",
+      "text": "After converting from natural gas to LPG, commission and check boiler function as described in commissioning section of the servicing and installation instructions.",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "Natural gas to LPG conversion",
+          "table_title": null,
+          "source_quote": "Caution! After converting from natural gas to LPG, commission and check boiler function as described in commissioning section of the servicing and installation instructions."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "LPG conversion by competent person",
+      "text": "This conversion must only be carried out by a competent person in accordance with the Gas Safety (Installation and Use) Regulation 1998. In the UK CORGI registered installers undertake the work to a safe and satisfactory standard.",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "Natural gas to LPG conversion",
+          "table_title": null,
+          "source_quote": "Caution! This conversion must only be carried out by a competent person in accordance with the Gas Safety (Installation and Use) Regulation 1998. In the UK CORGI registered installers undertake the work to a safe and satisfactory standard."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Servicing by competent person",
+      "text": "It is law that all servicing work is carried out by a competent person (CORGI registered). Inspections/Maintenance work not carried out by a competent person can result in damage to property and personal injury.",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Initial inspection",
+          "table_title": null,
+          "source_quote": "Danger! It is law that all servicing work is carried out by a competent person (CORGI registered). Inspections/Maintenance work not carried out by a competent person can result in damage to property and personal injury."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Electrocution, live parts",
+      "text": "Electrocution by touching live parts can be fatal! The supply terminals in the appliance are permanently live unless the appliance is isolated from the electrical supply either by removing the fuse from a fused spur or pulling the plug out if connected to a socket outlet. Protect the electronics box from spray water. Before working on the appliance, turn off the power supply and secure against restart!",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Safety instructions",
+          "table_title": null,
+          "source_quote": "Danger! Electrocution by touching live parts can be fatal! The supply terminals in the appliance are permanently live unless the appliance is isolated from the electrical supply either by removing the fuse from a fused spur or pulling the plug out if connected to a socket outlet. Protect the electronics box from spray water. Before working on the appliance, turn off the power supply and secure against restart!"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Burner door seal and nuts replacement",
+      "text": "The burner door seal and combustion chamber burner door securing nuts on the burner module, see figs 8.6 and 8.7 must be replaced each time the module is removed for example during maintenance if the burner flange insulation shows any signs of damage or small cracks it must also be replaced.",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "Removing the burner",
+          "table_title": null,
+          "source_quote": "Caution! The burner door seal and combustion chamber burner door securing nuts on the burner module, see figs 8.6 and 8.7 must be replaced each time the module is removed for example during maintenance if the burner flange insulation shows any signs of damage or small cracks it must also be replaced."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "maintenance_tasks": [
+    {
+      "task_name": "Check air/gas flue system",
+      "description": "Ensure it is not blocked, damaged and is fitted correctly.",
+      "interval": "once a year",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Overview of the inspection and maintenance tasks",
+          "table_title": "Table 8.1 Inspection and maintenance steps",
+          "source_quote": "Check the air/ gas flue system and ensure it is not blocked, damaged and is fitted correctly."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "Measure gas rate during operation",
+      "description": "Measure the gas rate during operation (see table 5.1. inside section 5 commissioning part I). If the gas rate is lower than the minimum gas rate, follow the maintenance schedule in column 2.",
+      "interval": "once a year",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Overview of the inspection and maintenance tasks",
+          "table_title": "Table 8.1 Inspection and maintenance steps",
+          "source_quote": "Measure the gas rate during operation (see table 5.1. inside section 5 commissioning part I). If the gas rate is lower than the minimum gas rate, follow the maintenance schedule in column 2."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "Check combustion (CO and CO2 values)",
+      "description": "Check combustion by measuring CO and CO2 values, compare to table 9.1. If the measurement is outside the tolerances follow the maintenance schedule in column 2. If a flue gas analyser is not available check the ignition and burner flame picture through the viewing window if incomplete combustion is evident perform the maintenance schedule in column 2.",
+      "interval": "once a year",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Overview of the inspection and maintenance tasks",
+          "table_title": "Table 8.1 Inspection and maintenance steps",
+          "source_quote": "Check combustion by measuring CO and CO2 values, compare to table 9.1. If the measurement is outside the tolerances follow the maintenance schedule in column 2. If a flue gas analyser is not available check the ignition and burner flame picture through the viewing window if incomplete combustion is evident perform the maintenance schedule in column 2."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "Isolate appliance from electrical mains and gas supply",
+      "description": null,
+      "interval": "Maintenance",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Overview of the inspection and maintenance tasks",
+          "table_title": "Table 8.1 Inspection and maintenance steps",
+          "source_quote": "Isolate the appliance from the electrical mains supply, close the gas service valve."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "Visually inspect heat exchanger",
+      "description": "Visually inspect the general heat exchanger area for signs of corrosion, sooting or other forms of damage. If damage is evident perform the tasks in the maintenance schedule in column 2.",
+      "interval": "once a year",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Overview of the inspection and maintenance tasks",
+          "table_title": "Table 8.1 Inspection and maintenance steps",
+          "source_quote": "Visually inspect the general heat exchanger area for signs of corrosion, sooting or other forms of damage. If damage is evident perform the tasks in the maintenance schedule in column 2."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "Remove and clean burner module and primary heat exchanger",
+      "description": "Remove the burner module (as described in section 8.1.6.) if maintenance schedule is required from steps 2, 3 or 5 above. Clean the primary heat exchanger. Fit new burner door seal kit (observe the assembly instructions enclosed with the kit). Refit the burner module and tighten the nuts.",
+      "interval": "Maintenance",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Overview of the inspection and maintenance tasks",
+          "table_title": "Table 8.1 Inspection and maintenance steps",
+          "source_quote": "Remove the burner module (as described in section 8.1.6.) if maintenance schedule is required from steps 2, 3 or 5 above. Clean the primary heat exchanger. Fit new burner door seal kit (observe the assembly instructions enclosed with the kit). Refit the burner module and tighten the nuts."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "Check electrical connections",
+      "description": "Check all appliance electrical connections and make adjustments, if necessary.",
+      "interval": "once a year",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Overview of the inspection and maintenance tasks",
+          "table_title": "Table 8.1 Inspection and maintenance steps",
+          "source_quote": "Check all appliance electrical connections and make adjustments, if necessary."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "Check/re-pressurise system expansion vessel",
+      "description": "If applicable check/re-pressurise system expansion vessel as necessary.",
+      "interval": "once a year",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Overview of the inspection and maintenance tasks",
+          "table_title": "Table 8.1 Inspection and maintenance steps",
+          "source_quote": "If applicable check/re-pressurise system expansion vessel as necessary."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "General appliance check and cleaning",
+      "description": "Check the appliance generally, check for dirt/dust and clean if necessary.",
+      "interval": "once a year",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Overview of the inspection and maintenance tasks",
+          "table_title": "Table 8.1 Inspection and maintenance steps",
+          "source_quote": "Check the appliance generally, check for dirt/dust and clean if necessary."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "Check and clean condensate trap and flexible condensate hose",
+      "description": null,
+      "interval": "once a year",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Overview of the inspection and maintenance tasks",
+          "table_title": "Table 8.1 Inspection and maintenance steps",
+          "source_quote": "Check and clean condensate trap and flexible condensate hose."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "Perform test operation and bleed system",
+      "description": "Perform a test operation of the appliance including the heating and hot water systems and bleed thew system if necessary.",
+      "interval": "once a year",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Overview of the inspection and maintenance tasks",
+          "table_title": "Table 8.1 Inspection and maintenance steps",
+          "source_quote": "Perform a test operation of the appliance including the heating and hot water systems and bleed thew system if necessary."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "Measure gas rate during operation (tolerance check)",
+      "description": "Measure the gas rate during operation and ensure it is inside the tolerances specified (see table 5.1 inside section 5 commissioning part I).",
+      "interval": "Maintenance",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Overview of the inspection and maintenance tasks",
+          "table_title": "Table 8.1 Inspection and maintenance steps",
+          "source_quote": "Measure the gas rate during operation and ensure it is inside the tolerances specified (see table 5.1 inside section 5 commissioning part I)."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "Re-check combustion (CO and CO2 values)",
+      "description": "Re-check combustion by measuring CO and CO2 values, compare to table 9.1. Ensure the measurement is within the tolerances. If a flue gas analyser is not available check the ignition and burner flame picture visually. through the viewing window.",
+      "interval": "Maintenance",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Overview of the inspection and maintenance tasks",
+          "table_title": "Table 8.1 Inspection and maintenance steps",
+          "source_quote": "Re-check combustion by measuring CO and CO2 values, compare to table 9.1. Ensure the measurement is within the tolerances. If a flue gas analyser is not available check the ignition and burner flame picture visually. through the viewing window."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "Check boiler for leaks",
+      "description": "Check boiler for leaks of any kind, rectify as necessary.",
+      "interval": "once a year",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Overview of the inspection and maintenance tasks",
+          "table_title": "Table 8.1 Inspection and maintenance steps",
+          "source_quote": "Check boiler for leaks of any kind, rectify as necessary."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "Complete Benchmark commissioning checklist",
+      "description": null,
+      "interval": "once a year",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Overview of the inspection and maintenance tasks",
+          "table_title": "Table 8.1 Inspection and maintenance steps",
+          "source_quote": "Complete gas boiler commissioning checklist (Benchmark)."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "Check expansion vessel",
+      "description": "Release the pressure from the boiler. Remove valve cap from expansion vessel charge point. Check that the internal charge pressure of the expansion vessel is to the correct design pressure. If the pressure is lower than this the vessel should be re pressurised using an air pump. Refit the valve cap. Re pressurise boiler and heating system.",
+      "interval": "every three years",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "Checking the expansion vessel (If fitted).",
+          "table_title": null,
+          "source_quote": "It is not necessary to perform this check every year a check every three years is sufficient. • Release the pressure from the boiler. • Remove valve cap from expansion vessel charge point. • Check that the internal charge pressure of the expansion vessel is to the correct design pressure. If the pressure is lower than this the vessel should be re pressurised using an air pump. • Refit the valve cap. • Re pressurise boiler and heating system."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    }
+  ],
+  "search_terms": [
+    "ecoTEC plus",
+    "Vaillant boiler",
+    "condensing boiler",
+    "open vent",
+    "installation",
+    "servicing",
+    "fault codes",
+    "diagnostic codes",
+    "status codes",
+    "technical data",
+    "specifications",
+    "maintenance",
+    "troubleshooting",
+    "gas connection",
+    "electrical connection",
+    "flue system",
+    "heat exchanger",
+    "pump",
+    "NTC sensor",
+    "ignition",
+    "gas valve",
+    "fan",
+    "condensate drain",
+    "pressure",
+    "CO2",
+    "LPG conversion",
+    "Benchmark",
+    "error codes"
+  ],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.95,
+    "review_required": false,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": []
+  }
+}

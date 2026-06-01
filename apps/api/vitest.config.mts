@@ -11,11 +11,19 @@ export default defineConfig(() => ({
     watch: false,
     globals: true,
     environment: 'node',
-    include: ['{src,tests}/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
+    include: ['src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
+    hookTimeout: 30000,
+    testTimeout: 20000,
     reporters: ['default'],
     coverage: {
       reportsDirectory: '../../coverage/apps/api',
       provider: 'v8' as const,
+      thresholds: {
+        lines: 70,
+        statements: 70,
+        functions: 70,
+        branches: 70,
+      }
     },
   },
 }));

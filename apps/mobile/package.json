@@ -4,17 +4,27 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/mobile"
+    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/mobile",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "prebuild": "expo prebuild --clean && node scripts/fix-watermelon.js"
   },
   "dependencies": {
     "@expo/metro-runtime": "*",
+    "@react-native-async-storage/async-storage": "^2.2.0",
     "@testing-library/react-native": "*",
-    "expo": "*",
+    "expo": "~54.0.35",
+    "expo-background-fetch": "~14.0.9",
     "expo-constants": "*",
     "expo-linking": "*",
-    "expo-router": "*",
+    "expo-router": "~6.0.24",
+    "expo-secure-store": "~15.0.8",
     "expo-splash-screen": "*",
+    "expo-sqlite": "~16.0.10",
     "expo-status-bar": "*",
+    "expo-secure-store": "*",
+    "@nozbe/watermelondb": "*",
+    "@nozbe/with-observables": "*",
     "expo-system-ui": "*",
     "jest-expo": "*",
     "metro-config": "*",
@@ -27,6 +37,5 @@
     "react-native-svg": "*",
     "react-native-svg-transformer": "*",
     "react-native-web": "*"
-  },
-  "devDependencies": {}
+  }
 }

@@ -12,7 +12,7 @@ import {
   Req,
   UseGuards,
 } from '@nestjs/common';
-import { Role } from '@prisma/client';
+import { UserRole } from '../../generated/prisma/client';
 import { JwtAuthGuard } from '../../auth/jwt-auth.guard';
 import type { AuthenticatedRequest } from '../../auth/jwt.types';
 import { Roles } from '../../rbac/roles.decorator';
@@ -20,6 +20,7 @@ import { RolesGuard } from '../../rbac/roles.guard';
 import { SchedulingService } from '../scheduling/scheduling.service';
 import { CreateJobDto } from './dto/create-job.dto';
 import { UpdateJobDto } from './dto/update-job.dto';
+import { UpdateJobStatusDto } from './dto/update-job-status.dto';
 import { JobsService } from './jobs.service';
 
 @Controller('jobs')
@@ -31,11 +32,11 @@ export class JobsController {
   ) {}
 
   @Get('suggestions')
-  @Roles(Role.MANAGER, Role.TECHNICIAN)
+  @Roles(UserRole.MANAGER, UserRole.TECHNICIAN)
   async suggestions(
     @Query('technicianId') technicianId: string,
     @Query('date') date: string,
-    @Query('durationMinutes') durationMinutesRaw: string,
+    @Query('estimatedDuration') estimatedDurationRaw: string,
     @Req() req: AuthenticatedRequest,
   ) {
     if (!technicianId || typeof technicianId !== 'string') {
@@ -45,22 +46,22 @@ export class JobsController {
       throw new BadRequestException('date is required');
     }
 
-    const durationMinutes = Number(durationMinutesRaw);
-    if (!Number.isInteger(durationMinutes) || durationMinutes <= 0) {
+    const estimatedDuration = Number(estimatedDurationRaw);
+    if (!Number.isInteger(estimatedDuration) || estimatedDuration <= 0) {
       throw new BadRequestException(
-        'durationMinutes must be a positive integer (minutes)',
+        'estimatedDuration must be a positive integer (minutes)',
       );
     }
 
     // Technicians may only request suggestions for themselves.
-    if (req.user.role === Role.TECHNICIAN && technicianId !== req.user.sub) {
+    if (req.user.role === UserRole.TECHNICIAN && technicianId !== req.user.sub) {
       throw new BadRequestException('technicianId must match authenticated user');
     }
 
     const slots = await this.schedulingService.suggestAvailableTimeSlots({
       technicianId,
       date,
-      durationMinutes,
+      estimatedDuration,
     });
 
     return slots.map((s) => ({
@@ -70,39 +71,49 @@ export class JobsController {
   }
 
   @Post()
-  @Roles(Role.MANAGER)
+  @Roles(UserRole.MANAGER)
   create(@Body() dto: CreateJobDto) {
     return this.jobsService.create(dto);
   }
 
   @Get()
-  @Roles(Role.MANAGER, Role.TECHNICIAN)
+  @Roles(UserRole.MANAGER, UserRole.TECHNICIAN)
   findAll(@Req() req: AuthenticatedRequest) {
     return this.jobsService.findAll(req.user);
   }
 
   @Get(':id')
-  @Roles(Role.MANAGER, Role.TECHNICIAN)
+  @Roles(UserRole.MANAGER, UserRole.TECHNICIAN)
   findOne(
-    @Param('id', new ParseUUIDPipe({ version: '4' })) id: string,
+    @Param('id', new ParseUUIDPipe({ version: '7' })) id: string,
     @Req() req: AuthenticatedRequest,
   ) {
     return this.jobsService.findOne(id, req.user);
   }
 
   @Patch(':id')
-  @Roles(Role.MANAGER, Role.TECHNICIAN)
+  @Roles(UserRole.MANAGER, UserRole.TECHNICIAN)
   update(
-    @Param('id', new ParseUUIDPipe({ version: '4' })) id: string,
+    @Param('id', new ParseUUIDPipe({ version: '7' })) id: string,
     @Body() dto: UpdateJobDto,
     @Req() req: AuthenticatedRequest,
   ) {
     return this.jobsService.update(id, dto, req.user);
   }
 
+  @Patch(':id/status')
+  @Roles(UserRole.MANAGER, UserRole.TECHNICIAN)
+  updateStatus(
+    @Param('id', new ParseUUIDPipe({ version: '7' })) id: string,
+    @Body() dto: UpdateJobStatusDto,
+    @Req() req: AuthenticatedRequest,
+  ) {
+    return this.jobsService.updateStatus(id, dto, req.user);
+  }
+
   @Delete(':id')
-  @Roles(Role.MANAGER)
-  remove(@Param('id', new ParseUUIDPipe({ version: '4' })) id: string) {
+  @Roles(UserRole.MANAGER)
+  remove(@Param('id', new ParseUUIDPipe({ version: '7' })) id: string) {
     return this.jobsService.remove(id);
   }
 }

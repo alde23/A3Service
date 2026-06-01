@@ -1,0 +1,2115 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Buderus",
+    "product_family": "Logano G115",
+    "model_names": [
+      "Buderus G115 Direct Vent Oil Boilers",
+      "Logano G115"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "Installation Manual for Buderus G115 Direct Vent Oil Boilers",
+    "document_code": "115SCIM - 12/06",
+    "publication_date": "12/06",
+    "language": "en",
+    "region": null,
+    "source_file": "bosch_g115_installation-manual_115scim-g115-direct-vent-manual-1206.pdf",
+    "file_hash": "d264afeec89f2dbf7ad9831be5d58e33ec822d12d89cf43461179891ddb331b4"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Minimum wall clearance (L1) for flexible stainless steel oil vent",
+      "value": "24",
+      "unit": "inches",
+      "applies_to_models": [
+        "Buderus G115 Direct Vent Oil Boilers"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "General Guidelines",
+          "table_title": null,
+          "source_quote": "Minimum wall clearance (L1)needed for: flex. Stainless Steel oil vent: 24\""
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum wall clearance (L1) for 4\" galvanized pipe",
+      "value": "16",
+      "unit": "inches",
+      "applies_to_models": [
+        "Buderus G115 Direct Vent Oil Boilers"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "General Guidelines",
+          "table_title": null,
+          "source_quote": "Minimum wall clearance (L1)needed for: 4\" galvanized pipe: 16\""
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum length of flexible, insulated 4\" stainless steel oil vent",
+      "value": "10",
+      "unit": "ft",
+      "applies_to_models": [
+        "Buderus G115 Direct Vent Oil Boilers"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "General Guidelines",
+          "table_title": null,
+          "source_quote": "Pipe Option 1: Flexible, insulated 4\" stainless steel oil vent. Maximum length of 10 ft."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance to combustibles for flexible, insulated 4\" stainless steel oil vent",
+      "value": "1",
+      "unit": "inch",
+      "applies_to_models": [
+        "Buderus G115 Direct Vent Oil Boilers"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "General Guidelines",
+          "table_title": null,
+          "source_quote": "The insulated oil vent is rated for 1\" clearance to combustibles."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum straight length of standard, 26 gauge galvanized vent pipe",
+      "value": "6",
+      "unit": "ft",
+      "applies_to_models": [
+        "Buderus G115 Direct Vent Oil Boilers"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "General Guidelines",
+          "table_title": null,
+          "source_quote": "Pipe Option 2: Standard, 26 gauge galvanized vent pipe. Maximum straight length is 6 ft"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum 90° elbows for standard, 26 gauge galvanized vent pipe",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [
+        "Buderus G115 Direct Vent Oil Boilers"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "General Guidelines",
+          "table_title": null,
+          "source_quote": "with up to 2 90° elbows."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance to combustibles for standard, 26 gauge galvanized vent pipe",
+      "value": "18",
+      "unit": "inches",
+      "applies_to_models": [
+        "Buderus G115 Direct Vent Oil Boilers"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "General Guidelines",
+          "table_title": null,
+          "source_quote": "Maintain 18\" clearance to combustibles with galvanized vent pipe."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler clearance to combustibles (Front)",
+      "value": "24",
+      "unit": "inches",
+      "applies_to_models": [
+        "Buderus G115 Direct Vent Oil Boilers"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Installation Procedures: Exhaust Terminations and Exhaust Vent Piping.",
+          "table_title": "Table 1: Boiler and exhaust vent pipe clearances to combustibles",
+          "source_quote": "Front 24\""
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler clearance to combustibles (Side)",
+      "value": "6",
+      "unit": "inches",
+      "applies_to_models": [
+        "Buderus G115 Direct Vent Oil Boilers"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Installation Procedures: Exhaust Terminations and Exhaust Vent Piping.",
+          "table_title": "Table 1: Boiler and exhaust vent pipe clearances to combustibles",
+          "source_quote": "Side 6\""
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler clearance to combustibles (Rear)",
+      "value": "6",
+      "unit": "inches",
+      "applies_to_models": [
+        "Buderus G115 Direct Vent Oil Boilers"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Installation Procedures: Exhaust Terminations and Exhaust Vent Piping.",
+          "table_title": "Table 1: Boiler and exhaust vent pipe clearances to combustibles",
+          "source_quote": "Rear 6\""
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler clearance to combustibles (Top)",
+      "value": "6",
+      "unit": "inches",
+      "applies_to_models": [
+        "Buderus G115 Direct Vent Oil Boilers"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Installation Procedures: Exhaust Terminations and Exhaust Vent Piping.",
+          "table_title": "Table 1: Boiler and exhaust vent pipe clearances to combustibles",
+          "source_quote": "Top 6\""
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust vent pipe clearance to combustibles (Galvanized Pipe)",
+      "value": "18",
+      "unit": "inches",
+      "applies_to_models": [
+        "Buderus G115 Direct Vent Oil Boilers"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Installation Procedures: Exhaust Terminations and Exhaust Vent Piping.",
+          "table_title": "Table 1: Boiler and exhaust vent pipe clearances to combustibles",
+          "source_quote": "Galv. Pipe 18\""
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust vent pipe clearance to combustibles (Insulated Oil Vent)",
+      "value": "1",
+      "unit": "inch",
+      "applies_to_models": [
+        "Buderus G115 Direct Vent Oil Boilers"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Installation Procedures: Exhaust Terminations and Exhaust Vent Piping.",
+          "table_title": "Table 1: Boiler and exhaust vent pipe clearances to combustibles",
+          "source_quote": "Insul. Oil Vent 1\""
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Nozzle (G115/21, Riello BF3)",
+      "value": ".5 Dlv. 80°W",
+      "unit": null,
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Riello BF3 .5 Dlv. 80°W"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Air Band Set (G115/21, Riello BF3)",
+      "value": "3.5",
+      "unit": null,
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Riello BF3 ... 3.5"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Head Set (G115/21, Riello BF3)",
+      "value": "0.0",
+      "unit": null,
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Riello BF3 ... 0.0"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure (G115/21, Riello BF3)",
+      "value": "145",
+      "unit": "psi",
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Riello BF3 ... 145"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Blast Tube Insertion (G115/21, Riello BF3)",
+      "value": "6",
+      "unit": "inches",
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Riello BF3 ... 6\""
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Stack Temp (G115/21, Riello BF3)",
+      "value": "315",
+      "unit": "°F",
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Riello BF3 ... 315"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Nozzle (G115/21, Beckett NX)",
+      "value": ".5 Dlv. 60°W",
+      "unit": null,
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Beckett NX .5 Dlv. 60°W"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Air Band Set (G115/21, Beckett NX)",
+      "value": "N/A",
+      "unit": null,
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Beckett NX ... N/A"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Head Set (G115/21, Beckett NX)",
+      "value": "1.0",
+      "unit": null,
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Beckett NX ... 1.0"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure (G115/21, Beckett NX)",
+      "value": "150",
+      "unit": "psi",
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Beckett NX ... 150"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Blast Tube Insertion (G115/21, Beckett NX)",
+      "value": "4.88",
+      "unit": "inches",
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Beckett NX ... 4.88\""
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Stack Temp (G115/21, Beckett NX)",
+      "value": "417",
+      "unit": "°F",
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Beckett NX ... 417"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Nozzle (G115/21, Carlin P10)",
+      "value": ".5 Dlv. 60°A",
+      "unit": null,
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Carlin P10 .5 Dlv. 60°A"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Air Band Set (G115/21, Carlin P10)",
+      "value": ".40",
+      "unit": null,
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Carlin P10 ... .40"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Head Set (G115/21, Carlin P10)",
+      "value": ".50",
+      "unit": null,
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Carlin P10 ... .50"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure (G115/21, Carlin P10)",
+      "value": "150",
+      "unit": "psi",
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Carlin P10 ... 150"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Blast Tube Insertion (G115/21, Carlin P10)",
+      "value": "4",
+      "unit": "inches",
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Carlin P10 ... 4\""
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Stack Temp (G115/21, Carlin P10)",
+      "value": "340",
+      "unit": "°F",
+      "applies_to_models": [
+        "G115/21"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/21 Carlin P10 ... 340"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Nozzle (G115/28, Riello BF3)",
+      "value": ".65 Dlv. 60°W",
+      "unit": null,
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Riello BF3 .65 Dlv. 60°W"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Air Band Set (G115/28, Riello BF3)",
+      "value": "5.5",
+      "unit": null,
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Riello BF3 ... 5.5"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Head Set (G115/28, Riello BF3)",
+      "value": "3.0",
+      "unit": null,
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Riello BF3 ... 3.0"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure (G115/28, Riello BF3)",
+      "value": "145",
+      "unit": "psi",
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Riello BF3 ... 145"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Blast Tube Insertion (G115/28, Riello BF3)",
+      "value": "6",
+      "unit": "inches",
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Riello BF3 ... 6\""
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Stack Temp (G115/28, Riello BF3)",
+      "value": "310",
+      "unit": "°F",
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Riello BF3 ... 310"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Nozzle (G115/28, Beckett NX)",
+      "value": ".6 Dlv. 60°B",
+      "unit": null,
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Beckett NX .6 Dlv. 60°B"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Air Band Set (G115/28, Beckett NX)",
+      "value": "N/A",
+      "unit": null,
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Beckett NX ... N/A"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Head Set (G115/28, Beckett NX)",
+      "value": "2.5",
+      "unit": null,
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Beckett NX ... 2.5"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure (G115/28, Beckett NX)",
+      "value": "175",
+      "unit": "psi",
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Beckett NX ... 175"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Blast Tube Insertion (G115/28, Beckett NX)",
+      "value": "4.88",
+      "unit": "inches",
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Beckett NX ... 4.88\""
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Stack Temp (G115/28, Beckett NX)",
+      "value": "319",
+      "unit": "°F",
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Beckett NX ... 319"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Nozzle (G115/28, Carlin P10)",
+      "value": ".65 Hago 60°ES",
+      "unit": null,
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Carlin P10 .65 Hago 60°ES"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Air Band Set (G115/28, Carlin P10)",
+      "value": ".65",
+      "unit": null,
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Carlin P10 ... .65"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Head Set (G115/28, Carlin P10)",
+      "value": ".60/.65",
+      "unit": null,
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Carlin P10 ... .60/.65"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure (G115/28, Carlin P10)",
+      "value": "150",
+      "unit": "psi",
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Carlin P10 ... 150"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Blast Tube Insertion (G115/28, Carlin P10)",
+      "value": "4",
+      "unit": "inches",
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Carlin P10 ... 4\""
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Stack Temp (G115/28, Carlin P10)",
+      "value": "340",
+      "unit": "°F",
+      "applies_to_models": [
+        "G115/28"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/28 Carlin P10 ... 340"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Nozzle (G115/34, Riello BF5)",
+      "value": ".85 Dlv. 60°W",
+      "unit": null,
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Riello BF5 .85 Dlv. 60°W"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Air Band Set (G115/34, Riello BF5)",
+      "value": "4.5",
+      "unit": null,
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Riello BF5 ... 4.5"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Head Set (G115/34, Riello BF5)",
+      "value": "3.0",
+      "unit": null,
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Riello BF5 ... 3.0"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure (G115/34, Riello BF5)",
+      "value": "145",
+      "unit": "psi",
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Riello BF5 ... 145"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Blast Tube Insertion (G115/34, Riello BF5)",
+      "value": "10",
+      "unit": "inches",
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Riello BF5 ... 10\""
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Stack Temp (G115/34, Riello BF5)",
+      "value": "350",
+      "unit": "°F",
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Riello BF5 ... 350"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Nozzle (G115/34, Beckett NX)",
+      "value": ".75 Dlv. 60°B",
+      "unit": null,
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Beckett NX .75 Dlv. 60°B"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Air Band Set (G115/34, Beckett NX)",
+      "value": "N/A",
+      "unit": null,
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Beckett NX ... N/A"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Head Set (G115/34, Beckett NX)",
+      "value": "2..25",
+      "unit": null,
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Beckett NX ... 2..25"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure (G115/34, Beckett NX)",
+      "value": "175",
+      "unit": "psi",
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Beckett NX ... 175"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Blast Tube Insertion (G115/34, Beckett NX)",
+      "value": "4.88",
+      "unit": "inches",
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Beckett NX ... 4.88\""
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Stack Temp (G115/34, Beckett NX)",
+      "value": "330",
+      "unit": "°F",
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Beckett NX ... 330"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Nozzle (G115/34, Carlin P10)",
+      "value": ".85 Dlv. 60°B",
+      "unit": null,
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Carlin P10 .85 Dlv. 60°B"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Air Band Set (G115/34, Carlin P10)",
+      "value": ".85",
+      "unit": null,
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Carlin P10 ... .85"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Head Set (G115/34, Carlin P10)",
+      "value": ".85/1.0",
+      "unit": null,
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Carlin P10 ... .85/1.0"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure (G115/34, Carlin P10)",
+      "value": "150",
+      "unit": "psi",
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Carlin P10 ... 150"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Blast Tube Insertion (G115/34, Carlin P10)",
+      "value": "4",
+      "unit": "inches",
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Carlin P10 ... 4\""
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Stack Temp (G115/34, Carlin P10)",
+      "value": "400",
+      "unit": "°F",
+      "applies_to_models": [
+        "G115/34"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": "Table 2: Preliminary burner settings",
+          "source_quote": "G115/34 Carlin P10 ... 400"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Oil pump pressure for Riello BF burners",
+      "value": "140 - 150",
+      "unit": "psi",
+      "applies_to_models": [
+        "Buderus G115 Direct Vent Oil Boilers"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": null,
+          "source_quote": "1. Oil pump pressure should be 140 - 150 psi for the Riello BF burners"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Oil pump pressure for Carlin P10 burners",
+      "value": "140 - 150",
+      "unit": "psi",
+      "applies_to_models": [
+        "Buderus G115 Direct Vent Oil Boilers"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": null,
+          "source_quote": "1. Oil pump pressure should be ... 140 - 150 psi for the Carlin P10 burners."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Recommended CO2 value",
+      "value": "11.0% – 12.5%",
+      "unit": null,
+      "applies_to_models": [
+        "Buderus G115 Direct Vent Oil Boilers"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": null,
+          "source_quote": "2. Adjust the air set to get a CO2 value of 11.0% – 12.5% with 0 smoke #."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Recommended smoke reading",
+      "value": "0",
+      "unit": "smoke #",
+      "applies_to_models": [
+        "Buderus G115 Direct Vent Oil Boilers"
+      ],
+      "category": "burner_settings",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": null,
+          "source_quote": "2. Adjust the air set to get a CO2 value of 11.0% – 12.5% with 0 smoke #."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [],
+  "diagnostic_codes": [],
+  "status_codes": [],
+  "safety_warnings": [
+    {
+      "warning_type": "notice",
+      "topic": "Installation",
+      "text": "The heating boiler must be installed in accordance with local and state codes by a qualified installer.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "The heating boiler must be installed in accordance with local and state codes by a qualified installer."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Burner Start-up",
+      "text": "Burner start-up must be performed by a qualified service person.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Burner start-up must be performed by a qualified service person."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Operation Explanation",
+      "text": "Explain the operation of the heating unit to the home owner.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Explain the operation of the heating unit to the home owner."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Manual Storage",
+      "text": "Keep manual in a dry place near the boiler.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Keep manual in a dry place near the boiler."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Local Codes",
+      "text": "Consult with local authorities to insure compliance with local building, plumbing and electrical codes.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1 Location of Wall Terminals",
+          "table_title": null,
+          "source_quote": "IMPORTANT: Consult with local authorities to insure compliance with local building, plumbing and electrical codes."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Venting System",
+      "text": "The venting system is only for a single appliance. Venting of an additional appliance could cause serious injury or loss of life.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "The venting system is only for a single appliance. Venting of an additional appliance could cause serious injury or loss of life."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Venting System Routing",
+      "text": "The venting system shall not be routed into, through, or within any other vent, such as an existing masonry or factory-built chimney.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "The venting system shall not be routed into, through, or within any other vent, such as an existing masonry or factory-built chimney."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Venting Screens",
+      "text": "Screens on intake and exhaust terminals must be kept in good working order to prevent debris from entering the venting system.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Screens on intake and exhaust terminals must be kept in good working order to prevent debris from entering the venting system."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Flue Gas Leakage",
+      "text": "It is of vital importance to seal all flue joints and screw penetrations to prevent leakage of flue gases into the building.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Sealing of the Vent Piping:",
+          "table_title": null,
+          "source_quote": "It is of vital importance to seal all flue joints and screw penetrations to prevent leakage of flue gases into the building."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Venting System Piercing",
+      "text": "The venting system shall not be pierced under any circumstance after initial installation.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Sealing of the Vent Piping:",
+          "table_title": null,
+          "source_quote": "The venting system shall not be pierced under any circumstance after initial installation."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Barometric Damper",
+      "text": "Never install a barometric damper into the exhaust piping.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "General Guidelines:",
+          "table_title": null,
+          "source_quote": "Never install a barometric damper into the exhaust piping."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Approved Materials",
+      "text": "Use only the approved materials listed on the previous page for direct venting of oil-fired Buderus G115 boilers. Use of any other materials, or systems not installed in accordance with the instructions contained in this manual will void the ITS listing.",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Installation Procedures: Exhaust Terminations and Exhaust Vent Piping.",
+          "table_title": null,
+          "source_quote": "NOTE: Use only the approved materials listed on the previous page for direct venting of oil-fired Buderus G115 boilers. Use of any other materials, or systems not installed in accordance with the instructions contained in this manual will void the ITS listing."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Sealing Exhaust Pipe Joints",
+      "text": "Use strictly high temperature rated silicone (500 °F rated silicone, G.E. 106 or equivalent) and/or high temperature tape (360° F rated aluminum foil tape) for sealing at all exhaust pipe joints. Check all seams and joints of the exhaust venting for gas tightness.",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Installation Procedures: Exhaust Terminations and Exhaust Vent Piping.",
+          "table_title": null,
+          "source_quote": "NOTE: Use strictly high temperature rated silicone (500 °F rated silicone, G.E. 106 or equivalent) and/or high temperature tape (360° F rated aluminum foil tape) for sealing at all exhaust pipe joints. Check all seams and joints of the exhaust venting for gas tightness."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Clearances to Combustibles",
+      "text": "Maintain clearances to combustibles as indicated in Table 1.",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Installation Procedures: Exhaust Terminations and Exhaust Vent Piping.",
+          "table_title": null,
+          "source_quote": "NOTE: Maintain clearances to combustibles as indicated in Table 1."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Venting System Gas Tightness",
+      "text": "Once the entire venting system is installed, make sure all joints are secure. All seams and joints of the exhaust venting must be checked for gas tightness. High temperature tape or high temperature silicone sealant can be used to ensure an air-tight venting system. It is required to have the entire system checked and serviced by a qualified technician at least once annually following initial installation.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "IMPORTANT NOTICES:",
+          "table_title": null,
+          "source_quote": "Once the entire venting system is installed, make sure all joints are secure. All seams and joints of the exhaust venting must be checked for gas tightness. High temperature tape or high temperature silicone sealant can be used to ensure an air-tight venting system. It is required to have the entire system checked and serviced by a qualified technician at least once annually following initial installation."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Vent Termination Blockage",
+      "text": "ADVISE OWNER to keep intake and exhaust terminations free of debris and snow.",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "IMPORTANT NOTICES:",
+          "table_title": null,
+          "source_quote": "ADVISE OWNER to keep intake and exhaust terminations free of debris and snow."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Obstructed Air Intake/Exhaust",
+      "text": "Buderus Hydronic Systems, Inc. will not assume any responsibility for the possible effects of an obstructed air intake or exhaust termination.",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "IMPORTANT NOTICES:",
+          "table_title": null,
+          "source_quote": "Warning: Buderus Hydronic Systems, Inc. will not assume any responsibility for the possible effects of an obstructed air intake or exhaust termination."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Burner Observation Port Seal",
+      "text": "MAKE SURE THE BURNER OBSERVATION PORT LOCATED ON THE BURNER DOOR IS SEALED AIR-TIGHT BY PROPERLY TIGHTENING THE PORT SCREW. USE EXTRA SILICONE SEALANT IF NECESSARY. TIGHTEN BURNER DOOR BOLTS EVENLY AND ENSURE AN AIR-TIGHT SEAL.",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "IMPORTANT NOTICES:",
+          "table_title": null,
+          "source_quote": "NOTE: MAKE SURE THE BURNER OBSERVATION PORT LOCATED ON THE BURNER DOOR IS SEALED AIR-TIGHT BY PROPERLY TIGHTENING THE PORT SCREW. USE EXTRA SILICONE SEALANT IF NECESSARY. TIGHTEN BURNER DOOR BOLTS EVENLY AND ENSURE AN AIR-TIGHT SEAL."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Surface Discoloration",
+      "text": "SURFACE DISCOLORATION ON THE OUTSIDE OF THE BUILDING MAY OCCUR IF THE BURNER IS NOT PROPERLY ADJUSTED. BUDERUS HYDRONIC SYSTEMS, INC. WILL NOT ACCEPT ANY RESPONSIBILITY FOR SUCH DISCOLORATION.",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "IMPORTANT NOTICES:",
+          "table_title": null,
+          "source_quote": "NOTE: SURFACE DISCOLORATION ON THE OUTSIDE OF THE BUILDING MAY OCCUR IF THE BURNER IS NOT PROPERLY ADJUSTED. BUDERUS HYDRONIC SYSTEMS, INC. WILL NOT ACCEPT ANY RESPONSIBILITY FOR SUCH DISCOLORATION."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Oil Filter Recommendation",
+      "text": "Buderus Hydronic Systems, Inc. strongly recommends the use of a low micron oil filter such as the Garber oil filter, placed in the fuel line near the burner. This filter is in addition to a regular oil filter placed at the outlet of the oil tank.",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "IMPORTANT NOTICES:",
+          "table_title": null,
+          "source_quote": "NOTE: Buderus Hydronic Systems, Inc. strongly recommends the use of a low micron oil filter such as the Garber oil filter, placed in the fuel line near the burner. This filter is in addition to a regular oil filter placed at the outlet of the oil tank."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Burner Operation Adjustment",
+      "text": "Always use instruments to check combustion. DO NOT ADJUST BURNER OPERATION BY EYE!",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": null,
+          "source_quote": "Always use instruments to check combustion. DO NOT ADJUST BURNER OPERATION BY EYE!"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Smoke from Exhaust Terminal",
+      "text": "Stop burner operation at once if smoke emerges from the exhaust terminal. Check and make necessary burner adjustments to obtain smoke-free flue products.",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": null,
+          "source_quote": "NOTE: Stop burner operation at once if smoke emerges from the exhaust terminal. Check and make necessary burner adjustments to obtain smoke-free flue products."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Burner Observation Port Seal",
+      "text": "MAKE SURE the burner observation port located on the burner door is sealed air-tight by properly tightening the port screw. Use extra sealant if necessary.",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Burner Settings",
+          "table_title": null,
+          "source_quote": "NOTE: MAKE SURE the burner observation port located on the burner door is sealed air-tight by properly tightening the port screw. Use extra sealant if necessary."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Tampering with Controls",
+      "text": "Never tamper with boiler or burner controls and settings.",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Warnings:",
+          "table_title": null,
+          "source_quote": "1. Never tamper with boiler or burner controls and settings."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Combustible Materials",
+      "text": "Never place combustible materials within 5 ft of the boiler.",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Warnings:",
+          "table_title": null,
+          "source_quote": "2. Never place combustible materials within 5 ft of the boiler."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Fuel Type",
+      "text": "Only use fuel oil #2 or kerosene for your oil boiler. Never use gasoline, waste oil or other combustible materials in your boiler.",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Warnings:",
+          "table_title": null,
+          "source_quote": "3. Only use fuel oil #2 or kerosene for your oil boiler. Never use gasoline, waste oil or other combustible materials in your boiler."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Ignition",
+      "text": "Never ignite any material in your boiler. The unit is designed for hands-off operation.",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Warnings:",
+          "table_title": null,
+          "source_quote": "4. Never ignite any material in your boiler. The unit is designed for hands-off operation."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Vent Termination",
+      "text": "Do not plant vegetation directly under vent termination.",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Warnings:",
+          "table_title": null,
+          "source_quote": "5. Do not plant vegetation directly under vent termination."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Combustion Air Flow",
+      "text": "Regularly check the air intake and exhaust terminals for any blockage or debris that could hinder the flow of combustion air to the burner and flue gases from the boiler. Any obstructions could jeopardize clean combustion and could result in poor combustion, smoky and fuel smelling flue gases.",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "General Information:",
+          "table_title": null,
+          "source_quote": "Regularly check the air intake and exhaust terminals for any blockage or debris that could hinder the flow of combustion air to the burner and flue gases from the boiler. Any obstructions could jeopardize clean combustion and could result in poor combustion, smoky and fuel smelling flue gases."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    }
+  ],
+  "maintenance_tasks": [
+    {
+      "task_name": "Inspect and service boiler and vent system",
+      "description": "To maintain efficient operation of the system.",
+      "interval": "Annually",
+      "required_qualification": "qualified service person",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "4 Annual Maintenance",
+          "table_title": null,
+          "source_quote": "The boiler and vent system should be inspected and serviced once annually by a qualified service person to maintain efficient operation of the system."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "Verify proper operation of boiler controls and safety devices",
+      "description": null,
+      "interval": "Annually",
+      "required_qualification": "qualified service person",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "4 Annual Maintenance",
+          "table_title": null,
+          "source_quote": "Proper operation of boiler controls and safety devices must be verified during the annual service."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "Disconnect electrical power, fuel supply, and air intake duct",
+      "description": "Disconnect electrical power to the system and the fuel supply and air intake duct to the burner. Remove front panel jacket from the boiler. Remove burner door bolts and swing open burner door.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Maintenance and service procedures",
+          "table_title": null,
+          "source_quote": "1. Disconnect the electrical power to the system and the fuel supply and air intake duct to the burner. Remove front panel jacket from the boiler. Remove burner door bolts and swing open burner door."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Clean combustion chamber and heat exchanger",
+      "description": "Brush the combustion chamber and heat exchanger surface with a flexible bristle brush and remove deposits with a vacuum cleaner.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Maintenance and service procedures",
+          "table_title": null,
+          "source_quote": "2. Brush the combustion chamber and heat exchanger surface with a flexible bristle brush and remove deposits with a vacuum cleaner."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Clean flue pipe and air intake pipe",
+      "description": "Tap gently against flue pipe to loosen possible build-up and slide vacuum hose through the upper portion of the heat exchanger into the flue pipe to remove deposits. Make sure that no obstructions are present in the flue pipe and air intake pipe.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Maintenance and service procedures",
+          "table_title": null,
+          "source_quote": "3. Tap gently against flue pipe to loosen possible build-up and slide vacuum hose through the upper portion of the heat exchanger into the flue pipe to remove deposits. Make sure that no obstructions are present in the flue pipe and air intake pipe."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Ensure boiler and venting system is gas tight",
+      "description": "Close burner door, tighten burner door bolts evenly and ensure that entire boiler and venting system is gas tight.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Maintenance and service procedures",
+          "table_title": null,
+          "source_quote": "4. Close burner door, tighten burner door bolts evenly and ensure that entire boiler and venting system is gas tight."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Service oil burner",
+      "description": "Service oil burner in accordance with oil burner manufacturer's instructions.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Maintenance and service procedures",
+          "table_title": null,
+          "source_quote": "5. Service oil burner in accordance with oil burner manufacturer's instructions."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Test Garber oil filter cartridge",
+      "description": "Test the Garber oil filter cartridge with a vacuum gauge under full purge. Compare reading to original vacuum reading of the initial installation and replace if necessary.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Maintenance and service procedures",
+          "table_title": null,
+          "source_quote": "6. Test the Garber oil filter cartridge with a vacuum gauge under full purge. Compare reading to original vacuum reading of the initial installation and replace if necessary."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Replace oil filter at oil tank discharge",
+      "description": null,
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Maintenance and service procedures",
+          "table_title": null,
+          "source_quote": "7. Replace the oil filter at the oil tank discharge."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Reinstall components and reconnect fuel/electrical",
+      "description": "Reinstall all shields and covers, reconnect fuel line and bleed air from oil delivery supply and connect electrical power to the boiler.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Maintenance and service procedures",
+          "table_title": null,
+          "source_quote": "8. Reinstall all shields and covers, reconnect fuel line and bleed air from oil delivery supply and connect electrical power to the boiler."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Perform complete combustion test",
+      "description": "Perform complete combustion test with instruments to ensure proper burner operation. Make necessary adjustments.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Maintenance and service procedures",
+          "table_title": null,
+          "source_quote": "9. Perform complete combustion test with instruments to ensure proper burner operation. Make necessary adjustments."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Seal test ports and verify exhaust venting system air-tightness",
+      "description": "Make sure all test ports are properly sealed after completion of combustion test. Verify that the exhaust venting system is air-tight. Use silicone sealant if necessary.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Maintenance and service procedures",
+          "table_title": null,
+          "source_quote": "10. Make sure all test ports are properly sealed after completion of combustion test. Verify that the exhaust venting system is air-tight. Use silicone sealant if necessary."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Test high limit control",
+      "description": "Temporarily disconnect power to the heating circulator(s), turn room thermostat to a high setting to fire the burner and verify proper operation of the high limit control. After verification, turn room thermostat to original setting and restore power to the circulator(s).",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Testing of boiler controls and safety devices.",
+          "table_title": null,
+          "source_quote": "Temporarily disconnect power to the heating circulator(s), turn room thermostat to a high setting to fire the burner and verify proper operation of the high limit control. After verification, turn room thermostat to original setting and restore power to the circulator(s)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Verify cover plates, guards, and vent pipe connections",
+      "description": "Verify that all cover plates, guards and vent pipe connections are properly in place. Make sure that the exhaust venting is gas tight. Use silicone sealant if necessary.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Testing of boiler controls and safety devices.",
+          "table_title": null,
+          "source_quote": "NOTE: Upon completion of the annual service, verify that all cover plates, guards and vent pipe connections are properly in place. Make sure that the exhaust venting is gas tight. Use silicone sealant if necessary."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Service boiler/burner unit",
+      "description": "To maintain highly efficient operation and avoid unnecessary expenses.",
+      "interval": "at least once annually",
+      "required_qualification": "qualified service person",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "General Information:",
+          "table_title": null,
+          "source_quote": "Your boiler/burner unit should be serviced at least once annually by a qualified service person to maintain highly efficient operation and avoid unnecessary expenses."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "task_name": "Keep fuel tank full",
+      "description": "Especially during the summer to prevent moisture condensing and build-up on the inside surface of the fuel tank.",
+      "interval": null,
+      "required_qualification": "homeowner",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "General Information:",
+          "table_title": null,
+          "source_quote": "Keep your fuel tank full, especially during the summer to prevent moisture condensing and build-up on the inside surface of the fuel tank."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Check air intake and exhaust terminals for blockage",
+      "description": "Regularly check the air intake and exhaust terminals for any blockage or debris that could hinder the flow of combustion air to the burner and flue gases from the boiler.",
+      "interval": "Regularly",
+      "required_qualification": "homeowner",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "General Information:",
+          "table_title": null,
+          "source_quote": "Regularly check the air intake and exhaust terminals for any blockage or debris that could hinder the flow of combustion air to the burner and flue gases from the boiler."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "search_terms": [
+    "Buderus G115",
+    "Direct Vent Oil Boiler",
+    "Installation Manual",
+    "Burner Settings",
+    "Maintenance",
+    "Troubleshooting",
+    "Clearances",
+    "Venting System",
+    "Oil Filter",
+    "Combustion Test",
+    "Safety Warnings",
+    "Logano G115"
+  ],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.4,
+    "review_required": true,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "No explicit fault, diagnostic, or status code tables were found in the manual. Homeowner troubleshooting steps were extracted as general information.",
+      "No fault codes, diagnostic codes, or status codes were extracted. Manual should be reviewed or reprocessed.",
+      "No fault_codes were extracted."
+    ]
+  }
+}
