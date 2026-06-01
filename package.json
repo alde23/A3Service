@@ -7,7 +7,7 @@
     "prisma:migrate:dev": "cd apps/api && prisma migrate dev --name init --schema prisma/schema.prisma",
     "prisma:validate": "cd apps/api && prisma validate --schema prisma/schema.prisma",
     "prisma:seed": "prisma db seed --schema apps/api/prisma/schema.prisma",
-    "prepare": "husky"
+    "prepare": "node -e \"try { require('child_process').execSync('husky') } catch (e) {}\""
   },
   "prisma": {},
   "private": true,
