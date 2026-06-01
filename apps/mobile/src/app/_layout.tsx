@@ -6,7 +6,7 @@ import { AuthProvider, useAuth } from '../services/auth.service';
 import { DatabaseProvider } from '../storage/DatabaseProvider';
 import '../i18n';
 import { useTranslation } from 'react-i18next';
-import { C } from '../theme/colors';
+import { ThemeProvider, useTheme } from '../theme/ThemeProvider';
 
 function TabIcon({
   name,
@@ -22,6 +22,7 @@ function TabIcon({
 
 function AppTabs() {
   const { t } = useTranslation();
+  const { colors } = useTheme();
 
   return (
     <Tabs
@@ -29,11 +30,11 @@ function AppTabs() {
       screenOptions={{
         headerShown: false,
         tabBarShowLabel: false,
-        tabBarActiveTintColor: C.textPrimary,
-        tabBarInactiveTintColor: C.textTertiary,
+        tabBarActiveTintColor: colors.textPrimary,
+        tabBarInactiveTintColor: colors.textTertiary,
         tabBarStyle: {
-          backgroundColor: C.surface1,
-          borderTopColor: C.border,
+          backgroundColor: colors.surface1,
+          borderTopColor: colors.border,
           height: Platform.select({ ios: 88, default: 64 }),
           paddingTop: 8,
           paddingBottom: Platform.select({ ios: 24, default: 10 }),
@@ -106,10 +107,12 @@ function GuardedRoot() {
 
 export default function RootLayout() {
   return (
-    <DatabaseProvider>
-      <AuthProvider>
-        <GuardedRoot />
-      </AuthProvider>
-    </DatabaseProvider>
+    <ThemeProvider>
+      <DatabaseProvider>
+        <AuthProvider>
+          <GuardedRoot />
+        </AuthProvider>
+      </DatabaseProvider>
+    </ThemeProvider>
   );
 }

@@ -19,7 +19,8 @@ import {
   MonthlyMetric,
 } from '../services/analytics-api.service';
 import { observeExpenses, addExpense } from '../storage/repositories/expenses.repository';
-import { C } from '../theme/colors';
+import { ColorsType } from '../theme/colors';
+import { useTheme } from '../theme/ThemeProvider';
 
 type MetricCard = {
   label: string;
@@ -66,25 +67,27 @@ const BRAND_BREAKDOWN = [
 
 const TRENDS = ['2024', '2025', '2026', 'YTD'];
 
-function toneStyles(tone: MetricCard['tone']) {
+function toneStyles(tone: MetricCard['tone'], colors: ColorsType) {
   if (tone === 'blue') {
-    return { bg: C.blueSoft, text: C.blue, ring: '#1d4ed8' };
+    return { bg: colors.blueSoft, text: colors.blue, ring: '#1d4ed8' };
   }
 
   if (tone === 'emerald') {
-    return { bg: C.greenSoft, text: C.green, ring: '#065f46' };
+    return { bg: colors.greenSoft, text: colors.green, ring: '#065f46' };
   }
 
   if (tone === 'amber') {
-    return { bg: C.amberSoft, text: C.amber, ring: '#92400e' };
+    return { bg: colors.amberSoft, text: colors.amber, ring: '#92400e' };
   }
 
-  return { bg: C.surface2, text: C.textSecondary, ring: C.border2 };
+  return { bg: colors.surface2, text: colors.textSecondary, ring: colors.border2 };
 }
 
 export default function AnalyticsScreen() {
   const { t } = useTranslation();
   const { token } = useAuth();
+  const { colors } = useTheme();
+  const styles = useMemo(() => getStyles(colors), [colors]);
   const [summary, setSummary] = useState<AnalyticsSummary>({});
   const [monthlyData, setMonthlyData] = useState<MonthlyMetric[]>(MONTHLY_DATA);
 
@@ -175,7 +178,7 @@ export default function AnalyticsScreen() {
       <View style={styles.header}>
         <View style={styles.titleRow}>
           <View style={styles.iconWrap}>
-            <Ionicons name="bar-chart-outline" size={18} color={C.textPrimary} />
+            <Ionicons name="bar-chart-outline" size={18} color={colors.textPrimary} />
           </View>
           <Text style={styles.headerTitle}>{t('analytics.title')}</Text>
         </View>
@@ -202,7 +205,7 @@ export default function AnalyticsScreen() {
           </View>
 
           <Pressable style={styles.exportButton}>
-            <Ionicons name="download-outline" size={16} color={C.bg} />
+            <Ionicons name="download-outline" size={16} color={colors.bg} />
             <Text style={styles.exportButtonText}>{t('analytics.export')}</Text>
           </Pressable>
         </View>
@@ -245,15 +248,15 @@ export default function AnalyticsScreen() {
 
         <View style={styles.grid}>
           {metrics.map((metric) => {
-            const colors = toneStyles(metric.tone);
+            const cardColors = toneStyles(metric.tone, colors);
 
             return (
               <View
                 key={metric.label}
-                style={[styles.metricCard, { borderColor: colors.ring }]}
+                style={[styles.metricCard, { borderColor: cardColors.ring }]}
               >
-                <View style={[styles.metricChip, { backgroundColor: colors.bg }]}>
-                  <Text style={[styles.metricDelta, { color: colors.text }]}>
+                <View style={[styles.metricChip, { backgroundColor: cardColors.bg }]}>
+                  <Text style={[styles.metricDelta, { color: cardColors.text }]}>
                     {metric.delta}
                   </Text>
                 </View>
@@ -360,24 +363,24 @@ export default function AnalyticsScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  addExpenseBtn: { backgroundColor: C.blueSoft, padding: 8, borderRadius: 8, alignItems: 'center' },
-  addExpenseBtnText: { color: C.blue, fontWeight: 'bold' },
+const getStyles = (colors: ColorsType) => StyleSheet.create({
+  addExpenseBtn: { backgroundColor: colors.blueSoft, padding: 8, borderRadius: 8, alignItems: 'center' },
+  addExpenseBtnText: { color: colors.blue, fontWeight: 'bold' },
   modalOverlay: { flex: 1, backgroundColor: 'rgba(0,0,0,0.5)', justifyContent: 'center', padding: 20 },
-  modalContent: { backgroundColor: C.surface1, padding: 20, borderRadius: 12 },
-  modalTitle: { fontSize: 18, fontWeight: 'bold', marginBottom: 15, color: C.textPrimary },
-  input: { borderWidth: 1, borderColor: C.border, borderRadius: 8, padding: 10, marginBottom: 15, backgroundColor: C.surface2, color: C.textPrimary },
+  modalContent: { backgroundColor: colors.surface1, padding: 20, borderRadius: 12 },
+  modalTitle: { fontSize: 18, fontWeight: 'bold', marginBottom: 15, color: colors.textPrimary },
+  input: { borderWidth: 1, borderColor: colors.border, borderRadius: 8, padding: 10, marginBottom: 15, backgroundColor: colors.surface2, color: colors.textPrimary },
   modalActions: { flexDirection: 'row', justifyContent: 'flex-end', gap: 10 },
   modalBtnCancel: { padding: 10 },
-  modalBtnCancelText: { color: C.textSecondary, fontWeight: 'bold' },
-  modalBtnSave: { backgroundColor: C.blue, padding: 10, borderRadius: 8 },
-  modalBtnSaveText: { color: C.textPrimary, fontWeight: 'bold' },
+  modalBtnCancelText: { color: colors.textSecondary, fontWeight: 'bold' },
+  modalBtnSave: { backgroundColor: colors.blue, padding: 10, borderRadius: 8 },
+  modalBtnSaveText: { color: colors.textPrimary, fontWeight: 'bold' },
   safeArea: {
     flex: 1,
-    backgroundColor: C.bg,
+    backgroundColor: colors.bg,
   },
   header: {
-    backgroundColor: C.surface3,
+    backgroundColor: colors.surface3,
     paddingHorizontal: 16,
     paddingTop: 20,
     paddingBottom: 24,
@@ -393,20 +396,20 @@ const styles = StyleSheet.create({
     height: 24,
     borderRadius: 12,
     borderWidth: 1,
-    borderColor: C.border,
+    borderColor: colors.border,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: C.surface2,
+    backgroundColor: colors.surface2,
   },
   headerTitle: {
-    color: C.textPrimary,
+    color: colors.textPrimary,
     fontSize: 26,
     fontWeight: '700',
     letterSpacing: -0.3,
   },
   headerCopy: {
     marginTop: 8,
-    color: C.textSecondary,
+    color: colors.textSecondary,
     fontSize: 14,
     fontWeight: '400',
     lineHeight: 21,
@@ -426,24 +429,24 @@ const styles = StyleSheet.create({
   },
   filterPill: {
     borderRadius: 999,
-    backgroundColor: C.surface2,
+    backgroundColor: colors.surface2,
     borderWidth: 1,
-    borderColor: C.border,
+    borderColor: colors.border,
     paddingHorizontal: 14,
     paddingVertical: 7,
     height: 32,
   },
   filterPillActive: {
-    backgroundColor: C.blueSoft,
-    borderColor: C.blue,
+    backgroundColor: colors.blueSoft,
+    borderColor: colors.blue,
   },
   filterPillText: {
-    color: C.textSecondary,
+    color: colors.textSecondary,
     fontSize: 12,
     fontWeight: '500',
   },
   filterPillTextActive: {
-    color: C.blue,
+    color: colors.blue,
   },
   exportButton: {
     flexDirection: 'row',
@@ -452,10 +455,10 @@ const styles = StyleSheet.create({
     height: 42,
     paddingHorizontal: 14,
     borderRadius: 12,
-    backgroundColor: C.blue,
+    backgroundColor: colors.blue,
   },
   exportButtonText: {
-    color: C.textPrimary,
+    color: colors.textPrimary,
     fontSize: 15,
     fontWeight: '600',
     letterSpacing: 0.2,
@@ -469,12 +472,17 @@ const styles = StyleSheet.create({
     paddingBottom: 32,
   },
   summaryCard: {
-    backgroundColor: C.surface1,
+    backgroundColor: colors.surface1,
     borderRadius: 16,
     borderWidth: 1,
-    borderColor: C.border,
+    borderColor: colors.border,
     padding: 16,
     marginBottom: 12,
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 4,
   },
   summaryTopRow: {
     flexDirection: 'row',
@@ -483,7 +491,7 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   summaryLabel: {
-    color: C.textTertiary,
+    color: colors.textTertiary,
     fontSize: 11,
     fontWeight: '600',
     letterSpacing: 1,
@@ -491,19 +499,19 @@ const styles = StyleSheet.create({
   },
   summaryValue: {
     marginTop: 4,
-    color: C.textPrimary,
+    color: colors.textPrimary,
     fontSize: 32,
     fontWeight: '700',
     letterSpacing: -0.5,
   },
   summaryBadge: {
     borderRadius: 999,
-    backgroundColor: C.greenSoft,
+    backgroundColor: colors.greenSoft,
     paddingHorizontal: 10,
     paddingVertical: 5,
   },
   summaryBadgeText: {
-    color: C.green,
+    color: colors.green,
     fontSize: 12,
     fontWeight: '600',
   },
@@ -516,13 +524,13 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   summaryStatLabel: {
-    color: C.textSecondary,
+    color: colors.textSecondary,
     fontSize: 12,
     fontWeight: '500',
   },
   summaryStatValue: {
     marginTop: 4,
-    color: C.textPrimary,
+    color: colors.textPrimary,
     fontSize: 22,
     fontWeight: '700',
   },
@@ -530,7 +538,7 @@ const styles = StyleSheet.create({
     width: 1,
     alignSelf: 'stretch',
     marginHorizontal: 10,
-    backgroundColor: C.border,
+    backgroundColor: colors.border,
   },
   grid: {
     flexDirection: 'row',
@@ -540,10 +548,15 @@ const styles = StyleSheet.create({
   },
   metricCard: {
     width: '48%',
-    backgroundColor: C.surface1,
+    backgroundColor: colors.surface1,
     borderRadius: 16,
     borderWidth: 1,
     padding: 16,
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 4,
   },
   metricChip: {
     alignSelf: 'flex-start',
@@ -557,7 +570,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   metricValue: {
-    color: C.textPrimary,
+    color: colors.textPrimary,
     fontSize: 28,
     lineHeight: 32,
     fontWeight: '700',
@@ -565,18 +578,23 @@ const styles = StyleSheet.create({
   },
   metricLabel: {
     marginTop: 6,
-    color: C.textSecondary,
+    color: colors.textSecondary,
     fontSize: 12,
     lineHeight: 18,
     fontWeight: '500',
   },
   chartCard: {
-    backgroundColor: C.surface1,
+    backgroundColor: colors.surface1,
     borderRadius: 16,
     borderWidth: 1,
-    borderColor: C.border,
+    borderColor: colors.border,
     padding: 16,
     marginBottom: 12,
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 4,
   },
   sectionHeaderRow: {
     flexDirection: 'row',
@@ -586,7 +604,7 @@ const styles = StyleSheet.create({
     marginTop: 28,
   },
   sectionTitle: {
-    color: C.textTertiary,
+    color: colors.textTertiary,
     fontSize: 11,
     fontWeight: '600',
     letterSpacing: 1.2,
@@ -596,10 +614,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     paddingVertical: 4,
     borderRadius: 999,
-    backgroundColor: C.surface2,
+    backgroundColor: colors.surface2,
   },
   counterText: {
-    color: C.blue,
+    color: colors.blue,
     fontSize: 12,
     fontWeight: '600',
   },
@@ -619,18 +637,18 @@ const styles = StyleSheet.create({
     width: '100%',
     height: 130,
     borderRadius: 4,
-    backgroundColor: C.surface2,
+    backgroundColor: colors.surface2,
     justifyContent: 'flex-end',
     overflow: 'hidden',
   },
   barFill: {
     width: '100%',
     borderRadius: 4,
-    backgroundColor: C.blue,
+    backgroundColor: colors.blue,
   },
   barLabel: {
     marginTop: 8,
-    color: C.textSecondary,
+    color: colors.textSecondary,
     fontSize: 12,
     fontWeight: '500',
   },
@@ -638,11 +656,16 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   listCard: {
-    backgroundColor: C.surface1,
+    backgroundColor: colors.surface1,
     borderRadius: 16,
     borderWidth: 1,
-    borderColor: C.border,
+    borderColor: colors.border,
     padding: 16,
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 4,
   },
   groupList: {
     marginTop: 10,
@@ -666,18 +689,18 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     textAlign: 'center',
     textAlignVertical: 'center',
-    backgroundColor: C.blueSoft,
-    color: C.blue,
+    backgroundColor: colors.blueSoft,
+    color: colors.blue,
     fontSize: 12,
     fontWeight: '600',
   },
   groupLabel: {
-    color: C.textPrimary,
+    color: colors.textPrimary,
     fontSize: 14,
     fontWeight: '500',
   },
   groupValue: {
-    color: C.blue,
+    color: colors.blue,
     fontSize: 14,
     fontWeight: '600',
   },
@@ -692,12 +715,12 @@ const styles = StyleSheet.create({
   brandTrack: {
     height: 8,
     borderRadius: 999,
-    backgroundColor: C.surface2,
+    backgroundColor: colors.surface2,
     overflow: 'hidden',
   },
   brandFill: {
     height: '100%',
     borderRadius: 999,
-    backgroundColor: C.teal,
+    backgroundColor: colors.teal,
   },
 });

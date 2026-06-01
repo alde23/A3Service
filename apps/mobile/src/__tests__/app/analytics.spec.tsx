@@ -1,23 +1,23 @@
 import React from 'react';
 import { render, waitFor, fireEvent } from '@testing-library/react-native';
 
-import AnalyticsScreen from './analytics';
-import { useAuth } from '../services/auth.service';
+import AnalyticsScreen from '../../app/analytics';
+import { useAuth } from '../../services/auth.service';
 import {
   fetchAnalyticsEarnings,
   fetchAnalyticsSummary,
-} from '../services/analytics-api.service';
+} from '../../services/analytics-api.service';
 
-jest.mock('../services/auth.service', () => ({
+jest.mock('../../services/auth.service', () => ({
   useAuth: jest.fn(),
 }));
 
-jest.mock('../services/analytics-api.service', () => ({
+jest.mock('../../services/analytics-api.service', () => ({
   fetchAnalyticsSummary: jest.fn(),
   fetchAnalyticsEarnings: jest.fn(),
 }));
 
-jest.mock('../storage/repositories/expenses.repository', () => ({
+jest.mock('../../storage/repositories/expenses.repository', () => ({
   observeExpenses: jest.fn().mockReturnValue({
     subscribe: jest.fn((cb) => {
       cb([{ amount: 50 }]);
@@ -126,7 +126,7 @@ describe('AnalyticsScreen backend integration', () => {
     fireEvent.press(saveBtn);
 
     await waitFor(() => {
-      expect(require('../storage/repositories/expenses.repository').addExpense).toHaveBeenCalledWith(120.5, 'Gasoline');
+      expect(require('../../storage/repositories/expenses.repository').addExpense).toHaveBeenCalledWith(120.5, 'Gasoline');
     });
   });
 });

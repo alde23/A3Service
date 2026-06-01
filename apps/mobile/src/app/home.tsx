@@ -12,12 +12,12 @@ import MapView, { Marker, Polyline, PROVIDER_GOOGLE } from 'react-native-maps';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../services/auth.service';
 import { API_URL, authJsonHeaders } from '../services/api.config';
-import { C } from '../theme/colors';
+import { useTheme } from '../theme/ThemeProvider';
 
 type JobOnMap = {
   id: string;
   name: string;
-  distanceMi: number;
+  distanceKm: number;
   coordinate: {
     latitude: number;
     longitude: number;
@@ -26,30 +26,30 @@ type JobOnMap = {
 };
 
 const CURRENT_LOCATION = {
-  latitude: 40.6954,
-  longitude: -73.9497,
+  latitude: 43.8563,
+  longitude: 18.4131,
 };
 
 const JOBS_ON_MAP: JobOnMap[] = [
   {
     id: 'JOB-1567',
-    name: 'Brooklyn Public Library',
-    distanceMi: 0.1,
-    coordinate: { latitude: 40.6959, longitude: -73.9485 },
+    name: 'Bosch BGH96 Maintenance',
+    distanceKm: 2.1,
+    coordinate: { latitude: 43.8589, longitude: 18.4152 },
     status: 'active',
   },
   {
     id: 'JOB-1570',
-    name: 'Tech Solutions Ltd',
-    distanceMi: 1.2,
-    coordinate: { latitude: 40.6993, longitude: -73.9527 },
+    name: 'ecoTEC plus 415 Repair',
+    distanceKm: 4.5,
+    coordinate: { latitude: 43.8653, longitude: 18.3980 },
     status: 'upcoming',
   },
   {
     id: 'JOB-1571',
-    name: 'Global Industries',
-    distanceMi: 2.4,
-    coordinate: { latitude: 40.6913, longitude: -73.9435 },
+    name: 'Logano G115 Installation',
+    distanceKm: 6.2,
+    coordinate: { latitude: 43.8413, longitude: 18.3845 },
     status: 'upcoming',
   },
 ];
@@ -57,6 +57,7 @@ const JOBS_ON_MAP: JobOnMap[] = [
 export default function HomeScreen() {
   const { t } = useTranslation();
   const { token } = useAuth();
+  const { colors, isDark } = useTheme();
   const [jobsOnMap, setJobsOnMap] = useState<JobOnMap[]>(JOBS_ON_MAP);
 
   useEffect(() => {
@@ -85,7 +86,7 @@ export default function HomeScreen() {
               return {
                 id: String(job.id),
                 name: job.rawAddress || `Job #${job.id}`,
-                distanceMi: Math.round(Math.random() * 5 * 10) / 10,
+                distanceKm: Math.round(Math.random() * 5 * 10) / 10,
                 coordinate: {
                   latitude: CURRENT_LOCATION.latitude + offsetLat,
                   longitude: CURRENT_LOCATION.longitude + offsetLng,
@@ -106,7 +107,7 @@ export default function HomeScreen() {
   }, [token]);
 
   const nextJob = useMemo(
-    () => [...jobsOnMap].sort((a, b) => a.distanceMi - b.distanceMi)[0],
+    () => [...jobsOnMap].sort((a, b) => a.distanceKm - b.distanceKm)[0],
     [jobsOnMap]
   );
 
@@ -116,7 +117,7 @@ export default function HomeScreen() {
   );
 
   return (
-    <SafeAreaView style={styles.safeArea}>
+    <SafeAreaView style={[styles.safeArea, { backgroundColor: colors.bg }]}>
       <MapView
         style={styles.map}
         provider={Platform.OS === 'android' ? PROVIDER_GOOGLE : undefined}
@@ -154,10 +155,10 @@ export default function HomeScreen() {
       <View style={styles.overlay} pointerEvents="box-none">
         <View style={styles.topHeader}>
           <View style={styles.homeTitleRow}>
-            <View style={styles.homeIconWrap}>
-              <Ionicons name="home-outline" size={16} color="#111827" />
+            <View style={[styles.homeIconWrap, { borderColor: colors.border, backgroundColor: colors.surface2 }]}>
+              <Ionicons name="home-outline" size={16} color={colors.textPrimary} />
             </View>
-            <Text style={styles.homeTitle}>{t('home.title')}</Text>
+            <Text style={[styles.homeTitle, { color: colors.textPrimary }]}>{t('home.title')}</Text>
           </View>
 
           <View style={styles.destinationCard}>
@@ -166,7 +167,7 @@ export default function HomeScreen() {
             </View>
 
             <View style={styles.cardMainTextWrap}>
-              <Text style={styles.distanceText}>{nextJob.distanceMi.toFixed(1)} {t('unit.mi')}</Text>
+              <Text style={styles.distanceText}>{nextJob.distanceKm.toFixed(1)} km</Text>
               <Text style={styles.placeNameText}>{nextJob.name}</Text>
             </View>
 
@@ -177,19 +178,19 @@ export default function HomeScreen() {
         </View>
 
         <View style={styles.rightControls}>
-          <Pressable style={styles.floatingControl}>
-            <Ionicons name="compass" size={22} color={C.textSecondary} />
+          <Pressable style={[styles.floatingControl, { backgroundColor: isDark ? 'rgba(17,24,39,0.90)' : 'rgba(255,255,255,0.90)', borderColor: colors.border }]}>
+            <Ionicons name="compass" size={22} color={colors.textSecondary} />
           </Pressable>
-          <Pressable style={styles.floatingControl}>
-            <Ionicons name="search" size={22} color={C.textSecondary} />
+          <Pressable style={[styles.floatingControl, { backgroundColor: isDark ? 'rgba(17,24,39,0.90)' : 'rgba(255,255,255,0.90)', borderColor: colors.border }]}>
+            <Ionicons name="search" size={22} color={colors.textSecondary} />
           </Pressable>
-          <Pressable style={styles.floatingControl}>
-            <Ionicons name="volume-high-outline" size={22} color={C.textSecondary} />
+          <Pressable style={[styles.floatingControl, { backgroundColor: isDark ? 'rgba(17,24,39,0.90)' : 'rgba(255,255,255,0.90)', borderColor: colors.border }]}>
+            <Ionicons name="volume-high-outline" size={22} color={colors.textSecondary} />
           </Pressable>
         </View>
 
-        <View style={styles.bottomStatsCard}>
-          <Text style={styles.bottomStatsText}>{t('home.jobs_visible', { count: jobsOnMap.length })}</Text>
+        <View style={[styles.bottomStatsCard, { backgroundColor: isDark ? 'rgba(11,15,23,0.92)' : 'rgba(255,255,255,0.92)', borderTopColor: colors.border }]}>
+          <Text style={[styles.bottomStatsText, { color: colors.textPrimary }]}>{t('home.jobs_visible', { count: jobsOnMap.length })}</Text>
         </View>
       </View>
     </SafeAreaView>
@@ -199,7 +200,6 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: C.bg,
   },
   map: {
     ...StyleSheet.absoluteFillObject,
@@ -223,12 +223,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 1,
-    borderColor: C.border,
-    backgroundColor: C.surface2,
     marginRight: 8,
   },
   homeTitle: {
-    color: C.textPrimary,
     fontSize: 26,
     fontWeight: '700',
     letterSpacing: -0.3,
@@ -277,11 +274,14 @@ const styles = StyleSheet.create({
     width: 48,
     height: 48,
     borderRadius: 12,
-    backgroundColor: 'rgba(17,24,39,0.90)',
-    borderColor: C.border,
     borderWidth: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
   },
   bottomStatsCard: {
     position: 'absolute',
@@ -289,14 +289,16 @@ const styles = StyleSheet.create({
     right: 12,
     bottom: 78,
     borderRadius: 16,
-    backgroundColor: 'rgba(11,15,23,0.92)',
-    borderTopColor: C.border,
     borderTopWidth: 1,
     paddingVertical: 12,
     paddingHorizontal: 14,
+    elevation: 3,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: -2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 8,
   },
   bottomStatsText: {
-    color: C.textPrimary,
     fontSize: 13,
     fontWeight: '500',
   },

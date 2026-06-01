@@ -13,27 +13,23 @@ import i18n from '../i18n';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useAuth } from '../services/auth.service';
 import { useTranslation } from 'react-i18next';
-import { C } from '../theme/colors';
+import { useTheme } from '../theme/ThemeProvider';
 
 const STORAGE_KEYS = {
   language: 'user-language',
-  darkMode: 'user-dark-mode',
 };
 
 export default function SettingsScreen() {
   const { t } = useTranslation();
   const { user, logout } = useAuth();
+  const { isDark, colors, toggleTheme } = useTheme();
   const [lang, setLang] = useState(i18n.language || 'bs');
-  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
     const loadSettings = async () => {
       try {
         const savedLang = await AsyncStorage.getItem(STORAGE_KEYS.language);
         if (savedLang) setLang(savedLang);
-
-        const savedDarkMode = await AsyncStorage.getItem(STORAGE_KEYS.darkMode);
-        if (savedDarkMode) setDarkMode(JSON.parse(savedDarkMode));
       } catch {
         // ignore
       }
@@ -52,25 +48,14 @@ export default function SettingsScreen() {
     }
   };
 
-  const toggleDarkMode = async () => {
-    try {
-      const newMode = !darkMode;
-      setDarkMode(newMode);
-      await AsyncStorage.setItem(STORAGE_KEYS.darkMode, JSON.stringify(newMode));
-    } catch {
-      // ignore this
-    }
-  };
-
   const handleLogout = async () => {
     await logout();
   };
 
-  const isDark = darkMode;
-  const bgColor = isDark ? C.bg : '#ffffff';
-  const textColor = isDark ? C.textPrimary : '#0f172a';
-  const cardBg = isDark ? C.surface1 : '#f8fafc';
-  const borderColor = isDark ? C.border : '#e2e8f0';
+  const bgColor = colors.bg;
+  const textColor = colors.textPrimary;
+  const cardBg = colors.surface1;
+  const borderColor = colors.border;
 
   return (
     <SafeAreaView style={[styles.safeArea, { backgroundColor: bgColor }]}>
@@ -80,7 +65,7 @@ export default function SettingsScreen() {
           <Text style={[styles.title, { color: textColor }]}>
             {t('settings.title') || 'Settings'}
           </Text>
-          <Text style={[styles.subtitle, { color: isDark ? C.textSecondary : '#64748b' }]}>
+          <Text style={[styles.subtitle, { color: colors.textSecondary }]}>
             {user?.username || 'User'}
           </Text>
         </View>
@@ -92,18 +77,18 @@ export default function SettingsScreen() {
               <Ionicons
                 name="language"
                 size={24}
-                color={isDark ? C.textSecondary : '#64748b'}
+                color={colors.textSecondary}
               />
               <Text style={[styles.label, { color: textColor }]}>
                 {t('settings.language') || 'Language'}
               </Text>
             </View>
             <View style={styles.value}>
-              <Text style={[styles.valueText, { color: isDark ? C.textSecondary : '#64748b' }]}>
+              <Text style={[styles.valueText, { color: colors.textSecondary }]}>
                 {lang === 'bs' ? 'Bosanski' : 'English'}
               </Text>
-              <Pressable onPress={toggleLanguage} style={[styles.badge, { backgroundColor: isDark ? C.surface2 : '#eef2ff' }]}>
-                <Text style={[styles.badgeText, { color: isDark ? C.blue : '#0f172a' }]}>
+              <Pressable onPress={toggleLanguage} style={[styles.badge, { backgroundColor: colors.surface2 }]}>
+                <Text style={[styles.badgeText, { color: colors.blue }]}>
                   {lang === 'bs' ? 'BS' : 'EN'}
                 </Text>
               </Pressable>
@@ -116,19 +101,19 @@ export default function SettingsScreen() {
           <View style={styles.sectionHeader}>
             <View style={styles.labelLeft}>
               <Ionicons
-                name={darkMode ? 'moon' : 'sunny'}
+                name={isDark ? 'moon' : 'sunny'}
                 size={24}
-                color={isDark ? C.textSecondary : '#64748b'}
+                color={colors.textSecondary}
               />
               <Text style={[styles.label, { color: textColor }]}>
                 {t('settings.dark_mode') || 'Dark Mode'}
               </Text>
             </View>
             <Switch
-              value={darkMode}
-              onValueChange={toggleDarkMode}
-              trackColor={{ false: '#cbd5e1', true: '#0f172a' }}
-              thumbColor={darkMode ? '#e0e7ff' : '#ffffff'}
+              value={isDark}
+              onValueChange={toggleTheme}
+              trackColor={{ false: '#cbd5e1', true: colors.surface2 }}
+              thumbColor={isDark ? colors.blue : '#ffffff'}
             />
           </View>
         </View>
@@ -136,7 +121,7 @@ export default function SettingsScreen() {
         {/* Profile Section */}
         <View style={[styles.card, { backgroundColor: cardBg, borderColor }]}>
           <View style={styles.infoRow}>
-            <Text style={[styles.infoLabel, { color: isDark ? C.textSecondary : '#64748b' }]}>
+            <Text style={[styles.infoLabel, { color: colors.textSecondary }]}>
               {t('settings.user_id') || 'User ID'}
             </Text>
             <Text style={[styles.infoValue, { color: textColor }]}>
@@ -145,7 +130,7 @@ export default function SettingsScreen() {
           </View>
           <View style={[styles.divider, { backgroundColor: borderColor }]} />
           <View style={styles.infoRow}>
-            <Text style={[styles.infoLabel, { color: isDark ? C.textSecondary : '#64748b' }]}>
+            <Text style={[styles.infoLabel, { color: colors.textSecondary }]}>
               {t('settings.username') || 'Username'}
             </Text>
             <Text style={[styles.infoValue, { color: textColor }]}>
@@ -160,13 +145,13 @@ export default function SettingsScreen() {
             <Ionicons
               name="cube-outline"
               size={48}
-              color={isDark ? C.textTertiary : '#cbd5e1'}
+              color={colors.textTertiary}
               style={styles.placeholderIcon}
             />
             <Text style={[styles.placeholderTitle, { color: textColor }]}>
               {t('settings.more_coming') || 'More Features Coming'}
             </Text>
-            <Text style={[styles.placeholderText, { color: isDark ? C.textSecondary : '#94a3b8' }]}>
+            <Text style={[styles.placeholderText, { color: colors.textSecondary }]}>
               {t('settings.more_coming_desc') ||
                 'Additional settings and features will be added soon'}
             </Text>
@@ -176,14 +161,14 @@ export default function SettingsScreen() {
         {/* Logout Button */}
         <Pressable
           onPress={handleLogout}
-          style={[styles.logoutButton, { backgroundColor: isDark ? C.redSoft : '#fee2e2' }]}
+          style={[styles.logoutButton, { backgroundColor: colors.redSoft }]}
         >
           <Ionicons
             name="log-out-outline"
             size={20}
-            color={isDark ? C.red : '#dc2626'}
+            color={colors.red}
           />
-          <Text style={[styles.logoutText, { color: isDark ? C.red : '#dc2626' }]}>
+          <Text style={[styles.logoutText, { color: colors.red }]}>
             {t('settings.logout') || 'Logout'}
           </Text>
         </Pressable>

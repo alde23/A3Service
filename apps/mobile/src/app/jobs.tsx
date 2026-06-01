@@ -20,7 +20,8 @@ import Job from '../storage/models/Job';
 import { observePendingSyncCount } from '../storage/repositories/sync-queue.repository';
 import { useAuth } from '../services/auth.service';
 import { syncJobsWithServer } from '../services/jobs-sync.service';
-import { C } from '../theme/colors';
+import { ColorsType } from '../theme/colors';
+import { useTheme } from '../theme/ThemeProvider';
 
 function formatTime(date: Date) {
   return date.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
@@ -50,6 +51,8 @@ function displayJobId(id: string) {
 export default function JobsScreen() {
   const { token } = useAuth();
   const { t } = useTranslation();
+  const { colors } = useTheme();
+  const styles = useMemo(() => getStyles(colors), [colors]);
   const [jobs, setJobs] = useState<Job[]>([]);
   const [pendingSyncCount, setPendingSyncCount] = useState(0);
   const [isCreating, setIsCreating] = useState(false);
@@ -179,7 +182,7 @@ export default function JobsScreen() {
       <View style={styles.header}>
         <View style={styles.headerTitleRow}>
           <View style={styles.headerIconWrap}>
-            <Ionicons name="briefcase-outline" size={18} color={C.textPrimary} />
+            <Ionicons name="briefcase-outline" size={18} color={colors.textPrimary} />
           </View>
           <Text style={styles.headerTitle}>{t('jobs.title')}</Text>
         </View>
@@ -342,13 +345,13 @@ export default function JobsScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const getStyles = (colors: ColorsType) => StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: C.bg,
+    backgroundColor: colors.bg,
   },
   header: {
-    backgroundColor: C.surface3,
+    backgroundColor: colors.surface3,
     paddingHorizontal: 16,
     paddingTop: 20,
     paddingBottom: 24,
@@ -364,13 +367,13 @@ const styles = StyleSheet.create({
     height: 24,
     borderRadius: 12,
     borderWidth: 1,
-    borderColor: C.border,
+    borderColor: colors.border,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: C.surface2,
+    backgroundColor: colors.surface2,
   },
   headerTitle: {
-    color: C.textPrimary,
+    color: colors.textPrimary,
     fontSize: 26,
     fontWeight: '700',
     letterSpacing: -0.3,
@@ -380,7 +383,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     width: '74%',
     borderWidth: 1,
-    borderColor: C.border2,
+    borderColor: colors.border2,
     borderRadius: 14,
     backgroundColor: 'transparent',
     paddingVertical: 12,
@@ -393,14 +396,14 @@ const styles = StyleSheet.create({
     opacity: 0.6,
   },
   createButtonText: {
-    color: C.textPrimary,
+    color: colors.textPrimary,
     fontSize: 15,
     fontWeight: '600',
     letterSpacing: 0.2,
   },
   syncStateText: {
     marginTop: 8,
-    color: C.textSecondary,
+    color: colors.textSecondary,
     fontSize: 12,
     fontWeight: '600',
     textAlign: 'center',
@@ -410,9 +413,9 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     width: '74%',
     borderWidth: 1,
-    borderColor: C.blue,
+    borderColor: colors.blue,
     borderRadius: 14,
-    backgroundColor: C.surface2,
+    backgroundColor: colors.surface2,
     paddingVertical: 12,
     paddingHorizontal: 16,
     height: 48,
@@ -420,7 +423,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   syncButtonText: {
-    color: C.blue,
+    color: colors.blue,
     fontSize: 15,
     fontWeight: '600',
     letterSpacing: 0.2,
@@ -441,7 +444,7 @@ const styles = StyleSheet.create({
     marginTop: 28,
   },
   sectionTitle: {
-    color: C.textTertiary,
+    color: colors.textTertiary,
     fontSize: 11,
     fontWeight: '600',
     letterSpacing: 1.2,
@@ -451,20 +454,25 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     paddingVertical: 4,
     borderRadius: 999,
-    backgroundColor: C.surface2,
+    backgroundColor: colors.surface2,
   },
   counterText: {
-    color: C.blue,
+    color: colors.blue,
     fontSize: 12,
     fontWeight: '600',
   },
   card: {
-    backgroundColor: C.surface1,
+    backgroundColor: colors.surface1,
     borderRadius: 16,
     borderWidth: 1,
-    borderColor: C.border,
+    borderColor: colors.border,
     padding: 16,
     marginBottom: 8,
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 4,
   },
   cardTopRow: {
     flexDirection: 'row',
@@ -477,7 +485,7 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   jobId: {
-    color: C.textTertiary,
+    color: colors.textTertiary,
     fontSize: 11,
     fontWeight: '600',
     letterSpacing: 0.5,
@@ -492,16 +500,16 @@ const styles = StyleSheet.create({
     height: 24,
   },
   statusActivePill: {
-    backgroundColor: C.greenSoft,
+    backgroundColor: colors.greenSoft,
   },
   statusUpcomingPill: {
-    backgroundColor: C.surface2,
+    backgroundColor: colors.surface2,
   },
   statusCompletedPill: {
-    backgroundColor: C.blueSoft,
+    backgroundColor: colors.blueSoft,
   },
   statusCancelledPill: {
-    backgroundColor: C.redSoft,
+    backgroundColor: colors.redSoft,
   },
   statusDot: {
     width: 6,
@@ -509,50 +517,50 @@ const styles = StyleSheet.create({
     borderRadius: 3,
   },
   statusActiveDot: {
-    backgroundColor: C.green,
+    backgroundColor: colors.green,
   },
   statusUpcomingDot: {
-    backgroundColor: C.textSecondary,
+    backgroundColor: colors.textSecondary,
   },
   statusCompletedDot: {
-    backgroundColor: C.blue,
+    backgroundColor: colors.blue,
   },
   statusCancelledDot: {
-    backgroundColor: C.red,
+    backgroundColor: colors.red,
   },
   statusText: {
     fontSize: 12,
     fontWeight: '500',
   },
   statusActiveText: {
-    color: C.green,
+    color: colors.green,
   },
   statusUpcomingText: {
-    color: C.textSecondary,
+    color: colors.textSecondary,
   },
   statusCompletedText: {
-    color: C.blue,
+    color: colors.blue,
   },
   statusCancelledText: {
-    color: C.red,
+    color: colors.red,
   },
   companyName: {
     marginTop: 8,
-    color: C.textPrimary,
+    color: colors.textPrimary,
     fontSize: 17,
     fontWeight: '600',
     letterSpacing: -0.2,
   },
   jobDescription: {
     marginTop: 2,
-    color: C.textSecondary,
+    color: colors.textSecondary,
     fontSize: 13,
   },
   bottomMetaRow: {
     marginTop: 10,
     paddingTop: 10,
     borderTopWidth: 1,
-    borderTopColor: C.border,
+    borderTopColor: colors.border,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
@@ -563,7 +571,7 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   metaText: {
-    color: C.textSecondary,
+    color: colors.textSecondary,
     fontSize: 12,
     fontWeight: '500',
   },
@@ -576,31 +584,31 @@ const styles = StyleSheet.create({
     height: 44,
   },
   continueButtonBackground: {
-    backgroundColor: C.blue,
+    backgroundColor: colors.blue,
   },
   startButtonBackground: {
-    backgroundColor: C.surface2,
+    backgroundColor: colors.surface2,
   },
   completedButtonBackground: {
-    backgroundColor: C.surface2,
+    backgroundColor: colors.surface2,
   },
   cancelledButtonBackground: {
-    backgroundColor: C.surface2,
+    backgroundColor: colors.surface2,
   },
   jobActionButtonText: {
     fontSize: 15,
     fontWeight: '600',
   },
   continueButtonText: {
-    color: C.textPrimary,
+    color: colors.textPrimary,
   },
   startButtonText: {
-    color: C.textSecondary,
+    color: colors.textSecondary,
   },
   completedButtonText: {
-    color: C.textSecondary,
+    color: colors.textSecondary,
   },
   cancelledButtonText: {
-    color: C.textSecondary,
+    color: colors.textSecondary,
   },
 });

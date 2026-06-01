@@ -1,10 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { View, Text, TextInput, StyleSheet, ActivityIndicator, Pressable } from 'react-native';
 import { useAuth } from '../services/auth.service';
-import { C } from '../theme/colors';
+import { ColorsType } from '../theme/colors';
+import { useTheme } from '../theme/ThemeProvider';
 
 export default function LoginScreen() {
   const { login, loading } = useAuth();
+  const { colors } = useTheme();
+  const styles = useMemo(() => getStyles(colors), [colors]);
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
@@ -25,7 +29,7 @@ export default function LoginScreen() {
       <View style={styles.form}>
         <TextInput
           placeholder="Email"
-          placeholderTextColor={C.placeholder}
+          placeholderTextColor={colors.placeholder}
           autoCapitalize="none"
           keyboardType="email-address"
           value={email}
@@ -34,7 +38,7 @@ export default function LoginScreen() {
         />
         <TextInput
           placeholder="Password"
-          placeholderTextColor={C.placeholder}
+          placeholderTextColor={colors.placeholder}
           secureTextEntry
           value={password}
           onChangeText={setPassword}
@@ -55,14 +59,14 @@ export default function LoginScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: 'center', padding: 24, backgroundColor: C.bg },
+const getStyles = (colors: ColorsType) => StyleSheet.create({
+  container: { flex: 1, justifyContent: 'center', padding: 24, backgroundColor: colors.bg },
   logoWrap: { alignItems: 'center', marginBottom: 24 },
-  logo: { fontSize: 36, fontWeight: '800', letterSpacing: -1, color: C.textPrimary },
-  hint: { color: C.textSecondary, marginTop: 6, fontSize: 14 },
+  logo: { fontSize: 36, fontWeight: '800', letterSpacing: -1, color: colors.textPrimary },
+  hint: { color: colors.textSecondary, marginTop: 6, fontSize: 14 },
   form: { gap: 12 },
-  input: { borderWidth: 1, borderColor: C.border, backgroundColor: C.surface2, color: C.textPrimary, paddingHorizontal: 16, paddingVertical: 15, borderRadius: 14, marginBottom: 8, height: 54, fontSize: 15 },
-  button: { backgroundColor: C.blue, paddingVertical: 14, paddingHorizontal: 16, borderRadius: 14, alignItems: 'center', height: 52, justifyContent: 'center' },
-  buttonText: { color: C.textPrimary, fontWeight: '600', fontSize: 15 },
-  error: { color: C.red, marginBottom: 8 },
+  input: { borderWidth: 1, borderColor: colors.border, backgroundColor: colors.surface2, color: colors.textPrimary, paddingHorizontal: 16, paddingVertical: 15, borderRadius: 14, marginBottom: 8, height: 54, fontSize: 15 },
+  button: { backgroundColor: colors.blue, paddingVertical: 14, paddingHorizontal: 16, borderRadius: 14, alignItems: 'center', height: 52, justifyContent: 'center' },
+  buttonText: { color: colors.textPrimary, fontWeight: '600', fontSize: 15 },
+  error: { color: colors.red, marginBottom: 8 },
 });

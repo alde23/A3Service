@@ -12,7 +12,8 @@ import {
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../services/auth.service';
 import { searchLibrary, LibrarySearchResult } from '../services/library-api.service';
-import { C } from '../theme/colors';
+import { ColorsType } from '../theme/colors';
+import { useTheme } from '../theme/ThemeProvider';
 
 type DocumentationItem = {
   id: string;
@@ -103,49 +104,51 @@ const HIGHLIGHT_ITEMS = [
   'Flame and ignition faults',
 ];
 
-function accentColors(accent: DocumentationItem['accent']) {
+function accentColors(accent: DocumentationItem['accent'], colors: ColorsType) {
   if (accent === 'blue') {
     return {
-      pillBg: C.blueSoft,
-      pillText: C.blue,
+      pillBg: colors.blueSoft,
+      pillText: colors.blue,
       border: '#1d4ed8',
-      cardBg: C.surface1,
-      accentLine: C.blue,
+      cardBg: colors.surface1,
+      accentLine: colors.blue,
     };
   }
 
   if (accent === 'amber') {
     return {
-      pillBg: C.amberSoft,
-      pillText: C.amber,
+      pillBg: colors.amberSoft,
+      pillText: colors.amber,
       border: '#92400e',
-      cardBg: C.surface1,
-      accentLine: C.amber,
+      cardBg: colors.surface1,
+      accentLine: colors.amber,
     };
   }
 
   if (accent === 'emerald') {
     return {
-      pillBg: C.greenSoft,
-      pillText: C.green,
+      pillBg: colors.greenSoft,
+      pillText: colors.green,
       border: '#065f46',
-      cardBg: C.surface1,
-      accentLine: C.green,
+      cardBg: colors.surface1,
+      accentLine: colors.green,
     };
   }
 
   return {
-    pillBg: C.surface2,
-    pillText: C.textSecondary,
-    border: C.border2,
-    cardBg: C.surface1,
-    accentLine: C.border2,
+    pillBg: colors.surface2,
+    pillText: colors.textSecondary,
+    border: colors.border2,
+    cardBg: colors.surface1,
+    accentLine: colors.border2,
   };
 }
 
 export default function DocumentationScreen() {
   const { t } = useTranslation();
   const { token } = useAuth();
+  const { colors } = useTheme();
+  const styles = useMemo(() => getStyles(colors), [colors]);
   const [query, setQuery] = useState('');
   const [apiResults, setApiResults] = useState<LibrarySearchResult[]>([]);
   const [useApiSearch, setUseApiSearch] = useState(false);
@@ -191,7 +194,7 @@ export default function DocumentationScreen() {
 
       return searchableText.includes(normalizedQuery);
     });
-  }, [query, useApiSearch]);
+  }, [query]);
 
   const hasQuery = query.trim().length > 0;
   const displayItems = useApiSearch && apiResults.length > 0 ? apiResults : filteredItems;
@@ -202,7 +205,7 @@ export default function DocumentationScreen() {
       <View style={styles.header}>
         <View style={styles.titleRow}>
           <View style={styles.iconWrap}>
-            <Ionicons name="document-text-outline" size={18} color={C.textPrimary} />
+            <Ionicons name="document-text-outline" size={18} color={colors.textPrimary} />
           </View>
           <Text style={styles.headerTitle}>{t('documentation.title')}</Text>
         </View>
@@ -309,14 +312,14 @@ export default function DocumentationScreen() {
         ) : (
           // Local search results
           filteredItems.map((item) => {
-            const colors = accentColors(item.accent);
+            const itemColors = accentColors(item.accent, colors);
 
             return (
-              <View key={item.id} style={[styles.card, { borderColor: colors.border }]}>
+              <View key={item.id} style={[styles.card, { borderColor: itemColors.border }]}>
                 <View style={styles.cardTopRow}>
                   <View style={styles.cardMetaRow}>
-                    <View style={[styles.categoryTag, { backgroundColor: colors.pillBg }]}>
-                      <Text style={[styles.categoryTagText, { color: colors.pillText }]}>
+                    <View style={[styles.categoryTag, { backgroundColor: itemColors.pillBg }]}>
+                      <Text style={[styles.categoryTagText, { color: itemColors.pillText }]}>
                         {item.category}
                       </Text>
                     </View>
@@ -333,7 +336,7 @@ export default function DocumentationScreen() {
                   {item.keywords.slice(0, 4).map((keyword) => (
                     <View
                       key={keyword}
-                      style={[styles.keywordPill, { backgroundColor: colors.cardBg }]}
+                      style={[styles.keywordPill, { backgroundColor: itemColors.cardBg }]}
                     >
                       <Text style={styles.keywordText}>{keyword}</Text>
                     </View>
@@ -348,13 +351,13 @@ export default function DocumentationScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const getStyles = (colors: ColorsType) => StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: C.bg,
+    backgroundColor: colors.bg,
   },
   header: {
-    backgroundColor: C.surface3,
+    backgroundColor: colors.surface3,
     paddingHorizontal: 16,
     paddingTop: 20,
     paddingBottom: 24,
@@ -370,20 +373,20 @@ const styles = StyleSheet.create({
     height: 24,
     borderRadius: 12,
     borderWidth: 1,
-    borderColor: C.border,
+    borderColor: colors.border,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: C.surface2,
+    backgroundColor: colors.surface2,
   },
   headerTitle: {
-    color: C.textPrimary,
+    color: colors.textPrimary,
     fontSize: 26,
     fontWeight: '700',
     letterSpacing: -0.3,
   },
   headerCopy: {
     marginTop: 8,
-    color: C.textSecondary,
+    color: colors.textSecondary,
     fontSize: 14,
     fontWeight: '400',
     lineHeight: 21,
@@ -399,16 +402,16 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,
-    backgroundColor: C.surface2,
+    backgroundColor: colors.surface2,
     borderRadius: 14,
     paddingHorizontal: 12,
     height: 54,
     borderWidth: 1,
-    borderColor: C.border,
+    borderColor: colors.border,
   },
   searchInput: {
     flex: 1,
-    color: C.textPrimary,
+    color: colors.textPrimary,
     fontSize: 15,
     fontWeight: '400',
     paddingVertical: 0,
@@ -417,13 +420,13 @@ const styles = StyleSheet.create({
     height: 44,
     paddingHorizontal: 16,
     borderRadius: 12,
-    backgroundColor: C.blue,
+    backgroundColor: colors.blue,
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 0,
   },
   searchButtonText: {
-    color: C.textPrimary,
+    color: colors.textPrimary,
     fontSize: 15,
     fontWeight: '600',
     letterSpacing: 0.2,
@@ -435,15 +438,15 @@ const styles = StyleSheet.create({
   },
   categoryPill: {
     borderRadius: 999,
-    backgroundColor: C.surface2,
+    backgroundColor: colors.surface2,
     borderWidth: 1,
-    borderColor: C.border,
+    borderColor: colors.border,
     paddingHorizontal: 14,
     paddingVertical: 7,
     height: 32,
   },
   categoryPillText: {
-    color: C.textSecondary,
+    color: colors.textSecondary,
     fontSize: 12,
     fontWeight: '500',
   },
@@ -463,7 +466,7 @@ const styles = StyleSheet.create({
     marginTop: 28,
   },
   sectionTitle: {
-    color: C.textTertiary,
+    color: colors.textTertiary,
     fontSize: 11,
     fontWeight: '600',
     letterSpacing: 1.2,
@@ -473,22 +476,27 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     paddingVertical: 4,
     borderRadius: 999,
-    backgroundColor: C.surface2,
+    backgroundColor: colors.surface2,
   },
   counterText: {
-    color: C.blue,
+    color: colors.blue,
     fontSize: 12,
     fontWeight: '600',
   },
   heroCard: {
-    backgroundColor: C.surface1,
+    backgroundColor: colors.surface1,
     borderRadius: 16,
     borderWidth: 1,
-    borderColor: C.border,
+    borderColor: colors.border,
     borderLeftWidth: 3,
-    borderLeftColor: C.blue,
+    borderLeftColor: colors.blue,
     padding: 16,
     marginBottom: 12,
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 4,
   },
   heroTopRow: {
     flexDirection: 'row',
@@ -497,18 +505,18 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   heroBadge: {
-    backgroundColor: C.blueSoft,
+    backgroundColor: colors.blueSoft,
     paddingHorizontal: 10,
     paddingVertical: 5,
     borderRadius: 999,
   },
   heroBadgeText: {
-    color: C.blue,
+    color: colors.blue,
     fontSize: 12,
     fontWeight: '600',
   },
   heroTitle: {
-    color: C.textPrimary,
+    color: colors.textPrimary,
     fontSize: 17,
     lineHeight: 26,
     fontWeight: '600',
@@ -527,19 +535,24 @@ const styles = StyleSheet.create({
     width: 6,
     height: 6,
     borderRadius: 3,
-    backgroundColor: C.blue,
+    backgroundColor: colors.blue,
   },
   heroListText: {
-    color: C.textSecondary,
+    color: colors.textSecondary,
     fontSize: 13,
     fontWeight: '400',
   },
   card: {
-    backgroundColor: C.surface1,
+    backgroundColor: colors.surface1,
     borderRadius: 16,
     borderWidth: 1,
     padding: 16,
     marginBottom: 8,
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 4,
   },
   cardTopRow: {
     flexDirection: 'row',
@@ -562,7 +575,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   cardTitle: {
-    color: C.textPrimary,
+    color: colors.textPrimary,
     fontSize: 17,
     lineHeight: 22,
     fontWeight: '600',
@@ -570,13 +583,13 @@ const styles = StyleSheet.create({
   },
   cardSubtitle: {
     marginTop: 4,
-    color: C.textSecondary,
+    color: colors.textSecondary,
     fontSize: 13,
     fontWeight: '400',
   },
   cardSummary: {
     marginTop: 10,
-    color: C.textSecondary,
+    color: colors.textSecondary,
     fontSize: 13,
     lineHeight: 20,
     fontWeight: '400',
@@ -593,29 +606,29 @@ const styles = StyleSheet.create({
     paddingVertical: 4,
   },
   keywordText: {
-    color: C.textSecondary,
+    color: colors.textSecondary,
     fontSize: 12,
     fontWeight: '400',
   },
   emptyCard: {
-    backgroundColor: C.surface1,
+    backgroundColor: colors.surface1,
     borderRadius: 16,
     borderWidth: 1,
-    borderColor: C.border,
+    borderColor: colors.border,
     padding: 18,
     alignItems: 'center',
     justifyContent: 'center',
   },
   emptyTitle: {
     marginTop: 10,
-    color: C.textPrimary,
+    color: colors.textPrimary,
     fontSize: 18,
     fontWeight: '600',
     textAlign: 'center',
   },
   emptyText: {
     marginTop: 6,
-    color: C.textSecondary,
+    color: colors.textSecondary,
     fontSize: 13,
     lineHeight: 20,
     textAlign: 'center',
