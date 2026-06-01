@@ -1,6 +1,7 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { useEffect, useMemo, useState } from 'react';
 import {
+  ActivityIndicator,
   Platform,
   Pressable,
   SafeAreaView,
@@ -29,35 +30,6 @@ type JobOnMap = {
 
 const DEFAULT_SARAJEVO = { latitude: 43.8563, longitude: 18.4131 };
 
-function generateFallbackJobs(baseLocation: { latitude: number; longitude: number }, t: any): JobOnMap[] {
-  return [
-    {
-      id: 'JOB-1567',
-      title: `Bosch BGH96 - ${t('job_types.maintenance', 'Održavanje')}`,
-      name: 'Džemala Bijedića 114, Sarajevo',
-      distanceKm: 2.1,
-      coordinate: { latitude: baseLocation.latitude + 0.0026, longitude: baseLocation.longitude + 0.0021 },
-      status: 'active',
-    },
-    {
-      id: 'JOB-1570',
-      title: `ecoTEC plus 415 - ${t('job_types.repair', 'Popravka')}`,
-      name: 'Zmaja od Bosne 3, Sarajevo',
-      distanceKm: 4.5,
-      coordinate: { latitude: baseLocation.latitude + 0.0090, longitude: baseLocation.longitude - 0.0151 },
-      status: 'upcoming',
-    },
-    {
-      id: 'JOB-1571',
-      title: `Logano G115 - ${t('job_types.installation', 'Ugradnja')}`,
-      name: 'Mustafe Pintola 2, Sarajevo',
-      distanceKm: 6.2,
-      coordinate: { latitude: baseLocation.latitude - 0.0150, longitude: baseLocation.longitude - 0.0286 },
-      status: 'upcoming',
-    },
-  ];
-}
-
 export default function HomeScreen() {
   const { t } = useTranslation();
   const { token } = useAuth();
@@ -65,7 +37,8 @@ export default function HomeScreen() {
   const { homeLocation } = useLocation();
   const baseLoc = homeLocation || DEFAULT_SARAJEVO;
   
-  const [jobsOnMap, setJobsOnMap] = useState<JobOnMap[]>(() => generateFallbackJobs(baseLoc, t));
+  const [jobsOnMap, setJobsOnMap] = useState<JobOnMap[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
   const [showToast, setShowToast] = useState(true);
 
   useEffect(() => {
@@ -74,11 +47,13 @@ export default function HomeScreen() {
   }, []);
 
   useEffect(() => {
-    if (!token) return;
+    if (!token) {
+      setIsLoading(false);
+      return;
+    }
 
     (async () => {
       try {
-        // Fetch jobs from backend
         const res = await fetch(`${API_URL}/jobs`, {
           method: 'GET',
           headers: authJsonHeaders(token),
@@ -99,7 +74,6 @@ function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: numbe
   return R * c; // Distance in km
 }
 
-          // Transform backend jobs to map format
           const mappedJobs = jobs
             .filter((job: any) => job.siteId && job.site?.latitude && job.site?.longitude)
             .map((job: any) => {
@@ -108,9 +82,16 @@ function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: numbe
               const distanceKm = calculateDistance(baseLoc.latitude, baseLoc.longitude, siteLat, siteLng);
               const shortId = job.id.split('-')[0].toUpperCase();
               
+              let jobTitle = `${t(`priority.${job.priority}`, job.priority)} - Job #${shortId}`;
+              if (job.notes) {
+                // Seed notes are formatted like 'Godišnji servis kotla — provjera filtera'
+                // We extract the first part to use as a meaningful title
+                jobTitle = job.notes.split('—')[0].split('-')[0].trim();
+              }
+              
               return {
                 id: String(job.id),
-                title: `${t(`priority.${job.priority}`, job.priority)} - Job #${shortId}`,
+                title: jobTitle,
                 name: job.rawAddress || job.site?.rawAddress || 'Unknown Address',
                 distanceKm: Math.round(distanceKm * 10) / 10,
                 coordinate: {
@@ -127,20 +108,29 @@ function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: numbe
         }
       } catch (error) {
         console.error('Failed to fetch jobs:', error);
-        // Keep mock data on error
+      } finally {
+        setIsLoading(false);
       }
     })();
-  }, [token]);
+  }, [token, baseLoc.latitude, baseLoc.longitude, t]);
 
-  const nextJob = useMemo(
-    () => [...jobsOnMap].sort((a, b) => a.distanceKm - b.distanceKm)[0],
-    [jobsOnMap]
-  );
+  const nextJob = useMemo(() => {
+    if (jobsOnMap.length === 0) return null;
+    return [...jobsOnMap].sort((a, b) => a.distanceKm - b.distanceKm)[0];
+  }, [jobsOnMap]);
 
-  const routeCoordinates = useMemo(
-    () => [baseLoc, nextJob.coordinate],
-    [baseLoc, nextJob.coordinate]
-  );
+  const routeCoordinates = useMemo(() => {
+    if (!nextJob) return [];
+    return [baseLoc, nextJob.coordinate];
+  }, [baseLoc, nextJob]);
+
+  if (isLoading) {
+    return (
+      <SafeAreaView style={[styles.safeArea, { backgroundColor: colors.bg, justifyContent: 'center', alignItems: 'center' }]}>
+        <ActivityIndicator size="large" color="#0f8b78" />
+      </SafeAreaView>
+    );
+  }
 
   return (
     <SafeAreaView style={[styles.safeArea, { backgroundColor: colors.bg }]}>
@@ -187,25 +177,33 @@ function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: numbe
             <Text style={[styles.homeTitle, { color: colors.textPrimary }]}>{t('home.title')}</Text>
           </View>
 
-          <View style={styles.destinationCard}>
-            <View style={styles.cardMainTextWrap}>
-              <Text style={styles.destinationTitleText}>{t('home.nearest_job', 'Najbliži zadatak')}</Text>
-              <View style={styles.jobTitleRow}>
-                <Ionicons name="navigate" size={16} color="#d1fae5" style={{ marginRight: 6 }} />
-                <Text style={styles.jobTitleText} numberOfLines={1}>{nextJob.title}</Text>
+          {nextJob ? (
+            <View style={styles.destinationCard}>
+              <View style={styles.cardMainTextWrap}>
+                <Text style={styles.destinationTitleText}>{t('home.nearest_job', 'Najbliži zadatak')}</Text>
+                <View style={styles.jobTitleRow}>
+                  <Ionicons name="navigate" size={16} color="#d1fae5" style={{ marginRight: 6 }} />
+                  <Text style={styles.jobTitleText} numberOfLines={1}>{nextJob.title}</Text>
+                </View>
+                <Text style={styles.placeNameText} numberOfLines={1}>{nextJob.name}</Text>
               </View>
-              <Text style={styles.placeNameText} numberOfLines={1}>{nextJob.name}</Text>
-            </View>
 
-            <View style={styles.distanceBadge}>
-              <Text style={styles.distanceText}>
-                {nextJob.distanceKm.toFixed(1)} {t('home.units.km', 'km')}
+              <View style={styles.distanceBadge}>
+                <Text style={styles.distanceText}>
+                  {nextJob.distanceKm.toFixed(1)} {t('home.units.km', 'km')}
+                </Text>
+              </View>
+            </View>
+          ) : (
+            <View style={[styles.destinationCard, { backgroundColor: colors.surface2, paddingVertical: 16 }]}>
+              <Text style={{ color: colors.textPrimary, fontSize: 15, fontWeight: '600' }}>
+                {t('home.no_jobs', 'Trenutno nemate dodijeljenih zadataka')}
               </Text>
             </View>
-          </View>
+          )}
         </View>
 
-        {showToast && (
+        {showToast && jobsOnMap.length > 0 && (
           <View style={[styles.bottomStatsCard, { backgroundColor: isDark ? 'rgba(11,15,23,0.92)' : 'rgba(255,255,255,0.92)', borderTopColor: colors.border }]}>
             <Text style={[styles.bottomStatsText, { color: colors.textPrimary }]}>{t('home.jobs_visible', { count: jobsOnMap.length, defaultValue: `${jobsOnMap.length} posla vidljivo na mapi` })}</Text>
           </View>

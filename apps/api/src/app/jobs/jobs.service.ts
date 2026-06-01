@@ -71,9 +71,7 @@ export class JobsService {
 
   async findAll(user: AuthenticatedUser) {
     return this.prisma.job.findMany({
-      where: this.isManager(user)
-        ? { isDeleted: false }
-        : { technicianId: user.sub, isDeleted: false },
+      where: { isDeleted: false },
       include: { site: true },
       orderBy: { scheduledDate: 'asc' },
     });
