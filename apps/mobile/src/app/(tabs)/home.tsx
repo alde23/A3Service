@@ -161,8 +161,8 @@ function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: numbe
             <Marker
             key={job.id}
             coordinate={job.coordinate}
-            title={job.name}
-            description={`${job.id} · ${t(`status.${job.status}`)}`}
+            title={job.title}
+            description={`${job.name} · ${t(`status.${job.status}`)}`}
             pinColor={job.status === 'active' ? '#dc2626' : '#f59e0b'}
           />
         ))}
