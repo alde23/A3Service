@@ -48,7 +48,7 @@ jobs:
           DIRECT_URL: postgresql://postgres:postgres@localhost:5433/a3service
 
       - name: Build API
-        run: npx nx build api
+        run: npx nx build shared-schema && npx nx build api
 
       - name: Run Tests
         run: npx nx run-many --target=test --all --coverage
