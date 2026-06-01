@@ -1,5 +1,5 @@
 import { describe, expect, it, beforeEach, vi } from 'vitest';
-import { BadRequestException } from '@nestjs/common';
+
 import { Prisma, ServiceLogStatus, SyncResult, UserRole } from '../../generated/prisma/client';
 import type { PrismaService } from '../../prisma/prisma.service';
 import { ServiceLogService } from './service-logs.service';
@@ -140,7 +140,7 @@ describe('ServiceLogService', () => {
     expect(result.status).toBe('SUCCESS');
   });
 
-  it('update blocks labor and parts edits once synced', async () => {
+  it('update allows editing labor and parts after synced', async () => {
     const now = new Date('2026-05-19T00:00:00.000Z');
     prisma.serviceLog.findFirst.mockResolvedValue({
       id: 'log-1',
@@ -157,13 +157,46 @@ describe('ServiceLogService', () => {
       laborEntries: [],
       consumedParts: [],
     });
+    prisma.$transaction.mockImplementation(async (cb) => cb(prisma));
+    prisma.part.findMany.mockResolvedValue([{ id: 'part-1' }]);
+    prisma.serviceLog.update.mockResolvedValue({
+      id: 'log-1',
+      jobId: 'job-1',
+      status: ServiceLogStatus.SYNCED,
+      summary: null,
+      notes: null,
+      syncedAt: now,
+      isDeleted: false,
+      deletedAt: null,
+      createdAt: now,
+      updatedAt: now,
+      laborEntries: [],
+      consumedParts: [],
+    });
+    prisma.serviceLog.findUnique.mockResolvedValue({
+      id: 'log-1',
+      jobId: 'job-1',
+      status: ServiceLogStatus.SYNCED,
+      summary: null,
+      notes: null,
+      syncedAt: now,
+      isDeleted: false,
+      deletedAt: null,
+      createdAt: now,
+      updatedAt: now,
+      laborEntries: [],
+      consumedParts: [],
+    });
 
-    await expect(
-      service.update(
-        { sub: 'tech-1', email: 'tech-1@a3.local', role: UserRole.TECHNICIAN },
-        'log-1',
-        { laborEntries: [{ hours: 1, hourlyRate: 50 }] },
-      ),
-    ).rejects.toBeInstanceOf(BadRequestException);
+    await service.update(
+      { sub: 'tech-1', email: 'tech-1@a3.local', role: UserRole.TECHNICIAN },
+      'log-1',
+      { laborEntries: [{ hours: 1, hourlyRate: 50 }], consumedParts: [{ partId: 'part-1', quantity: 1 }] },
+    );
+
+    expect(prisma.serviceLog.update).toHaveBeenCalled();
+    expect(prisma.laborEntry.deleteMany).toHaveBeenCalledWith({ where: { serviceLogId: 'log-1' } });
+    expect(prisma.laborEntry.createMany).toHaveBeenCalled();
+    expect(prisma.consumedPart.deleteMany).toHaveBeenCalledWith({ where: { serviceLogId: 'log-1' } });
   });
 });

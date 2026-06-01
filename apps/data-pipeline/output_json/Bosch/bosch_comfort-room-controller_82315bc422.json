@@ -1,0 +1,2615 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "BOSCH",
+    "product_family": "Comfort Room Controller",
+    "model_names": [
+      "CRC200"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "Installation instructions for contractors",
+    "document_code": "6 720 821 651 (2017/05)",
+    "publication_date": "2017/05",
+    "language": "en",
+    "region": "US",
+    "source_file": "bosch_comfort-room-controller-crc200_installation-manual_crc200-installation-manual-us.pdf",
+    "file_hash": "82315bc4226396f39d0459effee39acf4fbbe8b34bf80200a29d0bd6b08033a2"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Dimensions (W x H x D)",
+      "value": "3 3/4\" x 3 3/4\" x 1 5/16\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2.4 Technical Data",
+          "table_title": "Table 2 Technical Data",
+          "source_quote": "Dimensions (W×H×D) 33/4\" × 3 3/4\" × 1 5/16\" (95 x 95 x 33 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimensions (W x H x D)",
+      "value": "95 x 95 x 33",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2.4 Technical Data",
+          "table_title": "Table 2 Technical Data",
+          "source_quote": "Dimensions (W×H×D) 33/4\" × 3 3/4\" × 1 5/16\" (95 x 95 x 33 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated voltage",
+      "value": "8 ... 16",
+      "unit": "V DC",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2.4 Technical Data",
+          "table_title": "Table 2 Technical Data",
+          "source_quote": "Rated voltage 8 ... 16 V DC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal current",
+      "value": "6",
+      "unit": "mA",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2.4 Technical Data",
+          "table_title": "Table 2 Technical Data",
+          "source_quote": "Nominal current 6 mA"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "BUS interface",
+      "value": "EMS (2-wire BUS)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2.4 Technical Data",
+          "table_title": "Table 2 Technical Data",
+          "source_quote": "BUS interface EMS (2-wire BUS)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Control range",
+      "value": "41 ... 86 °F (5 ... 30 °C)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2.4 Technical Data",
+          "table_title": "Table 2 Technical Data",
+          "source_quote": "Control range 41 ... 86 °F (5 ... 30 °C)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Permissible ambient temperature",
+      "value": "32 ... 122 °F (0 ... 50 °C)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "environmental",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2.4 Technical Data",
+          "table_title": "Table 2 Technical Data",
+          "source_quote": "Permissible ambient temperature 32 ... 122 °F (0 ... 50 °C)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Protection class",
+      "value": "III",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2.4 Technical Data",
+          "table_title": "Table 2 Technical Data",
+          "source_quote": "Protection class III"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Protection",
+      "value": "IP20",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "2.4 Technical Data",
+          "table_title": "Table 2 Technical Data",
+          "source_quote": "Protection IP20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum outside temperature TA,min (Low Temp. heating)",
+      "value": "14 °F (-10 °C)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Simple heating curve",
+          "table_title": "Table 8 Factory settings for the simple heating curve",
+          "source_quote": "Minimum outside temperature TA, min 14 °F (-10 °C)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum outside temperature TA,min (High Temp heating)",
+      "value": "14 °F (-10 °C)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Simple heating curve",
+          "table_title": "Table 8 Factory settings for the simple heating curve",
+          "source_quote": "Minimum outside temperature TA, min 14 °F (-10 °C)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Base point (Low Temp. heating)",
+      "value": "77 °F (25 °C)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Simple heating curve",
+          "table_title": "Table 8 Factory settings for the simple heating curve",
+          "source_quote": "Base point 77°F (25°C)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Base point (High Temp heating)",
+      "value": "77 °F (25 °C)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Simple heating curve",
+          "table_title": "Table 8 Factory settings for the simple heating curve",
+          "source_quote": "Base point 77 °F (25°C)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "End point (Low Temp. heating)",
+      "value": "113 °F (45 °C)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Simple heating curve",
+          "table_title": "Table 8 Factory settings for the simple heating curve",
+          "source_quote": "End point 113 °F (45 °C)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "End point (High Temp heating)",
+      "value": "167 °F (75 °C)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Simple heating curve",
+          "table_title": "Table 8 Factory settings for the simple heating curve",
+          "source_quote": "End point 167 °F (75 °C)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum supply temperature TVL,max (Low Temp. heating)",
+      "value": "118 °F (48 °C)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Simple heating curve",
+          "table_title": "Table 8 Factory settings for the simple heating curve",
+          "source_quote": "Maximum supply temperature TVL, max 118 °F (48 °C)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum supply temperature TVL,max (High Temp heating)",
+      "value": "167 °F (75 °C)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Simple heating curve",
+          "table_title": "Table 8 Factory settings for the simple heating curve",
+          "source_quote": "Maximum supply temperature TVL, max 167 °F (75 °C)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "A11",
+      "description": "Solar module wrongly activated",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Deactivate Solar module in the service settings (→ Bild 12, Seite 16)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Solar module"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "solar module",
+        "activation"
+      ],
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A11 6004 Solar module wrongly activated Deactivate Solar module in the service settings (→ Bild 12, Seite 16)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A12",
+      "description": "Supply temperature sensor faulty",
+      "possible_causes": [
+        "Check cable connecting supply temperature sensor and zone module",
+        "Check connection between zone module and supply temperature sensor",
+        "Check the supply temperature sensor against its data table",
+        "Check the voltage to the connection terminals of the supply temperature sensor in the zone module against its data table"
+      ],
+      "manufacturer_steps": [
+        "If there is a fault, replace cable/sensor",
+        "If screws or a plug is loose, rectify the contact problem",
+        "If values do not agree, replace the sensor",
+        "If sensor values agree but the voltage values do not, replace the zone module"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Supply temperature sensor",
+        "Zone module"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "supply temperature sensor",
+        "sensor",
+        "cable",
+        "wiring",
+        "voltage"
+      ],
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A12 815 Supply temperature sensor faulty Check cable connecting supply temperature sensor and zone module If there is a fault, replace cable/sensor Check connection between zone module and supply temperature sensor If screws or a plug is loose, rectify the contact problem Check the supply temperature sensor against its data table If values do not agree, replace the sensor Check the voltage to the connection terminals of the supply temperature sensor in the zone module against its data table If sensor values agree but the voltage values do not, replace the zone module"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A31",
+      "description": "Zone module has no communication to CRCx00 in the heating zone",
+      "possible_causes": [
+        "Check configuration on the corresponding controller"
+      ],
+      "manufacturer_steps": [
+        "Assign the correct heating zone and set Control type to Room supply, if outdoor temperature sensor not installed."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Zone module",
+        "CRCx00",
+        "Controller"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "zone module",
+        "communication",
+        "configuration",
+        "controller"
+      ],
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A31 3101 Zone module has no communication to CRCx00 in the heating zone Check configuration on the corresponding controller Assign the correct heating zone and set Control type to Room supply, if outdoor temperature sensor not installed."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A38",
+      "description": "Zone module has no communication to CRCx00 in the heating zone",
+      "possible_causes": [
+        "Check configuration on the corresponding controller"
+      ],
+      "manufacturer_steps": [
+        "Assign the correct heating zone and set Control type to Room supply, if outdoor temperature sensor not installed."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Zone module",
+        "CRCx00",
+        "Controller"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "zone module",
+        "communication",
+        "configuration",
+        "controller"
+      ],
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A38 3108 Zone module has no communication to CRCx00 in the heating zone Check configuration on the corresponding controller Assign the correct heating zone and set Control type to Room supply, if outdoor temperature sensor not installed."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A31",
+      "description": "Zone module detects unreasonable status of the end switch",
+      "possible_causes": [
+        "Check heating zone assignment on other controllers",
+        "Check if cable for EMS connection is damaged",
+        "Controller defective",
+        "Check corresponding zone valve and end switch for status and defects",
+        "Module wrongly configured: switch is in the wrong position."
+      ],
+      "manufacturer_steps": [
+        "Assign the correct heating zones",
+        "Replace damaged cable",
+        "Replace defective controller",
+        "Replace faulty zone valve or end switch",
+        "See installation instructions CZM100, chapter 2.2"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Zone module",
+        "End switch",
+        "Controller",
+        "EMS cable",
+        "Zone valve"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "zone module",
+        "end switch",
+        "status",
+        "cable",
+        "controller",
+        "zone valve",
+        "configuration"
+      ],
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A31 3201 Zone module detects unreasonable status of the end switch Check heating zone assignment on other controllers Assign the correct heating zones Check if cable for EMS connection is damaged Replace damaged cable Controller defective Replace defective controller Check corresponding zone valve and end switch for status and defects Replace faulty zone valve or end switch Module wrongly configured: switch is in the wrong position. See installation instructions CZM100, chapter 2.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A38",
+      "description": "Zone module detects unreasonable status of the end switch",
+      "possible_causes": [
+        "Check heating zone assignment on other controllers",
+        "Check if cable for EMS connection is damaged",
+        "Controller defective",
+        "Check corresponding zone valve and end switch for status and defects",
+        "Module wrongly configured: switch is in the wrong position."
+      ],
+      "manufacturer_steps": [
+        "Assign the correct heating zones",
+        "Replace damaged cable",
+        "Replace defective controller",
+        "Replace faulty zone valve or end switch",
+        "See installation instructions CZM100, chapter 2.2"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Zone module",
+        "End switch",
+        "Controller",
+        "EMS cable",
+        "Zone valve"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "zone module",
+        "end switch",
+        "status",
+        "cable",
+        "controller",
+        "zone valve",
+        "configuration"
+      ],
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A38 3208 Zone module detects unreasonable status of the end switch Check heating zone assignment on other controllers Assign the correct heating zones Check if cable for EMS connection is damaged Replace damaged cable Controller defective Replace defective controller Check corresponding zone valve and end switch for status and defects Replace faulty zone valve or end switch Module wrongly configured: switch is in the wrong position. See installation instructions CZM100, chapter 2.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A61",
+      "description": "System configuration not confirmed",
+      "possible_causes": [
+        "System configuration not completed"
+      ],
+      "manufacturer_steps": [
+        "Configure system completely and confirm"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "configuration",
+        "system"
+      ],
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A61 1005 System configuration not confirmed System configuration not completed Configure system completely and confirm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A68",
+      "description": "System configuration not confirmed",
+      "possible_causes": [
+        "System configuration not completed"
+      ],
+      "manufacturer_steps": [
+        "Configure system completely and confirm"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "configuration",
+        "system"
+      ],
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A68 1005 System configuration not confirmed System configuration not completed Configure system completely and confirm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A61",
+      "description": "No communication via BUS connection EMS",
+      "possible_causes": [
+        "Check whether bus cable was connected incorrectly",
+        "Check whether bus cable is faulty.",
+        "Remove expansion module from BUS and switch controller off and on again.",
+        "Check whether the cause of the fault is a module or module wiring"
+      ],
+      "manufacturer_steps": [
+        "Rectify wiring faults and switch controller off and on again",
+        "Repair or replace the bus cable",
+        "Replace faulty BUS user"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "BUS cable",
+        "Expansion module",
+        "Controller"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "BUS",
+        "EMS",
+        "cable",
+        "wiring",
+        "controller",
+        "module"
+      ],
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A61 1010 No communication via BUS connection EMS Check whether bus cable was connected incorrectly Rectify wiring faults and switch controller off and on again Check whether bus cable is faulty. Repair or replace the bus cable Remove expansion module from BUS and switch controller off and on again. Check whether the cause of the fault is a module or module wiring Replace faulty BUS user"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A68",
+      "description": "No communication via BUS connection EMS",
+      "possible_causes": [
+        "Check whether bus cable was connected incorrectly",
+        "Check whether bus cable is faulty.",
+        "Remove expansion module from BUS and switch controller off and on again.",
+        "Check whether the cause of the fault is a module or module wiring"
+      ],
+      "manufacturer_steps": [
+        "Rectify wiring faults and switch controller off and on again",
+        "Repair or replace the bus cable",
+        "Replace faulty BUS user"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "BUS cable",
+        "Expansion module",
+        "Controller"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "BUS",
+        "EMS",
+        "cable",
+        "wiring",
+        "controller",
+        "module"
+      ],
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A68 1010 No communication via BUS connection EMS Check whether bus cable was connected incorrectly Rectify wiring faults and switch controller off and on again Check whether bus cable is faulty. Repair or replace the bus cable Remove expansion module from BUS and switch controller off and on again. Check whether the cause of the fault is a module or module wiring Replace faulty BUS user"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A61",
+      "description": "Internal data error of the controller.",
+      "possible_causes": [
+        "Controller faulty"
+      ],
+      "manufacturer_steps": [
+        "Replace controller"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Controller"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "internal data error",
+        "controller"
+      ],
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A61 1030 Internal data error of the controller. Controller faulty Replace controller"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A68",
+      "description": "Internal data error of the controller.",
+      "possible_causes": [
+        "Controller faulty"
+      ],
+      "manufacturer_steps": [
+        "Replace controller"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Controller"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "internal data error",
+        "controller"
+      ],
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A68 1036 Internal data error of the controller. Controller faulty Replace controller"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A61",
+      "description": "Outdoor temperature sensor faulty",
+      "possible_causes": [
+        "Check configuration. The selected setting requires an outdoor temperature sensor.",
+        "Check the connecting cable between the controller and outdoor temperature sensor for continuity",
+        "Check the electrical connection of the connecting cable in the outdoor temperature sensor or on the plug in the controller",
+        "Check the outdoor temperature sensor in accordance with table (→ Technical documentation for the heat source)",
+        "Check the voltage at the connecting terminals of the outdoor temperature sensor in the controller in accordance with table"
+      ],
+      "manufacturer_steps": [
+        "If an outdoor temperature sensor is not desired. Select the room temperature-dependent configuration in the controller.",
+        "If there is no continuity, rectify the fault",
+        "Clean corroded connecting terminals in the outdoor sensor housing.",
+        "If values do not match, replace the sensor",
+        "If the sensor values matched, but the voltage values do not match, replace the controller"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Outdoor temperature sensor",
+        "Controller"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "outdoor temperature sensor",
+        "sensor",
+        "faulty",
+        "configuration",
+        "cable",
+        "continuity",
+        "electrical connection",
+        "voltage"
+      ],
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A61 1037 Outdoor temperature sensor faulty Check configuration. The selected setting requires an outdoor temperature sensor. If an outdoor temperature sensor is not desired. Select the room temperature-dependent configuration in the controller. Check the connecting cable between the controller and outdoor temperature sensor for continuity If there is no continuity, rectify the fault Check the electrical connection of the connecting cable in the outdoor temperature sensor or on the plug in the controller Clean corroded connecting terminals in the outdoor sensor housing. Check the outdoor temperature sensor in accordance with table (→ Technical documentation for the heat source) If values do not match, replace the sensor Check the voltage at the connecting terminals of the outdoor temperature sensor in the controller in accordance with table If the sensor values matched, but the voltage values do not match, replace the controller"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A68",
+      "description": "Outdoor temperature sensor faulty",
+      "possible_causes": [
+        "Check configuration. The selected setting requires an outdoor temperature sensor.",
+        "Check the connecting cable between the controller and outdoor temperature sensor for continuity",
+        "Check the electrical connection of the connecting cable in the outdoor temperature sensor or on the plug in the controller",
+        "Check the outdoor temperature sensor in accordance with table (→ Technical documentation for the heat source)",
+        "Check the voltage at the connecting terminals of the outdoor temperature sensor in the controller in accordance with table"
+      ],
+      "manufacturer_steps": [
+        "If an outdoor temperature sensor is not desired. Select the room temperature-dependent configuration in the controller.",
+        "If there is no continuity, rectify the fault",
+        "Clean corroded connecting terminals in the outdoor sensor housing.",
+        "If values do not match, replace the sensor",
+        "If the sensor values matched, but the voltage values do not match, replace the controller"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Outdoor temperature sensor",
+        "Controller"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "outdoor temperature sensor",
+        "sensor",
+        "faulty",
+        "configuration",
+        "cable",
+        "continuity",
+        "electrical connection",
+        "voltage"
+      ],
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A68 1037 Outdoor temperature sensor faulty Check configuration. The selected setting requires an outdoor temperature sensor. If an outdoor temperature sensor is not desired. Select the room temperature-dependent configuration in the controller. Check the connecting cable between the controller and outdoor temperature sensor for continuity If there is no continuity, rectify the fault Check the electrical connection of the connecting cable in the outdoor temperature sensor or on the plug in the controller Clean corroded connecting terminals in the outdoor sensor housing. Check the outdoor temperature sensor in accordance with table (→ Technical documentation for the heat source) If values do not match, replace the sensor Check the voltage at the connecting terminals of the outdoor temperature sensor in the controller in accordance with table If the sensor values matched, but the voltage values do not match, replace the controller"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A61",
+      "description": "Invalid time/date",
+      "possible_causes": [
+        "Date/time not yet set",
+        "Prolonged loss of power supply"
+      ],
+      "manufacturer_steps": [
+        "Set date/time",
+        "Avoid voltage failures"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "time",
+        "date",
+        "power supply"
+      ],
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A61 1038 Invalid time/date Date/time not yet set Set date/time Prolonged loss of power supply Avoid voltage failures"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A68",
+      "description": "Invalid time/date",
+      "possible_causes": [
+        "Date/time not yet set",
+        "Prolonged loss of power supply"
+      ],
+      "manufacturer_steps": [
+        "Set date/time",
+        "Avoid voltage failures"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "time",
+        "date",
+        "power supply"
+      ],
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A68 1038 Invalid time/date Date/time not yet set Set date/time Prolonged loss of power supply Avoid voltage failures"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A61",
+      "description": "External room sensor not available",
+      "possible_causes": [
+        "Wrong configuration in the controller for external room sensor."
+      ],
+      "manufacturer_steps": [
+        "Change to No in service menu (external room sensor is not yet available)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "External room sensor",
+        "Controller"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "external room sensor",
+        "configuration",
+        "controller"
+      ],
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A61 1051 External room sensor not available Wrong configuration in the controller for external room sensor. Change to No in service menu (external room sensor is not yet available)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A68",
+      "description": "External room sensor not available",
+      "possible_causes": [
+        "Wrong configuration in the controller for external room sensor."
+      ],
+      "manufacturer_steps": [
+        "Change to No in service menu (external room sensor is not yet available)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "External room sensor",
+        "Controller"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "external room sensor",
+        "configuration",
+        "controller"
+      ],
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A68 1058 External room sensor not available Wrong configuration in the controller for external room sensor. Change to No in service menu (external room sensor is not yet available)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A61",
+      "description": "CRC200 in heating zone 1 wrongly configured",
+      "possible_causes": [
+        "Check the configuration of controller in heating zone 1.",
+        "A zone module is detected but not allowed with current settings"
+      ],
+      "manufacturer_steps": [
+        "If a zone module is to be installed, set the setting Control type to Room supply, if outdoor temperature sensor not installed."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "CRC200",
+        "Controller",
+        "Zone module",
+        "Outdoor temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "CRC200",
+        "heating zone",
+        "configuration",
+        "controller",
+        "zone module",
+        "control type",
+        "room supply",
+        "outdoor temperature sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A61 3011 CRC200 in heating zone 1 wrongly configured Check the configuration of controller in heating zone 1. If a zone module is to be installed, set the setting Control type to Room supply, if outdoor temperature sensor not installed. A zone module is detected but not allowed with current settings"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A61",
+      "description": "CRCx00 with corresponding heating zone is missing",
+      "possible_causes": [
+        "Check the configuration of the controller for the corresponding heating zone"
+      ],
+      "manufacturer_steps": [
+        "Assign the heating zone properly."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "CRCx00",
+        "Controller"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "CRCx00",
+        "heating zone",
+        "configuration",
+        "controller"
+      ],
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A61 3011 CRCx00 with corresponding heating zone is missing Check the configuration of the controller for the corresponding heating zone Assign the heating zone properly."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A68",
+      "description": "CRCx00 with corresponding heating zone is missing",
+      "possible_causes": [
+        "Check the configuration of the controller for the corresponding heating zone"
+      ],
+      "manufacturer_steps": [
+        "Assign the heating zone properly."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "CRCx00",
+        "Controller"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "CRCx00",
+        "heating zone",
+        "configuration",
+        "controller"
+      ],
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A68 3018 CRCx00 with corresponding heating zone is missing Check the configuration of the controller for the corresponding heating zone Assign the heating zone properly."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A61",
+      "description": "No communication with zone module",
+      "possible_causes": [
+        "Check connection to controller and connecting cable",
+        "Check if controller is faulty",
+        "Check connection to zone module and connecting cable",
+        "Check if zone module is faulty"
+      ],
+      "manufacturer_steps": [
+        "Connect controller properly with a functioning cable",
+        "Replace faulty controller",
+        "Connect controller and zone module properly with a functioning cable",
+        "Replace faulty zone module"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Zone module",
+        "Controller",
+        "Cable"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "zone module",
+        "controller",
+        "cable"
+      ],
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A61 3061 No communication with zone module Check connection to controller and connecting cable Connect controller properly with a functioning cable Check if controller is faulty Replace faulty controller Check connection to zone module and connecting cable Connect controller and zone module properly with a functioning cable Check if zone module is faulty Replace faulty zone module"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A68",
+      "description": "No communication with zone module",
+      "possible_causes": [
+        "Check connection to controller and connecting cable",
+        "Check if controller is faulty",
+        "Check connection to zone module and connecting cable",
+        "Check if zone module is faulty"
+      ],
+      "manufacturer_steps": [
+        "Connect controller properly with a functioning cable",
+        "Replace faulty controller",
+        "Connect controller and zone module properly with a functioning cable",
+        "Replace faulty zone module"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Zone module",
+        "Controller",
+        "Cable"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "zone module",
+        "controller",
+        "cable"
+      ],
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A68 3068 No communication with zone module Check connection to controller and connecting cable Connect controller properly with a functioning cable Check if controller is faulty Replace faulty controller Check connection to zone module and connecting cable Connect controller and zone module properly with a functioning cable Check if zone module is faulty Replace faulty zone module"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A61",
+      "description": "Room temperature sensor faulty",
+      "possible_causes": [
+        "Controller faulty"
+      ],
+      "manufacturer_steps": [
+        "Replace controller"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Room temperature sensor",
+        "Controller"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "room temperature sensor",
+        "sensor",
+        "faulty",
+        "controller"
+      ],
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A61 3091 Room temperature sensor faulty Controller faulty Replace controller"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "A68",
+      "description": "Room temperature sensor faulty",
+      "possible_causes": [
+        "Controller faulty"
+      ],
+      "manufacturer_steps": [
+        "Replace controller"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Room temperature sensor",
+        "Controller"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "room temperature sensor",
+        "sensor",
+        "faulty",
+        "controller"
+      ],
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "9 Troubleshooting",
+          "table_title": "Table 13 Fault table",
+          "source_quote": "A68 3098 Room temperature sensor faulty Controller faulty Replace controller"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "diagnostic_codes": [
+    {
+      "code": "HC assignment",
+      "description": "Number of the assigned heating zone",
+      "value_range": "1...8",
+      "default_value": "1",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "8.1 System data menu",
+          "table_title": "Table 5 Settings in the system data menu",
+          "source_quote": "HC assignment 1 1...8 Number of the assigned heating zone"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Auto-Config.",
+      "description": "Automatic system configuration, detects connected modules and temperature sensors and presets important data.",
+      "value_range": "NO | YES",
+      "default_value": "NO",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "8.1 System data menu",
+          "table_title": "Table 5 Settings in the system data menu",
+          "source_quote": "Auto-Config. NO NO | YES NO: Manual configuration of the system YES: Automatic system configuration, detects connected modules and temperature sensors and presets important data."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Pump conn.",
+      "description": "Heating pump connected to heat source (only for heating zone 1). Heat Source is default if no CZM100 is detected. HC Module: Heating pump connected to CZM100. HC Module is default if CZM100 is detected.",
+      "value_range": "Heat Source | HC Module",
+      "default_value": "see desciption",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "8.1 System data menu",
+          "table_title": "Table 5 Settings in the system data menu",
+          "source_quote": "Pump conn. see desciption Heat Source | HC Module Heat Source: Heating pump connected to heat source (only for heating zone 1). Heat Source is default if no CZM100 is detected. HC Module: Heating pump connected to CZM100. HC Module is default if CZM100 is detected."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Heat. System",
+      "description": "Assign the heating system to the heating zone to cancel the factory default.",
+      "value_range": "High Temp | Low Temp.",
+      "default_value": "High Temp",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "8.1 System data menu",
+          "table_title": "Table 5 Settings in the system data menu",
+          "source_quote": "Heat. System High Temp High Temp | Low Temp. Assign the heating system to the heating zone to cancel the factory default."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Control type",
+      "description": "Select control type (details in → Chapter 2.1.1, Page 4). Outdoor reset operation: External simple: simple outdoor reset control. External opt.: optimized outdoor reset control. Room temperature-dependent operations: Room supply: supply temperature control. Room output: power output control (not possible if CZM100 is detected).",
+      "value_range": "Room supply | External simple | External opt. | Room supply | Room output",
+      "default_value": "Room supply",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "8.1 System data menu",
+          "table_title": "Table 5 Settings in the system data menu",
+          "source_quote": "Control type Room supply External simple | External opt. | Room supply | Room output Select control type (details in → Chapter 2.1.1, Page 4) Outdoor reset operation (): External simple: simple outdoor reset control External opt.: optimized outdoor reset control Room temperature-dependent operations: Room supply: supply temperature control Room output: power output control (not possible if CZM100 is detected)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Ext.RoomSens.",
+      "description": "NO: The room temperature is determined by the internal temperature sensor of the user interface. YES: An additional room temperature sensor connected to the user interface (future feature; currently not available).",
+      "value_range": "NO | YES",
+      "default_value": "NO",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "8.1 System data menu",
+          "table_title": "Table 5 Settings in the system data menu",
+          "source_quote": "Ext.RoomSens. NO NO | YES NO: The room temperature is determined by the internal temperature sensor of the user interface. YES: An additional room temperature sensor connected to the user interface (future feature; currently not available)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "DHW",
+      "description": "DHW is only available if supported by the heat source (not visible at combi boilers). No: No hot water system installed in conjunction with boiler. Yes, 3-wy vlv: Hot water system is supplied via 3-way valve. Yes, pr. pump: Hot water system is supplied via indirect tank.",
+      "value_range": "No | Yes, 3-wy vlv | Yes, pr. pump",
+      "default_value": "(factory settings depend on installed heat source)",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "8.1 System data menu",
+          "table_title": "Table 5 Settings in the system data menu",
+          "source_quote": "DHW (factory settings depend on installed heat source) No | Yes, 3-wy vlv | Yes, pr. pump DHW is only available if supported by the heat source (not visible at combi boilers) No: No hot water system installed in conjunction with boiler Yes, 3-wy vlv: Hot water system is supplied via 3-way valve Yes, pr. pump: Hot water system is supplied via indirect tank"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "LLH Sensor / System Supply Sensor",
+      "description": "LLH Sensor / System Supply Sensor is only available for heating zone 1. No: No low-loss header installed. Yes, on mod.: Low-loss header installed (even if temperature sensor is connected at heat source).",
+      "value_range": "No | Yes, on mod.",
+      "default_value": "No",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "8.1 System data menu",
+          "table_title": "Table 5 Settings in the system data menu",
+          "source_quote": "LLH Sensor / System Supply Sensor No No | Yes, on mod. LLH Sensor / System Supply Sensor is only available for heating zone 1 No: No low-loss header installed Yes, on mod.: Low-loss header installed (even if temperature sensor is connected at heat source)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Recirculation",
+      "description": "Recirculation is only available for heating zone 1. NO: The recirculation pump cannot be controlled by the heat source. YES: If the recirculation pump is to be controlled by the heat source, the recirculation pump must be activated here as well.",
+      "value_range": "NO | YES",
+      "default_value": "NO",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "8.1 System data menu",
+          "table_title": "Table 5 Settings in the system data menu",
+          "source_quote": "Recirculation NO NO | YES Recirculation is only available for heating zone 1 NO: The recirculation pump cannot be controlled by the heat source. YES: If the recirculation pump is to be controlled by the heat source, the recirculation pump must be activated here as well."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Solar module",
+      "description": "NO: No solar module connected. YES: No function in US/CA; no solar module available.",
+      "value_range": "NO | YES",
+      "default_value": "NO",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "8.1 System data menu",
+          "table_title": "Table 5 Settings in the system data menu",
+          "source_quote": "Solar module NO NO | YES NO: No solar module connected. YES: No function in US/CA; no solar module available"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "WWSD",
+      "description": "Heating is off in the entire system at this set outdoor temperature. This saves energy at higher outdoor temperatures. (only for heating zone 1)",
+      "value_range": "OFF | 50...86 °F (10...30°C)",
+      "default_value": "70°F (21°C)",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "8.1 System data menu",
+          "table_title": "Table 5 Settings in the system data menu",
+          "source_quote": "WWSD 70°F (21°C) OFF | 50...86 °F (10...30°C) Heating is off in the entire system at this set outdoor temperature. This saves energy at higher outdoor temperatures. (only for heating zone 1)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Min.outs.temp",
+      "description": "Minimum outdoor temperature is the outdoor design temperature used in the heat loss calculation; only available when an outdoor temperature sensor is connected and outdoor reset mode is enabled.",
+      "value_range": "– 35...10°C",
+      "default_value": "14°F (-10°C)",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "8.1 System data menu",
+          "table_title": "Table 5 Settings in the system data menu",
+          "source_quote": "Min.outs.temp 14°F (-10°C) – 31...50 °F ( – 35...10°C) Minimum outdoor temperature is the outdoor design temperature used in the heat loss calculation; only available when an outdoor temperature sensor is connected and outdoor reset mode is enabled."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Damping",
+      "description": "ON: The set type of building affects the measurement of the outside temperature. The outside temperature is delayed (dampened). OFF: The measured outside temperature is included undampened in the outdoor reset control.",
+      "value_range": "ON | OFF",
+      "default_value": "ON",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "8.1 System data menu",
+          "table_title": "Table 5 Settings in the system data menu",
+          "source_quote": "Damping ON ON | OFF This setting is only available when an outdoor temperature sensor is connected and outdoor reset mode is enabled. ON: The set type of building affects the measurement of the outside temperature. The outside temperature is delayed (dampened). OFF: The measured outside temperature is included undampened in the outdoor reset control."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Building Type",
+      "description": "A measure of the thermal storage capacity of the heated building. Tight: High storage capacity such as a brick house with thick walls (significant damping of the outdoor temperature). Medium: Medium storage capacity. Loose: Low storage capacity such as a non-insulated weekend house made of wood (low damping of the outdoor temperature).",
+      "value_range": "Tight | Medium | Loose",
+      "default_value": "Medium",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "8.1 System data menu",
+          "table_title": "Table 5 Settings in the system data menu",
+          "source_quote": "Building Type Medium Tight | Medium | Loose A measure of the thermal storage capacity of the heated building Tight: High storage capacity such as a brick house with thick walls (significant damping of the outdoor temperature) Medium: Medium storage capacity Loose: Low storage capacity such as a non-insulated weekend house made of wood (low damping of the outdoor temperature)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Reset All",
+      "description": "NO: The current settings have been retained. YES: The factory settings are being restored (except time and date).",
+      "value_range": "NO | YES",
+      "default_value": "NO",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "8.1 System data menu",
+          "table_title": "Table 5 Settings in the system data menu",
+          "source_quote": "Reset All NO NO | YES NO: The current settings have been retained. YES: The factory settings are being restored (except time and date)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Design Temp",
+      "description": "This is the supply temperature requested at the outdoor design temperature (see setting Min.outs.temp). The control range depends on the heating system selected.",
+      "value_range": "86...140 °F (30...60°C) (with Low Temp. heating) | 86...185 °F (30...85 °C) (only High Temp)",
+      "default_value": "113 °F (45 °C)",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "8.2 Heating zone menu",
+          "table_title": "Table 7 Settings in the heating zone menu",
+          "source_quote": "Design Temp 113 °F (45 °C) 86...140 °F (30...60°C) (with Low Temp. heating) | 86...185 °F (30...85 °C) (only High Temp) Only visible if Control type = External opt. (Optimized outdoor reset control) is selected: This is the supply temperature requested at the outdoor design temperature (see setting Min.outs.temp). The control range depends on the heating system selected."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Base point",
+      "description": "This is the supply temperature at fixed outside temperature of 68 °F (20 °C). The range is limited by the setting of the End point.",
+      "value_range": "68 °F (20 °C) ... End point (with Low Temp. heating)",
+      "default_value": "77 °F (25°C)",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "8.2 Heating zone menu",
+          "table_title": "Table 7 Settings in the heating zone menu",
+          "source_quote": "Base point 77 °F (25°C) 68 °F (20 °C) ... End point (with Low Temp. heating) Only visible if Control type = External simple (simple outdoor reset control) is selected: This is the supply temperature at fixed outside temperature of 68 °F (20 °C). The range is limited by the setting of the End point."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "End point",
+      "description": "This is the supply temperature requested at the outdoor design temperature (see setting Min.outs.temp). The range is limited by the setting of the Base point.",
+      "value_range": "Base point ... 140 °F (60 °C) (with Low Temp. heating) Base point ... 185 °F (85 °C) (with High Temp heating)",
+      "default_value": "113 °F (45 °C) (with Low Temp. heating) | 167 °F (75 °C) (with High Temp heating)",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "8.2 Heating zone menu",
+          "table_title": "Table 7 Settings in the heating zone menu",
+          "source_quote": "End point 113 °F (45 °C) (with Low Temp. heating) 167 °F (75 °C) (with High Temp heating) Base point ... 140 °F (60 °C) (with Low Temp. heating) Base point ... 185 °F (85 °C) (with High Temp heating) Only visible if Control type = External simple (simple outdoor reset control) is selected: This is the supply temperature requested at the outdoor design temperature (see setting Min.outs.temp). The range is limited by the setting of the Base point."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Max. Suppl.T.",
+      "description": "Maximum supply temperature; the control range depends on the heating system selected.",
+      "value_range": "86...140 °F (30...60°C) (with Low Temp. heating) | 86...185 °F (30...85 °C) (only High Temp)",
+      "default_value": "118 °F (48 °C) (Low Temp. heating) | 167°F (75 °C) (only High Temp)",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "8.2 Heating zone menu",
+          "table_title": "Table 7 Settings in the heating zone menu",
+          "source_quote": "Max. Suppl.T. 118 °F (48 °C) (Low Temp. heating) | 167°F (75 °C) (only High Temp) 86...140 °F (30...60°C) (with Low Temp. heating) | 86...185 °F (30...85 °C) (only High Temp) Maximum supply temperature; the control range depends on the heating system selected."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "PID charact.",
+      "description": "Control characteristics (only visible when room temperature-dependent control is selected): Fast: Fast (2k P range), older home, loose construction, limited insulation. Medium: Average (3k P range), Minimum building requirements, medium construction. Slow: Slow (4k P range), newer home, tight construction, well insulated.",
+      "value_range": "Fast | Medium | Slow",
+      "default_value": "Medium",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "8.2 Heating zone menu",
+          "table_title": "Table 7 Settings in the heating zone menu",
+          "source_quote": "PID charact. Medium Fast | Medium | Slow Control characteristics (only visible when room temperature-dependent control is selected): Fast: Fast (2k P range), older home, loose construction, limited insulation Medium: Average (3k Prange), Minimum building requirements, medium construction Slow: Slow (4k P range), newer home, tight construction, well insulated"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Opt. pump run",
+      "description": "YES: Optimized pump operation active: The heating pump runs as little as possible on the basis of the supply temperature (available only with supply temperature control). This saves energy but may also reduce comfort. NO: If the system has more than one heat source installed (e. g. a hybrid system) or a buffer storage tank is installed, this function must be deactivated.",
+      "value_range": "NO | YES",
+      "default_value": "NO",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "8.2 Heating zone menu",
+          "table_title": "Table 7 Settings in the heating zone menu",
+          "source_quote": "Opt. pump run NO NO YES YES: Optimized pump operation active: The heating pump runs as little as possible on the basis of the supply temperature (available only with supply temperature control). This saves energy but may also reduce comfort. NO: If the system has more than one heat source installed (e. g. a hybrid system) or a buffer storage tank is installed, this function must be deactivated."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Room Feedback",
+      "description": "The outdoor reset control functions independent of the room temperature. The higher the setting value, the greater the influence of the room temperature on the heating curve.",
+      "value_range": "OFF | 2 ... 18 °F (1...10°C)",
+      "default_value": "6°F (3°C)",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "8.2 Heating zone menu",
+          "table_title": "Table 7 Settings in the heating zone menu",
+          "source_quote": "Room Feedback 6°F (3°C) OFF | 2 ... 18 °F (1...10°C) The outdoor reset control functions independent of the room temperature. The higher the setting value, the greater the influence of the room temperature on the heating curve."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Contin. heat",
+      "description": "At this set outdoor temperature, setback no longer occurs. The system operates in the heating mode to prevent greater cooling.",
+      "value_range": "OFF | -22...50 °F (-30...10°C)",
+      "default_value": "OFF",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "8.2 Heating zone menu",
+          "table_title": "Table 7 Settings in the heating zone menu",
+          "source_quote": "Contin. heat OFF OFF-22...50 °F (-30...10°C) At this set outdoor temperature, setback no longer occurs. The system operates in the heating mode to prevent greater cooling."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Frost protect",
+      "description": "Note: To ensure frost protection for the heating zone, set outdoor temperature-dependent frost protection. This setting is independent of the set control type. Outdoor temperature-dependent settings are only shown with connected outdoor temperature sensor. OFF: Frost protection off. Other: Frost protection is deactivated/activated on the basis of the temperature selected here (→ Threshold temperature for frost (frost protection limit temperature), Page 20)",
+      "value_range": "OFF | by Outdoor Temp | by Room Temp. | Room - Outside",
+      "default_value": "by Room Temp.",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "8.2 Heating zone menu",
+          "table_title": "Table 7 Settings in the heating zone menu",
+          "source_quote": "Frost protect by Room Temp. OFF | by Outdoor Temp() | by Room Temp. | Room - Outside () Note: To ensure frost protection for the heating zone, set outdoor temperature-dependent frost protection. This setting is independent of the set control type. Outdoor temperature-dependent settings are only shown with connected outdoor temperature sensor. OFF: Frost protection off Other: Frost protection is deactivated/activated on the basis of the temperature selected here (→ Threshold temperature for frost (frost protection limit temperature), Page 20)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Frost thresh.",
+      "description": "Threshold temperature for frost (frost protection limit temperature)",
+      "value_range": "-20...10°C",
+      "default_value": "41 °F (5°C)",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "8.2 Heating zone menu",
+          "table_title": "Table 7 Settings in the heating zone menu",
+          "source_quote": "Frost thresh. 41 °F (5°C) - 4...50 °F (-20...10°C) → Threshold temperature for frost (frost protection limit temperature), Page 20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "DHW Priority",
+      "description": "ON: Water heating is activated, the heat demand of the heating system is canceled. OFF: Water heating is activated, the heat demand of the heating system is being met simultaneously (only possible if the hot water system is supplied via the tank pump)",
+      "value_range": "ON | OFF",
+      "default_value": "ON",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "8.2 Heating zone menu",
+          "table_title": "Table 7 Settings in the heating zone menu",
+          "source_quote": "DHW Priority ON ON | OFF ON: Water heating is activated, the heat demand of the heating system is canceled OFF: Water heating is activated, the heat demand of the heating system is being met simultaneously (only possible if the hot water system is supplied via the tank pump)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Activation",
+      "description": "NO: The actuators revert to their previously stored position so that the system starts up again after the function tests in the same condition as when shut down. YES: The instantaneous operating status (mixer: actuation stroke; pump: stage or speed) of the actuators in the system is saved. All actuators in the system switch to the test mode.",
+      "value_range": "NO | YES",
+      "default_value": "NO",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "8.3 Function test menu",
+          "table_title": "Table 9 Settings in the function test menu",
+          "source_quote": "Activation NO YES NO: The actuators revert to their previously stored position so that the system starts up again after the function tests in the same condition as when shut down. YES: The instantaneous operating status (mixer: actuation stroke; pump: stage or speed) of the actuators in the system is saved. All actuators in the system switch to the test mode."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "System pump",
+      "description": "0: System pump for heating zones with valves not running (switched off). 100: System pump for heating zones with valves running at maximum speed.",
+      "value_range": "0 | 100 (in %)",
+      "default_value": "0 (in %)",
+      "unit": "%",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "8.3 Function test menu",
+          "table_title": "Table 9 Settings in the function test menu",
+          "source_quote": "System pump 0 (in %) 0|100 (in %) 0: System pump for heating zones with valves not running (switched off). 100: System pump for heating zones with valves running at maximum speed."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "HC Pump",
+      "description": "0: Heating pumps not running/zones valves closed (off). 100: Heating pumps running/zones valves open (on).",
+      "value_range": "0 | 100 (in %)",
+      "default_value": "0 (in %)",
+      "unit": "%",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "8.3 Function test menu",
+          "table_title": "Table 9 Settings in the function test menu",
+          "source_quote": "HC Pump 0 (in %) 0|100 (in %) 0: Heating pumps not running/zones valves closed (off). 100: Heating pumps running/zones valves open (on)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Maint.message",
+      "description": "Maint.message is not available for heating zone 1. No service display appears on the user interface. A service display appears on the screen of the user interface on the set date (→ Maint. date).",
+      "value_range": "ON | OFF",
+      "default_value": "OFF",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "8.5 Maintenance menu",
+          "table_title": "Table 11 Settings in the maintenance menu",
+          "source_quote": "Maint.message OFF ON | OFF Maint.message is not available for heating zone 1. No service display appears on the user interface. A service display appears on the screen of the user interface on the set date (→ Maint. date)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Maint. date",
+      "description": "Date for next heating system maintenance. (only for heating zone 1)",
+      "value_range": "01/01/2012 - 12/31/2099",
+      "default_value": null,
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "8.5 Maintenance menu",
+          "table_title": "Table 11 Settings in the maintenance menu",
+          "source_quote": "Maint. date 01/01/2012 - 12/31/2099 Date for next heating system maintenance. (only for heating zone 1)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Reset Maint.",
+      "description": "Reset Maint. is not available for heating zone 1. The service display is not reset. The service display is reset.",
+      "value_range": "NO | YES",
+      "default_value": "NO",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "8.5 Maintenance menu",
+          "table_title": "Table 11 Settings in the maintenance menu",
+          "source_quote": "Reset Maint. NO NO | YES Reset Maint. is not available for heating zone 1. The service display is not reset. The service display is reset."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Clear Fault",
+      "description": "The fault history is retained. The fault history is deleted.",
+      "value_range": "ON | OFF",
+      "default_value": "NO",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "8.5 Maintenance menu",
+          "table_title": "Table 11 Settings in the maintenance menu",
+          "source_quote": "Clear Fault NO ON | OFF The fault history is retained. The fault history is deleted."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "status_codes": [
+    {
+      "code": "Current Fault",
+      "meaning": "All current faults are displayed, arranged in order of fault severity: the fault date appears in the text line, the fault code and sub-code flash alternately in the value display.",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "8.5 Maintenance menu",
+          "table_title": "Table 11 Settings in the maintenance menu",
+          "source_quote": "Current Fault e. g. 09/29/2014 A11/802 All current faults are displayed, arranged in order of fault severity: the fault date appears in the text line, the fault code and sub-code flash alternately in the value display."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Fault History",
+      "meaning": "The last 20 faults are displayed, arranged in order of the time of occurrence. The fault date appears in the text line, the fault code and sub-code flash alternately in the value display.",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "8.5 Maintenance menu",
+          "table_title": "Table 11 Settings in the maintenance menu",
+          "source_quote": "Fault History e. g. 07/31/2014 A02/816 The last 20 faults are displayed, arranged in order of the time of occurrence. The fault date appears in the text line, the fault code and sub-code flash alternately in the value display."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Outdoor Temp.",
+      "meaning": "The currently measured outdoor temperature is available only if an outdoor temperature sensor is installed.",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "8.4 Info menu",
+          "table_title": "Table 10 Info menu",
+          "source_quote": "Outdoor Temp. - 40...122 °F (-40...50 °C) The currently measured outdoor temperature is available only if an outdoor temperature sensor is installed."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Appl. oper.",
+      "meaning": "Burner operating",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "8.4 Info menu",
+          "table_title": "Table 10 Info menu",
+          "source_quote": "Appl. oper. ON Burner operating"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Appl. oper.",
+      "meaning": "Burner not operating",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "8.4 Info menu",
+          "table_title": "Table 10 Info menu",
+          "source_quote": "Appl. oper. OFF Burner not operating"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Appl.set sply",
+      "meaning": "Supply temperature required at the heat source (set temperature)",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "8.4 Info menu",
+          "table_title": "Table 10 Info menu",
+          "source_quote": "Appl.set sply 68...194 °F (20...90 °C) Supply temperature required at the heat source (set temperature)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Appl.act.sply",
+      "meaning": "Supply temperature measured at the heat source (actual temperature)",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "8.4 Info menu",
+          "table_title": "Table 10 Info menu",
+          "source_quote": "Appl.act.sply 68...194 °F (20...90 °C) Supply temperature measured at the heat source (actual temperature)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Appl.max.sply",
+      "meaning": "Maximum supply temperature set at the heat source",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "8.4 Info menu",
+          "table_title": "Table 10 Info menu",
+          "source_quote": "Appl.max.sply 95...194 °F (35...90 °C) Maximum supply temperature set at the heat source"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "LLH Temp.",
+      "meaning": "Current hot water temperature in the low-loss header",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "8.4 Info menu",
+          "table_title": "Table 10 Info menu",
+          "source_quote": "LLH Temp. 68...194 °F (20...90 °C) Current hot water temperature in the low-loss header"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "HC Operation",
+      "meaning": "Current operating mode of assigned heating zone",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "8.4 Info menu",
+          "table_title": "Table 10 Info menu",
+          "source_quote": "HC Operation OFF Heating Current operating mode of assigned heating zone, → User interface operating instructions Setback Summer Manual"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "HC set.sply",
+      "meaning": "Required supply temperature in assigned heating zone",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "8.4 Info menu",
+          "table_title": "Table 10 Info menu",
+          "source_quote": "HC set.sply 68...194 °F (20...90 °C) Required supply temperature in assigned heating zone"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "HC act. sply.",
+      "meaning": "Measured supply temperature in heating system",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "8.4 Info menu",
+          "table_title": "Table 10 Info menu",
+          "source_quote": "HC act. sply. 68...194 °F (20...90 °C) Measured supply temperature in heating system"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Set Room Temp",
+      "meaning": "Heating switched off, e. g. in the summer",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "8.4 Info menu",
+          "table_title": "Table 10 Info menu",
+          "source_quote": "Set Room Temp OFF Heating switched off, e. g. in the summer"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Room Temp.",
+      "meaning": "Desired room temperature",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "8.4 Info menu",
+          "table_title": "Table 10 Info menu",
+          "source_quote": "Room Temp. 41...86 °F (5.0...30.0°C) Desired room temperature"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Room Temp.",
+      "meaning": "Measured room temperature",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "8.4 Info menu",
+          "table_title": "Table 10 Info menu",
+          "source_quote": "Room Temp. 41...86 °F (5.0...30.0°C) Measured room temperature"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "DHW Operation",
+      "meaning": "Water heating active",
+      "operating_mode": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "8.4 Info menu",
+          "table_title": "Table 10 Info menu",
+          "source_quote": "DHW Operation ON Water heating active"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "DHW Operation",
+      "meaning": "Water heating not active",
+      "operating_mode": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "8.4 Info menu",
+          "table_title": "Table 10 Info menu",
+          "source_quote": "DHW Operation OFF Water heating not active"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Set DHW Temp",
+      "meaning": "Desired hot water temperature",
+      "operating_mode": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "8.4 Info menu",
+          "table_title": "Table 10 Info menu",
+          "source_quote": "Set DHW Temp 59...176 °F (15...80 °C) Desired hot water temperature"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "DHW Temp.",
+      "meaning": "Measured hot water temperature",
+      "operating_mode": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "8.4 Info menu",
+          "table_title": "Table 10 Info menu",
+          "source_quote": "DHW Temp. 59...176 °F (15...80 °C) Measured hot water temperature"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Install.date",
+      "meaning": "The date of the first confirmed configuration is recorded automatically.",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "8.6 System info menu",
+          "table_title": "Table 12 System info",
+          "source_quote": "Install.date 09/14/2014 The date of the first confirmed configuration is recorded automatically."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Control unit",
+      "meaning": "Designation of the heat source controls",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "8.6 System info menu",
+          "table_title": "Table 12 System info",
+          "source_quote": "Control unit XXX.X Designation of the heat source controls"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Control SW",
+      "meaning": "Software version of the heat source controls",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "8.6 System info menu",
+          "table_title": "Table 12 System info",
+          "source_quote": "Control SW 1.xx 2.xx Software version of the heat source controls"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "SW controller",
+      "meaning": "User interface software version",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "8.6 System info menu",
+          "table_title": "Table 12 System info",
+          "source_quote": "SW controller NFxx.xx User interface software version"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "HC Module SW",
+      "meaning": "CZM100 software version",
+      "operating_mode": null,
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "8.6 System info menu",
+          "table_title": "Table 12 System info",
+          "source_quote": "HC Module SW NFxx.xx CZM100 software version 1)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "safety_warnings": [
+    {
+      "warning_type": "danger",
+      "topic": "General Hazard",
+      "text": "DANGER indicates a hazardous situation which, if not avoided, will result in death or serious injury.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "1.1 Guideline to symbols",
+          "table_title": null,
+          "source_quote": "DANGER indicates a hazardous situation which, if not avoided, will result in death or serious injury."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "General Hazard",
+      "text": "WARNING indicates a hazardous situation which, if not avoided, could result in death or serious injury.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "1.1 Guideline to symbols",
+          "table_title": null,
+          "source_quote": "WARNING indicates a hazardous situation which, if not avoided, could result in death or serious injury."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "General Hazard",
+      "text": "CAUTION indicates a hazardous situation which, if not avoided, could result in minor to moderate injury.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "1.1 Guideline to symbols",
+          "table_title": null,
+          "source_quote": "CAUTION indicates a hazardous situation which, if not avoided, could result in minor to moderate injury."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Practices not related to personal injury",
+      "text": "NOTICE is used to address practices not related to personal injury.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "1.1 Guideline to symbols",
+          "table_title": null,
+          "source_quote": "NOTICE is used to address practices not related to personal injury."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Competent Persons",
+      "text": "These installation instructions are intended for competent persons who are skilled in dealing with water installations, heating and electrical systems.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "1.2 Safety instructions",
+          "table_title": null,
+          "source_quote": "These installation instructions are intended for competent persons who are skilled in dealing with water installations, heating and electrical systems."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Installation",
+      "text": "Read the installation instructions (heat sources, modules, etc.) before starting the installation.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "1.2 Safety instructions",
+          "table_title": null,
+          "source_quote": "Read the installation instructions (heat sources, modules, etc.) before starting the installation."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Safety",
+      "text": "Observe safety instructions and warnings.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "1.2 Safety instructions",
+          "table_title": null,
+          "source_quote": "Observe safety instructions and warnings."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Regulations",
+      "text": "Observe national and regional regulations, technical rules and guidelines.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "1.2 Safety instructions",
+          "table_title": null,
+          "source_quote": "Observe national and regional regulations, technical rules and guidelines."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Documentation",
+      "text": "Document all work performed.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "1.2 Safety instructions",
+          "table_title": null,
+          "source_quote": "Document all work performed."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Designated use",
+      "text": "Use the product only to control heating systems in single- or multi-family dwellings. Any other use is considered improper. Any resulting damage is excluded from the manufacturer's warranty.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "1.2 Safety instructions",
+          "table_title": null,
+          "source_quote": "Use the product only to control heating systems in single- or multi-family dwellings. Any other use is considered improper. Any resulting damage is excluded from the manufacturer's warranty."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Installation, commissioning and maintenance",
+      "text": "Installation, commissioning and maintenance may be performed only by a licensed contractor.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "1.2 Safety instructions",
+          "table_title": null,
+          "source_quote": "Installation, commissioning and maintenance Installation, commissioning and maintenance may be performed only by a licensed contractor."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Installation location",
+      "text": "Never install the product in wet areas.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "1.2 Safety instructions",
+          "table_title": null,
+          "source_quote": "Never install the product in wet areas."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Spare parts",
+      "text": "Install only genuine spare parts.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "1.2 Safety instructions",
+          "table_title": null,
+          "source_quote": "Install only genuine spare parts."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Electrical work",
+      "text": "Electrical work may be carried out only by qualified electricians. Before starting electrical work: Isolate all poles and secure against unintentional reconnection. Ensure the system has been disconnected from the power supply. Never connect the product to line voltage. Also observe the connection diagrams for other system components.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "1.2 Safety instructions",
+          "table_title": null,
+          "source_quote": "Electrical work Electrical work may be carried out only by qualified electricians. Before starting electrical work: Isolate all poles and secure against unintentional reconnection. Ensure the system has been disconnected from the power supply. Never connect the product to line voltage. Also observe the connection diagrams for other system components."
+        },
+        {
+          "page_number": 4,
+          "section_title": "4 | Product Description",
+          "table_title": null,
+          "source_quote": "Isolate all poles and secure against unintentional reconnection. Ensure the system has been disconnected from the power supply. Never connect the product to line voltage. Also observe the connection diagrams for other system components."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Handing over to the operator",
+      "text": "Installing contractor - Please train the end user in proper use of this product. Explain operation – especially all safety-related actions. Point out that conversion or repair may be carried out only by a licensed contractor. Provide a copy of these installation and operating instructions to the end user for future reference.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "4 | Product Description",
+          "table_title": null,
+          "source_quote": "Handing over to the operator Installing contractor - Please train the end user in proper use of this product. Explain operation – especially all safety-related actions. Point out that conversion or repair may be carried out only by a licensed contractor. Provide a copy of these installation and operating instructions to the end user for future reference."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Risk of damage from frost",
+      "text": "The system can freeze if it is switched off: Observe the instructions for frost protection. Always leave the system switched on for additional functions, e. g. water heating or anti-seize protection. Immediately correct any faults that occur.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "4 | Product Description",
+          "table_title": null,
+          "source_quote": "Risk of damage from frost The system can freeze if it is switched off: Observe the instructions for frost protection. Always leave the system switched on for additional functions, e. g. water heating or anti-seize protection. Immediately correct any faults that occur."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Risk of scalding",
+      "text": "If hot water temperatures are set above 140 °F (60 °C) or thermal disinfection is switched on, a mixer must be installed.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.2 Important instructions for use",
+          "table_title": null,
+          "source_quote": "WARNING: Risk of scalding! If hot water temperatures are set above 140 °F (60 °C) or thermal disinfection is switched on, a mixer must be installed."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Risk of damage to the floor",
+      "text": "Radiant floor heating must be installed only as a heating zone with mixer and an additional temperature switch to protect the floor from overheating, by delivering too hot supply water.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.2 Important instructions for use",
+          "table_title": null,
+          "source_quote": "NOTICE: Risk of damage to the floor! Radiant floor heating must be installed only as a heating zone with mixer and an additional temperature switch to protect the floor from overheating, by delivering too hot supply water."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Risk of electric shock",
+      "text": "Before installing this product: Disconnect the heat source and all other BUS users from the line voltage across all poles.",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "3 Installation",
+          "table_title": null,
+          "source_quote": "DANGER: Risk of electric shock! Before installing this product: Disconnect the heat source and all other BUS users from the line voltage across all poles."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Risk of damaging or destroying the screed",
+      "text": "If radiant floor heating (Low Temp.) is installed, observe the maximum supply temperature recommended by the manufacturer.",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "8.2 Heating zone menu",
+          "table_title": null,
+          "source_quote": "NOTICE: Risk of damaging or destroying the screed! If radiant floor heating (Low Temp.) is installed, observe the maximum supply temperature recommended by the manufacturer."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Risk of destroying hot water-conducting system components",
+      "text": "Risk of destroying hot water-conducting system components if the threshold temperature for frost is set too low and room temperatures are below 32 °F (0°C)! Only contractors are permitted to adjust the factory setting of the frost threshold temperature (41 °F / 5 °C) for the system. Do not set the threshold temperature too low. Damage resulting from a frost threshold temperature set too low is not covered under warranty! Assured frost protection of the system is not possible without an outdoor temperature sensor.",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "Threshold temperature for frost (frost protection limit temperature)",
+          "table_title": null,
+          "source_quote": "NOTICE: Risk of destroying hot water-conducting system components if the threshold temperature for frost is set too low and room temperatures are below 32 °F (0°C)! Only contractors are permitted to adjust the factory setting of the frost threshold temperature (41 °F / 5 °C) for the system. Do not set the threshold temperature too low. Damage resulting from a frost threshold temperature set too low is not covered under warranty! Assured frost protection of the system is not possible without an outdoor temperature sensor."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Risk of scalding during function test",
+      "text": "Risk of scalding if tank temperature limiter is deactivated during the function test! Close all DHW taps. Inform occupants of the premises of the risk of scalding.",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "8.3 Function test menu",
+          "table_title": null,
+          "source_quote": "CAUTION: Risk of scalding if tank temperature limiter is deactivated during the function test! Close all DHW taps. Inform occupants of the premises of the risk of scalding."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "maintenance_tasks": [
+    {
+      "task_name": "Heating system maintenance",
+      "description": "Date for next heating system maintenance.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "8.5 Maintenance menu",
+          "table_title": "Table 11 Settings in the maintenance menu",
+          "source_quote": "Maint. date 01/01/2012 - 12/31/2099 Date for next heating system maintenance. (only for heating zone 1)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Reset Maintenance",
+      "description": "Resets the service display.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "8.5 Maintenance menu",
+          "table_title": "Table 11 Settings in the maintenance menu",
+          "source_quote": "Reset Maint. NO NO | YES Reset Maint. is not available for heating zone 1. The service display is not reset. The service display is reset."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Clear Fault History",
+      "description": "Deletes the fault history.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "8.5 Maintenance menu",
+          "table_title": "Table 11 Settings in the maintenance menu",
+          "source_quote": "Clear Fault NO ON | OFF The fault history is retained. The fault history is deleted."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "search_terms": [
+    "CRC200",
+    "Comfort Room Controller",
+    "Installation",
+    "Troubleshooting",
+    "Fault codes",
+    "Technical data",
+    "Safety instructions",
+    "Maintenance",
+    "Service menu",
+    "Diagnostic codes",
+    "Status codes",
+    "Heating system",
+    "BUS connection",
+    "Outdoor temperature sensor",
+    "Room temperature sensor",
+    "DHW",
+    "Pump",
+    "Control type",
+    "Heating curve",
+    "Frost protection"
+  ],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.95,
+    "review_required": false,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": []
+  }
+}

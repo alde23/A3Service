@@ -1,0 +1,1961 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Baxi",
+    "product_family": "100 HE",
+    "model_names": [
+      "Baxi 100 HE"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "Baxi 100 HE Wall Mounted Powered Flue Condensing Boiler Gas Fired Central Heating Unit Installation and Servicing Instructions",
+    "document_code": "5106739 - Iss 4",
+    "publication_date": "9/02",
+    "language": "en",
+    "region": "GB/IE",
+    "source_file": "baxi_baxi-100he_boiler-manual_100he.pdf",
+    "file_hash": "0b53f87e2ec1967ec0a2f0b022a07a185a3dcaed881b65fdc6e7df548443946d"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Appliance Type",
+      "value": "C13",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Appliance Type C13 C33"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Appliance Type",
+      "value": "C33",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Appliance Type C13 C33"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Appliance Category",
+      "value": "CAT I 2H",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Appliance Category CAT I 2H"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Input (Max)",
+      "value": "33.76",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Input Max Min (see note) kW 33.76 10.2 Btu/h 115,200 34,840"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Input (Max)",
+      "value": "115,200",
+      "unit": "Btu/h",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Input Max Min (see note) kW 33.76 10.2 Btu/h 115,200 34,840"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Input (Min)",
+      "value": "10.2",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Input Max Min (see note) kW 33.76 10.2 Btu/h 115,200 34,840"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Input (Min)",
+      "value": "34,840",
+      "unit": "Btu/h",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Input Max Min (see note) kW 33.76 10.2 Btu/h 115,200 34,840"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output (Non Condensing 70° C Mean Water Temp) (Max)",
+      "value": "30.18",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Output (Non Condensing 70° C Mean Water Temp) Max Min kW 30.18 9.14 Btu/h 102,980 31,180"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output (Non Condensing 70° C Mean Water Temp) (Max)",
+      "value": "102,980",
+      "unit": "Btu/h",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Output (Non Condensing 70° C Mean Water Temp) Max Min kW 30.18 9.14 Btu/h 102,980 31,180"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output (Non Condensing 70° C Mean Water Temp) (Min)",
+      "value": "9.14",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Output (Non Condensing 70° C Mean Water Temp) Max Min kW 30.18 9.14 Btu/h 102,980 31,180"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output (Non Condensing 70° C Mean Water Temp) (Min)",
+      "value": "31,180",
+      "unit": "Btu/h",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Output (Non Condensing 70° C Mean Water Temp) Max Min kW 30.18 9.14 Btu/h 102,980 31,180"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output (Condensing 40° C Mean Water Temp) (Max)",
+      "value": "32.61",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Output (Condensing 40° C Mean Water Temp) Max Min kW 32.61 10.1 Btu/h 111,280 34,520"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output (Condensing 40° C Mean Water Temp) (Max)",
+      "value": "111,280",
+      "unit": "Btu/h",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Output (Condensing 40° C Mean Water Temp) Max Min kW 32.61 10.1 Btu/h 111,280 34,520"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output (Condensing 40° C Mean Water Temp) (Min)",
+      "value": "10.1",
+      "unit": "kW",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Output (Condensing 40° C Mean Water Temp) Max Min kW 32.61 10.1 Btu/h 111,280 34,520"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat Output (Condensing 40° C Mean Water Temp) (Min)",
+      "value": "34,520",
+      "unit": "Btu/h",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Heat Output (Condensing 40° C Mean Water Temp) Max Min kW 32.61 10.1 Btu/h 111,280 34,520"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Nox Class",
+      "value": "5",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Nox Class 5"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Horizontal Flue Terminal Diameter",
+      "value": "110",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Horizontal Flue Terminal Dimensions Diameter 110mm"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Horizontal Flue Terminal Projection",
+      "value": "150",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Horizontal Flue Terminal Dimensions Projection 150mm"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas Supply Connection",
+      "value": "1/2 in BSPT",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Connections Gas Supply 1/2 in BSPT"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Central Heating Flow Connection",
+      "value": "28",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Central Heating Flow 28mm"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Central Heating Return Connection",
+      "value": "28",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Central Heating Return 28mm"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate Drain Connection",
+      "value": "1 in BSP",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "drainage",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Condensate Drain 1 in BSP"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Overall Height Inc Flue Elbow",
+      "value": "750",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Outercase Dimensions Overall Height Inc Flue Elbow 750mm"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Casing Height",
+      "value": "600",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Casing Height 600mm"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Casing Width",
+      "value": "390",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Casing Width 390mm"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Casing Depth",
+      "value": "320",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Casing Depth 320mm"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Both Sides",
+      "value": "5",
+      "unit": "mm Min",
+      "applies_to_models": [],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Clearances (For unventilated compartments see Section 7.5) Both Sides 5mm Min"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Above Casing",
+      "value": "200",
+      "unit": "mm Min",
+      "applies_to_models": [],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Above Casing 200mm Min"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Below Casing",
+      "value": "50",
+      "unit": "mm Min",
+      "applies_to_models": [],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Below Casing 50mm Min"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Front (For Servicing)",
+      "value": "500",
+      "unit": "mm Min",
+      "applies_to_models": [],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Front (For Servicing) 500mm Min"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance Front (In Operation)",
+      "value": "5",
+      "unit": "mm Min",
+      "applies_to_models": [],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Front (In Operation) 5mm Min"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Gas Rate (Natural Gas) (After 10 Mins)",
+      "value": "102,980",
+      "unit": "Btu/hr",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Max Gas Rate (Natural Gas) (After 10 Mins) Btu/hr 102,980 75,000"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Gas Rate (Natural Gas) (After 10 Mins)",
+      "value": "75,000",
+      "unit": "Btu/hr",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Max Gas Rate (Natural Gas) (After 10 Mins) Btu/hr 102,980 75,000"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Gas Rate (Natural Gas) (After 10 Mins)",
+      "value": "2.95",
+      "unit": "m³/h",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "m³/h 2.95 2.31"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Gas Rate (Natural Gas) (After 10 Mins)",
+      "value": "2.31",
+      "unit": "m³/h",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "m³/h 2.95 2.31"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Gas Rate (Natural Gas) (After 10 Mins)",
+      "value": "104.2",
+      "unit": "ft³/h",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "ft³/h 104.2 81.6"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Gas Rate (Natural Gas) (After 10 Mins)",
+      "value": "81.6",
+      "unit": "ft³/h",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "ft³/h 104.2 81.6"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Inlet Pressure at Gas Valve (Natural Gas) (Min)",
+      "value": "18.1",
+      "unit": "mbar",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Inlet Pressure at Gas Valve (Natural Gas) Min 18.1 mbar"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Inlet Pressure at Gas Valve (Natural Gas) (Max)",
+      "value": "22.5",
+      "unit": "mbar",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Max 22.5 mbar"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Injector (Natural Gas) Diameter",
+      "value": "6.3",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Injector (Natural Gas) 6.3mm Diameter"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Recommended System Temperature Drop (Normal)",
+      "value": "11",
+      "unit": "°C",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Recommended System Temperature Drop Normal 11°C 20°F"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Recommended System Temperature Drop (Normal)",
+      "value": "20",
+      "unit": "°F",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Recommended System Temperature Drop Normal 11°C 20°F"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Recommended System Temperature Drop (Condensing)",
+      "value": "20",
+      "unit": "°C",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Condensing 20°C 36°F"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Recommended System Temperature Drop (Condensing)",
+      "value": "36",
+      "unit": "°F",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Condensing 20°C 36°F"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical Supply",
+      "value": "230V~50Hz",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Electrical Supply 230V~50Hz (Appliance must be connected to an earthed supply)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Power Consumption",
+      "value": "80",
+      "unit": "W",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Power Consumption 80W"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "External Fuse Rating",
+      "value": "3",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "External Fuse Rating 3A"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Internal Fuse Rating (Control Board)",
+      "value": "4 AT",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Internal Fuse Rating (BS 4265) Fuse (2) 4 AT (Control Board)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Internal Fuse Rating (Ignition Board)",
+      "value": "2 AT",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Fuse (3) 2 AT (Ignition Board)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Water Content",
+      "value": "2.6",
+      "unit": "litres",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Water Content litres 2.6"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Water Content",
+      "value": "4.6",
+      "unit": "pints",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "pints 4.6"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Static Head (max)",
+      "value": "30 metres (100 ft)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Static Head max 30 metres (100 ft)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Static Head (min)",
+      "value": "1 metre (3.25 ft)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "min 1 metre (3.25 ft)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Low Head",
+      "value": "0.2m (8 in)",
+      "unit": "min",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Low Head 0.2m (8 in) min"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "System Detail",
+      "value": "fully pumped open vented & sealed systems",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "System Detail fully pumped open vented & sealed systems"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas Connection",
+      "value": "RC1/2 (1/2 in BSPT)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Gas Connection RC1/2 (1/2 in BSPT)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "Controls",
+      "value": "boiler thermostat, safety thermostat, flow switch, electronic flame sensing, temperature protection thermostat & condensate blockage sensor",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "controls",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": null,
+          "source_quote": "Controls boiler thermostat, safety thermostat, flow switch, electronic flame sensing, temperature protection thermostat & condensate blockage sensor"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "parameter": "SEDBUK Declaration For 100 HE Efficiency",
+      "value": "90.9%",
+      "unit": null,
+      "applies_to_models": [
+        "Baxi 100 HE"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "4.0 Technical Data",
+          "table_title": "SEDBUK Declaration For 100 HE",
+          "source_quote": "SEDBUK Declaration For 100 HE The efficiency is 90.9%"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "Mains LED Off",
+      "description": "The Mains LED is off, indicating no power or a fault in the electrical supply or control system.",
+      "possible_causes": [
+        "Boiler supply fuse is not OK.",
+        "No 230 V at mains input terminal block (A).",
+        "Wiring from mains input terminal block to control PCB is faulty.",
+        "No 230 V at control PCB transformer mains connection (C).",
+        "Control PCB fuse F2 is not OK.",
+        "Short circuits on control PCB and fan.",
+        "Wiring from control PCB to interface PCB is not OK (E).",
+        "Boiler does not produce heat."
+      ],
+      "manufacturer_steps": [
+        "Replace with 3A fuse.",
+        "Rectify wiring from mains input terminal block to control PCB.",
+        "Replace control PCB.",
+        "Check for short circuits on control PCB and fan. If OK replace fuse.",
+        "Rectify wiring from control PCB to interface PCB.",
+        "Replace interface PCB."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Mains LED is off."
+      ],
+      "related_components": [
+        "Boiler supply fuse",
+        "Mains input terminal block",
+        "Control PCB",
+        "Transformer",
+        "Interface PCB",
+        "Fan"
+      ],
+      "severity": "high",
+      "safety_level": "warning",
+      "search_tags": [
+        "power",
+        "electrical",
+        "fuse",
+        "PCB",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "14.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Go to MAINS LED OFF section of the fault finding instructions."
+        },
+        {
+          "page_number": 37,
+          "section_title": "Mains LED Off",
+          "table_title": null,
+          "source_quote": "Is boiler supply fuse OK? Replace with 3A fuse. Is there 230 V at mains input terminal block (A)? No mains supply to boiler. Is there 230 V at mains input connection to control PCB (B)? Wiring from mains input terminal block to control PCB faulty. Replace control PCB. Is there 230 V at control PCB transformer mains connection (C)? Replace control PCB. Is control PCB fuse F2 OK? Check for short circuits on control PCB and fan. If OK replace fuse. Is wiring from control PCB to interface PCB OK (E)? Rectify wiring. Does boiler produce heat? Replace control PCB. Replace interface PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "Mains LED Flashing",
+      "description": "The Mains LED is flashing, indicating a fault related to the control knob, wiring, or heat production.",
+      "possible_causes": [
+        "Control knob is not on.",
+        "Wiring from control PCB to interface PCB is not OK (F).",
+        "Boiler does not produce heat."
+      ],
+      "manufacturer_steps": [
+        "Switch on control knob.",
+        "Rectify wiring from control PCB to interface PCB.",
+        "Replace control PCB.",
+        "Replace interface PCB."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Mains LED is flashing."
+      ],
+      "related_components": [
+        "Control knob",
+        "Control PCB",
+        "Interface PCB"
+      ],
+      "severity": "medium",
+      "safety_level": "unknown",
+      "search_tags": [
+        "LED",
+        "control",
+        "wiring",
+        "heat"
+      ],
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "14.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Go to MAINS LED FLASHING section of the fault finding instructions."
+        },
+        {
+          "page_number": 38,
+          "section_title": "Mains LED Flashing",
+          "table_title": null,
+          "source_quote": "Is control knob on? Switch on. Is wiring from control PCB to interface PCB OK (F)? Rectify wiring. Does boiler produce heat? Replace control PCB. Replace interface PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "Dry-fire Lockout",
+      "description": "Dry-fire lockout, indicated by the Lockout LED flashing 5 times a second, suggesting a lack of water or an issue with the flow switch.",
+      "possible_causes": [
+        "No water in the system or pump is not on.",
+        "Flow switch short circuit (G).",
+        "Flow switch is blocked."
+      ],
+      "manufacturer_steps": [
+        "Fill system and switch pump on.",
+        "Replace control PCB.",
+        "Replace flow switch."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Lockout LED flashing 5 times a second."
+      ],
+      "related_components": [
+        "Pump",
+        "Flow switch",
+        "Control PCB"
+      ],
+      "severity": "high",
+      "safety_level": "warning",
+      "search_tags": [
+        "lockout",
+        "dry-fire",
+        "water",
+        "pump",
+        "flow switch"
+      ],
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "14.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lockout LED flashing 5 times a second? YES Go to DRY-FIRE LOCKOUT section of the fault finding instructions."
+        },
+        {
+          "page_number": 39,
+          "section_title": "Dry-fire Lockout",
+          "table_title": null,
+          "source_quote": "Is there water in system and pump on? Fill system and switch pump on. Is flow switch short circuit (G)? Replace control PCB. Is flow switch blocked? Replace flow switch. Replace control PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "Safety Lockout",
+      "description": "Safety lockout, indicated by the Lockout LED flashing once a second, related to temperature sensors or combustion box seal.",
+      "possible_causes": [
+        "Safety thermostat open circuit (flow temp < 60°C).",
+        "Fan protection stat open circuit (fan ambient temp < 90°C).",
+        "Wiring from control PCB to safety or fan protection thermostats faulty (H).",
+        "Flow temperature thermistor resistance is not between 0.5kΩ and 20kΩ.",
+        "Combustion box door seal is damaged or not in place."
+      ],
+      "manufacturer_steps": [
+        "Replace safety thermostat (black).",
+        "Replace fan protection stat.",
+        "Rectify wiring from control PCB to safety or fan protection thermostats.",
+        "Replace flow temperature thermistor (red).",
+        "Replace combustion box door seal.",
+        "Replace control PCB."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Lockout LED flashing once a second."
+      ],
+      "related_components": [
+        "Safety thermostat",
+        "Fan protection thermostat",
+        "Control PCB",
+        "Flow temperature thermistor",
+        "Combustion box door seal"
+      ],
+      "severity": "critical",
+      "safety_level": "danger",
+      "search_tags": [
+        "lockout",
+        "safety",
+        "thermostat",
+        "sensor",
+        "temperature",
+        "fan",
+        "seal"
+      ],
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "14.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lockout LED flashing once a second? YES Go to SAFETY LOCKOUT section of the fault finding instructions."
+        },
+        {
+          "page_number": 40,
+          "section_title": "Safety Lockout",
+          "table_title": null,
+          "source_quote": "When flow temp < 60°C. Safety thermostat open circuit? (measured at safety thermostat) Replace safety thermostat (black). When fan ambient temp < 90°C. Fan protection stat open circuit? (measured at fan protection thermostat) Replace fan protection stat. Are control PCB safety thermostat connections open circuit? (H) Wiring from control PCB to safety or fan protection thermostats faulty. Is flow temperature thermistor resistance between 0.5kΩ and 20kΩ? (measured at flow temperature thermistor) Replace flow temperature thermistor (red). Is combustion box door seal damaged or not in place? Replace combustion box door seal. Replace control PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "Thermistor Open Circuit",
+      "description": "Thermistor open circuit, indicated by the Lockout LED flashing once every 4 seconds.",
+      "possible_causes": [
+        "Open circuit across thermistor connections.",
+        "Open circuit across thermistor connections on control PCB."
+      ],
+      "manufacturer_steps": [
+        "Replace thermistor.",
+        "Rectify wiring from thermistor to logic PCB.",
+        "Replace control PCB."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Lockout LED flashing once every 4 seconds."
+      ],
+      "related_components": [
+        "Thermistor",
+        "Control PCB"
+      ],
+      "severity": "medium",
+      "safety_level": "unknown",
+      "search_tags": [
+        "thermistor",
+        "open circuit",
+        "sensor",
+        "temperature",
+        "wiring",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "14.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lockout LED flashing once every 4 seconds? YES Go to THERMISTOR OPEN CIRCUIT section of the fault finding instructions."
+        },
+        {
+          "page_number": 40,
+          "section_title": "Thermistor Open Circuit",
+          "table_title": null,
+          "source_quote": "Open circuit across thermistor connections? Replace thermistor. Open circuit across thermistor connections on control PCB? Wiring from thermistor to logic PCB faulty. Replace control PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "Ignition Lockout",
+      "description": "Ignition lockout, indicated by the Lockout LED continuously on, suggesting issues with gas supply, ignition components, or condensate drainage.",
+      "possible_causes": [
+        "Polarity of the mains input to the boiler is reversed.",
+        "Incorrect gas supply to boiler (less than 18.1 mb dynamic at gas valve inlet).",
+        "Condensate trap is blocked.",
+        "Fan does not run after lockout reset.",
+        "No spark and no gas.",
+        "No 230V at control PCB connection to ignition PCB (M).",
+        "Wiring from control PCB to ignition PCB faulty.",
+        "Gas but no spark.",
+        "Spark probe is damaged.",
+        "Wiring from ignition PCB to spark probe not OK.",
+        "Spark but no gas.",
+        "No 230V at ignition PCB connection to gas valve (O).",
+        "Sensing tube is blocked.",
+        "Detection probe is damaged.",
+        "Wiring from ignition PCB to detection probe not OK."
+      ],
+      "manufacturer_steps": [
+        "Rectify mains input polarity.",
+        "Clear blockage and dry sensors in condensate trap.",
+        "Check control PCB fan connection 24 Vac across (L).",
+        "Replace control PCB.",
+        "Rectify wiring from control PCB to fan.",
+        "Replace fan.",
+        "Replace control PCB.",
+        "Replace ignition PCB.",
+        "Replace spark probe.",
+        "Rectify wiring from ignition PCB to spark probe.",
+        "Set spark gap to 4mm.",
+        "Unblock sensing tube.",
+        "Replace gas valve.",
+        "Replace detection probe.",
+        "Rectify wiring from ignition PCB to detection probe."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Lockout LED continuously on.",
+        "No spark or no gas."
+      ],
+      "related_components": [
+        "Gas valve",
+        "Condensate trap",
+        "Fan",
+        "Control PCB",
+        "Ignition PCB",
+        "Spark probe",
+        "Sensing tube",
+        "Detection probe"
+      ],
+      "severity": "critical",
+      "safety_level": "danger",
+      "search_tags": [
+        "lockout",
+        "ignition",
+        "gas",
+        "spark",
+        "condensate",
+        "fan",
+        "probe",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "14.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lockout LED continuously on? YES Go to IGNITION LOCKOUT section of the fault finding instructions."
+        },
+        {
+          "page_number": 42,
+          "section_title": "Ignition Lockout",
+          "table_title": null,
+          "source_quote": "Is 230V S/L-N & L-E at mains input terminal block? The polarity of the mains input to the boiler is reversed. This must be rectified. Is there at least 18.1 mb dynamic at gas valve inlet? Incorrect gas supply to boiler. Is condensate trap blocked? Clear blockage and dry sensors. Reset lockout. Does fan run? Is control PCB fan connection 24 Vac across (L)? Replace control PCB. Is there no spark and no gas? (check at meter) Is there 230V at control PCB connection to ignition PCB (M)? Replace control PCB. Is there gas but no spark? Is spark probe damaged? Replace spark probe. Is wiring from ignition PCB to spark probe OK? Rectify wiring. Set spark gap to 4mm. Is there spark but no gas? Is there 230V at ignition PCB connection to gas valve (O)? Replace ignition PCB. Is sensing tube blocked? Unblock Tube. Replace gas valve. Is the detection probe damaged? Replace detection probe. Is wiring from ignition PCB to detection probe OK? Rectify wiring. Replace control PCB."
+        },
+        {
+          "page_number": 43,
+          "section_title": "Ignition Lockout",
+          "table_title": null,
+          "source_quote": "Is fan connection 24Vac across (L)? Replace fan. Wiring from control PCB to fan faulty. Is there 230V at ignition PCB connection to control PCB (N)? Replace ignition PCB. Wiring from control PCB to ignition PCB faulty. Is ignition PCB fuse OK? Check for short circuits on ignition PCB and gas valve. If OK replace fuse. Replace ignition PCB. Is spark gap between 3 and 5mm? Rectify wiring. Is wiring from ignition PCB to spark probe OK? Set spark gap to 4mm. Is sensing tube blocked? Unblock Tube. Replace gas valve. Is there 230Vdc at the end of the gas valve lead? Replace gas valve lead. Is there 230V ignition PCB burner on pin to control PCB (P)? Replace ignition PCB. Is there 230V control PCB burner on pin to ignition PCB (Q)? Replace control PCB. Burner On wiring from ignition PCB to control PCB faulty."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "No Fan",
+      "description": "The fan is not running, potentially due to a thermistor issue or faulty wiring to the control PCB.",
+      "possible_causes": [
+        "Flow temperature thermistor resistance is not between 0.5kΩ and 20kΩ.",
+        "Control PCB sensor connections (I) are not between 0.5kΩ and 20kΩ."
+      ],
+      "manufacturer_steps": [
+        "Replace flow temperature thermistor (red).",
+        "Rectify wiring from control PCB to sensor.",
+        "Replace control PCB."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Fan not running."
+      ],
+      "related_components": [
+        "Fan",
+        "Flow temperature thermistor",
+        "Control PCB"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan",
+        "motor",
+        "thermistor",
+        "sensor",
+        "PCB",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "14.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Fan not running YES Go to NO FAN section of the fault finding instructions."
+        },
+        {
+          "page_number": 41,
+          "section_title": "No Fan",
+          "table_title": null,
+          "source_quote": "Is flow temperature thermistor between 0.5kΩ and 20kΩ? (measured at flow temperature thermistor) Replace flow temperature thermistor (red). Is control PCB sensor connections 0.5kΩ to 20kΩ? (I) Wiring from control PCB to sensor faulty. Replace control PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "No Lockout Reset",
+      "description": "The boiler lockout cannot be reset, indicating persistent issues with temperature, fan, water, or control knob/PCB.",
+      "possible_causes": [
+        "Flow temperature is > 60° C.",
+        "Fan ambient temperature is > 90° C.",
+        "Water is not in the system or pump is not on.",
+        "Control knob switch short circuit when on and open circuit when off (K).",
+        "Control PCB control knob switch pins short circuit when on and open circuit when off (J)."
+      ],
+      "manufacturer_steps": [
+        "Allow flow temperature to drop below 60° C.",
+        "Allow casing temperature to drop below 90° C.",
+        "Fill system and switch pump on.",
+        "Replace interface PCB.",
+        "Rectify wiring from control PCB to interface PCB.",
+        "Replace control PCB."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Lockout will not reset."
+      ],
+      "related_components": [
+        "Flow overheat thermostat",
+        "Fan protection thermostat",
+        "Pump",
+        "Control knob switch",
+        "Interface PCB",
+        "Control PCB"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "lockout",
+        "reset",
+        "temperature",
+        "fan",
+        "water",
+        "pump",
+        "control knob",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "14.0 Fault Finding",
+          "table_title": null,
+          "source_quote": "Lockout will not reset? YES Go to NO LOCKOUT RESET section of the fault finding instructions."
+        },
+        {
+          "page_number": 41,
+          "section_title": "No Lockout Reset",
+          "table_title": null,
+          "source_quote": "Is flow temperature > 60° C? Flow overheat thermostat will not reset until flow temperature < 60° C. Is fan ambient temperature > 90° C? Fan protection thermostat will not reset until casing temperature < 90° C. Is water in system and pump on? Dry-fire lockout cannot be reset until there is water in the system and the pump is on. Control knob switch short circuit when on and open circuit when off? (K) Replace interface PCB. Control PCB control knob switch pins short circuit when on and open circuit when off? (J) Wiring from control PCB to interface PCB faulty. Replace control PCB."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  ],
+  "diagnostic_codes": [],
+  "status_codes": [],
+  "safety_warnings": [
+    {
+      "warning_type": "notice",
+      "topic": "Installation and Ventilation",
+      "text": "This appliance must be installed in accordance with the manufacturer's instructions and the regulations in force, and only used in a suitably ventilated location.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.0 Introduction",
+          "table_title": null,
+          "source_quote": "NOTE: This appliance must be installed in accordance with the manufacturer's instructions and the regulations in force, and only used in a suitably ventilated location."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "System Flushing and Inhibitor",
+      "text": "All systems must be thoroughly flushed and treated with inhibitor (see Section 6.2).",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.0 Introduction",
+          "table_title": null,
+          "source_quote": "All systems must be thoroughly flushed and treated with inhibitor (see Section 6.2)."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Reading Instructions",
+      "text": "Read the instructions fully before installing or using the appliance.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.0 Introduction",
+          "table_title": null,
+          "source_quote": "Read the instructions fully before installing or using the appliance."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Refractory Ceramic Fibres (R.C.F.)",
+      "text": "This product contains Refractory Ceramic Fibres (R.C.F.) which are man-made vitreous silicate fibres. Excessive exposure to these materials may cause temporary irritation to eyes, skin and respiratory tract. Care must be taken when handling these articles to ensure the release of dust or fibres is kept to a minimum.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.2 Important Information",
+          "table_title": null,
+          "source_quote": "This product contains Refractory Ceramic Fibres (R.C.F.) which are man-made vitreous silicate fibres. Excessive exposure to these materials may cause temporary irritation to eyes, skin and respiratory tract. Care must be taken when handling these articles to ensure the release of dust or fibres is kept to a minimum."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "R.C.F. Dust Minimisation",
+      "text": "To ensure that the release of fibres from these articles is kept to a minimum, during installation and servicing it is recommended that a H.E.P.A. filtered vacuum is used to remove any dust, soot or other debris accumulated in and around the appliance. This should be performed before and after working on the installation.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.2 Important Information",
+          "table_title": null,
+          "source_quote": "To ensure that the release of fibres from these articles is kept to a minimum, during installation and servicing it is recommended that a H.E.P.A. filtered vacuum is used to remove any dust, soot or other debris accumulated in and around the appliance. This should be performed before and after working on the installation."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "R.C.F. Waste Disposal",
+      "text": "It is recommended that any replaced item(s) are not broken up but sealed within heavy duty polythene bags and clearly labelled \"R.C.F. waste\". This is not classified as \"hazardous waste\" and may be disposed of at a tipping site licensed for the disposal of industrial waste.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.2 Important Information",
+          "table_title": null,
+          "source_quote": "It is recommended that any replaced item(s) are not broken up but sealed within heavy duty polythene bags and clearly labelled \"R.C.F. waste\". This is not classified as \"hazardous waste\" and may be disposed of at a tipping site licensed for the disposal of industrial waste."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "R.C.F. Handling Hygiene",
+      "text": "Protective clothing is not required when handling these articles but it is recommended that gloves are worn and the normal hygiene rules of not smoking, eating or drinking in the work area are followed and always wash hands before eating or drinking.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.2 Important Information",
+          "table_title": null,
+          "source_quote": "Protective clothing is not required when handling these articles but it is recommended that gloves are worn and the normal hygiene rules of not smoking, eating or drinking in the work area are followed and always wash hands before eating or drinking."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "System Water Treatment",
+      "text": "Failure to flush and add inhibitor to the system will invalidate the appliance warranty.",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "6.2 Treatment of Water Circulating Systems",
+          "table_title": null,
+          "source_quote": "Failure to flush and add inhibitor to the system will invalidate the appliance warranty."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Inhibitor Concentration Check",
+      "text": "It is important to check the inhibitor concentration after installation, system modification and at every service in accordance with the manufacturer's instructions. (Test kits are available from inhibitor stockists.)",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "6.2 Treatment of Water Circulating Systems",
+          "table_title": null,
+          "source_quote": "It is important to check the inhibitor concentration after installation, system modification and at every service in accordance with the manufacturer's instructions. (Test kits are available from inhibitor stockists.)"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Data Plate Compatibility",
+      "text": "Check the information on the data plate is compatible with local supply conditions.",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "7.1 Information",
+          "table_title": null,
+          "source_quote": "WARNING - Check the information on the data plate is compatible with local supply conditions."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Appliance Warranty and Regulations",
+      "text": "The addition of anything that may interfere with the normal operation of the appliance without the express written permission of Baxi UK Limited could invalidate the appliance warranty and infringe the GAS SAFETY (Installation and Use) REGULATIONS.",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "7.2 B.S. Codes of Practice",
+          "table_title": null,
+          "source_quote": "WARNING - The addition of anything that may interfere with the normal operation of the appliance without the express written permission of Baxi UK Limited could invalidate the appliance warranty and infringe the GAS SAFETY (Installation and Use) REGULATIONS."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Condensate Discharge Regulations",
+      "text": "Ensure the discharge of condensate complies with any national or local regulations in force.",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "7.8 Condensate Drain",
+          "table_title": null,
+          "source_quote": "NOTE: Ensure the discharge of condensate complies with any national or local regulations in force."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Ventilation Label",
+      "text": "The ventilation label on the front of the outer case MUST NOT BE REMOVED when the appliance is installed in a compartment or cupboard.",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "7.5 Ventilation of Compartments",
+          "table_title": null,
+          "source_quote": "NOTE: The ventilation label on the front of the outer case MUST NOT BE REMOVED when the appliance is installed in a compartment or cupboard."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Condensate Drainage System Integrity",
+      "text": "To ensure the correct operation and integrity of the condensate drainage system - Carefully pour approximately 1 cupful (250ml) of water into the flue products exhaust, at the top of the heat exchanger (Fig. 25a) to ensure a seal is made in the trap.",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "8.5 Making the Condensate Drain Connection",
+          "table_title": null,
+          "source_quote": "NOTE: To ensure the correct operation and integrity of the condensate drainage system - Carefully pour approximately 1 cupful (250ml) of water into the flue products exhaust, at the top of the heat exchanger (Fig. 25a) to ensure a seal is made in the trap."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Flue Installation",
+      "text": "The flue should always be installed with a 3° (1 in 20) fall from terminal to elbow, to allow condensate to run back to the boiler.",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "8.7 Fitting The Flue",
+          "table_title": null,
+          "source_quote": "IMPORTANT: The flue should always be installed with a 3° (1 in 20) fall from terminal to elbow, to allow condensate to run back to the boiler."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Flue Measurement",
+      "text": "Check all measurements before cutting.",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "8.7 Fitting The Flue",
+          "table_title": null,
+          "source_quote": "IMPORTANT: Check all measurements before cutting."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electrical Earthing",
+      "text": "This appliance must be earthed.",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "8.8 Making The Electrical Connections",
+          "table_title": null,
+          "source_quote": "WARNING: This appliance must be earthed"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "System Water Treatment for Aluminium Heat Exchanger",
+      "text": "This boiler is fitted with an aluminium alloy heat exchanger. It is important that the system is thoroughly flushed in accordance with BS 7593 and that one of the following inhibitors is used: BETZ DEARBORN SENTINEL X100 FERNOX COPAL. Refer to inhibitor manufacturer's instructions for correct use. Failure to comply with this requirement will invalidate the appliance warranty. It is also important to check the inhibitor concentration after installation, system modification and at every service.",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "11.1 Fitting The Outer Case",
+          "table_title": null,
+          "source_quote": "IMPORTANT: This boiler is fitted with an aluminium alloy heat exchanger. It is important that the system is thoroughly flushed in accordance with BS 7593 and that one of the following inhibitors is used: BETZ DEARBORN SENTINEL X100 FERNOX COPAL. Refer to inhibitor manufacturer's instructions for correct use. Failure to comply with this requirement will invalidate the appliance warranty. It is also important to check the inhibitor concentration after installation, system modification and at every service."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Servicing Safety",
+      "text": "When servicing ensure that both the gas and electrical supplies to the boiler are isolated before any work is started. When the boiler control knob is switched off the control PCB remains live. Therefore it is important to isolate the electrical supply.",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "12.1 Annual Servicing",
+          "table_title": null,
+          "source_quote": "IMPORTANT: When servicing ensure that both the gas and electrical supplies to the boiler are isolated before any work is started. When the boiler control knob is switched off the control PCB remains live. Therefore it is important to isolate the electrical supply."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Hazardous Materials",
+      "text": "Hazardous materials are not used in the construction of Baxi products, however reasonable care during service is recommended.",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "12.1 Annual Servicing",
+          "table_title": null,
+          "source_quote": "Hazardous materials are not used in the construction of Baxi products, however reasonable care during service is recommended."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Combustion Box Door Replacement",
+      "text": "When replacing the combustion box door after servicing it is essential that the retaining screws are tightened fully.",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "12.1 Annual Servicing",
+          "table_title": null,
+          "source_quote": "When replacing the combustion box door after servicing it is essential that the retaining screws are tightened fully."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Burner Cleaning",
+      "text": "General cleaning can be undertaken using a vacuum. However debris should only be gently blown off the burner skin due to its fragile nature.",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "12.1 Annual Servicing (Cont)",
+          "table_title": null,
+          "source_quote": "NOTE: General cleaning can be undertaken using a vacuum. However debris should only be gently blown off the burner skin due to its fragile nature."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Burner Handling",
+      "text": "The burner skin is fragile - handle with care. Clean and if necessary replace the burner (Fig. 44) (see note above).",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "12.1 Annual Servicing (Cont)",
+          "table_title": null,
+          "source_quote": "NOTE: The burner skin is fragile - handle with care. Clean and if necessary replace the burner (Fig. 44) (see note above)."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Component Changing Safety",
+      "text": "When changing components ensure that both the gas and electrical supplies to the boiler are isolated before any work is started. When the boiler control knob is switched off the control PCB remains live. Therefore it is important to isolate the electrical supply.",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "13.1 Changing Components",
+          "table_title": null,
+          "source_quote": "IMPORTANT: When changing components ensure that both the gas and electrical supplies to the boiler are isolated before any work is started. When the boiler control knob is switched off the control PCB remains live. Therefore it is important to isolate the electrical supply."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "O-ring Replacement",
+      "text": "When reassembling always fit new 'O' rings, ensuring their correct location on the spigot. Green \"O\" rings are used for gas joints and Black \"O\" rings for water joints. Use Greasil 4000 (Approved Silicone Grease).",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "13.1 Changing Components",
+          "table_title": null,
+          "source_quote": "NOTE: When reassembling always fit new 'O' rings, ensuring their correct location on the spigot. Green \"O\" rings are used for gas joints and Black \"O\" rings for water joints. Use Greasil 4000 (Approved Silicone Grease)."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "notice",
+      "topic": "Spark Electrode Sleeve",
+      "text": "The spark electrode sleeve should always cover the joint in the electrode lead to prevent tracking.",
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "13.8 Spark and Sensing Electrodes",
+          "table_title": null,
+          "source_quote": "NOTE: The spark electrode sleeve should always cover the joint in the electrode lead to prevent tracking."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Combustion Box Door Seals",
+      "text": "On refitting the combustion box door check the condition of the combustion box door seals.",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "13.13 Burner",
+          "table_title": null,
+          "source_quote": "IMPORTANT: On refitting the combustion box door check the condition of the combustion box door seals."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Burner Skin Fragility",
+      "text": "The burner skin is fragile: Handle with care.",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "13.13 Burner",
+          "table_title": null,
+          "source_quote": "WARNING: The burner skin is fragile: Handle with care"
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    }
+  ],
+  "maintenance_tasks": [
+    {
+      "task_name": "Annual Servicing",
+      "description": "Visually check for debris/damage and clean or replace if necessary: Burner, Heat exchanger fins, Fan compartment (check for condensate leaks), Insulation, Door seals, Electrodes, Condensate trap, Top of heat exchanger.",
+      "interval": "Annually",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "12.1 Annual Servicing",
+          "table_title": null,
+          "source_quote": "1. For reasons of safety and economy, it is recommended that the boiler is serviced annually. Before servicing please read Section 1.2 Important Information."
+        },
+        {
+          "page_number": 27,
+          "section_title": "12.1 Annual Servicing",
+          "table_title": null,
+          "source_quote": "9. Visually check for debris/damage and clean or replace if necessary the following: a) Burner (Fragile - handle with care). b) Heat exchanger fins. c) Fan compartment (Check also for condensate leaks). d) Insulation. e) Door seals-Important: Pay particular attention to the condition of the combustion box door seals. f) Electrodes. g) Check condensate trap for debris. NOTE: If necessary remove the trap drain plug and place a vessel underneath to catch the condensate (care should be taken as this could be hot). Clean the trap and refit the drain plug. h) Top of heat exchanger."
+        }
+      ],
+      "confidence": 0.95,
+      "review_required": false
+    }
+  ],
+  "search_terms": [
+    "Baxi 100 HE",
+    "boiler",
+    "condensing",
+    "gas fired",
+    "central heating",
+    "installation",
+    "servicing",
+    "fault finding",
+    "technical data",
+    "dimensions",
+    "electrical",
+    "pipework",
+    "flue",
+    "maintenance",
+    "annual service",
+    "error codes",
+    "troubleshooting",
+    "R.C.F.",
+    "Refractory Ceramic Fibres",
+    "inhibitor",
+    "flushing",
+    "gas supply",
+    "condensate drain",
+    "electrical connections",
+    "control PCB",
+    "ignition PCB",
+    "transformer",
+    "flow switch",
+    "thermistor",
+    "safety thermostat",
+    "burner",
+    "heat exchanger",
+    "electrodes"
+  ],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.95,
+    "review_required": true,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "Fault codes are derived from a flowchart structure, where 'codes' are the entry points to troubleshooting sections. Possible causes are conditions leading to a 'NO' branch, and manufacturer steps are actions from both 'YES' and 'NO' branches."
+    ]
+  }
+}

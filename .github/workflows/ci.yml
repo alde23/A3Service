@@ -1,41 +1,57 @@
-name: CI
+name: CI Pipeline
 
 on:
   push:
-    branches: [main, dev]
-    paths-ignore:
-      - '**.md'
-      - 'docs/**'
-      - '.vscode/**'
+    branches: [ main, dev ]
   pull_request:
-    paths-ignore:
-      - '**.md'
-
-permissions:
-  actions: read
-  contents: read
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+    branches: [ main, dev ]
 
 jobs:
-  main:
+  test-and-build:
     runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:15-alpine
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: a3service
+        ports:
+          - 5433:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          filter: tree:0
-          fetch-depth: 0
+          node-version: 22
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 24
-          cache: 'npm'
+      - name: Install dependencies
+        run: npm ci
 
-      # Use --ignore-scripts to skip the husky 'prepare' stage entirely
-      - run: npm ci --ignore-scripts
-      
-      - uses: nrwl/nx-set-shas@v4
+      - name: Generate Prisma Client
+        run: npx prisma generate
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5433/a3service
+          DIRECT_URL: postgresql://postgres:postgres@localhost:5433/a3service
 
-      - run: npx nx affected -t lint
+      - name: Deploy Prisma Migrations
+        run: npx prisma migrate deploy
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5433/a3service
+          DIRECT_URL: postgresql://postgres:postgres@localhost:5433/a3service
+
+      - name: Build API
+        run: npx nx build api
+
+      - name: Run Tests
+        run: npx nx run-many --target=test --all --coverage
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5433/a3service
+          DIRECT_URL: postgresql://postgres:postgres@localhost:5433/a3service

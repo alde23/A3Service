@@ -87,8 +87,28 @@ def slugify(value: str | None, fallback: str = "unknown") -> str:
 
     return value or fallback
 
+def find_pdf_files(brand: str | None = None) -> list[Path]:
+    """
+    Find PDF files under raw_pdfs/.
 
-def find_pdf_files() -> list[Path]:
+    If brand is provided, only PDFs under raw_pdfs/{brand}/ are used.
+    This works with the downloader output structure:
+
+    raw_pdfs/
+      Bosch/
+      Vaillant/
+      Baxi/
+    """
+
+    if brand:
+        brand_dir = RAW_PDF_DIR / brand
+
+        if not brand_dir.exists():
+            print(f"⚠️ Brand folder not found: {brand_dir.relative_to(BASE_DIR)}")
+            return []
+
+        return sorted(brand_dir.rglob("*.pdf"))
+
     return sorted(RAW_PDF_DIR.rglob("*.pdf"))
 
 
@@ -639,6 +659,12 @@ def main() -> None:
         default=None,
         help="Optional maximum number of PDFs to process in this run.",
     )
+    parser.add_argument(
+    "--brand",
+    type=str,
+    default=None,
+    help="Optional brand folder filter, e.g. Bosch, Vaillant, Baxi.",
+    )
 
     args = parser.parse_args()
 
@@ -650,7 +676,7 @@ def main() -> None:
         print(f"❌ Prompt file not found: {PROMPT_PATH.relative_to(BASE_DIR)}")
         return
 
-    pdf_files = find_pdf_files()
+    pdf_files = find_pdf_files(brand=args.brand)
 
     if args.limit is not None:
         pdf_files = pdf_files[: args.limit]

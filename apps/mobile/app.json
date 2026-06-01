@@ -28,12 +28,12 @@
         { "root": "src/app" }
       ],
       "expo-splash-screen",
+      "expo-secure-store",
       "@lovesworking/watermelondb-expo-plugin-sdk-52-plus",
       [
         "expo-build-properties",
         {
           "android": {
-            "kotlinVersion": "2.1.0",
             "packagingOptions": {
               "pickFirst": ["**/libc++_shared.so"]
             }

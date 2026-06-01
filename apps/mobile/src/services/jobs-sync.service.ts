@@ -38,7 +38,7 @@ export async function pullJobsFromServer(token: string) {
     throw new Error('Pull jobs response is not an array');
   }
 
-  const normalized: RemoteJobInput[] = body.map((job: any) => ({
+  const normalized: RemoteJobInput[] = body.map((job: Record<string, unknown>) => ({
     id: String(job.id),
     siteId: String(job.siteId ?? ''),
     technicianId:

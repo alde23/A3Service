@@ -55,6 +55,12 @@ enum ConflictStatus {
   RESOLVED
 }
 
+enum WarrantyStatus {
+  ACTIVE
+  EXPIRED
+  VOID
+}
+
 enum IngestionStatus {
   PENDING
   COMPLETED
@@ -186,6 +192,7 @@ model Job {
   manager     User?        @relation("ManagerJobs", fields: [managerId], references: [id])
   syncLogs    SyncLog[]
   serviceLogs ServiceLog[]
+  warranties  Warranty[]
   serviceLogSyncs ServiceLogSync[]
 
   @@index([technicianId])
@@ -245,6 +252,7 @@ model ServiceLog {
   status    ServiceLogStatus @default(DRAFT)
   summary   String?
   notes     String?
+  skippedValidation Boolean @default(false)
 
   syncedAt DateTime?
 
@@ -314,10 +322,11 @@ model BoilerModel {
   productionStartYear  Int?
   productionEndYear    Int?
 
-  warranties Warranty[]
-  manuals    Manual[]
+  warranties      Warranty[]
+  manuals         Manual[]
+  referenceTables ReferenceTable[]
   modelFaultCodes ModelFaultCode[]
-  modelParts     ModelPart[]
+  modelParts      ModelPart[]
 
   @@index([manufacturerId])
   @@index([modelName])
@@ -334,7 +343,7 @@ model Part {
   aliases       String[]
   inventoryStatus String?
 
-modelParts    ModelPart[]
+  modelParts    ModelPart[]
   consumedParts ConsumedPart[]
   @@unique([sku])
   @@map("parts")
@@ -354,14 +363,65 @@ model FaultCode {
 }
 
 model Warranty {
-  id            String @id @default(uuid(7))
+  id            String         @id @default(uuid(7))
   boilerModelId String
-  // TODO(sprint-2): startDate, durationMonths, status enum, checkEligibility logic
+  jobId         String?
+  startDate     DateTime       @default(now())
+  durationMonths Int           @default(12)
+  expiresAt     DateTime?
+  status        WarrantyStatus @default(ACTIVE)
+  skippedValidation Boolean @default(false)
+  notes         String?
+
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   boilerModel BoilerModel @relation(fields: [boilerModelId], references: [id])
+  job         Job?       @relation(fields: [jobId], references: [id])
 
   @@index([boilerModelId])
+  @@index([jobId])
+  @@index([status])
+  @@index([expiresAt])
   @@map("warranties")
+}
+
+model TechnicalProperty {
+  id          String   @id @default(uuid(7))
+  code        String   @unique
+  label       String
+  unit        String?
+  description String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  referenceTables ReferenceTable[]
+
+  @@map("technical_properties")
+}
+
+model ReferenceTable {
+  id          String   @id @default(uuid(7))
+  boilerModelId String
+  propertyId  String
+  minValue    Decimal? @db.Decimal(10, 2)
+  maxValue    Decimal? @db.Decimal(10, 2)
+  required    Boolean  @default(true)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  boilerModel BoilerModel      @relation(fields: [boilerModelId], references: [id])
+  property    TechnicalProperty @relation(fields: [propertyId], references: [id])
+
+  @@unique([boilerModelId, propertyId])
+  @@index([boilerModelId])
+  @@index([propertyId])
+  @@map("reference_tables")
 }
 
 model Manual {

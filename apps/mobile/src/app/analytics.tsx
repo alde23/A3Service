@@ -7,6 +7,8 @@ import {
   StyleSheet,
   Text,
   View,
+  Modal,
+  TextInput,
 } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../services/auth.service';
@@ -16,6 +18,7 @@ import {
   AnalyticsSummary,
   MonthlyMetric,
 } from '../services/analytics-api.service';
+import { observeExpenses, addExpense } from '../storage/repositories/expenses.repository';
 
 type MetricCard = {
   label: string;
@@ -90,6 +93,11 @@ export default function AnalyticsScreen() {
   const [summary, setSummary] = useState<AnalyticsSummary>({});
   const [monthlyData, setMonthlyData] = useState<MonthlyMetric[]>(MONTHLY_DATA);
 
+  const [expensesSum, setExpensesSum] = useState(0);
+  const [isModalVisible, setIsModalVisible] = useState(false);
+  const [expenseAmount, setExpenseAmount] = useState('');
+  const [expenseDescription, setExpenseDescription] = useState('');
+
   useEffect(() => {
     if (!token) return;
 
@@ -109,6 +117,24 @@ export default function AnalyticsScreen() {
       }
     })();
   }, [token]);
+
+  useEffect(() => {
+    const sub = observeExpenses().subscribe((records) => {
+      const sum = records.reduce((acc, rec) => acc + rec.amount, 0);
+      setExpensesSum(sum);
+    });
+    return () => sub.unsubscribe();
+  }, []);
+
+  const handleAddExpense = async () => {
+    const amt = parseFloat(expenseAmount);
+    if (!isNaN(amt) && expenseDescription) {
+      await addExpense(amt, expenseDescription);
+      setIsModalVisible(false);
+      setExpenseAmount('');
+      setExpenseDescription('');
+    }
+  };
 
   const jobsTotal = useMemo(
     () => monthlyData.reduce((sum, point) => sum + point.jobs, 0) || summary.jobsTotal || 0,
@@ -200,7 +226,7 @@ export default function AnalyticsScreen() {
           <View style={styles.summaryTopRow}>
             <View>
               <Text style={styles.summaryLabel}>{t('analytics.year_to_date')}</Text>
-              <Text style={styles.summaryValue}>{t('analytics.jobs_count', { count: jobsTotal.toLocaleString() })}</Text>
+              <Text style={styles.summaryValue}>{t('analytics.jobs_count', { count: jobsTotal })}</Text>
             </View>
             <View style={styles.summaryBadge}>
               <Text style={styles.summaryBadgeText}>+18% vs last year</Text>
@@ -209,18 +235,19 @@ export default function AnalyticsScreen() {
 
           <View style={styles.summaryStatsRow}>
             <View style={styles.summaryStatItem}>
-              <Text style={styles.summaryStatLabel}>Revenue index</Text>
-              <Text style={styles.summaryStatValue}>{revenueTotal}</Text>
+              <Text style={styles.summaryStatLabel}>Net Revenue</Text>
+              <Text style={styles.summaryStatValue}>{revenueTotal - expensesSum}</Text>
             </View>
             <View style={styles.summaryDivider} />
             <View style={styles.summaryStatItem}>
-              <Text style={styles.summaryStatLabel}>Peak month</Text>
-              <Text style={styles.summaryStatValue}>{peakMonth.month}</Text>
+              <Text style={styles.summaryStatLabel}>Total Expenses</Text>
+              <Text style={styles.summaryStatValue}>{expensesSum}</Text>
             </View>
             <View style={styles.summaryDivider} />
             <View style={styles.summaryStatItem}>
-              <Text style={styles.summaryStatLabel}>Strongest category</Text>
-              <Text style={styles.summaryStatValue}>Boilers</Text>
+              <Pressable style={styles.addExpenseBtn} onPress={() => setIsModalVisible(true)}>
+                <Text style={styles.addExpenseBtnText}>+ Add Expense</Text>
+              </Pressable>
             </View>
           </View>
         </View>
@@ -309,11 +336,51 @@ export default function AnalyticsScreen() {
           </View>
         </View>
       </ScrollView>
+
+      <Modal visible={isModalVisible} transparent animationType="slide">
+        <View style={styles.modalOverlay}>
+          <View style={styles.modalContent}>
+            <Text style={styles.modalTitle}>Add Business Expense</Text>
+            <TextInput
+              style={styles.input}
+              placeholder="Amount"
+              keyboardType="numeric"
+              value={expenseAmount}
+              onChangeText={setExpenseAmount}
+            />
+            <TextInput
+              style={styles.input}
+              placeholder="Description"
+              value={expenseDescription}
+              onChangeText={setExpenseDescription}
+            />
+            <View style={styles.modalActions}>
+              <Pressable style={styles.modalBtnCancel} onPress={() => setIsModalVisible(false)}>
+                <Text style={styles.modalBtnCancelText}>Cancel</Text>
+              </Pressable>
+              <Pressable style={styles.modalBtnSave} onPress={handleAddExpense}>
+                <Text style={styles.modalBtnSaveText}>Save</Text>
+              </Pressable>
+            </View>
+          </View>
+        </View>
+      </Modal>
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
+  addExpenseBtn: { backgroundColor: '#dbeafe', padding: 8, borderRadius: 8, alignItems: 'center' },
+  addExpenseBtnText: { color: '#1d4ed8', fontWeight: 'bold' },
+  modalOverlay: { flex: 1, backgroundColor: 'rgba(0,0,0,0.5)', justifyContent: 'center', padding: 20 },
+  modalContent: { backgroundColor: 'white', padding: 20, borderRadius: 12 },
+  modalTitle: { fontSize: 18, fontWeight: 'bold', marginBottom: 15 },
+  input: { borderWidth: 1, borderColor: '#ccc', borderRadius: 8, padding: 10, marginBottom: 15 },
+  modalActions: { flexDirection: 'row', justifyContent: 'flex-end', gap: 10 },
+  modalBtnCancel: { padding: 10 },
+  modalBtnCancelText: { color: '#64748b', fontWeight: 'bold' },
+  modalBtnSave: { backgroundColor: '#2563eb', padding: 10, borderRadius: 8 },
+  modalBtnSaveText: { color: 'white', fontWeight: 'bold' },
   safeArea: {
     flex: 1,
     backgroundColor: '#f2f5fa',

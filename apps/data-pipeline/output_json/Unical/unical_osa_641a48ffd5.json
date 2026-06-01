@@ -1,0 +1,5539 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Unical",
+    "product_family": "OSA",
+    "model_names": [
+      "S 24",
+      "S 28",
+      "S 35"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "INSTALLATION AND SERVICING MANUAL",
+    "document_code": "00336315",
+    "publication_date": "05/21",
+    "language": "en",
+    "region": null,
+    "source_file": "124553.pdf",
+    "file_hash": "641a48ffd57bb0f9b30b01627f0367511e75ff255a448d355b2439e27305179e"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Ideal water pH in heating systems",
+      "value": "6.5 - 8",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "water_treatment",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "1.7 - WATER TREATMENT",
+          "table_title": null,
+          "source_quote": "The ideal water pH in heating systems must be within: VALUE PH MIN 6.5 MAX 8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Ideal water hardness in heating systems",
+      "value": "9 - 15",
+      "unit": "°fr",
+      "applies_to_models": [],
+      "category": "water_treatment",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "1.7 - WATER TREATMENT",
+          "table_title": null,
+          "source_quote": "The ideal water pH in heating systems must be within: VALUE Hardness [°fr] MIN 9 MAX 15"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler Width",
+      "value": "520",
+      "unit": "mm",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "520"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler Depth",
+      "value": "180",
+      "unit": "mm",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "180"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler Height",
+      "value": "930",
+      "unit": "mm",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "930"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler Depth (P)",
+      "value": "200",
+      "unit": "mm",
+      "applies_to_models": [
+        "OSA S"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": "BOILER",
+          "source_quote": "OSA S P Depth 200 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler Width (L)",
+      "value": "540",
+      "unit": "mm",
+      "applies_to_models": [
+        "OSA S"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": "BOILER",
+          "source_quote": "OSA S L Width 540 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler Height (H)",
+      "value": "1010",
+      "unit": "mm",
+      "applies_to_models": [
+        "OSA S"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": "BOILER",
+          "source_quote": "OSA S H Height 1010 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Shell Depth (P)",
+      "value": "62",
+      "unit": "mm",
+      "applies_to_models": [
+        "OSA S"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": "SHELL",
+          "source_quote": "OSA S P Depth 62 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Shell Width (L)",
+      "value": "592",
+      "unit": "mm",
+      "applies_to_models": [
+        "OSA S"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": "SHELL",
+          "source_quote": "OSA S L Width 592 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Shell Height (H)",
+      "value": "1000",
+      "unit": "mm",
+      "applies_to_models": [
+        "OSA S"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": "SHELL",
+          "source_quote": "OSA S H Height 1000 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas inlet connection size",
+      "value": "G 3/4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": null,
+          "table_title": "KEY",
+          "source_quote": "G Gas inlet G 3/4"
+        },
+        {
+          "page_number": 22,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "G GAS 3/4\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot water outlet connection size",
+      "value": "G 1/2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": null,
+          "table_title": "KEY",
+          "source_quote": "C Domestic hot water outlet G 1/2"
+        },
+        {
+          "page_number": 22,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "C HOT 1/2\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Cold water inlet connection size",
+      "value": "G 1/2",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": null,
+          "table_title": "KEY",
+          "source_quote": "F Cold water inlet G 1/2"
+        },
+        {
+          "page_number": 22,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "F COLD 1/2\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating system flow connection size",
+      "value": "G 3/4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": null,
+          "table_title": "KEY",
+          "source_quote": "M Heating system flow G 3/4"
+        },
+        {
+          "page_number": 22,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "M FLOW 3/4\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating system return connection size",
+      "value": "G 3/4",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": null,
+          "table_title": "KEY",
+          "source_quote": "R Heating system return G 3/4"
+        },
+        {
+          "page_number": 22,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "R RETURN 3/4\""
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Mains pressure",
+      "value": "1 and 3",
+      "unit": "bar",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "The mains pressure must be within 1 and 3 bar (in the event of greater pressure install a pressure reducer)."
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input in CH / DHW mode",
+      "value": "23,4",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Nominal heat input in CH / DHW mode kW 23,4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input in CH / DHW mode",
+      "value": "28,0/33,0",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Nominal heat input in CH / DHW mode kW 28,0/33,0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat input in CH / DHW mode",
+      "value": "33,0",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Nominal heat input in CH / DHW mode kW 33,0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input with Nat. Gas / Propane",
+      "value": "3,0/3,0",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Minimum heat input with Nat. Gas / Propane kW 3,0/3,0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input with Nat. Gas / Propane",
+      "value": "4,4/4,4",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Minimum heat input with Nat. Gas / Propane kW 4,4/4,4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output",
+      "value": "23,02",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Nominal heat output kW 23,02"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output",
+      "value": "27,3",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Nominal heat output kW 27,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal heat output",
+      "value": "32,2",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Nominal heat output kW 32,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat output",
+      "value": "2,96",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Minimum heat output kW 2,96"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat output",
+      "value": "4,3",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Minimum heat output kW 4,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal output in condensation 50/30 °C",
+      "value": "23,7",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Nominal output in condensation 50/30 °C kW 23,7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal output in condensation 50/30 °C",
+      "value": "28,9",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Nominal output in condensation 50/30 °C kW 28,9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal output in condensation 50/30 °C",
+      "value": "33,8",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Nominal output in condensation 50/30 °C kW 33,8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat output in condensation 50/30 °C",
+      "value": "3,22",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Minimum heat output in condensation 50/30 °C kW 3,22"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat output in condensation 50/30 °C",
+      "value": "4,68",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Minimum heat output in condensation 50/30 °C kW 4,68"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion efficiency at full load",
+      "value": "97,2",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Combustion efficiency at full load % 97,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion efficiency at full load",
+      "value": "97,8",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Combustion efficiency at full load % 97,8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion efficiency at full load",
+      "value": "97,3",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Combustion efficiency at full load % 97,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion efficiency at part load",
+      "value": "98,6",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Combustion efficiency at part load % 98,6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion efficiency at part load",
+      "value": "98,2",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Combustion efficiency at part load % 98,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion efficiency at part load",
+      "value": "98,1",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Combustion efficiency at part load % 98,1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat losses through the casing (min.-max.)",
+      "value": "1,4 - 1,0",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Heat losses through the casing (min.-max.) % 1,4 - 1,0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat losses through the casing (min.-max.)",
+      "value": "1,1 - 0,2",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Heat losses through the casing (min.-max.) % 1,1 - 0,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Net flue gas temperature tf-ta (max.)",
+      "value": "56,8",
+      "unit": "°C",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "(*) Net flue gas temperature tf-ta (max.) °C 56,8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Net flue gas temperature tf-ta (max.)",
+      "value": "45,1",
+      "unit": "°C",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "(*) Net flue gas temperature tf-ta (max.) °C 45,1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Net flue gas temperature tf-ta (max.)",
+      "value": "54,8",
+      "unit": "°C",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "(*) Net flue gas temperature tf-ta (max.) °C 54,8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (min.-max)",
+      "value": "1,35 - 10,5",
+      "unit": "g/s",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate (min.-max) g/s 1,35 - 10,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (min.-max)",
+      "value": "2,0 - 12,5",
+      "unit": "g/s",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate (min.-max) g/s 2,0 - 12,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (min.-max)",
+      "value": "2,0 - 14,7",
+      "unit": "g/s",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate (min.-max) g/s 2,0 - 14,7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Air excess λ",
+      "value": "24,3",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Air excess λ % 24,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Air excess λ",
+      "value": "23,0",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Air excess λ % 23,0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CO₂",
+      "value": "9,2 - 9,2",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "CO₂ % 9,2 - 9,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CO₂",
+      "value": "9,2 - 9,3",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "CO₂ % 9,2 - 9,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CO at 0% of O₂ (min. - max)",
+      "value": "22-114",
+      "unit": "ppm",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "CO at 0% of O₂ (min. - max) ppm 22-114"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CO at 0% of O₂ (min. - max)",
+      "value": "14-88",
+      "unit": "ppm",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "CO at 0% of O₂ (min. - max) ppm 14-88"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CO at 0% of O₂ (min. - max)",
+      "value": "14-94",
+      "unit": "ppm",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "CO at 0% of O₂ (min. - max) ppm 14-94"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum production of condensate",
+      "value": "3,8",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Maximum production of condensate kg/h 3,8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum production of condensate",
+      "value": "4,5",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Maximum production of condensate kg/h 4,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum production of condensate",
+      "value": "5,3",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Maximum production of condensate kg/h 5,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx class",
+      "value": "5",
+      "unit": null,
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "NOx class 5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Chimney heat losses with burner ON (min. - max.)",
+      "value": "1,4 - 2,8",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Chimney heat losses with burner ON (min. - max.) % 1,4 - 2,8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Chimney heat losses with burner ON (min. - max.)",
+      "value": "1,8-2,2",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Chimney heat losses with burner ON (min. - max.) % 1,8-2,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Chimney heat losses with burner ON (min. - max.)",
+      "value": "1,9-2,7",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Chimney heat losses with burner ON (min. - max.) % 1,9-2,7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Chimney heat losses with burner OFF",
+      "value": "0,35",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Chimney heat losses with burner OFF % 0,35"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Chimney heat losses with burner OFF",
+      "value": "0,34",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Chimney heat losses with burner OFF % 0,34"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. available pressure at the chimney base min. / max.",
+      "value": "2/70",
+      "unit": "Pa",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4 - OPERATING DATA ACCORDING TO UNI 10348",
+          "table_title": null,
+          "source_quote": "Max. available pressure at the chimney base min. / max. Pa 2/70"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal Heat Output (ErP)",
+      "value": "23",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Nominal Heat Output Pnominale kW 23"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal Heat Output (ErP)",
+      "value": "27",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Nominal Heat Output Pnominale kW 27"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal Heat Output (ErP)",
+      "value": "32",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Nominal Heat Output Pnominale kW 32"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Seasonal space heating energy efficiency",
+      "value": "94",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Seasonal space heating energy efficiency ηs % 94"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Seasonal efficiency class in heating mode",
+      "value": "A",
+      "unit": null,
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Seasonal efficiency class in heating mode A"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Integrated Weather compensator and room sensor",
+      "value": "4",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "control",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Integrated Weather compensator and room sensor Classe VI % 4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Seasonal space heating energy efficiency of package",
+      "value": "98",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Seasonal space heating energy efficiency of package ηs Packaging % 98"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Seasonal space heating energy efficiency class of package",
+      "value": "A+",
+      "unit": null,
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Seasonal space heating energy efficiency class of package A+"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful Heat Output in high-temperature regime (Tr 60 °C/Tm 80 °C)",
+      "value": "13",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful Heat Output in high-temperature regime P4 kW 13"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful Heat Output in high-temperature regime (Tr 60 °C/Tm 80 °C)",
+      "value": "16",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful Heat Output in high-temperature regime P4 kW 16"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful Heat Output in high-temperature regime (Tr 60 °C/Tm 80 °C)",
+      "value": "18,4",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful Heat Output in high-temperature regime P4 kW 18,4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at nom. heat output in high-temperature regime (Tr 60 °C/Tm 80 °C)",
+      "value": "88,7",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 35"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful efficiency at nom. heat output in high-temperature regime η4 % 88,7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at nom. heat output in high-temperature regime (Tr 60 °C/Tm 80 °C)",
+      "value": "88,9",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful efficiency at nom. heat output in high-temperature regime η4 % 88,9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at 30% of nom. heat output in low-temperature regime (Tr 30 °C)",
+      "value": "4,3",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful heat output at 30% of nom. heat output in low-temperature regime P1 kW 4,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at 30% of nom. heat output in low-temperature regime (Tr 30 °C)",
+      "value": "5,3",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful heat output at 30% of nom. heat output in low-temperature regime P1 kW 5,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at 30% of nom. heat output in low-temperature regime (Tr 30 °C)",
+      "value": "6,1",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful heat output at 30% of nom. heat output in low-temperature regime P1 kW 6,1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at 30% of nom. heat output in low-temperature regime (Tr 30 °C)",
+      "value": "99,2",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful efficiency at 30% of nom. heat output in low-temperature regime η1 % 99,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at 30% of nom. heat output in low-temperature regime (Tr 30 °C)",
+      "value": "98,1",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful efficiency at 30% of nom. heat output in low-temperature regime η1 % 98,1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at 30% of nom. heat output in low-temperature regime (Tr 30 °C)",
+      "value": "98,2",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful efficiency at 30% of nom. heat output in low-temperature regime η1 % 98,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Range-rated boiler",
+      "value": "YES",
+      "unit": null,
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Range-rated boiler: YES / NO YES"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption At full load",
+      "value": "0,085",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Auxiliary electricity consumption At full load elmax kW 0,085"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption At full load",
+      "value": "0,093",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Auxiliary electricity consumption At full load elmax kW 0,093"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption At part load",
+      "value": "0,012",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Auxiliary electricity consumption At part load elmin kW 0,012"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption At part load",
+      "value": "0,015",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Auxiliary electricity consumption At part load elmin kW 0,015"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption In stand-by mode",
+      "value": "0,003",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Auxiliary electricity consumption In stand-by mode PSB kW 0,003"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption In stand-by mode",
+      "value": "0,001",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Auxiliary electricity consumption In stand-by mode PSB kW 0,001"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Stand-by heat loss",
+      "value": "0,0824",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Stand-by heat loss Pstb kW 0,0824"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Stand-by heat loss",
+      "value": "0,113",
+      "unit": "kW",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Stand-by heat loss Pstb kW 0,113"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Emissions of nitrogen oxides",
+      "value": "41",
+      "unit": "Mg/kWh",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Emissions of nitrogen oxides NOX Mg/kWh 41"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Emissions of nitrogen oxides",
+      "value": "36",
+      "unit": "Mg/kWh",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Emissions of nitrogen oxides NOX Mg/kWh 36"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Emissions of nitrogen oxides",
+      "value": "39",
+      "unit": "Mg/kWh",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Emissions of nitrogen oxides NOX Mg/kWh 39"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Declared load profile",
+      "value": "L",
+      "unit": null,
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Declared load profile L"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Declared load profile",
+      "value": "XL",
+      "unit": null,
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Declared load profile XL"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Energy efficiency in DHW production mode",
+      "value": "84",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Energy efficiency in DHW production mode ηwh % 84"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Energy efficiency in DHW production mode",
+      "value": "86",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Energy efficiency in DHW production mode ηwh % 86"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily electricity consumption",
+      "value": "0,0644",
+      "unit": "kWh",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Daily electricity consumption Qelec kWh 0,0644"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily electricity consumption",
+      "value": "0,0813",
+      "unit": "kWh",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Daily electricity consumption Qelec kWh 0,0813"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily fuel consumption",
+      "value": "14,41",
+      "unit": "kWh",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Daily fuel consumptionl Qfuel kWh 14,41"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily fuel consumption",
+      "value": "22,97",
+      "unit": "kWh",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Daily fuel consumptionl Qfuel kWh 22,97"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Inside sound power level",
+      "value": "53",
+      "unit": "dB (A)",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "noise",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Inside sound power level Lwa dB (A) 53"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Inside sound power level",
+      "value": "54",
+      "unit": "dB (A)",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "noise",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Inside sound power level Lwa dB (A) 54"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Seasonal efficiency class in DHW production mode",
+      "value": "A",
+      "unit": null,
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "2.4.1 - DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Seasonal efficiency class in DHW production mode A"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Appliance category",
+      "value": "12H3P",
+      "unit": null,
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 35"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Appliance category 12H3P"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Appliance category",
+      "value": "112H3P",
+      "unit": null,
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Appliance category 112H3P"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat. circuit output (At 20 °C)",
+      "value": "2,1",
+      "unit": "l/min",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Minimum heat. circuit output (At 20 °C) l/min 2,1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat. circuit output (At 20 °C)",
+      "value": "3,06",
+      "unit": "l/min",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Minimum heat. circuit output (At 20 °C) l/min 3,06"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat. circuit output (At 20 °C)",
+      "value": "3,08",
+      "unit": "l/min",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Minimum heat. circuit output (At 20 °C) l/min 3,08"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heating circuit pressure",
+      "value": "0,5",
+      "unit": "bar",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Minimum heating circuit pressure bar 0,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heating circuit pressure",
+      "value": "3",
+      "unit": "bar",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Maximum heating circuit pressure bar 3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Primary circuit content",
+      "value": "2,2",
+      "unit": "l",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Primary circuit content l 2,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum operating temperature in heat.",
+      "value": "85",
+      "unit": "°C",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Maximum operating temperature in heat. °C 85"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum operating temperature in heat.",
+      "value": "30",
+      "unit": "°C",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Minimum operating temperature in heat. °C 30"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion vessel total capacity",
+      "value": "9 (6+3)",
+      "unit": "l",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Expansion vessel total capacity l 9 (6+3)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion vessel total capacity",
+      "value": "6",
+      "unit": "l",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Expansion vessel total capacity l 6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion vessel pre-load",
+      "value": "1",
+      "unit": "bar",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Expansion vessel pre-load bar 1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum system capacity (max temp. calc.)",
+      "value": "185",
+      "unit": null,
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Maximum system capacity (max temp. calc.) 185"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum system capacity (max temp. calc.)",
+      "value": "123",
+      "unit": null,
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Maximum system capacity (max temp. calc.) 123"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum domestic hot water circuit flow rate",
+      "value": "2",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Minimum domestic hot water circuit flow rate l/min. 2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum domestic hot water circuit pressure",
+      "value": "0,5",
+      "unit": "bar",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Minimum domestic hot water circuit pressure bar 0,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum domestic hot water circuit pressure",
+      "value": "6",
+      "unit": "bar",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Maximum domestic hot water circuit pressure bar 6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot water specific flow rate (At 30 °C) \"D\"",
+      "value": "11,2",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Domestic hot water specific flow rate (At 30 °C) \"D\" l/min. 11,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot water specific flow rate (At 30 °C) \"D\"",
+      "value": "16",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Domestic hot water specific flow rate (At 30 °C) \"D\" l/min. 16"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot water flow rate limiter",
+      "value": "10",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Domestic hot water flow rate limiter l/min. 10"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot water flow rate limiter",
+      "value": "15",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Domestic hot water flow rate limiter l/min. 15"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with Δt 45 K",
+      "value": "7,3",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with Δt 45 K l/min. 7,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with Δt 45 K",
+      "value": "10,3",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with Δt 45 K l/min. 10,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with Δt 40 K",
+      "value": "8,3",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with Δt 40 K l/min. 8,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with Δt 40 K",
+      "value": "11,6",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with Δt 40 K l/min. 11,6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with Δt 35 K",
+      "value": "9,4",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with Δt 35 K l/min. 9,4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with Δt 35 K",
+      "value": "13,3",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with Δt 35 K l/min. 13,3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with Δt 30 K",
+      "value": "11,0",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with Δt 30 K l/min. 11,0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with Δt 30 K",
+      "value": "15,5",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with Δt 30 K l/min. 15,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with Δt 25 K (*)",
+      "value": "13,2",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with Δt 25 K (*) l/min. 13,2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Production of D.H.W. in continuous operation with Δt 25 K (*)",
+      "value": "18,6",
+      "unit": "l/min.",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Production of D.H.W. in continuous operation with Δt 25 K (*) l/min. 18,6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Voltage/Frequency electric power supply",
+      "value": "230/50",
+      "unit": "V-Hz",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Voltage/Frequency electric power supply V-Hz 230/50"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Fuse on the power supply",
+      "value": "3,15",
+      "unit": "A (F)",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Fuse on the power supply A (F) 3,15"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum absorbed output",
+      "value": "3,15",
+      "unit": "A (F)",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Maximum absorbed output A (F) 3,15"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Protection rating",
+      "value": "IP X4D",
+      "unit": null,
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Protection rating IP X4D"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Net weight boiler",
+      "value": "41",
+      "unit": "kg",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Net weight boiler kg 41"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gross weight boiler",
+      "value": "45,7",
+      "unit": "kg",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Gross weight boiler kg 45,7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Net weight front case (shell)",
+      "value": "3",
+      "unit": "kg",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Net weight front case (shell) kg 3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gross weight front case (shell)",
+      "value": "4,9",
+      "unit": "kg",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Gross weight front case (shell) kg 4,9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "F factor",
+      "value": "1",
+      "unit": null,
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "F factor 1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "F factor",
+      "value": "2",
+      "unit": null,
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "F factor 2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "R factor",
+      "value": "symbol_unclear",
+      "unit": null,
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "2.5 - GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "R factor チチチ"
+        }
+      ],
+      "confidence": 0.5,
+      "review_required": true
+    },
+    {
+      "parameter": "CO₂ levels (Nat. gas G20) min",
+      "value": "9,2 (*)",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "3.12 - ADJUSTING THE BURNER",
+          "table_title": "PRESSURE - FLOW RATES TABLE",
+          "source_quote": "Gas nat. (G20) ... CO₂ levels [%] min 9,2 (*)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CO₂ levels (Nat. gas G20) max",
+      "value": "9,2 (*)",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "3.12 - ADJUSTING THE BURNER",
+          "table_title": "PRESSURE - FLOW RATES TABLE",
+          "source_quote": "Gas nat. (G20) ... CO₂ levels [%] max 9,2 (*)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CO₂ levels (Nat. gas G20) max",
+      "value": "9,3 (*)",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "3.12 - ADJUSTING THE BURNER",
+          "table_title": "PRESSURE - FLOW RATES TABLE",
+          "source_quote": "Gas nat. (G20) ... CO₂ levels [%] max 9,3 (*)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Consumption (Nat. gas G20) min",
+      "value": "0,32",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "3.12 - ADJUSTING THE BURNER",
+          "table_title": "PRESSURE - FLOW RATES TABLE",
+          "source_quote": "Gas nat. (G20) ... Consumption min 0,32 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Consumption (Nat. gas G20) min",
+      "value": "0,47",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "3.12 - ADJUSTING THE BURNER",
+          "table_title": "PRESSURE - FLOW RATES TABLE",
+          "source_quote": "Gas nat. (G20) ... Consumption min 0,47 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Consumption (Nat. gas G20) max",
+      "value": "2,48",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "3.12 - ADJUSTING THE BURNER",
+          "table_title": "PRESSURE - FLOW RATES TABLE",
+          "source_quote": "Gas nat. (G20) ... Consumption max 2,48 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Consumption (Nat. gas G20) max",
+      "value": "2,96",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "3.12 - ADJUSTING THE BURNER",
+          "table_title": "PRESSURE - FLOW RATES TABLE",
+          "source_quote": "Gas nat. (G20) ... Consumption max 2,96 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Consumption (Nat. gas G20) max",
+      "value": "3,49",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "3.12 - ADJUSTING THE BURNER",
+          "table_title": "PRESSURE - FLOW RATES TABLE",
+          "source_quote": "Gas nat. (G20) ... Consumption max 3,49 m³/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CO₂ levels (Propane G31) min",
+      "value": "10,5(+)",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "3.12 - ADJUSTING THE BURNER",
+          "table_title": "PRESSURE - FLOW RATES TABLE",
+          "source_quote": "Propane (G31) ... CO₂ levels [%] min 10,5(+)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CO₂ levels (Propane G31) min",
+      "value": "10,4(+)",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "3.12 - ADJUSTING THE BURNER",
+          "table_title": "PRESSURE - FLOW RATES TABLE",
+          "source_quote": "Propano (G31) ... CO₂ levels [%] min 10,4(+)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CO₂ levels (Propane G31) max",
+      "value": "10,5(+)",
+      "unit": "%",
+      "applies_to_models": [
+        "OSA S 24",
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "3.12 - ADJUSTING THE BURNER",
+          "table_title": "PRESSURE - FLOW RATES TABLE",
+          "source_quote": "Propane (G31) ... CO₂ levels [%] max 10,5(+)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Consumption (Propane G31) min",
+      "value": "0,23",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "3.12 - ADJUSTING THE BURNER",
+          "table_title": "PRESSURE - FLOW RATES TABLE",
+          "source_quote": "Propane (G31) ... Consumption min 0,23 kg/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Consumption (Propane G31) min",
+      "value": "0,34",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "OSA S 28",
+        "OSA S 35"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "3.12 - ADJUSTING THE BURNER",
+          "table_title": "PRESSURE - FLOW RATES TABLE",
+          "source_quote": "Propano (G31) ... Consumption min 0,34 kg/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Consumption (Propane G31) max",
+      "value": "1,82",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "OSA S 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "3.12 - ADJUSTING THE BURNER",
+          "table_title": "PRESSURE - FLOW RATES TABLE",
+          "source_quote": "Propane (G31) ... Consumption max 1,82 kg/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Consumption (Propane G31) max",
+      "value": "2,17",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "OSA S 28"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "3.12 - ADJUSTING THE BURNER",
+          "table_title": "PRESSURE - FLOW RATES TABLE",
+          "source_quote": "Propano (G31) ... Consumption max 2,17 kg/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Consumption (Propane G31) max",
+      "value": "2,56",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "OSA S 35"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "3.12 - ADJUSTING THE BURNER",
+          "table_title": "PRESSURE - FLOW RATES TABLE",
+          "source_quote": "Propano (G31) ... Consumption max 2,56 kg/h"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Resistance of heating probe 11 (SR), domestic hot water probe 1 (SS), heating return probe 22 (SRR) at 25°C",
+      "value": "10067",
+      "unit": "Ohm",
+      "applies_to_models": [],
+      "category": "sensors",
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "4.1 - INSPECTION AND MAINTENANCE INSTRUCTIONS",
+          "table_title": "TABLE OF RESISTANCE VALUES, ACCORDING TO THE TEMPERATURE, TO THE HEATING PROBE 11 (SR) AND TO THE DOMESTIC HOT WATER PROBE 1 (SS) AND ANY HEATING RETURN PROBE 22 (SRR)",
+          "source_quote": "Example: At 25°C, the nominal resistance is 10067 Ohm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Resistance of heating probe 11 (SR), domestic hot water probe 1 (SS), heating return probe 22 (SRR) at 90°C",
+      "value": "920",
+      "unit": "Ohm",
+      "applies_to_models": [],
+      "category": "sensors",
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "4.1 - INSPECTION AND MAINTENANCE INSTRUCTIONS",
+          "table_title": "TABLE OF RESISTANCE VALUES, ACCORDING TO THE TEMPERATURE, TO THE HEATING PROBE 11 (SR) AND TO THE DOMESTIC HOT WATER PROBE 1 (SS) AND ANY HEATING RETURN PROBE 22 (SRR)",
+          "source_quote": "At 90°C, the nominal resistance is 920 Ohm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "01",
+      "description": "SAFETY THERMOSTAT Intervention of the safety thermostat (10)",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Press Reset and/or check that the thermostat or its connections are not interrupted."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Safety thermostat (10)"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "safety thermostat",
+        "thermostat",
+        "overheat"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": "ERROR CODES (FAULT)",
+          "source_quote": "01 SAFETY THERMOSTAT Intervention of the safety thermostat (10) Press Reset and/or check that the thermostat or its connections are not interrupted."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "04",
+      "description": "BLOCK No gas or failed burner ignition",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the gas supply or that the ignition/detection electrode is working properly (4)."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas supply",
+        "ignition/detection electrode (4)"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition",
+        "burner",
+        "gas",
+        "electrode"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": "ERROR CODES (FAULT)",
+          "source_quote": "04 BLOCK No gas or failed burner ignition Check the gas supply or that the ignition/detection electrode is working properly (4)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "06",
+      "description": "High Temperature Boiler temperature too high",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check pump operation and if needed clean the exchanger (24)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Pump (12)",
+        "exchanger (24)"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "high temperature",
+        "overheat",
+        "pump",
+        "exchanger"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": "ERROR CODES (FAULT)",
+          "source_quote": "06 High Temperature Boiler temperature too high Check pump operation and if needed clean the exchanger (24)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "08",
+      "description": "Water Deficency Insufficient water pressure and consequent intervention of the minimum water pressure pressure switch (13).",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Fill the heating circuit as described in chap. 3.8 and wait for the values to return within default limits.",
+        "If needed, check the electrical connections and replace the minimum water pressure switch."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Minimum water pressure switch (13)"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water pressure",
+        "low pressure",
+        "pressure switch",
+        "filling"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": "ERROR CODES (FAULT)",
+          "source_quote": "08 Water Deficency Insufficient water pressure and consequent intervention of the minimum water pressure pressure switch (13). Fill the heating circuit as described in chap. 3.8 and wait for the values to return within default limits. If needed, check the electrical connections and replace the minimum water pressure switch."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "09",
+      "description": "Outer Sensor",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the wiring, if needed replace outer sensor"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Outer sensor"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "outer sensor",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": "ERROR CODES (FAULT)",
+          "source_quote": "09 Outer Sensor Check the wiring, if needed replace outer sensor"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "10",
+      "description": "Internal failure",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "internal failure"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": "ERROR CODES (FAULT)",
+          "source_quote": "10 Internal failure"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "11",
+      "description": "Parasite Flame Flame detected upon ignition",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the wiring of the Ign/Det. electrode and remove any oxidation.",
+        "Check for humidity between drain wire and ceramic, if necessary, replace the electrode, press the unblock key, if the anomaly persists, replace the electrode (4)."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Ignition/detection electrode (4)"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "parasite flame",
+        "flame",
+        "ignition",
+        "electrode"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": "ERROR CODES (FAULT)",
+          "source_quote": "11 Parasite Flame Flame detected upon ignition Check the wiring of the Ign/Det. electrode and remove any oxidation. Check for humidity between drain wire and ceramic, if necessary, replace the electrode, press the unblock key, if the anomaly persists, replace the electrode (4)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "12",
+      "description": "Heating Sensor (11) Heating sensor fault",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the efficiency of the sensor (see table Res/Temp) (Par.4) or its connections."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Heating Sensor (11)"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "heating sensor",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": "ERROR CODES (FAULT)",
+          "source_quote": "12 Heating Sensor (11) Heating sensor fault Check the efficiency of the sensor (see table Res/Temp) (Par.4) or its connections."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "13",
+      "description": "Domestic Hot Water Sensor Domestic hot water sensor fault (1)",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the efficiency of the sensor (see table Res/Temp) (Par.4) or its connections.."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Domestic Hot Water Sensor (1)"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "DHW sensor",
+        "domestic hot water sensor",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": "ERROR CODES (FAULT)",
+          "source_quote": "13 Domestic Hot Water Sensor Domestic hot water sensor fault (1) Check the efficiency of the sensor (see table Res/Temp) (Par.4) or its connections.."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "14",
+      "description": "Inlet temperature Sensor (SRR)",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the efficiency of the sensor / and replace it"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Inlet temperature Sensor (SRR)"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "inlet temperature sensor",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": "ERROR CODES (FAULT)",
+          "source_quote": "14 Inlet temperature Sensor (SRR) Check the efficiency of the sensor / and replace it"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "15",
+      "description": "Water circulation insufficent Primary circuit water circulation insufficient (Δt > 35° C)",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check pump operation (12) and speed - remove any heating system obstructions - clean the scaled domestic hot water exchanger"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Pump (12)",
+        "domestic hot water exchanger"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water circulation",
+        "pump",
+        "exchanger",
+        "obstruction"
+      ],
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": "ERROR CODES (FAULT)",
+          "source_quote": "15 Water circulation insufficent Primary circuit water circulation insufficient (Δt > 35° C) Check pump operation (12) and speed - remove any heating system obstructions - clean the scaled domestic hot water exchanger"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "16",
+      "description": "Exchanger Freezing (24) Exchanger freezing is detected If the heating sensor detects a temperature below 2° C, burner ignition is inhibited until the sensor detects a temperature above 5°C",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Disconnect the from the power supply, close the gas valve, defrost the exchanger carefully."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Exchanger (24)",
+        "heating sensor"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "exchanger freezing",
+        "freezing",
+        "exchanger",
+        "heating sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "16 Exchanger Freezing (24) Exchanger freezing is detected If the heating sensor detects a temperature below 2° C, burner ignition is inhibited until the sensor detects a temperature above 5°C Disconnect the from the power supply, close the gas valve, defrost the exchanger carefully."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "20",
+      "description": "Parasite Flame Flame detected after swtich-off",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the wiring and for any leaks from the gas valve (3), if needed replace the gas valve."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve (3)"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "parasite flame",
+        "flame",
+        "gas valve"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "20 Parasite Flame Flame detected after swtich-off Check the wiring and for any leaks from the gas valve (3), if needed replace the gas valve."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "24",
+      "description": "Speed out of control Check fan operation (18) and the connections",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check fan operation (18) and the connections"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Fan (18)"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan speed",
+        "fan",
+        "speed out of control"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "24 Speed out of control Check fan operation (18) and the connections Check fan operation (18) and the connections"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "25",
+      "description": "Exhaust smoke overheating",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "exhaust smoke",
+        "overheating"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "25 Exhaust smoke overheating"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "26",
+      "description": "Speed out of control Alteration of the fan speed; the speed is above that requested",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check fan operation (18) and the connections"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Fan (18)"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan speed",
+        "fan",
+        "speed out of control"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "26 Speed out of control Alteration of the fan speed; the speed is above that requested Check fan operation (18) and the connections"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "28",
+      "description": "Scambiatore Ostruito",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "blocked exchanger",
+        "scambiatore ostruito"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "28 Scambiatore Ostruito"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "30",
+      "description": "Service Parameter Service parameters altered due to possible electromagnetic interferences.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Reset and via Ufly restore the altered parameters"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "service parameter",
+        "parameters",
+        "electromagnetic interference"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "30 Service Parameter Service parameters altered due to possible electromagnetic interferences. Reset and via Ufly restore the altered parameters"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "31",
+      "description": "System configuration invalid or corrupted",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "system configuration",
+        "corrupted"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "31 System configuration invalid or corrupted"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "32",
+      "description": "Low line voltage",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Correction: if the line voltage is <190 Vac: the line voltage is really below the minimum limit, otherwise the line monitor error: replace BMM"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "BMM (Modulation Board)"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "low voltage",
+        "line voltage",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "32 Low line voltage Correction: if the line voltage is <190 Vac: the line voltage is really below the minimum limit, otherwise the line monitor error: replace BMM"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "38",
+      "description": "Factory Parameters Alteration of the factory parameters due to possible electromagnetic interferences.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Press RESET; if the anomaly persists, replace the board."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "board"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "factory parameters",
+        "electromagnetic interference",
+        "board"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "38 Factory Parameters Alteration of the factory parameters due to possible electromagnetic interferences. Press RESET; if the anomaly persists, replace the board."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "44",
+      "description": "Water sensor pressure detected if the pressure Transducer is present",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Wait for the values to return to default limits / Replace the Transducer"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pressure Transducer"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water pressure sensor",
+        "pressure transducer",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "44 Water sensor pressure detected if the pressure Transducer is present Wait for the values to return to default limits / Replace the Transducer"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "45",
+      "description": "Water Overheater detected if the H₂O pressure Transducer is present with pressure > 2.5 bar; it is reset automatically when H₂O pressure < 2 bar",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Wait for the values to return to default limits / Replace the Transducer"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "H₂O pressure Transducer"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water overheater",
+        "pressure transducer",
+        "overpressure"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "45 Water Overheater detected if the H₂O pressure Transducer is present with pressure > 2.5 bar; it is reset automatically when H₂O pressure < 2 bar Wait for the values to return to default limits / Replace the Transducer"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "47",
+      "description": "Communication error",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication error"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "47 Communication error"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "49",
+      "description": "HCM, SHC: host controller missing",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "HCM",
+        "SHC",
+        "host controller"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "host controller",
+        "missing controller"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "49 HCM, SHC: host controller missing"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "50",
+      "description": "Room1: temperature sensor",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Room temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "room temperature sensor",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "50 Room1: temperature sensor"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "56",
+      "description": "Host controller missing",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Host controller"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "host controller",
+        "missing controller"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "56 Host controller missing"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "57",
+      "description": "Burners NOT detected",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Burners"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "burners not detected",
+        "burner"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "57 Burners NOT detected"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "58",
+      "description": "Global flow temperature sensor",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Global flow temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow temperature sensor",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "58 Global flow temperature sensor"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "60",
+      "description": "Date and Time not valid",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "date",
+        "time",
+        "invalid"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "60 Date and Time not valid"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "62",
+      "description": "Actuators SGV",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Actuators SGV"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "actuators"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "62 Actuators SGV"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "66",
+      "description": "Missing calibration",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "calibration",
+        "missing calibration"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "66 Missing calibration"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "74",
+      "description": "Temp. sensors swap",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Temperature sensors"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature sensors",
+        "sensors swap"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "74 Temp. sensors swap"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "75",
+      "description": "Temperature slope exceeds the limit",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature slope",
+        "limit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "4.5 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "75 Temperature slope exceeds the limit"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "94",
+      "description": "Gas valve wiring",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "94 Gas valve wiring"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "95",
+      "description": "Frequent loss of flame",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "loss of flame",
+        "flame"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "95 Frequent loss of flame"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "99",
+      "description": "Internal error",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "internal error"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "99 Internal error"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "100",
+      "description": "General Lockout not listed",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "lockout",
+        "general lockout"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "100 General Lockout not listed"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "101",
+      "description": "Ignition failure",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition failure",
+        "ignition"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "101 Ignition failure"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "102",
+      "description": "Short circuit of the iono electrode",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "iono electrode"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "iono electrode",
+        "short circuit",
+        "electrode"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "102 Short circuit of the iono electrode"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "103",
+      "description": "Gas valve open delay",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Gas valve"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "delay"
+      ],
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "103 Gas valve open delay"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "HCM: 8",
+      "description": "Low water pression",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "By pressing reset icon, start the automatic filling, up to a pressure of 1.2 bar (60 sec. max).",
+        "If the system does not reach 1.2 bar pressure within 60 seconds, activate the fill manually by pressing LOAD icon."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Display shows \".5 bar\" pressure."
+      ],
+      "related_components": [],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "low water pressure",
+        "filling",
+        "pressure"
+      ],
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": "4.5.1 - FILL THE SYSTEM",
+          "table_title": null,
+          "source_quote": "HCM: 8 Low water pression"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "diagnostic_codes": [
+    {
+      "code": "792",
+      "description": "CH: Modulation max",
+      "value_range": "0-100",
+      "default_value": "100",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "3.12.3 - ADAPTATION OF THE POWER TO THE HEATING SYSTEM",
+          "table_title": null,
+          "source_quote": "Act on parameter 792 (par. 4.2 SE parameters list) to achieve the value corresponding to the desired output."
+        },
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": "Parametri",
+          "source_quote": "792 CH: Modulation max 100 0 100"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "778",
+      "description": "Burner: Gas type selection",
+      "value_range": "0-1",
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "4.3 - ADAPTATION TO THE USE OF OTHER GAS",
+          "table_title": "PARAMETER par 4.2",
+          "source_quote": "CODE 778 GAS NAT. 0 PROPANE 1"
+        },
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "778 Burner: 0 0 1 0: G20 - 1 GPL"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "816",
+      "description": "Modbus address",
+      "value_range": null,
+      "default_value": "8",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "4.2 - PROGRAMMING OF THE OPERATION PARAMETERS",
+          "table_title": null,
+          "source_quote": "816: Modbus address 8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "376",
+      "description": "Input#1: Function",
+      "value_range": null,
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "4.2 - PROGRAMMING OF THE OPERATION PARAMETERS",
+          "table_title": null,
+          "source_quote": "376: Input#1: Function 0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "599",
+      "description": "Factory setting",
+      "value_range": null,
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "4.2 - PROGRAMMING OF THE OPERATION PARAMETERS",
+          "table_title": null,
+          "source_quote": "599: Factory setting 0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "803",
+      "description": "Enabled services",
+      "value_range": "0-3",
+      "default_value": "3",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": "Parametri",
+          "source_quote": "803 Enabled Services: 3 0 3 0: CH & DHW disabled 1: CH enabled 2: DHW enabled 3: CH & DHW enabled"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "322",
+      "description": "Pump: Post-circulation",
+      "value_range": "0-1",
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": "Parametri",
+          "source_quote": "322 Pump: Post-circulation 0 0 1 0: overrun 5 min. 1: continuous"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "787",
+      "description": "Outdoor minimum temp °C",
+      "value_range": "0-30",
+      "default_value": "10",
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": "Parametri",
+          "source_quote": "787 Outdoor minimum temp °C 10 0 30"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "789",
+      "description": "Night shift °C",
+      "value_range": "0/5-30",
+      "default_value": "0",
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": "Parametri",
+          "source_quote": "789 Night shift °C 0 0/5 30 0: T.A. 5+30: Value night shift"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "807",
+      "description": "ACS Preheating",
+      "value_range": "0-1",
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": "Parametri",
+          "source_quote": "807 ACS Preheating 0 0 1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "31",
+      "description": "CH#1 Minimum Set point",
+      "value_range": "20-45",
+      "default_value": "30",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": "Parametri",
+          "source_quote": "31 CH#1 Minimum Set point 30 20 45"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "39",
+      "description": "CH#1 Max. Set point",
+      "value_range": "50-85",
+      "default_value": "85",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "39 CH#1 Max. Set point 85 50 85"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "650",
+      "description": "ACS Set point Min.",
+      "value_range": "25-45",
+      "default_value": "35",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "650 ACS Set point Min. 35 25 45"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "385",
+      "description": "ACS Set point Max.",
+      "value_range": "50-65",
+      "default_value": "60",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "385 ACS Set point Max. 60 50 65"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "48",
+      "description": "CH#1 Set point °C",
+      "value_range": "20-85",
+      "default_value": "70",
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "48 CH#1 Set point °C 70 20 85"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "832",
+      "description": "Access Code (#)",
+      "value_range": "0-199",
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "832 Access Code (#) 0 0 199"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "341",
+      "description": "Pump: Minimum Control",
+      "value_range": "0-100",
+      "default_value": null,
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "341 Pump: Minimum Control -- 0 100"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "313",
+      "description": "Pump: Maximum Control",
+      "value_range": "20-100",
+      "default_value": null,
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "313 Pump: Maximum Control -- 20 100"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "312",
+      "description": "Pump: temp. diff. °C",
+      "value_range": "5-20",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "312 Pump: temp. diff. °C -- 5 20"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "775",
+      "description": "Valvola Dev.: Stroke time sec.",
+      "value_range": "0-6",
+      "default_value": null,
+      "unit": "sec",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "775 Valvola Dev.: Stroke time sec. -- 0 6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "309",
+      "description": "System configurations",
+      "value_range": "1-4",
+      "default_value": "1",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "309 System configurations: 1 1 4 1: W1 2: W2 3: W3 4: W4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "771",
+      "description": "Sensore pressione Acqua",
+      "value_range": "0-1",
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "771 Sensore pressione Acqua 0 0 1 0: assente - 1 presente"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "896",
+      "description": "Unit",
+      "value_range": "0-1",
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "896 Unit: 0 0 1 0 = °C / bar 1 = °Fahrenheit / PSI"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "806",
+      "description": "Frequency",
+      "value_range": "0-1",
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "806 Frequency: 0 0 1 0: 50 Hz - 1: 60 Hz"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "848",
+      "description": "Dis. local setpoint",
+      "value_range": "0-1",
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "848 Dis. local setpoint: 0 0 1 0: bidirectional 1: Only by remote"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "483",
+      "description": "Temp. different. Max",
+      "value_range": "0-1",
+      "default_value": "1",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "483 Temp. different. Max 1 0 1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "672",
+      "description": "Min modulation CH/ACS",
+      "value_range": "0-100",
+      "default_value": "0",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "672 Min modulation CH/ACS 0 0 100"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "2590",
+      "description": "Burner power",
+      "value_range": "0-9",
+      "default_value": null,
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "2590 Burner power -- 0 9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "619",
+      "description": "Modulation and ignition",
+      "value_range": "10-70",
+      "default_value": null,
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "619 Modulation and ignition -- 10 70"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "346",
+      "description": "Fan min speed",
+      "value_range": "0-199",
+      "default_value": "0",
+      "unit": "rpm",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "346 Fan min speed (*) 0 199 (*) (x 10 + 750) = rpm x 100"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "319",
+      "description": "fan max speed",
+      "value_range": "0-199",
+      "default_value": "0",
+      "unit": "rpm",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "319 fan max speed (**) 0 199 (**) (x 10 + 5000) = rpm x 100"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "353",
+      "description": "Regolation Proportional",
+      "value_range": "1-20",
+      "default_value": "1",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "353 Regolation Proportional 1 20"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "354",
+      "description": "Regolation Integrative",
+      "value_range": "1-20",
+      "default_value": "1",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "354 Regolation Integrative -- 1 20"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "478",
+      "description": "Regolation Derivative",
+      "value_range": "1-20",
+      "default_value": "1",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "478 Regolation Derivative -- 1 20"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "323",
+      "description": "ACS PID:Proportional",
+      "value_range": "1-20",
+      "default_value": "1",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "323 ACS PID:Proportional -- 1 20"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "324",
+      "description": "ACS PID:Integrative",
+      "value_range": "1-50",
+      "default_value": "1",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "324 ACS PID:Integrative -- 1 50"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "325",
+      "description": "ACS PID:Derivative",
+      "value_range": "1-20",
+      "default_value": "1",
+      "unit": null,
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "325 ACS PID:Derivative -- 1 20"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "status_codes": [
+    {
+      "code": "11 - SR (*)",
+      "meaning": "Temperature < 6 °C",
+      "operating_mode": "Antifreeze ON",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "1.8 - BOILER ANTIFREEZE PROTECTION (*)",
+          "table_title": "ANTIFREEZE FUNCTION",
+          "source_quote": "1 ON ON < 6 °C ON Burner and Pump ON until T > 14°C"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "11 - SR (*)",
+      "meaning": "Temperature < 2 °C",
+      "operating_mode": "Antifreeze ON",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "1.8 - BOILER ANTIFREEZE PROTECTION (*)",
+          "table_title": "ANTIFREEZE FUNCTION",
+          "source_quote": "2 OFF ON < 2 °C ON Only when both the power supplies are ON: Burner and Pump OFF until T > 5°C When T > 5°C then Burner and Pump ON until T > 14°C."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "safety_warnings": [
+    {
+      "warning_type": "unknown",
+      "topic": "General safety",
+      "text": "The instruction booklet is an integral and essential part of the product and must be kept by the user. Read the warnings contained in this instruction booklet carefully as they provide important guidelines regarding installation, use and maintenance safety. Keep the booklet with care for further consultation.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "The instruction booklet is an integral and essential part of the product and must be kept by the user. Read the warnings contained in this instruction booklet carefully as they provide important guidelines regarding installation, use and maintenance safety. Keep the booklet with care for further consultation."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Installation and maintenance",
+      "text": "Installation and maintenance must be performed in compliance with the standards in force according to the instructions of the manufacturer, up to standard and by personnel qualified and certified in compliance with law. Systems for the production of domestic hot water MUST be constructed entirely with compliant materials.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Installation and maintenance must be performed in compliance with the standards in force according to the instructions of the manufacturer, up to standard and by personnel qualified and certified in compliance with law. Systems for the production of domestic hot water MUST be constructed entirely with compliant materials."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Qualified personnel",
+      "text": "By professionally qualified personnel we mean: personnel with specific technical skill in the field of heating system components for civil use, domestic hot water production and maintenance. Personnel must have the qualifications provided for by current legislation.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "By professionally qualified personnel we mean: personnel with specific technical skill in the field of heating system components for civil use, domestic hot water production and maintenance. Personnel must have the qualifications provided for by current legislation."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Incorrect installation or maintenance",
+      "text": "Incorrect installation or improper maintenance can cause damage to persons, animals or objects for which the manufacturer is not responsible.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Incorrect installation or improper maintenance can cause damage to persons, animals or objects for which the manufacturer is not responsible."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Cleaning or maintenance",
+      "text": "Before performing any cleaning or maintenance, disconnect the appliance from the energy mains by acting on the switch of the system and/or through the specific cut-off devices.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Before performing any cleaning or maintenance, disconnect the appliance from the energy mains by acting on the switch of the system and/or through the specific cut-off devices."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Appliance failure/malfunctioning",
+      "text": "In the event of failure and/or malfunctioning of the appliance, switch it off and do not try to repair it or intervene on it directly. Contact only personnel qualified in compliance with law.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "In the event of failure and/or malfunctioning of the appliance, switch it off and do not try to repair it or intervene on it directly. Contact only personnel qualified in compliance with law."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Repairs",
+      "text": "Any repairs must be performed solely by personnel authorised by Unical AG S.p.A., using original spare parts only. Failure to comply with the above can compromise the safety of the boiler and void the warranty.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Any repairs must be performed solely by personnel authorised by Unical AG S.p.A., using original spare parts only. Failure to comply with the above can compromise the safety of the boiler and void the warranty."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Yearly maintenance",
+      "text": "To guarantee appliance efficiency and its correct operation, yearly maintenance must be performed by qualified personnel.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "To guarantee appliance efficiency and its correct operation, yearly maintenance must be performed by qualified personnel."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Disposal/Non-use",
+      "text": "Should you decide not to use the appliance, parts entailing potential sources of hazard must be made safe.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Should you decide not to use the appliance, parts entailing potential sources of hazard must be made safe."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Commissioning after non-use",
+      "text": "Before commissioning an appliance that has not been used, wash the domestic hot water production system, making the water flow until it has been fully replaced.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Before commissioning an appliance that has not been used, wash the domestic hot water production system, making the water flow until it has been fully replaced."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Manual transfer",
+      "text": "Should the appliance be sold or transferred to a new owner or if you move and leave the appliance, always make sure that the instruction booklet accompanies it in order to be consulted for the new owner and/or installer.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Should the appliance be sold or transferred to a new owner or if you move and leave the appliance, always make sure that the instruction booklet accompanies it in order to be consulted for the new owner and/or installer."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Original accessories",
+      "text": "Only original accessories must be used for all appliances with optionals or kits (including electric).",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Only original accessories must be used for all appliances with optionals or kits (including electric)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Intake/exhaust ducts",
+      "text": "Do not obstruct the terminals of the intake/exhaust ducts.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Do not obstruct the terminals of the intake/exhaust ducts."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Serious danger to safety and health",
+      "text": "Serious danger to safety and health",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.2 - SYMBOLS USED IN THE MANUAL",
+          "table_title": null,
+          "source_quote": "DANGER! Serious danger to safety and health"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Dangerous situation for the product and the environment",
+      "text": "Possible dangerous situation for the product and the environment",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.2 - SYMBOLS USED IN THE MANUAL",
+          "table_title": null,
+          "source_quote": "ATTENTION! Possible dangerous situation for the product and the environment"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Improper use of appliance",
+      "text": "The boiler has been built according to the current level of engineering and acknowledged technical safety rules. Nonetheless, if improperly used, dangers could arise for the safety and life of the user and other persons or damage to the equipment or other objects. The appliance is designed to work in heating systems, with hot water circulation, for the production of domestic hot water. Any other use is considered improper. Unical AG S.p.A. will not be held liable for any damage resulting from improper use. Use according to the intended purposes also includes strict compliance with the instructions in this manual.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.3 - APPROPRIATE USE OF APPLIANCE",
+          "table_title": null,
+          "source_quote": "The boiler has been built according to the current level of engineering and acknowledged technical safety rules. Nonetheless, if improperly used, dangers could arise for the safety and life of the user and other persons or damage to the equipment or other objects. The appliance is designed to work in heating systems, with hot water circulation, for the production of domestic hot water. Any other use is considered improper. Unical AG S.p.A. will not be held liable for any damage resulting from improper use. Use according to the intended purposes also includes strict compliance with the instructions in this manual."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Manufacturer liability",
+      "text": "The manufacturer will not be held liable in the event of damage to persons, animals or objects resulting from failure to comply with the instructions contained in this manual.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.4 - INFORMATION PROVIDED TO THE USER",
+          "table_title": null,
+          "source_quote": "The manufacturer will not be held liable in the event of damage to persons, animals or objects resulting from failure to comply with the instructions contained in this manual."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Children and boiler use",
+      "text": "The boiler cannot be used by children. The boiler can be used by adults and only after having carefully read the user's manual. Children should be supervised to ensure that they do not play or tamper with the device.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "ATTENTION! The boiler cannot be used by children. The boiler can be used by adults and only after having carefully read the user's manual. Children should be supervised to ensure that they do not play or tamper with the device."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Installation, adjustment and maintenance",
+      "text": "The appliance must be installed, adjusted and maintained by professionally qualified personnel, in compliance with the standards and provisions in force. Incorrect installation can cause damage to persons, animals and objects for which the manufacturer cannot be held responsible.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "ATTENTION! The appliance must be installed, adjusted and maintained by professionally qualified personnel, in compliance with the standards and provisions in force. Incorrect installation can cause damage to persons, animals and objects for which the manufacturer cannot be held responsible."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Maintenance or repairs",
+      "text": "NEVER attempt performing maintenance or repairs on the boiler on your own initiative. Any work must be done by professionally qualified personnel. We recommend stipulating a maintenance contract. Insufficient or irregular maintenance can jeopardise the operating safety of the appliance and cause damage to persons, animals and objects for which the manufacturer cannot be held responsible.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "DANGER! NEVER attempt performing maintenance or repairs on the boiler on your own initiative. Any work must be done by professionally qualified personnel. We recommend stipulating a maintenance contract. Insufficient or irregular maintenance can jeopardise the operating safety of the appliance and cause damage to persons, animals and objects for which the manufacturer cannot be held responsible."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Modifying appliance parts",
+      "text": "Do not modify the following parts: the boiler, the gas, air, water and electricity supply lines, the flue gas pipe, the safety valve and the exhaust pipe, the construction parts which affect the operating safety of the appliance",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "Changes to the parts connected to the appliance (once the appliance installation is complete) Do not modify the following parts: the boiler the gas, air, water and electricity supply lines the flue gas pipe, the safety valve and the exhaust pipe the construction parts which affect the operating safety of the appliance"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Tools for fittings",
+      "text": "To tighten or loosen the screwed fittings, use only appropriate fixed spanners. Incompliant use and/or inappropriate tools can cause damage (e.g. water or gas leakage).",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "Attention! To tighten or loosen the screwed fittings, use only appropriate fixed spanners. Incompliant use and/or inappropriate tools can cause damage (e.g. water or gas leakage)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Propane gas-fired appliances",
+      "text": "Make sure that the gas tank has been deaerated before installing the appliance. For state-of-the-art tank venting, contact the LPG supplier or person qualified in compliance with the law requirement. If the tank has not been professionally deaerated, ignition problems could arise. In that case, contact the supplier of the LPG tank.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "ATTENTION! Indications for propane gas-fired appliances Make sure that the gas tank has been deaerated before installing the appliance. For state-of-the-art tank venting, contact the LPG supplier or person qualified in compliance with the law requirement. If the tank has not been professionally deaerated, ignition problems could arise. In that case, contact the supplier of the LPG tank."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "maintenance_tasks": [],
+  "search_terms": [],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.0,
+    "review_required": true,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+      "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+    ]
+  }
+}

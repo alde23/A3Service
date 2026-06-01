@@ -1,0 +1,5091 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Vaillant",
+    "product_family": "ecoTEC",
+    "model_names": [
+      "ecoTEC plus 612",
+      "ecoTEC plus 615",
+      "ecoTEC plus 618",
+      "ecoTEC plus 624",
+      "ecoTEC plus 630",
+      "ecoTEC plus 637",
+      "ecoTEC plus 824",
+      "ecoTEC plus 831",
+      "ecoTEC plus 837",
+      "ecoTEC pro 28",
+      "ecoTEC pro 24"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "Instructions for installation and servicing ecoTEC",
+    "document_code": "839592_12",
+    "publication_date": "062010",
+    "language": "en",
+    "region": "GB, IE",
+    "source_file": "vaillant_vaillant-ecotec-plus-612_boiler-manual_ecotec-installation-and-servicing1.pdf",
+    "file_hash": "a1e42c14cd8320d14299fd971fb380d60b73b5d78be8c40389f64d6b6bd46d40"
+  },
+  "technical_specs": [
+    {
+      "parameter": "CH heat output range (80 °C flow/60 °C return)",
+      "value": "6.7-19.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "CH heat output range 80 °C flow/60 °C return 6.7-19.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (80 °C flow/60 °C return)",
+      "value": "8.7-24.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 831",
+        "ecoTEC pro 28"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "CH heat output range 80 °C flow/60 °C return 8.7-24.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (80 °C flow/60 °C return)",
+      "value": "12.0-28.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "CH heat output range 80 °C flow/60 °C return 12.0-28.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (60 °C flow/40 °C return)",
+      "value": "6.9-19.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "CH heat output range 60 °C flow/40 °C return 6.9-19.6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (60 °C flow/40 °C return)",
+      "value": "9.0-24.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 831"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "CH heat output range 60 °C flow/40 °C return 9.0-24.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (60 °C flow/40 °C return)",
+      "value": "9.3-24.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC pro 28"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "CH heat output range 60 °C flow/40 °C return 9.3-24.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (60 °C flow/40 °C return)",
+      "value": "12.3-28.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "CH heat output range 60 °C flow/40 °C return 12.3-28.9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (50 °C flow/30 °C return)",
+      "value": "7.1-20.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "CH heat output range 50 °C flow/30 °C return 7.1-20.2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (50 °C flow/30 °C return)",
+      "value": "9.2-25.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 831"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "CH heat output range 50 °C flow/30 °C return 9.2-25.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (50 °C flow/30 °C return)",
+      "value": "9.625.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC pro 28"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "CH heat output range 50 °C flow/30 °C return 9.625.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (50 °C flow/30 °C return)",
+      "value": "12.7-29.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "CH heat output range 50 °C flow/30 °C return 12.7-29.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (40 °C flow/30 °C return)",
+      "value": "7.2-20.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "CH heat output range 40 °C flow/30 °C return 7.2 -20.6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (40 °C flow/30 °C return)",
+      "value": "9.4-26.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 831"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "CH heat output range 40 °C flow/30 °C return 9.4-26.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (40 °C flow/30 °C return)",
+      "value": "9.8-26.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC pro 28"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "CH heat output range 40 °C flow/30 °C return 9.8-26.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (40 °C flow/30 °C return)",
+      "value": "12.9-30.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "CH heat output range 40 °C flow/30 °C return 12.9-30.3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum DHW output",
+      "value": "23.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Maximum DHW output 23.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum DHW output",
+      "value": "31.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 831"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Maximum DHW output 31.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum DHW output",
+      "value": "37",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Maximum DHW output 37"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum DHW output",
+      "value": "28.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC pro 28"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Maximum DHW output 28.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum output for heating",
+      "value": "19",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Maximum output for heating 19"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum output for heating",
+      "value": "24",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 831",
+        "ecoTEC pro 28"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Maximum output for heating 24"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum output for heating",
+      "value": "28",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Maximum output for heating 28"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum output",
+      "value": "6.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Minimum output 6.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum output",
+      "value": "8.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 831"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Minimum output 8.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum output",
+      "value": "9.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC pro 28"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Minimum output 9.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum output",
+      "value": "12",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Minimum output 12"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Category",
+      "value": "II2H3P",
+      "unit": null,
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Category II2H3P"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Category II2H3P"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SEDBUK Band",
+      "value": "A",
+      "unit": null,
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "SEDBUK Band A"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "SEDBUK Band A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "SAP Seasonal Efficiency",
+      "value": "91.1",
+      "unit": "%",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "SAP Seasonal Efficiency 91.1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "SAP Seasonal Efficiency",
+      "value": "91.2",
+      "unit": "%",
+      "applies_to_models": [
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "SAP Seasonal Efficiency 91.2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Inlet gas working pressure required (G20, natural gas)",
+      "value": "20",
+      "unit": "mbar",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Inlet gas working pressure required (G20, natural gas) 20"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Inlet gas working pressure required (G20, natural gas) 20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Inlet gas working pressure required (G31, Propane)",
+      "value": "37",
+      "unit": "mbar",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Inlet gas working pressure required (G31, Propane) 37"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Inlet gas working pressure required (G31, Propane) 37"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G20)",
+      "value": "2.5",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Connected load (if needed, related to stored charge/ water heating) at 15 °C and 1013 mbar G20: 2.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G20)",
+      "value": "3.3",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "ecoTEC plus 831"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Connected load (if needed, related to stored charge/ water heating) at 15 °C and 1013 mbar G20: 3.3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G20)",
+      "value": "4.0",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Connected load (if needed, related to stored charge/ water heating) at 15 °C and 1013 mbar G20: 4.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G20)",
+      "value": "3.0",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "ecoTEC pro 28"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Connected load (if needed, related to stored charge/ water heating) at 15 °C and 1013 mbar G20: 3.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G31)",
+      "value": "1.82",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "G31: 1.82"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G31)",
+      "value": "2.46",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "ecoTEC plus 831"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "G31: 2.46"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G31)",
+      "value": "2.94",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "G31: 2.94"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G31)",
+      "value": "2.22",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "ecoTEC pro 28"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "G31: 2.22"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return)",
+      "value": "3.2",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return) 3.2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return)",
+      "value": "4.2",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC plus 831"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return) 4.2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return)",
+      "value": "5.7",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return) 5.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return)",
+      "value": "4.4",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC pro 28"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return) 4.4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at maximum thermal load (80 °C flow/60 °C return)",
+      "value": "10.7",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "at maximum thermal load (80 °C flow/60 °C return) 10.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at maximum thermal load (80 °C flow/60 °C return)",
+      "value": "14.4",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC plus 831"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "at maximum thermal load (80 °C flow/60 °C return) 14.4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at maximum thermal load (80 °C flow/60 °C return)",
+      "value": "17.1",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "at maximum thermal load (80 °C flow/60 °C return) 17.1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at maximum thermal load (80 °C flow/60 °C return)",
+      "value": "13.0",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC pro 28"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "at maximum thermal load (80 °C flow/60 °C return) 13.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust temperature at minimum thermal load (40 °C flow/30 °C return)",
+      "value": "40",
+      "unit": "°C",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Exhaust temperature at minimum thermal load (40 °C flow/30 °C return) 40"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Exhaust temperature at minimum thermal load (40 °C flow/30 °C return) 40"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust temperature at maximum thermal load (80 °C flow/60 °C return)",
+      "value": "74",
+      "unit": "°C",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "at maximum thermal load (80 °C flow/60 °C return) 74"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust temperature at maximum thermal load (80 °C flow/60 °C return)",
+      "value": "83",
+      "unit": "°C",
+      "applies_to_models": [
+        "ecoTEC plus 831"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "at maximum thermal load (80 °C flow/60 °C return) 83"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust temperature at maximum thermal load (80 °C flow/60 °C return)",
+      "value": "70",
+      "unit": "°C",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "at maximum thermal load (80 °C flow/60 °C return) 70"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx class",
+      "value": "5",
+      "unit": null,
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "NOx class 5"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "NOx class 5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Protection class",
+      "value": "IP X4D",
+      "unit": null,
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Protection class IP X4D"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Protection class IP X4D"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. flow temperature",
+      "value": "85",
+      "unit": "°C",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "max. flow temperature 85"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "max. flow temperature 85"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustable flow temperature",
+      "value": "30-85",
+      "unit": "°C",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Adjustable flow temperature 30-85"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Adjustable flow temperature 30-85"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustable flow temperature",
+      "value": "40-85",
+      "unit": "°C",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Adjustable flow temperature 40-85"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Default setting: max. flow temperature",
+      "value": "75",
+      "unit": "°C",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Default setting: max. 75°C"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Default setting: max. 75°C"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum CH system pressure",
+      "value": "3.0",
+      "unit": "bar",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Maximum CH system pressure 3.0"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Maximum CH system pressure 3.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (ΔT=20 K)",
+      "value": "817",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Circulation water volume (AT=20 K) 817"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (ΔT=20 K)",
+      "value": "1032",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 831",
+        "ecoTEC pro 28"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Circulation water volume (AT=20 K) 1032"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (ΔT=20 K)",
+      "value": "1204",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Circulation water volume (AT=20 K) 1204"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensation volume at 50 °C flow/30 °C return heating",
+      "value": "1.8",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Approx. condensation volume at 50 °C flow/30 °C return heating 1.8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensation volume at 50 °C flow/30 °C return heating",
+      "value": "2.2",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 831",
+        "ecoTEC pro 28"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Approx. condensation volume at 50 °C flow/30 °C return heating 2.2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensation volume at 50 °C flow/30 °C return heating",
+      "value": "2.9",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Approx. condensation volume at 50 °C flow/30 °C return heating 2.9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump delivery height",
+      "value": "250",
+      "unit": "mbar",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Pump delivery height 250"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum DHW flow rate",
+      "value": "1.5",
+      "unit": "l/min",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Minimum DHW flow rate 1.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW flow rate ΔT=35 K rise",
+      "value": "9.4",
+      "unit": "l/min",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "DHW flow rate AT=35 K rise 9.4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW flow rate ΔT=35 K rise",
+      "value": "12.7",
+      "unit": "l/min",
+      "applies_to_models": [
+        "ecoTEC plus 831"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "DHW flow rate AT=35 K rise 12.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW flow rate ΔT=35 K rise",
+      "value": "15.2",
+      "unit": "l/min",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "DHW flow rate AT=35 K rise 15.2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW flow rate ΔT=35 K rise",
+      "value": "11.5",
+      "unit": "l/min",
+      "applies_to_models": [
+        "ecoTEC pro 28"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "DHW flow rate AT=35 K rise 11.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Appr. DHW flow rate at factory set temp. rise (ΔT=42 K)",
+      "value": "7.9",
+      "unit": "l/min",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Appr. DHW flow rate at factory set temp. rise (AT=42 K) 7.9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Appr. DHW flow rate at factory set temp. rise (ΔT=42 K)",
+      "value": "10.6",
+      "unit": "l/min",
+      "applies_to_models": [
+        "ecoTEC plus 831"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Appr. DHW flow rate at factory set temp. rise (AT=42 K) 10.6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Appr. DHW flow rate at factory set temp. rise (ΔT=42 K)",
+      "value": "12.6",
+      "unit": "l/min",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Appr. DHW flow rate at factory set temp. rise (AT=42 K) 12.6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Appr. DHW flow rate at factory set temp. rise (ΔT=42 K)",
+      "value": "9.6",
+      "unit": "l/min",
+      "applies_to_models": [
+        "ecoTEC pro 28"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Appr. DHW flow rate at factory set temp. rise (AT=42 K) 9.6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Permitted DHW overpressure",
+      "value": "10",
+      "unit": "bar",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Permitted DHW overpressure 10"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Mains water pressure required for max. flow rate",
+      "value": "0.5",
+      "unit": "bar",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Mains water pressure required for max. flow rate 0.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Mains water pressure required for max. flow rate",
+      "value": "0.75",
+      "unit": "bar",
+      "applies_to_models": [
+        "ecoTEC plus 831",
+        "ecoTEC plus 837"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Mains water pressure required for max. flow rate 0.75"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Mains water pressure required for min. flow rate",
+      "value": "0.15",
+      "unit": "bar",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Mains water pressure required for min. flow rate 0.15"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Hot water discharge temperature range",
+      "value": "35-65",
+      "unit": "°C",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Hot water discharge temperature range 35-65"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust flue",
+      "value": "60/100",
+      "unit": "mm",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Exhaust flue 60/100"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Exhaust flue 60/100"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue categories",
+      "value": "C13, C33, C43, C53, C83, B23, B33",
+      "unit": null,
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Flue categories C13, C33, C43, C53, C83, B23, B33"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Flue categories C13, C33, C43, C53, C83, B23, B33"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion vessel pre-charge pressure",
+      "value": "0.75",
+      "unit": "bar",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "10 I expansion vessel pre-charge pressure 0.75"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "10 I expansion vessel pre-charge pressure 0.75"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Connections heating flow/return",
+      "value": "22",
+      "unit": "mm",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Connections heating flow/return 22"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Connections heating flow/return 22"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas inlet",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Gas inlet 15"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Gas inlet 15"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas inlet",
+      "value": "22",
+      "unit": "mm",
+      "applies_to_models": [
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC plus 637"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Gas inlet 22"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Gas inlet 22"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure relief discharge pipework (min.)",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Pressure relief discharge pipework (min.) 15"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Pressure relief discharge pipework (min.) 15"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate drain (min. internal drain)",
+      "value": "19",
+      "unit": "mm",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Condensate drain (min. internal drain) 19"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Condensate drain (min. internal drain) 19"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimensions (H x W x D)",
+      "value": "720 x 440 x 335",
+      "unit": "mm",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Dimensions (H x W x D) 720 x 440 x 335"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Dimensions (H x W x D) 720 x 440 x 335"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimensions (H x W x D)",
+      "value": "720 x 440 x 403",
+      "unit": "mm",
+      "applies_to_models": [
+        "ecoTEC plus 837",
+        "ecoTEC plus 637"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Dimensions (H x W x D) 720 x 440 x 403"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Dimensions (H x W x D) 720 x 440 x 403"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimensions (H x W x D)",
+      "value": "720 x 440 x 369",
+      "unit": "mm",
+      "applies_to_models": [
+        "ecoTEC plus 630"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Dimensions (H x W x D) 720 x 440 x 369"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight (boiler only)",
+      "value": "35",
+      "unit": "kg",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Weight (boiler only) 35"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Weight (boiler only) 35"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight (boiler only)",
+      "value": "38",
+      "unit": "kg",
+      "applies_to_models": [
+        "ecoTEC plus 831",
+        "ecoTEC pro 28",
+        "ecoTEC plus 630"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Weight (boiler only) 38"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Weight (boiler only) 38"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight (boiler only)",
+      "value": "44.5",
+      "unit": "kg",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Weight (boiler only) 44,5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight (boiler only)",
+      "value": "37",
+      "unit": "kg",
+      "applies_to_models": [
+        "ecoTEC plus 624"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Weight (boiler only) 37"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight (boiler only)",
+      "value": "40",
+      "unit": "kg",
+      "applies_to_models": [
+        "ecoTEC plus 637"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Weight (boiler only) 40"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Primary water content",
+      "value": "1.9",
+      "unit": "l",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Primary water content 1.9"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Primary water content 1.9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Primary water content",
+      "value": "2.3",
+      "unit": "l",
+      "applies_to_models": [
+        "ecoTEC plus 831",
+        "ecoTEC pro 28",
+        "ecoTEC plus 630"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Primary water content 2.3"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Primary water content 2.3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Primary water content",
+      "value": "2.5",
+      "unit": "l",
+      "applies_to_models": [
+        "ecoTEC plus 837",
+        "ecoTEC plus 637"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Primary water content 2.5"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Primary water content 2.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Primary water content",
+      "value": "2.1",
+      "unit": "l",
+      "applies_to_models": [
+        "ecoTEC plus 624"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Primary water content 2.1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical supply voltage",
+      "value": "230/50",
+      "unit": "V~/Hz",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Electrical supply voltage 230/50"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Electrical supply voltage 230/50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Internal fuse (slow) main voltage",
+      "value": "2",
+      "unit": "A",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC plus 831",
+        "ecoTEC plus 837",
+        "ecoTEC pro 24",
+        "ecoTEC pro 28",
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Internal fuse (slow) main voltage 2"
+        },
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Internal fuse (slow) main voltage 2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power input",
+      "value": "110",
+      "unit": "W",
+      "applies_to_models": [
+        "ecoTEC plus 824",
+        "ecoTEC pro 24"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Power input 110"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Power input",
+      "value": "125",
+      "unit": "W",
+      "applies_to_models": [
+        "ecoTEC plus 831"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Power input 125"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Power input",
+      "value": "140",
+      "unit": "W",
+      "applies_to_models": [
+        "ecoTEC plus 837"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Power input 140"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Power input",
+      "value": "115",
+      "unit": "W",
+      "applies_to_models": [
+        "ecoTEC pro 28"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "2.1 Technical data",
+          "table_title": "Table 2.1 Technical data ecoTEC combination boiler",
+          "source_quote": "Power input 115"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (80 °C flow/60 °C return)",
+      "value": "4.9-12.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 612"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "CH heat output range 80 °C flow/60 °C return 4.9-12.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (80 °C flow/60 °C return)",
+      "value": "4.9-15.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 615"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "CH heat output range 80 °C flow/60 °C return 4.9-15.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (80 °C flow/60 °C return)",
+      "value": "6.7-18.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 618"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "CH heat output range 80 °C flow/60 °C return 6.7-18.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (80 °C flow/60 °C return)",
+      "value": "8.724.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 624"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "CH heat output range 80 °C flow/60 °C return 8.724.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (80 °C flow/60 °C return)",
+      "value": "10.0-30.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 630"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "CH heat output range 80 °C flow/60 °C return 10.0 30.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (80 °C flow/60 °C return)",
+      "value": "12.037.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 637"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "CH heat output range 80 °C flow/60 °C return 12.037.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (60 °C flow/40 °C return)",
+      "value": "5.1-12.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 612"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "60 °C flow/40 °C return 5.1-12.3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (60 °C flow/40 °C return)",
+      "value": "5.1-15.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 615"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "60 °C flow/40 °C return 5.1-15.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (60 °C flow/40 °C return)",
+      "value": "6.9-18.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 618"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "60 °C flow/40 °C return 6.9-18.6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (60 °C flow/40 °C return)",
+      "value": "9.0-24.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 624"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "60 °C flow/40 °C return 9.0-24.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (60 °C flow/40 °C return)",
+      "value": "10.3-30.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 630"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "60 °C flow/40 °C return 10.3-30.9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (60 °C flow/40 °C return)",
+      "value": "12.338.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 637"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "60 °C flow/40 °C return 12.338.2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (50 °C flow/30 °C return)",
+      "value": "5.2-12.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 612"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "50 °C flow/30 °C return 5.2-12.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (50 °C flow/30 °C return)",
+      "value": "5.2-15.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 615"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "50 °C flow/30 °C return 5.2-15.9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (50 °C flow/30 °C return)",
+      "value": "7.1-19.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 618"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "50 °C flow/30 °C return 7.1-19.1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (50 °C flow/30 °C return)",
+      "value": "9.2-25.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 624"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "50 °C flow/30 °C return 9.2 - 25.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (50 °C flow/30 °C return)",
+      "value": "10.6-31.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 630"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "50 °C flow/30 °C return 10.6-31.8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (50 °C flow/30 °C return)",
+      "value": "12.739.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 637"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "50 °C flow/30 °C return 12.739.3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (40 °C flow/30 °C return)",
+      "value": "5.3-12.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 612"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "40 °C flow/30 °C return 5.3-12.9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (40 °C flow/30 °C return)",
+      "value": "5.3-16.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 615"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "40 °C flow/30 °C return 5.3-16.2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (40 °C flow/30 °C return)",
+      "value": "7.2-19.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 618"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "40 °C flow/30 °C return 7.2 -19.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (40 °C flow/30 °C return)",
+      "value": "9.4-26.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 624"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "40 °C flow/30 °C return 9.4 - 26.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (40 °C flow/30 °C return)",
+      "value": "10.8-32.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 630"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "40 °C flow/30 °C return 10.8-32.4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (40 °C flow/30 °C return)",
+      "value": "12.940.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "ecoTEC plus 637"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "40 °C flow/30 °C return 12.940.1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G20)",
+      "value": "1.3",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "ecoTEC plus 612"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Connected load (if needed, related to stored charge/water heating) at 15 °C and 1013 mbar G20: 1.3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G20)",
+      "value": "1.6",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "ecoTEC plus 615"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Connected load (if needed, related to stored charge/water heating) at 15 °C and 1013 mbar G20: 1.6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G20)",
+      "value": "1.9",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "ecoTEC plus 618"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Connected load (if needed, related to stored charge/water heating) at 15 °C and 1013 mbar G20: 1.9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G20)",
+      "value": "2.6",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "ecoTEC plus 624"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Connected load (if needed, related to stored charge/water heating) at 15 °C and 1013 mbar G20: 2.6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G20)",
+      "value": "3.2",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "ecoTEC plus 630"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Connected load (if needed, related to stored charge/water heating) at 15 °C and 1013 mbar G20: 3.2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G20)",
+      "value": "4.0",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "ecoTEC plus 637"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Connected load (if needed, related to stored charge/water heating) at 15 °C and 1013 mbar G20: 4.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G31)",
+      "value": "0.95",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "ecoTEC plus 612"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "G31: 0.95"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G31)",
+      "value": "1.19",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "ecoTEC plus 615"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "G31: 1.19"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G31)",
+      "value": "1.43",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "ecoTEC plus 618"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "G31: 1.43"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G31)",
+      "value": "1.90",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "ecoTEC plus 624"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "G31: 1.90"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G31)",
+      "value": "2.38",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "ecoTEC plus 630"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "G31: 2.38"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Connected load (G31)",
+      "value": "2.94",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "ecoTEC plus 637"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "G31: 2.94"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return)",
+      "value": "2.3",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC plus 612",
+        "ecoTEC plus 615"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return 2.3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return)",
+      "value": "3.2",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC plus 618"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return 3.2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return)",
+      "value": "4.2",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC plus 624"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return 4.2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return)",
+      "value": "4.8",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC plus 630"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return 4.8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return)",
+      "value": "5.7",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC plus 637"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Exhaust mass rate at minimum thermal load (40 °C flow/30 °C return 5.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at maximum thermal load (80 °C flow/60 °C return)",
+      "value": "5.6",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC plus 612"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "at maximum thermal load (80 °C flow/60 °C return) 5.6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at maximum thermal load (80 °C flow/60 °C return)",
+      "value": "7.0",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC plus 615"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "at maximum thermal load (80 °C flow/60 °C return) 7.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at maximum thermal load (80 °C flow/60 °C return)",
+      "value": "8.3",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC plus 618"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "at maximum thermal load (80 °C flow/60 °C return) 8.3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at maximum thermal load (80 °C flow/60 °C return)",
+      "value": "11.2",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC plus 624"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "at maximum thermal load (80 °C flow/60 °C return) 11.2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at maximum thermal load (80 °C flow/60 °C return)",
+      "value": "13.9",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC plus 630"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "at maximum thermal load (80 °C flow/60 °C return) 13.9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust mass rate at maximum thermal load (80 °C flow/60 °C return)",
+      "value": "17.1",
+      "unit": "g/s",
+      "applies_to_models": [
+        "ecoTEC plus 637"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "at maximum thermal load (80 °C flow/60 °C return) 17.1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust temperature at maximum thermal load (80 °C flow/60 °C return)",
+      "value": "70",
+      "unit": "°C",
+      "applies_to_models": [
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "at maximum thermal load (80 °C flow/60 °C return) 70"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust temperature at maximum thermal load (80 °C flow/60 °C return)",
+      "value": "75",
+      "unit": "°C",
+      "applies_to_models": [
+        "ecoTEC plus 630"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "at maximum thermal load (80 °C flow/60 °C return) 75"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Exhaust temperature at maximum thermal load (80 °C flow/60 °C return)",
+      "value": "83",
+      "unit": "°C",
+      "applies_to_models": [
+        "ecoTEC plus 637"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "at maximum thermal load (80 °C flow/60 °C return) 83"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (ΔΤ=20 Κ)",
+      "value": "516",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 612"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Circulation water volume (ΔΤ=20 Κ) 516"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (ΔΤ=20 Κ)",
+      "value": "645",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 615"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Circulation water volume (ΔΤ=20 Κ) 645"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (ΔΤ=20 Κ)",
+      "value": "774",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 618"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Circulation water volume (ΔΤ=20 Κ) 774"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (ΔΤ=20 Κ)",
+      "value": "1032",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 624"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Circulation water volume (ΔΤ=20 Κ) 1032"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (ΔΤ=20 Κ)",
+      "value": "1290",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 630"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Circulation water volume (ΔΤ=20 Κ) 1290"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation water volume (ΔΤ=20 Κ)",
+      "value": "1591",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 637"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Circulation water volume (ΔΤ=20 Κ) 1591"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensation volume at 50 °C flow/30 °C return heating",
+      "value": "1.1",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 612"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Approx. condensation volume at 50 °C flow/30 °C return heating 1.1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensation volume at 50 °C flow/30 °C return heating",
+      "value": "1.4",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 615"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Approx. condensation volume at 50 °C flow/30 °C return heating 1.4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensation volume at 50 °C flow/30 °C return heating",
+      "value": "1.7",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 618"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Approx. condensation volume at 50 °C flow/30 °C return heating 1.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensation volume at 50 °C flow/30 °C return heating",
+      "value": "2.2",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 624"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Approx. condensation volume at 50 °C flow/30 °C return heating 2.2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensation volume at 50 °C flow/30 °C return heating",
+      "value": "2.7",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 630"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Approx. condensation volume at 50 °C flow/30 °C return heating 2.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Approx. condensation volume at 50 °C flow/30 °C return heating",
+      "value": "3.8",
+      "unit": "l/h",
+      "applies_to_models": [
+        "ecoTEC plus 637"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Approx. condensation volume at 50 °C flow/30 °C return heating 3.8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump delivery height",
+      "value": "250",
+      "unit": "mbar",
+      "applies_to_models": [
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Pump delivery height 250"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump delivery height",
+      "value": "150",
+      "unit": "mbar",
+      "applies_to_models": [
+        "ecoTEC plus 637"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Pump delivery height 150"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Adjustable storage target value (15 °C at left stop, spare adjusting range 40 - 70 °C)",
+      "value": "15-70",
+      "unit": "°C",
+      "applies_to_models": [
+        "ecoTEC plus 612",
+        "ecoTEC plus 615",
+        "ecoTEC plus 618",
+        "ecoTEC plus 624",
+        "ecoTEC plus 630",
+        "ecoTEC plus 637"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Adjustable storage target value (15 °C at left stop, spare adjusting range 40 - 70 °C 15-70"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Power input",
+      "value": "100",
+      "unit": "W",
+      "applies_to_models": [
+        "ecoTEC plus 612",
+        "ecoTEC plus 618",
+        "ecoTEC plus 630"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Power input 100"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Power input",
+      "value": "110",
+      "unit": "W",
+      "applies_to_models": [
+        "ecoTEC plus 615",
+        "ecoTEC plus 624"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Power input 110"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Power input",
+      "value": "140",
+      "unit": "W",
+      "applies_to_models": [
+        "ecoTEC plus 637"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Technical data",
+          "table_title": "Table 2.2 Technical data ecoTEC system boiler",
+          "source_quote": "Power input 140"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "F.0",
+      "description": "Flow-NTC open circuit",
+      "possible_causes": [
+        "NTC broken",
+        "NTC cable broken",
+        "Defective connection at NTC",
+        "Defective connection at electronics"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "flow",
+        "open circuit",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F. 0 Flow-NTC open circuit NTC broken, NTC cable broken, Defective connection at NTC, Defective connection at electronics"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.1",
+      "description": "Return-NTC open circuit",
+      "possible_causes": [
+        "NTC broken",
+        "NTC cable broken",
+        "Defective connection at NTC",
+        "Defective connection at electronics"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "return",
+        "open circuit",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F. 1 Return-NTC open circuit NTC broken, NTC cable broken, Defective connection at NTC, Defective connection at electronics"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.10",
+      "description": "Flow NTC short circuit",
+      "possible_causes": [
+        "NTC defective",
+        "short circuit in cable harness",
+        "cable/casing shortcut"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "flow",
+        "short circuit",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.10 Flow NTC short circuit NTC defective, short circuit in cable harness, cable/casing shortcut"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.11",
+      "description": "Return NTC short circuit",
+      "possible_causes": [
+        "NTC defective",
+        "short circuit in cable harness",
+        "cable/casing shortcut"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "return",
+        "short circuit",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.11 Return NTC short circuit NTC defective, short circuit in cable harness, cable/casing shortcut"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.13",
+      "description": "Tank NTC short circuit",
+      "possible_causes": [
+        "NTC defective",
+        "short circuit in cable harness",
+        "cable/casing shortcut"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "tank",
+        "short circuit",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.13 Tank NTC short circuit NTC defective, short circuit in cable harness, cable/casing shortcut"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.20",
+      "description": "Safety temperature limiter by NTC activated",
+      "possible_causes": [
+        "Flow-NTC not correctly thermal-connected or defective",
+        "appliance does not shut down"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flow-NTC"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "safety limiter",
+        "temperature"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.20 Safety temperature limiter by NTC activated Flow-NTC not correctly thermal-connected or defective; appliance does not shut down"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.22",
+      "description": "Dry fire",
+      "possible_causes": [
+        "Too little water in the appliance",
+        "water pressure sensor defective",
+        "cable to pump or water sensor defective",
+        "pump blocked or defective",
+        "pump output too low"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "water pressure sensor",
+        "pump"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "dry fire",
+        "water pressure",
+        "pump"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.22 Dry fire Too little water in the appliance, water pressure sensor defective, cable to pump or water sensor defective, pump blocked or defective, pump output too low"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.23",
+      "description": "Water shortage, temperature difference between flow and return NTC too large",
+      "possible_causes": [
+        "Pump blocked or defective",
+        "pump output too low",
+        "flow and return NTC interchanged"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "flow NTC",
+        "return NTC"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water shortage",
+        "temperature difference",
+        "pump",
+        "NTC"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.23 Water shortage, temperature difference between flow and return NTC too large Pump blocked or defective, pump output too low, flow and return NTC interchanged"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.24",
+      "description": "Water shortage, temperature rise too quick",
+      "possible_causes": [
+        "Pump blocked",
+        "insufficient pump output",
+        "air in appliance",
+        "water pressure too low"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water shortage",
+        "temperature rise",
+        "pump",
+        "air"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.24 Water shortage, temperature rise too quick Pump blocked, insufficient pump output, air in appliance, water pressure too low"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.25",
+      "description": "Interruption in the compact thermal module cable harness",
+      "possible_causes": [
+        "Compact thermal module cable harness defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "thermal module"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "cable harness",
+        "thermal module"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.25 Interruption in the compact thermal module cable harness Compact thermal module cable harness defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.27",
+      "description": "Incorrect sensing of flame",
+      "possible_causes": [
+        "Flame detector defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flame detector"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.27 Incorrect sensing of flame Flame detector defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.28",
+      "description": "Appliance does not start: Attempts to ignite during start failed",
+      "possible_causes": [
+        "Faults in the gas supply such as: Gas meter or gas pressure detector defective",
+        "Air in gas",
+        "Gas flow pressure too low",
+        "Fire protection tap has disengaged",
+        "Faults in the gas valve",
+        "wrong gas setting",
+        "igniter (ignition transformer, ignition cable, ignition plug) defective",
+        "ionisation current stopped (cable, electrode)",
+        "faulty earthing in appliance",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas meter",
+        "gas pressure detector",
+        "gas valve",
+        "igniter",
+        "ignition transformer",
+        "ignition cable",
+        "ignition plug",
+        "ionisation electrode",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition",
+        "start-up",
+        "gas supply",
+        "flame"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.28 Appliance does not start: Attempts to ignite during start failed Faults in the gas supply such as: Gas meter or gas pressure detector defective, Air in gas, Gas flow pressure too low, Fire protection tap has disengaged, Faults in the gas valve, wrong gas setting, igniter (ignition transformer, ignition cable, ignition plug) defective, ionisation current stopped (cable, electrode), faulty earthing in appliance, electronics defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.29",
+      "description": "Flame goes off during operation and subsequent ignition attempts failed",
+      "possible_causes": [
+        "Gas supply temporarily stopped",
+        "faulty earthing of appliance"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas supply"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame",
+        "ignition",
+        "gas supply",
+        "earthing"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.29 Flame goes off during operation and subsequent ignition attempts failed Gas supply temporarily stopped, faulty earthing of appliance"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.32",
+      "description": "Fan speed variation",
+      "possible_causes": [
+        "Fan blocked",
+        "plug not inserted correctly on fan",
+        "hall sensor defective",
+        "fault in cable harness",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "fan",
+        "hall sensor",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan",
+        "speed",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.32 Fan speed variation Fan blocked, plug not inserted correctly on fan, hall sensor defective, fault in cable harness, electronics defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.49",
+      "description": "eBUS undervoltage",
+      "possible_causes": [
+        "Short circuit on eBUS",
+        "overload on eBUS",
+        "two power sources on eBUS with different polarity"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "eBUS"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "eBUS",
+        "undervoltage",
+        "short circuit",
+        "overload"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.49 eBUS undervoltage Short circuit on eBUS, overload on eBUS or two power sources on eBUS with different polarity"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.61",
+      "description": "Gas-valve control defective",
+      "possible_causes": [
+        "Short circuit/earth (ground) leak in cable harness to gas valves",
+        "gas valve assembly defective (earth/ground leak from coils)",
+        "electronic control system defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "control",
+        "short circuit",
+        "earth leak"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.61 Gas-valve control defective Short circuit/earth (ground) leak in cable harness to gas valves, gas valve assembly defective (earth/ground leak from coils), electronic control system defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.62",
+      "description": "Gas valve shutoff delay",
+      "possible_causes": [
+        "Gas valve leaking",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "shutoff",
+        "delay"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.62 Gas valve shutoff delay Gas valve leaking, electronics defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.63",
+      "description": "EEPROM error",
+      "possible_causes": [
+        "Electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "EEPROM",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.63 EEPROM error Electronics defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.64",
+      "description": "Electronics/NTC fault",
+      "possible_causes": [
+        "Short-circuit in flow or return NTC or electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "electronics",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.64 Electronics/NTC fault Short-circuit in flow or return NTC or electronics defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.65",
+      "description": "Electronics temperature too high",
+      "possible_causes": [
+        "Electronics too hot due to external effect",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "electronics",
+        "temperature"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.65 Electronics temperature too high Electronics too hot due to external effect, electronics defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.67",
+      "description": "Flame detector input signal is outside the limits (0 or 5 V)",
+      "possible_causes": [
+        "Electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flame detector",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame detector",
+        "input signal"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.67 Flame detector input signal is outside the limits (0 or 5 V) Electronics defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.70",
+      "description": "No valid DSN in display and/or mainboard",
+      "possible_causes": [
+        "Spare part failure display and maiboard interchanged at same time and device specific number not adjusted"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "display",
+        "mainboard"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "DSN",
+        "display",
+        "mainboard",
+        "replacement"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.70 No valid DSN in display and/or mainboard Spare part failure display and maiboard interchanged at same time and device specific number not adjusted"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.71",
+      "description": "Flow NTC reports constant value (stuck at)",
+      "possible_causes": [
+        "Flow NTC is defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flow NTC"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "flow",
+        "stuck"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.71 Flow NTC reports constant value (stuck at) Flow NTC is defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.72",
+      "description": "Flow and/or return NTC fault",
+      "possible_causes": [
+        "Flow and/or return NTC is defective (tolerances too big)"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flow NTC",
+        "Return NTC"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "flow",
+        "return"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.72 Flow and/or return NTC fault Flow and/or return NTC is defective (tolerances too big)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.73",
+      "description": "Water pressure sensor signal out of range (too low)",
+      "possible_causes": [
+        "Cable to water pressure sensor is broken or has a short-circuit at 0 V or water pressure sensor defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "water pressure sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water pressure",
+        "sensor",
+        "low"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.73 Water pressure sensor signal out of range (too low) Cable to water pressure sensor is broken or has a short-circuit at 0 V or water pressure sensor defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.74",
+      "description": "Water pressure sensor signal out of range (too high)",
+      "possible_causes": [
+        "Cable to water pressure sensor has a short-circuit at 5 V/24 V or internal fault in water pressure sensor"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "water pressure sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water pressure",
+        "sensor",
+        "high"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.74 Water pressure sensor signal out of range (too high) Cable to water pressure sensor has a short-circuit at 5 V/24 V or internal fault in water pressure sensor"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.75",
+      "description": "No pressure rise was detected on turning on the pump",
+      "possible_causes": [
+        "Water pressure sensor or/and pump defective",
+        "Air in the heating system",
+        "quick bleeder defective",
+        "Too little water in appliance; check adjustable by-pass",
+        "connect external expension vessel to return"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "water pressure sensor",
+        "pump",
+        "bleeder",
+        "expansion vessel"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure rise",
+        "pump",
+        "water",
+        "air"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.75 No pressure rise was detected on turning on the pump Water pressure sensor or/and pump defective, Air in the heating system, quick bleeder defective, Too little water in appliance; check adjustable by-pass; connect external expension vessel to return"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.76",
+      "description": "Overheating protection on primary heat exchanger triggered",
+      "possible_causes": [
+        "Cable or cable connection of fuse in the primary heat exchanger defective",
+        "primary heat exchanger defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "primary heat exchanger",
+        "fuse"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "overheating",
+        "heat exchanger",
+        "fuse"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.76 Overheating protection on primary heat exchanger triggered Cable or cable connection of fuse in the primary heat exchanger defective, or primary heat exchanger defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.77",
+      "description": "condensate pump or feedback of accessorie blocks heating",
+      "possible_causes": [
+        "condensate pump defective or flume flap feedback triggered"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "condensate pump",
+        "flume flap"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "condensate pump",
+        "heating",
+        "flume flap"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.77 condensate pump or feedback of accessorie blocks heating condensate pump defective or flume flap feedback triggered"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.78",
+      "description": "wrong configuration with accessory",
+      "possible_causes": [
+        "link box VR65 connected to combination boiler"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "accessory",
+        "link box VR65"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "configuration",
+        "accessory",
+        "VR65"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "F.78 wrong configuration with accessory link box VR65 connected to combination boiler"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "con",
+      "description": "no communication to mainboard",
+      "possible_causes": [
+        "connection error display mainboard"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "mainboard"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "mainboard"
+      ],
+      "source_refs": [
+        {
+          "page_number": 53,
+          "section_title": "8 Troubleshooting",
+          "table_title": "Table 8.4 Error codes",
+          "source_quote": "con no communication to mainboard connection error display mainboard"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "diagnostic_codes": [
+    {
+      "code": "d.0",
+      "description": "Heating part load",
+      "value_range": "Adjustable heating part load in kW (factory setting: max. output)",
+      "default_value": "max. output",
+      "unit": "kW",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "8.1.2 Diagnostic codes",
+          "table_title": "Table 8.2 Diagnostic codes of the first diagnostic level",
+          "source_quote": "d. 0 Heating part load Adjustable heating part load in kW (factory setting: max. output)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.1",
+      "description": "Water pump over run time for heating mode",
+      "value_range": "2-60 min",
+      "default_value": "5 min",
+      "unit": "min",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "8.1.2 Diagnostic codes",
+          "table_title": "Table 8.2 Diagnostic codes of the first diagnostic level",
+          "source_quote": "d. 1 Water pump over run time for heating mode 2-60 min (factory setting: 5 min)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.2",
+      "description": "Max. burner anti cycling period at 20 °C Flow temperature",
+      "value_range": "2-60 min",
+      "default_value": "20 min",
+      "unit": "min",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "8.1.2 Diagnostic codes",
+          "table_title": "Table 8.2 Diagnostic codes of the first diagnostic level",
+          "source_quote": "d. 2 Max. burner anti cycling period at 20 °C Flow temperature 2-60 min (factory setting: 20 min)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.3",
+      "description": "Hot water flow temperature reading (combination boiler only)",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "8.1.2 Diagnostic codes",
+          "table_title": "Table 8.2 Diagnostic codes of the first diagnostic level",
+          "source_quote": "d. 3 Hot water flow temperature reading (combination boiler only) in °C"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.4",
+      "description": "Current temperature for warm start sensor (combination boilers only) / Current storage tank sensor (system boilers only)",
+      "value_range": null,
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "8.1.2 Diagnostic codes",
+          "table_title": "Table 8.2 Diagnostic codes of the first diagnostic level",
+          "source_quote": "d. 4 Current temperature for warm start sensor (combination boilers only) in °C Current storage tank sensor (system boilers only)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.5",
+      "description": "Flow temperature target value or return target value when return regulation is set.",
+      "value_range": "in °C, max. the value set in d.71 Limited by the eBUS controller (if an eBUS controller is connected)",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "8.1.2 Diagnostic codes",
+          "table_title": "Table 8.2 Diagnostic codes of the first diagnostic level",
+          "source_quote": "d. 5 Flow temperature target value or return target value when return regulation is set. in °C, max. the value set in d.71 Limited by the eBUS controller (if an eBUS controller is connected)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.6",
+      "description": "Hot water temperature target value",
+      "value_range": "35 to 65",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "8.1.2 Diagnostic codes",
+          "table_title": "Table 8.2 Diagnostic codes of the first diagnostic level",
+          "source_quote": "d. 6 Hot water temperature target value in °C, 35 to 65°C"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.7",
+      "description": "Warm start temperature target value (ecoTEC plus combination boiler only) / Storage temperature target value (system boiler only)",
+      "value_range": "40 to 65 °C (Warm start) / 15°C for left stop, then 40 to 70°C (Storage)",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "8.1.2 Diagnostic codes",
+          "table_title": "Table 8.2 Diagnostic codes of the first diagnostic level",
+          "source_quote": "d. 7 Warm start temperature target value (ecoTEC plus combination boiler only) in °C, 40 to 65 °C Storage temperature target value (system boiler only) in °C, 15°C for left stop, then 40 to 70°C"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.8",
+      "description": "External controls heat demand (Clamp 3-4)",
+      "value_range": "0 = open (no heat request) / 1 = closed (heat request)",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "8.1.2 Diagnostic codes",
+          "table_title": "Table 8.2 Diagnostic codes of the first diagnostic level",
+          "source_quote": "d. 8 External controls heat demand (Clamp 3-4) 0 = open (no heat request) 1 = closed (heat request)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.9",
+      "description": "Flow target temperature from external analogue regulator to terminal 7-8-9/eBUS",
+      "value_range": "in °C, minimum from ext. eBUS target value and target value terminal 7",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "8.1.2 Diagnostic codes",
+          "table_title": "Table 8.2 Diagnostic codes of the first diagnostic level",
+          "source_quote": "d. 9 Flow target temperature from external analogue regulator to terminal 7-8-9/eBUS in °C, minimum from ext. eBUS target value and target value terminal 7"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.10",
+      "description": "Status internal heating pump",
+      "value_range": "1 = on, O = off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "8.1.2 Diagnostic codes",
+          "table_title": "Table 8.2 Diagnostic codes of the first diagnostic level",
+          "source_quote": "d.10 Status internal heating pump 1 = on, O = off"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.11",
+      "description": "Status external heating pump",
+      "value_range": "1 to 100 = on, O = off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "8.1.2 Diagnostic codes",
+          "table_title": "Table 8.2 Diagnostic codes of the first diagnostic level",
+          "source_quote": "d.11 Status external heating pump 1 to 100 = on, O = off"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.12",
+      "description": "Cylinder charging pump (via accessory module)",
+      "value_range": "1 to 100 = on, O = off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "8.1.2 Diagnostic codes",
+          "table_title": "Table 8.2 Diagnostic codes of the first diagnostic level",
+          "source_quote": "d.12 Cylinder charging pump (via accessory module) 1 to 100 on, O = off"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.13",
+      "description": "Hot water circulation pump (via accessory module)",
+      "value_range": "1 to 100 = on, O = off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "8.1.2 Diagnostic codes",
+          "table_title": "Table 8.2 Diagnostic codes of the first diagnostic level",
+          "source_quote": "d.13 Hot water circulation pump (via accessory module) 1 to 100 = on, O = off"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.22",
+      "description": "Hot water demand",
+      "value_range": "1 = on, O = off",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  ],
+  "status_codes": [],
+  "safety_warnings": [],
+  "maintenance_tasks": [],
+  "search_terms": [],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.0,
+    "review_required": true,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+      "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+    ]
+  }
+}

@@ -92,6 +92,7 @@ export class ServiceLogService {
         jobId: dto.jobId,
         summary: dto.summary,
         notes: dto.notes,
+        skippedValidation: dto.skippedValidation ?? false,
         laborEntries: laborEntries.length
           ? { create: laborEntries.map((entry) => this.toLaborEntryCreate(entry)) }
           : undefined,
@@ -118,13 +119,6 @@ export class ServiceLogService {
       throw new NotFoundException('Service log not found');
     }
 
-    if (
-      existing.status === ServiceLogStatus.SYNCED &&
-      (dto.laborEntries !== undefined || dto.consumedParts !== undefined)
-    ) {
-      throw new BadRequestException('Synced logs cannot change labor or parts');
-    }
-
     const laborEntries = dto.laborEntries ?? null;
     const consumedParts = dto.consumedParts ?? null;
 
@@ -142,6 +136,7 @@ export class ServiceLogService {
         data: {
           summary: dto.summary,
           notes: dto.notes,
+          skippedValidation: dto.skippedValidation ?? undefined,
         },
       });
 
@@ -251,6 +246,7 @@ export class ServiceLogService {
           jobId: dto.jobId,
           summary: dto.summary,
           notes: dto.notes,
+          skippedValidation: dto.skippedValidation ?? undefined,
           status: ServiceLogStatus.SYNCED,
           syncedAt: now,
         },
@@ -259,6 +255,7 @@ export class ServiceLogService {
           jobId: dto.jobId,
           summary: dto.summary,
           notes: dto.notes,
+          skippedValidation: dto.skippedValidation ?? false,
           status: ServiceLogStatus.SYNCED,
           syncedAt: now,
         },
@@ -426,6 +423,7 @@ export class ServiceLogService {
       status: log.status,
       summary: log.summary ?? null,
       notes: log.notes ?? null,
+      skippedValidation: log.skippedValidation ?? false,
       syncedAt: log.syncedAt ? log.syncedAt.toISOString() : null,
       createdAt: log.createdAt.toISOString(),
       updatedAt: log.updatedAt.toISOString(),

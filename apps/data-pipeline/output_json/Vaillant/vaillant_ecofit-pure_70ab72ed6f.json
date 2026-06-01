@@ -1,0 +1,3941 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Vaillant",
+    "product_family": "ecoFIT pure",
+    "model_names": [
+      "ecoFIT pure 825",
+      "ecoFIT pure 835",
+      "VUW 256/6-3 (H-GB)",
+      "VUW 306/6-3 (H-GB)",
+      "VUW 356/6-3 (H-GB)"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "Installation and maintenance instructions ecoFIT pure",
+    "document_code": "0020230531_01",
+    "publication_date": "25.10.2016",
+    "language": "en",
+    "region": "GB, IE",
+    "source_file": "vaillant_vaillant-ecofitpure-825_boiler-manual_ecofit-pure-combi-install-manual-876620.pdf",
+    "file_hash": "70ab72ed6f12267b9a0b46f185ece575793434eda2cbb2788e7dda4a3f35926d"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Max. flow temperature adjustment range (default setting: 75 \bC)",
+      "value": "10 ... 80",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Heating",
+          "table_title": null,
+          "source_quote": "Max. flow temperature adjustment range (default setting: 75 \bC) 10 ... 80 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum permissible pressure",
+      "value": "0.3",
+      "unit": "MPa",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Heating",
+          "table_title": null,
+          "source_quote": "Maximum permissible pressure 0.3 MPa (3.0 bar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum permissible pressure",
+      "value": "3.0",
+      "unit": "bar",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Heating",
+          "table_title": null,
+          "source_quote": "Maximum permissible pressure 0.3 MPa (3.0 bar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (\bT = 20 K)",
+      "value": "788",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (\bT = 20 K) 788 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (\bT = 20 K)",
+      "value": "1,094",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (\bT = 20 K) 1,094 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (\bT = 20 K)",
+      "value": "1,102",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (\bT = 20 K) 1,102 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (\bT = 30 K)",
+      "value": "525",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (\bT = 30 K) 525 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (\bT = 30 K)",
+      "value": "729",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (\bT = 30 K) 729 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal water flow (\bT = 30 K)",
+      "value": "876",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Heating",
+          "table_title": null,
+          "source_quote": "Nominal water flow (\bT = 30 K) 876 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 \bC",
+      "value": "1.84",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Heating",
+          "table_title": null,
+          "source_quote": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 \bC 1.84 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 \bC",
+      "value": "2.55",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Heating",
+          "table_title": null,
+          "source_quote": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 \bC 2.55 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 \bC",
+      "value": "2.57",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Heating",
+          "table_title": null,
+          "source_quote": "Approximate value for the condensate volume (pH value between 3.5 and 4.0) at 50/30 \bC 2.57 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "AP heating at nominal flow (\bT = 20 K)",
+      "value": "0.025",
+      "unit": "MPa",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Heating",
+          "table_title": null,
+          "source_quote": "AP heating at nominal flow (\bT = 20 K) 0.025 MPa (0.250 bar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "AP heating at nominal flow (\bT = 20 K)",
+      "value": "0.250",
+      "unit": "bar",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Heating",
+          "table_title": null,
+          "source_quote": "AP heating at nominal flow (\bT = 20 K) 0.025 MPa (0.250 bar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "AP heating at nominal flow (\bT = 20 K)",
+      "value": "0.018",
+      "unit": "MPa",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Heating",
+          "table_title": null,
+          "source_quote": "AP heating at nominal flow (\bT = 20 K) 0.018 MPa (0.180 bar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "AP heating at nominal flow (\bT = 20 K)",
+      "value": "0.180",
+      "unit": "bar",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Heating",
+          "table_title": null,
+          "source_quote": "AP heating at nominal flow (\bT = 20 K) 0.018 MPa (0.180 bar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output",
+      "value": "18",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Maximum heat output 18 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat output",
+      "value": "25",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Maximum heat output 25 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 40/30 \bC",
+      "value": "5.4... 19.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 40/30 \bC 5.4... 19.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 40/30 \bC",
+      "value": "6.5 ... 27.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 40/30 \bC 6.5 ... 27.0 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 40/30 \bC",
+      "value": "7.6 ... 27.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 40/30 \bC 7.6 ... 27.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 50/30 \bC",
+      "value": "5.3 ... 19.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 50/30 \bC 5.3 ... 19.1 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 50/30 \bC",
+      "value": "6.3 ... 26.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 50/30 \bC 6.3 ... 26.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 50/30 \bC",
+      "value": "7.5 ... 26.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 50/30 \bC 7.5 ... 26.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 80/60 \bC",
+      "value": "5.0 ... 18.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 80/60 \bC 5.0 ... 18.3 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 80/60 \bC",
+      "value": "6.1 ... 25.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 80/60 \bC 6.1 ... 25.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective output range (P) at 80/60 \bC",
+      "value": "7.2 ... 25.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Effective output range (P) at 80/60 \bC 7.2 ... 25.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot water heat output (P)",
+      "value": "5.0 ... 25.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Domestic hot water heat output (P) 5.0 ... 25.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot water heat output (P)",
+      "value": "6.0 ... 30.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Domestic hot water heat output (P) 6.0 ... 30.0 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Domestic hot water heat output (P)",
+      "value": "7.1 ... 35.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Domestic hot water heat output (P) 7.1 ... 35.0 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input - heating (Q max.)",
+      "value": "18.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Maximum heat input - heating (Q max.) 18.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input - heating (Q max.)",
+      "value": "25.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Maximum heat input - heating (Q max.) 25.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input - heating (Q max.)",
+      "value": "25.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Maximum heat input - heating (Q max.) 25.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input - heating (Q min.)",
+      "value": "5.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Minimum heat input - heating (Q min.) 5.1 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input - heating (Q min.)",
+      "value": "6.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Minimum heat input - heating (Q min.) 6.1 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input - heating (Q min.)",
+      "value": "7.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Minimum heat input - heating (Q min.) 7.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input - hot water (Q max.)",
+      "value": "25.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Maximum heat input - hot water (Q max.) 25.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input - hot water (Q max.)",
+      "value": "30.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Maximum heat input - hot water (Q max.) 30.6 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heat input - hot water (Q max.)",
+      "value": "35.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Maximum heat input - hot water (Q max.) 35.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input \b hot water (Q min.)",
+      "value": "5.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Minimum heat input \b hot water (Q min.) 5.1 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input \b hot water (Q min.)",
+      "value": "6.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Minimum heat input \b hot water (Q min.) 6.1 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heat input \b hot water (Q min.)",
+      "value": "7.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b G20 power/loading G20",
+          "table_title": null,
+          "source_quote": "Minimum heat input \b hot water (Q min.) 7.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Specific flow rate (D) (\bT = 30 K) in accordance with EN 13203",
+      "value": "12.1",
+      "unit": "l/min",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Specific flow rate (D) (\bT = 30 K) in accordance with EN 13203 12.1 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Specific flow rate (D) (\bT = 30 K) in accordance with EN 13203",
+      "value": "14.2",
+      "unit": "l/min",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Specific flow rate (D) (\bT = 30 K) in accordance with EN 13203 14.2 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Specific flow rate (D) (\bT = 30 K) in accordance with EN 13203",
+      "value": "16.5",
+      "unit": "l/min",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Specific flow rate (D) (\bT = 30 K) in accordance with EN 13203 16.5 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Continuous flow rate (\bT = 35 K)",
+      "value": "622",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Continuous flow rate (\bT = 35 K) 622 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Continuous flow rate (\bT = 35 K)",
+      "value": "730",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Continuous flow rate (\bT = 35 K) 730 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Continuous flow rate (\bT = 35 K)",
+      "value": "849",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Continuous flow rate (\bT = 35 K) 849 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Specific flow rate (\bT = 35 \bK)",
+      "value": "10.4",
+      "unit": "l/min",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Specific flow rate (\bT = 35 \bK) 10.4 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Specific flow rate (\bT = 35 \bK)",
+      "value": "12.2",
+      "unit": "l/min",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Specific flow rate (\bT = 35 \bK) 12.2 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Specific flow rate (\bT = 35 \bK)",
+      "value": "14.1",
+      "unit": "l/min",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Specific flow rate (\bT = 35 \bK) 14.1 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum permissible pressure",
+      "value": "0.03",
+      "unit": "MPa",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Minimum permissible pressure 0.03 MPa (0.30 bar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum permissible pressure",
+      "value": "0.30",
+      "unit": "bar",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Minimum permissible pressure 0.03 MPa (0.30 bar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum permissible pressure",
+      "value": "1",
+      "unit": "MPa",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Maximum permissible pressure 1 MPa (10 bar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum permissible pressure",
+      "value": "10",
+      "unit": "bar",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Maximum permissible pressure 1 MPa (10 bar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Recommended pressure",
+      "value": "0.2",
+      "unit": "MPa",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Recommended pressure 0.2 MPa (2.0 bar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Recommended pressure",
+      "value": "2.0",
+      "unit": "bar",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Recommended pressure 0.2 MPa (2.0 bar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Temperature range",
+      "value": "35 ... 60",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Temperature range 35 ... 60 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow rate limiter",
+      "value": "8.0",
+      "unit": "l/min",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Flow rate limiter 8.0 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow rate limiter",
+      "value": "10.0",
+      "unit": "l/min",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Flow rate limiter 10.0 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flow rate limiter",
+      "value": "12.0",
+      "unit": "l/min",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b Domestic hot water",
+          "table_title": null,
+          "source_quote": "Flow rate limiter 12.0 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas category",
+      "value": "I2H",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b General",
+          "table_title": null,
+          "source_quote": "Gas category I2H"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Diameter of the gas pipe",
+      "value": "1/2",
+      "unit": "inch",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 45,
+          "section_title": "Technical data \b General",
+          "table_title": null,
+          "source_quote": "Diameter of the gas pipe 1/2 inch"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Diameter of the heating connections",
+      "value": "3/4",
+      "unit": "inch",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Diameter of the heating connections 3/4 inch"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion relief valve connector (min.)",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Expansion relief valve connector (min.) 15 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate drain pipework (min.)",
+      "value": "21.5",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Condensate drain pipework (min.) 21.5 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas supply pressure",
+      "value": "2.0",
+      "unit": "kPa",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "G20 gas supply pressure 2.0 kPa (20.0 mbar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas supply pressure",
+      "value": "20.0",
+      "unit": "mbar",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "G20 gas supply pressure 2.0 kPa (20.0 mbar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P max. - hot water (G20)",
+      "value": "2.7",
+      "unit": "m\b/h",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Gas flow at P max. - hot water (G20) 2.7 m\b/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P max. - hot water (G20)",
+      "value": "3.2",
+      "unit": "m\b/h",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Gas flow at P max. - hot water (G20) 3.2 m\b/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P max. - hot water (G20)",
+      "value": "3.8",
+      "unit": "m\b/h",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Gas flow at P max. - hot water (G20) 3.8 m\b/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P max. - heating mode (G20)",
+      "value": "1.9",
+      "unit": "m\b/h",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Gas flow at P max. - heating mode (G20) 1.9 m\b/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P max. - heating mode (G20)",
+      "value": "2.7",
+      "unit": "m\b/h",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Gas flow at P max. - heating mode (G20) 2.7 m\b/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P min. (G20)",
+      "value": "0.540",
+      "unit": "m\b/h",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Gas flow at P min. (G20) 0.540 m\b/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P min. (G20)",
+      "value": "0.646",
+      "unit": "m\b/h",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Gas flow at P min. (G20) 0.646 m\b/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow at P min. (G20)",
+      "value": "0.762",
+      "unit": "m\b/h",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Gas flow at P min. (G20) 0.762 m\b/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CE number (PIN)",
+      "value": "CE-0063CP3646",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "certifications",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "CE number (PIN) CE-0063CP3646"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass rate in heating mode at P min.",
+      "value": "2.34",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas mass rate in heating mode at P min. 2.34 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass rate in heating mode at P min.",
+      "value": "2.80",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas mass rate in heating mode at P min. 2.80 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass rate in heating mode at P min.",
+      "value": "3.30",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas mass rate in heating mode at P min. 3.30 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass rate in heating mode at P max.",
+      "value": "8.3",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas mass rate in heating mode at P max. 8.3 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass rate in heating mode at P max.",
+      "value": "11.5",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas mass rate in heating mode at P max. 11.5 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass rate in heating mode at P max.",
+      "value": "11.6",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas mass rate in heating mode at P max. 11.6 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass rate in hot water handling mode at P max.",
+      "value": "11.6",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas mass rate in hot water handling mode at P max. 11.6 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass rate in hot water handling mode at P max.",
+      "value": "13.8",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas mass rate in hot water handling mode at P max. 13.8 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass rate in hot water handling mode at P max.",
+      "value": "16.1",
+      "unit": "g/s",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas mass rate in hot water handling mode at P max. 16.1 g/s"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (80 \bC/60 \bC) at P max.",
+      "value": "60",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas temperature (80 \bC/60 \bC) at P max. 60 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (80 \bC/60 \bC) at P max.",
+      "value": "77",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas temperature (80 \bC/60 \bC) at P max. 77 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (80 \bC/60 \bC) at P max.",
+      "value": "82",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas temperature (80 \bC/60 \bC) at P max. 82 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (80 \bC/60 \bC) at P min.",
+      "value": "55",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas temperature (80 \bC/60 \bC) at P min. 55 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (80 \bC/60 \bC) at P min.",
+      "value": "56",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas temperature (80 \bC/60 \bC) at P min. 56 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (50 \bC/30 \bC) at P max.",
+      "value": "51",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas temperature (50 \bC/30 \bC) at P max. 51 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (50 \bC/30 \bC) at P max.",
+      "value": "62",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas temperature (50 \bC/30 \bC) at P max. 62 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (50 \bC/30 \bC) at P max.",
+      "value": "56",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas temperature (50 \bC/30 \bC) at P max. 56 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (50 \bC/30 \bC) at P min.",
+      "value": "34",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas temperature (50 \bC/30 \bC) at P min. 34 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (50 \bC/30 \bC) at P min.",
+      "value": "35",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas temperature (50 \bC/30 \bC) at P min. 35 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature (50 \bC/30 \bC) at P min.",
+      "value": "37",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas temperature (50 \bC/30 \bC) at P min. 37 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature in hot water handling mode",
+      "value": "69",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas temperature in hot water handling mode 69 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature in hot water handling mode",
+      "value": "68",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas temperature in hot water handling mode 68 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature in hot water handling mode",
+      "value": "75",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas temperature in hot water handling mode 75 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature when overheating",
+      "value": "105",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas temperature when overheating 105 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature when overheating",
+      "value": "95",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas temperature when overheating 95 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature when overheating",
+      "value": "104",
+      "unit": "\bC",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Flue gas temperature when overheating 104 \bC"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Released system types",
+      "value": "C13, C33, C43, C53",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Released system types C13, C33, C43, C53"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal efficiency at 80/60 \bC",
+      "value": "98.8",
+      "unit": "%",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Nominal efficiency at 80/60 \bC 98.8%"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal efficiency at 80/60 \bC",
+      "value": "99.2",
+      "unit": "%",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Nominal efficiency at 80/60 \bC 99.2%"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal efficiency at 50/30 \bC",
+      "value": "104.0",
+      "unit": "%",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Nominal efficiency at 50/30 \bC 104.0%"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal efficiency at 40/30 \bC",
+      "value": "106.0",
+      "unit": "%",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Nominal efficiency at 40/30 \bC 106.0%"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal efficiency in partial load operation (30%) at 40/30 \bC",
+      "value": "109.8",
+      "unit": "%",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Nominal efficiency in partial load operation (30%) at 40/30 \bC 109.8%"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal efficiency in partial load operation (30%) at 40/30 \bC",
+      "value": "109.7",
+      "unit": "%",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Nominal efficiency in partial load operation (30%) at 40/30 \bC 109.7%"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal efficiency in partial load operation (30%) at 40/30 \bC",
+      "value": "109.9",
+      "unit": "%",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "efficiency",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Nominal efficiency in partial load operation (30%) at 40/30 \bC 109.9%"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx class",
+      "value": "5",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "NOx class 5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Product dimensions, width",
+      "value": "390",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Product dimensions, width 390 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Product dimensions, depth",
+      "value": "280",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Product dimensions, depth 280 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Product dimensions, height",
+      "value": "700",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Product dimensions, height 700 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Net weight",
+      "value": "32",
+      "unit": "kg",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Net weight 32 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Net weight",
+      "value": "33",
+      "unit": "kg",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Net weight 33 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight when filled with water",
+      "value": "36",
+      "unit": "kg",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Weight when filled with water 36 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight when filled with water",
+      "value": "38",
+      "unit": "kg",
+      "applies_to_models": [
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Weight when filled with water 38 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electric connection",
+      "value": "230 V/ 50 Hz",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "Technical data \b Electrics",
+          "table_title": null,
+          "source_quote": "Electric connection 230 V/ 50 Hz"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Built-in fuse (slow-blow)",
+      "value": "T2/2A, 250V",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "Technical data \b Electrics",
+          "table_title": null,
+          "source_quote": "Built-in fuse (slow-blow) T2/2A, 250V"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. electrical power consumption",
+      "value": "87",
+      "unit": "W",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "Technical data \b Electrics",
+          "table_title": null,
+          "source_quote": "Max. electrical power consumption 87 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. electrical power consumption",
+      "value": "98",
+      "unit": "W",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "Technical data \b Electrics",
+          "table_title": null,
+          "source_quote": "Max. electrical power consumption 98 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Standby electrical power consumption",
+      "value": "2",
+      "unit": "W",
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "Technical data \b Electrics",
+          "table_title": null,
+          "source_quote": "Standby electrical power consumption 2 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Standby electrical power consumption",
+      "value": "3",
+      "unit": "W",
+      "applies_to_models": [
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "Technical data \b Electrics",
+          "table_title": null,
+          "source_quote": "Standby electrical power consumption 3 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Level of protection",
+      "value": "IPX4D",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 256/6-3 (H-GB)",
+        "VUW 306/6-3 (H-GB)",
+        "VUW 356/6-3 (H-GB)"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "Technical data \b Electrics",
+          "table_title": null,
+          "source_quote": "Level of protection IPX4D"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "F.00",
+      "description": "Fault: Flow temperature sensor",
+      "possible_causes": [
+        "NTC plug not plugged in or has come loose",
+        "multiple plug on the PCB not plugged in correctly",
+        "interruption in cable harness",
+        "NTC sensor defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flow temperature sensor",
+        "NTC plug",
+        "PCB",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow sensor",
+        "NTC",
+        "cable",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.00 Fault: Flow temperature sensor NTC plug not plugged in or has come loose, multiple plug on the PCB not plugged in correctly, interruption in cable harness, NTC sensor defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.01",
+      "description": "Fault: Return temperature sensor",
+      "possible_causes": [
+        "NTC plug not plugged in or has come loose",
+        "multiple plug on the PCB not plugged in correctly",
+        "interruption in cable harness",
+        "NTC sensor defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Return temperature sensor",
+        "NTC plug",
+        "PCB",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "return sensor",
+        "NTC",
+        "cable",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.01 Fault: Return temperature sensor NTC plug not plugged in or has come loose, multiple plug on the PCB not plugged in correctly, interruption in cable harness, NTC sensor defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.10",
+      "description": "Short circuit: Flow temperature sensor",
+      "possible_causes": [
+        "NTC sensor defective",
+        "short circuit in the cable harness",
+        "cable/casing"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow sensor",
+        "NTC",
+        "short circuit",
+        "cable"
+      ],
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.10 Short circuit: Flow temperature sensor NTC sensor defective, short circuit in the cable harness, cable/casing"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.11",
+      "description": "Short circuit: Return temperature sensor",
+      "possible_causes": [
+        "NTC sensor defective",
+        "short circuit in the cable harness",
+        "cable/casing"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "return sensor",
+        "NTC",
+        "short circuit",
+        "cable"
+      ],
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.11 Short circuit: Return temperature sensor NTC sensor defective, short circuit in the cable harness, cable/casing"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.12 and F.91",
+      "description": "Short circuit: Cylinder temperature sensor",
+      "possible_causes": [
+        "NTC sensor defective",
+        "short circuit in the cable harness",
+        "cable/casing"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "cable harness",
+        "cylinder temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "cylinder sensor",
+        "NTC",
+        "short circuit",
+        "cable"
+      ],
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.12 and F.91 Short circuit: Cylinder temperature sensor NTC sensor defective, short circuit in the cable harness, cable/casing"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.13",
+      "description": "Short circuit: Domestic hot water cylinder temperature sensor",
+      "possible_causes": [
+        "NTC sensor defective",
+        "short circuit in the cable harness",
+        "cable/casing"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "cable harness",
+        "domestic hot water cylinder temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "DHW cylinder sensor",
+        "NTC",
+        "short circuit",
+        "cable"
+      ],
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "Overview of fault codes",
+          "table_title": null,
+          "source_quote": "F.13 Short circuit: Domestic hot water cylinder temperature sensor NTC sensor defective, short circuit in the cable harness, cable/casing"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.20",
+      "description": "Safety switch-off: Overheating temperature reached",
+      "possible_causes": [
+        "Incorrect earth connection between cable harness and product",
+        "flow or return NTC defective (loose connection)",
+        "black discharge via ignition cable",
+        "ignition plug or ignition electrode"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "cable harness",
+        "NTC sensor",
+        "ignition cable",
+        "ignition plug",
+        "ignition electrode"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "overheating",
+        "NTC",
+        "ignition",
+        "earth connection"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.20 Safety switch-off: Overheating temperat- ure reached Incorrect earth connection between cable harness and product, flow or return NTC defective (loose connection), black discharge via ignition cable, ignition plug or ignition electrode"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.22",
+      "description": "Safety switch-off: Low water pressure in the boiler",
+      "possible_causes": [
+        "No or insufficient water in the product",
+        "water pressure sensor defective",
+        "cable to the pump or to the water pressure sensor loose/not connected/defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "water pressure sensor",
+        "pump"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "low water pressure",
+        "pressure sensor",
+        "water"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.22 Safety switch-off: Low water pressure in the boiler No or insufficient water in the product, water pressure sensor de- fective, cable to the pump or to the water pressure sensor loose/not connected/defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.23",
+      "description": "Safety switch-off: Temperature difference too great (NTC1/NTC2)",
+      "possible_causes": [
+        "Pump blocked",
+        "insufficient pump output",
+        "air in product",
+        "flow and return NTC sensors connected the wrong way round"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "NTC sensors"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature difference",
+        "pump",
+        "NTC sensors",
+        "air"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.23 Safety switch-off: Temperature difference too great (NTC1/NTC2) Pump blocked, insufficient pump output, air in product, flow and return NTC sensors connected the wrong way round"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.24",
+      "description": "Safety switch-off: Temperature rise too fast",
+      "possible_causes": [
+        "Pump blocked",
+        "insufficient pump output",
+        "system pressure too low",
+        "non-return valve blocked/incorrectly installed"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "non-return valve"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature rise",
+        "pump",
+        "pressure",
+        "non-return valve"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.24 Safety switch-off: Temperature rise too fast Pump blocked, insufficient pump output, system pressure too low, non-return valve blocked/incorrectly installed"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.25",
+      "description": "Safety switch-off: Flue gas temperature too high",
+      "possible_causes": [
+        "Break in plug connection for optional flue gas safety cut-out (STB)",
+        "break in cable harness"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flue gas safety cut-out (STB)",
+        "cable harness"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flue gas temperature",
+        "STB",
+        "cable"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.25 Safety switch-off: Flue gas temperature too high Break in plug connection for optional flue gas safety cut-out (STB), break in cable harness"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.27",
+      "description": "Safety switch-off: Fault in flame detection",
+      "possible_causes": [
+        "Moisture on the electronics",
+        "electronics (flame monitor) defective",
+        "gas solenoid valve leaking"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electronics",
+        "flame monitor",
+        "gas solenoid valve"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame detection",
+        "electronics",
+        "gas valve"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.27 Safety switch-off: Fault in flame detection Moisture on the electronics, electronics (flame monitor) defective, gas solen- oid valve leaking"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.28",
+      "description": "Fault: Ignition unsuccessful when starting up",
+      "possible_causes": [
+        "Gas meter defective or gas pressure monitor has triggered",
+        "air in gas",
+        "gas flow pressure too low",
+        "thermal isolator device (TAE) has triggered",
+        "incorrect gas restrictor",
+        "incorrect spare gas valve",
+        "fault on the gas valve",
+        "multiple plug on PCB incorrectly plugged in",
+        "break in cable harness",
+        "ignition system (ignition transformer, ignition cable, ignition plug, ignition electrode) defective",
+        "ionisation current interrupted (cable, electrode)",
+        "incorrect earthing of product",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas meter",
+        "gas pressure monitor",
+        "thermal isolator device (TAE)",
+        "gas restrictor",
+        "gas valve",
+        "PCB",
+        "cable harness",
+        "ignition system",
+        "ignition transformer",
+        "ignition cable",
+        "ignition plug",
+        "ignition electrode",
+        "ionisation electrode",
+        "electronics"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition",
+        "gas",
+        "pressure",
+        "flame",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.28 Fault: Ignition unsuccessful when starting up Gas meter defective or gas pressure monitor has triggered, air in gas, gas flow pressure too low, thermal isolator device (TAE) has triggered, incorrect gas restrictor, incorrect spare gas valve, fault on the gas valve, multiple plug on PCB incorrectly plugged in, break in cable harness, ignition system (ig- nition transformer, ignition cable, ignition plug, ignition electrode) defective, ionisation current interrupted (cable, electrode), incorrect earthing of product, electronics defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.29",
+      "description": "Fault: Flame loss",
+      "possible_causes": [
+        "Gas supply temporarily stopped",
+        "flue gas recirculation",
+        "incorrect earthing of product",
+        "ignition transformer has spark failure"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas supply",
+        "ignition transformer"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame loss",
+        "gas",
+        "ignition"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.29 Fault: Flame loss Gas supply temporarily stopped, flue gas recirculation, incorrect earthing of product, ignition transformer has spark failure"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.32",
+      "description": "Fan frost protection function active: Fan speed outside the tolerance values",
+      "possible_causes": [
+        "Plug on fan not correctly plugged in",
+        "multiple plug on PCB not correctly plugged in",
+        "break in cable harness",
+        "fan blocked",
+        "Hall sensor defective",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "fan",
+        "PCB",
+        "cable harness",
+        "Hall sensor",
+        "electronics"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan",
+        "frost protection",
+        "PCB",
+        "Hall sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.32 Fan frost protection function active: Fan speed outside the tolerance values Plug on fan not correctly plugged in, multiple plug on PCB not correctly plugged in, break in cable harness, fan blocked, Hall sensor defective, elec- tronics defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.49",
+      "description": "eBUS fault: Voltage too low",
+      "possible_causes": [
+        "Short circuit on eBUS",
+        "eBUS overload or two power supplies with different polarities on the eBUS"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "eBUS"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "eBUS",
+        "voltage",
+        "short circuit",
+        "overload"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.49 eBUS fault: Voltage too low Short circuit on eBUS, eBUS overload or two power supplies with different polarities on the eBUS"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.61",
+      "description": "Fault: Gas valve control system",
+      "possible_causes": [
+        "Short circuit/short to earth in cable harness for the gas valve",
+        "gas valve defective (coils shorted to earth)",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve",
+        "cable harness",
+        "electronics"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "control system",
+        "short circuit",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.61 Fault: Gas valve control system Short circuit/short to earth in cable harness for the gas valve, gas valve defective (coils shorted to earth), electronics defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.62",
+      "description": "Fault: Gas valve switch-off control",
+      "possible_causes": [
+        "Delayed switch-off of gas valve",
+        "delayed extinguishing of flame signal",
+        "gas valve leaking",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve",
+        "electronics"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "switch-off",
+        "flame signal",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.62 Fault: Gas valve switch-off control Delayed switch-off of gas valve, delayed extinguishing of flame signal, gas valve leaking, electronics defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.63",
+      "description": "Fault: EEPROM",
+      "possible_causes": [
+        "Electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "EEPROM",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.63 Fault: EEPROM Electronics defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.64",
+      "description": "Fault: Electronics/sensor/analogue-to-digital converter",
+      "possible_causes": [
+        "Flow or return NTC short circuited",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC sensor",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "electronics",
+        "sensor",
+        "NTC",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.64 Fault: Electronics/sensor/analogue-to- digital converter Flow or return NTC short circuited, electronics defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.65",
+      "description": "Fault: Electronics temperature too high",
+      "possible_causes": [
+        "Electronics overheating due to external influences",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "electronics",
+        "temperature",
+        "overheating"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.65 Fault: Electronics temperature too high Electronics overheating due to external influences, electronics defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.67",
+      "description": "Value sent back by ASIC is incorrect (flame signal)",
+      "possible_causes": [
+        "Implausible flame signal",
+        "electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "ASIC",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame signal",
+        "ASIC",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.67 Value sent back by ASIC is incorrect (flame signal) Implausible flame signal, electronics defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.68",
+      "description": "Fault: Unstable flame (analogue input)",
+      "possible_causes": [
+        "Air in gas",
+        "gas flow pressure too low",
+        "incorrect air ratio",
+        "incorrect gas restrictor",
+        "ionisation flow interruption (cable, electrode)"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas",
+        "gas flow pressure",
+        "gas restrictor",
+        "ionisation electrode",
+        "cable"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame",
+        "gas",
+        "pressure",
+        "ionisation"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.68 Fault: Unstable flame (analogue input) Air in gas, gas flow pressure too low, incorrect air ratio, incorrect gas re- strictor, ionisation flow interruption (cable, electrode)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.70",
+      "description": "Invalid product code (DSN)",
+      "possible_causes": [
+        "Display and PCB replaced at same time and Device Specific Number not reset",
+        "wrong or missing output range coding resistance"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Display",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "product code",
+        "DSN",
+        "display",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.70 Invalid product code (DSN) Display and PCB replaced at same time and Device Specific Number not reset, wrong or missing output range coding resistance"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.71",
+      "description": "Fault: Flow/return temperature sensor",
+      "possible_causes": [
+        "Flow temperature sensor signalling constant value: Flow temperature sensor incorrectly positioned on supply pipe",
+        "flow temperature sensor defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flow temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow sensor",
+        "return sensor",
+        "temperature sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.71 Fault: Flow/return temperature sensor Flow temperature sensor signalling constant value: Flow temperature sensor incorrectly positioned on supply pipe, flow temperature sensor defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.72",
+      "description": "Fault: Deviation in the water pressure sensor/return temperature sensor",
+      "possible_causes": [
+        "Flow/return NTC temperature difference too great",
+        "flow and/or return temperature sensor defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "water pressure sensor",
+        "return temperature sensor",
+        "NTC sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure sensor",
+        "return sensor",
+        "NTC",
+        "temperature difference"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.72 Fault: Deviation in the water pressure sensor/return temperature sensor Flow/return NTC temperature difference too great \b flow and/or return tem- perature sensor defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.73",
+      "description": "Fault: Water pressure sensor not connected or has short-circuited",
+      "possible_causes": [
+        "Interruption/short circuit of water pressure sensor",
+        "interruption/short circuit to GND in supply line to water pressure sensor or water pressure sensor defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "water pressure sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water pressure sensor",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.73 Fault: Water pressure sensor not con- nected or has short-circuited Interruption/short circuit of water pressure sensor, interruption/short circuit to GND in supply line to water pressure sensor or water pressure sensor defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.74",
+      "description": "Fault: Electrical problem in the water pressure sensor",
+      "possible_causes": [
+        "Line to water pressure sensor has a short circuit to 5 V/24 V or internal fault in the water pressure sensor"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "water pressure sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water pressure sensor",
+        "electrical problem",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.74 Fault: Electrical problem in the water pressure sensor Line to water pressure sensor has a short circuit to 5 V/24 V or internal fault in the water pressure sensor"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.75",
+      "description": "Fault: Pressure sensor",
+      "possible_causes": [
+        "Pressure switch defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pressure switch"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure sensor",
+        "pressure switch"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.75 Fault: Pressure sensor Pressure switch defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.76",
+      "description": "The safety cut-out in the primary heat exchanger is defective",
+      "possible_causes": [
+        "Safety cut-out feedback does not match the gas valve feedback"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "safety cut-out",
+        "primary heat exchanger",
+        "gas valve"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "safety cut-out",
+        "heat exchanger",
+        "gas valve"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.76 The safety cut-out in the primary heat exchanger is defective Safety cut-out feedback does not match the gas valve feedback"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.77",
+      "description": "Fault: Condensate or smoke",
+      "possible_causes": [
+        "No response",
+        "flue non-return flap defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flue non-return flap"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "condensate",
+        "smoke",
+        "flue flap"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.77 Fault: Condensate or smoke No response, flue non-return flap defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.78",
+      "description": "Interruption to DHW outlet sensor at external controller",
+      "possible_causes": [
+        "UK link box is connected, but hot water NTC not bridged"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "DHW outlet sensor",
+        "external controller",
+        "UK link box",
+        "hot water NTC"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "DHW sensor",
+        "controller",
+        "NTC",
+        "link box"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.78 Interruption to DHW outlet sensor at external controller UK link box is connected, but hot water NTC not bridged"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.83",
+      "description": "Fault: Dry fire",
+      "possible_causes": [
+        "When the burner starts, the temperature change registered at the flow or return temperature sensor is non-existent or too small: Insufficient water in the product",
+        "the flow or return temperature sensor is not in the correct position on the pipe"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "burner",
+        "flow temperature sensor",
+        "return temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "dry fire",
+        "burner",
+        "temperature sensor",
+        "water"
+      ],
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.83 Fault: Dry fire When the burner starts, the temperature change registered at the flow or return temperature sensor is non-existent or too small: Insufficient water in the product, the flow or return temperature sensor is not in the correct position on the pipe"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.84",
+      "description": "Fault: Flow/return temperature sensor",
+      "possible_causes": [
+        "Values not consistent, difference < -6 K",
+        "Flow and return temperature sensors signalling implausible values: Flow and return temperature sensors have been inverted",
+        "flow and return temperature sensors have not been correctly installed"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flow temperature sensor",
+        "return temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow sensor",
+        "return sensor",
+        "temperature sensor",
+        "inconsistent values"
+      ],
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.84 Fault: Flow/return temperature sensor Values not consistent, difference < -6 K Flow and return temperature sensors signalling implausible values: Flow and return temperature sensors have been inverted, flow and return temperature sensors have not been correctly installed"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.85",
+      "description": "Fault: Temperature sensor",
+      "possible_causes": [
+        "The flow and/or return temperature sensors have been installed on the same pipe/incorrect pipe",
+        "Temperature sensor not connected or is connected incorrectly"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flow temperature sensor",
+        "return temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature sensor",
+        "installation error"
+      ],
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.85 Fault: Temperature sensor The flow and/or return temperature sensors have been installed on the same pipe/incorrect pipe Temperature sensor not connected or is connected incorrectly"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.86",
+      "description": "Fault: Underfloor heating contact",
+      "possible_causes": [
+        "Underfloor heating contact open",
+        "sensor disconnected or defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "underfloor heating contact",
+        "sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "underfloor heating",
+        "contact",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.86 Fault: Underfloor heating contact Underfloor heating contact open, sensor disconnected or defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.87",
+      "description": "Fault: Electrodes",
+      "possible_causes": [
+        "Electrodes not connected or they are connected incorrectly",
+        "short circuit in the cable harness"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electrodes",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "electrodes",
+        "connection",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.87 Fault: Electrodes Electrodes not connected or they are connected incorrectly, short circuit in the cable harness"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.88",
+      "description": "Fault: Gas valve",
+      "possible_causes": [
+        "Gas valve not connected or it is connected incorrectly",
+        "short circuit in the cable harness"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas valve",
+        "connection",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.88 Fault: Gas valve Gas valve not connected or it is connected incorrectly, short circuit in the cable harness"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F.89",
+      "description": "Fault: Pump",
+      "possible_causes": [
+        "Pump not connected or it is connected incorrectly",
+        "incorrect pump connected",
+        "short circuit in the cable harness"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "cable harness"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pump",
+        "connection",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "F.89 Fault: Pump Pump not connected or it is connected incorrectly, incorrect pump connec- ted, short circuit in the cable harness"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "Connection",
+      "description": "No communication between the PCB and the user interface",
+      "possible_causes": [
+        "Electronics defective"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "PCB",
+        "user interface",
+        "electronics"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "PCB",
+        "user interface",
+        "electronics"
+      ],
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Connection No communication between the PCB and the user interface Electronics defective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "diagnostic_codes": [
+    {
+      "code": "d.00",
+      "description": "Heating maximum output",
+      "value_range": null,
+      "default_value": "Section \"Technical data\"",
+      "unit": "kW",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.00 Heating maximum output kW The maximum heating output varies depending on the product. \b Section \"Technical data\" Automatic: Unit automatically adjusts the maximum output to the current system demand Section \"Technical data\" Adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.01",
+      "description": "Pump overrun in heating mode",
+      "value_range": "1 - 60",
+      "default_value": "5",
+      "unit": "min",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.01 Pump overrun in heating mode 1 60 min 1 5 Adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.02",
+      "description": "Maximum burner anti-cycling time in heating mode",
+      "value_range": "2 - 60",
+      "default_value": "20",
+      "unit": "min",
+      "adjustable": true,
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.02 Maximum burner anti- cycling time in heating mode 2 60 min 1 20 Adjustable"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.04",
+      "description": "Water temperature in the cylinder",
+      "value_range": null,
+      "default_value": null,
+      "unit": "\bC",
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Overview of diagnostics codes",
+          "table_title": null,
+          "source_quote": "d.04 Water temperature in the cylinder Current value \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b \b"
+        }
+      ],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  ],
+  "status_codes": [],
+  "safety_warnings": [],
+  "maintenance_tasks": [],
+  "search_terms": [],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.0,
+    "review_required": true,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+      "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+    ]
+  }
+}

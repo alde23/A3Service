@@ -1,0 +1,4998 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "BAXI",
+    "product_family": "800 System 2",
+    "model_names": [
+      "800 System 2 18",
+      "800 System 2 24",
+      "800 System 2 30"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "Installation and Service Manual & Boiler Fiche High-efficiency wall-hung condensing gas boiler",
+    "document_code": "7821598-03",
+    "publication_date": "4/23",
+    "language": "en",
+    "region": "United Kingdom",
+    "source_file": "baxi_baxi-818-system-2_boiler-manual_baxi-800-system-2.pdf",
+    "file_hash": "496834993799a2955a2bac1b56a22eb11294fbb6b248631432b022ad8990e07e"
+  },
+  "technical_specs": [
+    {
+      "parameter": "CE certificate number",
+      "value": "0085CU0338",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "certifications",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Certifications",
+          "table_title": "Certifications",
+          "source_quote": "CE certificate number 0085CU0338"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "UKCA certificate number",
+      "value": "748353",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "certifications",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Certifications",
+          "table_title": "Certifications",
+          "source_quote": "UKCA certificate number 748353"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx class",
+      "value": "6",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Certifications",
+          "table_title": "Certifications",
+          "source_quote": "NOx class 6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler type",
+      "value": "C13, C33",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Certifications",
+          "table_title": "Certifications",
+          "source_quote": "Boiler type C13, C33"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "G.C. nos.",
+      "value": "818-2: 41-470-99 824-2: 41-884-09 830-2: 41-884-08",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "certifications",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Certifications",
+          "table_title": "Certifications",
+          "source_quote": "G.C. nos. 818-2: 41-470-99 824-2: 41-884-09 830-2: 41-884-08"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas category",
+      "value": "I2H",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Gas category",
+          "table_title": "Gas category, type and supply pressure",
+          "source_quote": "Gas category I2H"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas type",
+      "value": "G20 (H natural gas)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Gas category",
+          "table_title": "Gas category, type and supply pressure",
+          "source_quote": "Gas type G20 (H natural gas)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Supply pressure",
+      "value": "20",
+      "unit": "mbar",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Gas category",
+          "table_title": "Gas category, type and supply pressure",
+          "source_quote": "Supply pressure (mbar) 20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas category",
+      "value": "I3P",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Gas category",
+          "table_title": "Gas category, type and supply pressure",
+          "source_quote": "Gas category I3P"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas type",
+      "value": "G31 (P LPG)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Gas category",
+          "table_title": "Gas category, type and supply pressure",
+          "source_quote": "Gas type G31 (P LPG)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Supply pressure",
+      "value": "37",
+      "unit": "mbar",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "Gas category",
+          "table_title": "Gas category, type and supply pressure",
+          "source_quote": "Supply pressure (mbar) 37"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensing boiler",
+      "value": "Yes",
+      "unit": null,
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical information",
+          "table_title": "Technical settings for combination heaters with boilers",
+          "source_quote": "Condensing boiler Yes"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Low-temperature boiler",
+      "value": "No",
+      "unit": null,
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical information",
+          "table_title": "Technical settings for combination heaters with boilers",
+          "source_quote": "Low-temperature boiler (1) No"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "B1 boiler",
+      "value": "No",
+      "unit": null,
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Technical information",
+          "table_title": "Technical settings for combination heaters with boilers",
+          "source_quote": "B1 boiler No"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Cogeneration space heater",
+      "value": "No",
+      "unit": null,
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Cogeneration space heater No"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Combination heater",
+      "value": "Yes",
+      "unit": null,
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Combination heater Yes"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Prated)",
+      "value": "18",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat output Prated kW 18"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Prated)",
+      "value": "24",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat output Prated kW 24"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Prated)",
+      "value": "30",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat output Prated kW 30"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at rated heat output and high temperature setting (P4)",
+      "value": "18.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Useful heat output at rated heat output and high temperature setting (2) P4 kW 18.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at rated heat output and high temperature setting (P4)",
+      "value": "24.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Useful heat output at rated heat output and high temperature setting (2) P4 kW 24.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at rated heat output and high temperature setting (P4)",
+      "value": "30.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Useful heat output at rated heat output and high temperature setting (2) P4 kW 30.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at 30% of rated heat output and low temperature setting (P1)",
+      "value": "6.1",
+      "unit": "KW",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Useful heat output at 30% of rated heat output and low temperature setting(1) P1 KW 6.1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at 30% of rated heat output and low temperature setting (P1)",
+      "value": "8.1",
+      "unit": "KW",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Useful heat output at 30% of rated heat output and low temperature setting(1) P1 KW 8.1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output at 30% of rated heat output and low temperature setting (P1)",
+      "value": "9.7",
+      "unit": "KW",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Useful heat output at 30% of rated heat output and low temperature setting(1) P1 KW 9.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Seasonal space heating energy efficiency (ηs)",
+      "value": "94",
+      "unit": "%",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Seasonal space heating energy efficiency ηs % 94"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at rated heat output and high temperature setting (η4)",
+      "value": "88.2",
+      "unit": "%",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Useful efficiency at rated heat output and high temperature setting (2) 74 % 88.2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at rated heat output and high temperature setting (η4)",
+      "value": "88.1",
+      "unit": "%",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Useful efficiency at rated heat output and high temperature setting (2) 74 % 88.1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at 30% of rated heat output and low temperature setting (η1)",
+      "value": "99.0",
+      "unit": "%",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Useful efficiency at 30% of rated heat output and low temperature setting (1) 71 % 99.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful efficiency at 30% of rated heat output and low temperature setting (η1)",
+      "value": "98.8",
+      "unit": "%",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Useful efficiency at 30% of rated heat output and low temperature setting (1) 71 % 98.8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Full load (elmax)",
+      "value": "0.026",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Auxiliary electricity consumption Full load elmax kW 0.026"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Full load (elmax)",
+      "value": "0.046",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Auxiliary electricity consumption Full load elmax kW 0.046"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Full load (elmax)",
+      "value": "0.071",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Auxiliary electricity consumption Full load elmax kW 0.071"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Partial load (elmin)",
+      "value": "0.008",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Partial load elmin kW 0.008"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Standby mode (PSB)",
+      "value": "0.004",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Standby mode PSB kW 0.004"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat loss on standby (Pstby)",
+      "value": "0.04",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Heat loss on standby Pstby kW 0.04"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Ignition burner power consumption (Pign)",
+      "value": "0",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Ignition burner power consumption Pign kW 0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual energy consumption (QHE)",
+      "value": "55",
+      "unit": "GJ",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Annual energy consumption QHE GJ 55"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual energy consumption (QHE)",
+      "value": "74",
+      "unit": "GJ",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Annual energy consumption QHE GJ 74"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual energy consumption (QHE)",
+      "value": "92",
+      "unit": "GJ",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Annual energy consumption QHE GJ 92"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Sound power level, indoors (LWA)",
+      "value": "49",
+      "unit": "dB",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "acoustics",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Sound power level, indoors LWA dB 49"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Sound power level, indoors (LWA)",
+      "value": "52",
+      "unit": "dB",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "acoustics",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Sound power level, indoors LWA dB 52"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Sound power level, indoors (LWA)",
+      "value": "53",
+      "unit": "dB",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "acoustics",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Sound power level, indoors LWA dB 53"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nitrogen oxide emissions (NOx)",
+      "value": "32",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Nitrogen oxide emissions NOx mg/kWh 32"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Nitrogen oxide emissions (NOx)",
+      "value": "30",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Nitrogen oxide emissions NOx mg/kWh 30"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Declared load profile",
+      "value": "n/a",
+      "unit": null,
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "domestic hot water",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Declared load profile n/a"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily electricity consumption (Qelec)",
+      "value": "n/a",
+      "unit": "kWh",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Daily electricity consumption Qelec kWh n/a"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual electricity consumption (AEC)",
+      "value": "n/a",
+      "unit": "kWh",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Annual electricity consumption AEC kWh n/a"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Daily fuel consumption (Qfuel)",
+      "value": "n/a",
+      "unit": "kWh",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Daily fuel consumption Qfuel kWh n/a"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual fuel consumption (AFC)",
+      "value": "n/a",
+      "unit": "GJ",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Annual fuel consumption AFC GJ n/a"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) with domestic hot water tank",
+      "value": "18.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat input (Qn) with domestic hot water tank kW 18.6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) with domestic hot water tank",
+      "value": "24.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat input (Qn) with domestic hot water tank kW 24.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) with domestic hot water tank",
+      "value": "30.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat input (Qn) with domestic hot water tank kW 30.9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for heating",
+      "value": "18.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat input (Qn) for heating kW 18.6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for heating",
+      "value": "24.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat input (Qn) for heating kW 24.7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for heating",
+      "value": "30.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat input (Qn) for heating kW 30.9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat input (Qn) 80/60 °C",
+      "value": "4.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Reduced heat input (Qn) 80/60 °C kW 4.9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat input (Qn) 80/60 °C",
+      "value": "6.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Reduced heat input (Qn) 80/60 °C kW 6.0"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) with domestic hot water tank",
+      "value": "18",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat output (Pn) with domestic hot water tank kW 18"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) with domestic hot water tank",
+      "value": "24",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat output (Pn) with domestic hot water tank kW 24"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) with domestic hot water tank",
+      "value": "30",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat output (Pn) with domestic hot water tank kW 30"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) 80/60 °C for heating",
+      "value": "18",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat output (Pn) 80/60 °C for heating kW 18"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) 80/60 °C for heating",
+      "value": "24",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat output (Pn) 80/60 °C for heating kW 24"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) 80/60 °C for heating",
+      "value": "30",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat output (Pn) 80/60 °C for heating kW 30"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) 50/30 °C for heating",
+      "value": "19.9",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat output (Pn) 50/30 °C for heating kW 19.9"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) 50/30 °C for heating",
+      "value": "26.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat output (Pn) 50/30 °C for heating kW 26.3"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output (Pn) 50/30 °C for heating",
+      "value": "32.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat output (Pn) 50/30 °C for heating kW 32.4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat output (Pn) 80/60 °C",
+      "value": "4.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Reduced heat output (Pn) 80/60 °C kW 4.8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat output (Pn) 80/60 °C",
+      "value": "5.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Reduced heat output (Pn) 80/60 °C kW 5.8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat output (Pn) 50/30 °C",
+      "value": "5.2",
+      "unit": "KW",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Reduced heat output (Pn) 50/30 °C KW 5.2"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Reduced heat output (Pn) 50/30 °C",
+      "value": "6.4",
+      "unit": "KW",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Reduced heat output (Pn) 50/30 °C KW 6.4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated efficiency 50/30 °C (Hi)",
+      "value": "105.8",
+      "unit": "%",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated efficiency 50/30 °C (Hi) % 105.8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) with domestic hot water tank (G20+20%H2)",
+      "value": "17.8",
+      "unit": "KW",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat input (Qn) with domestic hot water tank (G20+20%H2) KW 17.8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) with domestic hot water tank (G20+20%H2)",
+      "value": "23.6",
+      "unit": "KW",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat input (Qn) with domestic hot water tank (G20+20%H2) KW 23.6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) with domestic hot water tank (G20+20%H2)",
+      "value": "29.5",
+      "unit": "KW",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat input (Qn) with domestic hot water tank (G20+20%H2) KW 29.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for heating (G20+20%H2)",
+      "value": "17.8",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat input (Qn) for heating (G20+20%H2) kW 17.8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for heating (G20+20%H2)",
+      "value": "23.6",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat input (Qn) for heating (G20+20%H2) kW 23.6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat input (Qn) for heating (G20+20%H2)",
+      "value": "29.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Technical specifications",
+          "table_title": "General",
+          "source_quote": "Rated heat input (Qn) for heating (G20+20%H2) kW 29.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum pressure (heating circuit)",
+      "value": "2.5",
+      "unit": "bar",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the heating circuit",
+          "table_title": "Characteristics of the heating circuit",
+          "source_quote": "Maximum pressure bar 2.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum pressure (heating circuit)",
+      "value": "0.5",
+      "unit": "bar",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the heating circuit",
+          "table_title": "Characteristics of the heating circuit",
+          "source_quote": "Minimum pressure bar 0.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Temperature range for heating circuit",
+      "value": "25-80",
+      "unit": "°C",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the heating circuit",
+          "table_title": "Characteristics of the heating circuit",
+          "source_quote": "Temperature range for heating circuit °C 25-80"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Water capacity of expansion vessel",
+      "value": "7",
+      "unit": "l",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Characteristics of the heating circuit",
+          "table_title": "Characteristics of the heating circuit",
+          "source_quote": "Water capacity of expansion vessel l 7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Qmax)",
+      "value": "1.97",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "G20 gas consumption (Qmax) m³/h 1.97"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Qmax)",
+      "value": "2.61",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "G20 gas consumption (Qmax) m³/h 2.61"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Qmax)",
+      "value": "3.26",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "G20 gas consumption (Qmax) m³/h 3.26"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Qmax) with domestic hot water tank",
+      "value": "1.97",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "G20 gas consumption (Qmax) with domestic hot water tank m³/h 1.97"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Qmax) with domestic hot water tank",
+      "value": "2.61",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "G20 gas consumption (Qmax) with domestic hot water tank m³/h 2.61"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Qmax) with domestic hot water tank",
+      "value": "3.26",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "G20 gas consumption (Qmax) with domestic hot water tank m³/h 3.26"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "G20 gas consumption (Qmin)",
+      "value": "0.52",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "G20 gas consumption (Qmin) m³/h 0.52"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Diameter of coaxial discharge pipes",
+      "value": "60/100",
+      "unit": "mm",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "Diameter of coaxial discharge pipes mm 60/100"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (max)",
+      "value": "0.009",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "Flue gas mass flow rate (max) kg/sec 0.009"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (max)",
+      "value": "0.011",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "Flue gas mass flow rate (max) kg/sec 0.011"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (max)",
+      "value": "0.014",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "Flue gas mass flow rate (max) kg/sec 0.014"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (max) with domestic hot water tank",
+      "value": "0.009",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "Flue gas mass flow rate (max) with domestic hot water tank kg/sec 0.009"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (max) with domestic hot water tank",
+      "value": "0.011",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "Flue gas mass flow rate (max) with domestic hot water tank kg/sec 0.011"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (max) with domestic hot water tank",
+      "value": "0.014",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "Flue gas mass flow rate (max) with domestic hot water tank kg/sec 0.014"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (min)",
+      "value": "0.002",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "Flue gas mass flow rate (min) kg/sec 0.002"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (min)",
+      "value": "0.003",
+      "unit": "kg/sec",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "Flue gas mass flow rate (min) kg/sec 0.003"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "G31 (LPG) gas consumption (Qmax)",
+      "value": "1.44",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "G31 (LPG) gas consumption (Qmax) kg/h 1.44"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "G31 (LPG) gas consumption (Qmax)",
+      "value": "1.92",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "G31 (LPG) gas consumption (Qmax) kg/h 1.92"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "G31 (LPG) gas consumption (Qmax)",
+      "value": "2.4",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "G31 (LPG) gas consumption (Qmax) kg/h 2.4"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "G31 (LPG) gas consumption (Qmin)",
+      "value": "0.38",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Combustion characteristics",
+          "table_title": "Combustion characteristics",
+          "source_quote": "G31 (LPG) gas consumption (Qmin) kg/h 0.38"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Power supply voltage",
+      "value": "230",
+      "unit": "V",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Electrical characteristics",
+          "table_title": "Electrical characteristics",
+          "source_quote": "Power supply voltage V 230"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Power supply frequency",
+      "value": "50",
+      "unit": "Hz",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Electrical characteristics",
+          "table_title": "Electrical characteristics",
+          "source_quote": "Power supply frequency Hz 50"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated electric power",
+      "value": "88",
+      "unit": "W",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Electrical characteristics",
+          "table_title": "Electrical characteristics",
+          "source_quote": "Rated electric power W 88"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated electric power",
+      "value": "91",
+      "unit": "W",
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Electrical characteristics",
+          "table_title": "Electrical characteristics",
+          "source_quote": "Rated electric power W 91"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated electric power",
+      "value": "92",
+      "unit": "W",
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Electrical characteristics",
+          "table_title": "Electrical characteristics",
+          "source_quote": "Rated electric power W 92"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Humidity protection rating (EN 60529)",
+      "value": "X5D",
+      "unit": "IP",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Other characteristics",
+          "table_title": "Other characteristics",
+          "source_quote": "Humidity protection rating (EN 60529) IP X5D"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Net weight when empty/filled with water",
+      "value": "29/31",
+      "unit": "kg",
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Other characteristics",
+          "table_title": "Other characteristics",
+          "source_quote": "Net weight when empty/filled with water kg 29/31"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Net weight when empty/filled with water",
+      "value": "30/31",
+      "unit": "kg",
+      "applies_to_models": [
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Other characteristics",
+          "table_title": "Other characteristics",
+          "source_quote": "Net weight when empty/filled with water kg 30/31"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimensions (height/width/depth)",
+      "value": "700/395/285",
+      "unit": "mm",
+      "applies_to_models": [
+        "800 System 2 18",
+        "800 System 2 24",
+        "800 System 2 30"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Other characteristics",
+          "table_title": "Other characteristics",
+          "source_quote": "Dimensions (height/width/depth) mm 700/395/285"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating circuit flow fitting",
+      "value": "G3/4\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "Dimensions and connections",
+          "table_title": null,
+          "source_quote": "Heating circuit flow fitting (G3/4\")"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas inlet fitting",
+      "value": "G3/4\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "Dimensions and connections",
+          "table_title": null,
+          "source_quote": "Gas inlet fitting (G3/4\")"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating circuit return fitting",
+      "value": "G3/4\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "Dimensions and connections",
+          "table_title": null,
+          "source_quote": "Heating circuit return fitting (G34\")"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Hot Water Outlet connection size",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Hot Water Outlet (15 mm)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection size",
+      "value": "22",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Gas (22 mm)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Cold Water Inlet connection size",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Cold Water Inlet (15 mm)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating Return connection size",
+      "value": "22",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Heating Return (22 mm)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating Flow connection size",
+      "value": "22",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Heating Flow (22 mm)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure Relief connection size",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Pressure Relief 15 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Power supply",
+      "value": "L: Live 230 V - 50 Hz N: Neutral",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Electrical connections",
+          "table_title": "Electrical connections",
+          "source_quote": "Power supply: L: Live 230 V - 50 Hz N: Neutral"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas supply connection",
+      "value": "22",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "Gas supply",
+          "table_title": null,
+          "source_quote": "The connection to the appliance is a 22 mm copper tail located at the rear of the gas service cock."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Mains supply",
+      "value": "230 V ~ 50 Hz",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "Electrical supply",
+          "table_title": null,
+          "source_quote": "The mains supply is 230 V ~ 50 Hz fused at 3 A."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Mains fuse rating",
+      "value": "3",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "Electrical supply",
+          "table_title": null,
+          "source_quote": "The mains supply is 230 V ~ 50 Hz fused at 3 A."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical connection cable type",
+      "value": "3 core 0.75 mm 3183Y multi strand flexible type",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "Electrical supply",
+          "table_title": null,
+          "source_quote": "The boiler must be connected to the mains fused 3 A 230 V 50 HZ supply & control system using cable of 3 core 0.75 mm 3183Y multi strand flexible type."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion vessel pre-charge pressure",
+      "value": "1.0",
+      "unit": "bar",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "Expansion vessel (CH only)",
+          "table_title": null,
+          "source_quote": "The appliance expansion vessel is pre-charged to 1.0 bar."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum cold fill pressure",
+      "value": "1.0",
+      "unit": "bar",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "Expansion vessel (CH only)",
+          "table_title": null,
+          "source_quote": "Therefore, the minimum cold fill pressure is 1.0 bar."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion vessel system capacity",
+      "value": "up to 100",
+      "unit": "litres",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "Expansion vessel (CH only)",
+          "table_title": null,
+          "source_quote": "The vessel is suitable for correct operation for system capacities up to 100 litres."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Safety pressure relief valve setting",
+      "value": "3",
+      "unit": "bar",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "Safety pressure relief valve",
+          "table_title": null,
+          "source_quote": "The pressure relief valve is set at 3 bar"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure relief discharge pipe minimum diameter",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "Safety pressure relief valve",
+          "table_title": null,
+          "source_quote": "The pressure relief discharge pipe should be not less than 15 mm diameter"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler discharge pump maximum head",
+      "value": "5",
+      "unit": "metres",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "Safety pressure relief valve",
+          "table_title": null,
+          "source_quote": "It has a maximum head of 5 metres."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler protection rating",
+      "value": "IPX5D",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "Bath and shower rooms",
+          "table_title": null,
+          "source_quote": "The boiler has a protection rating of IPX5D"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate drain pipe minimum run slope",
+      "value": "50 mm per metre (2.5°)",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "Condensate drain",
+          "table_title": null,
+          "source_quote": "50 mm per metre of pipe run – 2.5° minimum run."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate outlet pipe diameter",
+      "value": "21.5",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "The condensate outlet will accept 21.5 mm (¾ in) plastic overflow pipe."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate trap seal",
+      "value": "75",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "The boiler condensate trap incorporates a seal of 75 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate pipe minimum diameter (internal runs > 3m or cold areas)",
+      "value": "32",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Internal runs greater than 3 metres or runs in cold areas should use 32 mm waste pipe."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate pipe minimum diameter (external runs)",
+      "value": "32",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "External runs MUST be a MINIMUM of 32 mm and fully insulated with ma-terial suitable for external use."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance above boiler",
+      "value": "178",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Clearances",
+          "table_title": null,
+          "source_quote": "Clearance above 178 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance to front of boiler (for servicing)",
+      "value": "450",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Clearances",
+          "table_title": null,
+          "source_quote": "450 (for servicing, 5 in operation)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance to side of boiler",
+      "value": "2.5",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Clearances",
+          "table_title": null,
+          "source_quote": "Side Clearance 2.5 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Clearance below boiler",
+      "value": "150",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Clearances",
+          "table_title": null,
+          "source_quote": "Clearance below 150 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (Directly below an opening, air brick opening window etc.)",
+      "value": "300",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Flue outlets",
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "A (1) Directly below an opening, air brick open-ing window etc. 300 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (Above an opening, air brick, opening window etc.)",
+      "value": "300",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Flue outlets",
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "B (1) Above an opening, air brick, opening win-dow etc. 300 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (From a surface or boundary line facing a terminal)",
+      "value": "600",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Flue outlets",
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "J From a surface or boundary line facing a terminal 600 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (From a terminal facing a terminal (Horizontal flue))",
+      "value": "1200",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Flue outlets",
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "K From a terminal facing a terminal (Horizontal flue) 1200 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (From a terminal facing a terminal (Vertical flue))",
+      "value": "600",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Flue outlets",
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "K From a terminal facing a terminal (Vertical flue) 600 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (Horizontally to an opening, air brick, opening window etc.)",
+      "value": "300",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "C (1) Horizontally to an opening, air brick, opening window etc. 300 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (Below gutters, soil pipes or drain pipes)",
+      "value": "25 (75)",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "D (2) Below gutters, soil pipes or drain pipes 25 (75) mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (Below eaves)",
+      "value": "25 (200)",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "E (2) Below eaves 25 (200) mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (Below balconies or car port roof)",
+      "value": "25 (200)",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "F (2) Below balconies or car port roof 25 (200) mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (From a vertical drain pipe or soil pipe)",
+      "value": "25 (150)",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "G (2) From a vertical drain pipe or soil pipe 25 (150) mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (From an internal or external corner)",
+      "value": "25 (300)",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "H (2) From an internal or external corner 25 (300) mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (Above ground, roof, or balcony level)",
+      "value": "300",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "I Above ground, roof, or balcony level 300 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (From an opening in carport (e.g. door, window) into the dwelling)",
+      "value": "1200",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "L From an opening in carport (e.g. door, window) into the dwelling 1200 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (Vertically from a terminal on the same wall)",
+      "value": "1500",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "M Vertically from a terminal on the same wall 1500 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (Horizontally from a terminal on the same wall)",
+      "value": "300",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "N Horizontally from a terminal on the same wall 300 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (From adjacent wall to flue (vertical only))",
+      "value": "300",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "R From adjacent wall to flue (vertical on-ly) 300 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (From an adjacent opening window (vertical only))",
+      "value": "1000",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "S From an adjacent opening window (vertical only) 1000 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (Adjacent to windows or openings on pitched and flat roofs)",
+      "value": "600",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "T Adjacent to windows or openings on pitched and flat roofs 600 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue terminal minimum distance (Below windows or openings on pitched roofs)",
+      "value": "2000",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": null,
+          "table_title": "Terminal position with minimum distance",
+          "source_quote": "U Below windows or openings on pitch-ed roofs 2000 mm"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Plume Displacement Flue Kit air inlet minimum distance from opening windows or doors",
+      "value": "150",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Horizontal flue/chimney systems",
+          "table_title": null,
+          "source_quote": "If fitting a Plume Displacement Flue Kit, the air inlet must be a minimum of 150 mm from any opening windows or doors."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Horizontal telescopic flue (concentric 60/100) kit",
+      "value": "720598701",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Horizontal flue/chimney systems",
+          "table_title": null,
+          "source_quote": "Standard telescopic (315-700 mm) 720598701"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Internal fit telescopic flue kit (300-470 mm)",
+      "value": "7778296",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Horizontal flue/chimney systems",
+          "table_title": null,
+          "source_quote": "Internal fit telescopic (300-470 mm) 7778296"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Internal fit telescopic flue kit (420-690 mm)",
+      "value": "7778299",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Horizontal flue/chimney systems",
+          "table_title": null,
+          "source_quote": "Internal fit telescopic (420-690 mm) 7778299"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent length of 93° bend",
+      "value": "1",
+      "unit": "metre",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Horizontal flue/chimney systems",
+          "table_title": null,
+          "source_quote": "This bend is equivalent to 1 metre"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum permissible equivalent flue length (Horizontal concentric 60/100 Diameter)",
+      "value": "10",
+      "unit": "metres",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Horizontal flue/chimney systems",
+          "table_title": "Maximum permissible equivalent flue lengths are:-",
+          "source_quote": "Horizontal concentric 60/100 Diameter 10 metres"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum permissible equivalent flue length (Horizontal concentric 80/125 Diameter)",
+      "value": "20",
+      "unit": "metres",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Horizontal flue/chimney systems",
+          "table_title": "Maximum permissible equivalent flue lengths are:-",
+          "source_quote": "Horizontal concentric 80/125 Diameter 20 metres"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent length of concentric pipes 135° bend",
+      "value": "0.5",
+      "unit": "metres",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Horizontal flue/chimney systems",
+          "table_title": "Their equivalent lengths are:-",
+          "source_quote": "Concentric pipes 135° bend 0.5 metres"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Equivalent length of concentric pipes 93° bend",
+      "value": "1.0",
+      "unit": "metres",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Horizontal flue/chimney systems",
+          "table_title": "Their equivalent lengths are:-",
+          "source_quote": "Concentric pipes 93° bend 1.0 metres"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue hole minimum diameter",
+      "value": "116",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": "Initial preparation",
+          "table_title": null,
+          "source_quote": "5. Cut the hole for the flue (minimum diameter 116 mm)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrode distance (electrode to burner)",
+      "value": "8.0 ±1",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": "Electrode distances",
+          "table_title": null,
+          "source_quote": "8.0 ±1"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrode distance (between electrodes)",
+      "value": "4.5 ±0.5",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": "Electrode distances",
+          "table_title": null,
+          "source_quote": "4.5 ±0.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum tightening torque of M6 nuts (flange)",
+      "value": "5.5",
+      "unit": "Nm",
+      "applies_to_models": [],
+      "category": "installation",
+      "source_refs": [
+        {
+          "page_number": 65,
+          "section_title": "Checking the burner and cleaning the heat exchanger",
+          "table_title": null,
+          "source_quote": "The maximum tightening torque of the four M6 nuts (D) fastening the flange is 5.5 Nm."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow adjustment screw (V) turns (Natural Gas G20)",
+      "value": "6",
+      "unit": null,
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 69,
+          "section_title": "Setting an uncalibrated gas valve",
+          "table_title": "Number of turns - gas flow adjustment screw V",
+          "source_quote": "System 18 Natural Gas (G20) 6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow adjustment screw (V) turns (Natural Gas G20)",
+      "value": "6.5",
+      "unit": null,
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 69,
+          "section_title": "Setting an uncalibrated gas valve",
+          "table_title": "Number of turns - gas flow adjustment screw V",
+          "source_quote": "System 24 Natural Gas (G20) 6.5"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow adjustment screw (V) turns (Natural Gas G20)",
+      "value": "6",
+      "unit": null,
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 69,
+          "section_title": "Setting an uncalibrated gas valve",
+          "table_title": "Number of turns - gas flow adjustment screw V",
+          "source_quote": "System 30 Natural Gas (G20) 6"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow adjustment screw (V) turns (LPG G31)",
+      "value": "8",
+      "unit": null,
+      "applies_to_models": [
+        "800 System 2 18"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 69,
+          "section_title": "Setting an uncalibrated gas valve",
+          "table_title": "Number of turns - gas flow adjustment screw V",
+          "source_quote": "System 18 LPG (G31) 8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow adjustment screw (V) turns (LPG G31)",
+      "value": "8",
+      "unit": null,
+      "applies_to_models": [
+        "800 System 2 24"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 69,
+          "section_title": "Setting an uncalibrated gas valve",
+          "table_title": "Number of turns - gas flow adjustment screw V",
+          "source_quote": "System 24 LPG (G31) 8"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas flow adjustment screw (V) turns (LPG G31)",
+      "value": "7",
+      "unit": null,
+      "applies_to_models": [
+        "800 System 2 30"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 69,
+          "section_title": "Setting an uncalibrated gas valve",
+          "table_title": "Number of turns - gas flow adjustment screw V",
+          "source_quote": "System 30 LPG (G31) 7"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "A.00 .34",
+      "description": "Outdoor temperature sensor expected but not detected",
+      "possible_causes": [
+        "OUTDOOR SENSOR NOT DETECTED"
+      ],
+      "manufacturer_steps": [
+        "Connect the outdoor sensor",
+        "Outdoor sensor is not connected correctly"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Outdoor temperature sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "sensor",
+        "outdoor",
+        "temperature"
+      ],
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.00 .34 Outdoor temperature sensor expected but not de-tected OUTDOOR SENSOR NOT DETECTED Connect the outdoor sensor Outdoor sensor is not connected correctly"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .06",
+      "description": "Low water pressure",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the system pressure and restore it",
+        "Check the pressure of the expansion vessel",
+        "Check for any system/boiler leaks"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "expansion vessel"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water pressure",
+        "expansion vessel",
+        "leak"
+      ],
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .06 Low water pressure Check the system pressure and restore it Check the pressure of the expansion vessel Check for any sys-tem/boiler leaks"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .18",
+      "description": "OBD error",
+      "possible_causes": [
+        "CONFIGURATION ERROR"
+      ],
+      "manufacturer_steps": [
+        "Re-enter the CN1 and CN2 values, check the information shown on the data plate"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "configuration",
+        "CN1",
+        "CN2"
+      ],
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .18 OBD error CONFIGURATION ERROR Re-enter the CN1 and CN2 values, check the infor-mation shown on the data plate"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .36",
+      "description": "Functional device disconnected",
+      "possible_causes": [
+        "SCB BOARD NOT DETECTED"
+      ],
+      "manufacturer_steps": [
+        "Check the connection and the connectors",
+        "Faulty SCB, replace the board"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "SCB board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "SCB",
+        "board",
+        "connection"
+      ],
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .36 Functional device disconnected SCB BOARD NOT DETECTED Check the connection and the connectors Faulty SCB, replace the board"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .37",
+      "description": "Passive functional device disconnected",
+      "possible_causes": [
+        "SCB BOARD NOT DETECTED"
+      ],
+      "manufacturer_steps": [
+        "Check the connection and the connectors",
+        "Faulty SCB, replace the board"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "SCB board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "SCB",
+        "board",
+        "connection"
+      ],
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .37 Passive functional device disconnected SCB BOARD NOT DETECTED Check the connection and the connectors Faulty SCB, replace the board"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .45",
+      "description": "Connection error",
+      "possible_causes": [
+        "SCB BOARD NOT DETECTED"
+      ],
+      "manufacturer_steps": [
+        "Carry out the auto-detect function"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "SCB board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "SCB",
+        "board",
+        "auto-detect"
+      ],
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .45 Connection error SCB BOARD NOT DETECTED Carry out the auto-detect function"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .46",
+      "description": "Device priority error",
+      "possible_causes": [
+        "SCB BOARD NOT DETECTED"
+      ],
+      "manufacturer_steps": [
+        "Carry out the auto-detect function"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "SCB board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "SCB",
+        "board",
+        "auto-detect"
+      ],
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .46 Device priority error SCB BOARD NOT DETECTED Carry out the auto-detect function"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .48",
+      "description": "Unit function configuration error",
+      "possible_causes": [
+        "SCB BOARD NOT DETECTED"
+      ],
+      "manufacturer_steps": [
+        "Carry out the auto-detect function"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "SCB board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "SCB",
+        "board",
+        "auto-detect",
+        "configuration"
+      ],
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .48 Unit function configuration error SCB BOARD NOT DETECTED Carry out the auto-detect function"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .49",
+      "description": "Failed node initialisation",
+      "possible_causes": [
+        "SCB BOARD NOT DETECTED"
+      ],
+      "manufacturer_steps": [
+        "Carry out the auto-detect function"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "SCB board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "SCB",
+        "board",
+        "auto-detect",
+        "initialisation"
+      ],
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .49 Failed node initialisation SCB BOARD NOT DETECTED Carry out the auto-detect function"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .54",
+      "description": "Open Therm bus power supply error",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Replace the CU-GH board"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "CU-GH board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "OpenTherm",
+        "CU-GH board"
+      ],
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .54 Open Therm bus power supply error Replace the CU-GH board"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .55",
+      "description": "Incorrect or missing serial number",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Replace the CU-GH board"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "CU-GH board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "serial number",
+        "CU-GH board"
+      ],
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "Error codes",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .55 Incorrect or missing serial number Replace the CU-GH board"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "A.02 .76",
+      "description": "Internal memory reserved for full customisation of settings. No further changes can be made",
+      "possible_causes": [
+        "CONFIGURATION ERROR"
+      ],
+      "manufacturer_steps": [
+        "Re-enter the values CN1 and CN2",
+        "Replace the CU-GH board"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "CU-GH board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "memory",
+        "configuration",
+        "CN1",
+        "CN2",
+        "CU-GH board"
+      ],
+      "source_refs": [
+        {
+          "page_number": 71,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "A.02 .76 Internal memory reserved for full customisation of settings. No further changes can be made CONFIGURATION ERROR Re-enter the values CN1 and CN2 Replace the CU-GH board"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "H.00 .42",
+      "description": "Pressure sensor open/faulty",
+      "possible_causes": [
+        "RESET PROCEDURE IN PROGRESS"
+      ],
+      "manufacturer_steps": [
+        "No action required"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pressure sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "pressure sensor",
+        "faulty"
+      ],
+      "source_refs": [
+        {
+          "page_number": 71,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.00 .42 Pressure sensor open/faulty RESET PROCEDURE IN PROGRESS No action required"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "H.01 .00",
+      "description": "Temporary communication failure between gas valve and boiler PCB.",
+      "possible_causes": [
+        "MAIN PCB ERROR"
+      ],
+      "manufacturer_steps": [
+        "Configure CN1/CN2",
+        "Replace the main PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "gas valve",
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "gas valve",
+        "PCB",
+        "CN1",
+        "CN2"
+      ],
+      "source_refs": [
+        {
+          "page_number": 71,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.01 .00 Temporary communication failure between gas valve and boiler PCB. MAIN PCB ERROR Configure CN1/CN2 Replace the main PCB"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "H.01 .05",
+      "description": "Maximum temperature difference value between flow and return reached.",
+      "possible_causes": [
+        "INSUFFICIENT CIRCULATION",
+        "OTHER CAUSES"
+      ],
+      "manufacturer_steps": [
+        "Check the boiler/installation circulation",
+        "Activate a manual venting cycle",
+        "Check the installation pressure",
+        "Check the cleanliness of the exchanger",
+        "Check the operation of the temperature sensors",
+        "Check the connection of the temperature sensors"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "exchanger",
+        "temperature sensors"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature difference",
+        "flow",
+        "return",
+        "circulation",
+        "venting",
+        "pressure",
+        "exchanger",
+        "temperature sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 71,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.01 .05 Maximum temperature difference value between flow and return reached. INSUFFICIENT CIRCULATION Check the boiler/installation circulation Activate a manual venting cycle Check the installation pressure OTHER CAUSES Check the cleanliness of the exchanger Check the operation of the temperature sensors Check the connection of the temperature sensors"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "H.01 .08",
+      "description": "Flow temperature increase in heating mode too quick. Temporary stoppage of 10 minutes.",
+      "possible_causes": [
+        "INSUFFICIENT CIRCULATION",
+        "OTHER CAUSES"
+      ],
+      "manufacturer_steps": [
+        "Check the boiler/installation circulation",
+        "Activate a manual venting cycle",
+        "Check the installation pressure",
+        "Check the cleanliness of the exchanger",
+        "Check the operation of the temperature sensors",
+        "Check the temperature sensor connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "exchanger",
+        "temperature sensors"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow temperature",
+        "heating",
+        "quick increase",
+        "circulation",
+        "venting",
+        "pressure",
+        "exchanger",
+        "temperature sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 71,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.01 .08 Flow temperature increase in heating mode too quick. Temporary stoppage of 10 minutes. INSUFFICIENT CIRCULATION Check the boiler/installation circulation Activate a manual venting cycle Check the installation pressure OTHER CAUSES Check the cleanliness of the exchanger Check the operation of the temperature sensors Check the temperature sensor connection"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "H.01 .14",
+      "description": "Maximum flow temperature value reached.",
+      "possible_causes": [
+        "INSUFFICIENT CIRCULATION"
+      ],
+      "manufacturer_steps": [
+        "Check the boiler/installation circulation",
+        "Activate a manual venting cycle"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow temperature",
+        "circulation",
+        "venting"
+      ],
+      "source_refs": [
+        {
+          "page_number": 71,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.01 .14 Maximum flow temperature value reached. INSUFFICIENT CIRCULATION Check the boiler/installation circulation Activate a manual venting cycle"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "H.01 .18",
+      "description": "No water circulation (temporary).",
+      "possible_causes": [
+        "INSUFFICIENT CIRCULATION",
+        "TEMPERATURE SENSOR ERROR"
+      ],
+      "manufacturer_steps": [
+        "Check the installation pressure",
+        "Activate a manual venting cycle",
+        "Check the operation of the pump",
+        "Check the boiler/installation circulation",
+        "Check the operation of the temperature sensors",
+        "Check the temperature sensor connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "temperature sensors"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water circulation",
+        "pump",
+        "pressure",
+        "venting",
+        "temperature sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 71,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.01 .18 No water circulation (temporary). INSUFFICIENT CIRCULATION Check the installation pressure Activate a manual venting cycle Check the operation of the pump Check the boiler/installation circulation TEMPERATURE SENSOR ERROR Check the operation of the temperature sensors Check the temperature sensor connection"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "H.01 .21",
+      "description": "Flow temperature increase in domestic water mode too quick. Temporary stoppage of 10 minutes.",
+      "possible_causes": [
+        "INSUFFICIENT CIRCULATION",
+        "TEMPERATURE SENSOR ERROR"
+      ],
+      "manufacturer_steps": [
+        "Check the installation pressure",
+        "Activate a manual venting cycle",
+        "Check the operation of the pump",
+        "Check the boiler/installation circulation",
+        "Check the operation of the temperature sensors",
+        "Check the connection of the temperature sensors"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "temperature sensors"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow temperature",
+        "DHW",
+        "quick increase",
+        "circulation",
+        "pump",
+        "pressure",
+        "venting",
+        "temperature sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 71,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.01 .21 Flow temperature increase in domestic water mode too quick. Temporary stoppage of 10 mi-nutes. INSUFFICIENT CIRCULATION Check the installation pressure Activate a manual venting cycle Check the operation of the pump Check the boiler/installation circulation TEMPERATURE SENSOR ERROR Check the operation of the temperature sensors Check the connection of the temperature sensors"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .00",
+      "description": "Reset in progress",
+      "possible_causes": [
+        "CN1/CN2 CONFIGURATION MISSING"
+      ],
+      "manufacturer_steps": [
+        "Configure CN1/CN2"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "reset",
+        "configuration",
+        "CN1",
+        "CN2"
+      ],
+      "source_refs": [
+        {
+          "page_number": 71,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .00 Reset in progress CN1/CN2 CONFIGURATION MISSING Configure CN1/CN2"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .02",
+      "description": "Waiting for configuration settings to be entered (CN1,CN2).",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check configuration CN1/CN2",
+        "Configure CN1/CN2 correctly"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "configuration",
+        "CN1",
+        "CN2"
+      ],
+      "source_refs": [
+        {
+          "page_number": 71,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .02 Waiting for configuration settings to be entered (CN1,CN2). Check configuration CN1/CN2 Configure CN1/CN2 correctly"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .03",
+      "description": "Configuration settings (CN1, CN2) not entered correctly.",
+      "possible_causes": [
+        "MAIN PCB ERROR"
+      ],
+      "manufacturer_steps": [
+        "Configure CN1/CN2"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "configuration",
+        "CN1",
+        "CN2",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 71,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .03 Configuration settings (CN1, CN2) not entered correctly. MAIN PCB ERROR Configure CN1/CN2"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .04",
+      "description": "PCB settings cannot be read.",
+      "possible_causes": [
+        "MAIN PCB ERROR"
+      ],
+      "manufacturer_steps": [
+        "Replace the main PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "PCB",
+        "read settings"
+      ],
+      "source_refs": [
+        {
+          "page_number": 71,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .04 PCB settings cannot be read. MAIN PCB ERROR Replace the main PCB"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .05",
+      "description": "Setting memory not compatible with the boiler PCB type",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the system pressure and restore it",
+        "Check the pressure of the expansion vessel",
+        "Check for any system / boiler leaks"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "PCB",
+        "expansion vessel"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "memory",
+        "PCB",
+        "compatibility",
+        "pressure",
+        "expansion vessel",
+        "leak"
+      ],
+      "source_refs": [
+        {
+          "page_number": 71,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .05 Setting memory not compatible with the boiler PCB type Check the system pressure and restore it Check the pressure of the expansion vessel Check for any sys-tem / boiler leaks"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .07",
+      "description": "Low pressure in heating circuit (permanently)",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the system pressure and restore it",
+        "Check the pressure of the expansion vessel",
+        "Check for any system / boiler leaks"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "expansion vessel"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "low pressure",
+        "heating circuit",
+        "expansion vessel",
+        "leak"
+      ],
+      "source_refs": [
+        {
+          "page_number": 71,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .07 Low pressure in heating circuit (permanently) Check the system pressure and restore it Check the pressure of the expansion vessel Check for any sys-tem / boiler leaks"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .09",
+      "description": "Partial stoppage of the boiler",
+      "possible_causes": [
+        "SIGNAL INDICATING BLOCKING INPUT ACTIVE OR FROST PROTECTION ACTIVE",
+        "External cause",
+        "Parameter configuration error",
+        "Faulty wiring connection"
+      ],
+      "manufacturer_steps": [
+        "remove the cause",
+        "check parameters",
+        "check wiring"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "partial stoppage",
+        "blocking input",
+        "frost protection",
+        "configuration",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .09 Partial stoppage of the boiler SIGNAL INDICATING BLOCKING INPUT ACTIVE OR FROST PROTECTION ACTIVE External cause: remove the cause Parameter configuration error: check parameters Faulty wiring connection: check wiring"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .10",
+      "description": "Complete stoppage of the boiler",
+      "possible_causes": [
+        "BLOCKING INPUT SIGNAL (WITHOUT FROST PROTECTION)",
+        "External cause",
+        "Parameter configuration error",
+        "Faulty wiring connection"
+      ],
+      "manufacturer_steps": [
+        "remove the cause",
+        "check parameters",
+        "check wiring"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "complete stoppage",
+        "blocking input",
+        "configuration",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .10 Complete stoppage of the boiler BLOCKING INPUT SIGNAL (WITHOUT FROST PROTECTION) External cause: remove the cause Parameter configuration error: check parameters Faulty wiring connection: check wiring"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "H.02 .12",
+      "description": "Opening of the control unit input signal contact from the external device",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "control unit",
+        "external device"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "control unit",
+        "input signal",
+        "external device"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .12 Opening of the control unit input signal contact from the external device -"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "code": "H.02 .38",
+      "description": "No water hardness",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water hardness"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .38 No water hardness Not possible"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "code": "H.02 .70",
+      "description": "External unit heat recovery test failed",
+      "possible_causes": [
+        "SCB-09 board error"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "SCB-09 board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "heat recovery",
+        "SCB board"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.02 .70 External unit heat recovery test failed SCB-09 board error"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "H.03 .00",
+      "description": "No identification data for boiler safety device.",
+      "possible_causes": [
+        "MAIN PCB ERROR"
+      ],
+      "manufacturer_steps": [
+        "Replace the main PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "PCB",
+        "safety device"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "safety device",
+        "identification data",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.03 .00 No identification data for boiler safety device. MAIN PCB ERROR Replace the main PCB"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "H.03 .01",
+      "description": "Communication failure in comfort circuit (internal fault in boiler PCB).",
+      "possible_causes": [
+        "MAIN PCB ERROR"
+      ],
+      "manufacturer_steps": [
+        "Replace the main PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "PCB"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "communication",
+        "comfort circuit",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.03 .01 Communication failure in comfort circuit (internal fault in boiler PCB). MAIN PCB ERROR Replace the main PCB"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": false
+    },
+    {
+      "code": "H.03 .02",
+      "description": "Temporary flame loss",
+      "possible_causes": [
+        "ELECTRODE PROBLEM",
+        "GAS SUPPLY",
+        "FLUE GAS PIPES"
+      ],
+      "manufacturer_steps": [
+        "Check the electrode connection and wiring",
+        "Check the condition of the electrode",
+        "Check the gas supply pressure",
+        "Check the gas valve calibration",
+        "Check the pipes and the terminal"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electrode",
+        "gas valve",
+        "flue pipes"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame loss",
+        "electrode",
+        "gas supply",
+        "gas valve",
+        "flue pipes"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.03 .02 Temporary flame loss ELECTRODE PROBLEM Check the electrode connection and wiring Check the condition of the electrode GAS SUPPLY Check the gas supply pressure Check the gas valve calibration FLUE GAS PIPES Check the pipes and the terminal"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "H.03 .05",
+      "description": "Power supply voltage too low",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the mains voltage"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "power supply",
+        "voltage"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.03 .05 Power supply voltage too low Check the mains voltage"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "H.03 .17",
+      "description": "Periodic safety check in progress",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "safety check"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.03 .17 Periodic safety check in progress -"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "code": "H.03 .54",
+      "description": "Temporary flame loss, Shutdown due to the power supply voltage being too low",
+      "possible_causes": [
+        "ELECTRODE PROBLEM",
+        "GAS SUPPLY",
+        "FLUE GAS EXHAUST PIPE"
+      ],
+      "manufacturer_steps": [
+        "Check the electrode electrical connections",
+        "Check the condition of the electrode",
+        "Check the gas inlet pressure",
+        "Check the gas valve calibration",
+        "Check the air intake and flue gas exhaust terminal",
+        "Check the power supply voltage"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "electrode",
+        "gas valve",
+        "flue gas exhaust terminal"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame loss",
+        "power supply",
+        "voltage",
+        "electrode",
+        "gas supply",
+        "gas valve",
+        "flue exhaust"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of temporary (volatile) faults",
+          "source_quote": "H.03 .54 Temporary flame loss Shutdown due to the power supply voltage being too low ELECTRODE PROBLEM Check the electrode electrical connections Check the condition of the electrode GAS SUPPLY Check the gas inlet pressure Check the gas valve calibration FLUE GAS EXHAUST PIPE Check the air intake and flue gas exhaust terminal Check the power supply voltage"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E.00 .04",
+      "description": "Return temperature sensor disconnected",
+      "possible_causes": [
+        "SENSOR/CONNECTION PROBLEM"
+      ],
+      "manufacturer_steps": [
+        "Check the operation of the temperature sensor",
+        "Check the connection of the sensor/PCB"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "return temperature sensor",
+        "PCB"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "return temperature sensor",
+        "disconnected",
+        "sensor",
+        "connection",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.00 .04 Return temperature sensor disconnected SENSOR/CONNECTION PROBLEM Check the operation of the temperature sensor Check the connection of the sensor/PCB"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E.00 .05",
+      "description": "Return temperature sensor short circuited",
+      "possible_causes": [
+        "SENSOR/CONNECTION PROBLEM"
+      ],
+      "manufacturer_steps": [
+        "Check the operation of the sensor",
+        "Check the sensor/PCB connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "return temperature sensor",
+        "PCB"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "return temperature sensor",
+        "short circuited",
+        "sensor",
+        "connection",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.00 .05 Return temperature sensor short circuited SENSOR/CONNECTION PROBLEM Check the operation of the sensor Check the sensor/PCB connection"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E.00 .06",
+      "description": "Return sensor expected but not detected",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "return sensor"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "return sensor",
+        "not detected"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.00 .06 Return sensor expected but not detected -"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "code": "E.00 .07",
+      "description": "The difference in return temperature is too great",
+      "possible_causes": [
+        "SENSOR OPEN"
+      ],
+      "manufacturer_steps": [
+        "Check the operation of the sensor",
+        "Check the sensor/PCB connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "sensor",
+        "PCB"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "return temperature",
+        "sensor",
+        "difference"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.00 .07 The difference in return temperature is too great SENSOR OPEN Check the operation of the sensor Check the sensor/PCB connection"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E.00 .16",
+      "description": "DHW tank temperature sensor not connected",
+      "possible_causes": [
+        "SENSOR CLOSED"
+      ],
+      "manufacturer_steps": [
+        "Check the operation of the sensor",
+        "Check the sensor/PCB connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "DHW tank temperature sensor",
+        "PCB"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "DHW tank",
+        "temperature sensor",
+        "disconnected",
+        "sensor",
+        "connection",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.00 .16 DHW tank temperature sensor not connected SENSOR CLOSED Check the operation of the sensor Check the sensor/PCB connection"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E.00 .17",
+      "description": "DHW tank temperature sensor short-circuited",
+      "possible_causes": [
+        "SENSOR CLOSED"
+      ],
+      "manufacturer_steps": [
+        "Check the operation of the sensor",
+        "Check the sensor/PCB connection"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "DHW tank temperature sensor",
+        "PCB"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "DHW tank",
+        "temperature sensor",
+        "short-circuited",
+        "sensor",
+        "connection",
+        "PCB"
+      ],
+      "source_refs": [
+        {
+          "page_number": 72,
+          "section_title": "Troubleshooting",
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.00 .17 DHW tank temperature sensor short-circuited SENSOR CLOSED Check the operation of the sensor Check the sensor/PCB connection"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E.00 .20",
+      "description": "The flue gas temperature sensor has short-circuited or measured a temperature below the range",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flue gas temperature sensor"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flue gas temperature sensor",
+        "short-circuited",
+        "low temperature"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Troubleshooting",
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.00 .20 The flue gas temperature sensor has short-circuited or measured a temperature below the range -"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "code": "E.00 .21",
+      "description": "The flue gas temperature sensor has short-circuited or measured a temperature above the range",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flue gas temperature sensor"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flue gas temperature sensor",
+        "short-circuited",
+        "high temperature"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Troubleshooting",
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.00 .21 The flue gas temperature sensor has short-circuited or measured a temperature above the range -"
+        }
+      ],
+      "confidence": 0.7,
+      "review_required": true
+    },
+    {
+      "code": "E.01 .04",
+      "description": "Flame loss detected five times in 24 hours (with burner on)",
+      "possible_causes": [
+        "GAS SUPPLY"
+      ],
+      "manufacturer_steps": [
+        "Check the gas supply pressure",
+        "Check the gas valve calibration",
+        "Check the air intake and flue gas exhaust terminal",
+        "Check the power supply voltage"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "burner",
+        "gas valve",
+        "flue gas exhaust terminal"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame loss",
+        "gas supply",
+        "gas valve",
+        "air intake",
+        "flue gas",
+        "power supply"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Troubleshooting",
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.01 .04 Flame loss detected five times in 24 hours (with burner on) GAS SUPPLY Check the gas supply pressure Check the gas valve calibration Check the air intake and flue gas exhaust terminal Check the power supply voltage"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E.01 .12",
+      "description": "Temperature measured by return sensor greater than flow temperature",
+      "possible_causes": [
+        "SENSOR/CONNECTION PROBLEM"
+      ],
+      "manufacturer_steps": [
+        "Check that the sensors are positioned the correct way round",
+        "Check that the flow sensor is in the correct position",
+        "Check the return temperature in the boiler",
+        "Check the operation of the sensors"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "return sensor",
+        "flow sensor",
+        "sensors"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature",
+        "return sensor",
+        "flow sensor",
+        "sensor",
+        "connection"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Troubleshooting",
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.01 .12 Temperature measured by return sensor greater than flow temperature SENSOR/CONNECTION PROBLEM Check that the sensors are positioned the correct way round Check that the flow sensor is in the cor-rect position Check the return temperature in the boiler Check the operation of the sensors"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E.01 .17",
+      "description": "No water circulation (permanent)",
+      "possible_causes": [
+        "INSUFFICIENT CIRCULATION",
+        "SENSOR ERROR"
+      ],
+      "manufacturer_steps": [
+        "Check the installation pressure",
+        "Activate a manual venting cycle",
+        "Check the operation of the pump",
+        "Check the boiler/installation circulation",
+        "Check the operation of the temperature sensors",
+        "Check the connection of the temperature sensors"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "temperature sensors"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water circulation",
+        "pump",
+        "pressure",
+        "venting",
+        "temperature sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Troubleshooting",
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.01 .17 No water circulation (permanent) INSUFFICIENT CIRCULATION Check the installation pressure Activate a manual venting cycle Check the operation of the pump Check the boiler/installation circulation SENSOR ERROR Check the operation of the temperature sensors Check the connection of the temperature sensors"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E.01 .20",
+      "description": "Maximum flue gas temperature reached",
+      "possible_causes": [
+        "EXCHANGER ON FLUE GAS SIDE BLOCKED"
+      ],
+      "manufacturer_steps": [
+        "Check the cleanliness of the exchanger"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "flue gas exchanger"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flue gas temperature",
+        "exchanger",
+        "blocked"
+      ],
+      "source_refs": [
+        {
+          "page_number": 73,
+          "section_title": "Troubleshooting",
+          "table_title": "List of permanent faults (boiler stoppage, reset required)",
+          "source_quote": "E.01 .20 Maximum flue gas temperature reached EXCHANGER ON FLUE GAS SIDE BLOCKED Check the cleanliness of the exchanger"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "E.02 .13",
+      "description": "St",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [],
+      "source_refs": [],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  ],
+  "diagnostic_codes": [],
+  "status_codes": [],
+  "safety_warnings": [],
+  "maintenance_tasks": [],
+  "search_terms": [],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.0,
+    "review_required": true,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+      "overall_confidence was missing or invalid and was set to 0.0 by the pipeline."
+    ]
+  }
+}

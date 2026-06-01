@@ -1,0 +1,1273 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Buderus",
+    "product_family": "Logamax plus",
+    "model_names": [
+      "GB162-80kW",
+      "GB162-100kW",
+      "GB162-L.B.-80kW",
+      "GB162-L.B.-100kW"
+    ],
+    "manual_type": "installation",
+    "document_title": "Flue cascade Installation instructions for Logamax plus GB162-80kW/100 kW and GB162-L.B.-80kW/100 kW",
+    "document_code": "6 720 646 836 (08/2013) US/CA",
+    "publication_date": "08/2013",
+    "language": "en",
+    "region": "US/CA",
+    "source_file": "bosch_gb162_installation-manual_201309192156100-6720646836-gb162-flue-cascade-kit-installation-instructions-en-fr-08-2013.pdf",
+    "file_hash": "24fefca92cc0fac8c481995fedf28d54f38b99cb074bfae9f1d267d881dc9380"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Flue pipe cut length Y for Ø160",
+      "value": "73 mm",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Make it fit / Raccourcir",
+          "table_title": null,
+          "source_quote": "Ø160 Y = 73 mm (2.9\")"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue pipe cut length Y for Ø200",
+      "value": "100 mm",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Make it fit / Raccourcir",
+          "table_title": null,
+          "source_quote": "Ø200 Y = 100 mm (3.94\")"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue pipe cut length Y for Ø250",
+      "value": "100 mm",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Make it fit / Raccourcir",
+          "table_title": null,
+          "source_quote": "Ø250 Y = 100 mm (3.94\")"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue pipe cut length Y for Ø315",
+      "value": "322 mm",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "Make it fit / Raccourcir",
+          "table_title": null,
+          "source_quote": "Ø315 Y = 322 mm (12.68\")"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue termination clearance",
+      "value": "13\"",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "Flue Termination / agencement des sorties de fumées",
+          "table_title": null,
+          "source_quote": "13\" (330 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue termination clearance",
+      "value": "330 mm",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "Flue Termination / agencement des sorties de fumées",
+          "table_title": null,
+          "source_quote": "13\" (330 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum fresh air intake diameter for 2 x 80 kW",
+      "value": "> Ø5.7\"",
+      "unit": "inches",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Ventilation / arrivée d'air frais",
+          "table_title": null,
+          "source_quote": "2 x 80 kW > Ø5.7\" (145 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum fresh air intake diameter for 2 x 80 kW",
+      "value": "145 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Ventilation / arrivée d'air frais",
+          "table_title": null,
+          "source_quote": "2 x 80 kW > Ø5.7\" (145 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum fresh air intake diameter for 3 x 80 kW",
+      "value": "> Ø7.0\"",
+      "unit": "inches",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Ventilation / arrivée d'air frais",
+          "table_title": null,
+          "source_quote": "3 x 80 kW > Ø7.0\" (175 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum fresh air intake diameter for 3 x 80 kW",
+      "value": "175 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Ventilation / arrivée d'air frais",
+          "table_title": null,
+          "source_quote": "3 x 80 kW > Ø7.0\" (175 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum fresh air intake diameter for 4 x 80 kW",
+      "value": "> Ø8.0\"",
+      "unit": "inches",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Ventilation / arrivée d'air frais",
+          "table_title": null,
+          "source_quote": "4 x 80 kW > Ø8.0\" (200 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum fresh air intake diameter for 4 x 80 kW",
+      "value": "200 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Ventilation / arrivée d'air frais",
+          "table_title": null,
+          "source_quote": "4 x 80 kW > Ø8.0\" (200 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum fresh air intake diameter for 2 x 100 kW",
+      "value": "> Ø5.7\"",
+      "unit": "inches",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Ventilation / arrivée d'air frais",
+          "table_title": null,
+          "source_quote": "2 x 100 kW > Ø5.7\" (145 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum fresh air intake diameter for 2 x 100 kW",
+      "value": "145 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Ventilation / arrivée d'air frais",
+          "table_title": null,
+          "source_quote": "2 x 100 kW > Ø5.7\" (145 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum fresh air intake diameter for 3 x 100 kW",
+      "value": "> Ø7.0\"",
+      "unit": "inches",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Ventilation / arrivée d'air frais",
+          "table_title": null,
+          "source_quote": "3 x 100 kW > Ø7.0\" (175 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum fresh air intake diameter for 3 x 100 kW",
+      "value": "175 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Ventilation / arrivée d'air frais",
+          "table_title": null,
+          "source_quote": "3 x 100 kW > Ø7.0\" (175 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum fresh air intake diameter for 4 x 100 kW",
+      "value": "> Ø8.0\"",
+      "unit": "inches",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Ventilation / arrivée d'air frais",
+          "table_title": null,
+          "source_quote": "4 x 100 kW > Ø8.0\" (200 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum fresh air intake diameter for 4 x 100 kW",
+      "value": "200 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Ventilation / arrivée d'air frais",
+          "table_title": null,
+          "source_quote": "4 x 100 kW > Ø8.0\" (200 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum horizontal flue length L (Line setup)",
+      "value": "20\"",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Flue setup / agencement des tuyaux d'évacuation des fumées",
+          "table_title": null,
+          "source_quote": "L = 20\" (0.5 m)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum horizontal flue length L (Line setup)",
+      "value": "0.5 m",
+      "unit": "m",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Flue setup / agencement des tuyaux d'évacuation des fumées",
+          "table_title": null,
+          "source_quote": "L = 20\" (0.5 m)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum horizontal flue length L (Line setup)",
+      "value": "100\"",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Flue setup / agencement des tuyaux d'évacuation des fumées",
+          "table_title": null,
+          "source_quote": "[max. 100\" (2.5 m)]"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum horizontal flue length L (Line setup)",
+      "value": "2.5 m",
+      "unit": "m",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Flue setup / agencement des tuyaux d'évacuation des fumées",
+          "table_title": null,
+          "source_quote": "[max. 100\" (2.5 m)]"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum vertical clearance (Line setup)",
+      "value": "≥ 17\"",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Flue setup / agencement des tuyaux d'évacuation des fumées",
+          "table_title": null,
+          "source_quote": "≥ 17\" (430 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum vertical clearance (Line setup)",
+      "value": "430 mm",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Flue setup / agencement des tuyaux d'évacuation des fumées",
+          "table_title": null,
+          "source_quote": "≥ 17\" (430 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Vertical pipe spacing (Line setup)",
+      "value": "5.8\"",
+      "unit": "inches",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Flue setup / agencement des tuyaux d'évacuation des fumées",
+          "table_title": null,
+          "source_quote": "5.8\" (147 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Vertical pipe spacing (Line setup)",
+      "value": "147 mm",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Flue setup / agencement des tuyaux d'évacuation des fumées",
+          "table_title": null,
+          "source_quote": "5.8\" (147 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum flue length L1 (0-4000 ft sea level) for 2 x 80 kW, Ø160 (6\")",
+      "value": "4 m (13 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 80 kW Ø160 (6\") 4 m (13 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Minimum flue length L1 (0-4000 ft sea level) for 3 x 80 kW, Ø200 (8\")",
+      "value": "2 m (6.5 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 80 kW Ø200 (8\") 2 m (6.5 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Minimum flue length L1 (0-4000 ft sea level) for 4 x 80 kW, Ø250 (10\")",
+      "value": "3 m (10 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 80 kW Ø250 (10\") 3 m (10 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Minimum flue length L1 (0-4000 ft sea level) for 2 x 100 kW, Ø200 (8\")",
+      "value": "2 m (6.5 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 100 kW Ø200 (8\") 2 m (6.5 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Minimum flue length L1 (0-4000 ft sea level) for 3 x 100 kW, Ø250 (10\")",
+      "value": "3 m (10 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 100 kW Ø250 (10\") 3 m (10 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Minimum flue length L1 (0-4000 ft sea level) for 4 x 100 kW, Ø315 (12\")",
+      "value": "3 m (10 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 100 kW Ø315 (12\") 3 m (10 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (0-4000 ft sea level) for 2 x 80 kW, Ø160 (6\")",
+      "value": "44 m (144 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 80 kW Ø160 (6\") 44 m (144 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (0-4000 ft sea level) for 3 x 80 kW, Ø200 (8\")",
+      "value": "46 m (151 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 80 kW Ø200 (8\") 46 m (151 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (0-4000 ft sea level) for 4 x 80 kW, Ø250 (10\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 80 kW Ø250 (10\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (0-4000 ft sea level) for 2 x 100 kW, Ø160 (6\")",
+      "value": "29 m (95 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 100 kW Ø160 (6\") 29 m (95 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (0-4000 ft sea level) for 3 x 100 kW, Ø200 (8\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 100 kW Ø200 (8\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (0-4000 ft sea level) for 4 x 100 kW, Ø250 (10\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (0 - 4,000 ft Sea level) / Longueur L (0-4.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 100 kW Ø250 (10\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Minimum flue length L1 (8001-10200 ft above sea level) for 2 x 80 kW, Ø200 (8\")",
+      "value": "4 m (13 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 80 kW Ø200 (8\") 4 m (13 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Minimum flue length L1 (8001-10200 ft above sea level) for 3 x 80 kW, Ø250 (10\")",
+      "value": "5 m (16 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 80 kW Ø250 (10\") 5 m (16 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Minimum flue length L1 (8001-10200 ft above sea level) for 4 x 80 kW, Ø250 (10\")",
+      "value": "5 m (16 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 80 kW Ø250 (10\") 5 m (16 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Minimum flue length L1 (8001-10200 ft above sea level) for 2 x 100 kW, Ø250 (10\")",
+      "value": "5 m (16 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 100 kW Ø250 (10\") 5 m (16 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Minimum flue length L1 (8001-10200 ft above sea level) for 3 x 100 kW, Ø315 (12\")",
+      "value": "6 m (19 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 100 kW Ø315 (12\") 6 m (19 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Minimum flue length L1 (8001-10200 ft above sea level) for 4 x 100 kW, Ø315 (12\")",
+      "value": "6 m (19 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 100 kW Ø315 (12\") 6 m (19 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (8001-10200 ft above sea level) for 2 x 80 kW, Ø250 (10\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 80 kW Ø250 (10\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (8001-10200 ft above sea level) for 3 x 80 kW, Ø250 (10\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 80 kW Ø250 (10\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (8001-10200 ft above sea level) for 4 x 80 kW, Ø250 (10\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 80 kW Ø250 (10\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (8001-10200 ft above sea level) for 2 x 100 kW, Ø250 (10\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 100 kW Ø250 (10\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (8001-10200 ft above sea level) for 3 x 100 kW, Ø315 (12\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 100 kW Ø315 (12\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (8001-10200 ft above sea level) for 4 x 100 kW, Ø315 (12\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (8,001 - 10,200 ft above sea level) / Longueur L (8.001-10.200 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 100 kW Ø315 (12\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Minimum flue length L1 (4001-8000 ft above sea level) for 2 x 80 kW, Ø160 (6\")",
+      "value": "8 m (26 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 80 kW Ø160 (6\") 8 m (26 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Minimum flue length L1 (4001-8000 ft above sea level) for 3 x 80 kW, Ø200 (8\")",
+      "value": "2 m (6.5 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 80 kW Ø200 (8\") 2 m (6.5 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Minimum flue length L1 (4001-8000 ft above sea level) for 4 x 80 kW, Ø250 (10\")",
+      "value": "3 m (10 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 80 kW Ø250 (10\") 3 m (10 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Minimum flue length L1 (4001-8000 ft above sea level) for 2 x 100 kW, Ø200 (8\")",
+      "value": "2 m (6.5 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 100 kW Ø200 (8\") 2 m (6.5 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Minimum flue length L1 (4001-8000 ft above sea level) for 3 x 100 kW, Ø250 (10\")",
+      "value": "3 m (10 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 100 kW Ø250 (10\") 3 m (10 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Minimum flue length L1 (4001-8000 ft above sea level) for 4 x 100 kW, Ø315 (12\")",
+      "value": "3 m (10 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 100 kW Ø315 (12\") 3 m (10 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (4001-8000 ft above sea level) for 2 x 80 kW, Ø160 (6\")",
+      "value": "24 m (79 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 80 kW Ø160 (6\") 24 m (79 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (4001-8000 ft above sea level) for 3 x 80 kW, Ø200 (8\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 80 kW Ø200 (8\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (4001-8000 ft above sea level) for 4 x 80 kW, Ø250 (10\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-80kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 80 kW Ø250 (10\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (4001-8000 ft above sea level) for 2 x 100 kW, Ø160 (6\")",
+      "value": "29 m (95 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "2 x 100 kW Ø160 (6\") 29 m (95 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (4001-8000 ft above sea level) for 3 x 100 kW, Ø200 (8\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "3 x 100 kW Ø200 (8\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    },
+    {
+      "parameter": "Maximum flue length Lmax (4001-8000 ft above sea level) for 4 x 100 kW, Ø250 (10\")",
+      "value": "50 m (164 ft)",
+      "unit": "m",
+      "applies_to_models": [
+        "GB162-100kW"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Flue setup (continued) / agencement des tuyaux d'évacuation des fumées (suite)",
+          "table_title": "Length L (4,001 8,000 ft above sea level) / Longueur L (4.001-8.000 ft au-dessus du niveau de la mer)",
+          "source_quote": "4 x 100 kW Ø250 (10\") 50 m (164 ft)"
+        }
+      ],
+      "confidence": 0.8,
+      "review_required": true
+    }
+  ],
+  "fault_codes": [],
+  "diagnostic_codes": [],
+  "status_codes": [],
+  "safety_warnings": [
+    {
+      "warning_type": "unknown",
+      "topic": "Installation",
+      "text": "To be installed by a heating engineer only.",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "[en] To be installed by a heating engineer only."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "General operation",
+      "text": "Observe the instruction manuals for both the device and any accessories used.",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "[en] Observe the instruction manuals for both the device and any accessories used."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Electrical safety",
+      "text": "Before carrying out electrical work: disconnect the installation from the power supply.",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "[en] Before carrying out electrical work: disconnect the installation from the power supply."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "maintenance_tasks": [
+    {
+      "task_name": "Check all connections for leakage",
+      "description": "Check all connections for leakage.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Check alle connections for leakage / vérifier l'étanchéité des tous les raccords",
+          "table_title": null,
+          "source_quote": "7. Check all connections for leakage. / Contrôler l'étanchéité de tous les raccords."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "search_terms": [
+    "Flue cascade",
+    "Cascades des fumées",
+    "Installation instructions",
+    "Notice de montage",
+    "Logamax plus",
+    "GB162",
+    "Flue pipe",
+    "Condensate",
+    "Siphon",
+    "Ventilation",
+    "Air intake",
+    "Flue length",
+    "Leakage check"
+  ],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.4,
+    "review_required": true,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "Flue length tables are complex and have been extracted with a confidence of 0.8 and review_required set to true for each entry to ensure accuracy across all conditions (altitude, number of boilers, kW, diameter).",
+      "No fault codes, diagnostic codes, or status codes were extracted. Manual should be reviewed or reprocessed.",
+      "No fault_codes were extracted."
+    ]
+  }
+}

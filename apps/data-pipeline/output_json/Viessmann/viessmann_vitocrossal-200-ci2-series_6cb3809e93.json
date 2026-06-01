@@ -1,0 +1,4687 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Viessmann",
+    "product_family": "Vitocrossal 200 CI2 series",
+    "model_names": [
+      "Vitocrossal 200",
+      "Vitocrossal 200 CI2 399",
+      "Vitocrossal 200 CI2 500",
+      "Vitocrossal 200 CI2 750",
+      "Vitocrossal 200 CI2 1000",
+      "Vitocrossal 200 CI2 1500",
+      "Vitocrossal 200 CI2 2000"
+    ],
+    "manual_type": "installation",
+    "document_title": "Installation Instructions for use by heating contractor",
+    "document_code": "6175 796 - 20",
+    "publication_date": "11/2025",
+    "language": "en",
+    "region": "US/Canada",
+    "source_file": "vitocrossal_200_ci2_ii.pdf",
+    "file_hash": "6cb3809e93dadd588a37dbbea92f55a13e4d100344a53708d61f081e3706be3c"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Heating input",
+      "value": "399 to 2000 MBH",
+      "unit": "MBH",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 series"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Heating input: 399 to 2000 MBH"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating input",
+      "value": "117 to 586 kW",
+      "unit": "kW",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 series"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "(117 to 586 kW)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum mechanical room temperature",
+      "value": "104°F (40°C)",
+      "unit": "°F (°C)",
+      "applies_to_models": [],
+      "category": "environment",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Mechanical room",
+          "table_title": null,
+          "source_quote": "The maximum room temperature of the mechanical room where the boiler is located must not exceed 104°F (40°C)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Horizontal vent-air intake termination wall thickness (Minimum)",
+      "value": "1 in. (25.4 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Important Regulatory and Installation Requirements",
+          "table_title": null,
+          "source_quote": "Minimum: 1 in. (25.4 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Horizontal vent-air intake termination wall thickness (Maximum)",
+      "value": "30 in. (762 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Important Regulatory and Installation Requirements",
+          "table_title": null,
+          "source_quote": "Maximum: 30 in. (762 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Venting clearance to combustibles",
+      "value": "As per vent manufacturer's requirements",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Important Regulatory and Installation Requirements",
+          "table_title": null,
+          "source_quote": "Venting clearance to combustibles (Stainless Steel / Polypropylene) As per vent manufacturer's requirements."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Intended Use",
+      "value": "Sealed unvented heating systems for heating water",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "Intended Use",
+          "table_title": null,
+          "source_quote": "The boiler is only intended to be installed and operated in sealed unvented heating systems with due attention paid to the associated installation, service and operating instructions. The boiler is only designed for the heating of heating water."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum foundation height",
+      "value": "4 in. (100 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Mechanical Room",
+          "table_title": null,
+          "source_quote": "Site the boiler on a load bearing foundation with a minimum height of 4 in. (100 mm)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion air quality",
+      "value": "Free of flammable, explosive gases and vapors",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Mechanical Room",
+          "table_title": null,
+          "source_quote": "Combustion air must be free of flammable, explosive gases and vapors."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion air dust content (daily mean value)",
+      "value": "< 0.15 ppm (< 150 µg/m3)",
+      "unit": "ppm (µg/m3)",
+      "applies_to_models": [],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Mechanical Room",
+          "table_title": null,
+          "source_quote": "Dust-free, daily mean value < 0.15 ppm (< 150 µg/m3) air,"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion air contaminants",
+      "value": "Not contaminated with halogens or other solvent vapors",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "Mechanical Room",
+          "table_title": null,
+          "source_quote": "Combustion air must not be contaminated with halogens or other solvent vapors. In swimming pools in particular, pay special attention to chlorine and salts from water treatment."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum service clearance 'a'",
+      "value": "31 1/2 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Recommended Minimum Service Clearances",
+          "table_title": "CI2 Model",
+          "source_quote": "a *2 in. 311/2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum service clearance 'a'",
+      "value": "800 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Recommended Minimum Service Clearances",
+          "table_title": "CI2 Model",
+          "source_quote": "mm 800"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum service clearance 'b'",
+      "value": "27 1/2 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Recommended Minimum Service Clearances",
+          "table_title": "CI2 Model",
+          "source_quote": "b *1 in. 271/2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum service clearance 'b'",
+      "value": "700 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Recommended Minimum Service Clearances",
+          "table_title": "CI2 Model",
+          "source_quote": "mm 700"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum service clearance 'c'",
+      "value": "39 1/2 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Recommended Minimum Service Clearances",
+          "table_title": "CI2 Model",
+          "source_quote": "c in. 391/2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum service clearance 'c'",
+      "value": "1000 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Recommended Minimum Service Clearances",
+          "table_title": "CI2 Model",
+          "source_quote": "mm 1000"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum service clearance (Top)",
+      "value": "20 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Recommended Minimum Service Clearances",
+          "table_title": "CI2 Model",
+          "source_quote": "Top in. 20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum service clearance (Top)",
+      "value": "510 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Recommended Minimum Service Clearances",
+          "table_title": "CI2 Model",
+          "source_quote": "mm 510"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Multiboiler installation clearance between boilers",
+      "value": "0\" (0 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Recommended Minimum Service Clearances",
+          "table_title": null,
+          "source_quote": "*1 in multiboiler installations, clearance between boilers can be reduced to 0\" (0 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance to combustibles (Top)",
+      "value": "0",
+      "unit": null,
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Minimum clearances to combustibles",
+          "table_title": "C12 Model",
+          "source_quote": "Top 0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance to combustibles (Sides)",
+      "value": "0",
+      "unit": null,
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Minimum clearances to combustibles",
+          "table_title": "C12 Model",
+          "source_quote": "Sides 0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance to combustibles (Flue)",
+      "value": "per vent manufacturer's specifications",
+      "unit": null,
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Minimum clearances to combustibles",
+          "table_title": "C12 Model",
+          "source_quote": "Flue per vent manufacturer's specifications"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance to combustibles (Front)",
+      "value": "0",
+      "unit": null,
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Minimum clearances to combustibles",
+          "table_title": "C12 Model",
+          "source_quote": "Front 0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum clearance to combustibles (Floor)",
+      "value": "combustible",
+      "unit": null,
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "clearances",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Minimum clearances to combustibles",
+          "table_title": "C12 Model",
+          "source_quote": "Floor combustible"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Ramp length for unloading (CI2 399-1000)",
+      "value": "50 in. (1270 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Unpacking the Boiler",
+          "table_title": null,
+          "source_quote": "The ramp length Ⓐ is 50 in. (1270 mm) for CI2 models 399 through 1000"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Ramp length for unloading (CI2 1500-2000)",
+      "value": "75 in. (1900 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Unpacking the Boiler",
+          "table_title": null,
+          "source_quote": "and 75 in. (1900 mm) for CI2 models 1500 and 2000."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension 'a' without seismic feet",
+      "value": "32 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "Without seismic feet",
+          "source_quote": "a in. 32"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension 'a' without seismic feet",
+      "value": "812 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "Without seismic feet",
+          "source_quote": "mm 812"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension 'a' without seismic feet",
+      "value": "41 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "Without seismic feet",
+          "source_quote": "a in. 41"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension 'a' without seismic feet",
+      "value": "1040 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "Without seismic feet",
+          "source_quote": "mm 1040"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension 'a' without seismic feet",
+      "value": "47 1/4 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "Without seismic feet",
+          "source_quote": "a in. 471/4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension 'a' without seismic feet",
+      "value": "1200 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "Without seismic feet",
+          "source_quote": "mm 1200"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension 'b' without seismic feet",
+      "value": "29 1/2 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "Without seismic feet",
+          "source_quote": "b in. 291/2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension 'b' without seismic feet",
+      "value": "750 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "Without seismic feet",
+          "source_quote": "mm 750"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight incl. water content",
+      "value": "1027 lb.",
+      "unit": "lb.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "Without seismic feet",
+          "source_quote": "Weight incl. water content 1027 lb."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight incl. water content",
+      "value": "358 kg",
+      "unit": "kg",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "Without seismic feet",
+          "source_quote": "358 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight incl. water content",
+      "value": "1382 lb.",
+      "unit": "lb.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "Without seismic feet",
+          "source_quote": "Weight incl. water content 1382 lb."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight incl. water content",
+      "value": "627 kg",
+      "unit": "kg",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "Without seismic feet",
+          "source_quote": "627 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight incl. water content",
+      "value": "2754 lb.",
+      "unit": "lb.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "Without seismic feet",
+          "source_quote": "Weight incl. water content 2754 lb."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight incl. water content",
+      "value": "1249 kg",
+      "unit": "kg",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "Without seismic feet",
+          "source_quote": "1249 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight incl. water content",
+      "value": "2798 lb.",
+      "unit": "lb.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "Without seismic feet",
+          "source_quote": "Weight incl. water content 2798 lb."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight incl. water content",
+      "value": "1269 kg",
+      "unit": "kg",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "Without seismic feet",
+          "source_quote": "1269 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension 'a' with seismic feet",
+      "value": "46 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "With seismic feet",
+          "source_quote": "a in. 46"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension 'a' with seismic feet",
+      "value": "1170 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "With seismic feet",
+          "source_quote": "mm 1170"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension 'a' with seismic feet",
+      "value": "54 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "With seismic feet",
+          "source_quote": "a in. 54"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension 'a' with seismic feet",
+      "value": "1370 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "With seismic feet",
+          "source_quote": "mm 1370"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension 'a' with seismic feet",
+      "value": "63 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "With seismic feet",
+          "source_quote": "a in. 63"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension 'a' with seismic feet",
+      "value": "1600 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "With seismic feet",
+          "source_quote": "mm 1600"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension 'b' with seismic feet",
+      "value": "46 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "With seismic feet",
+          "source_quote": "b in. 46"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Dimension 'b' with seismic feet",
+      "value": "1170 mm",
+      "unit": "mm",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "Placement of Boiler",
+          "table_title": "With seismic feet",
+          "source_quote": "mm 1170"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum distance from WiFi interfering devices",
+      "value": "6 ft. (2 m)",
+      "unit": "ft. (m)",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "WiFi Operational Reliability and System Requirements",
+          "table_title": null,
+          "source_quote": "Maintain a distance of at least 6 ft. (2 m) from these devices: Computers, Audio and video systems, Devices with active WiFi connection, Electronic transformers, Pre-ballasts"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler supply connection",
+      "value": "NPT 2 in.",
+      "unit": "NPT",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Boiler Connections",
+          "table_title": "Boiler model CI2",
+          "source_quote": "A Boiler supply NPT 2 in."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler supply connection",
+      "value": "2.5 in.*",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Boiler Connections",
+          "table_title": "Boiler model CI2",
+          "source_quote": "A Boiler supply 2.5 in.*"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler supply connection",
+      "value": "4 in.*",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Boiler Connections",
+          "table_title": "Boiler model CI2",
+          "source_quote": "A Boiler supply 4 in.*"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Temperature and pressure gauge connection",
+      "value": "NPT 1/2 in.",
+      "unit": "NPT",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Boiler Connections",
+          "table_title": "Boiler model CI2",
+          "source_quote": "B Temperature and pressure gauge NPT 1/2 in."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure switch connection",
+      "value": "BSP 1/8 in.",
+      "unit": "BSP",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Boiler Connections",
+          "table_title": "Boiler model CI2",
+          "source_quote": "C Pressure switch BSP 1/8 in."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure relief valve connection",
+      "value": "NPT 1 1/4 in.",
+      "unit": "NPT",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Boiler Connections",
+          "table_title": "Boiler model CI2",
+          "source_quote": "D Pressure relief valve NPT 11/4 in."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Air vent connection",
+      "value": "NPT 1/2 in.",
+      "unit": "NPT",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Boiler Connections",
+          "table_title": "Boiler model CI2",
+          "source_quote": "E Air vent NPT 12 in."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Low water cutoff connection",
+      "value": "NPT 1/2 in.",
+      "unit": "NPT",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Boiler Connections",
+          "table_title": "Boiler model CI2",
+          "source_quote": "F low water cutoff NPT 1/2 in."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler temperature sensor connection",
+      "value": "BSP 1/8 in.",
+      "unit": "BSP",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Boiler Connections",
+          "table_title": "Boiler model CI2",
+          "source_quote": "G Boiler temperature sensor BSP 1/8 in."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler return connection",
+      "value": "NPT 2 in.",
+      "unit": "NPT",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Boiler Connections",
+          "table_title": "Boiler model CI2",
+          "source_quote": "H Boiler return NPT 2 in."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler return connection",
+      "value": "2.5 in.*",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Boiler Connections",
+          "table_title": "Boiler model CI2",
+          "source_quote": "H Boiler return 2.5 in.*"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler return connection",
+      "value": "4 in.*",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Boiler Connections",
+          "table_title": "Boiler model CI2",
+          "source_quote": "H Boiler return 4 in.*"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Drain connection",
+      "value": "NPT 1/2 in.",
+      "unit": "NPT",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Boiler Connections",
+          "table_title": "Boiler model CI2",
+          "source_quote": "K Drain NPT 1/2 in."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. allowable working pressure (MAWP)",
+      "value": "80 psi",
+      "unit": "psi",
+      "applies_to_models": [],
+      "category": "pressure",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Boiler Connections",
+          "table_title": null,
+          "source_quote": "Max. allowable working pressure (MAWP): .... 80 psi (5.5 bar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. allowable working pressure (MAWP)",
+      "value": "5.5 bar",
+      "unit": "bar",
+      "applies_to_models": [],
+      "category": "pressure",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Boiler Connections",
+          "table_title": null,
+          "source_quote": "Max. allowable working pressure (MAWP): .... 80 psi (5.5 bar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. water pressure",
+      "value": "15 psi",
+      "unit": "psi",
+      "applies_to_models": [],
+      "category": "pressure",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Boiler Connections",
+          "table_title": null,
+          "source_quote": "Min. water pressure: 15 psi (1.0 bar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Min. water pressure",
+      "value": "1.0 bar",
+      "unit": "bar",
+      "applies_to_models": [],
+      "category": "pressure",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Boiler Connections",
+          "table_title": null,
+          "source_quote": "Min. water pressure: 15 psi (1.0 bar)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler return connection",
+      "value": "2 in. NPT",
+      "unit": "NPT",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Boiler Connections",
+          "table_title": null,
+          "source_quote": "① Boiler return: 2 in. NPT for CI2 399/500"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler return connection",
+      "value": "2 1/2 in. ANSI flange",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Boiler Connections",
+          "table_title": null,
+          "source_quote": "2 1/2 in. ANSI flange for CI2 750/1000 *1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler return connection",
+      "value": "4 in. ANSI flange",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Boiler Connections",
+          "table_title": null,
+          "source_quote": "4 in. ANSI flange for CI2 1500/2000 *1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler supply connection",
+      "value": "2 in. NPT",
+      "unit": "NPT",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Boiler Connections",
+          "table_title": null,
+          "source_quote": "② Boiler supply: 2 in. NPT for CI2 399/500"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler supply connection",
+      "value": "2 1/2 in. ANSI flange",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Boiler Connections",
+          "table_title": null,
+          "source_quote": "2 1/2 in. ANSI flange for CI2 750/1000 *1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler supply connection",
+      "value": "4 in. ANSI flange",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Boiler Connections",
+          "table_title": null,
+          "source_quote": "4 in. ANSI flange for CI2 1500/2000 *1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure relief valve setting",
+      "value": "80 psi",
+      "unit": "psi",
+      "applies_to_models": [],
+      "category": "pressure",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Boiler Connections",
+          "table_title": null,
+          "source_quote": "F Pressure relief valve, 80 psi *2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas shut-off valve connection size",
+      "value": "1 1/2 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Boiler Connections",
+          "table_title": null,
+          "source_quote": "L Gas gas shut-off valve, 11/2 in. for models 399, 500, 750 and 1000"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas shut-off valve connection size",
+      "value": "2 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 15,
+          "section_title": "Boiler Connections",
+          "table_title": null,
+          "source_quote": "2 in. for models 1500 and 2000"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Burner section 1, lead (CI2 1500)",
+      "value": "500 MBH",
+      "unit": "MBH",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "Gas Connections",
+          "table_title": "Vitocrossal 200 CI2 1500 Legend",
+          "source_quote": "1 Burner section 1, lead (500 MBH)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Burner section 2, lag (CI2 1500)",
+      "value": "1000 MBH",
+      "unit": "MBH",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "Gas Connections",
+          "table_title": "Vitocrossal 200 CI2 1500 Legend",
+          "source_quote": "2 Burner section 2, lag (1000 MBH)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas pipe connection size for 500 MBH burner",
+      "value": "1 1/4 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "Gas Connections",
+          "table_title": "Vitocrossal 200 CI2 1500 Legend",
+          "source_quote": "1* 11/4 in. for 500 MBH burner"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas pipe connection size for 1000 MBH burner",
+      "value": "1 1/2 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "Gas Connections",
+          "table_title": "Vitocrossal 200 CI2 1500 Legend",
+          "source_quote": "11/2 in. for 1000 MBH burner"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas pipe connection size (CI2 399-1000)",
+      "value": "1 1/2 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "Gas Connections",
+          "table_title": "Vitocrossal 200 CI2 1500 Legend",
+          "source_quote": "2* 11/2 in. for Vitocrossal 200, CI2 models 399 to 1000"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas pipe connection size (CI2 1500-2000)",
+      "value": "2 in.",
+      "unit": "in.",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "Gas Connections",
+          "table_title": "Vitocrossal 200 CI2 1500 Legend",
+          "source_quote": "2 in. for Vitocrossal 200, CI2 models 1500 and 2000"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Burner section 1, lead (CI2 2000)",
+      "value": "1000 MBH",
+      "unit": "MBH",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "Gas Connections",
+          "table_title": "Vitocrossal 200 CI2 2000 Legend",
+          "source_quote": "1 Burner section 1, lead (1000 MBH)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Burner section 2, lag (CI2 2000)",
+      "value": "1000 MBH",
+      "unit": "MBH",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 16,
+          "section_title": "Gas Connections",
+          "table_title": "Vitocrossal 200 CI2 2000 Legend",
+          "source_quote": "2 Burner section 2, lag (1000 MBH)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection size",
+      "value": "1 1/2 in. NPT",
+      "unit": "NPT",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "Gas Connections",
+          "table_title": null,
+          "source_quote": "Gas connection: Vitocrossal 200, CI2: 11/2 in. NPT for models 399, 500, 750 and 1000"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas connection size",
+      "value": "2 in. NPT",
+      "unit": "NPT",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "Gas Connections",
+          "table_title": null,
+          "source_quote": "2 in. NPT for models 1500 and 2000."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas pressure regulator distance upstream",
+      "value": "minimum of 10 ft. (3.3 m)",
+      "unit": "ft. (m)",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "Vitocrossal fuel supply recommendations",
+          "table_title": null,
+          "source_quote": "Install high pressure regulator a minimum of 10 ft. (3.3 m) upstream of the boiler fuel connection."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas pressure regulator quantity",
+      "value": "one per boiler",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "Vitocrossal fuel supply recommendations",
+          "table_title": null,
+          "source_quote": "Install one gas pressure regulator per boiler."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. gas supply pressure",
+      "value": "14 \"w.c.",
+      "unit": "\"w.c.",
+      "applies_to_models": [],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Gas Connections",
+          "table_title": null,
+          "source_quote": "Max. gas supply pressure: 14 \"w.c."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "F1 Fuse",
+      "value": "6.3 A (slow)",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "Electrical Connections",
+          "table_title": "Wiring panel",
+          "source_quote": "F1 Fuse 6.3 A (slow), 120V"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "F1 Fuse voltage",
+      "value": "120V",
+      "unit": "V",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "Electrical Connections",
+          "table_title": "Wiring panel",
+          "source_quote": "F1 Fuse 6.3 A (slow), 120V"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "F2 Fuse",
+      "value": "1 A (slow)",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "Electrical Connections",
+          "table_title": "Wiring panel",
+          "source_quote": "F2 Fuse 1 A (slow), 120V"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "F2 Fuse voltage",
+      "value": "120V",
+      "unit": "V",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "Electrical Connections",
+          "table_title": "Wiring panel",
+          "source_quote": "F2 Fuse 1 A (slow), 120V"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Plug 66 rated current",
+      "value": "2 A",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated current: 2 A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "0-10V In connection target supply temperature (1V)",
+      "value": "10°C/50°F",
+      "unit": "°C/°F",
+      "applies_to_models": [],
+      "category": "control",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "1V = 10°C/50°F..."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "0-10V In connection target supply temperature (8V)",
+      "value": "80°C/176°F",
+      "unit": "°C/°F",
+      "applies_to_models": [],
+      "category": "control",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "8V = 80°C/176°F..."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "0-10V In connection target supply temperature (10V)",
+      "value": "100°C/212°F",
+      "unit": "°C/°F",
+      "applies_to_models": [],
+      "category": "control",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "10V = 100°C/212°F"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "0-10V In connection target modulation value (1V)",
+      "value": "10%",
+      "unit": "%",
+      "applies_to_models": [],
+      "category": "control",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "1V = 10%..."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "0-10V In connection target modulation value (10V)",
+      "value": "100%",
+      "unit": "%",
+      "applies_to_models": [],
+      "category": "control",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "10V = 100%"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "0-10V Out connection current modulation level (1V)",
+      "value": "10%",
+      "unit": "%",
+      "applies_to_models": [],
+      "category": "control",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "1V = 10%..."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "0-10V Out connection current modulation level (10V)",
+      "value": "100%",
+      "unit": "%",
+      "applies_to_models": [],
+      "category": "control",
+      "source_refs": [
+        {
+          "page_number": 23,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "10V = 100%"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Outside temperature sensor rated current",
+      "value": "10 mA",
+      "unit": "mA",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "Electrical Connections",
+          "table_title": "Specification",
+          "source_quote": "Rated current 10 mA"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Outside temperature sensor rated voltage",
+      "value": "24VDC +/-10%",
+      "unit": "VDC",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "Electrical Connections",
+          "table_title": "Specification",
+          "source_quote": "Rated voltage 24VDC +/-10%"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation pump rated current",
+      "value": "2 A",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "Electrical Connections",
+          "table_title": "Specification",
+          "source_quote": "Rated current 2 A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Circulation pump rated voltage",
+      "value": "120V~",
+      "unit": "V~",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "Electrical Connections",
+          "table_title": "Specification",
+          "source_quote": "Rated voltage 120V ~"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump connection WP/MZIO 120V~ (pump rated current)",
+      "value": "> 2A",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated current: > 2A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump connection WP/MZIO 120V~ (contactor rated voltage)",
+      "value": "120V",
+      "unit": "V",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated voltage: 120V"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump connection WP/MZIO 120V~ (contactor rated current)",
+      "value": "1A",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated current: 1A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump connection WP/MZIO 240V~ (pump rated voltage)",
+      "value": "240V~",
+      "unit": "V~",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Specification of the pump 240V~"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump connection WP/MZIO 240V~ (contactor rated voltage)",
+      "value": "120V~",
+      "unit": "V~",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated voltage: 120V~"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump connection WP/MZIO 240V~ (contactor rated current)",
+      "value": "1A",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated current: 1A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump connection WP/MZIO 208/460/575V~ (pump rated voltage)",
+      "value": "208/460/575V~",
+      "unit": "V~",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Specification of the pump 208/460/575V~"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump connection WP/MZIO 208/460/575V~ (contactor rated voltage)",
+      "value": "120V~",
+      "unit": "V~",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated voltage: 120V~"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump connection WP/MZIO 208/460/575V~ (contactor rated current)",
+      "value": "1A",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 25,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated current: 1A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CAN bus cable wire size",
+      "value": "minimum 24 AWG",
+      "unit": "AWG",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Requires 2 wire cable with a minimum wire size of 24 AWG"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "PlusBus system cable length",
+      "value": "max. 164 ft. (50 m)",
+      "unit": "ft. (m)",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "PlusBus system length max. 164 ft. (50m) for 26 AWG (0.34 mm2) shielded cable."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "PlusBus system cable size",
+      "value": "26 AWG (0.34 mm2)",
+      "unit": "AWG (mm2)",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "PlusBus system length max. 164 ft. (50m) for 26 AWG (0.34 mm2) shielded cable."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Mixing valve extension kit (with EM-M1) internal fuse protection",
+      "value": "2 A",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "Electrical Connections",
+          "table_title": "Accessories Internal fuse protection",
+          "source_quote": "Mixing valve extension kit (with EM-M1) 2 A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "EM-EA1 internal fuse protection",
+      "value": "2 A",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "Electrical Connections",
+          "table_title": "Accessories Internal fuse protection",
+          "source_quote": "EM-EA1 2 A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "EM-P1 internal fuse protection",
+      "value": "2 A",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "Electrical Connections",
+          "table_title": "Accessories Internal fuse protection",
+          "source_quote": "EM-P1 2 A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Isolation valve rated voltage",
+      "value": "120V~",
+      "unit": "V~",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated voltage 120V~"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Isolation valve rated current Max.",
+      "value": "2A~",
+      "unit": "A~",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated current Max. 2A~"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "2 in. isolation valve part number",
+      "value": "7946553",
+      "unit": null,
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "parts",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "2 in. isolation valve (CI2 399/500) Part number 7946553"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "2 1/2 in. isolation valve part number",
+      "value": "7946552",
+      "unit": null,
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000"
+      ],
+      "category": "parts",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "21/2 in. isolation valve (CI2 750/1000) Part number 7946552"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "4 in. isolation valve part number",
+      "value": "7946551",
+      "unit": null,
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "parts",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "4 in. isolation valve (CI2 1500/2000) Part number 7946551"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump Connection (DIN rail) rated voltage",
+      "value": "120V~",
+      "unit": "V~",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated voltage 120V~"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump Connection (DIN rail) rated current Max.",
+      "value": "2A~",
+      "unit": "A~",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated current Max. 2A~"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump connection WP/MZIO 120V~ (pump specification)",
+      "value": "120V~",
+      "unit": "V~",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Specification of the pump 120V~"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump connection WP/MZIO 120V~ (contactor specification rated voltage)",
+      "value": "120V",
+      "unit": "V",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated voltage: 120V"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump connection WP/MZIO 120V~ (contactor specification rated current)",
+      "value": "1A",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated current: 1A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump connection WP/MZIO 240V~ (contactor specification rated voltage)",
+      "value": "120V~",
+      "unit": "V~",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated voltage: 120V~"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump connection WP/MZIO 240V~ (contactor specification rated current)",
+      "value": "1A",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated current: 1A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump connection WP/MZIO 208/460/575V~ (contactor specification rated voltage)",
+      "value": "120V~",
+      "unit": "V~",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated voltage: 120V~"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump connection WP/MZIO 208/460/575V~ (contactor specification rated current)",
+      "value": "1A",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 32,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Rated current: 1A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler Power Supply",
+      "value": "120VAC-1Ph-60Hz",
+      "unit": "VAC-Ph-Hz",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "Boiler Power Supply",
+          "table_title": null,
+          "source_quote": "POWER SUPPLY 120VAC-1Ph-60Hz"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Full Load Amperage",
+      "value": "20 Amps",
+      "unit": "Amps",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "Boiler Power Supply",
+          "table_title": null,
+          "source_quote": "20 Amps (Full Load Amperage)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate drain connection size (external)",
+      "value": "Ø 3/4 in. (Ø 19 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [],
+      "category": "condensate",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "Condensate Connection",
+          "table_title": null,
+          "source_quote": "Connection (external): Ø 3/4 in. (Ø 19 mm) barb fitting."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate discharge tubing diameter",
+      "value": "1 in.",
+      "unit": "in.",
+      "applies_to_models": [],
+      "category": "condensate",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "Condensate Connection",
+          "table_title": null,
+          "source_quote": "Discharge tubing (field supplied) must be 1 in. diameter."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Neutralization unit inlet/outlet height from base (CI2 1500 and 2000)",
+      "value": "less than 6in. (160 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "condensate",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": "Connections on the Flue Gas Side",
+          "table_title": null,
+          "source_quote": "The inlet and outlet of the neutralization unit must be less than 6in. (160 mm) from the base of the neutralization system to the bottom of the inlet/outlet to ensure proper condensate drainage (refer to dimension A)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Cold water fill pressure",
+      "value": "not exceed 18-20 psig",
+      "unit": "psig",
+      "applies_to_models": [],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Initial System Fill General Requirements",
+          "table_title": null,
+          "source_quote": "The boiler should be filled and properly bled of air and the cold water fill pressure should not exceed 18-20 psig."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Antifreeze freeze protection (40% content)",
+      "value": "-10°F (-23°C)",
+      "unit": "°F (°C)",
+      "applies_to_models": [],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Initial System Fill General Requirements",
+          "table_title": null,
+          "source_quote": "A 40% antifreeze content will provide freeze-up protection to -10°F (-23°C)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter)",
+      "value": "4 in. (104.2 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "Connections on the Flue Gas Side",
+          "table_title": "Internal diameter boiler-flue collar",
+          "source_quote": "4 in. 104.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter)",
+      "value": "6 in. (155 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "Connections on the Flue Gas Side",
+          "table_title": "Internal diameter boiler-flue collar",
+          "source_quote": "6 in. 155"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter)",
+      "value": "8 in. (205.2 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "Connections on the Flue Gas Side",
+          "table_title": "Internal diameter boiler-flue collar",
+          "source_quote": "8 in. 205.2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue system size",
+      "value": "4 in. (104.2 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "Connections on the Flue Gas Side",
+          "table_title": null,
+          "source_quote": "Connect flue system. Size: 4 in. (104.2 mm) for models 399 and 500"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue system size",
+      "value": "6 in. (155 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "Connections on the Flue Gas Side",
+          "table_title": null,
+          "source_quote": "6 in. (155 mm) for models 750, 1000 and 1500"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue system size",
+      "value": "8 in. (205.2 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": "Connections on the Flue Gas Side",
+          "table_title": null,
+          "source_quote": "8 in. (205.2 mm) for model 2000."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "PP(s) vent system maximum temperature rating",
+      "value": "230°F (110°C)",
+      "unit": "°F (°C)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "Requirement for Rigid SS/PP(s)/CPVC Vent Pipe Material",
+          "table_title": null,
+          "source_quote": "This PP(s) vent system is constructed from flame-retardant plastic [polypropylene rated for a maximum temperature of 230°F (110°C)]."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flexible venting system equivalent length reduction",
+      "value": "25%",
+      "unit": "%",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "Requirement for Rigid SS/PP(s)/CPVC Vent Pipe Material",
+          "table_title": null,
+          "source_quote": "If a certified flexible venting system supplied by one of the venting manufacturers listed on page 52 or flexible combustion air-intake pipe are used, the total maximum equivalent length will be reduced by 25%."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum separation between intake and exhaust terminals (sidewall)",
+      "value": "36 in. (915 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 54,
+          "section_title": "Direct Venting (Two Pipe System)",
+          "table_title": null,
+          "source_quote": "Min. 36 in. (915 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum height of intake/exhaust terminals above grade/snow (sidewall)",
+      "value": "12 in. (305 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 54,
+          "section_title": "Direct Venting (Two Pipe System)",
+          "table_title": null,
+          "source_quote": "Min. 12 in. (305 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum height of air intake from ground (sidewall)",
+      "value": "2 in. (50 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 54,
+          "section_title": "Direct Venting (Two Pipe System)",
+          "table_title": null,
+          "source_quote": "Min. 2 in. (50 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Elbow equivalent length (4 in. / 100 mm, 45°)",
+      "value": "3 ft. (0.9 m)",
+      "unit": "ft. (m)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": "Elbow - Equivalent Length",
+          "table_title": "Equivalent Length",
+          "source_quote": "4 in. (100 mm) 45° 3 ft. (0.9 m)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Elbow equivalent length (4 in. / 100 mm, 90°)",
+      "value": "8 ft. (2.4 m)",
+      "unit": "ft. (m)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": "Elbow - Equivalent Length",
+          "table_title": "Equivalent Length",
+          "source_quote": "4 in. (100 mm) 90° 8 ft. (2.4 m)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Elbow equivalent length (6 in. / 150 mm, 8 in. / 200 mm, 45°)",
+      "value": "5 ft. (1.5 m)",
+      "unit": "ft. (m)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": "Elbow - Equivalent Length",
+          "table_title": "Equivalent Length",
+          "source_quote": "6 in. (150 mm), 8 in. (200 mm) 45° 5 ft. (1.5 m)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Elbow equivalent length (6 in. / 150 mm, 8 in. / 200 mm, 90°)",
+      "value": "10 ft. (3 m)",
+      "unit": "ft. (m)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 55,
+          "section_title": "Elbow - Equivalent Length",
+          "table_title": "Equivalent Length",
+          "source_quote": "6 in. (150 mm), 8 in. (200 mm) 90° 10 ft. (3 m)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Vertical vent termination height above roof/obstruction",
+      "value": "at least 18 in. (450 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Vent Termination Location Requirements - Vertical",
+          "table_title": null,
+          "source_quote": "A vent used in a special venting system with positive vent pressure and passing through a roof shall extend at least 18 in. (450 mm) above the highest point where it passes through the roof and any other obstruction within a horizontal distance of 18 in. (450 mm)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Vertical vent termination height 'a'",
+      "value": "minimum 18 in. (450 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Vent Termination Location Requirements - Vertical",
+          "table_title": null,
+          "source_quote": "a minimum 18 in. (450 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Vertical vent termination distance 'b'",
+      "value": "<18 in. (450 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 56,
+          "section_title": "Vent Termination Location Requirements - Vertical",
+          "table_title": null,
+          "source_quote": "b <18 in. (450 mm)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter) - Vertical Exhaust/Vertical Air Intake",
+      "value": "4 in. (104.2)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": "Two Pipe System - Vertical Exhaust/Vertical Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Boiler flue collar (internal diameter) in. (mm) 4 (104.2)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter) - Vertical Exhaust/Vertical Air Intake",
+      "value": "6 in. (155)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": "Two Pipe System - Vertical Exhaust/Vertical Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Boiler flue collar (internal diameter) in. (mm) 6 (155)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter) - Vertical Exhaust/Vertical Air Intake",
+      "value": "8 in. (205.2)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": "Two Pipe System - Vertical Exhaust/Vertical Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Boiler flue collar (internal diameter) in. (mm) 8 (205.2)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion air intake diameter - Vertical Exhaust/Vertical Air Intake",
+      "value": "4 in. (104.2)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": "Two Pipe System - Vertical Exhaust/Vertical Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Combustion air intake diameter in. (mm) 4 (104.2)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion air intake diameter - Vertical Exhaust/Vertical Air Intake",
+      "value": "6 in. (155)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": "Two Pipe System - Vertical Exhaust/Vertical Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Combustion air intake diameter in. (mm) 6 (155)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion air intake diameter - Vertical Exhaust/Vertical Air Intake",
+      "value": "8 in. (205.2)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": "Two Pipe System - Vertical Exhaust/Vertical Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Combustion air intake diameter in. (mm) 8 (205.2)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. total equivalent length (a + b) - Vertical Exhaust/Vertical Air Intake",
+      "value": "198 ft. (60 m)",
+      "unit": "ft. (m)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 57,
+          "section_title": "Two Pipe System - Vertical Exhaust/Vertical Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Max. total equivalent length (a + b) ft. (m) 198 (60)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Vertical vent termination height 'a'",
+      "value": "min. 18 in. / max. 48 in.",
+      "unit": "in.",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 58,
+          "section_title": "Two Pipe System - Vertical Exhaust/Vertical Air Intake",
+          "table_title": null,
+          "source_quote": "a min. 18 in. / max. 48 in."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Vertical vent termination height 'b'",
+      "value": "min. 0 in.",
+      "unit": "in.",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 58,
+          "section_title": "Two Pipe System - Vertical Exhaust/Vertical Air Intake",
+          "table_title": null,
+          "source_quote": "b min. O in."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Vertical vent termination height 'c'",
+      "value": "min. 12 in.",
+      "unit": "in.",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 58,
+          "section_title": "Two Pipe System - Vertical Exhaust/Vertical Air Intake",
+          "table_title": null,
+          "source_quote": "c min. 12 in."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Vertical vent termination height 'd'",
+      "value": "6 in. over max. local snow level",
+      "unit": "in.",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 58,
+          "section_title": "Two Pipe System - Vertical Exhaust/Vertical Air Intake",
+          "table_title": null,
+          "source_quote": "d 6 in. over max. local snow level (check with your local weather office for details)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter) - Horizontal Exhaust/Horizontal Air Intake",
+      "value": "4 in. (104.2)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 59,
+          "section_title": "Two Pipe System - Horizontal Exhaust/Horizontal Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Boiler flue collar (internal diameter) in. (mm) 4 (104.2)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter) - Horizontal Exhaust/Horizontal Air Intake",
+      "value": "6 in. (155)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 59,
+          "section_title": "Two Pipe System - Horizontal Exhaust/Horizontal Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Boiler flue collar (internal diameter) in. (mm) 6 (155)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter) - Horizontal Exhaust/Horizontal Air Intake",
+      "value": "8 in. (205.2)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 59,
+          "section_title": "Two Pipe System - Horizontal Exhaust/Horizontal Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Boiler flue collar (internal diameter) in. (mm) 8 (205.2)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion air intake diameter - Horizontal Exhaust/Horizontal Air Intake",
+      "value": "4 in. (104.2)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 59,
+          "section_title": "Two Pipe System - Horizontal Exhaust/Horizontal Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Combustion air intake diameter in. (mm) 4 (104.2)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion air intake diameter - Horizontal Exhaust/Horizontal Air Intake",
+      "value": "6 in. (155)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 59,
+          "section_title": "Two Pipe System - Horizontal Exhaust/Horizontal Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Combustion air intake diameter in. (mm) 6 (155)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion air intake diameter - Horizontal Exhaust/Horizontal Air Intake",
+      "value": "8 in. (205.2)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 59,
+          "section_title": "Two Pipe System - Horizontal Exhaust/Horizontal Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Combustion air intake diameter in. (mm) 8 (205.2)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. total equivalent length (a + b) - Horizontal Exhaust/Horizontal Air Intake",
+      "value": "198 ft. (60 m)",
+      "unit": "ft. (m)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 59,
+          "section_title": "Two Pipe System - Horizontal Exhaust/Horizontal Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Max. total equivalent length (a + b) ft. (m) 198 (60)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter) - Vertical Exhaust/Horizontal Air Intake",
+      "value": "4 in. (104.2)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "Two Pipe System - Vertical Exhaust/Horizontal Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Boiler flue collar (internal diameter) in. (mm) 4 (104.2)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter) - Vertical Exhaust/Horizontal Air Intake",
+      "value": "6 in. (155)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "Two Pipe System - Vertical Exhaust/Horizontal Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Boiler flue collar (internal diameter) in. (mm) 6 (155)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter) - Vertical Exhaust/Horizontal Air Intake",
+      "value": "8 in. (205.2)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "Two Pipe System - Vertical Exhaust/Horizontal Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Boiler flue collar (internal diameter) in. (mm) 8 (205.2)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion air intake diameter - Vertical Exhaust/Horizontal Air Intake",
+      "value": "4 in. (104.2)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "Two Pipe System - Vertical Exhaust/Horizontal Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Combustion air intake diameter in. (mm) 4 (104.2)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion air intake diameter - Vertical Exhaust/Horizontal Air Intake",
+      "value": "6 in. (155)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "Two Pipe System - Vertical Exhaust/Horizontal Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Combustion air intake diameter in. (mm) 6 (155)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion air intake diameter - Vertical Exhaust/Horizontal Air Intake",
+      "value": "8 in. (205.2)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "Two Pipe System - Vertical Exhaust/Horizontal Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Combustion air intake diameter in. (mm) 8 (205.2)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. total equivalent length (a + b) - Vertical Exhaust/Horizontal Air Intake",
+      "value": "198 ft. (60 m)",
+      "unit": "ft. (m)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "Two Pipe System - Vertical Exhaust/Horizontal Air Intake",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Max. total equivalent length (a + b) ft. (m) 198 (60)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter) - Single Pipe System - Vertical Exhaust/Room Air Dependant",
+      "value": "4 in. (104.2)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 61,
+          "section_title": "Single Pipe System - Vertical Exhaust/Room Air Dependant",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Boiler flue collar (internal diameter) in. (mm) 4 (104.2)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter) - Single Pipe System - Vertical Exhaust/Room Air Dependant",
+      "value": "6 in. (155)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 61,
+          "section_title": "Single Pipe System - Vertical Exhaust/Room Air Dependant",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Boiler flue collar (internal diameter) in. (mm) 6 (155)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter) - Single Pipe System - Vertical Exhaust/Room Air Dependant",
+      "value": "8 in. (205.2)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 61,
+          "section_title": "Single Pipe System - Vertical Exhaust/Room Air Dependant",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Boiler flue collar (internal diameter) in. (mm) 8 (205.2)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. vent equivalent length - Single Pipe System - Vertical Exhaust/Room Air Dependant",
+      "value": "198 ft. (60 m)",
+      "unit": "ft. (m)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 61,
+          "section_title": "Single Pipe System - Vertical Exhaust/Room Air Dependant",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Max. vent equivalent length ft. (m) 198 (60)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter) - Single Pipe System - Horizontal Exhaust/Room Air Dependant",
+      "value": "4 in. (104.2)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 62,
+          "section_title": "Single Pipe System - Horizontal Exhaust/Room Air Dependant",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Boiler flue collar (internal diameter) in. (mm) 4 (104.2)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter) - Single Pipe System - Horizontal Exhaust/Room Air Dependant",
+      "value": "6 in. (155)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 62,
+          "section_title": "Single Pipe System - Horizontal Exhaust/Room Air Dependant",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Boiler flue collar (internal diameter) in. (mm) 6 (155)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler flue collar (internal diameter) - Single Pipe System - Horizontal Exhaust/Room Air Dependant",
+      "value": "8 in. (205.2)",
+      "unit": "in. (mm)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 62,
+          "section_title": "Single Pipe System - Horizontal Exhaust/Room Air Dependant",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Boiler flue collar (internal diameter) in. (mm) 8 (205.2)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. vent equivalent length - Single Pipe System - Horizontal Exhaust/Room Air Dependant",
+      "value": "198 ft. (60 m)",
+      "unit": "ft. (m)",
+      "applies_to_models": [
+        "Vitocrossal 200 CI2 399",
+        "Vitocrossal 200 CI2 500",
+        "Vitocrossal 200 CI2 750",
+        "Vitocrossal 200 CI2 1000",
+        "Vitocrossal 200 CI2 1500",
+        "Vitocrossal 200 CI2 2000"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 62,
+          "section_title": "Single Pipe System - Horizontal Exhaust/Room Air Dependant",
+          "table_title": "Vertical intake and exhaust",
+          "source_quote": "Max. vent equivalent length ft. (m) 198 (60)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum distance for horizontal vent terminations (multiple boilers)",
+      "value": "12 in. (305 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 63,
+          "section_title": "Multiple Boiler Installations",
+          "table_title": null,
+          "source_quote": "Note: 12 in. (305 mm) minimum distance apart for horizontal vent terminations."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum distance for vertical vent terminations (multiple boilers)",
+      "value": "4 in. (100 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 63,
+          "section_title": "Multiple Boiler Installations",
+          "table_title": null,
+          "source_quote": "Note: 4 in. (100 mm) minimum distance apart for vertical vent terminations."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum height for vertical vent termination (multiple boilers)",
+      "value": "6 in. (150 mm)",
+      "unit": "in. (mm)",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 63,
+          "section_title": "Multiple Boiler Installations",
+          "table_title": null,
+          "source_quote": "6 in. min. (150 mm min.)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [],
+  "diagnostic_codes": [
+    {
+      "code": "d.000",
+      "description": "Output 0-10V (burner modulation feedback)",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "Electrical Connections",
+          "table_title": "MZIO",
+          "source_quote": "0-10V OUT Output 0-10V (burner modulation feedback)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "d.90",
+      "description": "Input 0-10V",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "Electrical Connections",
+          "table_title": "MZIO",
+          "source_quote": "0-10V IN Input 0-10V"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "status_codes": [],
+  "safety_warnings": [
+    {
+      "warning_type": "info",
+      "topic": "General Safety",
+      "text": "Read and save these instructions for future reference.",
+      "source_refs": [
+        {
+          "page_number": 1,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "IMPORTANT Read and save these instructions for future reference."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Carbon Monoxide Detectors",
+      "text": "Installers must follow local regulations with respect to installation of carbon monoxide detectors. Follow the Viessmann maintenance schedule of the boiler contained in this manual.",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": "Safety, Installation and Warranty Requirements",
+          "table_title": null,
+          "source_quote": "WARNING Installers must follow local regulations with respect to installation of carbon monoxide detectors. Follow the Viessmann maintenance schedule of the boiler contained in this manual."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "General Safety",
+      "text": "Please ensure that these instructions are read and understood before commencing installation. Failure to comply with the instructions listed below and details printed in this manual can cause product/property damage, severe personal injury, and/or loss of life. Ensure all requirements below are understood and fulfilled (including detailed information found in manual subsections).",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": "Safety, Installation and Warranty Requirements",
+          "table_title": null,
+          "source_quote": "Please ensure that these instructions are read and understood before commencing installation. Failure to comply with the instructions listed below and details printed in this manual can cause product/property damage, severe personal injury, and/or loss of life. Ensure all requirements below are understood and fulfilled (including detailed information found in manual subsections)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Product Documentation",
+      "text": "Read all applicable documentation before commencing installation. Store documentation near boiler in a readily accessible location for reference in the future by service personnel.",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": "Safety, Installation and Warranty Requirements",
+          "table_title": null,
+          "source_quote": "■ Product documentation Read all applicable documentation before commencing installation. Store documentation near boiler in a readily accessible location for reference in the future by service personnel."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Warranty",
+      "text": "Information contained in this and related product documentation must be read and followed. Failure to do so renders the warranty null and void.",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": "Safety, Installation and Warranty Requirements",
+          "table_title": null,
+          "source_quote": "■ Warranty Information contained in this and related product documentation must be read and followed. Failure to do so renders the warranty null and void."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Professional Heating Contractor",
+      "text": "The installation, adjustment, service and maintenance of this equipment must be performed by a licensed professional heating contractor.",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": "Safety, Installation and Warranty Requirements",
+          "table_title": null,
+          "source_quote": "Licensed professional heating contractor The installation, adjustment, service and maintenance of this equipment must be performed by a licensed professional heating contractor."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Carbon Monoxide",
+      "text": "Improper installation, adjustment, service and/or maintenance can cause flue products to flow into living space. Flue products contain poisonous carbon monoxide gas.",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": "Safety, Installation and Warranty Requirements",
+          "table_title": null,
+          "source_quote": "Carbon monoxide Improper installation, adjustment, service and/or maintenance can cause flue products to flow into living space. Flue products contain poisonous carbon monoxide gas."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Fresh Air",
+      "text": "This equipment requires fresh air for safe operation and must be installed ensuring provisions for adequate combustion and ventilation air exist.",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": "Safety, Installation and Warranty Requirements",
+          "table_title": null,
+          "source_quote": "Fresh air This equipment requires fresh air for safe operation and must be installed ensuring provisions for adequate combustion and ventilation air exist."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Contaminated Air",
+      "text": "Air contaminated by chemicals can cause by-products in the combustion process, which are poisonous to inhabitants and destructive to Viessmann equipment.",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": "Safety, Installation and Warranty Requirements",
+          "table_title": null,
+          "source_quote": "■ Contaminated air Air contaminated by chemicals can cause by-products in the combustion process, which are poisonous to inhabitants and destructive to Viessmann equipment."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Equipment Venting",
+      "text": "Never operate boiler without an installed venting system. An improper venting system can cause carbon monoxide poisoning.",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": "Safety, Installation and Warranty Requirements",
+          "table_title": null,
+          "source_quote": "Equipment venting Never operate boiler without an installed venting system. An improper venting system can cause carbon monoxide poisoning."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Fiberglass Wool and Ceramic Fiber Materials",
+      "text": "Inhaling of fiberglass wool and/or ceramic fiber materials is a possible cancer hazard. These materials can also cause respiratory, skin and eye irritation.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Fiberglass wool and ceramic fiber materials",
+          "table_title": null,
+          "source_quote": "WARNING Inhaling of fiberglass wool and/or ceramic fiber materials is a possible cancer hazard. These materials can also cause respiratory, skin and eye irritation."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Hazardous Materials/Combustion Products",
+      "text": "Appliance materials of construction, products of combustion and the fuel contain alumina, silica, heavy metals, carbon monoxide, nitrogen oxides, aldehydes and/or other toxic or harmful substances which can cause serious injury or loss of life and which are known to the State of California to cause cancer, birth defects and other reproductive harm. Always use proper safety clothing, respirators and equipment when servicing or working nearby the appliance.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": "Safety, Installation and Warranty Requirements",
+          "table_title": null,
+          "source_quote": "WARNING Appliance materials of construction, products of combustion and the fuel contain alumina, silica, heavy metals, carbon monoxide, nitrogen oxides, aldehydes and/or other toxic or harmful substances which can cause serious injury or loss of life and which are known to the State of California to cause cancer, birth defects and other reproductive harm. Always use proper safety clothing, respirators and equipment when servicing or working nearby the appliance."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Flue Gas Venting",
+      "text": "Failure to ensure that all flue gases have been safely vented to the outdoors can cause property damage, severe personal injury, or loss of life. Flue gases may contain deadly carbon monoxide.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Important Regulatory and Installation Requirements",
+          "table_title": null,
+          "source_quote": "WARNING Failure to ensure that all flue gases have been safely vented to the outdoors can cause property damage, severe personal injury, or loss of life. Flue gases may contain deadly carbon monoxide."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Flue Product Damage",
+      "text": "Under certain climatic conditions some building materials may be affected by flue products expelled in close proximity to unprotected surfaces. Sealing or shielding of the exposed surfaces with a corrosion resistant material (e.g. aluminum sheeting) may be required to prevent staining or deterioration. The protective material should be attached and sealed (if necessary) to the building before attaching the vent termination. It is strongly recommended to install the vent termination on the leeward side of the building.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Important Regulatory and Installation Requirements",
+          "table_title": null,
+          "source_quote": "CAUTION Under certain climatic conditions some building materials may be affected by flue products expelled in close proximity to unprotected surfaces. Sealing or shielding of the exposed surfaces with a corrosion resistant material (e.g. aluminum sheeting) may be required to prevent staining or deterioration. The protective material should be attached and sealed (if necessary) to the building before attaching the vent termination. It is strongly recommended to install the vent termination on the leeward side of the building."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Safety Labels",
+      "text": "This product comes with several safety instruction labels attached. Do not remove! Contact Viessmann immediately if replacement labels are required.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Technical literature",
+          "table_title": null,
+          "source_quote": "This product comes with several safety instruction labels attached. Do not remove! Contact Viessmann immediately if replacement labels are required."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Carbon Monoxide Detectors",
+      "text": "The installer must verify that at least one carbon monoxide alarm has been installed within a residential living space or home following the alarm manufacturer's instructions and applicable codes before putting the appliance into operation.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "Carbon Monoxide Detectors",
+          "table_title": null,
+          "source_quote": "The installer must verify that at least one carbon monoxide alarm has been installed within a residential living space or home following the alarm manufacturer's instructions and applicable codes before putting the appliance into operation."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "General Safety",
+      "text": "Indicates an imminently hazardous situation which, if not avoided, could result in death, serious injury or substantial product/property damage.",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "About these Instructions",
+          "table_title": null,
+          "source_quote": "WARNING Indicates an imminently hazardous situation which, if not avoided, could result in death, serious injury or substantial product/property damage."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "General Safety",
+      "text": "Indicates an imminently hazardous situation which, if not avoided, may result in minor injury or product/property damage.",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "About these Instructions",
+          "table_title": null,
+          "source_quote": "CAUTION Indicates an imminently hazardous situation which, if not avoided, may result in minor injury or product/ property damage."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "General Information",
+      "text": "Helpful hints for installation, operation or maintenance which pertain to the product.",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "About these Instructions",
+          "table_title": null,
+          "source_quote": "IMPORTANT Helpful hints for installation, operation or maintenance which pertain to the product."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "System Flushing",
+      "text": "Failure to flush out the heating system piping may result in restricted flow and/or deposits resulting in boiler failure. This failure is not covered under warranty. Installation of magnetic filtration is recommended.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "For Retrofit Applications",
+          "table_title": null,
+          "source_quote": "Failure to flush out the heating system piping may result in restricted flow and/or deposits resulting in boiler failure. This failure is not covered under warranty. Installation of magnetic filtration is recommended."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Contaminated Air",
+      "text": "Avoid air contamination by halogenated hydrocarbons (e.g. as in sprays, paints, solvents and cleaning agents)",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Mechanical room",
+          "table_title": null,
+          "source_quote": "Avoid air contamination by halogenated hydrocarbons (e.g. as in sprays, paints, solvents and cleaning agents)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Contaminated Air",
+      "text": "Avoid very dusty conditions",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Mechanical room",
+          "table_title": null,
+          "source_quote": "Avoid very dusty conditions"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Humidity",
+      "text": "Avoid high levels of humidity",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Mechanical room",
+          "table_title": null,
+          "source_quote": "Avoid high levels of humidity"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Frost Protection/Ventilation",
+      "text": "Protect against frost and ensure good ventilation, otherwise the system may suffer faults and damage.",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Mechanical room",
+          "table_title": null,
+          "source_quote": "Protect against frost and ensure good ventilation, otherwise the system may suffer faults and damage."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Contaminated Air/Direct Vent",
+      "text": "In rooms where air contamination from halogenated hydrocarbons is to be expected, operate the boiler using only direct vent (sealed combustion) operation only.",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "Mechanical room",
+          "table_title": null,
+          "source_quote": "In rooms where air contamination from halogenated hydrocarbons is to be expected, operate the boiler using only direct vent (sealed combustion) operation only."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Boiler Handling",
+      "text": "Do not push on the jacketing to remove the boiler from the skid.",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Unpacking the Boiler",
+          "table_title": null,
+          "source_quote": "CAUTION Do not push on the jacketing to remove the boiler from the skid."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Boiler Handling",
+      "text": "The boiler can cause serious injury if it overturns. At least 2 people are required to move the boiler. Roll the boiler in a straight line.",
+      "source_refs": [
+        {
+          "page_number": 10,
+          "section_title": "Unpacking the Boiler",
+          "table_title": null,
+          "source_quote": "WARNING The boiler can cause serious injury if it overturns. At least 2 people are required to move the boiler. Roll the boiler in a straight line."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Unauthorized Modifications",
+      "text": "Changes or modifications not expressly approved by the party responsible for compliance could void the user's authority to operate the equipment.",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "WiFi Operational Reliability and System Requirements",
+          "table_title": null,
+          "source_quote": "CAUTION Changes or modifications not expressly approved by the party responsible for compliance could void the user's authority to operate the equipment."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Water Quality",
+      "text": "Unsuitable water quality can damage the boiler. Only fill the boiler with water that complies with the water quality requirements.",
+      "source_refs": [
+        {
+          "page_number": 13,
+          "section_title": "Boiler Connections",
+          "table_title": null,
+          "source_quote": "IMPORTANT Unsuitable water quality can damage the boiler. Only fill the boiler with water that complies with the water quality requirements."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Boiler Application",
+      "text": "The Vitocrossal 200, C12 boiler is only suited for hot water heating. Do not install a 4-way mixing valve.",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Boiler Connections",
+          "table_title": null,
+          "source_quote": "IMPORTANT The Vitocrossal 200, C12 boiler is only suited for hot water heating. Do not install a 4-way mixing valve."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Safety Header Connection",
+      "text": "Do not connect heating system to safety header.",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Safety Header",
+          "table_title": null,
+          "source_quote": "CAUTION Do not connect heating system to safety header."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Overpressure/Overtemperature",
+      "text": "Exposing the boiler to pressures and temperatures in excess of those listed will result in damages, and will render warranty null and void.",
+      "source_refs": [
+        {
+          "page_number": 14,
+          "section_title": "Safety Header",
+          "table_title": null,
+          "source_quote": "WARNING Exposing the boiler to pressures and temperatures in excess of those listed will result in damages, and will render warranty null and void."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Gas Test Pressure",
+      "text": "If test pressure is too high burner and gas fittings may get damaged.",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "Gas Connections",
+          "table_title": null,
+          "source_quote": "WARNING If test pressure is too high burner and gas fittings may get damaged."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Gas Leak",
+      "text": "Escaped gas may lead to explosion, which could cause severe injuries. Do not vent gas pipe above combustion chamber of boiler.",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "Gas Connections",
+          "table_title": null,
+          "source_quote": "WARNING Escaped gas may lead to explosion, which could cause severe injuries. Do not vent gas pipe above combustion chamber of boiler."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Gas Pipe Cleanliness",
+      "text": "If gas pipe contains dirt it is recommended to install a gas filter into the gas pipe.",
+      "source_refs": [
+        {
+          "page_number": 17,
+          "section_title": "Gas Connections",
+          "table_title": null,
+          "source_quote": "CAUTION If gas pipe contains dirt it is recommended to install a gas filter into the gas pipe."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Gas Leak",
+      "text": "Escaped gas may lead to an explosion, which could cause severe injuries or property damage.",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Gas Connections",
+          "table_title": null,
+          "source_quote": "WARNING Escaped gas may lead to an explosion, which could cause severe injuries or property damage."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Valve Leak Test",
+      "text": "This test should only be performed by a trained licensed heating contractor.",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "Valve leak test",
+          "table_title": null,
+          "source_quote": "IMPORTANT This test should only be performed by a trained licensed heating contractor."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Panel Removal",
+      "text": "Failure to keep a firm grip on the panel handle may cause the upper front panel to fall causing injury.",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "CAUTION Failure to keep a firm grip on the panel handle may cause the upper front panel to fall causing injury."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Electrical Wiring/Insulation",
+      "text": "Melting insulation can lead to equipment damage. Electronic wires must not come into contact with each other or hot components.",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "CAUTION Melting insulation can lead to equipment damage. Electronic wires must not come into contact with each other or hot components."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "CAN Bus Wiring",
+      "text": "Incorrect connection will lead to malfunctions. Ensure correct polarity.",
+      "source_refs": [
+        {
+          "page_number": 26,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "IMPORTANT Incorrect connection will lead to malfunctions. Ensure correct polarity."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electrical Wiring",
+      "text": "Incorrect wiring can lead to serious injury from electrical current and result in appliance damage.",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "WARNING Incorrect wiring can lead to serious injury from electrical current and result in appliance damage."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electrical Wiring",
+      "text": "Never route this cable next to line voltage (120VAC or greater).",
+      "source_refs": [
+        {
+          "page_number": 27,
+          "section_title": "Electrical Connections",
+          "table_title": null,
+          "source_quote": "Never route this cable next to line voltage (120VAC or greater)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electrical Grounding",
+      "text": "The control must be grounded. Ensure that 'L', 'N' and 'G' are not interchanged.",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "Boiler Power Supply",
+          "table_title": null,
+          "source_quote": "WARNING The control must be grounded. Ensure that 'L', 'N' and 'G' are not interchanged."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electrical Installation",
+      "text": "Incorrectly executed electrical installations can lead to injuries from electrical current and result in appliance damage.",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "Boiler Power Supply",
+          "table_title": null,
+          "source_quote": "WARNING Incorrectly executed electrical installations can lead to injuries from electrical current and result in appliance damage."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Electrical Codes",
+      "text": "Electrical installations must comply with the latest edition of: In the U.S.A., the National Electrical Code (NEC), ANSI/NFPA 70 and any other state, local codes and/or regulations. In Canada, the Canadian Electrical Code (CEC), CSA C22.1 Part 1 and any other province, territory, local codes and/or regulations.",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "Boiler Power Supply",
+          "table_title": null,
+          "source_quote": "IMPORTANT Electrical installations must comply with the latest edition of: In the U.S.A., the National Electrical Code (NEC), ANSI/NFPA 70 and any other state, local codes and/or regulations. ■In Canada, the Canadian Electrical Code (CEC), CSA C22.1 Part 1 and any other province, territory, local codes and/or regulations."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Flue Gas/Carbon Monoxide",
+      "text": "Escaping flue gas can cause life threatening poisoning from carbon monoxide. To prevent flue gas escaping, only operate the boiler with a condensate trap.",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "Connections on the Flue Gas Side",
+          "table_title": null,
+          "source_quote": "WARNING Escaping flue gas can cause life threatening poisoning from carbon monoxide. To prevent flue gas escaping, only operate the boiler with a condensate trap."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Condensate Drain",
+      "text": "Do not connect the drain pipe from any other appliance, such as a water softener backwash pipe, to the Vitocrossal 200, C12 condensate drain pipe.",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "Condensate Connection",
+          "table_title": null,
+          "source_quote": "IMPORTANT Do not connect the drain pipe from any other appliance, such as a water softener backwash pipe, to the Vitocrossal 200, C12 condensate drain pipe."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Condensate Pipe Ventilation",
+      "text": "Pipe ventilation must take place between the siphon trap and the neutralization unit (if applicable).",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "Condensate Connection",
+          "table_title": null,
+          "source_quote": "IMPORTANT Pipe ventilation must take place between the siphon trap and the neutralization unit (if applicable)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Condensate Drain",
+      "text": "Always connect the drain with a P-trap or siphon to prevent flue gas from escaping into the space.",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "Condensate Connection",
+          "table_title": null,
+          "source_quote": "IMPORTANT Always connect the drain with a P-trap or siphon to prevent flue gas from escaping into the space."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Water Quality",
+      "text": "Fill only suitable water in boiler. Unsuitable water quality may damage boiler.",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "Condensate Connection",
+          "table_title": null,
+          "source_quote": "WARNING Fill only suitable water in boiler. Unsuitable water quality may damage boiler."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Antifreeze",
+      "text": "Only use antifreeze specific for hydronic heating systems. Do not use automotive glycol!",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Initial System Fill General Requirements",
+          "table_title": null,
+          "source_quote": "IMPORTANT Only use antifreeze specific for hydronic heating systems. Do not use automotive glycol!"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "System Flushing/Water Quality",
+      "text": "Before the heating boiler is installed and piped into an existing system, the heating system itself must be properly flushed to remove dirt and system sludge. Accumulations in old heating systems will tend to settle in the boiler and can lead to deposits which can cause hot spots, noise and water-side corrosion. For damages resulting from those kinds of impurities, the warranty will be null and void.",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Initial System Fill General Requirements",
+          "table_title": null,
+          "source_quote": "CAUTION Before the heating boiler is installed and piped into an existing system, the heating system itself must be properly flushed to remove dirt and system sludge. Accumulations in old heating systems will tend to settle in the boiler and can lead to deposits which can cause hot spots, noise and water-side corrosion. For damages resulting from those kinds of impurities, the warranty will be null and void."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Pressure Relief Valve Piping",
+      "text": "Secure the discharge piping from the pressure relief valve with the appropriate hangers or brackets.",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Initial System Fill General Requirements",
+          "table_title": null,
+          "source_quote": "IMPORTANT Secure the discharge piping from the pressure relief valve with the appropriate hangers or brackets."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Water Fill Pressure",
+      "text": "Cold water fill pressure must equal expansion tank pressure.",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Initial System Fill General Requirements",
+          "table_title": null,
+          "source_quote": "IMPORTANT Cold water fill pressure must equal expansion tank pressure."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Leak Check",
+      "text": "Ensure that there is no leak on any of the connections which are covered by the insulation.",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "Initial System Fill General Requirements",
+          "table_title": null,
+          "source_quote": "IMPORTANT Ensure that there is no leak on any of the connections which are covered by the insulation."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Underfloor Heating",
+      "text": "For underfloor heating applications, an additional immersion or strap-on aquastat must be installed in the low temperature underfloor loop (downstream of the mixing valve) to de-energize the pump and/or boiler to prevent overheating. High water temperatures can damage concrete slabs.",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "General",
+          "table_title": null,
+          "source_quote": "CAUTION For underfloor heating applications, an additional immersion or strap-on aquastat must be installed in the low temperature underfloor loop (downstream of the mixing valve) to de-energize the pump and/or boiler to prevent overheating. High water temperatures can damage concrete slabs."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "DHW Storage Tank",
+      "text": "If a DHW storage tank other than a Viessmann Vitocell 300 tank is used, the installer must verify proper operation of the Viessmann DHW tank temperature sensor with the original manufacturer of the tank. Viessmann strongly recommends the installation of a temperature tempering valve in the DHW supply line.",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": null
+        }
+      ],
+      "confidence": 0.0,
+      "review_required": true
+    }
+  ],
+  "maintenance_tasks": [],
+  "search_terms": [],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.0,
+    "review_required": true,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": [
+      "Original Gemini response was malformed JSON and was repaired by the pipeline.",
+      "overall_confidence was missing or invalid and was set to 0.0 by the pipeline.",
+      "No fault_codes were extracted."
+    ]
+  }
+}

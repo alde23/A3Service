@@ -20,6 +20,12 @@ const makePrisma = () => ({
   manual: {
     upsert: vi.fn(),
   },
+  technicalProperty: {
+    upsert: vi.fn(),
+  },
+  referenceTable: {
+    createMany: vi.fn(),
+  },
   modelFaultCode: {
     findMany: vi.fn(),
     createMany: vi.fn(),
@@ -113,6 +119,24 @@ describe('LibraryService', () => {
           boilerModelId: 'model-1',
         },
       ],
+      technicalProperties: [
+        {
+          id: 'prop-1',
+          code: 'TP-1',
+          label: 'Pressure',
+          unit: 'bar',
+        },
+      ],
+      referenceTables: [
+        {
+          id: 'ref-1',
+          boilerModelId: 'model-1',
+          propertyId: 'prop-1',
+          minValue: 1,
+          maxValue: 5,
+          required: true,
+        },
+      ],
       modelFaults: [{ modelId: 'model-1', faultCodeId: 'fault-1' }],
       modelParts: [{ modelId: 'model-1', partId: 'part-1' }],
     };
@@ -128,6 +152,14 @@ describe('LibraryService', () => {
       expect.objectContaining({ skipDuplicates: true }),
     );
     expect(prisma.modelPart.createMany).toHaveBeenCalledWith(
+      expect.objectContaining({ skipDuplicates: true }),
+    );
+    expect(prisma.technicalProperty.upsert).toHaveBeenCalledWith(
+      expect.objectContaining({
+        where: { id: 'prop-1' },
+      }),
+    );
+    expect(prisma.referenceTable.createMany).toHaveBeenCalledWith(
       expect.objectContaining({ skipDuplicates: true }),
     );
   });

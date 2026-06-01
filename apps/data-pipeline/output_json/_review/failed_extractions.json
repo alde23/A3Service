@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "source_file": "bosch_bgh96_installation-operations-maintenance-manual_bgh96.pdf",
+    "error": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'The document has no pages.', 'status': 'INVALID_ARGUMENT'}}",
+    "failed_at": "2026-05-30T01:32:30.822587+00:00"
+  },
+  {
+    "source_file": "bosch_bgh96_service-manual_bgh96.pdf",
+    "error": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'The document has no pages.', 'status': 'INVALID_ARGUMENT'}}",
+    "failed_at": "2026-05-30T01:38:43.234085+00:00"
+  },
+  {
+    "source_file": "bosch_bgh97_installation-operations-maintenance-manual_bgh97.pdf",
+    "error": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'The document has no pages.', 'status': 'INVALID_ARGUMENT'}}",
+    "failed_at": "2026-05-30T01:42:12.638191+00:00"
+  },
+  {
+    "source_file": "baxi_baxi-224-combi-2_boiler-manual_baxi-200-combi-2-installation-manual.pdf",
+    "error": "Extracted data did not pass schema validation. Validation details saved to: output_json\\_debug\\baxi-baxi-224-combi-2-boiler-manual-baxi-200-combi-2-installation-manual.validation_error.txt",
+    "failed_at": "2026-05-30T03:15:07.669086+00:00"
+  }
+]

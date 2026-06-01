@@ -1,0 +1,2565 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Vaillant",
+    "product_family": "ECOmax",
+    "model_names": [
+      "ECOmax VUW 236 EH",
+      "ECOmax VUW 286 EH",
+      "ECOmax VUW 236 EP",
+      "ECOmax VUW 286 EP",
+      "VU 186 EP",
+      "VU 226 EP"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "INSTRUCTIONS FOR INSTALLATION AND SERVICING ECOmax VUW 236 EH ECOmax VUW 286 EH Wall hung room sealed fan assisted condensing combination boilers",
+    "document_code": "83 12 01 GB03",
+    "publication_date": "0198",
+    "language": "en",
+    "region": "GB, IE",
+    "source_file": "vaillant_vaillant-ecomax-vuw-236h_boiler-manual_ecomax-vuw-236-eh-gc-47-044-23-ism.pdf",
+    "file_hash": "7cd6ae8fa3f612875585a10c20c5beff52495536f83caa117ab32a65e0ebb09d"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Countries of Destination",
+      "value": "GB, IE",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "general",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Countries of Destination GB, IE"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum CH heat input",
+      "value": "19.5 (66,500)",
+      "unit": "kW (Btu/h)",
+      "applies_to_models": [
+        "VUW 236 EH"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Maximum CH heat input 19.5 (66,500) kW (Btu/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum CH heat input",
+      "value": "24.2 (82,600)",
+      "unit": "kW (Btu/h)",
+      "applies_to_models": [
+        "VUW 286 EH"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Maximum CH heat input 24.2 (82,600) kW (Btu/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (80 °C flow/60 °C return)",
+      "value": "9.9-17.2 (33,800-58,700)",
+      "unit": "kW (Btu/h)",
+      "applies_to_models": [
+        "VUW 236 EH"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "CH heat output range 80 °C flow/60 °C return 9.9-17.2 (33,800-58,700) kW (Btu/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (80 °C flow/60 °C return)",
+      "value": "12.3-21.3 (42,000-72,700)",
+      "unit": "kW (Btu/h)",
+      "applies_to_models": [
+        "VUW 286 EH"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "CH heat output range 80 °C flow/60 °C return 12.3-21.3 (42,000-72,700) kW (Btu/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (50 °C flow/30 °C return)",
+      "value": "10.5-18.0 (35,800-61,400)",
+      "unit": "kW (Btu/h)",
+      "applies_to_models": [
+        "VUW 236 EH"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "50 °C flow/30 °C return 10.5-18.0 (35,800-61,400) kW (Btu/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CH heat output range (50 °C flow/30 °C return)",
+      "value": "13.1-22.3 (44,700-76,100)",
+      "unit": "kW (Btu/h)",
+      "applies_to_models": [
+        "VUW 286 EH"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "50 °C flow/30 °C return 13.1-22.3 (44,700-76,100) kW (Btu/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum DHW heat input",
+      "value": "25.0 (85,300)",
+      "unit": "kW (Btu/h)",
+      "applies_to_models": [
+        "VUW 236 EH"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Maximum DHW heat input 25.0 (85,300) kW (Btu/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum DHW heat input",
+      "value": "31.1 (106,100)",
+      "unit": "kW (Btu/h)",
+      "applies_to_models": [
+        "VUW 286 EH"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Maximum DHW heat input 31.1 (106,100) kW (Btu/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum DHW heat output",
+      "value": "22.7 (77,500)",
+      "unit": "kW (Btu/h)",
+      "applies_to_models": [
+        "VUW 236 EH"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Maximum DHW heat output 22.7 (77,500) kW (Btu/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum DHW heat output",
+      "value": "28.3 (96,600)",
+      "unit": "kW (Btu/h)",
+      "applies_to_models": [
+        "VUW 286 EH"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Maximum DHW heat output 28.3 (96,600) kW (Btu/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW flow rate @ 35 °C rise",
+      "value": "9.3",
+      "unit": "l/min",
+      "applies_to_models": [
+        "VUW 236 EH"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "DHW flow rate @ 35 °C rise 9.3 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW flow rate @ 35 °C rise",
+      "value": "11.6",
+      "unit": "l/min",
+      "applies_to_models": [
+        "VUW 286 EH"
+      ],
+      "category": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "DHW flow rate @ 35 °C rise 11.6 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Mains water pressure required for max. flow rate",
+      "value": "1.0",
+      "unit": "bar",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Mains water pressure required for max. flow rate 1.0 bar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum water flow rate",
+      "value": "2",
+      "unit": "l/min",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Minimum water flow rate 2 l/min"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Mains water pressure required for min flow rate",
+      "value": "0.2",
+      "unit": "bar",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Mains water pressure required for min flow rate 0.2 bar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum inlet water pressure",
+      "value": "10",
+      "unit": "bar",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Maximum inlet water pressure 10 bar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Inlet gas working pressure required (Natural Gas)",
+      "value": "20",
+      "unit": "mbar",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Inlet gas working pressure required (Natural Gas) 20 mbar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas supply (G20) Gross C.V. (s.t.)",
+      "value": "37.8",
+      "unit": "MJ/m³",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Gas supply (G20) Gross C.V. (s.t.) 37.8 MJ/m³"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas burner pressure max (DHW)",
+      "value": "3.0",
+      "unit": "mbar",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Gas burner pressure max (DHW) 3.0 mbar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas rate max (DHW)",
+      "value": "2.38",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VUW 236 EH"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Gas rate max (DHW) 2.38 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas rate max (DHW)",
+      "value": "2.96",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "VUW 286 EH"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Gas rate max (DHW) 2.96 m³/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CH flow temperature range",
+      "value": "35-90",
+      "unit": "°C",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "CH flow temperature range 35-90 °C"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum CH water flow (for 20 °C rise)",
+      "value": "770",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VUW 236 EH"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Minimum CH water flow (for 20 °C rise) 770 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum CH water flow (for 20 °C rise)",
+      "value": "960",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VUW 286 EH"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Minimum CH water flow (for 20 °C rise) 960 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pump pressure available",
+      "value": "0.25",
+      "unit": "bar",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Pump pressure available 0.25 bar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Expansion vessel pre-charge pressure",
+      "value": "0.8",
+      "unit": "bar",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Expansion vessel pre-charge pressure 0.8 bar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum CH system pressure",
+      "value": "3.0",
+      "unit": "bar",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Maximum CH system pressure 3.0 bar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating flow / return connection size",
+      "value": "3/4",
+      "unit": "in. BSP",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Heating flow / return 3/4 in. BSP"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Cold water inlet connection size",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Cold water inlet 15 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW outlet connection size",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "DHW outlet 15 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas inlet connection size",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Gas inlet 15 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensate drain (internal diameter, min)",
+      "value": "19",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Condensate drain (internal diameter, min) 19 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure relief discharge pipework (min)",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Pressure relief discharge pipework (min) 15 mm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight",
+      "value": "56",
+      "unit": "kg",
+      "applies_to_models": [
+        "VUW 236 EH"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Weight 56 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Weight",
+      "value": "57",
+      "unit": "kg",
+      "applies_to_models": [
+        "VUW 286 EH"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Weight 57 kg"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler water content",
+      "value": "1.5",
+      "unit": "litres",
+      "applies_to_models": [
+        "VUW 236 EH"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Boiler water content 1.5 litres"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler water content",
+      "value": "1.6",
+      "unit": "litres",
+      "applies_to_models": [
+        "VUW 286 EH"
+      ],
+      "category": "water",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Boiler water content 1.6 litres"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Volume of condensate (max.)",
+      "value": "0.5",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VUW 236 EH"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Volume of condensate (max.) 0.5 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Volume of condensate (max.)",
+      "value": "0.6",
+      "unit": "l/h",
+      "applies_to_models": [
+        "VUW 286 EH"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Volume of condensate (max.) 0.6 l/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum flue gas temperature",
+      "value": "70",
+      "unit": "°C",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Maximum flue gas temperature 70 °C"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Electrical supply Voltage",
+      "value": "230/50",
+      "unit": "V~/Hz",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Voltage 230/50 V~/Hz"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Fuses internal/external",
+      "value": "2/3",
+      "unit": "A",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Fuses internal/external 2/3 A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power input",
+      "value": "130",
+      "unit": "W",
+      "applies_to_models": [
+        "VUW 236 EH",
+        "VUW 286 EH"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "2.1 Technical data",
+          "table_title": "Technical Data",
+          "source_quote": "Power input 130 W"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure relief valve pre-set pressure",
+      "value": "3",
+      "unit": "bar",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "3.7.3 Pressure relief valve",
+          "table_title": null,
+          "source_quote": "This safety device is required on all sealed C.H. systems and is pre-set at 3 bar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure relief valve discharge pipe connection size",
+      "value": "3/4",
+      "unit": "in. BSP",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "3.7.3 Pressure relief valve",
+          "table_title": null,
+          "source_quote": "provided with a 3/4 in. BSP connection for a discharge pipe (minimum size 15mm)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Pressure relief valve discharge pipe minimum size",
+      "value": "15",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 12,
+          "section_title": "3.7.3 Pressure relief valve",
+          "table_title": null,
+          "source_quote": "provided with a 3/4 in. BSP connection for a discharge pipe (minimum size 15mm)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Burner Pressure (DHW) (d.20 reading)",
+      "value": "300 Pa ± 30 Pa",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 236 E",
+        "VUW 286 E"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "5.10 Main burner pressure",
+          "table_title": "Table 5: Burner Pressure & Gas Rate",
+          "source_quote": "Maximum Burner Pressure (DHW) (d. 20 reading) 300 Pa ± 30 Pa"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Gas Rate (DHW)",
+      "value": "2.38 m³/h (84.04 ft³/h)",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 236 E"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "5.10 Main burner pressure",
+          "table_title": "Table 5: Burner Pressure & Gas Rate",
+          "source_quote": "Maximum Gas Rate (DHW) 2.38 m³/h (84.04 ft³/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum Gas Rate (DHW)",
+      "value": "2.96 m³/h (104.52 ft³/h)",
+      "unit": null,
+      "applies_to_models": [
+        "VUW 286 E"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "5.10 Main burner pressure",
+          "table_title": "Table 5: Burner Pressure & Gas Rate",
+          "source_quote": "Maximum Gas Rate (DHW) 2.96 m³/h (104.52 ft³/h)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Internal charge pressure of expansion vessel",
+      "value": "between 0.7 and 0.9",
+      "unit": "Bar",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "6.2.5 Check central heating expansion vessel",
+          "table_title": null,
+          "source_quote": "Check that the internal charge pressure of the expansion vessel is between 0.7 and 0.9 Bar."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Internal Fuses",
+      "value": "F1 (2A), F2 (2A), F5 (1A)",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 59,
+          "section_title": "8.2.2 Procedure",
+          "table_title": null,
+          "source_quote": "IF THE BOILER DISPLAY IS COMPLETELY BLANK INITIALLY CHECK THE TWO 2A FUSES (F1 AND F2) AND THE 1A FUSE (F5), FIG. 110."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum CH heat input (Propane)",
+      "value": "19.1",
+      "unit": "kW",
+      "applies_to_models": [
+        "ECOmax VUW 236 EP",
+        "VU 186 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "Maximum CH heat input 19.1 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum CH heat input (Propane)",
+      "value": "23.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "ECOmax VUW 286 EP",
+        "VU 226 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "Maximum CH heat input 23.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CH output 80 °C flow / 60 °C return (Propane)",
+      "value": "9.9-17.2",
+      "unit": "kW",
+      "applies_to_models": [
+        "ECOmax VUW 236 EP",
+        "VU 186 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "CH output 80 °C flow / 60 °C return 9.9-17.2 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CH output 80 °C flow / 60 °C return (Propane)",
+      "value": "12.3-21.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "ECOmax VUW 286 EP",
+        "VU 226 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "CH output 80 °C flow / 60 °C return 12.3-21.3 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CH output 50 °C flow / 30 °C return (Propane)",
+      "value": "10.5-18.0",
+      "unit": "kW",
+      "applies_to_models": [
+        "ECOmax VUW 236 EP",
+        "VU 186 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "50 °C flow/30 °C return 10.5-18.0 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CH output 50 °C flow / 30 °C return (Propane)",
+      "value": "13.1-22.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "ECOmax VUW 286 EP",
+        "VU 226 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "50 °C flow/30 °C return 13.1-22.3 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum DHW heat input (Propane)",
+      "value": "24.5",
+      "unit": "kW",
+      "applies_to_models": [
+        "ECOmax VUW 236 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "Maximum DHW heat input 24.5 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum DHW heat input (Propane)",
+      "value": "30.4",
+      "unit": "kW",
+      "applies_to_models": [
+        "ECOmax VUW 286 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "Maximum DHW heat input 30.4 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW heat output (Propane)",
+      "value": "22.7",
+      "unit": "kW",
+      "applies_to_models": [
+        "ECOmax VUW 236 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "DHW heat output 22.7 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "DHW heat output (Propane)",
+      "value": "28.3",
+      "unit": "kW",
+      "applies_to_models": [
+        "ECOmax VUW 286 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "DHW heat output 28.3 kW"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Inlet gas working pressure required (Propane)",
+      "value": "37",
+      "unit": "mbar",
+      "applies_to_models": [
+        "ECOmax VUW 236 EP",
+        "ECOmax VUW 286 EP",
+        "VU 186 EP",
+        "VU 226 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "Inlet gas working pressure required 37 mbar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas supply (G31) gross C.V. (Propane)",
+      "value": "95.65",
+      "unit": "MJ/m³",
+      "applies_to_models": [
+        "ECOmax VUW 236 EP",
+        "ECOmax VUW 286 EP",
+        "VU 186 EP",
+        "VU 226 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "Gas supply (G31) gross C.V. 95.65 MJ/m³"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas burner pressure (max.) (Propane)",
+      "value": "3.0 ± 0.3",
+      "unit": "mbar",
+      "applies_to_models": [
+        "ECOmax VUW 236 EP",
+        "ECOmax VUW 286 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "Gas burner pressure (max.) 3.0 ± 0.3 mbar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas burner pressure (max.) (Propane)",
+      "value": "1.9 ± 0.19",
+      "unit": "mbar",
+      "applies_to_models": [
+        "VU 186 EP",
+        "VU 226 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "Gas burner pressure (max.) 1.9 ± 0.19 mbar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas rate - DHW (Propane)",
+      "value": "0.92 m³/h (1.75 kg/h)",
+      "unit": null,
+      "applies_to_models": [
+        "ECOmax VUW 236 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "Gas rate - DHW 0.92 1.75 m³/h kg/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas rate - DHW (Propane)",
+      "value": "1.14 m³/h (2.17 kg/h)",
+      "unit": null,
+      "applies_to_models": [
+        "ECOmax VUW 286 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "Gas rate - DHW 1.14 2.17 m³/h kg/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas rate - CH (Propane)",
+      "value": "0.71 m³/h (1.36 kg/h)",
+      "unit": null,
+      "applies_to_models": [
+        "ECOmax VUW 236 EP",
+        "VU 186 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "Gas rate - CH 0.71 1.36 m³/h kg/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas rate - CH (Propane)",
+      "value": "0.89 m³/h (1.70 kg/h)",
+      "unit": null,
+      "applies_to_models": [
+        "ECOmax VUW 286 EP",
+        "VU 226 EP"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 70,
+          "section_title": "11. Supplementary information for ECOmax: Propane versions",
+          "table_title": "Table 1: Technical Data - ECOmax propane versions",
+          "source_quote": "Gas rate - CH 0.89 1.70 m³/h kg/h"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "FO/F20",
+      "description": "Interruption to NTC flow sensor 'TO' (alternating display)",
+      "possible_causes": [
+        "Loose wire/poor connections to NTC 'TO'",
+        "Faulty component - Replace NTC 'TO' (Section 7.8)"
+      ],
+      "manufacturer_steps": [
+        "Repair as necessary."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC 'TO' flow sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "sensor",
+        "flow",
+        "temperature",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "FO/F20 (alternating display) Interruption to NTC flow sensor 'TO'* 1. Loose wire/poor connections to NTC 'TO' Repair as necessary. 2. Faulty component - Replace NTC 'TO' (Section 7.8)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F1/F20",
+      "description": "Interruption to NTC flow sensor 'T1' (alternating display)",
+      "possible_causes": [
+        "Loose wire/poor connections to NTC 'T1'",
+        "Faulty component - Replace NTC 'T1' (Section 7.8)"
+      ],
+      "manufacturer_steps": [
+        "Repair as necessary."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC 'T1' flow sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "sensor",
+        "flow",
+        "temperature",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "F1/F20 (alternating display) Interruption to NTC flow sensor 'T1'* 1. Loose wire/poor connections to NTC 'T1'. Repair as necessary. 2. Faulty component - Replace NTC 'T1' (Section 7.8)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F2/F23",
+      "description": "Interruption to NTC heat exchanger sensor 'T2' (alternating display)",
+      "possible_causes": [
+        "Loose wire/poor connections to NTC 'T2'",
+        "Faulty component - Replace NTC 'T2' (Section 7.8)"
+      ],
+      "manufacturer_steps": [
+        "Repair as necessary."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC heat exchanger sensor 'T2'"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "sensor",
+        "heat exchanger",
+        "temperature",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "F2/F23 (alternating display) Interruption to NTC heat exchanger sensor 'T2'* 1. Loose wire/poor connections to NTC 'T2' Repair as necessary. 2. Faulty component - Replace NTC 'T2' (Section 7.8)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F10/F20",
+      "description": "Short circuit to NTC flow sensor 'TO' (alternating display)",
+      "possible_causes": [
+        "NTC 'TO' connection wire short circuit to earth",
+        "Faulty component - Replace NTC 'TO' (Section 7.8)"
+      ],
+      "manufacturer_steps": [
+        "Repair as necessary."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC 'TO' flow sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "sensor",
+        "flow",
+        "temperature",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "F10/F20 (alternating display) Short circuit to NTC flow sensor 'TO'* 1. NTC 'TO' connection wire short circuit to earth Repair as necessary. 2. Faulty component - Replace NTC 'TO' (Section 7.8)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F11/F20",
+      "description": "Short circuit to NTC flow sensor 'T1' (alternating display)",
+      "possible_causes": [
+        "NTC 'T1' connection wire short circuit to earth",
+        "Faulty component - Replace NTC 'T1' (Section 7.8)"
+      ],
+      "manufacturer_steps": [
+        "Repair as necessary."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC 'T1' flow sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "sensor",
+        "flow",
+        "temperature",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "F11/F20 (alternating display) Short circuit to NTC flow sensor 'T1'* 1. NTC 'T1' connection wire short circuit to earth Repair as necessary. 2. Faulty component - Replace NTC 'T1' (Section 7.8)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F12/F23",
+      "description": "Short circuit to NTC heat exchanger sensor 'T2' (alternating display)",
+      "possible_causes": [
+        "NTC 'T2' connection wire short circuit to earth",
+        "Faulty component - Replace NTC 'T2' (Section 7.8)"
+      ],
+      "manufacturer_steps": [
+        "Repair as necessary."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "NTC heat exchanger sensor 'T2'"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "sensor",
+        "heat exchanger",
+        "temperature",
+        "short circuit"
+      ],
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "F12/F23 (alternating display) Short circuit to NTC heat exchanger sensor 'T2'* 1. NTC 'T2' connection wire short circuit to earth Repair as necessary. 2. Faulty component - Replace NTC 'T2' (Section 7.8)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F20",
+      "description": "Shutdown by overheat thermostat",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Reset by pressing red 'Reset' button."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "overheat thermostat"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "overheat",
+        "thermostat",
+        "shutdown"
+      ],
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "F20 Shutdown by overheat thermostat Reset by pressing red 'Reset' button."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F21/F25/F48/F50",
+      "description": "Faulty Fuse (alternating display)",
+      "possible_causes": [
+        "4A fuse F4 defective."
+      ],
+      "manufacturer_steps": [
+        "Replace fuse with spare provided."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Fuse F4"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fuse",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "F21/F25/F48/F50 (alternating display) Faulty Fuse 4A fuse F4 defective. Replace fuse with spare provided."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F21",
+      "description": "Flame failure fault",
+      "possible_causes": [
+        "Gas supply disturbed or air in the supply network (if d.66 = 2)",
+        "CPU circuit board is defective (if d.66 = 1 or d32 = 0)",
+        "Ignition electrode, ignition lead connections to transformer and electrode (if d32 = 1)"
+      ],
+      "manufacturer_steps": [
+        "Enter diagnostic mode (see Section 8.1), select 'd.66' and press the right button.",
+        "if d.66 = 0, power supply to boiler has been interrupted since fault occurred - proceed as for d.66 = 2",
+        "if d.66 = 1, fault occurred before ignition, CPU circuit board is defective. Replace (see Section 7.22.4)",
+        "if d.66 = 2, fault occurred during ignition. Check that the gas supply is turned on and that it has been correctly purged (see Section 5.2). Press the 'Reset' button. Boiler will attempt to re-light.",
+        "Check if a spark is visible at the ignition electrodes?",
+        "if no: Turn the central heating control to the 'hot water only' position and push the red 'reset' button. Enter diagnostic mode, select d32 and push the right button. Turn the central heating control back to the 'heating and hot water' position to operate the appliance for heating. The boiler will attempt to relight. Check the ignition transformer operation using diagnostic code d.32 during the ignition cycle (approx 10 seconds).",
+        "if d32 = 1, (during ignition cycle), check ignition electrode, the ignition lead connections to transformer and electrode, if all o.k. replace ignition transformer (see section 7.13).",
+        "if d32 = 0, (during ignition cycle), CPU circuit board is defective, replace (see section 7.22.4)."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "CPU circuit board",
+        "ignition electrode",
+        "ignition transformer",
+        "gas supply"
+      ],
+      "severity": "high",
+      "safety_level": "warning",
+      "search_tags": [
+        "flame",
+        "ignition",
+        "gas",
+        "CPU",
+        "electrode",
+        "transformer"
+      ],
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "F21 Flame failure fault Enter diagnostic mode (see Section 8.1), select 'd.66' and press the right button. if d.66 = 0, power supply to boiler has been interrupted since fault occured - proceed as for d.66 = 2 if d.66 = 1, fault occurred before ignition, CPU circuit board is defective. Replace (see Section 7.22.4) if d.66 = 2, fault occurred during ignition. Possible causes: gas supply disturbed or air in the supply network. Check that the gas supply is turned on and that it has been correctly purged (see Section 5.2). Press the 'Reset' button. Boiler will attempt to re-light. Is a spark visible at the ignition electrodes? if no:- Turn the central heating control to the 'hot water only' position and push the red 'reset' button. Enter diagnostic mode, select d32 and push the right button. Turn the central heating control back to the 'heating and hot water' position to operate the appliance for heating. The boiler will attempt to relight. Check the ignition transformer operation using diagnostic code d.32 during the ignition cycle (approx 10 seconds). if d32 = 1, (during ignition cycle), check ignition electrode, the ignition lead connections to transformer and electrode, if all o.k. replace ignition transformer (see section 7.13). if d32 = 0, (during ignition cycle), CPU circuit board is defective, replace (see section 7.22.4)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "F22",
+      "description": "Lack of water in system or blocked water circulation",
+      "possible_causes": [
+        "System water pressure too low",
+        "Circulating pump not operating",
+        "NTC 'TO' and 'T1' not giving comparable signals"
+      ],
+      "manufacturer_steps": [
+        "Refill and repressurise the boiler to 1.2 bar (see Section 5.4).",
+        "Enter diagnostic mode, select d.10 and press the right button. Operate the boiler.",
+        "if d10 = 1, check the electrical connections to pump and that the pump is not seized. Repair/replace the pump as necessary (see Section 7.14).",
+        "if d10 = 0, replace the CPU circuit board (see Section 7.22.4).",
+        "Check NTC 'TO' and 'T1' connecting leads for continuity and repair as necessary. If fault still exists replace NTC 'TO' and 'T1'."
+      ],
+      "cautions_or_notes": [
+        "For location of NTC sensors refer to Section 2.4 Function diagram."
+      ],
+      "symptoms": [],
+      "related_components": [
+        "pump",
+        "NTC 'TO' sensor",
+        "NTC 'T1' sensor",
+        "CPU circuit board"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water pressure",
+        "circulation",
+        "pump",
+        "NTC",
+        "sensor"
+      ],
+      "source_refs": [
+        {
+          "page_number": 61,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "F22 Lack of water in system or blocked water circulation 1. System water pressure too low. Refill and repressurise the boiler to 1.2 bar (see Section 5.4) 2. Circulating pump not operating. Enter diagnostic mode (see Section 8.1), select d.10 and press the right button. Operate the boiler. if d10 = 1 check the electrical connections to pump and that the pump is not seized. Repair/replace the pump as necessary (see Section 7.14). if d10 = 0 replace the CPU circuit board (see Section 7.22.4) NTC 'TO'* and 'T1'* not giving comparable signals - Check NTC 'TO' and 'T1' connecting leads for continuity and repair as necessary. If fault still exists replace NTC 'TO' and 'T1'. * For location of NTC sensors refer to Section 2.4 Function diagram."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "F24",
+      "description": "NTC Temperature comparison error",
+      "possible_causes": [
+        "NTC 'TO' and 'T1' not giving comparable signals"
+      ],
+      "manufacturer_steps": [
+        "Check NTC 'TO' and 'T1' connecting leads for continuity and repair as necessary. If fault still exists replace NTC 'TO' and 'T1'."
+      ],
+      "cautions_or_notes": [
+        "For location of NTC sensors refer to Section 2.4 Function diagram."
+      ],
+      "symptoms": [],
+      "related_components": [
+        "NTC 'TO' sensor",
+        "NTC 'T1' sensor"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "NTC",
+        "sensor",
+        "temperature",
+        "comparison"
+      ],
+      "source_refs": [
+        {
+          "page_number": 61,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "F24 NTC Temperature comparison error NTC 'TO'* and 'T1'* not giving comparable signals - Check NTC 'TO' and 'T1' connecting leads for continuity and repair as necessary. If fault still exists replace NTC 'TO' and 'T1'. * For location of NTC sensors refer to Section 2.4 Function diagram."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F25",
+      "description": "Faulty Fuse",
+      "possible_causes": [
+        "4A fuse F3 defective."
+      ],
+      "manufacturer_steps": [
+        "Replace fuse with spare provided. (Fuse has a resistance of approximately 20Ω)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Fuse F3"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fuse",
+        "electrical"
+      ],
+      "source_refs": [
+        {
+          "page_number": 61,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "F25 Faulty Fuse 4A fuse F3 defective. Replace with spare provided. (Fuse has a resistance of approximately 20Ω)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "F30 or F32 or F33",
+      "description": "Lack of air flow through appliance",
+      "possible_causes": [
+        "Air/flue duct obstructed",
+        "Condensate drain obstructed",
+        "Faulty fan"
+      ],
+      "manufacturer_steps": [
+        "Check terminal is clear of obstruction, and the flue is correctly assembled with flue seals and air duct clamps.",
+        "Check condensate drain pipe not obstructed.",
+        "Enter diagnostic mode, select d.34 and press the right button. Operate the boiler. Note the reading obtained. Now select d.33 and press the right button. Compare the reading achieved on d.33 (the required fan speed) with the reading obtained on d.34 (the actual fan speed). If the actual fan speed reading is more than 20 below the required fan speed, check the connections to the fan motor. If electrical connections are satisfactory replace the fan (see Section 7.2)."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "air/flue duct",
+        "condensate drain",
+        "fan"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "airflow",
+        "flue",
+        "condensate",
+        "fan",
+        "obstruction"
+      ],
+      "source_refs": [
+        {
+          "page_number": 61,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "F30 or F32 or F33 Lack of air flow through appliance 1. Air/flue duct obstructed - check terminal is clear of obstruction, and the flue is correctly assembled with flue seals and air duct clamps. 2. Condensate drain obstructed - check condensate drain pipe not obstructed. 3. Faulty fan - check fan performance using diagnostic codes 'd.33' and 'd.34'. Enter diagnostic mode, select 'd.34' and press the right button. Operate the boiler. Note the reading obtained. Now select d.33 and press the right button. Compare the reading achieved on d.33 (the required fan speed) with the reading obtained on d.34 (the actual fan speed). If the actual fan speed reading is more than 20 below the required fan speed, check the connections to the fan motor. If electrical connections are satisfactory replace the fan (see Section 7.2)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "F31 or F34",
+      "description": "Air pressure sensor fault",
+      "possible_causes": [
+        "Air/flue duct and condensate discharge are free of obstruction",
+        "Air pressure sensor connections not correctly located on gas valve",
+        "Faulty component"
+      ],
+      "manufacturer_steps": [
+        "Initially check both air/flue duct and condensate discharge are free of obstruction.",
+        "Remedy as necessary.",
+        "Re-locate sensor as necessary, check conection lead.",
+        "Replace air pressure sensor (see Section 7.3)."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "air pressure sensor",
+        "air/flue duct",
+        "condensate discharge",
+        "gas valve"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "air pressure",
+        "sensor",
+        "flue",
+        "condensate",
+        "gas valve"
+      ],
+      "source_refs": [
+        {
+          "page_number": 62,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "F31 or F34 Air pressure sensor fault 1. Initially check both air/flue duct and condensate discharge are free of obstruction 2. Remedy as necessary. 2. Air pressure sensor connections not correctly located on gas valve. - Re-locate sensor as necessary, check conection lead. 3. Faulty component - Replace air pressure sensor (see Section 7.3)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  ],
+  "diagnostic_codes": [
+    {
+      "code": "d.66",
+      "description": "Power supply interruption or fault during ignition",
+      "value_range": "0, 1, 2",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "Enter diagnostic mode (see Section 8.1), select 'd.66' and press the right button. if d.66 = 0, power supply to boiler has been interrupted since fault occured - proceed as for d.66 = 2 if d.66 = 1, fault occurred before ignition, CPU circuit board is defective. Replace (see Section 7.22.4) if d.66 = 2, fault occurred during ignition."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "d.32",
+      "description": "Ignition transformer operation during ignition cycle",
+      "value_range": "0, 1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 60,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "Enter diagnostic mode, select d32 and push the right button. ... if d32 = 1, (during ignition cycle), check ignition electrode, the ignition lead connections to transformer and electrode, if all o.k. replace ignition transformer (see section 7.13). if d32 = 0, (during ignition cycle), CPU circuit board is defective, replace (see section 7.22.4)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "d.10",
+      "description": "Pump operation status",
+      "value_range": "0, 1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 61,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "Enter diagnostic mode, select d.10 and press the right button. Operate the boiler. if d10 = 1 check the electrical connections to pump and that the pump is not seized. Repair/replace the pump as necessary (see Section 7.14). if d10 = 0 replace the CPU circuit board (see Section 7.22.4)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "d.34",
+      "description": "Actual fan speed",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 61,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "check fan performance using diagnostic codes 'd.33' and 'd.34'. Enter diagnostic mode, select 'd.34' and press the right button. Operate the boiler. Note the reading obtained. Now select d.33 and press the right button. Compare the reading achieved on d.33 (the required fan speed) with the reading obtained on d.34 (the actual fan speed)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "d.33",
+      "description": "Required fan speed",
+      "value_range": null,
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 61,
+          "section_title": "8.3 Fault diagnosis using the boiler fault mode",
+          "table_title": "Fault Code Displayed",
+          "source_quote": "check fan performance using diagnostic codes 'd.33' and 'd.34'. Enter diagnostic mode, select 'd.34' and press the right button. Operate the boiler. Note the reading obtained. Now select d.33 and press the right button. Compare the reading achieved on d.33 (the required fan speed) with the reading obtained on d.34 (the actual fan speed)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "code": "d.35",
+      "description": "Diverter valve solenoid status",
+      "value_range": "0, 1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": false,
+      "source_refs": [
+        {
+          "page_number": 64,
+          "section_title": "8.4.4 Fault Diagnosis using the boiler Status Mode: Hot Water Operation",
+          "table_title": "Status Code Displayed",
+          "source_quote": "enter diagnostic mode, select 'd.35' and press the right button. if d35 = 1 check connections to diverter valve solenoid. If ok. replace diverter valve (see Section 7.17). if d35 = 0 replace CPU circuit board (see Section 7.22.4)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    }
+  ],
+  "status_codes": [
+    {
+      "code": "S.0",
+      "meaning": "No water demand / Boiler operating normally after internal self check",
+      "operating_mode": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "5.11.2 Functional check of DHW operation using built in diagnostics",
+          "table_title": null,
+          "source_quote": "The display should now show 'S.O'"
+        },
+        {
+          "page_number": 31,
+          "section_title": "5.11.3 Functional check of CH operation using built in diagnostics",
+          "table_title": null,
+          "source_quote": "The display should now show 'S.O'"
+        },
+        {
+          "page_number": 31,
+          "section_title": "5.11.3 Functional check of CH operation using built in diagnostics",
+          "table_title": null,
+          "source_quote": "S.O - no water demand"
+        },
+        {
+          "page_number": 63,
+          "section_title": "8.4.3 Fault Diagnosis using boiler Status Mode: Central Heating Operation",
+          "table_title": "Status Code Displayed",
+          "source_quote": "SO or S30 External controls not calling for heat"
+        },
+        {
+          "page_number": 64,
+          "section_title": "8.4.4 Fault Diagnosis using the boiler Status Mode: Hot Water Operation",
+          "table_title": "Status Code Displayed",
+          "source_quote": "SO Symptom:- Boiler will not operate for hot water production."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "S.10",
+      "meaning": "Calling for operation: DHW",
+      "operating_mode": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "5.11.2 Functional check of DHW operation using built in diagnostics",
+          "table_title": null,
+          "source_quote": "S.10 - calling for operation: DHW. (display duration: 1 sec)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "S.11",
+      "meaning": "Fan running and proving",
+      "operating_mode": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "5.11.2 Functional check of DHW operation using built in diagnostics",
+          "table_title": null,
+          "source_quote": "S.11 - fan running and proving (display duration: 4 -5 secs)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "S.13",
+      "meaning": "Ignition",
+      "operating_mode": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "5.11.2 Functional check of DHW operation using built in diagnostics",
+          "table_title": null,
+          "source_quote": "S.13 - ignition (display duration: 10 secs max)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "S.14",
+      "meaning": "Burner operation: DHW",
+      "operating_mode": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "5.11.2 Functional check of DHW operation using built in diagnostics",
+          "table_title": null,
+          "source_quote": "S.14 - burner operation: DHW (display for duration of hot water draw off)"
+        },
+        {
+          "page_number": 63,
+          "section_title": "8.4.3 Fault Diagnosis using boiler Status Mode: Central Heating Operation",
+          "table_title": "Status Code Displayed",
+          "source_quote": "$10 or S14 1. DHW microswitch on water section defective"
+        },
+        {
+          "page_number": 64,
+          "section_title": "8.4.4 Fault Diagnosis using the boiler Status Mode: Hot Water Operation",
+          "table_title": "Status Code Displayed",
+          "source_quote": "S14 Note: Under normal and correct operation, status code S14 will be displayed until the hot water tap is closed."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "S.15",
+      "meaning": "Pump and fan overrun",
+      "operating_mode": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "5.11.2 Functional check of DHW operation using built in diagnostics",
+          "table_title": null,
+          "source_quote": "S.15 - pump and fan overrun (display duration: 5 secs)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "S.17",
+      "meaning": "Pump overrun",
+      "operating_mode": "domestic_hot_water",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "5.11.3 Functional check of CH operation using built in diagnostics",
+          "table_title": null,
+          "source_quote": "S.17 - pump overrun (display duration: 20 secs to 80 secs)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "S.1",
+      "meaning": "Fan running and proving",
+      "operating_mode": "heating",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "5.11.3 Functional check of CH operation using built in diagnostics",
+          "table_title": null,
+          "source_quote": "S.1 - fan running and proving (display duration: 4-5 secs)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "S.3",
+      "meaning": "Ignition",
+      "operating_mode": "heating",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "5.11.3 Functional check of CH operation using built in diagnostics",
+          "table_title": null,
+          "source_quote": "S.3 - ignition (display duration: 10 secs max)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "S.4",
+      "meaning": "Burner operation CH / Boiler not in anti-cycling economiser mode or lack of primary water flow or diverter valve not switching to CH position.",
+      "operating_mode": "heating",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "5.11.3 Functional check of CH operation using built in diagnostics",
+          "table_title": null,
+          "source_quote": "S.4 - burner operation CH (display for duration of CH opera- tion)"
+        },
+        {
+          "page_number": 63,
+          "section_title": "8.4.3 Fault Diagnosis using boiler Status Mode: Central Heating Operation",
+          "table_title": "Status Code Displayed",
+          "source_quote": "S4 or S7 Note: Under normal and correct operation, status code S4 will be displayed until the boiler reaches the set temperature. The faults shown here are only to be suspected if the radiators are not being heated correctly;"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "S.5",
+      "meaning": "Pump and fan overrun",
+      "operating_mode": "heating",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "5.11.3 Functional check of CH operation using built in diagnostics",
+          "table_title": null,
+          "source_quote": "S.5 - pump and fan overrun (display duration: 5 secs)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "S.7",
+      "meaning": "Pump overrun / Boiler not in anti-cycling economiser mode or lack of primary water flow or diverter valve not switching to CH position.",
+      "operating_mode": "heating",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "5.11.3 Functional check of CH operation using built in diagnostics",
+          "table_title": null,
+          "source_quote": "S.7 (pump overrun) (display duration: 20 secs to 5 mins)"
+        },
+        {
+          "page_number": 63,
+          "section_title": "8.4.3 Fault Diagnosis using boiler Status Mode: Central Heating Operation",
+          "table_title": "Status Code Displayed",
+          "source_quote": "S4 or S7 Note: Under normal and correct operation, status code S4 will be displayed until the boiler reaches the set temperature. The faults shown here are only to be suspected if the radiators are not being heated correctly;"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "S.30",
+      "meaning": "External controls satisfied",
+      "operating_mode": "heating",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "5.11.3 Functional check of CH operation using built in diagnostics",
+          "table_title": null,
+          "source_quote": "S 30 (external controls satisfied)"
+        },
+        {
+          "page_number": 63,
+          "section_title": "8.4.3 Fault Diagnosis using boiler Status Mode: Central Heating Operation",
+          "table_title": "Status Code Displayed",
+          "source_quote": "SO or S30 External controls not calling for heat"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "S.8",
+      "meaning": "Anti-cycling 'economiser' engaged",
+      "operating_mode": "heating",
+      "source_refs": [
+        {
+          "page_number": 31,
+          "section_title": "5.11.3 Functional check of CH operation using built in diagnostics",
+          "table_title": null,
+          "source_quote": "S.8 (anti-cycling `economiser' engaged) (display duration: 5 mins)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "safety_warnings": [
+    {
+      "warning_type": "info",
+      "topic": "Installation and Servicing Personnel",
+      "text": "In your own interest, and that of safety, it is law that all gas appliances are installed by competent persons, in accordance with the above regulations. Failure to install appliances correctly could lead to prosecution.'",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "THE GAS SAFETY (INSTALLATION AND USE) REGULATIONS 1994: `In your own interest, and that of safety, it is law that all gas appliances are installed by competent persons, in accordance with the above regulations. Failure to install appliances correctly could lead to prosecution.'"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Installation and Servicing Personnel",
+      "text": "The appliance must be installed and serviced by a competent person as stated in the Gas Safety (Installation and Use) Regulations 1994",
+      "source_refs": [
+        {
+          "page_number": 7,
+          "section_title": "3.1 Related documents",
+          "table_title": null,
+          "source_quote": "Important The appliance must be installed and serviced by a competent person as stated in the Gas Safety (Installation and Use) Regulations 1994"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electrical Safety",
+      "text": "THIS APPLIANCE MUST BE EARTHED.",
+      "source_refs": [
+        {
+          "page_number": 11,
+          "section_title": "3.6 Electricity supply",
+          "table_title": null,
+          "source_quote": "THIS APPLIANCE MUST BE EARTHED."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Electrical Safety",
+      "text": "Warning: This appliance must be earthed",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "4.8.1 General electrical requirements",
+          "table_title": null,
+          "source_quote": "Warning: This appliance must be earthed"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Maintenance Safety",
+      "text": "Before starting any maintenance work: Isolate the mains electricity supply by disconnecting the plug at the socket outlet (if there is an isolating switch only remove the fuse from the switch). Turn OFF the gas supply at the gas service valve fitted to the boiler. Always test for gas soundness and always carry out functional checks after any service work and after exchanging any gas carrying component. Always check earth continuity, polarity and resistance to earth with a multimeter after any service work and after exchanging any electrical component.",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "6. Servicing",
+          "table_title": null,
+          "source_quote": "IMPORTANT: Before starting any maintenance work: Isolate the mains electricity supply by disconnecting the plug at the socket outlet (if there is an isolating switch only remove the fuse from the switch). Turn OFF the gas supply at the gas service valve fitted to the boiler. Always test for gas soundness and always carry out functional checks after any service work and after exchanging any gas carrying component. Always check earth continuity, polarity and resistance to earth with a multimeter after any service work and after exchanging any electrical component."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Maintenance Safety",
+      "text": "Before starting any maintenance work: Isolate the mains electricity supply by disconnecting the plug at the socket outlet (if there is an isolating switch only, remove the fuse from the switch). Turn OFF the gas supply at the gas service valve fitted to the boiler. When removing any water carrying components ensure that the control box cover and terminal box cover are in position and water is kept away from all electrical components. Always test for gas soundness and always carry out functional checks after any service work and after exchanging any gas carrying component. Always check earth continuity, polarity and resistance to earth with a multimeter after any service work and after exchanging any electrical component.",
+      "source_refs": [
+        {
+          "page_number": 38,
+          "section_title": "7. Parts replacement",
+          "table_title": null,
+          "source_quote": "IMPORTANT: Before starting any maintenance work: Isolate the mains electricity supply by disconnecting the plug at the socket outlet (if there is an isolating switch only, remove the fuse from the switch). Turn OFF the gas supply at the gas service valve fitted to the boiler. When removing any water carrying components ensure that the control box cover and terminal box cover are in position and water is kept away from all electrical components. Always test for gas soundness and always carry out functional checks after any service work and after exchanging any gas carrying component. Always check earth continuity, polarity and resistance to earth with a multimeter after any service work and after exchanging any electrical component."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Propane Gas Commissioning",
+      "text": "When commissioning a new installation for the first time, ensure that all air has been purged from the storage tank and installation pipework before attempting to light the boiler. If difficulty is experienced in lighting the boiler for the first time during commissioning, particularly with a bulk storage tank installation, it is very likely that there is still air present in the gas supply. Contact your gas supply company to check that the installation has been purged correctly.",
+      "source_refs": [
+        {
+          "page_number": 71,
+          "section_title": "Commissioning",
+          "table_title": null,
+          "source_quote": "IMPORTANT: When commissioning a new installation for the first time, ensure that all air has been purged from the storage tank and installation pipework before attempting to light the boiler. If difficulty is experienced in lighting the boiler for the first time during commissioning, particularly with a bulk storage tank installation, it is very likely that there is still air present in the gas supply. Contact your gas supply company to check that the installation has been purged correctly."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Propane Gas Storage",
+      "text": "Please ensure that the enclosed sticker is affixed to the storage tank (or bottle store) in a clearly visible position, preferably close to the filling point.",
+      "source_refs": [
+        {
+          "page_number": 71,
+          "section_title": "Commissioning",
+          "table_title": null,
+          "source_quote": "IMPORTANT: Please ensure that the enclosed sticker is affixed to the storage tank (or bottle store) in a clearly visible position, preferably close to the filling point."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "info",
+      "topic": "Propane Gas Filling",
+      "text": "Please ensure that the storage tank is only filled with propane according to BS 4250; point I. Specification for commercial Butane and Propane.",
+      "source_refs": [
+        {
+          "page_number": 71,
+          "section_title": "Commissioning",
+          "table_title": null,
+          "source_quote": "IMPORTANT: Please ensure that the storage tank is only filled with propane according to BS 4250; point I. Specification for commercial Butane and Propane."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "maintenance_tasks": [
+    {
+      "task_name": "Boiler Servicing",
+      "description": "To ensure the continued safe and efficient operation of the boiler it is recommended that it is checked and serviced as necessary at regular intervals.",
+      "interval": "annually",
+      "required_qualification": "competent person (Corgi registered)",
+      "source_refs": [
+        {
+          "page_number": 34,
+          "section_title": "6. Servicing",
+          "table_title": null,
+          "source_quote": "To ensure the continued safe and efficient operation of the boiler it is recommended that it is checked and serviced as necessary at regular intervals. The frequency of servicing will depend upon the particular installation conditions and usage, but in general once per year should be adequate. It is law that all servicing work is carried out by a competent person (Corgi registered)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Initial inspection",
+      "description": "Inspect the flue, pipework and electrical connections for indications of damage or deterioration. Inspect the air supply and ventilation arrangements of the installation. Operate the boiler by turning the maximum hot water temperature control to '9' and fully opening a hot water tap. Inspect the burner operation through the viewing window. Check that the flames are burning evenly over the full surface of the burner. Inspect for signs of excessive lifting or sooting. Check the heating and hot water system, in particular the condition of the radiator valves, evidence of leakage from the heating system and dripping hot water taps.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "6.1 Initial Inspection",
+          "table_title": null,
+          "source_quote": "Before commencing any servicing or maintenance work, carry out an initial inspection of the system as follows:- Inspect the flue, pipework and electrical connections for indications of damage or deterioration. Inspect the air supply and ventilation arrangements of the installation, ensuring that the requirements of Section 3.5 are met. Operate the boiler by turning the maximum hot water temperature control (4, fig. 47) to `9' and fully opening a hot water tap. Inspect the burner operation through the viewing window. Check that the flames are burning evenly over the full surface of the burner. Inspect for signs of excessive lifting or sooting. Check the heating and hot water system, in particular the condition of the radiator valves, evidence of leakage from the heating system and dripping hot water taps."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Routine maintenance",
+      "description": "Turn off the boiler (Isolate the electrical supply, turn off gas service valve, turn off boiler CH service valves, turn off DHW cold water service valve). Remove front case.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": "6.2 Routine maintenance",
+          "table_title": null,
+          "source_quote": "6.2 Routine maintenance 6.2.1 Turn off the boiler (Fig. 48) Isolate the electrical supply to the boiler Turn off the gas service valve (1) Turn off boiler CH service valves (2) Turn off DHW cold water service valve (3). 6.2.2 Remove front case Remove bottom hinge screw (3, fig. 49) and pull the bottom door panel forward and down to release it from the top hinge pin (4, fig. 49). Slide the top panel up to release retaining clips (1, fig. 50). Lift off top panel."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Inspect burner",
+      "description": "Remove combustion chamber retaining screws, slacken side panel spring retaining screws, remove combustion chamber front cover. Unplug electrical connections from combustion fan. Remove burner retaining clips. Remove burner mounting plate and combustion fan assembly. Visually inspect ceramic burner.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "6.2.3 Inspect burner",
+          "table_title": null,
+          "source_quote": "Remove 5 combustion chamber retaining screws (3, fig. 51). Slacken 2 side panel spring retaining screws (2, fig. 51) and remove screw (4, fig. 51). Remove combustion chamber front cover. Unplug the 2 electrical connections (1, fig. 52) from combustion fan. Remove the 2 burner retaining clips (6, fig. 52) by lifting top of clip off of burner mounting plate. The burner mounting plate (5, fig. 52) and combustion fan (4, fig. 52) assembly can now be removed by lifting the front of the burner mounting plate up, and pulling forward. The ceramic burner (2, fig. 53) can now be visually inspected. (It is not necessary to clean the burner)."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Inspect main heat exchanger",
+      "description": "With the burner / fan assembly removed it is now possible to inspect the main heat exchanger. Remove any loose deposits from the heat exchanger, using a brush and jet of water. Remove the lower part of the condensate trap by unscrewing. Empty and clean (ensuring that any debris that has fallen while cleaning the main heat exchanger is removed) and fill with water to about 10 mm from the top. Refit in boiler. Reassemble burner and combustion fan in reverse order.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "6.2.4 Inspect main heat exchanger",
+          "table_title": null,
+          "source_quote": "With the burner / fan assembly removed it is now possible to inspect the main heat exchanger. Remove any loose deposits from the heat exchanger, using a brush and jet of water. (Ensure water is kept away from all eletrical components.) Remove the lower part of the condensate trap (1, fig. 54) by unscrewing. Empty and clean (ensuring that any debris that has fallen while cleaning the main heat exchanger is removed) and fill with water to about 10 mm from the top. Refit in boiler. Reassemble burner and combustion fan in reverse order."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Check central heating expansion vessel",
+      "description": "Close the boiler CH service valves. Release the pressure from the boiler. Remove valve cap from expansion vessel charge point. Check that the internal charge pressure of the expansion vessel is between 0.7 and 0.9 Bar. If the pressure is lower than this the vessel should be repressurised using an air pump. Refit valve cap.",
+      "interval": "every three years",
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "6.2.5 Check central heating expansion vessel",
+          "table_title": null,
+          "source_quote": "NOTE: It is not necessary to perform this check every year - a check every three years is sufficient. Close the boiler CH service valves (2, fig. 48). Release the pressure from the boiler as described in Section 7.1.2. Remove valve cap from expansion vessel charge point (2, fig. 55). Check that the internal charge pressure of the expansion vessel is between 0.7 and 0.9 Bar. If the pressure is lower than this the vessel should be repressurised using an air pump. Refit valve cap."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "task_name": "Recommissioning the boiler",
+      "description": "Refit the combustion chamber front cover. Turn on gas and electrical supply. Operate burner and check flame picture. Check boiler functioning either visually or by using the built-in diagnostic feature. Check burner pressure and boiler gas flow rate. Check soundness of internal gas connections. Carry out electrical safety checks. Check water soundness. Refit case.",
+      "interval": null,
+      "required_qualification": null,
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": "6.3 Recommisioning the boiler",
+          "table_title": null,
+          "source_quote": "6.3 Recommisioning the boiler Refit the combustion chamber front cover. Ensure that the panel is correctly fitted and a good seal is obtained. Turn on gas and electrical supply. Operate burner and check flame picture. (see Section 6.1) Check boiler functioning either visually or by using the built-in diagnostic feature (see Section 5.11) Check burner pressure (see Section 5.10) and boiler gas flow rate. Check soundness of internal gas connections. Carry out electrical safety checks (see Section 5.1) Check water soundness Refit case (see Section 5.14)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    }
+  ],
+  "search_terms": [
+    "ECOmax",
+    "VUW 236 EH",
+    "VUW 286 EH",
+    "condensing boiler",
+    "combination boiler",
+    "installation",
+    "servicing",
+    "fault",
+    "diagnostic",
+    "status",
+    "error",
+    "NTC",
+    "sensor",
+    "pump",
+    "fan",
+    "gas valve",
+    "pressure",
+    "water",
+    "heating",
+    "DHW",
+    "propane",
+    "flame failure",
+    "overheat",
+    "fuse",
+    "airflow",
+    "air pressure sensor",
+    "water circulation",
+    "expansion vessel"
+  ],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.95,
+    "review_required": false,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": []
+  }
+}

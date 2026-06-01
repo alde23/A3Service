@@ -1,0 +1,5772 @@
+{
+  "schema_version": "0.2.0",
+  "document_meta": {
+    "brand_name": "Unical",
+    "product_family": "KONF",
+    "model_names": [
+      "KONF 200",
+      "KONF 400"
+    ],
+    "manual_type": "installation_and_maintenance",
+    "document_title": "INSTALLATION AND MAINTENANCE INSTRUCTIONS",
+    "document_code": "00338089EN/a",
+    "publication_date": "02/2022",
+    "language": "en",
+    "region": null,
+    "source_file": "X2400allegatoMANUALE_INSTALLAZIONE1-2X_00338089en_a-konf-200_400.pdf",
+    "file_hash": "294f87b717537779525a0ccf282dbce2c6db7e77b9d2af9621310cdbe5f0d243"
+  },
+  "technical_specs": [
+    {
+      "parameter": "Ideal water pH in heating systems",
+      "value": "6.5 - 8",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "water_treatment",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "1.7 - WATER TREATMENT",
+          "table_title": null,
+          "source_quote": "The ideal water pH in heating systems must be within: VALUE MIN MAX PH 6.5 8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Ideal water hardness in heating systems",
+      "value": "9 - 15",
+      "unit": "°fr",
+      "applies_to_models": [],
+      "category": "water_treatment",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "1.7 - WATER TREATMENT",
+          "table_title": null,
+          "source_quote": "Hardness [°fr] 9 15"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas inlet connection size",
+      "value": "DN 50 - G 2\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "G GAS DN 50 - G 2\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating system flow connection size",
+      "value": "DN 80 - G 3\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "M FLOW DN 80 - G 3\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating system return connection size",
+      "value": "DN 80 - G 3\"",
+      "unit": null,
+      "applies_to_models": [],
+      "category": "connections",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "R RETURN DN 80 - G 3\""
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Condensation drain trap height (minimum)",
+      "value": "180",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Condensation drain",
+          "table_title": null,
+          "source_quote": "check that the trap is assembled properly (H = 180 mm)"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Mains supply pressure range",
+      "value": "0.5 - 6",
+      "unit": "bar",
+      "applies_to_models": [],
+      "category": "water_supply",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "3.8 - FILLING THE SYSTEM",
+          "table_title": null,
+          "source_quote": "Pressure in the mains supply must be between 0.5 and 6 bar"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler power line bipolar switch contact separation",
+      "value": "over 3",
+      "unit": "mm",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "3.9 - ELECTRICAL CONNECTIONS",
+          "table_title": null,
+          "source_quote": "Remember that a bipolar switch must be installed on the boiler power line with over 3 mm between contacts"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "BCM relay contacts pump absorption (max)",
+      "value": "4",
+      "unit": "A",
+      "applies_to_models": [],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 35,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "BCM relay contacts support pumps with max. 4A absorption."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "System filling pressure (pump stopped)",
+      "value": "0.8/1",
+      "unit": "bar",
+      "applies_to_models": [],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 36,
+          "section_title": "3.10 - COMMISSIONING",
+          "table_title": null,
+          "source_quote": "has the system been filled with water (approximately 0.8/1 bar pressure on the pressure gauge with the pump stopped)?"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating probe 11 (SR) nominal resistance at 25°C",
+      "value": "10067",
+      "unit": "Ohm",
+      "applies_to_models": [],
+      "category": "sensors",
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "TABLE OF RESISTANCE VALUES, ACCORDING TO THE TEMPERATURE, TO THE HEATING PROBE 11 (SR) AND ANY HEATING RETURN PROBE 22 (SRR)",
+          "source_quote": "Example: At 25°C, the nominal resistance is 10067 Ohm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heating probe 11 (SR) nominal resistance at 90°C",
+      "value": "920",
+      "unit": "Ohm",
+      "applies_to_models": [],
+      "category": "sensors",
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": null,
+          "table_title": "TABLE OF RESISTANCE VALUES, ACCORDING TO THE TEMPERATURE, TO THE HEATING PROBE 11 (SR) AND ANY HEATING RETURN PROBE 22 (SRR)",
+          "source_quote": "At 90°C, the nominal resistance is 920 Ohm"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Depth",
+      "value": "675",
+      "unit": "mm",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": "KONF 200",
+          "source_quote": "P depth (mm) 675"
+        },
+        {
+          "page_number": 22,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": "KONF 400",
+          "source_quote": "P depth (mm) 675"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Width",
+      "value": "995",
+      "unit": "mm",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": "KONF 200",
+          "source_quote": "L width (mm) 995"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Height",
+      "value": "1400",
+      "unit": "mm",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": "KONF 200",
+          "source_quote": "H height (mm) 1400"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Net Weight",
+      "value": "316",
+      "unit": "kg",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": "KONF 200",
+          "source_quote": "Net Weight (kg) 316"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gross Weight",
+      "value": "374",
+      "unit": "kg",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": "KONF 200",
+          "source_quote": "Gross Weight (kg) 374"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Width",
+      "value": "1890",
+      "unit": "mm",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": "KONF 400",
+          "source_quote": "L width (mm) 1890"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Height",
+      "value": "1500",
+      "unit": "mm",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": "KONF 400",
+          "source_quote": "H height (mm) 1500"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Net Weight",
+      "value": "632",
+      "unit": "kg",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": "KONF 400",
+          "source_quote": "Net Weight (kg) 632"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gross Weight",
+      "value": "688",
+      "unit": "kg",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "dimensions",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": "KONF 400",
+          "source_quote": "Gross Weight (kg) 688"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power supply",
+      "value": "199",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "2.4 - DIAGRAM OF FLOW RATE/PRESSURE AVAILABLE FOR INSTALLATION",
+          "table_title": null,
+          "source_quote": "Power supply in kW kW 199"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max flow rate demanded (Δt 15 K)",
+      "value": "11400",
+      "unit": "l/h",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "2.4 - DIAGRAM OF FLOW RATE/PRESSURE AVAILABLE FOR INSTALLATION",
+          "table_title": null,
+          "source_quote": "Max flow rate demanded I/h (Δt 15 K) I/h 11400"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal flow rate request (Δt 20 K)",
+      "value": "8860",
+      "unit": "l/h",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "2.4 - DIAGRAM OF FLOW RATE/PRESSURE AVAILABLE FOR INSTALLATION",
+          "table_title": null,
+          "source_quote": "Nominal flow rate request (Δt 20 K) I/h 8860"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power supply in condensation (50/30)",
+      "value": "210",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "2.4 - DIAGRAM OF FLOW RATE/PRESSURE AVAILABLE FOR INSTALLATION",
+          "table_title": null,
+          "source_quote": "Power supply in condensation (50/30) kW 210"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max flow rate demanded (Δt 15 K) in condensation",
+      "value": "12040",
+      "unit": "l/h",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "2.4 - DIAGRAM OF FLOW RATE/PRESSURE AVAILABLE FOR INSTALLATION",
+          "table_title": null,
+          "source_quote": "Max flow rate demanded I/h (Δt 15 K) I/h 12040"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal flow rate request (Δt 20 K) in condensation",
+      "value": "9030",
+      "unit": "l/h",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "2.4 - DIAGRAM OF FLOW RATE/PRESSURE AVAILABLE FOR INSTALLATION",
+          "table_title": null,
+          "source_quote": "Nominal flow rate request (Δt 20 K) I/h 9030"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power supply",
+      "value": "398",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "2.4 - DIAGRAM OF FLOW RATE/PRESSURE AVAILABLE FOR INSTALLATION",
+          "table_title": null,
+          "source_quote": "Power supply in kW kW 398"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max flow rate demanded (Δt 15 K)",
+      "value": "22818",
+      "unit": "l/h",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "2.4 - DIAGRAM OF FLOW RATE/PRESSURE AVAILABLE FOR INSTALLATION",
+          "table_title": null,
+          "source_quote": "Max flow rate demanded I/h (Δt 15 K) I/h 22818"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal flow rate request (Δt 20 K)",
+      "value": "17110",
+      "unit": "l/h",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "2.4 - DIAGRAM OF FLOW RATE/PRESSURE AVAILABLE FOR INSTALLATION",
+          "table_title": null,
+          "source_quote": "Nominal flow rate request (Δt 20 K) I/h 17110"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Power supply in condensation (50/30)",
+      "value": "420",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "2.4 - DIAGRAM OF FLOW RATE/PRESSURE AVAILABLE FOR INSTALLATION",
+          "table_title": null,
+          "source_quote": "Power supply in condensation (50/30) kW 420"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max flow rate demanded (Δt 15 K) in condensation",
+      "value": "24080",
+      "unit": "l/h",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "2.4 - DIAGRAM OF FLOW RATE/PRESSURE AVAILABLE FOR INSTALLATION",
+          "table_title": null,
+          "source_quote": "Max flow rate demanded I/h (Δt 15 K) I/h 24080"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal flow rate request (Δt 20 K) in condensation",
+      "value": "18060",
+      "unit": "l/h",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 18,
+          "section_title": "2.4 - DIAGRAM OF FLOW RATE/PRESSURE AVAILABLE FOR INSTALLATION",
+          "table_title": null,
+          "source_quote": "Nominal flow rate request (Δt 20 K) I/h 18060"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Appliance category",
+      "value": "12H3P",
+      "unit": null,
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Appliance category 12H3P"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "parameter": "Appliance category",
+      "value": "2H3P",
+      "unit": null,
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Appliance category 2H3P"
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": true
+    },
+    {
+      "parameter": "Modulation Ratio",
+      "value": "1: 10,0",
+      "unit": null,
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Modulation Ratio 1: 10,0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Modulation Ratio",
+      "value": "1:20,0",
+      "unit": null,
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Modulation Ratio 1:20,0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal Heat Input on P.C.I. Qn",
+      "value": "199",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Nominal Heat Input on P.C.I. Qn kW 199"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal Heat Input on P.C.I. Qn",
+      "value": "398",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Nominal Heat Input on P.C.I. Qn kW 398"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Heat Input on P.C.I. Qmin",
+      "value": "20",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Minimum Heat Input on P.C.I. Qmin kW 20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal Output (Tr 60 / Tm 80 °C) Pn",
+      "value": "195",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Nominal Output (Tr 60 / Tm 80 °C) Pn kW 195"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal Output (Tr 60 / Tm 80 °C) Pn",
+      "value": "391",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Nominal Output (Tr 60 / Tm 80 °C) Pn kW 391"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Output (Tr 60 / Tm 80 °C) Pn min",
+      "value": "19,1",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Minimum Output (Tr 60 / Tm 80 °C) Pn min kW 19,1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Output (Tr 60 / Tm 80 °C) Pn min",
+      "value": "19,21",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Minimum Output (Tr 60 / Tm 80 °C) Pn min kW 19,21"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal Output (Tr 30 / Tm 50 °C) Pcond",
+      "value": "206",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Nominal Output (Tr 30 / Tm 50 °C) Pcond kW 206"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Nominal Output (Tr 30 / Tm 50 °C) Pcond",
+      "value": "413",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Nominal Output (Tr 30 / Tm 50 °C) Pcond kW 413"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum Output (Tr 30 / Tm 50 °C) Pcond min",
+      "value": "21,2",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Minimum Output (Tr 30 / Tm 50 °C) Pcond min kW 21,2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Efficiency at max. output (Tr 60 / Tm 80°C)",
+      "value": "97,9",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Efficiency at max. output (Tr 60 / Tm 80°C) % 97,9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Efficiency at max. output (Tr 60 / Tm 80°C)",
+      "value": "98.8",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Efficiency at max. output (Tr 60 / Tm 80°C) % 98.8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Efficiency at min. output (Tr 60 / Tm 80°C)",
+      "value": "95,6",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Efficiency at min. output (Tr 60 / Tm 80°C) % 95,6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Efficiency at max. output (Tr 30 / Tm 50°C)",
+      "value": "104",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Efficiency at max. output (Tr 30 / Tm 50°C)) % 104"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Efficiency at min. output (Tr 30 / Tm 50°C)",
+      "value": "106",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Efficiency at min. output (Tr 30 / Tm 50°C) % 106"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rendimento al 30% del carico (Tr 30°C)",
+      "value": "108,9",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Rendimento al 30% del carico (Tr 30°C) % 108,9"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rendimento al 30% del carico (Tr 30°C)",
+      "value": "108",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Rendimento al 30% del carico (Tr 30°C) % 108"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion efficiency with nominal load",
+      "value": "98,02",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Combustion efficiency with nominal load % 98,02"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion efficiency with nominal load",
+      "value": "98,26",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Combustion efficiency with nominal load % 98,26"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Combustion efficiency with minimum load",
+      "value": "98,2",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Combustion efficiency with minimum load % 98,2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat loss at casing with burner in operation (Qmin)",
+      "value": "2,6",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Heat loss at casing with burner in operation (Qmin) % 2,6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat loss at casing with burner in operation (Qmin)",
+      "value": "2,56",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Heat loss at casing with burner in operation (Qmin) % 2,56"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat loss at casing with burner in operation (Qn)",
+      "value": "0,14",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Heat loss at casing with burner in operation (Qn) % 0,14"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat loss at casing with burner in operation (Qn)",
+      "value": "0,05",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Heat loss at casing with burner in operation (Qn) % 0,05"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature tf-ta (min)(*)",
+      "value": "34.0",
+      "unit": "°C",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Flue gas temperature tf-ta (min)(*) °C 34.0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature tf-ta (min)(*)",
+      "value": "34,5",
+      "unit": "°C",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Flue gas temperature tf-ta (min)(*) °C 34,5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature tf-ta (max)(*)",
+      "value": "40",
+      "unit": "°C",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Flue gas temperature tf-ta (max)(*) °C 40"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas temperature tf-ta (max)(*)",
+      "value": "35,6",
+      "unit": "°C",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Flue gas temperature tf-ta (max)(*) °C 35,6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum allowable temperature",
+      "value": "100",
+      "unit": "°C",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Maximum allowable temperature °C 100"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum operating temperature",
+      "value": "85",
+      "unit": "°C",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Maximum operating temperature °C 85"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (min)",
+      "value": "34,31",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate (min) kg/h 34,31"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (max)",
+      "value": "319,57",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate (max) kg/h 319,57"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas mass flow rate (max)",
+      "value": "639,14",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Flue gas mass flow rate (max) kg/h 639,14"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Excess A air",
+      "value": "23",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "combustion",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Excess A air % 23"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue losses with burner in operation (min)",
+      "value": "1,8",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Flue losses with burner in operation (min) % 1,8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue losses with burner in operation (max)",
+      "value": "2,0",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Flue losses with burner in operation (max) % 2,0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue losses with burner in operation (max)",
+      "value": "1,74",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "flue_gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Flue losses with burner in operation (max) % 1,74"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Minimum heating circuit pressure",
+      "value": "0,5 (50)",
+      "unit": "bar (kPa)",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Minimum heating circuit pressure bar (kPa) 0,5 (50)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Maximum heating circuit pressure",
+      "value": "6 (600)",
+      "unit": "bar (kPa)",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Maximum heating circuit pressure bar (kPa) 6 (600)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water content",
+      "value": "22",
+      "unit": "l",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Water content l 22"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Water content",
+      "value": "44",
+      "unit": "l",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Water content l 44"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas Consumption Natural (20 mbar) gas G 20 a Qn",
+      "value": "21,04",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Gas Consumption Natural (20 mbar) gas G 20 a Qn m³/h 21,04"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas Consumption Natural (20 mbar) gas G 20 a Qn",
+      "value": "42,1",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Gas Consumption Natural (20 mbar) gas G 20 a Qn m³/h 42,1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas Consumption Natural gas (20 mbar) G 20 a Qmin",
+      "value": "2,11",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Gas Consumption Natural gas (20 mbar) G 20 a Qmin m³/h 2,11"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas Consumption G25 (supply pressure 25 mbar) Qn",
+      "value": "24,5",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Gas Consumption G25 (supply pressure 25 mbar) Qn m³/h 24,5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas Consumption G25 (supply pressure 25 mbar) Qn",
+      "value": "49",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Gas Consumption G25 (supply pressure 25 mbar) Qn m³/h 49"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas Consumption G25 (supply pressure 25 mbar) Qmin",
+      "value": "2,46",
+      "unit": "m³/h",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Gas Consumption G25 (supply pressure 25 mbar) Qmin m³/h 2,46"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas Consumption G31 (supply pressure 37/50 mbar) Qn",
+      "value": "15,5",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Gas Consumption G31 (supply pressure 37/50 mbar) Qn kg/h 15,5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas Consumption G31 (supply pressure 37/50 mbar) Qn",
+      "value": "31,0",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Gas Consumption G31 (supply pressure 37/50 mbar) Qn kg/h 31,0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Gas Consumption G31 (supply pressure 37/50 mbar) Qmin",
+      "value": "1,55",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Gas Consumption G31 (supply pressure 37/50 mbar) Qmin kg/h 1,55"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max. available pressure at the chimney base",
+      "value": "150",
+      "unit": "Pa",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Max. available pressure at the chimney base Pa 150"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Condensation production",
+      "value": "12,8",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "condensation",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Max Condensation production kg/h 12,8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Max Condensation production",
+      "value": "26,0",
+      "unit": "kg/h",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "condensation",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Max Condensation production kg/h 26,0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CO at Minimum Heat Input with 0% of O2",
+      "value": "153",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "CO at Minimum Heat Input with 0% of O2 mg/kWh 153"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "CO at Minimum Heat Input with 0% of O2",
+      "value": "156",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "CO at Minimum Heat Input with 0% of O2 mg/kWh 156"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx at Nominal Heat Input with 0% of O2",
+      "value": "68",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "NOx at Nominal Heat Input with 0% of O2 mg/kWh 68"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx at Nominal Heat Input with 0% of O2",
+      "value": "70",
+      "unit": "mg/kWh",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "NOx at Nominal Heat Input with 0% of O2 mg/kWh 70"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "NOx Class",
+      "value": "6",
+      "unit": null,
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "NOx Class 6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Voltage/Frequency electric power supply",
+      "value": "230/50",
+      "unit": "V/Hz",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Voltage/Frequency electric power supply V/Hz 230/50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Fuse on main supply",
+      "value": "6.3 AT - 250V",
+      "unit": "A (R)",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Fuse on main supply A (R) 6.3 AT - 250V"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Insulation degree",
+      "value": "X5D",
+      "unit": "IP",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 19,
+          "section_title": "2.5 - OPERATING DATA ACCORDING TO UNI 10348 and GENERAL FEATURES",
+          "table_title": null,
+          "source_quote": "Insulation degree IP X5D"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective nominal output",
+      "value": "195",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Effective nominal output Pnominale kW 195"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Effective nominal output",
+      "value": "388",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Effective nominal output Pnominale kW 388"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Seasonal energy efficiency to heat the room",
+      "value": "93",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Seasonal energy efficiency to heat the room ηs % 93"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Seasonal energy efficiency to heat the room",
+      "value": "92",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Seasonal energy efficiency to heat the room ηs % 92"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Season efficiency class to discharge",
+      "value": "A",
+      "unit": null,
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Season efficiency class to discharge A"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output with high temperature capacity (Tr 60 °C / Tm 80 °C)",
+      "value": "195",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful heat output with high temperature capacity P4 kW 195"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful heat output with high temperature capacity (Tr 60 °C / Tm 80 °C)",
+      "value": "391",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful heat output with high temperature capacity P4 kW 391"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output efficiency with high temperature capacity (Tr 60 °C / Tm 80 °C)",
+      "value": "88,2",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Rated heat output efficiency with high temperature capacity η4 % 88,2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Rated heat output efficiency with high temperature capacity (Tr 60 °C / Tm 80 °C)",
+      "value": "88,5",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Rated heat output efficiency with high temperature capacity η4 % 88,5"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful power at 30% of the rated heat output with low temperature capacity (Tr 30 °C)",
+      "value": "65,0",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful power at 30% of the rated heat output with low temperature capacity P1 kW 65,0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Useful power at 30% of the rated heat output with low temperature capacity (Tr 30 °C)",
+      "value": "129,0",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Useful power at 30% of the rated heat output with low temperature capacity P1 kW 129,0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Performance at 30% of the rated heat output with low temperature capacity (Tr 30 °C)",
+      "value": "98,1",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Performance at 30% of the rated heat output with low temperature capacity η1 % 98,1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Performance at 30% of the rated heat output with low temperature capacity (Tr 30 °C)",
+      "value": "97,3",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Performance at 30% of the rated heat output with low temperature capacity η1 % 97,3"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Boiler with output range adjustment",
+      "value": "NO",
+      "unit": null,
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Boiler with output range adjustment: YES / NO NO"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption With a full load",
+      "value": "0,580",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "With a full load elmax kW 0,580"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption With a full load",
+      "value": "1,160",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "With a full load elmax kW 1,160"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption With a partial load",
+      "value": "0,156",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "With a partial load elmin kW 0,156"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Standby mode",
+      "value": "0,025",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Standby mode PSB kW 0,025"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Auxiliary electricity consumption Standby mode",
+      "value": "0,032",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Standby mode PSB kW 0,032"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat loss in stand-by",
+      "value": "0,962",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Heat loss in stand-by Pstb kW 0,962"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Heat loss in stand-by",
+      "value": "0,9238",
+      "unit": "kW",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "heating",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Heat loss in stand-by Pstb kW 0,9238"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Emissions of nitrogen oxides PCS",
+      "value": "41",
+      "unit": "Mg/kWh",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "emissions",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Emissions of nitrogen oxides PCS NOX Mg/kWh 41"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual electricity consumption",
+      "value": "606",
+      "unit": "GJ",
+      "applies_to_models": [
+        "KONF 200"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Annual electricity consumption QHE GJ 606"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Annual electricity consumption",
+      "value": "1220",
+      "unit": "GJ",
+      "applies_to_models": [
+        "KONF 400"
+      ],
+      "category": "electrical",
+      "source_refs": [
+        {
+          "page_number": 20,
+          "section_title": "2.5.1 - TECHNICAL DATA ACCORDING TO ErP DIRECTIVE",
+          "table_title": null,
+          "source_quote": "Annual electricity consumption QHE GJ 1220"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Flue gas exhaust pipe total length (LS exhaust) SINGLE Ø100",
+      "value": "1 - 42",
+      "unit": "m",
+      "applies_to_models": [],
+      "category": "venting",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "3.6 - FLUE GAS EXHAUST PIPE CONNECTION (Forced draw boiler)",
+          "table_title": "TOTAL LENGTH (LS exhaust) SINGLE Ø100",
+          "source_quote": "FROM [m] 1 TO [m] 42"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Natural Gas (G20) supply pressure",
+      "value": "20",
+      "unit": "mbar",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Nat. Gas(G20) 20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Natural Gas (G20) collector diaphragm",
+      "value": "14",
+      "unit": "Ø/mm",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Nat. Gas(G20) 20 - 14"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Natural Gas (G20) fan speed (FL)",
+      "value": "24",
+      "unit": "%FU",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Nat. Gas(G20) ... FL [%FU] 24"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Natural Gas (G20) fan speed (FH)",
+      "value": "85",
+      "unit": "%FU",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Nat. Gas(G20) ... FH [% FU] 85"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Natural Gas (G20) CO2 levels (min)",
+      "value": "8,6",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Nat. Gas(G20) ... min 8,6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Natural Gas (G20) CO2 levels (max)",
+      "value": "9,3",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Nat. Gas(G20) ... max 9,3"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Natural Gas (G20) start-up power (IG)",
+      "value": "35",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Nat. Gas(G20) ... IG 35"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Natural Gas (G25) supply pressure",
+      "value": "25",
+      "unit": "mbar",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Nat. Gas(G25) 25"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Natural Gas (G25) fan speed (FL)",
+      "value": "22",
+      "unit": "%FU",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Nat. Gas(G25) ... FL [%FU] 22"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Natural Gas (G25) fan speed (FH)",
+      "value": "84",
+      "unit": "%FU",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Nat. Gas(G25) ... FH [% FU] 84"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Natural Gas (G25) CO2 levels (min)",
+      "value": "8,6",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Nat. Gas(G25) ... min 8,6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Natural Gas (G25) CO2 levels (max)",
+      "value": "9,1",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Nat. Gas(G25) ... max 9,1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Natural Gas (G25) start-up power (IG)",
+      "value": "35",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Nat. Gas(G25) ... IG 35"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Propane (G31) supply pressure",
+      "value": "37",
+      "unit": "mbar",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Propane (G31) 37"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Propane (G31) collector diaphragm",
+      "value": "14",
+      "unit": "Ø/mm",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Propane (G31) ... 14"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Propane (G31) fan speed (FL)",
+      "value": "23",
+      "unit": "%FU",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Propane (G31) ... FL [%FU] 23"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Propane (G31) fan speed (FH)",
+      "value": "78",
+      "unit": "%FU",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Propane (G31) ... FH [% FU] 78"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Propane (G31) CO2 levels (min)",
+      "value": "9,6",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Propane (G31) ... min 9,6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Propane (G31) CO2 levels (max)",
+      "value": "10,6",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Propane (G31) ... max 10,6"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "parameter": "Propane (G31) start-up power (IG)",
+      "value": "35",
+      "unit": "%",
+      "applies_to_models": [
+        "KONF 200",
+        "KONF 400"
+      ],
+      "category": "gas",
+      "source_refs": [
+        {
+          "page_number": 41,
+          "section_title": "NOZZLES - PRESSURE - FLOW RATES TABLE",
+          "table_title": "KONF 200/400",
+          "source_quote": "Propane (G31) ... IG 35"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "fault_codes": [
+    {
+      "code": "16",
+      "description": "Antifreeze function activated",
+      "possible_causes": [
+        "Temperature level between 2 and 5°C detected (by sensor 30 SMG)",
+        "Electrical power supply ON",
+        "Gas supply OFF"
+      ],
+      "manufacturer_steps": [
+        "Ignition inhibited."
+      ],
+      "cautions_or_notes": [
+        "This protection can intervene only if the electricity and gas supplies are connected.",
+        "If one of the two is not available and upon reset 11 (SM) a temperature level between 2 and 5°C is detected, the appliance will behave as described in the table below, pos 2."
+      ],
+      "symptoms": [],
+      "related_components": [
+        "Sensor 30 (SMG)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "antifreeze",
+        "temperature",
+        "sensor",
+        "ignition"
+      ],
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "1.8 - BOILER ANTIFREEZE PROTECTION",
+          "table_title": "ANTIFREEZE FUNCTION",
+          "source_quote": "FAULT SIGNAL CODE 16 (with Electrical power supply ON) (see par. 4.6 - ERROR CODES). Ignition inhibited."
+        }
+      ],
+      "confidence": 0.9,
+      "review_required": false
+    },
+    {
+      "code": "01",
+      "description": "SAFETY THERMOSTAT Intervention of the safety thermostat (10)",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Press the unblock button on the panel and/or check that the thermostat or its connections are not interrupted, make sure the switches INTC are closed (position 1)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Safety thermostat (10)",
+        "INTC switches"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "thermostat",
+        "safety",
+        "interruption"
+      ],
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "01 SAFETY THERMOSTAT Intervention of the safety thermostat (10) Press the unblock button on the panel and/or check that the thermostat or its connections are not interrupted, make sure the switches INTC are closed (position 1)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "04",
+      "description": "BLOCK No gas or failed burner ignition",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the gas supply or that the ignition/detection electrode is working properly (4)."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Ignition/detection electrode (4)",
+        "Gas supply"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "ignition",
+        "gas",
+        "electrode"
+      ],
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "04 BLOCK No gas or failed burner ignition Check the gas supply or that the ignition/detection electrode is working properly (4)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "05",
+      "description": "LOSS OF FLAME DURING OPERATION.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Verificare elettrodo rilevazione"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Detection electrode"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame",
+        "detection",
+        "electrode"
+      ],
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "05 LOSS OF FLAME DURING OPERATION. Verificare elettrodo rilevazione"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "06",
+      "description": "HIGH TEMPERATURE Boiler temperature too high",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check pump operation and if needed clean the exchanger (24)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Pump",
+        "Exchanger (24)"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "temperature",
+        "pump",
+        "exchanger"
+      ],
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "06 HIGH TEMPERATURE Boiler temperature too high Check pump operation and if needed clean the exchanger (24)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "08",
+      "description": "WATER DEFICIENCY Insufficient water pressure and consequent intervention of the minimum water pressure - pressure switch (13).",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Pressure switch (13)"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water pressure",
+        "pressure switch",
+        "water deficiency"
+      ],
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "08 WATER DEFICIENCY Insufficient water pressure and consequent intervention of the minimum water pressure - pressure switch (13)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "10",
+      "description": "INTERNAL FAULT",
+      "possible_causes": [],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "internal fault"
+      ],
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "10 INTERNAL FAULT"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "11",
+      "description": "Flame detection before ignition (flame parasite)",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check detection electrode connection, probable contacts oxidation"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Detection electrode"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flame detection",
+        "ignition",
+        "electrode",
+        "parasite flame"
+      ],
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "11 Flame detection before ignition (flame parasite) Check detection electrode connection, probable contacts oxidation"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "12",
+      "description": "HEATING SENSOR (11) Heating sensor fault",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the efficiency of the sensor (see table Res/Temp) (Par.4) or its connections."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Heating sensor (11)"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "heating sensor",
+        "sensor fault"
+      ],
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "12 HEATING SENSOR (11) Heating sensor fault Check the efficiency of the sensor (see table Res/Temp) (Par.4) or its connections."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "14",
+      "description": "RETUR HEATING SENSOR Auxiliary (SRR) sensor interrupted",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the wiring, if needed replace the auxiliary sensor (22)"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Auxiliary (SRR) sensor (22)"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "return heating sensor",
+        "sensor interrupted",
+        "wiring"
+      ],
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "14 RETUR HEATING SENSOR Auxiliary (SRR) sensor interrupted Check the wiring, if needed replace the auxiliary sensor (22)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "15",
+      "description": "WATER CIRCULATION INSUFFICIENT Primary circuit water circulation insufficient (Δt > 40° C)",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check pump operation and speed - remove any heating system obstructions."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Pump",
+        "Heating system"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water circulation",
+        "pump",
+        "obstructions"
+      ],
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "15 WATER CIRCULATION INSUFFICIENT Primary circuit water circulation insufficient (Δt > 40° C) Check pump operation and speed - remove any heating system obstructions."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "16",
+      "description": "EXCHANGER FREEZING (24) Exchanger freezing is detected If the heating sensor detects a temperature below 2° C, burner ignition is inhibited until the sensor detects a temperature above 5°C.",
+      "possible_causes": [
+        "Heating sensor detects temperature below 2°C"
+      ],
+      "manufacturer_steps": [
+        "Disconnect the from the power supply, close the gas valve, defrost the exchanger carefully."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Burner ignition inhibited"
+      ],
+      "related_components": [
+        "Exchanger (24)",
+        "Heating sensor"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "exchanger",
+        "freezing",
+        "temperature",
+        "heating sensor",
+        "ignition"
+      ],
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "16 EXCHANGER FREEZING (24) Exchanger freezing is detected If the heating sensor detects a temperature below 2° C, burner ignition is inhibited until the sensor detects a temperature above 5°C. Disconnect the from the power supply, close the gas valve, defrost the exchanger carefully."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "22",
+      "description": "LACK OF AIR IN IGNITION Stop",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Verify that the fan has a prevalence of at least 60 Pa."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Fan"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "air",
+        "ignition",
+        "fan"
+      ],
+      "source_refs": [
+        {
+          "page_number": 48,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "22 LACK OF AIR IN IGNITION Stop Verify that the fan has a prevalence of at least 60 Pa."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "23",
+      "description": "UNATTENDED AIR FLOW",
+      "possible_causes": [
+        "Min pressure switch blocked (closed)"
+      ],
+      "manufacturer_steps": [],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Pressure switch"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "air flow",
+        "pressure switch"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "23 UNATTENDED AIR FLOW Min pressure switch blocked (closed)"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "24",
+      "description": "SPEED OUT OF CONTROL Alteration of the fan speed; the speed is not reached.",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check fan operation (18) and the connections"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Fan (18)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan speed",
+        "fan",
+        "control"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "24 SPEED OUT OF CONTROL Alteration of the fan speed; the speed is not reached. Check fan operation (18) and the connections"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "26",
+      "description": "SPEED OUT OF CONTROL Alteration of the fan speed; the speed is above that requested",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check fan operation (18) and the connections"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Fan (18)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "fan speed",
+        "fan",
+        "control"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "26 SPEED OUT OF CONTROL Alteration of the fan speed; the speed is above that requested Check fan operation (18) and the connections"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "27",
+      "description": "LACK OF AIR Stop",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Verify that the fan has a prevalence of at least 60 Pa."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Fan"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "air",
+        "fan"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "27 LACK OF AIR Stop Verify that the fan has a prevalence of at least 60 Pa."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "30",
+      "description": "FACTORY PARAMETERS Alteration of the factory parameters or possible electromagnetic interferences.",
+      "possible_causes": [
+        "Alteration of factory parameters",
+        "Possible electromagnetic interferences"
+      ],
+      "manufacturer_steps": [
+        "Press the unblock key; if the anomaly persists, replace the board"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Board"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "parameters",
+        "electromagnetic interference",
+        "board"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "30 FACTORY PARAMETERS Alteration of the factory parameters or possible electromagnetic interferences. Press the unblock key; if the anomaly persists, replace the board"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "32",
+      "description": "Line voltage at 80% of the nominal value. Wait until the line voltage is > 85% of the nominal value..",
+      "possible_causes": [
+        "Line voltage below 80% of nominal value"
+      ],
+      "manufacturer_steps": [
+        "Correction: if the line voltage is < 190Vac: the line voltage is really below the minimum limit, otherwise there is a monitor line error: replace BMM"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "BMM"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "line voltage",
+        "electrical",
+        "BMM"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "32 Line voltage at 80% of the nominal value. Wait until the line voltage is > 85% of the nominal value.. Correction: if the line voltage is < 190Vac: the line voltage is really below the minimum limit, otherwise there is a monitor line error: replace BMM"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "2",
+      "description": "GAS PRESSURE MINIMUM PRESSURE SWITCH TRIGGERED stop effect",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "The ignition procedure is inhibited until gas pressure reaches the correct values."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Ignition procedure inhibited"
+      ],
+      "related_components": [
+        "Gas pressure minimum pressure switch"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "gas pressure",
+        "pressure switch",
+        "ignition"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "2 GAS PRESSURE MINIMUM PRESSURE SWITCH TRIGGERED stop effect The ignition procedure is inhibited until gas pressure reaches the correct values."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "17",
+      "description": "EXCHANGER FREEZING (24) stop effect",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Try to Reset since the system automatically activates an antifreeze function, therefore, it could only be a warning."
+      ],
+      "cautions_or_notes": [
+        "It could only be a warning."
+      ],
+      "symptoms": [],
+      "related_components": [
+        "Exchanger (24)"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "exchanger",
+        "freezing",
+        "antifreeze"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "17 EXCHANGER FREEZING (24) stop effect Try to Reset since the system automatically activates an antifreeze function, therefore, it could only be a warning."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "18",
+      "description": "FLOW-RETURN AT MAXIMUM PRESSURE stop effect",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check circulation, check installation (only with a return probe present)."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Return probe"
+      ],
+      "severity": "unknown",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow",
+        "return",
+        "pressure",
+        "circulation",
+        "probe"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "18 FLOW-RETURN AT MAXIMUM PRESSURE stop effect Check circulation, check installation (only with a return probe present)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "19",
+      "description": "OVERTEMPERATURE. It is activated when the flow temperature is > 95. Resetting is automatically carried out when the temperature is < 80. Effect: Stop burner, Pump On",
+      "possible_causes": [
+        "Flow temperature > 95°C"
+      ],
+      "manufacturer_steps": [
+        "Circulation control"
+      ],
+      "cautions_or_notes": [
+        "Resetting is automatically carried out when the temperature is < 80."
+      ],
+      "symptoms": [
+        "Burner stops",
+        "Pump turns on"
+      ],
+      "related_components": [],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "overtemperature",
+        "flow temperature",
+        "burner",
+        "pump",
+        "circulation"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "19 OVERTEMPERATURE. It is activated when the flow temperature is > 95. Resetting is automatically carried out when the temperature is < 80. Effect: Stop burner, Pump On Circulation control"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "28",
+      "description": "CLOGGED OUTLETS Stop",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the Chimneys / Check the trap."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Chimneys",
+        "Trap"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "clogged",
+        "outlets",
+        "chimney",
+        "trap"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "28 CLOGGED OUTLETS Stop Check the Chimneys / Check the trap."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "29",
+      "description": "WATER IN THE COMBUSTION CHAMBER Stop",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check the combustion chamber / check the siphon."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Combustion chamber",
+        "Siphon"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water",
+        "combustion chamber",
+        "siphon"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "29 WATER IN THE COMBUSTION CHAMBER Stop Check the combustion chamber / check the siphon."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "37",
+      "description": "PARAMETERS MEMORY DEFECTIVE Flame Block",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Contact Customer Care"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Flame block"
+      ],
+      "related_components": [],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "parameters",
+        "memory",
+        "defective",
+        "flame block"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "37 PARAMETERS MEMORY DEFECTIVE Flame Block Contact Customer Care"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "38",
+      "description": "DAMAGED DEFAULT PARAMETERS due to electromagnetic interferences. stop",
+      "possible_causes": [
+        "Electromagnetic interferences"
+      ],
+      "manufacturer_steps": [
+        "Contact Customer Care"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "parameters",
+        "electromagnetic interference"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "38 DAMAGED DEFAULT PARAMETERS due to electromagnetic interferences. stop Contact Customer Care"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "40",
+      "description": "FL INTERVENTION insufficient water circulation Stop",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check water circulation"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "water circulation",
+        "flow"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "40 FL INTERVENTION insufficient water circulation Stop Check water circulation"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "56",
+      "description": "NO REMOTE CONTROL DETECTED Flame Block",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Check electrical connections e-BUS1"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [
+        "Flame block"
+      ],
+      "related_components": [
+        "e-BUS1"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "remote control",
+        "e-BUS",
+        "flame block"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "56 NO REMOTE CONTROL DETECTED Flame Block Check electrical connections e-BUS1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "57",
+      "description": "BMM BOARD NOT DETECTED stop",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "check electrical connections BMM and e-BUS"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "BMM board",
+        "e-BUS"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "BMM board",
+        "e-BUS",
+        "electrical connections"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "57 BMM BOARD NOT DETECTED stop check electrical connections BMM and e-BUS"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "58",
+      "description": "FLOW SENSOR Stop",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "Connect a new sensor if the code disappears, replace the sensor otherwise check the electrical connections"
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Flow sensor"
+      ],
+      "severity": "high",
+      "safety_level": "unknown",
+      "search_tags": [
+        "flow sensor",
+        "sensor",
+        "electrical connections"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "58 FLOW SENSOR Stop Connect a new sensor if the code disappears, replace the sensor otherwise check the electrical connections"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "93",
+      "description": "ISPESL SAFETY INTERVENTION Stop",
+      "possible_causes": [],
+      "manufacturer_steps": [
+        "check the safety parts, manually reset after blocking each individual safety device."
+      ],
+      "cautions_or_notes": [],
+      "symptoms": [],
+      "related_components": [
+        "Safety device"
+      ],
+      "severity": "critical",
+      "safety_level": "danger",
+      "search_tags": [
+        "safety intervention",
+        "ISPESL",
+        "safety device"
+      ],
+      "source_refs": [
+        {
+          "page_number": 49,
+          "section_title": "3.15 - ERROR CODES",
+          "table_title": null,
+          "source_quote": "93 ISPESL SAFETY INTERVENTION Stop check the safety parts, manually reset after blocking each individual safety device."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "diagnostic_codes": [
+    {
+      "code": "803",
+      "description": "Enabled Services",
+      "value_range": "0 - 3",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "803 Srv Enabled Services 0 3"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "31",
+      "description": "CH#1: Minimum Set-point",
+      "value_range": "20 - 45",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "31 HL CH#1: Minimum Set-point °C 20 45"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "39",
+      "description": "CH#1: Maximum Set-point",
+      "value_range": "50 - 90",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "39 HH CH#1: Maximum Set-point °C 50 90"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "322",
+      "description": "Pump: Post-circulation",
+      "value_range": "0 - 10",
+      "default_value": null,
+      "unit": "min",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "322 Po Pump: Post-circulation min 0 10"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "341",
+      "description": "Pump: Minimum Control",
+      "value_range": "0 - 100",
+      "default_value": null,
+      "unit": "%",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "341 PL Pump: Minimum Control % 0 100"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "313",
+      "description": "Pump: Maximum Control",
+      "value_range": "20 - 100",
+      "default_value": null,
+      "unit": "%",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "313 Pr Pump: Maximum Control % 20 100"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "368",
+      "description": "Programmable Relay # 1",
+      "value_range": "0 - 1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "368 VA1 Programmable Relay # 1 0 1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "773",
+      "description": "Enable request sensor",
+      "value_range": "0 - 1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "773 dr Enable request sensor 0 1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "650",
+      "description": "ACS: Minimum Setpoint",
+      "value_range": "25 - 45",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "650 dL ACS: Minimum Setpoint °C 25 45"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "385",
+      "description": "ACS: Setpoint Max.",
+      "value_range": "50 - 65",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "385 dH ACS: Setpoint Max. °C 50 65"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "310",
+      "description": "DHW Pump: Postcirc.",
+      "value_range": "0 - 600",
+      "default_value": null,
+      "unit": "sec",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "310 DpT DHW Pump: Postcirc. sec 0 600"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "360",
+      "description": "Storage Tank Adjustment",
+      "value_range": "0 - 15",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "360 dt Storage Tank Adjustment 0 15"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "320",
+      "description": "Hysteresis of water tank",
+      "value_range": "0 - 30",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "320 th Hysteresis of water tank °C 0 30"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "309",
+      "description": "Application Code",
+      "value_range": "0 - 4",
+      "default_value": null,
+      "unit": "%",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "309 St Application Code % 0 4"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "619",
+      "description": "Relative fan speed at burner pre-purge and ignition",
+      "value_range": "0 - 100",
+      "default_value": null,
+      "unit": "%",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "619 IG Relative fan speed at burner pre-purge and ignition % 0 100"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "314",
+      "description": "Relative fan speed at burner standby",
+      "value_range": "0 - 100",
+      "default_value": null,
+      "unit": "%",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "314 Sb Relative fan speed at burner standby % 0 100"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "319",
+      "description": "Maximum relative fan speed",
+      "value_range": "0 - 100",
+      "default_value": null,
+      "unit": "%",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "319 FH Maximum relative fan speed % 0 100"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "346",
+      "description": "Minimum relative fan speed",
+      "value_range": "0 - 100",
+      "default_value": null,
+      "unit": "%",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "346 FL Minimum relative fan speed % 0 100"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "2590",
+      "description": "Burner maximum capacity",
+      "value_range": "1 - 1000",
+      "default_value": null,
+      "unit": "kW",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "2590 Burner maximum capacity kW 1 1000"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "483",
+      "description": "Water A-temperature protection:",
+      "value_range": "0 - 50",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "483 rP Water A-temperature protection: °C 0 50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "622",
+      "description": "Water minimum flow-rate protection",
+      "value_range": "0 - 1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "622 FS Water minimum flow-rate protection 0 1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "34",
+      "description": "Burner OFF hysteresis",
+      "value_range": "5 - 20",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "34 HY Burner OFF hysteresis °C 5 20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "336",
+      "description": "Temperature control: slope limit.",
+      "value_range": "1 - 30",
+      "default_value": null,
+      "unit": "°C/MIN",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "336 HS Temperature control: slope limit. °C/MIN 1 30"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "353",
+      "description": "Temperature control: proportional gain",
+      "value_range": "0 - 50",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "353 HP Temperature control: proportional gain 0 50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "354",
+      "description": "Temperature control: integrative gain",
+      "value_range": "0 - 50",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "354 HI Temperature control: integrative gain 0 50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "478",
+      "description": "Temperature control: derivative gain",
+      "value_range": "0 - 50",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "478 Hd Temperature control: derivative gain 0 50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "486",
+      "description": "Fan speed control: proportional gain",
+      "value_range": "0 - 50",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "486 FP Fan speed control: proportional gain 0 50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "487",
+      "description": "Fan speed control: integrative gain",
+      "value_range": "0 - 50",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "487 FI Fan speed control: integrative gain 0 50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "337",
+      "description": "Fan speed slope (rpm/min)",
+      "value_range": "0 - 30000",
+      "default_value": null,
+      "unit": "rpm/min",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "337 Fr Fan speed slope (rpm/min) rpm/min 0 30000"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "526",
+      "description": "Maximum absolute fan speed",
+      "value_range": "50 - 120",
+      "default_value": null,
+      "unit": "Hz",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "526 FU Maximum absolute fan speed Hz 50 120"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "488",
+      "description": "Fan PWM modulation at maximum fan speed",
+      "value_range": "1 - 20",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "488 Fb Fan PWM modulation at maximum fan speed 1 20"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "527",
+      "description": "Fan tacho: pulse/revolution",
+      "value_range": "2 - 3",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "527 PU Fan tacho: pulse/revolution 2 3"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "777",
+      "description": "Burner air-flow check",
+      "value_range": "0 - 1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "777 AFC Burner air-flow check 0 1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "793",
+      "description": "Chimney obstruction check",
+      "value_range": "0 - 1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "793 COC Chimney obstruction check 0 1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "783",
+      "description": "unknown parameter",
+      "value_range": "0 - 1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "783 0 unknown parameter 0 1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "896",
+      "description": "Temperature unit:",
+      "value_range": "0 - 1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "896 TU Temperature unit: 0 1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "768",
+      "description": "Low gas pressure protection",
+      "value_range": "0 - 1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "768 LG Low gas pressure protection 0 1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "771",
+      "description": "LowWaterFlow",
+      "value_range": "0 - 2",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "771 PS LowWaterFlow 0 2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "1056",
+      "description": "Installation loading factor",
+      "value_range": "1 - 10",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 46,
+          "section_title": null,
+          "table_title": "BMM parameters",
+          "source_quote": "1056 Fc Installation loading factor 1 10"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "483",
+      "description": "CH: Temp. Differenziale Max",
+      "value_range": "0,0 - 50,0",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "483 rP CH: Temp. Differenziale Max °C 0,0 50,0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "34",
+      "description": "Burner OFF hysteresis",
+      "value_range": "5,0 - 20,0",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "34 HY Burner OFF hysteresis °C 5,0 20,0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "31",
+      "description": "CH: Setpoint min",
+      "value_range": "20,0 - 40,0",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "31 HL CH: Setpoint min °C 20,0 40,0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "39",
+      "description": "CH: Setpoint max",
+      "value_range": "45,0 - 85,0",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "39 HH CH: Setpoint max °C 45,0 85,0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "786",
+      "description": "Outdoor Temperature sensor",
+      "value_range": "0 - 2",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "786 ES Outdoor Temperature sensor 0 2"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "322",
+      "description": "Pump: Postcirculation",
+      "value_range": "1 - 10",
+      "default_value": null,
+      "unit": "min",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "322 Po Pump: Postcirculation min 1 10"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "341",
+      "description": "Pump: Minimum command",
+      "value_range": "0,0 - 10,0",
+      "default_value": null,
+      "unit": "Volt",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "341 PL Pump: Minimum command Volt 0,0 10,0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "313",
+      "description": "Pump: Maximum Command",
+      "value_range": "0,0 - 10,0",
+      "default_value": null,
+      "unit": "Volt",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "313 Pr Pump: Maximum Command Volt 0,0 10,0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "346",
+      "description": "Minimum Modulation",
+      "value_range": "0,0 - 100,0",
+      "default_value": null,
+      "unit": "%",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "346 FL Minimum Modulation % 0,0 100,0"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "800",
+      "description": "Burners: Min. Inserted",
+      "value_range": "1 - 8",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "800 mB Burners: Min. Inserted 1 8"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "336",
+      "description": "Temperature Gradient",
+      "value_range": "1 - 30",
+      "default_value": null,
+      "unit": "°C/min",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "336 HS Temperature Gradient °C/min 1 30"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "353",
+      "description": "CH PID: Proportional",
+      "value_range": "0 - 50",
+      "default_value": null,
+      "unit": "°C",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "353 HP CH PID: Proportional °C 0 50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "354",
+      "description": "CH PID: Integrative",
+      "value_range": "0 - 50",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "354 HI CH PID: Integrative 0 50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "478",
+      "description": "CH PID: Derivatives",
+      "value_range": "0 - 50",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "478 Hd CH PID: Derivatives 0 50"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "816",
+      "description": "Modbus address",
+      "value_range": "1 - 127",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "816 MI Modbus address 1 127"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "817",
+      "description": "Modbus timeout",
+      "value_range": "0 - 240",
+      "default_value": null,
+      "unit": "sec",
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "817 MT Modbus timeout sec 0 240"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "896",
+      "description": "Temperature unit:",
+      "value_range": "0 - 1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "896 TU Temperature unit: 0 1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "code": "309",
+      "description": "Application Code",
+      "value_range": "0 - 1",
+      "default_value": null,
+      "unit": null,
+      "adjustable": null,
+      "source_refs": [
+        {
+          "page_number": 47,
+          "section_title": null,
+          "table_title": "PARAMETRI HCM (BCM)",
+          "source_quote": "309 St Application Code 0 1"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "status_codes": [],
+  "safety_warnings": [
+    {
+      "warning_type": "unknown",
+      "topic": "General safety",
+      "text": "Attention: This manual contains instructions for the exclusive use of the professionally qualified installer and/or maintenance technician in compliance with current legislation. The user is NOT qualified to intervene on the boiler. The manufacturer will not be held liable in case of damage to persons, animals or objects resulting from failure to comply with the instructions contained in the manuals supplied with the boiler.",
+      "source_refs": [
+        {
+          "page_number": 3,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "Attention: This manual contains instructions for the exclusive use of the professionally qualified installer and/or maintenance technician in compliance with current legislation. The user is NOT qualified to intervene on the boiler. The manufacturer will not be held liable in case of damage to persons, animals or objects resulting from failure to comply with the instructions contained in the manuals supplied with the boiler."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Product disposal",
+      "text": "After decommissioning, this appliance must not be disposed of as mixed urban waste. Separate waste collection is mandatory for this type of waste, in order to allow the recovery and reuse of the materials making up the appliance. Please contact operators authorised for the disposal of this type of appliances. Incorrect management of waste and of its disposal has potential negative effects on the environment and human health. The symbol on the appliance, represents the prohibition to dispose of the product as mixed urban waste.",
+      "source_refs": [
+        {
+          "page_number": 2,
+          "section_title": "Provisions for proper disposal of the product",
+          "table_title": null,
+          "source_quote": "After decommissioning, this appliance must not be disposed of as mixed urban waste. Separate waste collection is mandatory for this type of waste, in order to allow the recovery and reuse of the materials making up the appliance. Please contact operators authorised for the disposal of this type of appliances Incorrect management of waste and of its disposal has potential negative effects on the environment and human health The symbol on the appliance, represents the prohibition to dispose of the product as mixed urban waste."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "General warnings",
+      "text": "The instruction booklet is an integral and essential part of the product and must be kept by the user. Read the warnings contained in this instruction booklet carefully as they provide important guidelines regarding installation, use and maintenance safety. Keep the booklet with care for further consultation.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "The instruction booklet is an integral and essential part of the product and must be kept by the user. Read the warnings contained in this instruction booklet carefully as they provide important guidelines regarding installation, use and maintenance safety. Keep the booklet with care for further consultation."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Installation and maintenance",
+      "text": "Installation and maintenance must be performed in compliance with the standards in force according to the instructions of the manufacturer, up to standard and by personnel qualified and certified in compliance with law. Systems for the production of domestic hot water MUST be constructed entirely with compliant materials. By professionally qualified personnel we mean: personnel with specific technical skill in the field of heating system components for civil use, domestic hot water production and maintenance. Personnel must have the qualifications provided for by current legislation. Incorrect installation or improper maintenance can cause damage to persons, animals or objects for which the manufacturer is not responsible.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Installation and maintenance must be performed in compliance with the standards in force according to the instructions of the manufacturer, up to standard and by personnel qualified and certified in compliance with law. Systems for the production of domestic hot water MUST be constructed entirely with compliant materials. By professionally qualified personnel we mean: personnel with specific technical skill in the field of heating system components for civil use, domestic hot water production and maintenance. Personnel must have the qualifications provided for by current legislation. Incorrect installation or improper maintenance can cause damage to persons, animals or objects for which the manufacturer is not responsible."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Servicing and repairs",
+      "text": "Before performing any cleaning or maintenance, disconnect the appliance from the energy mains by acting on the switch of the system and/or through the specific cut-off devices. Do not obstruct the terminals of the intake/exhaust ducts. In case of failure and/or malfunctioning of the appliance, switch it off and do not try to repair it or intervene on it directly. Contact only personnel qualified in compliance with law. Any repairs must be performed solely by personnel authorised by Unical AG S.p.A., using original spare parts only. Failure to comply with the above can compromise the safety of the appliance and void the warranty. To guarantee appliance efficiency and its correct operation, yearly maintenance must be performed by qualified personnel.",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Before performing any cleaning or maintenance, disconnect the appliance from the energy mains by acting on the switch of the system and/or through the specific cut-off devices. Do not obstruct the terminals of the intake/exhaust ducts. In case of failure and/or malfunctioning of the appliance, switch it off and do not try to repair it or intervene on it directly. Contact only personnel qualified in compliance with law. Any repairs must be performed solely by personnel authorised by Unical AG S.p.A., using original spare parts only. Failure to comply with the above can compromise the safety of the appliance and void the warranty. To guarantee appliance efficiency and its correct operation, yearly maintenance must be performed by qualified personnel."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Decommissioning and transfer",
+      "text": "Should you decide not to use the appliance, parts entailing potential sources of hazard must be made safe. Before commissioning an appliance that has not been used, wash the domestic hot water production system, making the water flow until it has been fully replaced. Should the appliance be sold or transferred to a new owner or if you move and leave the appliance, always make sure that the instruction booklet accompanies it in order to be consulted by the new owner and/or installer. Only original accessories must be used for all appliances with optionals or kits (including electric). This appliance is intended solely for the use for which it was expressly designed. Any other use is to be considered improper and therefore dangerous (*).",
+      "source_refs": [
+        {
+          "page_number": 4,
+          "section_title": "1.1 - GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "Should you decide not to use the appliance, parts entailing potential sources of hazard must be made safe. Before commissioning an appliance that has not been used, wash the domestic hot water production system, making the water flow until it has been fully replaced. Should the appliance be sold or transferred to a new owner or if you move and leave the appliance, always make sure that the instruction booklet accompanies it in order to be consulted by the new owner and/or installer. Only original accessories must be used for all appliances with optionals or kits (including electric). This appliance is intended solely for the use for which it was expressly designed. Any other use is to be considered improper and therefore dangerous (*)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Safety and health",
+      "text": "Serious danger to safety and health",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.2 - SYMBOLS USED IN THE MANUAL",
+          "table_title": null,
+          "source_quote": "DANGER! Serious danger to safety and health"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Product and environment",
+      "text": "Possible dangerous situation for the product and the environment",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.2 - SYMBOLS USED IN THE MANUAL",
+          "table_title": null,
+          "source_quote": "ATTENTION! Possible dangerous situation for the product and the environment"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Burns",
+      "text": "Danger of burns!",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.2 - SYMBOLS USED IN THE MANUAL",
+          "table_title": null,
+          "source_quote": "DANGER! Danger of burns!"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Protective gloves",
+      "text": "Wear protective gloves",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.2 - SYMBOLS USED IN THE MANUAL",
+          "table_title": null,
+          "source_quote": "OBLIGATION! Wear protective gloves"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Improper use of appliance",
+      "text": "The boiler has been constructed according to the current level of engineering and acknowledged technical safety rules. Nonetheless, improper use could result in hazards for the safety and life of the user or other persons, i.e. damage to the appliance or other property. The appliance is designed to work in heating systems, with hot water circulation, for the production of domestic hot water. Any other use shall be considered as misuse. UNICAL will not be held liable for any damage resulting from improper use. Use according to the intended purposes also includes strict compliance with the instructions in this manual.",
+      "source_refs": [
+        {
+          "page_number": 5,
+          "section_title": "1.3 - APPROPRIATE USE OF APPLIANCE",
+          "table_title": null,
+          "source_quote": "The boiler has been constructed according to the current level of engineering and acknowledged technical safety rules. Nonetheless, improper use could result in hazards for the safety and life of the user or other persons, i.e. damage to the appliance or other property. The appliance is designed to work in heating systems, with hot water circulation, for the production of domestic hot water. Any other use shall be considered as misuse. UNICAL will not be held liable for any damage resulting from improper use. Use according to the intended purposes also includes strict compliance with the instructions in this manual."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Appliance use by individuals",
+      "text": "The boiler must not be used by people with with reduced physical, sensory and mental abilities, without experience and knowledge. These people must be previously trained and supervised during the manoeuvre operations. Children must be supervised so that they do not have access to the boiler.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "ATTENTION! The boiler must not be used by people with with reduced physical, sensory and mental abilities, without experience and knowledge. These people must be previously trained and supervised during the manoeuvre operations. Children must be supervised so that they do not have access to the boiler."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Installation and maintenance",
+      "text": "The appliance must be installed, adjusted and maintained by professionally qualified personnel, in compliance with the standards and provisions in force. Incorrect installation can cause damage to persons, animals and objects for which the manufacturer cannot be held responsible.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "ATTENTION! The appliance must be installed, adjusted and maintained by professionally qualified personnel, in compliance with the standards and provisions in force. Incorrect installation can cause damage to persons, animals and objects for which the manufacturer cannot be held responsible."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Maintenance and repairs",
+      "text": "NEVER attempt performing maintenance or repairs on the boiler on your own initiative. Any work must be done by professionally qualified personnel. We recommend stipulating a maintenance contract. Insufficient or irregular maintenance can jeopardise the operating safety of the appliance and cause damage to persons, animals and objects for which the manufacturer cannot be held responsible.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "DANGER! NEVER attempt performing maintenance or repairs on the boiler on your own initiative. Any work must be done by professionally qualified personnel. We recommend stipulating a maintenance contract. Insufficient or irregular maintenance can jeopardise the operating safety of the appliance and cause damage to persons, animals and objects for which the manufacturer cannot be held responsible."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Modifying boiler parts",
+      "text": "Do not modify the following parts: the boiler, the gas, air, water and electricity supply lines, the flue gas pipe, the safety valve and the exhaust pipe, the construction parts which affect the operating safety of the appliance.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "Changes to the parts connected to the boiler (once the boiler installation is complete) Do not modify the following parts: - the boiler - the gas, air, water and electricity supply lines - the flue gas pipe, the safety valve and the exhaust pipe - the construction parts which affect the operating safety of the appliance."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Tools for fittings",
+      "text": "To tighten or loosen the screwed fittings, use only appropriate fixed spanners. Incompliant use and/or inappropriate tools can cause damage (e.g. water or gas leakage).",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "Attention! To tighten or loosen the screwed fittings, use only appropriate fixed spanners. Incompliant use and/or inappropriate tools can cause damage (e.g. water or gas leakage)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Propane gas-fired appliances",
+      "text": "Make sure that the gas tank has been deaerated before installing the appliance. For state-of-the-art tank venting, contact the LPG supplier or person qualified in compliance with the law requirement. If the tank has not been professionally deaerated, ignition problems could arise. In that case, contact the supplier of the LPG tank.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "ATTENTION! Indications for propane gas-fired appliances Make sure that the gas tank has been deaerated before installing the appliance. For state-of-the-art tank venting, contact the LPG supplier or person qualified in compliance with the law requirement. If the tank has not been professionally deaerated, ignition problems could arise. In that case, contact the supplier of the LPG tank."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Smell of gas",
+      "text": "Should a smell of gas be perceived, follow these safety guidelines: do not turn electric switches on or off, do not smoke, do not use the telephone, close the gas shut-off valve, air out the area where the gas leakage has occurred, inform the gas supplier or a company specialised in installation and maintenance of heating systems.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "Smell of gas Should a smell of gas be perceived, follow these safety guidelines: - do not turn electric switches on or off - do not smoke - do not use the telephone - close the gas shut-off valve - air out the area where the gas leakage has occurred - inform the gas supplier or a company specialised in installation and maintenance of heating systems."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Explosive and easily flammable substances",
+      "text": "Do not use or store explosive or easily flammable materials (e.g. petrol, paints, paper) in the room where the boiler is installed.",
+      "source_refs": [
+        {
+          "page_number": 6,
+          "section_title": "1.5 - SAFETY WARNINGS",
+          "table_title": null,
+          "source_quote": "Explosive and easily flammable substances Do not use or store explosive or easily flammable materials (e.g. petrol, paints, paper) in the room where the boiler is installed."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Water treatment and warranty",
+      "text": "ANY DAMAGE TO THE BOILER CAUSED BY THE FORMATION OF FOULING OR BY CORROSIVE WATER WILL NOT BE COVERED BY THE WARRANTY.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "1.7 - WATER TREATMENT",
+          "table_title": null,
+          "source_quote": "ATTENTION! ANY DAMAGE TO THE BOILER CAUSED BY THE FORMATION OF FOULING OR BY CORROSIVE WATER WILL NOT BE COVERED BY THE WARRANTY."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Water for human consumption",
+      "text": "The heating only models are NOT suitable for the production of water for human consumption according to Ministerial Decree D.M. 174/2004.",
+      "source_refs": [
+        {
+          "page_number": 8,
+          "section_title": "1.7 - WATER TREATMENT",
+          "table_title": null,
+          "source_quote": "ATTENTION (*) see general warnings 1.1: The heating only models are NOT suitable for the production of water for human consumption according to Ministerial Decree D.M. 174/2004."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Antifreeze products",
+      "text": "The heating system can be protected effectively from frost by using antifreeze products with inhibitor for heating systems (specific for multidmetal). Do not use car engine antifreeze products as they could damage the water gaskets.",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "1.8 - BOILER ANTIFREEZE PROTECTION",
+          "table_title": null,
+          "source_quote": "The heating system can be protected effectively from frost by using antifreeze products with inhibitor for heating systems (specific for multidmetal) Do not use car engine antifreeze products as they could damage the water gaskets."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Antifreeze siphon cap",
+      "text": "For outdoor installations, in partially protected places, you must use the additional heater kit (optional) for antifreeze siphon cap.",
+      "source_refs": [
+        {
+          "page_number": 9,
+          "section_title": "1.8 - BOILER ANTIFREEZE PROTECTION",
+          "table_title": null,
+          "source_quote": "For outdoor installations, in partially protected places, you must use the additional heater kit (optional) for antifreeze siphon cap."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Boiler intended use",
+      "text": "This boiler is intended solely for the use for which it was expressly designed. Any other use is to be considered improper and therefore dangerous. This boiler heats water at a temperature lower than the atmospheric pressure boiling temperature.",
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "3.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "ATTENTION! This boiler is intended solely for the use for which it was expressly designed. Any other use is to be considered improper and therefore dangerous. This boiler heats water at a temperature lower than the atmospheric pressure boiling temperature."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Installation room conditions",
+      "text": "If there is dust and/or if there are aggressive/corrosive vapours present in the installation room, the appliance must be protected suitably and must be able to operate independently from the air in the room.",
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "3.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "ATTENTION! If there is dust and/or if there are aggressive/corrosive vapours present in the installation room, the appliance must be protected suitably and must be able to operate independently from the air in the room."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Appliance mounting",
+      "text": "Only mount the appliance on a closed wall, made of non-flammable material, flat, vertical so that the minimum distances required for installation and maintenance can be observed.",
+      "source_refs": [
+        {
+          "page_number": 21,
+          "section_title": "3.1 GENERAL WARNINGS",
+          "table_title": null,
+          "source_quote": "ATTENTION! Only mount the appliance on a closed wall, made of non-flammable material, flat, vertical so that the minimum distances required for installation and maintenance can be observed."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Packaging materials",
+      "text": "The packaging elements (cardboard box, straps, plastic bags, etc.) must be kept out of the reach of children as they are potential sources of danger.",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": null,
+          "source_quote": "The packaging elements (cardboard box, straps, plastic bags, etc.) must be kept out of the reach of children as they are potential sources of danger."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Transport of boiler",
+      "text": "Only transport the boiler using appropriate transport equipment. Follow the transport instructions on the packaging.",
+      "source_refs": [
+        {
+          "page_number": 22,
+          "section_title": "3.4 - PACKAGING",
+          "table_title": null,
+          "source_quote": "Only transport the boiler using appropriate transport equipment Follow the transport instructions on the packaging."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Flue compliance",
+      "text": "The flue must comply with standards in force.",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "3.6 - FLUE GAS EXHAUST PIPE CONNECTION (Forced draw boiler)",
+          "table_title": null,
+          "source_quote": "ATTENTION: The flue must comply with standards in force."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Flue gas pipe replacement",
+      "text": "In the event the boiler is replaced, ALWAYS replace the flue gas pipe as well.",
+      "source_refs": [
+        {
+          "page_number": 24,
+          "section_title": "3.6 - FLUE GAS EXHAUST PIPE CONNECTION (Forced draw boiler)",
+          "table_title": null,
+          "source_quote": "In the event the boiler is replaced, ALWAYS replace the flue gas pipe as well."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Gas connection",
+      "text": "The gas connection must be carried out only by a qualified installer who must respect and apply that foreseen by relevant laws in force in the local prescriptions of the supply company. Incorrect installation can cause damage to persons, animals and objects for which the manufacturer cannot be held responsible.",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "Danger! The gas connection must be carried out only by a qualified installer who must respect and apply that foreseen by relevant laws in force in the local prescriptions of the supply company. Incorrect installation can cause damage to persons, animals and objects for which the manufacturer cannot be held responsible."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Smell of gas",
+      "text": "If you smell gas: a) Do not operate electric switches, the telephone or any other object that may cause sparks; b) Immediately open doors and windows to create air current to purify the room; c) Shut the gas cocks",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "If you smell gas: a) Do not operate electric switches, the telephone or any other object that may cause sparks; b) Immediately open doors and windows to create air current to purify the room; c) Shut the gas cocks"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Safety valve drain",
+      "text": "Provide a drain pipe with funnel and a trap that lead to a suitable drain, in correspondence of Svs. This drainage must be controlled on sight. If this precaution is not taken, triggering of the safe- ty valve can cause damage to persons, animals and objects, for which the manufacturer cannot be held responsible.",
+      "source_refs": [
+        {
+          "page_number": 28,
+          "section_title": "3.7 - CONNECTION",
+          "table_title": null,
+          "source_quote": "CAUTION Provide a drain pipe with funnel and a trap that lead to a suitable drain, in correspondence of Svs. This drainage must be controlled on sight. If this precaution is not taken, triggering of the safe- ty valve can cause damage to persons, animals and objects, for which the manufacturer cannot be held responsible."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Condensation drain trap",
+      "text": "Before commissioning the appliance: check that the trap is assembled properly (H = 180 mm), fill the trap and check that the condensation is drained properly. If the appliance is used with an empty condensation drain trap, there is an intoxication hazard due to the release of exhaust gasses.",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": "Condensation drain",
+          "table_title": null,
+          "source_quote": "Danger! Before commissioning the appliance: check that the trap is assembled properly (H = 180 mm) fill the trap and check that the condensation is drained properly If the appliance is used with an empty condensa- tion drain trap, there is an intoxication hazard due to the release of exhaust gasses."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Domestic waste system connection",
+      "text": "The connection between the appliance and the domestic waste system must be made in compliance with the specific reference standards.",
+      "source_refs": [
+        {
+          "page_number": 29,
+          "section_title": null,
+          "table_title": null,
+          "source_quote": "The connection between the appliance and the do- mestic waste system must be made in compliance with the specific reference standards."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Heating water additives",
+      "text": "Do not mix the heating water with incorrect concentrations of antifreeze or anti-corrosion substances! This could damage the gaskets and cause noise during operation. Unical will not be held liable for damage to persons, animals or objects due to failure to comply with the above instruction.",
+      "source_refs": [
+        {
+          "page_number": 30,
+          "section_title": "3.8 - FILLING THE SYSTEM",
+          "table_title": null,
+          "source_quote": "Attention! Do not mix the heating water with incorrect concentrations of antifreeze or anti-corrosion substances! This could damage the gaskets and cause noise during operation. Unical will not be held liable for damage to persons, animals or objects due to failure to comply with the above instruction."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Electrical installation",
+      "text": "Only a qualified technician may perform the electrical installation. Before performing connections or any type of operation on electrical parts, always disconnect electrical power and make sure that it cannot be reconnected accidentally.",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "3.9 - ELECTRICAL CONNECTIONS",
+          "table_title": null,
+          "source_quote": "Danger! Only a qualified technician may perform the electrical installation. Before performing connections or any type of operation on electrical parts, always disconnect electrical power and make sure that it cannot be reconnected accidentally."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Power cable replacement",
+      "text": "The power cable must be replaced by technical personnel authorised, using original spare parts only. Failure to comply with the above can jeopardise the safety of the appliance.",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "3.9 - ELECTRICAL CONNECTIONS",
+          "table_title": null,
+          "source_quote": "The power cable must be replaced by technical personnel authorised, using original spare parts only. Failure to comply with the above can jeopardise the safety of the appliance."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Electrical polarity",
+      "text": "Comply with the PHASE and NEUTRAL polarity since flame detection is Phase Sensitive.",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "3.9 - ELECTRICAL CONNECTIONS",
+          "table_title": null,
+          "source_quote": "ATTENTION! Comply with the PHASE and NEUTRAL polarity since flame detection is Phase Sensitive."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Cable routing",
+      "text": "The 230 V cables must run far apart from 24V cables.",
+      "source_refs": [
+        {
+          "page_number": 33,
+          "section_title": "3.9 - ELECTRICAL CONNECTIONS",
+          "table_title": null,
+          "source_quote": "ATTENTION: The 230 V cables must run far apart from 24V cables."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Calibration function",
+      "text": "Function reserved exclusively to authorized service centers.",
+      "source_refs": [
+        {
+          "page_number": 37,
+          "section_title": "3.11 - ACTIVATION OF THE CALIBRATION FUNCTION (Burner Menù)",
+          "table_title": null,
+          "source_quote": "WARNING! Function reserved exclusively to authorized service centers."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "CO2 analysis probe",
+      "text": "Remove the cap 2, Insert the probe analysis of CO2 in the cap hole 3",
+      "source_refs": [
+        {
+          "page_number": 39,
+          "section_title": "3.11.2 - POSITIONING THE PROBES",
+          "table_title": null,
+          "source_quote": "WARNING! Remove the cap 2, Insert the probe analysis of CO2 in the cap hole 3"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Burner adjustment",
+      "text": "The following instructions are intended exclusively for authorised service personnel.",
+      "source_refs": [
+        {
+          "page_number": 40,
+          "section_title": "3.12 - ADJUSTING THE BURNER",
+          "table_title": null,
+          "source_quote": "The following instructions are intended exclusively for authorised service personnel."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Gas type conversion",
+      "text": "The conversion for the operation of the boiler with a type of gas other than that specifically required in the order, must be performed by professionally qualified personnel, in compliance with the standards and regulations in force. The manufacturer cannot be held liable for any damage resulting from a conversion operation that is incorrect or not performed in compliance with the laws in force and/or with the instructions given.",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "4.3 - ADAPTATION TO THE USE OF OTHER GAS",
+          "table_title": null,
+          "source_quote": "DANGER! The conversion for the operation of the boiler with a type of gas other than that specifically required in the order, must be performed by professionally qualified personnel, in compliance with the standards and regulations in force. The manufacturer cannot be held liable for any damage resulting from a conversion operation that is incorrect or not performed in compliance with the laws in force and/or with the instructions given."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Gas type conversion",
+      "text": "After performing the conversion for the operation of the boiler with a type of gas (e.g. propane gas) other than that specifically requested when ordering, the appliance will only work with this new type of gas.",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "4.3 - ADAPTATION TO THE USE OF OTHER GAS",
+          "table_title": null,
+          "source_quote": "ATTENTION! After performing the conversion for the operation of the boiler with a type of gas (e.g. propane gas) other than that specifically requested when ordering, the appliance will only work with this new type of gas."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "caution",
+      "topic": "Propane gas tank deaeration",
+      "text": "Make sure that the gas tank has been deaerated before installing the appliance. For state-of-the-art deaeration of the tank, contact the LPG supplier or a person qualified in compliance with law. If the tank has not been professionally deaerated, ignition problems could arise. In that case, contact the supplier of the LPG tank.",
+      "source_refs": [
+        {
+          "page_number": 42,
+          "section_title": "4.3 - ADAPTATION TO THE USE OF OTHER GAS",
+          "table_title": null,
+          "source_quote": "ATTENTION! Indications for propane gas-fired appliances Make sure that the gas tank has been deaerated before installing the appliance. For state-of-the-art deaeration of the tank, contact the LPG supplier or a person qualified in compliance with law. If the tank has not been professionally deaerated, ignition problems could arise. In that case, contact the supplier of the LPG tank."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "warning",
+      "topic": "Programming operating parameters",
+      "text": "Function reserved exclusively to authorized service centers.",
+      "source_refs": [
+        {
+          "page_number": 44,
+          "section_title": "3.14 - PROGRAMMING OF THE OPERATING PARAMETERS",
+          "table_title": null,
+          "source_quote": "WARNING! Function reserved exclusively to authorized service centers."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Maintenance and inspections",
+      "text": "Inspections and maintenance performed professionally and according to a regular schedule, as well as the use of original spare parts, are of the utmost importance for fault-free operation of the boiler and to guarantee its long life. Yearly maintenance of the appliance is mandatory in compliance with Laws in force. Failure to perform Inspections and Maintenance can entail material and personal damage.",
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "4 INSPECTION AND MAINTENANCE",
+          "table_title": null,
+          "source_quote": "Inspections and maintenance performed profes- sionally and according to a regular schedule, as well as the use of original spare parts, are of the utmost importance for fault-free operation of the boiler and to guarantee its long life. Yearly maintenance of the appliance is mandatory in compliance with Laws in force. Failure to perform Inspections and Maintenance can entail material and personal damage."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "unknown",
+      "topic": "Protective gloves",
+      "text": "wear gloves protective",
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "4.1 - INSPECTION AND MAINTENANCE INSTRUCTIONS",
+          "table_title": null,
+          "source_quote": "OBLIGATION! wear gloves protective"
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "warning_type": "danger",
+      "topic": "Burns during maintenance",
+      "text": "Danger of burns! during maintenance operations.",
+      "source_refs": [
+        {
+          "page_number": 50,
+          "section_title": "4.1 - INSPECTION AND MAINTENANCE INSTRUCTIONS",
+          "table_title": null,
+          "source_quote": "Danger of burns! during maintenance operations."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "maintenance_tasks": [
+    {
+      "task_name": "Gas valve (VG) verification",
+      "description": "Verify if the valve modulates properly.",
+      "interval": "Yearly",
+      "required_qualification": "Professionally qualified personnel",
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "ROUTINE YEARLY VERIFICATION OPERATIONS",
+          "table_title": null,
+          "source_quote": "VG (Gas valve) (3) VERIFY: Does the valve modulate properly? CONTROL/INTERVENTION METHOD: The verification is performed on the \"Calibration\" requiring 100%, in 50%, the minimum percentage of modulation. Make sure that the flame modulate."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Heating sensor (SR) and domestic hot water sensor (SS) verification",
+      "description": "Verify if the sensors maintain their original characteristics.",
+      "interval": "Yearly",
+      "required_qualification": "Professionally qualified personnel",
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "ROUTINE YEARLY VERIFICATION OPERATIONS",
+          "table_title": null,
+          "source_quote": "SR (heating sensor)(11) SS (domestic hot water sensor) (1) VERIFY: Do the sensors maintain the original characteristics? CONTROL/INTERVENTION METHOD: 12571 ohm at 20° C / 1762 ohm at 70° C. Measurement to be taken with the wires disconnected (see table Res/ Temp)."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Ignition electrode (E ACC) verification",
+      "description": "Verify the discharge of sparks before putting the boiler in safe conditions lasts less than 3 sec.?",
+      "interval": "Yearly",
+      "required_qualification": "Professionally qualified personnel",
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "ROUTINE YEARLY VERIFICATION OPERATIONS",
+          "table_title": null,
+          "source_quote": "E ACC ignition electrode (28) VERIFY: Does the discharge of sparks before putting the boiler in safe conditions last less than 3 sec.? CONTROL/INTERVENTION METHOD: Detach the electrode ionisation wire and check the securing time."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Detection electrode (E RIV.) verification",
+      "description": "Verify if flame is present but not detected.",
+      "interval": "Yearly",
+      "required_qualification": "Professionally qualified personnel",
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "ROUTINE YEARLY VERIFICATION OPERATIONS",
+          "table_title": null,
+          "source_quote": "E RIV. detection electrode (27) VERIFY: Flame present but not detected CONTROL/INTERVENTION METHOD: Check connection cable (oxidation socket) or condizoni / detection elec- trode placement."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Anti-overheating limit thermostat (TL) verification",
+      "description": "Verify if the TL puts the boiler in safety conditions when overheating.",
+      "interval": "Yearly",
+      "required_qualification": "Professionally qualified personnel",
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "ROUTINE YEARLY VERIFICATION OPERATIONS",
+          "table_title": null,
+          "source_quote": "TL (anti-overheating limit thermostat) (10) VERIFY: Does the TL put the boiler in safety conditions when overheating? CONTROL/INTERVENTION METHOD: Heat the TL until it intervenes at 102°C and check that it intervenes at 102°."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Safety pressure switch against water deficiency (DK) verification",
+      "description": "Verify if the pressure switch blocks the boiler if the water pressure is below 0.4 bar.",
+      "interval": "Yearly",
+      "required_qualification": "Professionally qualified personnel",
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "ROUTINE YEARLY VERIFICATION OPERATIONS",
+          "table_title": null,
+          "source_quote": "DK (safety pressure switch against water deficiency) (13) VERIFY: Does the pressure switch block the boiler if the water pressure is below 0.4 bar? CONTROL/INTERVENTION METHOD: Without request: close the shut-off valves of the heating circuit, open the drain valve to make the water pressure de- crease. Before pressurising again, check the pressure of the expansion vessel."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Condensation drain trap (27) cleaning",
+      "description": "Verify if the trap has got deposits on the bottom and clean it with water.",
+      "interval": "Yearly",
+      "required_qualification": "Professionally qualified personnel",
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "ROUTINE YEARLY VERIFICATION OPERATIONS",
+          "table_title": null,
+          "source_quote": "Condensation drain trap (27) VERIFY: Has the trap got deposits on the bottom? CONTROL/INTERVENTION METHOD: Clean the trap with water."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Heat exchanger body (9) cleaning",
+      "description": "Measure the Thermal Capacity and compare the value with that contained in table 3.12. The data measured indicates if the exchanger needs cleaning. Check that the space between the rungs of the exchanger are not clogged.",
+      "interval": "Yearly",
+      "required_qualification": "Professionally qualified personnel",
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "ROUTINE YEARLY VERIFICATION OPERATIONS",
+          "table_title": null,
+          "source_quote": "Heat exchanger body (9) VERIFY: 1) Measure the Thermal Capacity using a me- ter and compare the value with that contained in table 3.12. The data measured indicates if the exchanger needs cleaning. 2) Check that the space between the rungs of the exchanger are not clogged CONTROL/INTERVENTION METHOD: It is recommended to use the products purposely created by Unical (see sys- tem protection ACCESSORIES sect. in the domestic price list), being careful to wash the area with most rungs first (lowest part visible from above) and then the upper part if necessary."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    },
+    {
+      "task_name": "Burner (5) cleaning",
+      "description": "Check the state of cleanliness of the burner mesh and remove any deposits using compressed air, blowing from the mesh side.",
+      "interval": "Yearly",
+      "required_qualification": "Professionally qualified personnel",
+      "source_refs": [
+        {
+          "page_number": 51,
+          "section_title": "ROUTINE YEARLY VERIFICATION OPERATIONS",
+          "table_title": null,
+          "source_quote": "Burner (5) VERIFY: Check the state of cleanliness of the burner mesh CONTROL/INTERVENTION METHOD: Remove any deposits using com- pressed air, blowing from the mesh side."
+        }
+      ],
+      "confidence": 1.0,
+      "review_required": false
+    }
+  ],
+  "search_terms": [
+    "KONF 200",
+    "KONF 400",
+    "Gas valve",
+    "Burner",
+    "Safety thermostat",
+    "Heating temperature sensor",
+    "Modulating Pump",
+    "Water deficiency pressure switch",
+    "Boiler drain valve",
+    "Modulating Fan",
+    "Safety valve",
+    "Return temperature sensor",
+    "Flue gas collector safety thermostat",
+    "Aluminium Heat Exchanger/Capacitor",
+    "Vent valve",
+    "Condensation drain trap",
+    "Detection electrode",
+    "Ignition electrode",
+    "Return shut-off (3 Way) valve",
+    "Sensor Flow General",
+    "Condensation drain trap",
+    "Outlet flue inspection",
+    "Ignition transformer",
+    "Flow shut-off (3 Way) valve",
+    "Gas pressure switch",
+    "Manual Vent valve",
+    "Smoke Thermostat",
+    "Flue pressure switch max",
+    "Condensate sensor level",
+    "Flue pressure switch min",
+    "Flow pressure switch",
+    "Siphon",
+    "Smoke outlet expansion Kit",
+    "Single exhaust manifold",
+    "Smoke extension kit",
+    "eBus connessione",
+    "Boiler controller",
+    "Switch Inhibit Body",
+    "230 V Power Supply Terminals",
+    "Supplementary terminal +24V BCM",
+    "Connection FL flow switch",
+    "Power supply PCB",
+    "Services connectors",
+    "Supply PCB for HSCP",
+    "Supply for Modulating Pump",
+    "Safety low water pressure switch",
+    "Ignition electrode",
+    "Detection electrode",
+    "Switch inhibition body",
+    "Heating controller",
+    "Boiler Power Supply Terminal Board",
+    "Motore valvola deviatrice",
+    "Pump",
+    "Heating sensor",
+    "Terminal board for safe device",
+    "Smoke Thermostat",
+    "Minimum flue pressure pressure switch",
+    "Gas minimum pressure switch",
+    "Gas minimum pressure switch",
+    "Fan flow switch",
+    "Condensate level sensor",
+    "Sensor flow general",
+    "Heating sensor module",
+    "Return sensor heating",
+    "Ignition Transformation",
+    "Limit thermostat",
+    "Room thermostat",
+    "Storage Tank Temperature Sensor",
+    "Analogical input",
+    "Modulating Pump Control",
+    "Alarm Output",
+    "Boiler collector pump control",
+    "Heating pump control",
+    "Storage tank loading pump control"
+  ],
+  "derived_guidance": {
+    "status": "not_generated",
+    "technician_summary": null,
+    "steps": [],
+    "generated_from": [],
+    "review_status": "not_reviewed"
+  },
+  "extraction_meta": {
+    "overall_confidence": 0.98,
+    "review_required": false,
+    "missing_or_unclear_sections": [],
+    "extraction_notes": []
+  }
+}

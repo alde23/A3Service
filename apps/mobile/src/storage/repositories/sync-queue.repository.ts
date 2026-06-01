@@ -30,13 +30,15 @@ async function createSyncQueueItem({
   status = 'pending',
   retries = 0,
 }: EnqueueSyncOperationInput) {
-  await syncQueueCollection.create((item) => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  await syncQueueCollection.create((item: any) => {
     item.tableName = tableName;
     item.recordId = recordId;
     item.operation = operation;
     item.payload = payload;
     item.status = status;
     item.retries = retries;
+    item.createdAt = new Date();
   });
 }
 
