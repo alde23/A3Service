@@ -51,7 +51,7 @@ jobs:
         run: npx nx build shared-schema && npx nx build api
 
       - name: Run Tests
-        run: npx nx run-many --target=test --all --coverage
+        run: npx nx run-many --target=test --all --coverage --forceExit
         env:
           DATABASE_URL: postgresql://postgres:postgres@localhost:5433/a3service
           DIRECT_URL: postgresql://postgres:postgres@localhost:5433/a3service
