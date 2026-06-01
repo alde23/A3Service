@@ -6,7 +6,7 @@ import Part from '../storage/models/Part';
 import ServiceLog from '../storage/models/ServiceLog';
 import SyncLog from '../storage/models/SyncLog';
 import SyncConflict from '../storage/models/SyncConflict';
-import * as JobsSyncService from './jobs-sync.service';
+
 
 jest.mock('./jobs-sync.service', () => ({
   pullJobsFromServer: jest.fn().mockResolvedValue(0),

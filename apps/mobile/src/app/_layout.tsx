@@ -37,9 +37,8 @@ function GuardedRoot() {
     );
   }
 
-  // Prevent flashing protected screens before the redirect completes
-  if (!token && !isLoginScreen) return null;
-  if (token && !homeLocation && !isOnboardingScreen) return null;
+  // Returning null here breaks the <Slot /> and prevents router.replace from working!
+  // We must always render <Slot /> so the navigation tree exists.
 
   return <Slot />;
 }

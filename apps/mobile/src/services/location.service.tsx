@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useAuth } from './auth.service';
 
 export type Coordinate = {
   latitude: number;
@@ -23,10 +24,19 @@ export const LocationProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const [homeLocation, setHomeLocation] = useState<Coordinate | null>(null);
   const [homeAddress, setHomeAddress] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
+  const { token } = useAuth();
+
+  const isPersistentLoginEnabled = process.env.EXPO_PUBLIC_ENABLE_PERSISTENT_LOGIN !== 'false';
 
   useEffect(() => {
     (async () => {
       try {
+        if (!isPersistentLoginEnabled) {
+          // If persistence is disabled, skip loading and let it remain null
+          setLoading(false);
+          return;
+        }
+
         const storedLoc = await AsyncStorage.getItem(LOCATION_KEY);
         const storedAddr = await AsyncStorage.getItem(ADDRESS_KEY);
         
@@ -43,6 +53,15 @@ export const LocationProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       }
     })();
   }, []);
+
+  useEffect(() => {
+    // If user logs out or session is cleared, wipe out the local memory state
+    // so they are forced through onboarding again.
+    if (!token) {
+      setHomeLocation(null);
+      setHomeAddress(null);
+    }
+  }, [token]);
 
   const saveHomeLocation = async (address: string, coord: Coordinate) => {
     try {

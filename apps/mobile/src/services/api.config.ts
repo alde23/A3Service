@@ -5,7 +5,6 @@ function normalizeApiBaseUrl(url: string) {
   return trimmed.endsWith('/api') ? trimmed : `${trimmed}/api`;
 }
 
-const isAndroid = Platform.OS === 'android';
 const localApiHost = '192.168.0.14';
 const defaultUrl = __DEV__ ? `http://${localApiHost}:3000/api` : 'https://api.example.com';
 

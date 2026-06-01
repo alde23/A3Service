@@ -21,9 +21,10 @@ export default function LoginScreen() {
         setError('Invalid credentials or network error');
         Alert.alert('Login Failed', 'Invalid credentials or network error. Please check your connection to the local API.');
       }
-    } catch (err: any) {
-      setError(err.message);
-      Alert.alert('Error', err.message);
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : String(err);
+      setError(msg);
+      Alert.alert('Error', msg);
     }
   };
 
