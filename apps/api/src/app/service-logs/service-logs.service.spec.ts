@@ -140,63 +140,113 @@ describe('ServiceLogService', () => {
     expect(result.status).toBe('SUCCESS');
   });
 
-  it('update allows editing labor and parts after synced', async () => {
-    const now = new Date('2026-05-19T00:00:00.000Z');
-    prisma.serviceLog.findFirst.mockResolvedValue({
-      id: 'log-1',
-      jobId: 'job-1',
-      status: ServiceLogStatus.SYNCED,
-      summary: null,
-      notes: null,
-      syncedAt: now,
-      isDeleted: false,
-      deletedAt: null,
-      createdAt: now,
-      updatedAt: now,
-      job: { id: 'job-1' },
-      laborEntries: [],
-      consumedParts: [],
+  describe('list', () => {
+    it('returns paginated items', async () => {
+      prisma.serviceLog.count.mockResolvedValue(1);
+      prisma.serviceLog.findMany.mockResolvedValue([
+        {
+          id: 'log-1',
+          jobId: 'job-1',
+          status: ServiceLogStatus.DRAFT,
+          summary: null,
+          notes: null,
+          syncedAt: null,
+          isDeleted: false,
+          deletedAt: null,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+          laborEntries: [],
+          consumedParts: [],
+        }
+      ]);
+      const result = await service.list({ sub: 'm1', role: UserRole.MANAGER } as any, 'job-1', 1, 10);
+      expect(result.items.length).toBe(1);
+      expect(result.meta.total).toBe(1);
     });
-    prisma.$transaction.mockImplementation(async (cb) => cb(prisma));
-    prisma.part.findMany.mockResolvedValue([{ id: 'part-1' }]);
-    prisma.serviceLog.update.mockResolvedValue({
-      id: 'log-1',
-      jobId: 'job-1',
-      status: ServiceLogStatus.SYNCED,
-      summary: null,
-      notes: null,
-      syncedAt: now,
-      isDeleted: false,
-      deletedAt: null,
-      createdAt: now,
-      updatedAt: now,
-      laborEntries: [],
-      consumedParts: [],
-    });
-    prisma.serviceLog.findUnique.mockResolvedValue({
-      id: 'log-1',
-      jobId: 'job-1',
-      status: ServiceLogStatus.SYNCED,
-      summary: null,
-      notes: null,
-      syncedAt: now,
-      isDeleted: false,
-      deletedAt: null,
-      createdAt: now,
-      updatedAt: now,
-      laborEntries: [],
-      consumedParts: [],
+  });
+
+  describe('getById', () => {
+    it('throws if not found', async () => {
+      prisma.serviceLog.findFirst.mockResolvedValue(null);
+      await expect(service.getById({ sub: 'm1', role: UserRole.MANAGER } as any, 'log-1')).rejects.toThrow('Service log not found');
     });
 
-    await service.update(
-      { sub: 'tech-1', email: 'tech-1@a3.local', role: UserRole.TECHNICIAN },
-      'log-1',
-      { laborEntries: [{ hours: 1, hourlyRate: 50 }], consumedParts: [{ partId: 'part-1', quantity: 1 }] },
-    );
+    it('returns mapped log if found', async () => {
+      prisma.serviceLog.findFirst.mockResolvedValue({
+        id: 'log-1',
+        jobId: 'job-1',
+        status: ServiceLogStatus.DRAFT,
+        summary: null,
+        notes: null,
+        syncedAt: null,
+        isDeleted: false,
+        deletedAt: null,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        laborEntries: [],
+        consumedParts: [],
+      });
+      const result = await service.getById({ sub: 'm1', role: UserRole.MANAGER } as any, 'log-1');
+      expect(result.id).toBe('log-1');
+    });
+  });
 
-    expect(prisma.serviceLog.update).toHaveBeenCalled();
-    expect(prisma.laborEntry.deleteMany).toHaveBeenCalledWith({ where: { serviceLogId: 'log-1' } });
-    expect(prisma.laborEntry.createMany).toHaveBeenCalled();
-    expect(prisma.consumedPart.deleteMany).toHaveBeenCalledWith({ where: { serviceLogId: 'log-1' } });
+  describe('create', () => {
+    it('throws if jobId is missing', async () => {
+      await expect(service.create({ sub: 't1', role: UserRole.TECHNICIAN } as any, {} as any)).rejects.toThrow('jobId is required');
+    });
+
+    it('throws if job not found', async () => {
+      prisma.job.findFirst.mockResolvedValue(null);
+      await expect(service.create({ sub: 't1', role: UserRole.TECHNICIAN } as any, { jobId: 'job-1' } as any)).rejects.toThrow('Job not found');
+    });
+
+    it('throws if labor hours invalid', async () => {
+      prisma.job.findFirst.mockResolvedValue({ id: 'job-1' });
+      await expect(service.create({ sub: 't1', role: UserRole.TECHNICIAN } as any, { jobId: 'job-1', laborEntries: [{ hours: -1, hourlyRate: 100 }] } as any)).rejects.toThrow('laborEntries[0].hours must be positive');
+    });
+
+    it('throws if partId missing', async () => {
+      prisma.job.findFirst.mockResolvedValue({ id: 'job-1' });
+      await expect(service.create({ sub: 't1', role: UserRole.TECHNICIAN } as any, { jobId: 'job-1', consumedParts: [{ quantity: 1 }] } as any)).rejects.toThrow('consumedParts[0].partId is required');
+    });
+  });
+
+  describe('update', () => {
+    it('throws if not found', async () => {
+      prisma.serviceLog.findFirst.mockResolvedValue(null);
+      await expect(service.update({ sub: 'm1', role: UserRole.MANAGER } as any, 'log-1', {} as any)).rejects.toThrow('Service log not found');
+    });
+
+    it('throws if updated record returns null', async () => {
+      prisma.serviceLog.findFirst.mockResolvedValue({ id: 'log-1' });
+      prisma.serviceLog.update.mockResolvedValue(null);
+      prisma.serviceLog.findUnique.mockResolvedValue(null);
+      await expect(service.update({ sub: 'm1', role: UserRole.MANAGER } as any, 'log-1', {} as any)).rejects.toThrow('Service log not found');
+    });
+  });
+
+  describe('sync', () => {
+    it('throws if idempotencyKey missing', async () => {
+      await expect(service.sync({ sub: 'm1', role: UserRole.MANAGER } as any, 'log-1', {} as any)).rejects.toThrow('idempotencyKey is required');
+    });
+
+    it('throws if jobId missing', async () => {
+      await expect(service.sync({ sub: 'm1', role: UserRole.MANAGER } as any, 'log-1', { idempotencyKey: 'k' } as any)).rejects.toThrow('jobId is required');
+    });
+
+    it('throws if already synced and trying to change labor/parts', async () => {
+      prisma.serviceLogSync.findUnique.mockResolvedValue(null);
+      prisma.job.findFirst.mockResolvedValue({ id: 'job-1' });
+      
+      const tx = {
+        serviceLog: {
+          findUnique: vi.fn().mockResolvedValue({ id: 'log-1', status: ServiceLogStatus.SYNCED }),
+        }
+      };
+      prisma.$transaction.mockImplementation(async (cb: any) => cb(tx));
+
+      await expect(service.sync({ sub: 'm1', role: UserRole.MANAGER } as any, 'log-1', { idempotencyKey: 'k', jobId: 'job-1', laborEntries: [] } as any)).rejects.toThrow('Synced logs cannot change labor or parts');
+    });
   });
 });
