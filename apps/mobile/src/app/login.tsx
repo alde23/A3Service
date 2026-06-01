@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, StyleSheet, ActivityIndicator, Pressable } from 'react-native';
 import { useAuth } from '../services/auth.service';
+import { C } from '../theme/colors';
 
 export default function LoginScreen() {
   const { login, loading } = useAuth();
@@ -24,7 +25,7 @@ export default function LoginScreen() {
       <View style={styles.form}>
         <TextInput
           placeholder="Email"
-          placeholderTextColor="#4b5975"
+          placeholderTextColor={C.placeholder}
           autoCapitalize="none"
           keyboardType="email-address"
           value={email}
@@ -33,7 +34,7 @@ export default function LoginScreen() {
         />
         <TextInput
           placeholder="Password"
-          placeholderTextColor="#4b5975"
+          placeholderTextColor={C.placeholder}
           secureTextEntry
           value={password}
           onChangeText={setPassword}
@@ -55,13 +56,13 @@ export default function LoginScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: 'center', padding: 24, backgroundColor: '#0d1117' },
+  container: { flex: 1, justifyContent: 'center', padding: 24, backgroundColor: C.bg },
   logoWrap: { alignItems: 'center', marginBottom: 24 },
-  logo: { fontSize: 48, fontWeight: '700', color: '#f1f5f9' },
-  hint: { color: '#8892a4', marginTop: 6 },
+  logo: { fontSize: 36, fontWeight: '800', letterSpacing: -1, color: C.textPrimary },
+  hint: { color: C.textSecondary, marginTop: 6, fontSize: 14 },
   form: { gap: 12 },
-  input: { borderWidth: 1, borderColor: '#2a3441', backgroundColor: '#161b27', color: '#f1f5f9', padding: 12, borderRadius: 8, marginBottom: 8 },
-  button: { backgroundColor: '#3b82f6', padding: 12, borderRadius: 8, alignItems: 'center' },
-  buttonText: { color: '#fff', fontWeight: '600' },
-  error: { color: '#b91c1c', marginBottom: 8 },
+  input: { borderWidth: 1, borderColor: C.border, backgroundColor: C.surface2, color: C.textPrimary, paddingHorizontal: 16, paddingVertical: 15, borderRadius: 14, marginBottom: 8, height: 54, fontSize: 15 },
+  button: { backgroundColor: C.blue, paddingVertical: 14, paddingHorizontal: 16, borderRadius: 14, alignItems: 'center', height: 52, justifyContent: 'center' },
+  buttonText: { color: C.textPrimary, fontWeight: '600', fontSize: 15 },
+  error: { color: C.red, marginBottom: 8 },
 });

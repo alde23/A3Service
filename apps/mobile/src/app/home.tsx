@@ -12,6 +12,7 @@ import MapView, { Marker, Polyline, PROVIDER_GOOGLE } from 'react-native-maps';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../services/auth.service';
 import { API_URL, authJsonHeaders } from '../services/api.config';
+import { C } from '../theme/colors';
 
 type JobOnMap = {
   id: string;
@@ -177,13 +178,13 @@ export default function HomeScreen() {
 
         <View style={styles.rightControls}>
           <Pressable style={styles.floatingControl}>
-            <Ionicons name="compass" size={22} color="#94a3b8" />
+            <Ionicons name="compass" size={22} color={C.textSecondary} />
           </Pressable>
           <Pressable style={styles.floatingControl}>
-            <Ionicons name="search" size={22} color="#94a3b8" />
+            <Ionicons name="search" size={22} color={C.textSecondary} />
           </Pressable>
           <Pressable style={styles.floatingControl}>
-            <Ionicons name="volume-high-outline" size={22} color="#94a3b8" />
+            <Ionicons name="volume-high-outline" size={22} color={C.textSecondary} />
           </Pressable>
         </View>
 
@@ -198,7 +199,7 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: '#e2e8f0',
+    backgroundColor: C.bg,
   },
   map: {
     ...StyleSheet.absoluteFillObject,
@@ -222,14 +223,15 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 1,
-    borderColor: 'rgba(255,255,255,0.15)',
-    backgroundColor: 'rgba(13,17,23,0.75)',
+    borderColor: C.border,
+    backgroundColor: C.surface2,
     marginRight: 8,
   },
   homeTitle: {
-    color: '#f1f5f9',
-    fontSize: 28,
+    color: C.textPrimary,
+    fontSize: 26,
     fontWeight: '700',
+    letterSpacing: -0.3,
   },
   destinationCard: {
     borderRadius: 16,
@@ -247,14 +249,15 @@ const styles = StyleSheet.create({
   },
   distanceText: {
     color: '#d1fae5',
-    fontSize: 16,
-    fontWeight: '700',
+    fontSize: 14,
+    fontWeight: '500',
   },
   placeNameText: {
     color: '#ecfeff',
-    fontSize: 24,
-    lineHeight: 28,
-    fontWeight: '700',
+    fontSize: 18,
+    lineHeight: 24,
+    fontWeight: '600',
+    letterSpacing: -0.2,
   },
   voiceButton: {
     width: 42,
@@ -273,29 +276,28 @@ const styles = StyleSheet.create({
   floatingControl: {
     width: 48,
     height: 48,
-    borderRadius: 24,
-    backgroundColor: 'rgba(13,17,23,0.88)',
+    borderRadius: 12,
+    backgroundColor: 'rgba(17,24,39,0.90)',
+    borderColor: C.border,
+    borderWidth: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    shadowColor: '#0f172a',
-    shadowOpacity: 0.18,
-    shadowRadius: 6,
-    shadowOffset: { width: 0, height: 2 },
-    elevation: 4,
   },
   bottomStatsCard: {
     position: 'absolute',
     left: 12,
     right: 12,
     bottom: 78,
-    borderRadius: 14,
-    backgroundColor: 'rgba(13,17,23,0.90)',
-    paddingVertical: 10,
-    paddingHorizontal: 12,
+    borderRadius: 16,
+    backgroundColor: 'rgba(11,15,23,0.92)',
+    borderTopColor: C.border,
+    borderTopWidth: 1,
+    paddingVertical: 12,
+    paddingHorizontal: 14,
   },
   bottomStatsText: {
-    color: '#f8fafc',
+    color: C.textPrimary,
     fontSize: 13,
-    fontWeight: '600',
+    fontWeight: '500',
   },
 });

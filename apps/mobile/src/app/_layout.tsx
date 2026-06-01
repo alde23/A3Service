@@ -6,6 +6,7 @@ import { AuthProvider, useAuth } from '../services/auth.service';
 import { DatabaseProvider } from '../storage/DatabaseProvider';
 import '../i18n';
 import { useTranslation } from 'react-i18next';
+import { C } from '../theme/colors';
 
 function TabIcon({
   name,
@@ -28,11 +29,11 @@ function AppTabs() {
       screenOptions={{
         headerShown: false,
         tabBarShowLabel: false,
-        tabBarActiveTintColor: '#0f172a',
-        tabBarInactiveTintColor: '#94a3b8',
+        tabBarActiveTintColor: C.textPrimary,
+        tabBarInactiveTintColor: C.textTertiary,
         tabBarStyle: {
-          backgroundColor: '#ffffff',
-          borderTopColor: '#e2e8f0',
+          backgroundColor: C.surface1,
+          borderTopColor: C.border,
           height: Platform.select({ ios: 88, default: 64 }),
           paddingTop: 8,
           paddingBottom: Platform.select({ ios: 24, default: 10 }),

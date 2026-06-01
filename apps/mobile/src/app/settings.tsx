@@ -13,6 +13,7 @@ import i18n from '../i18n';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useAuth } from '../services/auth.service';
 import { useTranslation } from 'react-i18next';
+import { C } from '../theme/colors';
 
 const STORAGE_KEYS = {
   language: 'user-language',
@@ -66,10 +67,10 @@ export default function SettingsScreen() {
   };
 
   const isDark = darkMode;
-  const bgColor = isDark ? '#0d1117' : '#ffffff';
-  const textColor = isDark ? '#f1f5f9' : '#0f172a';
-  const cardBg = isDark ? '#161b27' : '#f8fafc';
-  const borderColor = isDark ? '#2a3441' : '#e2e8f0';
+  const bgColor = isDark ? C.bg : '#ffffff';
+  const textColor = isDark ? C.textPrimary : '#0f172a';
+  const cardBg = isDark ? C.surface1 : '#f8fafc';
+  const borderColor = isDark ? C.border : '#e2e8f0';
 
   return (
     <SafeAreaView style={[styles.safeArea, { backgroundColor: bgColor }]}>
@@ -79,7 +80,7 @@ export default function SettingsScreen() {
           <Text style={[styles.title, { color: textColor }]}>
             {t('settings.title') || 'Settings'}
           </Text>
-          <Text style={[styles.subtitle, { color: isDark ? '#8892a4' : '#64748b' }]}>
+          <Text style={[styles.subtitle, { color: isDark ? C.textSecondary : '#64748b' }]}>
             {user?.username || 'User'}
           </Text>
         </View>
@@ -91,18 +92,18 @@ export default function SettingsScreen() {
               <Ionicons
                 name="language"
                 size={24}
-                color={isDark ? '#cbd5e1' : '#64748b'}
+                color={isDark ? C.textSecondary : '#64748b'}
               />
               <Text style={[styles.label, { color: textColor }]}>
                 {t('settings.language') || 'Language'}
               </Text>
             </View>
             <View style={styles.value}>
-              <Text style={[styles.valueText, { color: isDark ? '#94a3b8' : '#64748b' }]}>
+              <Text style={[styles.valueText, { color: isDark ? C.textSecondary : '#64748b' }]}>
                 {lang === 'bs' ? 'Bosanski' : 'English'}
               </Text>
-              <Pressable onPress={toggleLanguage} style={[styles.badge, { backgroundColor: isDark ? '#334155' : '#eef2ff' }]}>
-                <Text style={[styles.badgeText, { color: isDark ? '#e0e7ff' : '#0f172a' }]}>
+              <Pressable onPress={toggleLanguage} style={[styles.badge, { backgroundColor: isDark ? C.surface2 : '#eef2ff' }]}>
+                <Text style={[styles.badgeText, { color: isDark ? C.blue : '#0f172a' }]}>
                   {lang === 'bs' ? 'BS' : 'EN'}
                 </Text>
               </Pressable>
@@ -117,7 +118,7 @@ export default function SettingsScreen() {
               <Ionicons
                 name={darkMode ? 'moon' : 'sunny'}
                 size={24}
-                color={isDark ? '#cbd5e1' : '#64748b'}
+                color={isDark ? C.textSecondary : '#64748b'}
               />
               <Text style={[styles.label, { color: textColor }]}>
                 {t('settings.dark_mode') || 'Dark Mode'}
@@ -135,7 +136,7 @@ export default function SettingsScreen() {
         {/* Profile Section */}
         <View style={[styles.card, { backgroundColor: cardBg, borderColor }]}>
           <View style={styles.infoRow}>
-            <Text style={[styles.infoLabel, { color: isDark ? '#94a3b8' : '#64748b' }]}>
+            <Text style={[styles.infoLabel, { color: isDark ? C.textSecondary : '#64748b' }]}>
               {t('settings.user_id') || 'User ID'}
             </Text>
             <Text style={[styles.infoValue, { color: textColor }]}>
@@ -144,7 +145,7 @@ export default function SettingsScreen() {
           </View>
           <View style={[styles.divider, { backgroundColor: borderColor }]} />
           <View style={styles.infoRow}>
-            <Text style={[styles.infoLabel, { color: isDark ? '#94a3b8' : '#64748b' }]}>
+            <Text style={[styles.infoLabel, { color: isDark ? C.textSecondary : '#64748b' }]}>
               {t('settings.username') || 'Username'}
             </Text>
             <Text style={[styles.infoValue, { color: textColor }]}>
@@ -159,13 +160,13 @@ export default function SettingsScreen() {
             <Ionicons
               name="cube-outline"
               size={48}
-              color={isDark ? '#475569' : '#cbd5e1'}
+              color={isDark ? C.textTertiary : '#cbd5e1'}
               style={styles.placeholderIcon}
             />
             <Text style={[styles.placeholderTitle, { color: textColor }]}>
               {t('settings.more_coming') || 'More Features Coming'}
             </Text>
-            <Text style={[styles.placeholderText, { color: isDark ? '#94a3b8' : '#94a3b8' }]}>
+            <Text style={[styles.placeholderText, { color: isDark ? C.textSecondary : '#94a3b8' }]}>
               {t('settings.more_coming_desc') ||
                 'Additional settings and features will be added soon'}
             </Text>
@@ -175,14 +176,14 @@ export default function SettingsScreen() {
         {/* Logout Button */}
         <Pressable
           onPress={handleLogout}
-          style={[styles.logoutButton, { backgroundColor: isDark ? '#7f1d1d' : '#fee2e2' }]}
+          style={[styles.logoutButton, { backgroundColor: isDark ? C.redSoft : '#fee2e2' }]}
         >
           <Ionicons
             name="log-out-outline"
             size={20}
-            color={isDark ? '#fca5a5' : '#dc2626'}
+            color={isDark ? C.red : '#dc2626'}
           />
-          <Text style={[styles.logoutText, { color: isDark ? '#fca5a5' : '#dc2626' }]}>
+          <Text style={[styles.logoutText, { color: isDark ? C.red : '#dc2626' }]}>
             {t('settings.logout') || 'Logout'}
           </Text>
         </Pressable>
@@ -203,17 +204,18 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   title: {
-    fontSize: 28,
+    fontSize: 26,
     fontWeight: '700',
     marginBottom: 4,
+    letterSpacing: -0.3,
   },
   subtitle: {
     fontSize: 14,
-    fontWeight: '500',
+    fontWeight: '400',
   },
   card: {
     marginBottom: 16,
-    borderRadius: 12,
+    borderRadius: 16,
     padding: 16,
     borderWidth: 1,
   },
@@ -228,8 +230,8 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   label: {
-    fontSize: 16,
-    fontWeight: '600',
+    fontSize: 15,
+    fontWeight: '500',
   },
   value: {
     flexDirection: 'row',
@@ -238,7 +240,7 @@ const styles = StyleSheet.create({
   },
   valueText: {
     fontSize: 14,
-    fontWeight: '500',
+    fontWeight: '400',
   },
   badge: {
     paddingHorizontal: 12,
@@ -253,19 +255,20 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingVertical: 8,
+    paddingVertical: 12,
+    paddingHorizontal: 0,
   },
   infoLabel: {
     fontSize: 14,
-    fontWeight: '500',
+    fontWeight: '400',
   },
   infoValue: {
     fontSize: 14,
-    fontWeight: '600',
+    fontWeight: '500',
   },
   divider: {
     height: 1,
-    marginVertical: 8,
+    marginVertical: 0,
   },
   placeholderContent: {
     alignItems: 'center',
@@ -290,12 +293,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,
-    paddingVertical: 12,
-    borderRadius: 8,
+    paddingVertical: 14,
+    borderRadius: 16,
     marginTop: 8,
+    borderWidth: 1,
+    borderColor: 'transparent',
   },
   logoutText: {
     fontWeight: '600',
-    fontSize: 14,
+    fontSize: 15,
   },
 });

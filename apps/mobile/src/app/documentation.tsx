@@ -12,6 +12,7 @@ import {
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../services/auth.service';
 import { searchLibrary, LibrarySearchResult } from '../services/library-api.service';
+import { C } from '../theme/colors';
 
 type DocumentationItem = {
   id: string;
@@ -105,36 +106,40 @@ const HIGHLIGHT_ITEMS = [
 function accentColors(accent: DocumentationItem['accent']) {
   if (accent === 'blue') {
     return {
-      pillBg: '#1e3a5f',
-      pillText: '#60a5fa',
+      pillBg: C.blueSoft,
+      pillText: C.blue,
       border: '#1d4ed8',
-      cardBg: '#161b27',
+      cardBg: C.surface1,
+      accentLine: C.blue,
     };
   }
 
   if (accent === 'amber') {
     return {
-      pillBg: '#451a03',
-      pillText: '#fbbf24',
+      pillBg: C.amberSoft,
+      pillText: C.amber,
       border: '#92400e',
-      cardBg: '#1e1208',
+      cardBg: C.surface1,
+      accentLine: C.amber,
     };
   }
 
   if (accent === 'emerald') {
     return {
-      pillBg: '#064e3b',
-      pillText: '#34d399',
+      pillBg: C.greenSoft,
+      pillText: C.green,
       border: '#065f46',
-      cardBg: '#0a1f13',
+      cardBg: C.surface1,
+      accentLine: C.green,
     };
   }
 
   return {
-    pillBg: '#1e293b',
-    pillText: '#94a3b8',
-    border: '#334155',
-    cardBg: '#161b27',
+    pillBg: C.surface2,
+    pillText: C.textSecondary,
+    border: C.border2,
+    cardBg: C.surface1,
+    accentLine: C.border2,
   };
 }
 
@@ -197,7 +202,7 @@ export default function DocumentationScreen() {
       <View style={styles.header}>
         <View style={styles.titleRow}>
           <View style={styles.iconWrap}>
-            <Ionicons name="document-text-outline" size={18} color="#0f172a" />
+            <Ionicons name="document-text-outline" size={18} color={C.textPrimary} />
           </View>
           <Text style={styles.headerTitle}>{t('documentation.title')}</Text>
         </View>
@@ -346,15 +351,14 @@ export default function DocumentationScreen() {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: '#0d1117',
+    backgroundColor: C.bg,
   },
   header: {
-    backgroundColor: '#1a2744',
+    backgroundColor: C.surface3,
     paddingHorizontal: 16,
-    paddingTop: 8,
-    paddingBottom: 14,
-    borderBottomWidth: 1,
-    borderBottomColor: '#1e40af',
+    paddingTop: 20,
+    paddingBottom: 24,
+    borderBottomWidth: 0,
   },
   titleRow: {
     flexDirection: 'row',
@@ -366,21 +370,22 @@ const styles = StyleSheet.create({
     height: 24,
     borderRadius: 12,
     borderWidth: 1,
-    borderColor: '#0f172a',
+    borderColor: C.border,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#60a5fa',
+    backgroundColor: C.surface2,
   },
   headerTitle: {
-    color: '#0f172a',
+    color: C.textPrimary,
     fontSize: 26,
     fontWeight: '700',
+    letterSpacing: -0.3,
   },
   headerCopy: {
     marginTop: 8,
-    color: '#dbeafe',
-    fontSize: 16,
-    fontWeight: '500',
+    color: C.textSecondary,
+    fontSize: 14,
+    fontWeight: '400',
     lineHeight: 21,
   },
   searchPanel: {
@@ -394,35 +399,34 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,
-    backgroundColor: '#161b27',
+    backgroundColor: C.surface2,
     borderRadius: 14,
     paddingHorizontal: 12,
-    height: 48,
+    height: 54,
     borderWidth: 1,
-    borderColor: '#374151',
+    borderColor: C.border,
   },
   searchInput: {
     flex: 1,
-    color: '#f1f5f9',
-    fontSize: 14,
-    fontWeight: '500',
+    color: C.textPrimary,
+    fontSize: 15,
+    fontWeight: '400',
     paddingVertical: 0,
   },
   searchButton: {
-    height: 48,
+    height: 44,
     paddingHorizontal: 16,
-    borderRadius: 14,
-    backgroundColor: '#3b82f6',
+    borderRadius: 12,
+    backgroundColor: C.blue,
     alignItems: 'center',
     justifyContent: 'center',
-    borderWidth: 1,
-    borderColor: '#3b82f6',
+    borderWidth: 0,
   },
   searchButtonText: {
-    color: '#ffffff',
-    fontSize: 12,
-    fontWeight: '800',
-    letterSpacing: 0.5,
+    color: C.textPrimary,
+    fontSize: 15,
+    fontWeight: '600',
+    letterSpacing: 0.2,
   },
   pillsRow: {
     paddingTop: 12,
@@ -431,62 +435,60 @@ const styles = StyleSheet.create({
   },
   categoryPill: {
     borderRadius: 999,
-    backgroundColor: 'rgba(255,255,255,0.18)',
+    backgroundColor: C.surface2,
     borderWidth: 1,
-    borderColor: 'rgba(255,255,255,0.25)',
-    paddingHorizontal: 12,
+    borderColor: C.border,
+    paddingHorizontal: 14,
     paddingVertical: 7,
+    height: 32,
   },
   categoryPillText: {
-    color: '#ffffff',
+    color: C.textSecondary,
     fontSize: 12,
-    fontWeight: '700',
+    fontWeight: '500',
   },
   scroll: {
     flex: 1,
   },
   scrollContent: {
-    paddingHorizontal: 10,
-    paddingTop: 10,
-    paddingBottom: 24,
+    paddingHorizontal: 16,
+    paddingTop: 16,
+    paddingBottom: 32,
   },
   sectionHeaderRow: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    marginBottom: 8,
-    paddingHorizontal: 4,
+    marginBottom: 12,
+    marginTop: 28,
   },
   sectionTitle: {
-    color: '#f1f5f9',
-    fontSize: 22,
+    color: C.textTertiary,
+    fontSize: 11,
     fontWeight: '600',
+    letterSpacing: 1.2,
+    textTransform: 'uppercase',
   },
   counterPill: {
-    paddingHorizontal: 8,
+    paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 8,
-    backgroundColor: '#1e2737',
+    borderRadius: 999,
+    backgroundColor: C.surface2,
   },
   counterText: {
-    color: '#3b82f6',
+    color: C.blue,
     fontSize: 12,
-    fontWeight: '700',
+    fontWeight: '600',
   },
   heroCard: {
-    backgroundColor: '#161b27',
-    borderRadius: 12,
+    backgroundColor: C.surface1,
+    borderRadius: 16,
     borderWidth: 1,
-    borderColor: '#2a3441',
-    borderLeftWidth: 2,
-    borderLeftColor: '#3b82f6',
-    padding: 14,
-    marginBottom: 10,
-    shadowColor: '#0f172a',
-    shadowOpacity: 0.05,
-    shadowRadius: 8,
-    shadowOffset: { width: 0, height: 3 },
-    elevation: 1,
+    borderColor: C.border,
+    borderLeftWidth: 3,
+    borderLeftColor: C.blue,
+    padding: 16,
+    marginBottom: 12,
   },
   heroTopRow: {
     flexDirection: 'row',
@@ -495,21 +497,22 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   heroBadge: {
-    backgroundColor: '#dbeafe',
+    backgroundColor: C.blueSoft,
     paddingHorizontal: 10,
     paddingVertical: 5,
     borderRadius: 999,
   },
   heroBadgeText: {
-    color: '#1d4ed8',
+    color: C.blue,
     fontSize: 12,
-    fontWeight: '700',
+    fontWeight: '600',
   },
   heroTitle: {
-    color: '#f1f5f9',
-    fontSize: 20,
+    color: C.textPrimary,
+    fontSize: 17,
     lineHeight: 26,
-    fontWeight: '700',
+    fontWeight: '600',
+    letterSpacing: -0.2,
   },
   heroList: {
     marginTop: 12,
@@ -521,27 +524,22 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   heroDot: {
-    width: 7,
-    height: 7,
-    borderRadius: 3.5,
-    backgroundColor: '#2563eb',
+    width: 6,
+    height: 6,
+    borderRadius: 3,
+    backgroundColor: C.blue,
   },
   heroListText: {
-    color: '#8892a4',
+    color: C.textSecondary,
     fontSize: 13,
-    fontWeight: '600',
+    fontWeight: '400',
   },
   card: {
-    backgroundColor: '#161b27',
-    borderRadius: 12,
+    backgroundColor: C.surface1,
+    borderRadius: 16,
     borderWidth: 1,
-    padding: 12,
-    marginBottom: 10,
-    shadowColor: '#0f172a',
-    shadowOpacity: 0.05,
-    shadowRadius: 8,
-    shadowOffset: { width: 0, height: 3 },
-    elevation: 1,
+    padding: 16,
+    marginBottom: 8,
   },
   cardTopRow: {
     flexDirection: 'row',
@@ -561,26 +559,27 @@ const styles = StyleSheet.create({
   },
   categoryTagText: {
     fontSize: 12,
-    fontWeight: '700',
+    fontWeight: '600',
   },
   cardTitle: {
-    color: '#f1f5f9',
-    fontSize: 22,
-    lineHeight: 27,
-    fontWeight: '700',
+    color: C.textPrimary,
+    fontSize: 17,
+    lineHeight: 22,
+    fontWeight: '600',
+    letterSpacing: -0.2,
   },
   cardSubtitle: {
     marginTop: 4,
-    color: '#8892a4',
-    fontSize: 14,
-    fontWeight: '600',
+    color: C.textSecondary,
+    fontSize: 13,
+    fontWeight: '400',
   },
   cardSummary: {
     marginTop: 10,
-    color: '#8892a4',
-    fontSize: 14,
+    color: C.textSecondary,
+    fontSize: 13,
     lineHeight: 20,
-    fontWeight: '500',
+    fontWeight: '400',
   },
   keywordRow: {
     marginTop: 12,
@@ -591,35 +590,33 @@ const styles = StyleSheet.create({
   keywordPill: {
     borderRadius: 999,
     paddingHorizontal: 10,
-    paddingVertical: 6,
-    backgroundColor: '#1e2737',
+    paddingVertical: 4,
   },
   keywordText: {
-    color: '#8892a4',
+    color: C.textSecondary,
     fontSize: 12,
-    fontWeight: '600',
-    textTransform: 'lowercase',
+    fontWeight: '400',
   },
   emptyCard: {
-    backgroundColor: '#161b27',
-    borderRadius: 12,
+    backgroundColor: C.surface1,
+    borderRadius: 16,
     borderWidth: 1,
-    borderColor: '#2a3441',
+    borderColor: C.border,
     padding: 18,
     alignItems: 'center',
     justifyContent: 'center',
   },
   emptyTitle: {
     marginTop: 10,
-    color: '#f1f5f9',
+    color: C.textPrimary,
     fontSize: 18,
-    fontWeight: '700',
+    fontWeight: '600',
     textAlign: 'center',
   },
   emptyText: {
     marginTop: 6,
-    color: '#8892a4',
-    fontSize: 14,
+    color: C.textSecondary,
+    fontSize: 13,
     lineHeight: 20,
     textAlign: 'center',
   },

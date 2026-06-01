@@ -20,6 +20,7 @@ import Job from '../storage/models/Job';
 import { observePendingSyncCount } from '../storage/repositories/sync-queue.repository';
 import { useAuth } from '../services/auth.service';
 import { syncJobsWithServer } from '../services/jobs-sync.service';
+import { C } from '../theme/colors';
 
 function formatTime(date: Date) {
   return date.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
@@ -178,7 +179,7 @@ export default function JobsScreen() {
       <View style={styles.header}>
         <View style={styles.headerTitleRow}>
           <View style={styles.headerIconWrap}>
-            <Ionicons name="briefcase-outline" size={18} color="#0f172a" />
+            <Ionicons name="briefcase-outline" size={18} color={C.textPrimary} />
           </View>
           <Text style={styles.headerTitle}>{t('jobs.title')}</Text>
         </View>
@@ -344,15 +345,14 @@ export default function JobsScreen() {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: '#0d1117',
+    backgroundColor: C.bg,
   },
   header: {
-    backgroundColor: '#1a2744',
+    backgroundColor: C.surface3,
     paddingHorizontal: 16,
-    paddingTop: 8,
-    paddingBottom: 16,
-    borderBottomWidth: 1,
-    borderBottomColor: '#1e40af',
+    paddingTop: 20,
+    paddingBottom: 24,
+    borderBottomWidth: 0,
   },
   headerTitleRow: {
     flexDirection: 'row',
@@ -364,25 +364,28 @@ const styles = StyleSheet.create({
     height: 24,
     borderRadius: 12,
     borderWidth: 1,
-    borderColor: '#0f172a',
+    borderColor: C.border,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#60a5fa',
+    backgroundColor: C.surface2,
   },
   headerTitle: {
-    color: '#0f172a',
+    color: C.textPrimary,
     fontSize: 26,
     fontWeight: '700',
+    letterSpacing: -0.3,
   },
   createButton: {
     marginTop: 14,
     alignSelf: 'center',
     width: '74%',
-    borderWidth: 1.5,
-    borderColor: 'rgba(255,255,255,0.3)',
+    borderWidth: 1,
+    borderColor: C.border2,
     borderRadius: 14,
     backgroundColor: 'transparent',
     paddingVertical: 12,
+    paddingHorizontal: 16,
+    height: 48,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -390,14 +393,14 @@ const styles = StyleSheet.create({
     opacity: 0.6,
   },
   createButtonText: {
-    color: '#f1f5f9',
-    fontSize: 13,
-    fontWeight: '800',
-    letterSpacing: 0.4,
+    color: C.textPrimary,
+    fontSize: 15,
+    fontWeight: '600',
+    letterSpacing: 0.2,
   },
   syncStateText: {
     marginTop: 8,
-    color: '#8892a4',
+    color: C.textSecondary,
     fontSize: 12,
     fontWeight: '600',
     textAlign: 'center',
@@ -407,62 +410,61 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     width: '74%',
     borderWidth: 1,
-    borderColor: '#3b82f6',
-    borderRadius: 12,
-    backgroundColor: '#161b27',
-    paddingVertical: 10,
+    borderColor: C.blue,
+    borderRadius: 14,
+    backgroundColor: C.surface2,
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    height: 48,
     alignItems: 'center',
     justifyContent: 'center',
   },
   syncButtonText: {
-    color: '#3b82f6',
-    fontSize: 12,
-    fontWeight: '700',
-    letterSpacing: 0.4,
+    color: C.blue,
+    fontSize: 15,
+    fontWeight: '600',
+    letterSpacing: 0.2,
   },
   scroll: {
     flex: 1,
   },
   scrollContent: {
-    paddingHorizontal: 8,
-    paddingTop: 10,
-    paddingBottom: 24,
+    paddingHorizontal: 16,
+    paddingTop: 16,
+    paddingBottom: 32,
   },
   sectionHeaderRow: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    marginBottom: 8,
-    paddingHorizontal: 4,
+    marginBottom: 12,
+    marginTop: 28,
   },
   sectionTitle: {
-    color: '#f1f5f9',
-    fontSize: 22,
+    color: C.textTertiary,
+    fontSize: 11,
     fontWeight: '600',
+    letterSpacing: 1.2,
+    textTransform: 'uppercase',
   },
   counterPill: {
-    paddingHorizontal: 8,
+    paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 8,
-    backgroundColor: '#1e2737',
+    borderRadius: 999,
+    backgroundColor: C.surface2,
   },
   counterText: {
-    color: '#3b82f6',
+    color: C.blue,
     fontSize: 12,
-    fontWeight: '700',
+    fontWeight: '600',
   },
   card: {
-    backgroundColor: '#161b27',
-    borderRadius: 12,
+    backgroundColor: C.surface1,
+    borderRadius: 16,
     borderWidth: 1,
-    borderColor: '#2a3441',
-    padding: 12,
-    marginBottom: 10,
-    shadowColor: '#0f172a',
-    shadowOpacity: 0.05,
-    shadowRadius: 8,
-    shadowOffset: { width: 0, height: 3 },
-    elevation: 1,
+    borderColor: C.border,
+    padding: 16,
+    marginBottom: 8,
   },
   cardTopRow: {
     flexDirection: 'row',
@@ -475,29 +477,31 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   jobId: {
-    color: '#8892a4',
-    fontSize: 15,
-    fontWeight: '700',
+    color: C.textTertiary,
+    fontSize: 11,
+    fontWeight: '600',
+    letterSpacing: 0.5,
   },
   statusPill: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 6,
-    borderRadius: 8,
+    gap: 5,
+    borderRadius: 999,
     paddingHorizontal: 8,
-    paddingVertical: 4,
+    paddingLeft: 6,
+    height: 24,
   },
   statusActivePill: {
-    backgroundColor: '#064e3b',
+    backgroundColor: C.greenSoft,
   },
   statusUpcomingPill: {
-    backgroundColor: '#1e293b',
+    backgroundColor: C.surface2,
   },
   statusCompletedPill: {
-    backgroundColor: '#1e3a5f',
+    backgroundColor: C.blueSoft,
   },
   statusCancelledPill: {
-    backgroundColor: '#450a0a',
+    backgroundColor: C.redSoft,
   },
   statusDot: {
     width: 6,
@@ -505,47 +509,50 @@ const styles = StyleSheet.create({
     borderRadius: 3,
   },
   statusActiveDot: {
-    backgroundColor: '#22c55e',
+    backgroundColor: C.green,
   },
   statusUpcomingDot: {
-    backgroundColor: '#475569',
+    backgroundColor: C.textSecondary,
   },
   statusCompletedDot: {
-    backgroundColor: '#3b82f6',
+    backgroundColor: C.blue,
   },
   statusCancelledDot: {
-    backgroundColor: '#ef4444',
+    backgroundColor: C.red,
   },
   statusText: {
     fontSize: 12,
-    fontWeight: '700',
+    fontWeight: '500',
   },
   statusActiveText: {
-    color: '#4ade80',
+    color: C.green,
   },
   statusUpcomingText: {
-    color: '#94a3b8',
+    color: C.textSecondary,
   },
   statusCompletedText: {
-    color: '#93c5fd',
+    color: C.blue,
   },
   statusCancelledText: {
-    color: '#fca5a5',
+    color: C.red,
   },
   companyName: {
     marginTop: 8,
-    color: '#f1f5f9',
-    fontSize: 24,
-    fontWeight: '700',
+    color: C.textPrimary,
+    fontSize: 17,
+    fontWeight: '600',
+    letterSpacing: -0.2,
   },
   jobDescription: {
     marginTop: 2,
-    color: '#8892a4',
-    fontSize: 14,
-    fontWeight: '500',
+    color: C.textSecondary,
+    fontSize: 13,
   },
   bottomMetaRow: {
     marginTop: 10,
+    paddingTop: 10,
+    borderTopWidth: 1,
+    borderTopColor: C.border,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
@@ -556,43 +563,44 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   metaText: {
-    color: '#8892a4',
-    fontSize: 13,
-    fontWeight: '600',
+    color: C.textSecondary,
+    fontSize: 12,
+    fontWeight: '500',
   },
   jobActionButton: {
     marginTop: 12,
-    borderRadius: 10,
+    borderRadius: 12,
     alignItems: 'center',
     justifyContent: 'center',
     paddingVertical: 10,
+    height: 44,
   },
   continueButtonBackground: {
-    backgroundColor: '#2563eb',
+    backgroundColor: C.blue,
   },
   startButtonBackground: {
-    backgroundColor: '#1e2737',
+    backgroundColor: C.surface2,
   },
   completedButtonBackground: {
-    backgroundColor: '#dbeafe',
+    backgroundColor: C.surface2,
   },
   cancelledButtonBackground: {
-    backgroundColor: '#fee2e2',
+    backgroundColor: C.surface2,
   },
   jobActionButtonText: {
-    fontSize: 17,
-    fontWeight: '700',
+    fontSize: 15,
+    fontWeight: '600',
   },
   continueButtonText: {
-    color: '#ffffff',
+    color: C.textPrimary,
   },
   startButtonText: {
-    color: '#8892a4',
+    color: C.textSecondary,
   },
   completedButtonText: {
-    color: '#1d4ed8',
+    color: C.textSecondary,
   },
   cancelledButtonText: {
-    color: '#b91c1c',
+    color: C.textSecondary,
   },
 });

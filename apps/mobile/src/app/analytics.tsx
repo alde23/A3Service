@@ -19,6 +19,7 @@ import {
   MonthlyMetric,
 } from '../services/analytics-api.service';
 import { observeExpenses, addExpense } from '../storage/repositories/expenses.repository';
+import { C } from '../theme/colors';
 
 type MetricCard = {
   label: string;
@@ -67,18 +68,18 @@ const TRENDS = ['2024', '2025', '2026', 'YTD'];
 
 function toneStyles(tone: MetricCard['tone']) {
   if (tone === 'blue') {
-    return { bg: '#1e3a5f', text: '#60a5fa', ring: '#1d4ed8' };
+    return { bg: C.blueSoft, text: C.blue, ring: '#1d4ed8' };
   }
 
   if (tone === 'emerald') {
-    return { bg: '#064e3b', text: '#34d399', ring: '#065f46' };
+    return { bg: C.greenSoft, text: C.green, ring: '#065f46' };
   }
 
   if (tone === 'amber') {
-    return { bg: '#451a03', text: '#fbbf24', ring: '#92400e' };
+    return { bg: C.amberSoft, text: C.amber, ring: '#92400e' };
   }
 
-  return { bg: '#1e293b', text: '#94a3b8', ring: '#334155' };
+  return { bg: C.surface2, text: C.textSecondary, ring: C.border2 };
 }
 
 export default function AnalyticsScreen() {
@@ -174,7 +175,7 @@ export default function AnalyticsScreen() {
       <View style={styles.header}>
         <View style={styles.titleRow}>
           <View style={styles.iconWrap}>
-            <Ionicons name="bar-chart-outline" size={18} color="#0f172a" />
+            <Ionicons name="bar-chart-outline" size={18} color={C.textPrimary} />
           </View>
           <Text style={styles.headerTitle}>{t('analytics.title')}</Text>
         </View>
@@ -201,7 +202,7 @@ export default function AnalyticsScreen() {
           </View>
 
           <Pressable style={styles.exportButton}>
-            <Ionicons name="download-outline" size={16} color="#0f172a" />
+            <Ionicons name="download-outline" size={16} color={C.bg} />
             <Text style={styles.exportButtonText}>{t('analytics.export')}</Text>
           </Pressable>
         </View>
@@ -360,28 +361,27 @@ export default function AnalyticsScreen() {
 }
 
 const styles = StyleSheet.create({
-  addExpenseBtn: { backgroundColor: '#dbeafe', padding: 8, borderRadius: 8, alignItems: 'center' },
-  addExpenseBtnText: { color: '#1d4ed8', fontWeight: 'bold' },
+  addExpenseBtn: { backgroundColor: C.blueSoft, padding: 8, borderRadius: 8, alignItems: 'center' },
+  addExpenseBtnText: { color: C.blue, fontWeight: 'bold' },
   modalOverlay: { flex: 1, backgroundColor: 'rgba(0,0,0,0.5)', justifyContent: 'center', padding: 20 },
-  modalContent: { backgroundColor: 'white', padding: 20, borderRadius: 12 },
-  modalTitle: { fontSize: 18, fontWeight: 'bold', marginBottom: 15 },
-  input: { borderWidth: 1, borderColor: '#ccc', borderRadius: 8, padding: 10, marginBottom: 15 },
+  modalContent: { backgroundColor: C.surface1, padding: 20, borderRadius: 12 },
+  modalTitle: { fontSize: 18, fontWeight: 'bold', marginBottom: 15, color: C.textPrimary },
+  input: { borderWidth: 1, borderColor: C.border, borderRadius: 8, padding: 10, marginBottom: 15, backgroundColor: C.surface2, color: C.textPrimary },
   modalActions: { flexDirection: 'row', justifyContent: 'flex-end', gap: 10 },
   modalBtnCancel: { padding: 10 },
-  modalBtnCancelText: { color: '#64748b', fontWeight: 'bold' },
-  modalBtnSave: { backgroundColor: '#2563eb', padding: 10, borderRadius: 8 },
-  modalBtnSaveText: { color: 'white', fontWeight: 'bold' },
+  modalBtnCancelText: { color: C.textSecondary, fontWeight: 'bold' },
+  modalBtnSave: { backgroundColor: C.blue, padding: 10, borderRadius: 8 },
+  modalBtnSaveText: { color: C.textPrimary, fontWeight: 'bold' },
   safeArea: {
     flex: 1,
-    backgroundColor: '#0d1117',
+    backgroundColor: C.bg,
   },
   header: {
-    backgroundColor: '#1a2744',
+    backgroundColor: C.surface3,
     paddingHorizontal: 16,
-    paddingTop: 8,
-    paddingBottom: 14,
-    borderBottomWidth: 1,
-    borderBottomColor: '#1e40af',
+    paddingTop: 20,
+    paddingBottom: 24,
+    borderBottomWidth: 0,
   },
   titleRow: {
     flexDirection: 'row',
@@ -393,21 +393,22 @@ const styles = StyleSheet.create({
     height: 24,
     borderRadius: 12,
     borderWidth: 1,
-    borderColor: '#0f172a',
+    borderColor: C.border,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#60a5fa',
+    backgroundColor: C.surface2,
   },
   headerTitle: {
-    color: '#0f172a',
+    color: C.textPrimary,
     fontSize: 26,
     fontWeight: '700',
+    letterSpacing: -0.3,
   },
   headerCopy: {
     marginTop: 8,
-    color: '#dbeafe',
-    fontSize: 16,
-    fontWeight: '500',
+    color: C.textSecondary,
+    fontSize: 14,
+    fontWeight: '400',
     lineHeight: 21,
   },
   topActions: {
@@ -425,22 +426,24 @@ const styles = StyleSheet.create({
   },
   filterPill: {
     borderRadius: 999,
-    backgroundColor: 'rgba(255,255,255,0.18)',
+    backgroundColor: C.surface2,
     borderWidth: 1,
-    borderColor: 'rgba(255,255,255,0.25)',
-    paddingHorizontal: 12,
+    borderColor: C.border,
+    paddingHorizontal: 14,
     paddingVertical: 7,
+    height: 32,
   },
   filterPillActive: {
-    backgroundColor: '#ffffff',
+    backgroundColor: C.blueSoft,
+    borderColor: C.blue,
   },
   filterPillText: {
-    color: '#ffffff',
+    color: C.textSecondary,
     fontSize: 12,
-    fontWeight: '700',
+    fontWeight: '500',
   },
   filterPillTextActive: {
-    color: '#0f172a',
+    color: C.blue,
   },
   exportButton: {
     flexDirection: 'row',
@@ -449,34 +452,29 @@ const styles = StyleSheet.create({
     height: 42,
     paddingHorizontal: 14,
     borderRadius: 12,
-    backgroundColor: '#ffffff',
+    backgroundColor: C.blue,
   },
   exportButtonText: {
-    color: '#0f172a',
-    fontSize: 12,
-    fontWeight: '800',
-    letterSpacing: 0.4,
+    color: C.textPrimary,
+    fontSize: 15,
+    fontWeight: '600',
+    letterSpacing: 0.2,
   },
   scroll: {
     flex: 1,
   },
   scrollContent: {
-    paddingHorizontal: 10,
-    paddingTop: 10,
-    paddingBottom: 24,
+    paddingHorizontal: 16,
+    paddingTop: 16,
+    paddingBottom: 32,
   },
   summaryCard: {
-    backgroundColor: '#161b27',
-    borderRadius: 14,
+    backgroundColor: C.surface1,
+    borderRadius: 16,
     borderWidth: 1,
-    borderColor: '#2a3441',
-    padding: 14,
-    marginBottom: 10,
-    shadowColor: '#0f172a',
-    shadowOpacity: 0.05,
-    shadowRadius: 8,
-    shadowOffset: { width: 0, height: 3 },
-    elevation: 1,
+    borderColor: C.border,
+    padding: 16,
+    marginBottom: 12,
   },
   summaryTopRow: {
     flexDirection: 'row',
@@ -485,26 +483,29 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   summaryLabel: {
-    color: '#8892a4',
-    fontSize: 13,
+    color: C.textTertiary,
+    fontSize: 11,
     fontWeight: '600',
+    letterSpacing: 1,
+    textTransform: 'uppercase',
   },
   summaryValue: {
     marginTop: 4,
-    color: '#f1f5f9',
-    fontSize: 26,
-    fontWeight: '800',
+    color: C.textPrimary,
+    fontSize: 32,
+    fontWeight: '700',
+    letterSpacing: -0.5,
   },
   summaryBadge: {
     borderRadius: 999,
-    backgroundColor: '#064e3b',
+    backgroundColor: C.greenSoft,
     paddingHorizontal: 10,
     paddingVertical: 5,
   },
   summaryBadgeText: {
-    color: '#4ade80',
+    color: C.green,
     fontSize: 12,
-    fontWeight: '800',
+    fontWeight: '600',
   },
   summaryStatsRow: {
     marginTop: 14,
@@ -515,39 +516,34 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   summaryStatLabel: {
-    color: '#64748b',
+    color: C.textSecondary,
     fontSize: 12,
-    fontWeight: '600',
+    fontWeight: '500',
   },
   summaryStatValue: {
     marginTop: 4,
-    color: '#f1f5f9',
-    fontSize: 18,
+    color: C.textPrimary,
+    fontSize: 22,
     fontWeight: '700',
   },
   summaryDivider: {
     width: 1,
     alignSelf: 'stretch',
     marginHorizontal: 10,
-    backgroundColor: '#2a3441',
+    backgroundColor: C.border,
   },
   grid: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    gap: 10,
-    marginBottom: 10,
+    gap: 12,
+    marginBottom: 12,
   },
   metricCard: {
     width: '48%',
-    backgroundColor: '#161b27',
-    borderRadius: 12,
+    backgroundColor: C.surface1,
+    borderRadius: 16,
     borderWidth: 1,
-    padding: 12,
-    shadowColor: '#0f172a',
-    shadowOpacity: 0.05,
-    shadowRadius: 8,
-    shadowOffset: { width: 0, height: 3 },
-    elevation: 1,
+    padding: 16,
   },
   metricChip: {
     alignSelf: 'flex-start',
@@ -558,50 +554,54 @@ const styles = StyleSheet.create({
   },
   metricDelta: {
     fontSize: 12,
-    fontWeight: '800',
+    fontWeight: '600',
   },
   metricValue: {
-    color: '#f1f5f9',
-    fontSize: 24,
-    lineHeight: 28,
-    fontWeight: '800',
+    color: C.textPrimary,
+    fontSize: 28,
+    lineHeight: 32,
+    fontWeight: '700',
+    letterSpacing: -0.5,
   },
   metricLabel: {
     marginTop: 6,
-    color: '#8892a4',
-    fontSize: 13,
+    color: C.textSecondary,
+    fontSize: 12,
     lineHeight: 18,
-    fontWeight: '600',
+    fontWeight: '500',
   },
   chartCard: {
-    backgroundColor: '#161b27',
-    borderRadius: 12,
+    backgroundColor: C.surface1,
+    borderRadius: 16,
     borderWidth: 1,
-    borderColor: '#2a3441',
-    padding: 14,
-    marginBottom: 10,
+    borderColor: C.border,
+    padding: 16,
+    marginBottom: 12,
   },
   sectionHeaderRow: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    marginBottom: 10,
+    marginBottom: 12,
+    marginTop: 28,
   },
   sectionTitle: {
-    color: '#f1f5f9',
-    fontSize: 20,
-    fontWeight: '700',
+    color: C.textTertiary,
+    fontSize: 11,
+    fontWeight: '600',
+    letterSpacing: 1.2,
+    textTransform: 'uppercase',
   },
   counterPill: {
-    paddingHorizontal: 8,
+    paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 8,
-    backgroundColor: '#1e2737',
+    borderRadius: 999,
+    backgroundColor: C.surface2,
   },
   counterText: {
-    color: '#3b82f6',
+    color: C.blue,
     fontSize: 12,
-    fontWeight: '700',
+    fontWeight: '600',
   },
   barChart: {
     height: 170,
@@ -618,31 +618,31 @@ const styles = StyleSheet.create({
   barTrack: {
     width: '100%',
     height: 130,
-    borderRadius: 10,
-    backgroundColor: '#1e2737',
+    borderRadius: 4,
+    backgroundColor: C.surface2,
     justifyContent: 'flex-end',
     overflow: 'hidden',
   },
   barFill: {
     width: '100%',
-    borderRadius: 10,
-    backgroundColor: '#2563eb',
+    borderRadius: 4,
+    backgroundColor: C.blue,
   },
   barLabel: {
     marginTop: 8,
-    color: '#8892a4',
-    fontSize: 11,
-    fontWeight: '700',
+    color: C.textSecondary,
+    fontSize: 12,
+    fontWeight: '500',
   },
   twoColumnCard: {
-    gap: 10,
+    gap: 12,
   },
   listCard: {
-    backgroundColor: '#161b27',
-    borderRadius: 12,
+    backgroundColor: C.surface1,
+    borderRadius: 16,
     borderWidth: 1,
-    borderColor: '#2a3441',
-    padding: 14,
+    borderColor: C.border,
+    padding: 16,
   },
   groupList: {
     marginTop: 10,
@@ -666,20 +666,20 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     textAlign: 'center',
     textAlignVertical: 'center',
-    backgroundColor: '#1e3a5f',
-    color: '#60a5fa',
+    backgroundColor: C.blueSoft,
+    color: C.blue,
     fontSize: 12,
-    fontWeight: '800',
+    fontWeight: '600',
   },
   groupLabel: {
-    color: '#f1f5f9',
+    color: C.textPrimary,
     fontSize: 14,
-    fontWeight: '700',
+    fontWeight: '500',
   },
   groupValue: {
-    color: '#2563eb',
+    color: C.blue,
     fontSize: 14,
-    fontWeight: '800',
+    fontWeight: '600',
   },
   brandRow: {
     gap: 6,
@@ -692,12 +692,12 @@ const styles = StyleSheet.create({
   brandTrack: {
     height: 8,
     borderRadius: 999,
-    backgroundColor: '#1e2737',
+    backgroundColor: C.surface2,
     overflow: 'hidden',
   },
   brandFill: {
     height: '100%',
     borderRadius: 999,
-    backgroundColor: '#0f8b78',
+    backgroundColor: C.teal,
   },
 });
