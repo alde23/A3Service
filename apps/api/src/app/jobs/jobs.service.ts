@@ -74,6 +74,7 @@ export class JobsService {
       where: this.isManager(user)
         ? { isDeleted: false }
         : { technicianId: user.sub, isDeleted: false },
+      include: { site: true },
       orderBy: { scheduledDate: 'asc' },
     });
   }

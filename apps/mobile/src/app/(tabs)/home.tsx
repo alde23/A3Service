@@ -17,6 +17,7 @@ import { useLocation } from '../../services/location.service';
 
 type JobOnMap = {
   id: string;
+  title: string;
   name: string;
   distanceKm: number;
   coordinate: {
@@ -32,21 +33,24 @@ function generateFallbackJobs(baseLocation: { latitude: number; longitude: numbe
   return [
     {
       id: 'JOB-1567',
-      name: `Bosch BGH96 - ${t('job_types.maintenance', 'Održavanje')}`,
+      title: `Bosch BGH96 - ${t('job_types.maintenance', 'Održavanje')}`,
+      name: 'Džemala Bijedića 114, Sarajevo',
       distanceKm: 2.1,
       coordinate: { latitude: baseLocation.latitude + 0.0026, longitude: baseLocation.longitude + 0.0021 },
       status: 'active',
     },
     {
       id: 'JOB-1570',
-      name: `ecoTEC plus 415 - ${t('job_types.repair', 'Popravka')}`,
+      title: `ecoTEC plus 415 - ${t('job_types.repair', 'Popravka')}`,
+      name: 'Zmaja od Bosne 3, Sarajevo',
       distanceKm: 4.5,
       coordinate: { latitude: baseLocation.latitude + 0.0090, longitude: baseLocation.longitude - 0.0151 },
       status: 'upcoming',
     },
     {
       id: 'JOB-1571',
-      name: `Logano G115 - ${t('job_types.installation', 'Ugradnja')}`,
+      title: `Logano G115 - ${t('job_types.installation', 'Ugradnja')}`,
+      name: 'Mustafe Pintola 2, Sarajevo',
       distanceKm: 6.2,
       coordinate: { latitude: baseLocation.latitude - 0.0150, longitude: baseLocation.longitude - 0.0286 },
       status: 'upcoming',
@@ -83,22 +87,35 @@ export default function HomeScreen() {
         if (res.ok) {
           const jobs = await res.json();
           
+function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
+  const R = 6371; // Radius of the earth in km
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const a = 
+    Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * 
+    Math.sin(dLon/2) * Math.sin(dLon/2); 
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+  return R * c; // Distance in km
+}
+
           // Transform backend jobs to map format
           const mappedJobs = jobs
-            .filter((job: any) => job.siteId)
-            .map((job: any, index: number) => {
-              // For now, generate coordinates near current location
-              // In production, this would come from site data
-              const offsetLat = (Math.random() - 0.5) * 0.05;
-              const offsetLng = (Math.random() - 0.5) * 0.05;
+            .filter((job: any) => job.siteId && job.site?.latitude && job.site?.longitude)
+            .map((job: any) => {
+              const siteLat = job.site.latitude;
+              const siteLng = job.site.longitude;
+              const distanceKm = calculateDistance(baseLoc.latitude, baseLoc.longitude, siteLat, siteLng);
+              const shortId = job.id.split('-')[0].toUpperCase();
               
               return {
                 id: String(job.id),
-                name: job.rawAddress || `Job #${job.id}`,
-                distanceKm: Math.round(Math.random() * 5 * 10) / 10,
+                title: `${t(`priority.${job.priority}`, job.priority)} - Job #${shortId}`,
+                name: job.rawAddress || job.site?.rawAddress || 'Unknown Address',
+                distanceKm: Math.round(distanceKm * 10) / 10,
                 coordinate: {
-                  latitude: baseLoc.latitude + offsetLat,
-                  longitude: baseLoc.longitude + offsetLng,
+                  latitude: siteLat,
+                  longitude: siteLng,
                 },
                 status: (job.status === 'IN_PROGRESS' ? 'active' : 'upcoming') as 'active' | 'upcoming',
               };
@@ -171,13 +188,16 @@ export default function HomeScreen() {
           </View>
 
           <View style={styles.destinationCard}>
-            <View style={styles.cardIconWrap}>
-              <Ionicons name="navigate" size={22} color="#d1fae5" />
-            </View>
-
             <View style={styles.cardMainTextWrap}>
               <Text style={styles.destinationTitleText}>{t('home.nearest_job', 'Najbliži zadatak')}</Text>
-              <Text style={styles.placeNameText}>{nextJob.name}</Text>
+              <View style={styles.jobTitleRow}>
+                <Ionicons name="navigate" size={16} color="#d1fae5" style={{ marginRight: 6 }} />
+                <Text style={styles.jobTitleText} numberOfLines={1}>{nextJob.title}</Text>
+              </View>
+              <Text style={styles.placeNameText} numberOfLines={1}>{nextJob.name}</Text>
+            </View>
+
+            <View style={styles.distanceBadge}>
               <Text style={styles.distanceText}>
                 {nextJob.distanceKm.toFixed(1)} {t('home.units.km', 'km')}
               </Text>
@@ -200,10 +220,10 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   map: {
-    ...StyleSheet.absoluteFillObject,
+    flex: 1,
   },
   overlay: {
-    flex: 1,
+    ...StyleSheet.absoluteFillObject,
   },
   topHeader: {
     paddingHorizontal: 10,
@@ -232,36 +252,57 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     backgroundColor: '#0f8b78',
     paddingVertical: 12,
-    paddingHorizontal: 14,
+    paddingHorizontal: 16,
     flexDirection: 'row',
     alignItems: 'center',
-  },
-  cardIconWrap: {
-    marginRight: 12,
+    justifyContent: 'space-between',
+    elevation: 4,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.15,
+    shadowRadius: 8,
   },
   cardMainTextWrap: {
     flex: 1,
+    paddingRight: 12,
   },
   destinationTitleText: {
     color: '#a7f3d0',
-    fontSize: 12,
-    fontWeight: '600',
+    fontSize: 11,
+    fontWeight: '700',
     textTransform: 'uppercase',
-    letterSpacing: 0.5,
+    letterSpacing: 0.6,
+    marginBottom: 4,
+  },
+  jobTitleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
     marginBottom: 2,
   },
-  distanceText: {
-    color: '#d1fae5',
-    fontSize: 14,
-    fontWeight: '500',
-    marginTop: 2,
+  jobTitleText: {
+    color: '#ffffff',
+    fontSize: 16,
+    fontWeight: '700',
+    flex: 1,
   },
   placeNameText: {
-    color: '#ecfeff',
-    fontSize: 18,
-    lineHeight: 24,
-    fontWeight: '600',
-    letterSpacing: -0.2,
+    color: '#d1fae5',
+    fontSize: 13,
+    lineHeight: 18,
+    fontWeight: '500',
+    opacity: 0.9,
+  },
+  distanceBadge: {
+    backgroundColor: 'rgba(209, 250, 229, 0.2)',
+    paddingVertical: 6,
+    paddingHorizontal: 10,
+    borderRadius: 12,
+    alignItems: 'center',
+  },
+  distanceText: {
+    color: '#ffffff',
+    fontSize: 14,
+    fontWeight: '700',
   },
   bottomStatsCard: {
     position: 'absolute',
