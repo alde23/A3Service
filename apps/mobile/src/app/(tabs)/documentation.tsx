@@ -10,10 +10,10 @@ import {
   View,
 } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { useAuth } from '../services/auth.service';
-import { searchLibrary, LibrarySearchResult } from '../services/library-api.service';
-import { ColorsType } from '../theme/colors';
-import { useTheme } from '../theme/ThemeProvider';
+import { useAuth } from '../../services/auth.service';
+import { searchLibrary, LibrarySearchResult } from '../../services/library-api.service';
+import { ColorsType } from '../../theme/colors';
+import { useTheme } from '../../theme/ThemeProvider';
 
 type DocumentationItem = {
   id: string;

@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { View, Text, TextInput, StyleSheet, ActivityIndicator, Pressable } from 'react-native';
+import { View, Text, TextInput, StyleSheet, ActivityIndicator, Pressable, Alert } from 'react-native';
 import { useAuth } from '../services/auth.service';
 import { ColorsType } from '../theme/colors';
 import { useTheme } from '../theme/ThemeProvider';
@@ -15,8 +15,16 @@ export default function LoginScreen() {
 
   const onSubmit = async () => {
     setError(null);
-    const ok = await login(email.trim(), password);
-    if (!ok) setError('Invalid credentials or network error');
+    try {
+      const ok = await login(email.trim(), password);
+      if (!ok) {
+        setError('Invalid credentials or network error');
+        Alert.alert('Login Failed', 'Invalid credentials or network error. Please check your connection to the local API.');
+      }
+    } catch (err: any) {
+      setError(err.message);
+      Alert.alert('Error', err.message);
+    }
   };
 
   return (

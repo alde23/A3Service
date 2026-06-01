@@ -30,7 +30,7 @@ type RuntimeA3SConfig = {
 
 const runtimeA3SConfig = (Constants.expoConfig?.extra?.a3s ??
   {}) as RuntimeA3SConfig;
-const devBypassEnabled = __DEV__ && runtimeA3SConfig.bypassLoginEnabled === true;
+const devBypassEnabled = false; // Disabled by request to showcase onboarding
 const devBypassToken = runtimeA3SConfig.bypassToken || 'dev-bypass-token';
 
 function buildDevBypassUser(usernameOverride?: string) {

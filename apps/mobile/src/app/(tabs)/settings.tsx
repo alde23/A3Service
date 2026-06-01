@@ -9,11 +9,11 @@ import {
   Pressable,
 } from 'react-native';
 import Ionicons from '@expo/vector-icons/Ionicons';
-import i18n from '../i18n';
+import i18n from '../../i18n';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { useAuth } from '../services/auth.service';
+import { useAuth } from '../../services/auth.service';
 import { useTranslation } from 'react-i18next';
-import { useTheme } from '../theme/ThemeProvider';
+import { useTheme } from '../../theme/ThemeProvider';
 
 const STORAGE_KEYS = {
   language: 'user-language',

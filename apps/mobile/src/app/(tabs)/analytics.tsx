@@ -11,16 +11,16 @@ import {
   TextInput,
 } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { useAuth } from '../services/auth.service';
+import { useAuth } from '../../services/auth.service';
 import {
   fetchAnalyticsSummary,
   fetchAnalyticsEarnings,
   AnalyticsSummary,
   MonthlyMetric,
-} from '../services/analytics-api.service';
-import { observeExpenses, addExpense } from '../storage/repositories/expenses.repository';
-import { ColorsType } from '../theme/colors';
-import { useTheme } from '../theme/ThemeProvider';
+} from '../../services/analytics-api.service';
+import { observeExpenses, addExpense } from '../../storage/repositories/expenses.repository';
+import { ColorsType } from '../../theme/colors';
+import { useTheme } from '../../theme/ThemeProvider';
 
 type MetricCard = {
   label: string;

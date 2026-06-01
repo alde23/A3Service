@@ -15,13 +15,13 @@ import {
   observeJobs,
   type JobStatus,
   updateJobStatus,
-} from '../storage/repositories/jobs.repository';
-import Job from '../storage/models/Job';
-import { observePendingSyncCount } from '../storage/repositories/sync-queue.repository';
-import { useAuth } from '../services/auth.service';
-import { syncJobsWithServer } from '../services/jobs-sync.service';
-import { ColorsType } from '../theme/colors';
-import { useTheme } from '../theme/ThemeProvider';
+} from '../../storage/repositories/jobs.repository';
+import Job from '../../storage/models/Job';
+import { observePendingSyncCount } from '../../storage/repositories/sync-queue.repository';
+import { useAuth } from '../../services/auth.service';
+import { syncJobsWithServer } from '../../services/jobs-sync.service';
+import { ColorsType } from '../../theme/colors';
+import { useTheme } from '../../theme/ThemeProvider';
 
 function formatTime(date: Date) {
   return date.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });

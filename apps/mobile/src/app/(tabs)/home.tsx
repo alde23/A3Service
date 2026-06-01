@@ -10,9 +10,10 @@ import {
 } from 'react-native';
 import MapView, { Marker, Polyline, PROVIDER_GOOGLE } from 'react-native-maps';
 import { useTranslation } from 'react-i18next';
-import { useAuth } from '../services/auth.service';
-import { API_URL, authJsonHeaders } from '../services/api.config';
-import { useTheme } from '../theme/ThemeProvider';
+import { useAuth } from '../../services/auth.service';
+import { API_URL, authJsonHeaders } from '../../services/api.config';
+import { useTheme } from '../../theme/ThemeProvider';
+import { useLocation } from '../../services/location.service';
 
 type JobOnMap = {
   id: string;
@@ -25,40 +26,48 @@ type JobOnMap = {
   status: 'active' | 'upcoming';
 };
 
-const CURRENT_LOCATION = {
-  latitude: 43.8563,
-  longitude: 18.4131,
-};
+const DEFAULT_SARAJEVO = { latitude: 43.8563, longitude: 18.4131 };
 
-const JOBS_ON_MAP: JobOnMap[] = [
-  {
-    id: 'JOB-1567',
-    name: 'Bosch BGH96 Maintenance',
-    distanceKm: 2.1,
-    coordinate: { latitude: 43.8589, longitude: 18.4152 },
-    status: 'active',
-  },
-  {
-    id: 'JOB-1570',
-    name: 'ecoTEC plus 415 Repair',
-    distanceKm: 4.5,
-    coordinate: { latitude: 43.8653, longitude: 18.3980 },
-    status: 'upcoming',
-  },
-  {
-    id: 'JOB-1571',
-    name: 'Logano G115 Installation',
-    distanceKm: 6.2,
-    coordinate: { latitude: 43.8413, longitude: 18.3845 },
-    status: 'upcoming',
-  },
-];
+function generateFallbackJobs(baseLocation: { latitude: number; longitude: number }, t: any): JobOnMap[] {
+  return [
+    {
+      id: 'JOB-1567',
+      name: `Bosch BGH96 - ${t('job_types.maintenance', 'Održavanje')}`,
+      distanceKm: 2.1,
+      coordinate: { latitude: baseLocation.latitude + 0.0026, longitude: baseLocation.longitude + 0.0021 },
+      status: 'active',
+    },
+    {
+      id: 'JOB-1570',
+      name: `ecoTEC plus 415 - ${t('job_types.repair', 'Popravka')}`,
+      distanceKm: 4.5,
+      coordinate: { latitude: baseLocation.latitude + 0.0090, longitude: baseLocation.longitude - 0.0151 },
+      status: 'upcoming',
+    },
+    {
+      id: 'JOB-1571',
+      name: `Logano G115 - ${t('job_types.installation', 'Ugradnja')}`,
+      distanceKm: 6.2,
+      coordinate: { latitude: baseLocation.latitude - 0.0150, longitude: baseLocation.longitude - 0.0286 },
+      status: 'upcoming',
+    },
+  ];
+}
 
 export default function HomeScreen() {
   const { t } = useTranslation();
   const { token } = useAuth();
   const { colors, isDark } = useTheme();
-  const [jobsOnMap, setJobsOnMap] = useState<JobOnMap[]>(JOBS_ON_MAP);
+  const { homeLocation } = useLocation();
+  const baseLoc = homeLocation || DEFAULT_SARAJEVO;
+  
+  const [jobsOnMap, setJobsOnMap] = useState<JobOnMap[]>(() => generateFallbackJobs(baseLoc, t));
+  const [showToast, setShowToast] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowToast(false), 3500);
+    return () => clearTimeout(timer);
+  }, []);
 
   useEffect(() => {
     if (!token) return;
@@ -88,8 +97,8 @@ export default function HomeScreen() {
                 name: job.rawAddress || `Job #${job.id}`,
                 distanceKm: Math.round(Math.random() * 5 * 10) / 10,
                 coordinate: {
-                  latitude: CURRENT_LOCATION.latitude + offsetLat,
-                  longitude: CURRENT_LOCATION.longitude + offsetLng,
+                  latitude: baseLoc.latitude + offsetLat,
+                  longitude: baseLoc.longitude + offsetLng,
                 },
                 status: (job.status === 'IN_PROGRESS' ? 'active' : 'upcoming') as 'active' | 'upcoming',
               };
@@ -112,8 +121,8 @@ export default function HomeScreen() {
   );
 
   const routeCoordinates = useMemo(
-    () => [CURRENT_LOCATION, nextJob.coordinate],
-    [nextJob.coordinate]
+    () => [baseLoc, nextJob.coordinate],
+    [baseLoc, nextJob.coordinate]
   );
 
   return (
@@ -122,8 +131,8 @@ export default function HomeScreen() {
         style={styles.map}
         provider={Platform.OS === 'android' ? PROVIDER_GOOGLE : undefined}
         initialRegion={{
-          latitude: CURRENT_LOCATION.latitude,
-          longitude: CURRENT_LOCATION.longitude,
+          latitude: baseLoc.latitude,
+          longitude: baseLoc.longitude,
           latitudeDelta: 0.012,
           longitudeDelta: 0.012,
         }}
@@ -135,9 +144,9 @@ export default function HomeScreen() {
         />
 
             <Marker
-          coordinate={CURRENT_LOCATION}
-          title={t('map.you')}
-          description={t('map.current_location')}
+          coordinate={baseLoc}
+          title={t('map.you', 'Vaša lokacija')}
+          description={t('map.current_location', 'Početna lokacija')}
           pinColor="#2563eb"
         />
 
@@ -167,31 +176,20 @@ export default function HomeScreen() {
             </View>
 
             <View style={styles.cardMainTextWrap}>
-              <Text style={styles.distanceText}>{nextJob.distanceKm.toFixed(1)} km</Text>
+              <Text style={styles.destinationTitleText}>{t('home.nearest_job', 'Najbliži zadatak')}</Text>
               <Text style={styles.placeNameText}>{nextJob.name}</Text>
+              <Text style={styles.distanceText}>
+                {nextJob.distanceKm.toFixed(1)} {t('home.units.km', 'km')}
+              </Text>
             </View>
-
-            <Pressable style={styles.voiceButton}>
-              <Ionicons name="mic" size={18} color="#2563eb" />
-            </Pressable>
           </View>
         </View>
 
-        <View style={styles.rightControls}>
-          <Pressable style={[styles.floatingControl, { backgroundColor: isDark ? 'rgba(17,24,39,0.90)' : 'rgba(255,255,255,0.90)', borderColor: colors.border }]}>
-            <Ionicons name="compass" size={22} color={colors.textSecondary} />
-          </Pressable>
-          <Pressable style={[styles.floatingControl, { backgroundColor: isDark ? 'rgba(17,24,39,0.90)' : 'rgba(255,255,255,0.90)', borderColor: colors.border }]}>
-            <Ionicons name="search" size={22} color={colors.textSecondary} />
-          </Pressable>
-          <Pressable style={[styles.floatingControl, { backgroundColor: isDark ? 'rgba(17,24,39,0.90)' : 'rgba(255,255,255,0.90)', borderColor: colors.border }]}>
-            <Ionicons name="volume-high-outline" size={22} color={colors.textSecondary} />
-          </Pressable>
-        </View>
-
-        <View style={[styles.bottomStatsCard, { backgroundColor: isDark ? 'rgba(11,15,23,0.92)' : 'rgba(255,255,255,0.92)', borderTopColor: colors.border }]}>
-          <Text style={[styles.bottomStatsText, { color: colors.textPrimary }]}>{t('home.jobs_visible', { count: jobsOnMap.length })}</Text>
-        </View>
+        {showToast && (
+          <View style={[styles.bottomStatsCard, { backgroundColor: isDark ? 'rgba(11,15,23,0.92)' : 'rgba(255,255,255,0.92)', borderTopColor: colors.border }]}>
+            <Text style={[styles.bottomStatsText, { color: colors.textPrimary }]}>{t('home.jobs_visible', { count: jobsOnMap.length, defaultValue: `${jobsOnMap.length} posla vidljivo na mapi` })}</Text>
+          </View>
+        )}
       </View>
     </SafeAreaView>
   );
@@ -244,10 +242,19 @@ const styles = StyleSheet.create({
   cardMainTextWrap: {
     flex: 1,
   },
+  destinationTitleText: {
+    color: '#a7f3d0',
+    fontSize: 12,
+    fontWeight: '600',
+    textTransform: 'uppercase',
+    letterSpacing: 0.5,
+    marginBottom: 2,
+  },
   distanceText: {
     color: '#d1fae5',
     fontSize: 14,
     fontWeight: '500',
+    marginTop: 2,
   },
   placeNameText: {
     color: '#ecfeff',
@@ -255,33 +262,6 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     fontWeight: '600',
     letterSpacing: -0.2,
-  },
-  voiceButton: {
-    width: 42,
-    height: 42,
-    borderRadius: 21,
-    backgroundColor: '#ffffff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  rightControls: {
-    position: 'absolute',
-    right: 10,
-    top: 278,
-    gap: 10,
-  },
-  floatingControl: {
-    width: 48,
-    height: 48,
-    borderRadius: 12,
-    borderWidth: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    elevation: 2,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
   },
   bottomStatsCard: {
     position: 'absolute',

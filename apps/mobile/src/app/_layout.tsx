@@ -1,108 +1,47 @@
-import Ionicons from '@expo/vector-icons/Ionicons';
-import { Tabs } from 'expo-router';
-import type { ComponentProps } from 'react';
-import { Platform, View, ActivityIndicator } from 'react-native';
+import { View, ActivityIndicator } from 'react-native';
 import { AuthProvider, useAuth } from '../services/auth.service';
 import { DatabaseProvider } from '../storage/DatabaseProvider';
 import '../i18n';
-import { useTranslation } from 'react-i18next';
-import { ThemeProvider, useTheme } from '../theme/ThemeProvider';
-
-function TabIcon({
-  name,
-  color,
-  size,
-}: {
-  name: ComponentProps<typeof Ionicons>['name'];
-  color: string;
-  size: number;
-}) {
-  return <Ionicons name={name} color={color} size={size} />;
-}
-
-function AppTabs() {
-  const { t } = useTranslation();
-  const { colors } = useTheme();
-
-  return (
-    <Tabs
-      initialRouteName="home"
-      screenOptions={{
-        headerShown: false,
-        tabBarShowLabel: false,
-        tabBarActiveTintColor: colors.textPrimary,
-        tabBarInactiveTintColor: colors.textTertiary,
-        tabBarStyle: {
-          backgroundColor: colors.surface1,
-          borderTopColor: colors.border,
-          height: Platform.select({ ios: 88, default: 64 }),
-          paddingTop: 8,
-          paddingBottom: Platform.select({ ios: 24, default: 10 }),
-        },
-      }}
-    >
-      <Tabs.Screen name="index" options={{ href: null }} />
-      <Tabs.Screen
-        name="home"
-        options={{
-          title: t('tabs.home'),
-          tabBarIcon: ({ color, size }) => (
-            <TabIcon name="home-outline" color={color} size={size} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="jobs"
-        options={{
-          title: t('tabs.jobs'),
-          tabBarIcon: ({ color, size }) => (
-            <TabIcon name="briefcase-outline" color={color} size={size} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="documentation"
-        options={{
-          title: t('tabs.documentation'),
-          tabBarIcon: ({ color, size }) => (
-            <TabIcon
-              name="document-text-outline"
-              color={color}
-              size={size}
-            />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="analytics"
-        options={{
-          title: t('tabs.analytics'),
-          tabBarIcon: ({ color, size }) => (
-            <TabIcon name="bar-chart-outline" color={color} size={size} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="settings"
-        options={{
-          title: t('tabs.settings'),
-          tabBarIcon: ({ color, size }) => (
-            <TabIcon name="settings-outline" color={color} size={size} />
-          ),
-        }}
-      />
-    </Tabs>
-  );
-}
+import { ThemeProvider } from '../theme/ThemeProvider';
+import { LocationProvider, useLocation } from '../services/location.service';
+import { Slot, useRouter, useSegments } from 'expo-router';
+import { useEffect } from 'react';
 
 function GuardedRoot() {
-  const { loading } = useAuth();
-  if (loading) return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <ActivityIndicator />
-    </View>
-  );
-  return <AppTabs />;
+  const { token, loading: authLoading } = useAuth();
+  const { homeLocation, loading: locLoading } = useLocation();
+  const segments = useSegments();
+  const router = useRouter();
+
+  const inTabsGroup = segments[0] === '(tabs)';
+  const isLoginScreen = segments[0] === 'login';
+  const isOnboardingScreen = segments[0] === 'onboarding';
+
+  useEffect(() => {
+    if (authLoading || locLoading) return;
+
+    if (!token && !isLoginScreen) {
+      router.replace('/login');
+    } else if (token && !homeLocation && !isOnboardingScreen) {
+      router.replace('/onboarding');
+    } else if (token && homeLocation && !inTabsGroup) {
+      router.replace('/(tabs)/home');
+    }
+  }, [token, homeLocation, authLoading, locLoading, segments]);
+
+  if (authLoading || locLoading) {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <ActivityIndicator size="large" />
+      </View>
+    );
+  }
+
+  // Prevent flashing protected screens before the redirect completes
+  if (!token && !isLoginScreen) return null;
+  if (token && !homeLocation && !isOnboardingScreen) return null;
+
+  return <Slot />;
 }
 
 export default function RootLayout() {
@@ -110,7 +49,9 @@ export default function RootLayout() {
     <ThemeProvider>
       <DatabaseProvider>
         <AuthProvider>
-          <GuardedRoot />
+          <LocationProvider>
+            <GuardedRoot />
+          </LocationProvider>
         </AuthProvider>
       </DatabaseProvider>
     </ThemeProvider>

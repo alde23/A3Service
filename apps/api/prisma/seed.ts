@@ -33,7 +33,7 @@ const SEED = {
       id:                 '0197f8a0-0001-7000-8000-000000000001',
       username:           'alic.kovac',
       email:              'alic.kovac@a3service.ba',
-      passwordHash:       '$2b$10$placeholderHashForSeedDataOnly.AAAAAAAAAAAAAAAAAAAAAA',
+      passwordHash:       '$2b$10$B2cTzNdYbkDCvRR7jrshW.5XdCm02mi1muL62ph5Ok2yLyYMGPpmu', // 'password123'
       role:               UserRole.MANAGER,
       languagePreference: 'bs',
       profile: {
@@ -47,7 +47,7 @@ const SEED = {
       id:                 '0197f8a0-0001-7000-8000-000000000002',
       username:           'emir.basic',
       email:              'emir.basic@a3service.ba',
-      passwordHash:       '$2b$10$placeholderHashForSeedDataOnly.AAAAAAAAAAAAAAAAAAAAAA',
+      passwordHash:       '$2b$10$B2cTzNdYbkDCvRR7jrshW.5XdCm02mi1muL62ph5Ok2yLyYMGPpmu', // 'password123'
       role:               UserRole.TECHNICIAN,
       languagePreference: 'bs',
       profile: {
@@ -61,7 +61,7 @@ const SEED = {
       id:                 '0197f8a0-0001-7000-8000-000000000003',
       username:           'nina.hadzic',
       email:              'nina.hadzic@a3service.ba',
-      passwordHash:       '$2b$10$placeholderHashForSeedDataOnly.AAAAAAAAAAAAAAAAAAAAAA',
+      passwordHash:       '$2b$10$B2cTzNdYbkDCvRR7jrshW.5XdCm02mi1muL62ph5Ok2yLyYMGPpmu', // 'password123'
       role:               UserRole.TECHNICIAN,
       languagePreference: 'bs',
       profile: {
@@ -208,7 +208,7 @@ async function main() {
   for (const { profile, ...userData } of SEED.users) {
     await prisma.user.upsert({
       where:  { id: userData.id },
-      update: {},
+      update: { passwordHash: userData.passwordHash },
       create: {
         ...userData,
         profile: { create: profile },
