@@ -23,7 +23,7 @@ export default function SettingsScreen() {
   const { t } = useTranslation();
   const { user, logout } = useAuth();
   const [lang, setLang] = useState(i18n.language || 'bs');
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
     const loadSettings = async () => {
@@ -66,10 +66,10 @@ export default function SettingsScreen() {
   };
 
   const isDark = darkMode;
-  const bgColor = isDark ? '#0f172a' : '#ffffff';
-  const textColor = isDark ? '#ffffff' : '#0f172a';
-  const cardBg = isDark ? '#1e293b' : '#f8fafc';
-  const borderColor = isDark ? '#334155' : '#e2e8f0';
+  const bgColor = isDark ? '#0d1117' : '#ffffff';
+  const textColor = isDark ? '#f1f5f9' : '#0f172a';
+  const cardBg = isDark ? '#161b27' : '#f8fafc';
+  const borderColor = isDark ? '#2a3441' : '#e2e8f0';
 
   return (
     <SafeAreaView style={[styles.safeArea, { backgroundColor: bgColor }]}>
@@ -79,7 +79,7 @@ export default function SettingsScreen() {
           <Text style={[styles.title, { color: textColor }]}>
             {t('settings.title') || 'Settings'}
           </Text>
-          <Text style={[styles.subtitle, { color: isDark ? '#cbd5e1' : '#64748b' }]}>
+          <Text style={[styles.subtitle, { color: isDark ? '#8892a4' : '#64748b' }]}>
             {user?.username || 'User'}
           </Text>
         </View>

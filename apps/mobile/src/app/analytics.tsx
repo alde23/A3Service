@@ -67,18 +67,18 @@ const TRENDS = ['2024', '2025', '2026', 'YTD'];
 
 function toneStyles(tone: MetricCard['tone']) {
   if (tone === 'blue') {
-    return { bg: '#dbeafe', text: '#1d4ed8', ring: '#bfdbfe' };
+    return { bg: '#1e3a5f', text: '#60a5fa', ring: '#1d4ed8' };
   }
 
   if (tone === 'emerald') {
-    return { bg: '#d1fae5', text: '#047857', ring: '#a7f3d0' };
+    return { bg: '#064e3b', text: '#34d399', ring: '#065f46' };
   }
 
   if (tone === 'amber') {
-    return { bg: '#fef3c7', text: '#92400e', ring: '#fde68a' };
+    return { bg: '#451a03', text: '#fbbf24', ring: '#92400e' };
   }
 
-  return { bg: '#e2e8f0', text: '#334155', ring: '#cbd5e1' };
+  return { bg: '#1e293b', text: '#94a3b8', ring: '#334155' };
 }
 
 export default function AnalyticsScreen() {
@@ -373,10 +373,10 @@ const styles = StyleSheet.create({
   modalBtnSaveText: { color: 'white', fontWeight: 'bold' },
   safeArea: {
     flex: 1,
-    backgroundColor: '#f2f5fa',
+    backgroundColor: '#0d1117',
   },
   header: {
-    backgroundColor: '#2563eb',
+    backgroundColor: '#1a2744',
     paddingHorizontal: 16,
     paddingTop: 8,
     paddingBottom: 14,
@@ -466,10 +466,10 @@ const styles = StyleSheet.create({
     paddingBottom: 24,
   },
   summaryCard: {
-    backgroundColor: '#ffffff',
+    backgroundColor: '#161b27',
     borderRadius: 14,
     borderWidth: 1,
-    borderColor: '#dbeafe',
+    borderColor: '#2a3441',
     padding: 14,
     marginBottom: 10,
     shadowColor: '#0f172a',
@@ -485,24 +485,24 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   summaryLabel: {
-    color: '#64748b',
+    color: '#8892a4',
     fontSize: 13,
     fontWeight: '600',
   },
   summaryValue: {
     marginTop: 4,
-    color: '#0f172a',
+    color: '#f1f5f9',
     fontSize: 26,
     fontWeight: '800',
   },
   summaryBadge: {
     borderRadius: 999,
-    backgroundColor: '#d1fae5',
+    backgroundColor: '#064e3b',
     paddingHorizontal: 10,
     paddingVertical: 5,
   },
   summaryBadgeText: {
-    color: '#047857',
+    color: '#4ade80',
     fontSize: 12,
     fontWeight: '800',
   },
@@ -521,7 +521,7 @@ const styles = StyleSheet.create({
   },
   summaryStatValue: {
     marginTop: 4,
-    color: '#0f172a',
+    color: '#f1f5f9',
     fontSize: 18,
     fontWeight: '700',
   },
@@ -529,7 +529,7 @@ const styles = StyleSheet.create({
     width: 1,
     alignSelf: 'stretch',
     marginHorizontal: 10,
-    backgroundColor: '#e2e8f0',
+    backgroundColor: '#2a3441',
   },
   grid: {
     flexDirection: 'row',
@@ -539,7 +539,7 @@ const styles = StyleSheet.create({
   },
   metricCard: {
     width: '48%',
-    backgroundColor: '#ffffff',
+    backgroundColor: '#161b27',
     borderRadius: 12,
     borderWidth: 1,
     padding: 12,
@@ -561,23 +561,23 @@ const styles = StyleSheet.create({
     fontWeight: '800',
   },
   metricValue: {
-    color: '#0f172a',
+    color: '#f1f5f9',
     fontSize: 24,
     lineHeight: 28,
     fontWeight: '800',
   },
   metricLabel: {
     marginTop: 6,
-    color: '#64748b',
+    color: '#8892a4',
     fontSize: 13,
     lineHeight: 18,
     fontWeight: '600',
   },
   chartCard: {
-    backgroundColor: '#ffffff',
+    backgroundColor: '#161b27',
     borderRadius: 12,
     borderWidth: 1,
-    borderColor: '#e2e8f0',
+    borderColor: '#2a3441',
     padding: 14,
     marginBottom: 10,
   },
@@ -588,7 +588,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   sectionTitle: {
-    color: '#334155',
+    color: '#f1f5f9',
     fontSize: 20,
     fontWeight: '700',
   },
@@ -596,10 +596,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     paddingVertical: 4,
     borderRadius: 8,
-    backgroundColor: '#dbeafe',
+    backgroundColor: '#1e2737',
   },
   counterText: {
-    color: '#2563eb',
+    color: '#3b82f6',
     fontSize: 12,
     fontWeight: '700',
   },
@@ -619,7 +619,7 @@ const styles = StyleSheet.create({
     width: '100%',
     height: 130,
     borderRadius: 10,
-    backgroundColor: '#eff6ff',
+    backgroundColor: '#1e2737',
     justifyContent: 'flex-end',
     overflow: 'hidden',
   },
@@ -630,7 +630,7 @@ const styles = StyleSheet.create({
   },
   barLabel: {
     marginTop: 8,
-    color: '#64748b',
+    color: '#8892a4',
     fontSize: 11,
     fontWeight: '700',
   },
@@ -638,10 +638,10 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   listCard: {
-    backgroundColor: '#ffffff',
+    backgroundColor: '#161b27',
     borderRadius: 12,
     borderWidth: 1,
-    borderColor: '#e2e8f0',
+    borderColor: '#2a3441',
     padding: 14,
   },
   groupList: {
@@ -666,13 +666,13 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     textAlign: 'center',
     textAlignVertical: 'center',
-    backgroundColor: '#dbeafe',
-    color: '#1d4ed8',
+    backgroundColor: '#1e3a5f',
+    color: '#60a5fa',
     fontSize: 12,
     fontWeight: '800',
   },
   groupLabel: {
-    color: '#0f172a',
+    color: '#f1f5f9',
     fontSize: 14,
     fontWeight: '700',
   },
@@ -692,7 +692,7 @@ const styles = StyleSheet.create({
   brandTrack: {
     height: 8,
     borderRadius: 999,
-    backgroundColor: '#e2e8f0',
+    backgroundColor: '#1e2737',
     overflow: 'hidden',
   },
   brandFill: {

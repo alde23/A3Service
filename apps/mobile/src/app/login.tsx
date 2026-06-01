@@ -24,6 +24,7 @@ export default function LoginScreen() {
       <View style={styles.form}>
         <TextInput
           placeholder="Email"
+          placeholderTextColor="#4b5975"
           autoCapitalize="none"
           keyboardType="email-address"
           value={email}
@@ -32,6 +33,7 @@ export default function LoginScreen() {
         />
         <TextInput
           placeholder="Password"
+          placeholderTextColor="#4b5975"
           secureTextEntry
           value={password}
           onChangeText={setPassword}
@@ -53,13 +55,13 @@ export default function LoginScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: 'center', padding: 24, backgroundColor: '#fff' },
+  container: { flex: 1, justifyContent: 'center', padding: 24, backgroundColor: '#0d1117' },
   logoWrap: { alignItems: 'center', marginBottom: 24 },
-  logo: { fontSize: 48, fontWeight: '700', color: '#0f172a' },
-  hint: { color: '#64748b', marginTop: 6 },
+  logo: { fontSize: 48, fontWeight: '700', color: '#f1f5f9' },
+  hint: { color: '#8892a4', marginTop: 6 },
   form: { gap: 12 },
-  input: { borderWidth: 1, borderColor: '#e2e8f0', padding: 12, borderRadius: 8, marginBottom: 8 },
-  button: { backgroundColor: '#0f172a', padding: 12, borderRadius: 8, alignItems: 'center' },
+  input: { borderWidth: 1, borderColor: '#2a3441', backgroundColor: '#161b27', color: '#f1f5f9', padding: 12, borderRadius: 8, marginBottom: 8 },
+  button: { backgroundColor: '#3b82f6', padding: 12, borderRadius: 8, alignItems: 'center' },
   buttonText: { color: '#fff', fontWeight: '600' },
   error: { color: '#b91c1c', marginBottom: 8 },
 });

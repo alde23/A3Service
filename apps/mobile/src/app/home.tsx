@@ -177,13 +177,13 @@ export default function HomeScreen() {
 
         <View style={styles.rightControls}>
           <Pressable style={styles.floatingControl}>
-            <Ionicons name="compass" size={22} color="#334155" />
+            <Ionicons name="compass" size={22} color="#94a3b8" />
           </Pressable>
           <Pressable style={styles.floatingControl}>
-            <Ionicons name="search" size={22} color="#334155" />
+            <Ionicons name="search" size={22} color="#94a3b8" />
           </Pressable>
           <Pressable style={styles.floatingControl}>
-            <Ionicons name="volume-high-outline" size={22} color="#334155" />
+            <Ionicons name="volume-high-outline" size={22} color="#94a3b8" />
           </Pressable>
         </View>
 
@@ -222,12 +222,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 1,
-    borderColor: '#111827',
-    backgroundColor: '#f8fafc',
+    borderColor: 'rgba(255,255,255,0.15)',
+    backgroundColor: 'rgba(13,17,23,0.75)',
     marginRight: 8,
   },
   homeTitle: {
-    color: '#111827',
+    color: '#f1f5f9',
     fontSize: 28,
     fontWeight: '700',
   },
@@ -274,7 +274,7 @@ const styles = StyleSheet.create({
     width: 48,
     height: 48,
     borderRadius: 24,
-    backgroundColor: '#ffffff',
+    backgroundColor: 'rgba(13,17,23,0.88)',
     alignItems: 'center',
     justifyContent: 'center',
     shadowColor: '#0f172a',
@@ -289,7 +289,7 @@ const styles = StyleSheet.create({
     right: 12,
     bottom: 78,
     borderRadius: 14,
-    backgroundColor: 'rgba(15, 23, 42, 0.82)',
+    backgroundColor: 'rgba(13,17,23,0.90)',
     paddingVertical: 10,
     paddingHorizontal: 12,
   },

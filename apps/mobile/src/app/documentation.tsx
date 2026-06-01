@@ -105,36 +105,36 @@ const HIGHLIGHT_ITEMS = [
 function accentColors(accent: DocumentationItem['accent']) {
   if (accent === 'blue') {
     return {
-      pillBg: '#dbeafe',
-      pillText: '#1d4ed8',
-      border: '#bfdbfe',
-      cardBg: '#eff6ff',
+      pillBg: '#1e3a5f',
+      pillText: '#60a5fa',
+      border: '#1d4ed8',
+      cardBg: '#161b27',
     };
   }
 
   if (accent === 'amber') {
     return {
-      pillBg: '#fef3c7',
-      pillText: '#92400e',
-      border: '#fde68a',
-      cardBg: '#fffbeb',
+      pillBg: '#451a03',
+      pillText: '#fbbf24',
+      border: '#92400e',
+      cardBg: '#1e1208',
     };
   }
 
   if (accent === 'emerald') {
     return {
-      pillBg: '#d1fae5',
-      pillText: '#047857',
-      border: '#a7f3d0',
-      cardBg: '#ecfdf5',
+      pillBg: '#064e3b',
+      pillText: '#34d399',
+      border: '#065f46',
+      cardBg: '#0a1f13',
     };
   }
 
   return {
-    pillBg: '#e2e8f0',
-    pillText: '#334155',
-    border: '#cbd5e1',
-    cardBg: '#f8fafc',
+    pillBg: '#1e293b',
+    pillText: '#94a3b8',
+    border: '#334155',
+    cardBg: '#161b27',
   };
 }
 
@@ -346,10 +346,10 @@ export default function DocumentationScreen() {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: '#f2f5fa',
+    backgroundColor: '#0d1117',
   },
   header: {
-    backgroundColor: '#2563eb',
+    backgroundColor: '#1a2744',
     paddingHorizontal: 16,
     paddingTop: 8,
     paddingBottom: 14,
@@ -394,16 +394,16 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,
-    backgroundColor: '#ffffff',
+    backgroundColor: '#161b27',
     borderRadius: 14,
     paddingHorizontal: 12,
     height: 48,
     borderWidth: 1,
-    borderColor: '#cbd5e1',
+    borderColor: '#374151',
   },
   searchInput: {
     flex: 1,
-    color: '#0f172a',
+    color: '#f1f5f9',
     fontSize: 14,
     fontWeight: '500',
     paddingVertical: 0,
@@ -412,11 +412,11 @@ const styles = StyleSheet.create({
     height: 48,
     paddingHorizontal: 16,
     borderRadius: 14,
-    backgroundColor: '#0f172a',
+    backgroundColor: '#3b82f6',
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 1,
-    borderColor: '#0f172a',
+    borderColor: '#3b82f6',
   },
   searchButtonText: {
     color: '#ffffff',
@@ -458,7 +458,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 4,
   },
   sectionTitle: {
-    color: '#334155',
+    color: '#f1f5f9',
     fontSize: 22,
     fontWeight: '600',
   },
@@ -466,18 +466,20 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     paddingVertical: 4,
     borderRadius: 8,
-    backgroundColor: '#dbeafe',
+    backgroundColor: '#1e2737',
   },
   counterText: {
-    color: '#2563eb',
+    color: '#3b82f6',
     fontSize: 12,
     fontWeight: '700',
   },
   heroCard: {
-    backgroundColor: '#ffffff',
-    borderRadius: 14,
+    backgroundColor: '#161b27',
+    borderRadius: 12,
     borderWidth: 1,
-    borderColor: '#dbeafe',
+    borderColor: '#2a3441',
+    borderLeftWidth: 2,
+    borderLeftColor: '#3b82f6',
     padding: 14,
     marginBottom: 10,
     shadowColor: '#0f172a',
@@ -504,7 +506,7 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   heroTitle: {
-    color: '#0f172a',
+    color: '#f1f5f9',
     fontSize: 20,
     lineHeight: 26,
     fontWeight: '700',
@@ -525,12 +527,12 @@ const styles = StyleSheet.create({
     backgroundColor: '#2563eb',
   },
   heroListText: {
-    color: '#475569',
+    color: '#8892a4',
     fontSize: 13,
     fontWeight: '600',
   },
   card: {
-    backgroundColor: '#ffffff',
+    backgroundColor: '#161b27',
     borderRadius: 12,
     borderWidth: 1,
     padding: 12,
@@ -562,20 +564,20 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   cardTitle: {
-    color: '#0f172a',
+    color: '#f1f5f9',
     fontSize: 22,
     lineHeight: 27,
     fontWeight: '700',
   },
   cardSubtitle: {
     marginTop: 4,
-    color: '#475569',
+    color: '#8892a4',
     fontSize: 14,
     fontWeight: '600',
   },
   cardSummary: {
     marginTop: 10,
-    color: '#64748b',
+    color: '#8892a4',
     fontSize: 14,
     lineHeight: 20,
     fontWeight: '500',
@@ -590,32 +592,33 @@ const styles = StyleSheet.create({
     borderRadius: 999,
     paddingHorizontal: 10,
     paddingVertical: 6,
+    backgroundColor: '#1e2737',
   },
   keywordText: {
-    color: '#334155',
+    color: '#8892a4',
     fontSize: 12,
     fontWeight: '600',
     textTransform: 'lowercase',
   },
   emptyCard: {
-    backgroundColor: '#ffffff',
+    backgroundColor: '#161b27',
     borderRadius: 12,
     borderWidth: 1,
-    borderColor: '#e2e8f0',
+    borderColor: '#2a3441',
     padding: 18,
     alignItems: 'center',
     justifyContent: 'center',
   },
   emptyTitle: {
     marginTop: 10,
-    color: '#0f172a',
+    color: '#f1f5f9',
     fontSize: 18,
     fontWeight: '700',
     textAlign: 'center',
   },
   emptyText: {
     marginTop: 6,
-    color: '#64748b',
+    color: '#8892a4',
     fontSize: 14,
     lineHeight: 20,
     textAlign: 'center',

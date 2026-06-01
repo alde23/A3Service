@@ -344,10 +344,10 @@ export default function JobsScreen() {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: '#f2f5fa',
+    backgroundColor: '#0d1117',
   },
   header: {
-    backgroundColor: '#2563eb',
+    backgroundColor: '#1a2744',
     paddingHorizontal: 16,
     paddingTop: 8,
     paddingBottom: 16,
@@ -379,9 +379,9 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     width: '74%',
     borderWidth: 1.5,
-    borderColor: '#0f172a',
+    borderColor: 'rgba(255,255,255,0.3)',
     borderRadius: 14,
-    backgroundColor: '#f8fafc',
+    backgroundColor: 'transparent',
     paddingVertical: 12,
     alignItems: 'center',
     justifyContent: 'center',
@@ -390,14 +390,14 @@ const styles = StyleSheet.create({
     opacity: 0.6,
   },
   createButtonText: {
-    color: '#111827',
+    color: '#f1f5f9',
     fontSize: 13,
     fontWeight: '800',
     letterSpacing: 0.4,
   },
   syncStateText: {
     marginTop: 8,
-    color: '#dbeafe',
+    color: '#8892a4',
     fontSize: 12,
     fontWeight: '600',
     textAlign: 'center',
@@ -407,15 +407,15 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     width: '74%',
     borderWidth: 1,
-    borderColor: '#dbeafe',
+    borderColor: '#3b82f6',
     borderRadius: 12,
-    backgroundColor: '#0f172a',
+    backgroundColor: '#161b27',
     paddingVertical: 10,
     alignItems: 'center',
     justifyContent: 'center',
   },
   syncButtonText: {
-    color: '#e2e8f0',
+    color: '#3b82f6',
     fontSize: 12,
     fontWeight: '700',
     letterSpacing: 0.4,
@@ -436,7 +436,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 4,
   },
   sectionTitle: {
-    color: '#334155',
+    color: '#f1f5f9',
     fontSize: 22,
     fontWeight: '600',
   },
@@ -444,18 +444,18 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     paddingVertical: 4,
     borderRadius: 8,
-    backgroundColor: '#dbeafe',
+    backgroundColor: '#1e2737',
   },
   counterText: {
-    color: '#2563eb',
+    color: '#3b82f6',
     fontSize: 12,
     fontWeight: '700',
   },
   card: {
-    backgroundColor: '#ffffff',
+    backgroundColor: '#161b27',
     borderRadius: 12,
     borderWidth: 1,
-    borderColor: '#e5e7eb',
+    borderColor: '#2a3441',
     padding: 12,
     marginBottom: 10,
     shadowColor: '#0f172a',
@@ -475,7 +475,7 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   jobId: {
-    color: '#64748b',
+    color: '#8892a4',
     fontSize: 15,
     fontWeight: '700',
   },
@@ -488,16 +488,16 @@ const styles = StyleSheet.create({
     paddingVertical: 4,
   },
   statusActivePill: {
-    backgroundColor: '#dcfce7',
+    backgroundColor: '#064e3b',
   },
   statusUpcomingPill: {
-    backgroundColor: '#f1f5f9',
+    backgroundColor: '#1e293b',
   },
   statusCompletedPill: {
-    backgroundColor: '#dbeafe',
+    backgroundColor: '#1e3a5f',
   },
   statusCancelledPill: {
-    backgroundColor: '#fee2e2',
+    backgroundColor: '#450a0a',
   },
   statusDot: {
     width: 6,
@@ -505,42 +505,42 @@ const styles = StyleSheet.create({
     borderRadius: 3,
   },
   statusActiveDot: {
-    backgroundColor: '#16a34a',
+    backgroundColor: '#22c55e',
   },
   statusUpcomingDot: {
-    backgroundColor: '#94a3b8',
+    backgroundColor: '#475569',
   },
   statusCompletedDot: {
-    backgroundColor: '#2563eb',
+    backgroundColor: '#3b82f6',
   },
   statusCancelledDot: {
-    backgroundColor: '#b91c1c',
+    backgroundColor: '#ef4444',
   },
   statusText: {
     fontSize: 12,
     fontWeight: '700',
   },
   statusActiveText: {
-    color: '#15803d',
+    color: '#4ade80',
   },
   statusUpcomingText: {
-    color: '#64748b',
+    color: '#94a3b8',
   },
   statusCompletedText: {
-    color: '#1d4ed8',
+    color: '#93c5fd',
   },
   statusCancelledText: {
-    color: '#b91c1c',
+    color: '#fca5a5',
   },
   companyName: {
     marginTop: 8,
-    color: '#1e293b',
+    color: '#f1f5f9',
     fontSize: 24,
     fontWeight: '700',
   },
   jobDescription: {
     marginTop: 2,
-    color: '#64748b',
+    color: '#8892a4',
     fontSize: 14,
     fontWeight: '500',
   },
@@ -556,7 +556,7 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   metaText: {
-    color: '#64748b',
+    color: '#8892a4',
     fontSize: 13,
     fontWeight: '600',
   },
@@ -571,7 +571,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#2563eb',
   },
   startButtonBackground: {
-    backgroundColor: '#e5e7eb',
+    backgroundColor: '#1e2737',
   },
   completedButtonBackground: {
     backgroundColor: '#dbeafe',
@@ -587,7 +587,7 @@ const styles = StyleSheet.create({
     color: '#ffffff',
   },
   startButtonText: {
-    color: '#475569',
+    color: '#8892a4',
   },
   completedButtonText: {
     color: '#1d4ed8',
