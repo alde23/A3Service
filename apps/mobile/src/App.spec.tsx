@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { render } from '@testing-library/react-native';
 
-import App from './App';
+import App from './app';
 import { useAuth } from './services/auth.service';
 
 jest.mock('./services/auth.service', () => ({

@@ -1,5 +1,5 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
-import { useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import {
   Platform,
   Pressable,
@@ -10,6 +10,8 @@ import {
 } from 'react-native';
 import MapView, { Marker, Polyline, PROVIDER_GOOGLE } from 'react-native-maps';
 import { useTranslation } from 'react-i18next';
+import { useAuth } from '../services/auth.service';
+import { API_URL, authJsonHeaders } from '../services/api.config';
 
 type JobOnMap = {
   id: string;
@@ -53,9 +55,58 @@ const JOBS_ON_MAP: JobOnMap[] = [
 
 export default function HomeScreen() {
   const { t } = useTranslation();
+  const { token } = useAuth();
+  const [jobsOnMap, setJobsOnMap] = useState<JobOnMap[]>(JOBS_ON_MAP);
+
+  useEffect(() => {
+    if (!token) return;
+
+    (async () => {
+      try {
+        // Fetch jobs from backend
+        const res = await fetch(`${API_URL}/jobs`, {
+          method: 'GET',
+          headers: authJsonHeaders(token),
+        });
+
+        if (res.ok) {
+          const jobs = await res.json();
+          
+          // Transform backend jobs to map format
+          const mappedJobs = jobs
+            .filter((job: any) => job.siteId)
+            .map((job: any, index: number) => {
+              // For now, generate coordinates near current location
+              // In production, this would come from site data
+              const offsetLat = (Math.random() - 0.5) * 0.05;
+              const offsetLng = (Math.random() - 0.5) * 0.05;
+              
+              return {
+                id: String(job.id),
+                name: job.rawAddress || `Job #${job.id}`,
+                distanceMi: Math.round(Math.random() * 5 * 10) / 10,
+                coordinate: {
+                  latitude: CURRENT_LOCATION.latitude + offsetLat,
+                  longitude: CURRENT_LOCATION.longitude + offsetLng,
+                },
+                status: (job.status === 'IN_PROGRESS' ? 'active' : 'upcoming') as 'active' | 'upcoming',
+              };
+            });
+
+          if (mappedJobs.length > 0) {
+            setJobsOnMap(mappedJobs);
+          }
+        }
+      } catch (error) {
+        console.error('Failed to fetch jobs:', error);
+        // Keep mock data on error
+      }
+    })();
+  }, [token]);
+
   const nextJob = useMemo(
-    () => [...JOBS_ON_MAP].sort((a, b) => a.distanceMi - b.distanceMi)[0],
-    []
+    () => [...jobsOnMap].sort((a, b) => a.distanceMi - b.distanceMi)[0],
+    [jobsOnMap]
   );
 
   const routeCoordinates = useMemo(
@@ -88,7 +139,7 @@ export default function HomeScreen() {
           pinColor="#2563eb"
         />
 
-        {JOBS_ON_MAP.map((job) => (
+        {jobsOnMap.map((job) => (
             <Marker
             key={job.id}
             coordinate={job.coordinate}
@@ -137,7 +188,7 @@ export default function HomeScreen() {
         </View>
 
         <View style={styles.bottomStatsCard}>
-          <Text style={styles.bottomStatsText}>{t('home.jobs_visible', { count: JOBS_ON_MAP.length })}</Text>
+          <Text style={styles.bottomStatsText}>{t('home.jobs_visible', { count: jobsOnMap.length })}</Text>
         </View>
       </View>
     </SafeAreaView>

@@ -11,6 +11,13 @@ import {
   TextInput,
 } from 'react-native';
 import { useTranslation } from 'react-i18next';
+import { useAuth } from '../services/auth.service';
+import {
+  fetchAnalyticsSummary,
+  fetchAnalyticsEarnings,
+  AnalyticsSummary,
+  MonthlyMetric,
+} from '../services/analytics-api.service';
 import { observeExpenses, addExpense } from '../storage/repositories/expenses.repository';
 
 type MetricCard = {
@@ -26,12 +33,6 @@ type MonthlyPoint = {
   revenue: number;
 };
 
-const METRICS: MetricCard[] = [
-  { label: 'Jobs this year', value: '1,248', delta: '+18%', tone: 'blue' },
-  { label: 'Completed on first visit', value: '72%', delta: '+6%', tone: 'emerald' },
-  { label: 'Fault repeat rate', value: '8.4%', delta: '-2%', tone: 'amber' },
-  { label: 'Avg. response time', value: '34m', delta: '-8m', tone: 'slate' },
-];
 
 const MONTHLY_DATA: MonthlyPoint[] = [
   { month: 'Jan', jobs: 74, revenue: 18 },
@@ -82,10 +83,34 @@ function toneStyles(tone: MetricCard['tone']) {
 
 export default function AnalyticsScreen() {
   const { t } = useTranslation();
+  const { token } = useAuth();
+  const [summary, setSummary] = useState<AnalyticsSummary>({});
+  const [monthlyData, setMonthlyData] = useState<MonthlyMetric[]>(MONTHLY_DATA);
+
   const [expensesSum, setExpensesSum] = useState(0);
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [expenseAmount, setExpenseAmount] = useState('');
   const [expenseDescription, setExpenseDescription] = useState('');
+
+  useEffect(() => {
+    if (!token) return;
+
+    (async () => {
+      try {
+        // Fetch analytics data from backend
+        const summaryData = await fetchAnalyticsSummary(token);
+        setSummary(summaryData);
+
+        const earningsData = await fetchAnalyticsEarnings(token);
+        if (earningsData && earningsData.length > 0) {
+          setMonthlyData(earningsData);
+        }
+      } catch (error) {
+        console.error('Failed to fetch analytics:', error);
+        // Keep mock data on error
+      }
+    })();
+  }, [token]);
 
   useEffect(() => {
     const sub = observeExpenses().subscribe((records) => {
@@ -106,16 +131,43 @@ export default function AnalyticsScreen() {
   };
 
   const jobsTotal = useMemo(
-    () => MONTHLY_DATA.reduce((sum, point) => sum + point.jobs, 0),
-    []
+    () => monthlyData.reduce((sum, point) => sum + point.jobs, 0) || summary.jobsTotal || 0,
+    [monthlyData, summary]
   );
   const revenueTotal = useMemo(
-    () => MONTHLY_DATA.reduce((sum, point) => sum + point.revenue, 0),
-    []
+    () => monthlyData.reduce((sum, point) => sum + point.revenue, 0) || summary.revenueTotal || 0,
+    [monthlyData, summary]
   );
 
+  const maxJobs = Math.max(...monthlyData.map((point) => point.jobs), 1);
 
-  const maxJobs = Math.max(...MONTHLY_DATA.map((point) => point.jobs));
+  // Create metrics from API data
+  const metrics = useMemo(() => [
+    {
+      label: 'Jobs this year',
+      value: summary.jobsTotal ? summary.jobsTotal.toLocaleString() : '0',
+      delta: '+18%',
+      tone: 'blue' as const,
+    },
+    {
+      label: 'Completed on first visit',
+      value: summary.completionRate ? `${Math.round(summary.completionRate)}%` : '72%',
+      delta: '+6%',
+      tone: 'emerald' as const,
+    },
+    {
+      label: 'Fault repeat rate',
+      value: summary.faultRepeatRate ? `${summary.faultRepeatRate.toFixed(1)}%` : '8.4%',
+      delta: '-2%',
+      tone: 'amber' as const,
+    },
+    {
+      label: 'Avg. response time',
+      value: summary.avgResponseTime ? `${summary.avgResponseTime}m` : '34m',
+      delta: '-8m',
+      tone: 'slate' as const,
+    },
+  ], [summary]);
 
   return (
     <SafeAreaView style={styles.safeArea}>
@@ -174,12 +226,12 @@ export default function AnalyticsScreen() {
           <View style={styles.summaryStatsRow}>
             <View style={styles.summaryStatItem}>
               <Text style={styles.summaryStatLabel}>Net Revenue</Text>
-              <Text style={styles.summaryStatValue}>{revenueTotal - expensesSum}</Text>
+              <Text style={styles.summaryStatValue}>{revenueTotal - expensesSum} KM</Text>
             </View>
             <View style={styles.summaryDivider} />
             <View style={styles.summaryStatItem}>
               <Text style={styles.summaryStatLabel}>Total Expenses</Text>
-              <Text style={styles.summaryStatValue}>{expensesSum}</Text>
+              <Text style={styles.summaryStatValue}>{expensesSum} KM</Text>
             </View>
             <View style={styles.summaryDivider} />
             <View style={styles.summaryStatItem}>
@@ -191,7 +243,7 @@ export default function AnalyticsScreen() {
         </View>
 
         <View style={styles.grid}>
-          {METRICS.map((metric) => {
+          {metrics.map((metric) => {
             const colors = toneStyles(metric.tone);
 
             return (
@@ -220,7 +272,7 @@ export default function AnalyticsScreen() {
           </View>
 
           <View style={styles.barChart}>
-            {MONTHLY_DATA.map((point) => {
+            {monthlyData.map((point) => {
               const heightPercent = (point.jobs / maxJobs) * 100;
 
               return (
