@@ -5,10 +5,7 @@
     "documentation": "Dokumentacija",
     "analytics": "Analitika"
   },
-  "login": {
-    "title": "Prijava"
-  }
-  ,
+
   "home": {
     "title": "Početna",
     "jobs_visible": "{{count}} poslova vidljivo na mapi"
@@ -39,6 +36,7 @@
     "low": "Nizak"
   },
   "login": {
+    "title": "Prijava",
     "hint": "Prijavite se za nastavak",
     "username": "Korisničko ime",
     "password": "Lozinka",
