@@ -1,10 +1,10 @@
 import React from 'react';
 import { render, waitFor } from '@testing-library/react-native';
 
-import HomeScreen from './home';
-import { useAuth } from '../services/auth.service';
+import HomeScreen from '../../app/home';
+import { useAuth } from '../../services/auth.service';
 
-jest.mock('../services/auth.service', () => ({
+jest.mock('../../services/auth.service', () => ({
   useAuth: jest.fn(),
 }));
 

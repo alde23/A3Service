@@ -1,15 +1,15 @@
 import React from 'react';
 import { act, fireEvent, render, waitFor } from '@testing-library/react-native';
 
-import DocumentationScreen from './documentation';
-import { useAuth } from '../services/auth.service';
-import { searchLibrary } from '../services/library-api.service';
+import DocumentationScreen from '../../app/documentation';
+import { useAuth } from '../../services/auth.service';
+import { searchLibrary } from '../../services/library-api.service';
 
-jest.mock('../services/auth.service', () => ({
+jest.mock('../../services/auth.service', () => ({
   useAuth: jest.fn(),
 }));
 
-jest.mock('../services/library-api.service', () => ({
+jest.mock('../../services/library-api.service', () => ({
   searchLibrary: jest.fn(),
 }));
 
