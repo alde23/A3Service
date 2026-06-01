@@ -36,13 +36,13 @@ jobs:
         run: npm ci
 
       - name: Generate Prisma Client
-        run: npx prisma generate
+        run: npx prisma generate --schema apps/api/prisma/schema.prisma
         env:
           DATABASE_URL: postgresql://postgres:postgres@localhost:5433/a3service
           DIRECT_URL: postgresql://postgres:postgres@localhost:5433/a3service
 
       - name: Deploy Prisma Migrations
-        run: npx prisma migrate deploy
+        run: npx prisma migrate deploy --schema apps/api/prisma/schema.prisma
         env:
           DATABASE_URL: postgresql://postgres:postgres@localhost:5433/a3service
           DIRECT_URL: postgresql://postgres:postgres@localhost:5433/a3service
