@@ -33,12 +33,6 @@ type MonthlyPoint = {
   revenue: number;
 };
 
-const METRICS: MetricCard[] = [
-  { label: 'Jobs this year', value: '1,248', delta: '+18%', tone: 'blue' },
-  { label: 'Completed on first visit', value: '72%', delta: '+6%', tone: 'emerald' },
-  { label: 'Fault repeat rate', value: '8.4%', delta: '-2%', tone: 'amber' },
-  { label: 'Avg. response time', value: '34m', delta: '-8m', tone: 'slate' },
-];
 
 const MONTHLY_DATA: MonthlyPoint[] = [
   { month: 'Jan', jobs: 74, revenue: 18 },
@@ -144,10 +138,6 @@ export default function AnalyticsScreen() {
     () => monthlyData.reduce((sum, point) => sum + point.revenue, 0) || summary.revenueTotal || 0,
     [monthlyData, summary]
   );
-  const peakMonth = useMemo(
-    () => [...monthlyData].sort((a, b) => b.jobs - a.jobs)[0] || { month: 'N/A', jobs: 0, revenue: 0 },
-    [monthlyData]
-  );
 
   const maxJobs = Math.max(...monthlyData.map((point) => point.jobs), 1);
 
@@ -236,12 +226,12 @@ export default function AnalyticsScreen() {
           <View style={styles.summaryStatsRow}>
             <View style={styles.summaryStatItem}>
               <Text style={styles.summaryStatLabel}>Net Revenue</Text>
-              <Text style={styles.summaryStatValue}>{revenueTotal - expensesSum}</Text>
+              <Text style={styles.summaryStatValue}>{revenueTotal - expensesSum} KM</Text>
             </View>
             <View style={styles.summaryDivider} />
             <View style={styles.summaryStatItem}>
               <Text style={styles.summaryStatLabel}>Total Expenses</Text>
-              <Text style={styles.summaryStatValue}>{expensesSum}</Text>
+              <Text style={styles.summaryStatValue}>{expensesSum} KM</Text>
             </View>
             <View style={styles.summaryDivider} />
             <View style={styles.summaryStatItem}>

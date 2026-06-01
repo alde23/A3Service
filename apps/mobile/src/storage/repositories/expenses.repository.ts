@@ -1,8 +1,8 @@
 import { database } from '../index';
 import Expense from '../models/Expense';
-import { enqueueSyncOperation } from './sync-queue.repository';
+import { enqueueSyncOperationInCurrentWriter } from './sync-queue.repository';
 
-export async function addExpense(amount: number, description: string, currency = 'USD') {
+export async function addExpense(amount: number, description: string, currency = 'BAM') {
   await database.write(async () => {
     const expense = await database.get<Expense>('expenses').create((record) => {
       record.amount = amount;
@@ -11,7 +11,7 @@ export async function addExpense(amount: number, description: string, currency =
       record.incurredAt = new Date();
     });
 
-    await enqueueSyncOperation({
+    await enqueueSyncOperationInCurrentWriter({
       tableName: 'expenses',
       recordId: expense.id,
       operation: 'INSERT',

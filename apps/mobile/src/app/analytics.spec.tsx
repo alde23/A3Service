@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, waitFor } from '@testing-library/react-native';
+import { render, waitFor, fireEvent } from '@testing-library/react-native';
 
 import AnalyticsScreen from './analytics';
 import { useAuth } from '../services/auth.service';
@@ -15,6 +15,16 @@ jest.mock('../services/auth.service', () => ({
 jest.mock('../services/analytics-api.service', () => ({
   fetchAnalyticsSummary: jest.fn(),
   fetchAnalyticsEarnings: jest.fn(),
+}));
+
+jest.mock('../storage/repositories/expenses.repository', () => ({
+  observeExpenses: jest.fn().mockReturnValue({
+    subscribe: jest.fn((cb) => {
+      cb([{ amount: 50 }]);
+      return { unsubscribe: jest.fn() };
+    }),
+  }),
+  addExpense: jest.fn(),
 }));
 
 jest.mock('react-i18next', () => ({
@@ -96,5 +106,27 @@ describe('AnalyticsScreen backend integration', () => {
 
     expect(fetchSummaryMock).not.toHaveBeenCalled();
     expect(fetchEarningsMock).not.toHaveBeenCalled();
+  });
+
+  it('can open modal and add an expense', async () => {
+    const { getByText, getByPlaceholderText } = render(<AnalyticsScreen />);
+    
+    // Open modal
+    const addExpenseBtn = await waitFor(() => getByText('+ Add Expense'));
+    fireEvent.press(addExpenseBtn);
+
+    // Modal is open, type values
+    const amountInput = getByPlaceholderText('Amount');
+    const descInput = getByPlaceholderText('Description');
+    fireEvent.changeText(amountInput, '120.5');
+    fireEvent.changeText(descInput, 'Gasoline');
+
+    // Click Save
+    const saveBtn = getByText('Save');
+    fireEvent.press(saveBtn);
+
+    await waitFor(() => {
+      expect(require('../storage/repositories/expenses.repository').addExpense).toHaveBeenCalledWith(120.5, 'Gasoline');
+    });
   });
 });
