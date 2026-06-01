@@ -36,6 +36,13 @@
         "config": "apps/api/vitest.config.mts"
       }
     },
+    "e2e": {
+      "executor": "nx:run-commands",
+      "outputs": ["{workspaceRoot}/coverage/apps/api-e2e"],
+      "options": {
+        "command": "node --experimental-vm-modules node_modules/jest/bin/jest.js -c apps/api/jest.e2e.config.cjs"
+      }
+    },
     "prune-lockfile": {
       "dependsOn": ["build"],
       "cache": true,
