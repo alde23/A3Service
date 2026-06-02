@@ -25,12 +25,19 @@ jest.mock('react-i18next', () => ({
   }),
 }));
 
+jest.mock('expo-router', () => ({
+  Redirect: () => {
+    const { Text } = require('react-native');
+    return <Text>Redirected to Home</Text>;
+  },
+}));
+
 test('renders correctly', () => {
   (useAuth as jest.Mock).mockReturnValue({ token: null });
   jest.spyOn(console, 'warn').mockImplementation(() => undefined);
 
   const { getByText } = render(<App />);
-  expect(getByText('Home')).toBeTruthy();
+  expect(getByText('Redirected to Home')).toBeTruthy();
 
   jest.restoreAllMocks();
 });

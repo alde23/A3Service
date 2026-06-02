@@ -27,7 +27,7 @@ function GuardedRoot() {
     } else if (token && homeLocation && !inTabsGroup) {
       router.replace('/(tabs)/home');
     }
-  }, [token, homeLocation, authLoading, locLoading, segments]);
+  }, [token, homeLocation, authLoading, locLoading, inTabsGroup, isLoginScreen, isOnboardingScreen, router]);
 
   if (authLoading || locLoading) {
     return (

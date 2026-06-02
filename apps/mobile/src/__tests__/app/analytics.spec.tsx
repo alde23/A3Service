@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, waitFor, fireEvent } from '@testing-library/react-native';
 
-import AnalyticsScreen from '../../app/analytics';
+import AnalyticsScreen from '../../app/(tabs)/analytics';
 import { useAuth } from '../../services/auth.service';
 import {
   fetchAnalyticsEarnings,
