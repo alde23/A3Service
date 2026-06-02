@@ -1,10 +1,11 @@
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { View, ActivityIndicator } from 'react-native';
 import { AuthProvider, useAuth } from '../services/auth.service';
 import { DatabaseProvider } from '../storage/DatabaseProvider';
 import '../i18n';
 import { ThemeProvider } from '../theme/ThemeProvider';
 import { LocationProvider, useLocation } from '../services/location.service';
-import { Slot, useRouter, useSegments } from 'expo-router';
+import { Stack, useRouter, useSegments } from 'expo-router';
 import { useEffect } from 'react';
 
 function GuardedRoot() {
@@ -40,22 +41,23 @@ function GuardedRoot() {
     );
   }
 
-  // Returning null here breaks the <Slot /> and prevents router.replace from working!
-  // We must always render <Slot /> so the navigation tree exists.
+  // We must always render the router so the navigation tree exists.
 
-  return <Slot />;
+  return <Stack screenOptions={{ headerShown: false }} />;
 }
 
 export default function RootLayout() {
   return (
-    <ThemeProvider>
-      <DatabaseProvider>
-        <AuthProvider>
-          <LocationProvider>
-            <GuardedRoot />
-          </LocationProvider>
-        </AuthProvider>
-      </DatabaseProvider>
-    </ThemeProvider>
+    <SafeAreaProvider>
+      <AuthProvider>
+        <DatabaseProvider>
+          <ThemeProvider>
+            <LocationProvider>
+              <GuardedRoot />
+            </LocationProvider>
+          </ThemeProvider>
+        </DatabaseProvider>
+      </AuthProvider>
+    </SafeAreaProvider>
   );
 }

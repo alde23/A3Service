@@ -155,7 +155,7 @@ export class LibraryService {
   }
 
   async getModel(id: string) {
-    return this.prisma.boilerModel.findUnique({ 
+    const model = await this.prisma.boilerModel.findUnique({ 
       where: { id },
       include: {
         faultCodes: true,
@@ -169,6 +169,28 @@ export class LibraryService {
         }
       }
     });
+
+    if (!model) return null;
+
+    // Filter out unknown tasks
+    if (model.maintenanceTasks) {
+      model.maintenanceTasks = model.maintenanceTasks.filter(t => t.task !== 'UNKNOWN');
+    }
+
+    // Extract description from sourceRefs if empty
+    if (model.safetyWarnings) {
+      model.safetyWarnings = model.safetyWarnings.map(w => {
+        if (!w.description || w.description.trim() === '') {
+          const refs = w.sourceRefs as any[];
+          if (refs && refs.length > 0 && refs[0].source_quote) {
+            w.description = refs[0].source_quote;
+          }
+        }
+        return w;
+      }).filter(w => w.description && w.description.trim() !== '');
+    }
+
+    return model;
   }
 
   async getFaultById(id: string) {
@@ -187,7 +209,14 @@ export class LibraryService {
   }
 
   async getPart(id: string) {
-    return this.prisma.part.findUnique({ where: { id } });
+    return this.prisma.part.findUnique({ 
+      where: { id },
+      include: {
+        modelParts: {
+          include: { model: true }
+        }
+      }
+    });
   }
 
   async validateIngest(body: any) {

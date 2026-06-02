@@ -7,6 +7,8 @@ export type LibraryPartDetail = {
   brand?: string;
   unitPrice?: number;
   inventoryStatus?: string;
+  aliases?: string[];
+  modelParts?: { model: { id: string; modelName: string; manufacturerId: string } }[];
 };
 
 export type LibraryFault = {
@@ -17,21 +19,32 @@ export type LibraryFault = {
   symptoms?: string[];
   severity?: string;
   model?: { id: string; modelName: string; manufacturerId: string };
+  manufacturerSteps?: any;
+  cautionsOrNotes?: string[];
+  relatedComponents?: string[];
+  safetyLevel?: string;
+  sourceRefs?: any;
+  reviewRequired?: boolean;
 };
 
 export type LibraryModel = {
   id: string;
-  name: string;
+  name: string; // mapped from modelName for search
+  modelName?: string;
+  manufacturerId?: string;
   brand: string;
   category: string;
   description?: string;
+  fuelType?: string;
+  productionStartYear?: number;
+  productionEndYear?: number;
   faultCodes?: LibraryFault[];
   modelParts?: { part: LibraryPartDetail }[];
-  technicalSpecs?: any[];
+  technicalSpecs?: { id: string; parameter: string; value: string; unit?: string }[];
   statusCodes?: any[];
   diagnosticCodes?: any[];
-  safetyWarnings?: any[];
-  maintenanceTasks?: any[];
+  safetyWarnings?: { id: string; description: string; warningType?: string }[];
+  maintenanceTasks?: { id: string; task: string; interval?: string; steps?: string[] }[];
 };
 
 export type LibrarySearchResult = {

@@ -1,5 +1,4 @@
-import { Redirect } from 'expo-router';
-
 export default function Index() {
-  return <Redirect href="/(tabs)/home" />;
+  // Let the GuardedRoot in _layout handle the initial routing based on auth state
+  return null;
 }

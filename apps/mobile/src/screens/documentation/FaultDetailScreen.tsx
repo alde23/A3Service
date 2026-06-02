@@ -53,6 +53,15 @@ export default function FaultDetailScreen() {
   return (
     <DetailLayout title={fault.code} subtitle="Fault Code Diagnostic">
       
+      {fault.reviewRequired && (
+        <View style={styles.reviewBanner}>
+          <Ionicons name="information-circle-outline" size={20} color="#ca8a04" />
+          <Text style={styles.reviewText}>
+            This diagnostic information was automatically ingested and may require manual review.
+          </Text>
+        </View>
+      )}
+
       {fault.model && (
         <Pressable 
           style={styles.modelBanner} 
@@ -71,11 +80,45 @@ export default function FaultDetailScreen() {
         </View>
         <View style={styles.infoRow}>
           <Text style={styles.infoLabel}>Severity</Text>
-          <Text style={[styles.infoValue, { color: fault.severity === 'HIGH' ? '#dc2626' : colors.textPrimary }]}>
+          <Text style={[styles.infoValue, { color: fault.severity === 'HIGH' || fault.severity === 'critical' ? '#dc2626' : colors.textPrimary }]}>
             {fault.severity || 'Unknown'}
           </Text>
         </View>
+        {fault.safetyLevel && (
+          <View style={[styles.infoRow, { borderBottomWidth: 0 }]}>
+            <Text style={styles.infoLabel}>Safety Level</Text>
+            <Text style={styles.infoValue}>{fault.safetyLevel}</Text>
+          </View>
+        )}
       </Card>
+
+      {fault.cautionsOrNotes && fault.cautionsOrNotes.length > 0 && (
+        <View style={styles.cautionsContainer}>
+          {fault.cautionsOrNotes.map((note, idx) => (
+            <View key={idx} style={styles.cautionBox}>
+              <Ionicons name="warning" size={20} color="#d97706" />
+              <Text style={styles.cautionText}>{note}</Text>
+            </View>
+          ))}
+        </View>
+      )}
+
+      {fault.manufacturerSteps && Array.isArray(fault.manufacturerSteps) && fault.manufacturerSteps.length > 0 && (
+        <Card style={styles.sectionCard}>
+          <View style={styles.sectionHeader}>
+            <Ionicons name="list" size={20} color={colors.textPrimary} />
+            <Text style={styles.sectionTitle}>Diagnostic Steps</Text>
+          </View>
+          {fault.manufacturerSteps.map((step, idx) => (
+            <View key={idx} style={styles.stepRow}>
+              <View style={styles.stepBadge}>
+                <Text style={styles.stepBadgeText}>{idx + 1}</Text>
+              </View>
+              <Text style={styles.stepText}>{step}</Text>
+            </View>
+          ))}
+        </Card>
+      )}
 
       {fault.possibleCauses && fault.possibleCauses.length > 0 && (
         <Card style={styles.sectionCard}>
@@ -107,7 +150,23 @@ export default function FaultDetailScreen() {
         </Card>
       )}
 
-      <View style={{ height: 20 }} />
+      {fault.relatedComponents && fault.relatedComponents.length > 0 && (
+        <Card style={styles.sectionCard}>
+          <View style={styles.sectionHeader}>
+            <Ionicons name="hardware-chip" size={20} color={colors.textPrimary} />
+            <Text style={styles.sectionTitle}>Related Components</Text>
+          </View>
+          <View style={styles.tagContainer}>
+            {fault.relatedComponents.map((comp, idx) => (
+              <View key={idx} style={styles.tag}>
+                <Text style={styles.tagText}>{comp}</Text>
+              </View>
+            ))}
+          </View>
+        </Card>
+      )}
+
+      <View style={{ height: 40 }} />
     </DetailLayout>
   );
 }
@@ -121,6 +180,23 @@ const getStyles = (colors: ColorsType) => StyleSheet.create({
   errorText: {
     color: colors.textSecondary,
     fontSize: 15,
+  },
+  reviewBanner: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#fefce8',
+    padding: 12,
+    borderRadius: 12,
+    marginBottom: 12,
+    gap: 8,
+    borderWidth: 1,
+    borderColor: '#fef08a',
+  },
+  reviewText: {
+    color: '#a16207',
+    fontSize: 13,
+    flex: 1,
+    lineHeight: 18,
   },
   modelBanner: {
     flexDirection: 'row',
@@ -138,6 +214,7 @@ const getStyles = (colors: ColorsType) => StyleSheet.create({
   infoCard: {
     padding: 0,
     overflow: 'hidden',
+    marginBottom: 16,
   },
   headerWrap: {
     padding: 16,
@@ -157,6 +234,8 @@ const getStyles = (colors: ColorsType) => StyleSheet.create({
     alignItems: 'center',
     paddingVertical: 12,
     paddingHorizontal: 16,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.border,
   },
   infoLabel: {
     color: colors.textSecondary,
@@ -167,16 +246,37 @@ const getStyles = (colors: ColorsType) => StyleSheet.create({
     color: colors.textPrimary,
     fontSize: 14,
     fontWeight: '700',
+    textTransform: 'capitalize',
+  },
+  cautionsContainer: {
+    marginBottom: 16,
+    gap: 8,
+  },
+  cautionBox: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    backgroundColor: '#fffbeb',
+    padding: 12,
+    borderRadius: 8,
+    gap: 8,
+    borderLeftWidth: 4,
+    borderLeftColor: '#f59e0b',
+  },
+  cautionText: {
+    color: '#b45309',
+    fontSize: 14,
+    lineHeight: 20,
+    flex: 1,
   },
   sectionCard: {
     padding: 16,
-    marginTop: 8,
+    marginBottom: 16,
   },
   sectionHeader: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,
-    marginBottom: 12,
+    marginBottom: 16,
   },
   sectionTitle: {
     fontSize: 16,
@@ -202,5 +302,49 @@ const getStyles = (colors: ColorsType) => StyleSheet.create({
     color: colors.textSecondary,
     lineHeight: 22,
     flex: 1,
+  },
+  stepRow: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    marginBottom: 12,
+    gap: 12,
+  },
+  stepBadge: {
+    backgroundColor: colors.surface3,
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  stepBadgeText: {
+    color: colors.textPrimary,
+    fontSize: 12,
+    fontWeight: '700',
+  },
+  stepText: {
+    flex: 1,
+    fontSize: 14,
+    color: colors.textPrimary,
+    lineHeight: 22,
+    paddingTop: 1,
+  },
+  tagContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 8,
+  },
+  tag: {
+    backgroundColor: colors.surface2,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 16,
+    borderWidth: 1,
+    borderColor: colors.border,
+  },
+  tagText: {
+    color: colors.textSecondary,
+    fontSize: 13,
+    fontWeight: '500',
   },
 });

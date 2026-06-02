@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, StyleSheet, ActivityIndicator } from 'react-native';
-import { useLocalSearchParams } from 'expo-router';
+import { View, Text, StyleSheet, ActivityIndicator, Pressable, ScrollView } from 'react-native';
+import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { useAuth } from '../../services/auth.service';
@@ -16,6 +16,7 @@ export default function PartDetailScreen() {
   const { t } = useTranslation();
   const { colors } = useTheme();
   const styles = getStyles(colors);
+  const router = useRouter();
 
   const [part, setPart] = useState<LibraryPartDetail | null>(null);
   const [loading, setLoading] = useState(true);
@@ -71,6 +72,13 @@ export default function PartDetailScreen() {
           </View>
         )}
 
+        {part.aliases && part.aliases.length > 0 && (
+          <View style={styles.infoRow}>
+            <Text style={styles.infoLabel}>Also known as</Text>
+            <Text style={styles.infoValue}>{part.aliases.join(', ')}</Text>
+          </View>
+        )}
+
         <View style={[styles.infoRow, { borderBottomWidth: 0 }]}>
           <Text style={styles.infoLabel}>Status</Text>
           <View style={[styles.statusBadge, { backgroundColor: inStock ? '#dcfce7' : '#fef3c7' }]}>
@@ -80,6 +88,40 @@ export default function PartDetailScreen() {
           </View>
         </View>
       </Card>
+
+      {part.modelParts && part.modelParts.length > 0 && (
+        <View style={styles.section}>
+          <View style={styles.sectionHeader}>
+            <Ionicons name="cube-outline" size={20} color={colors.textPrimary} />
+            <Text style={styles.sectionTitle}>Compatible Models ({part.modelParts.length})</Text>
+          </View>
+          
+          {part.modelParts.map((mp, idx) => {
+            const model = mp.model;
+            if (!model) return null;
+            return (
+              <Pressable
+                key={model.id || idx}
+                style={({ pressed }) => [styles.listItem, pressed && { opacity: 0.7 }]}
+                onPress={() => router.push(`/model/${model.id}`)}
+              >
+                <View style={styles.listItemLeft}>
+                  <View style={[styles.iconWrap, { backgroundColor: colors.surface3 }]}>
+                    <Ionicons name="document-text-outline" size={16} color={colors.textPrimary} />
+                  </View>
+                  <View style={styles.listItemTextWrap}>
+                    <Text style={styles.listItemTitle}>{model.modelName}</Text>
+                    <Text style={styles.listItemSubtitle}>{model.manufacturerId}</Text>
+                  </View>
+                </View>
+                <Ionicons name="chevron-forward" size={18} color={colors.border} />
+              </Pressable>
+            );
+          })}
+        </View>
+      )}
+
+      <View style={{ height: 40 }} />
     </DetailLayout>
   );
 }
@@ -132,6 +174,8 @@ const getStyles = (colors: ColorsType) => StyleSheet.create({
     color: colors.textPrimary,
     fontSize: 15,
     fontWeight: '600',
+    flex: 1,
+    textAlign: 'right',
   },
   statusBadge: {
     paddingHorizontal: 8,
@@ -141,5 +185,57 @@ const getStyles = (colors: ColorsType) => StyleSheet.create({
   statusText: {
     fontSize: 12,
     fontWeight: '700',
+  },
+  section: {
+    marginTop: 24,
+  },
+  sectionHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    marginBottom: 16,
+  },
+  sectionTitle: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: colors.textPrimary,
+  },
+  listItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    backgroundColor: colors.surface1,
+    padding: 12,
+    borderRadius: 12,
+    marginBottom: 8,
+    borderWidth: 1,
+    borderColor: colors.border,
+  },
+  listItemLeft: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+    flex: 1,
+  },
+  iconWrap: {
+    minWidth: 40,
+    height: 40,
+    paddingHorizontal: 8,
+    borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  listItemTextWrap: {
+    flex: 1,
+  },
+  listItemTitle: {
+    color: colors.textPrimary,
+    fontSize: 15,
+    fontWeight: '600',
+  },
+  listItemSubtitle: {
+    color: colors.textSecondary,
+    fontSize: 13,
+    marginTop: 2,
   },
 });

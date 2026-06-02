@@ -44,7 +44,7 @@ const ResultCard = React.memo(({ item, onPress, styles, colors }: { item: any; o
                       item.type === 'model' ? '#1d4ed8' : '#16a34a',
                   }
                 ]}>
-                  {item.type === 'fault' ? 'Greška' : item.type === 'model' ? 'Model' : 'Dio'}
+                  {item.type === 'fault' ? 'Fault' : item.type === 'model' ? 'Model' : 'Part'}
                 </Text>
               </View>
               <Text style={styles.cardTitle}>{item.title}</Text>
@@ -293,17 +293,17 @@ export default function DocumentationScreen() {
           <View style={styles.heroStatsRow}>
             <View style={styles.heroStat}>
               <Text style={styles.heroStatNumber}>{models.length}</Text>
-              <Text style={styles.heroStatLabel}>{t('documentation.stat_models') ?? 'Modeli'}</Text>
+              <Text style={styles.heroStatLabel}>{t('documentation.stat_models') ?? 'Models'}</Text>
             </View>
             <View style={styles.heroStatDivider} />
             <View style={styles.heroStat}>
               <Text style={styles.heroStatNumber}>{CATEGORY_PILLS.length}</Text>
-              <Text style={styles.heroStatLabel}>{t('documentation.stat_categories') ?? 'Kategorije'}</Text>
+              <Text style={styles.heroStatLabel}>{t('documentation.stat_categories') ?? 'Categories'}</Text>
             </View>
             <View style={styles.heroStatDivider} />
             <View style={styles.heroStat}>
               <Text style={styles.heroStatNumber}>{'↗'}</Text>
-              <Text style={styles.heroStatLabel}>{t('documentation.stat_search') ?? 'Pretraga'}</Text>
+              <Text style={styles.heroStatLabel}>{t('documentation.stat_search') ?? 'Search'}</Text>
             </View>
           </View>
         </Card>
@@ -324,12 +324,12 @@ export default function DocumentationScreen() {
         <Card style={styles.emptyCard}>
           <Ionicons name="search-outline" size={26} color="#94a3b8" />
           <Text style={styles.emptyTitle}>
-            {isSearching ? t('documentation.empty_title') : 'Nema modela u biblioteci'}
+            {isSearching ? t('documentation.empty_title') : 'No models in library'}
           </Text>
           <Text style={styles.emptyText}>
             {isSearching
               ? t('documentation.empty_text')
-              : 'Koristite POST /library/ingest endpoint za dodavanje dokumentacije.'}
+              : 'Use the POST /library/ingest endpoint to add documentation.'}
           </Text>
         </Card>
       )}

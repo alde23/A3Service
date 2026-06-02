@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, Pressable } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { useRouter } from 'expo-router';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { Screen } from './Screen';
@@ -23,9 +23,20 @@ export function DetailLayout({
 
   const header = (
     <View style={styles.header}>
-      <Pressable onPress={() => router.back()} style={styles.backButton}>
+      <TouchableOpacity 
+        onPress={() => {
+          if (router.canGoBack()) {
+            router.back();
+          } else {
+            router.replace('/(tabs)/documentation'); // Fallback to documentation
+          }
+        }} 
+        style={styles.backButton}
+        hitSlop={{ top: 20, bottom: 20, left: 20, right: 20 }}
+        activeOpacity={0.7}
+      >
         <Ionicons name="arrow-back" size={24} color={colors.textPrimary} />
-      </Pressable>
+      </TouchableOpacity>
       
       <View style={styles.headerCenter}>
         <Text style={styles.title} numberOfLines={1}>{title}</Text>
