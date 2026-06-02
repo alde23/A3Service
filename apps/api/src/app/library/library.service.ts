@@ -142,15 +142,37 @@ export class LibraryService {
         documentType:   true,
         series:         true,
         fuelType:       true,
+        language:       true,
+        searchTerms:    true,
+        derivedGuidance: true,
+        faultCodes:     true,
+        technicalSpecs: true,
+        statusCodes:    true,
+        diagnosticCodes: true,
+        safetyWarnings: true,
+        maintenanceTasks: true,
+        modelParts:     true,
       },
     });
     // Map to the shape expected by the mobile client
+    // Map to the shape expected by the mobile client sync
     return rows.map(r => ({
-      id:          r.id,
-      name:        r.modelName,
-      brand:       r.manufacturerId ?? 'Unknown',
-      category:    r.documentType ?? r.series ?? 'Boiler Model',
-      description: r.fuelType ? `Fuel: ${r.fuelType}` : undefined,
+      id:             r.id,
+      modelName:      r.modelName,
+      manufacturerId: r.manufacturerId ?? 'Unknown',
+      documentType:   r.documentType,
+      series:         r.series,
+      fuelType:       r.fuelType,
+      language:       r.language,
+      searchTerms:    r.searchTerms,
+      derivedGuidance: r.derivedGuidance,
+      faultCodes:     r.faultCodes,
+      technicalSpecs: r.technicalSpecs,
+      statusCodes:    r.statusCodes,
+      diagnosticCodes: r.diagnosticCodes,
+      safetyWarnings: r.safetyWarnings,
+      maintenanceTasks: r.maintenanceTasks,
+      modelParts:     r.modelParts,
     }));
   }
 

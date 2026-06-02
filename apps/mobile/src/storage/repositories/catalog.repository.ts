@@ -84,7 +84,7 @@ export async function getReferenceTableForModel(boilerModelId: string) {
 }
 
 export async function upsertCatalogFromServer(
-  table: 'boiler_models' | 'parts' | 'fault_codes' | 'technical_properties' | 'reference_tables',
+  table: 'boiler_models' | 'parts' | 'fault_codes' | 'technical_properties' | 'reference_tables' | 'technical_specs' | 'status_codes' | 'diagnostic_codes' | 'safety_warnings' | 'maintenance_tasks' | 'model_parts',
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   items: any[]
 ) {
@@ -130,6 +130,10 @@ function mapCatalogItem(table: string, record: any, item: any) {
       record.fuelType = item.fuelType ?? null;
       record.productionStartYear = item.productionStartYear ?? null;
       record.productionEndYear = item.productionEndYear ?? null;
+      record.documentType = item.documentType ?? null;
+      record.language = item.language ?? null;
+      record.searchTerms = item.searchTerms ?? null;
+      record.derivedGuidance = item.derivedGuidance ?? null;
       break;
     case 'parts':
       record.sku = item.sku;
@@ -137,12 +141,66 @@ function mapCatalogItem(table: string, record: any, item: any) {
       record.brand = item.brand ?? null;
       record.unitPrice = typeof item.unitPrice === 'number' ? item.unitPrice : (item.unitPrice ? parseFloat(item.unitPrice) : null);
       record.inventoryStatus = item.inventoryStatus ?? null;
+      record.aliases = item.aliases ?? null;
       break;
     case 'fault_codes':
       record.code = item.code;
       record.title = item.title;
       record.description = item.description ?? null;
       record.severity = item.severity ?? null;
+      record.modelId = item.modelId;
+      record.possibleCauses = item.possibleCauses ?? null;
+      record.manufacturerSteps = item.manufacturerSteps ?? null;
+      record.cautionsOrNotes = item.cautionsOrNotes ?? null;
+      record.symptoms = item.symptoms ?? null;
+      record.relatedComponents = item.relatedComponents ?? null;
+      record.safetyLevel = item.safetyLevel ?? null;
+      record.searchTags = item.searchTags ?? null;
+      record.sourceRefs = item.sourceRefs ?? null;
+      record.confidence = item.confidence ?? null;
+      record.reviewRequired = item.reviewRequired ?? null;
+      break;
+    case 'technical_specs':
+      record.modelId = item.modelId;
+      record.parameter = item.parameter;
+      record.value = item.value;
+      record.unit = item.unit ?? null;
+      record.appliesToModels = item.appliesToModels ?? null;
+      record.category = item.category ?? null;
+      record.sourceRefs = item.sourceRefs ?? null;
+      record.confidence = item.confidence ?? null;
+      record.reviewRequired = item.reviewRequired ?? null;
+      break;
+    case 'status_codes':
+      record.modelId = item.modelId;
+      record.code = item.code;
+      record.description = item.description ?? null;
+      record.meaning = item.meaning ?? null;
+      record.sourceRefs = item.sourceRefs ?? null;
+      break;
+    case 'diagnostic_codes':
+      record.modelId = item.modelId;
+      record.code = item.code;
+      record.description = item.description ?? null;
+      record.level = item.level ?? null;
+      record.sourceRefs = item.sourceRefs ?? null;
+      break;
+    case 'safety_warnings':
+      record.modelId = item.modelId;
+      record.warningType = item.warningType ?? null;
+      record.description = item.description;
+      record.sourceRefs = item.sourceRefs ?? null;
+      break;
+    case 'maintenance_tasks':
+      record.modelId = item.modelId;
+      record.task = item.task;
+      record.interval = item.interval ?? null;
+      record.steps = item.steps ?? null;
+      record.sourceRefs = item.sourceRefs ?? null;
+      break;
+    case 'model_parts':
+      record.modelId = item.modelId;
+      record.partId = item.partId;
       break;
     case 'technical_properties':
       record.code = item.code;

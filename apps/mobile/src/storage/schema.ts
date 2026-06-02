@@ -1,7 +1,7 @@
 import { appSchema, tableSchema } from '@nozbe/watermelondb';
 
 export const schema = appSchema({
-  version: 4,
+  version: 5,
   tables: [
     tableSchema({
       name: 'jobs',
@@ -58,6 +58,10 @@ export const schema = appSchema({
         { name: 'fuel_type', type: 'string', isOptional: true },
         { name: 'production_start_year', type: 'number', isOptional: true },
         { name: 'production_end_year', type: 'number', isOptional: true },
+        { name: 'document_type', type: 'string', isOptional: true },
+        { name: 'language', type: 'string', isOptional: true },
+        { name: 'search_terms', type: 'string', isOptional: true },
+        { name: 'derived_guidance', type: 'string', isOptional: true },
         { name: 'remote_id', type: 'string', isOptional: true, isIndexed: true },
       ],
     }),
@@ -69,6 +73,7 @@ export const schema = appSchema({
         { name: 'brand', type: 'string', isOptional: true },
         { name: 'unit_price', type: 'number', isOptional: true },
         { name: 'inventory_status', type: 'string', isOptional: true },
+        { name: 'aliases', type: 'string', isOptional: true },
         { name: 'remote_id', type: 'string', isOptional: true, isIndexed: true },
       ],
     }),
@@ -79,8 +84,84 @@ export const schema = appSchema({
         { name: 'title', type: 'string' },
         { name: 'description', type: 'string', isOptional: true },
         { name: 'severity', type: 'string', isOptional: true },
+        { name: 'model_id', type: 'string', isIndexed: true },
+        { name: 'possible_causes', type: 'string', isOptional: true },
+        { name: 'manufacturer_steps', type: 'string', isOptional: true },
+        { name: 'cautions_or_notes', type: 'string', isOptional: true },
+        { name: 'symptoms', type: 'string', isOptional: true },
+        { name: 'related_components', type: 'string', isOptional: true },
+        { name: 'safety_level', type: 'string', isOptional: true },
+        { name: 'search_tags', type: 'string', isOptional: true },
+        { name: 'source_refs', type: 'string', isOptional: true },
+        { name: 'confidence', type: 'number', isOptional: true },
+        { name: 'review_required', type: 'boolean', isOptional: true },
         { name: 'remote_id', type: 'string', isOptional: true, isIndexed: true },
       ],
+    }),
+    tableSchema({
+      name: 'technical_specs',
+      columns: [
+        { name: 'model_id', type: 'string', isIndexed: true },
+        { name: 'parameter', type: 'string' },
+        { name: 'value', type: 'string' },
+        { name: 'unit', type: 'string', isOptional: true },
+        { name: 'applies_to_models', type: 'string', isOptional: true },
+        { name: 'category', type: 'string', isOptional: true },
+        { name: 'source_refs', type: 'string', isOptional: true },
+        { name: 'confidence', type: 'number', isOptional: true },
+        { name: 'review_required', type: 'boolean', isOptional: true },
+        { name: 'remote_id', type: 'string', isOptional: true, isIndexed: true },
+      ]
+    }),
+    tableSchema({
+      name: 'status_codes',
+      columns: [
+        { name: 'model_id', type: 'string', isIndexed: true },
+        { name: 'code', type: 'string' },
+        { name: 'description', type: 'string', isOptional: true },
+        { name: 'meaning', type: 'string', isOptional: true },
+        { name: 'source_refs', type: 'string', isOptional: true },
+        { name: 'remote_id', type: 'string', isOptional: true, isIndexed: true },
+      ]
+    }),
+    tableSchema({
+      name: 'diagnostic_codes',
+      columns: [
+        { name: 'model_id', type: 'string', isIndexed: true },
+        { name: 'code', type: 'string' },
+        { name: 'description', type: 'string', isOptional: true },
+        { name: 'level', type: 'string', isOptional: true },
+        { name: 'source_refs', type: 'string', isOptional: true },
+        { name: 'remote_id', type: 'string', isOptional: true, isIndexed: true },
+      ]
+    }),
+    tableSchema({
+      name: 'safety_warnings',
+      columns: [
+        { name: 'model_id', type: 'string', isIndexed: true },
+        { name: 'warning_type', type: 'string', isOptional: true },
+        { name: 'description', type: 'string' },
+        { name: 'source_refs', type: 'string', isOptional: true },
+        { name: 'remote_id', type: 'string', isOptional: true, isIndexed: true },
+      ]
+    }),
+    tableSchema({
+      name: 'maintenance_tasks',
+      columns: [
+        { name: 'model_id', type: 'string', isIndexed: true },
+        { name: 'task', type: 'string' },
+        { name: 'interval', type: 'string', isOptional: true },
+        { name: 'steps', type: 'string', isOptional: true },
+        { name: 'source_refs', type: 'string', isOptional: true },
+        { name: 'remote_id', type: 'string', isOptional: true, isIndexed: true },
+      ]
+    }),
+    tableSchema({
+      name: 'model_parts',
+      columns: [
+        { name: 'model_id', type: 'string', isIndexed: true },
+        { name: 'part_id', type: 'string', isIndexed: true },
+      ]
     }),
     tableSchema({
       name: 'warranties',
