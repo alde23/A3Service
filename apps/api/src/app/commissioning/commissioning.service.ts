@@ -1,4 +1,3 @@
-
 import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
 import { Prisma } from '../../generated/prisma/client';
 import { PrismaService } from '../../prisma/prisma.service';
@@ -13,6 +12,38 @@ import type {
 export class CommissioningService {
   constructor(private readonly prisma: PrismaService) {}
 
+  private parseSpecLimits(parameter: string, valueStr: string): { min: number | null, max: number | null } {
+    let min: number | null = null;
+    let max: number | null = null;
+    
+    const rangeMatch = valueStr.match(/(\d+(\.\d+)?)\s*-\s*(\d+(\.\d+)?)/);
+    if (rangeMatch) {
+      min = parseFloat(rangeMatch[1]);
+      max = parseFloat(rangeMatch[3]);
+      return { min, max };
+    }
+
+    const numMatch = valueStr.match(/(\d+(\.\d+)?)/);
+    const num = numMatch ? parseFloat(numMatch[1]) : null;
+
+    if (num !== null) {
+      const lowerParam = parameter.toLowerCase();
+      const lowerVal = valueStr.toLowerCase();
+      
+      if (lowerParam.includes('max') || lowerVal.includes('max')) {
+        max = num;
+      } else if (lowerParam.includes('min') || lowerVal.includes('min')) {
+        min = num;
+      } else {
+        // If it's a fixed value, we treat it as both min and max for exact validation
+        min = num;
+        max = num;
+      }
+    }
+    
+    return { min, max };
+  }
+
   async getReference(modelId: string): Promise<CommissioningReferenceResponseDto> {
     const model = await this.prisma.boilerModel.findFirst({
       where: { id: modelId, isDeleted: false },
@@ -23,22 +54,28 @@ export class CommissioningService {
       throw new NotFoundException('Boiler model not found');
     }
 
-    const references = await this.prisma.referenceTable.findMany({
-      where: { boilerModelId: modelId },
-      include: { property: true },
-      orderBy: { property: { code: 'asc' } },
+    const specs = await this.prisma.technicalSpec.findMany({
+      where: { modelId: modelId },
     });
+
+    // We only want specs that have a numeric value for commissioning
+    const items = specs
+      .map(spec => {
+        const limits = this.parseSpecLimits(spec.parameter, spec.value);
+        return {
+          code: spec.parameter, // use parameter as unique code
+          label: spec.parameter,
+          unit: spec.unit,
+          min: limits.min !== null ? limits.min.toFixed(2) : null,
+          max: limits.max !== null ? limits.max.toFixed(2) : null,
+          required: false, // AI extracted specs aren't strictly required by default
+        };
+      })
+      .filter(item => item.min !== null || item.max !== null);
 
     return {
       modelId,
-      items: references.map((ref) => ({
-        code: ref.property.code,
-        label: ref.property.label,
-        unit: ref.property.unit ?? null,
-        min: ref.minValue ? ref.minValue.toFixed(2) : null,
-        max: ref.maxValue ? ref.maxValue.toFixed(2) : null,
-        required: ref.required,
-      })),
+      items,
     };
   }
 
@@ -62,16 +99,13 @@ export class CommissioningService {
       throw new NotFoundException('Boiler model not found');
     }
 
-    const references = await this.prisma.referenceTable.findMany({
-      where: { boilerModelId: payload.modelId },
-      include: { property: true },
+    const specs = await this.prisma.technicalSpec.findMany({
+      where: { modelId: payload.modelId },
     });
 
-    const referenceByCode = new Map(
-      references.map((ref) => [ref.property.code, ref]),
-    );
-
+    const specByCode = new Map(specs.map((spec) => [spec.parameter, spec]));
     const providedCodes = new Set<string>();
+
     const issues: CommissioningValidationIssueDto[] = payload.readings.map((reading) => {
       if (!reading?.code || typeof reading.code !== 'string') {
         throw new BadRequestException('readings.code is required');
@@ -83,8 +117,8 @@ export class CommissioningService {
 
       providedCodes.add(reading.code);
 
-      const reference = referenceByCode.get(reading.code);
-      if (!reference) {
+      const spec = specByCode.get(reading.code);
+      if (!spec) {
         return {
           code: reading.code,
           value: reading.value,
@@ -95,51 +129,30 @@ export class CommissioningService {
         };
       }
 
-      const min = reference.minValue;
-      const max = reference.maxValue;
-
+      const limits = this.parseSpecLimits(spec.parameter, spec.value);
       let outOfRange = false;
-      if (min && new Prisma.Decimal(reading.value).lt(min)) {
+      
+      if (limits.min !== null && new Prisma.Decimal(reading.value).lt(limits.min)) {
         outOfRange = true;
       }
-      if (max && new Prisma.Decimal(reading.value).gt(max)) {
+      if (limits.max !== null && new Prisma.Decimal(reading.value).gt(limits.max)) {
         outOfRange = true;
       }
 
       return {
-        code: reference.property.code,
+        code: spec.parameter,
         value: reading.value,
-        min: min ? min.toFixed(2) : null,
-        max: max ? max.toFixed(2) : null,
-        unit: reference.property.unit ?? null,
+        min: limits.min !== null ? limits.min.toFixed(2) : null,
+        max: limits.max !== null ? limits.max.toFixed(2) : null,
+        unit: spec.unit,
         status: outOfRange ? 'OUT_OF_RANGE' : 'OK',
       };
     });
 
-    const missingRequired = references
-      .filter((ref) => ref.required && !providedCodes.has(ref.property.code))
-      .map((ref) => ref.property.code);
-
-    missingRequired.forEach((code) => {
-      const reference = referenceByCode.get(code);
-      issues.push({
-        code,
-        value: null,
-        min: reference?.minValue ? reference.minValue.toFixed(2) : null,
-        max: reference?.maxValue ? reference.maxValue.toFixed(2) : null,
-        unit: reference?.property.unit ?? null,
-        status: 'MISSING',
-      });
-    });
-
-    const valid =
-      missingRequired.length === 0 &&
-      issues.every((issue) => issue.status === 'OK');
-
     return {
       modelId: payload.modelId,
-      valid,
-      missingRequired,
+      valid: issues.every((issue) => issue.status === 'OK'),
+      missingRequired: [],
       issues,
     };
   }

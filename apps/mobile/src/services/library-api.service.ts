@@ -1,18 +1,37 @@
 import { authJsonHeaders, API_URL } from './api.config';
 
+export type LibraryPartDetail = {
+  id: string;
+  sku: string;
+  name: string;
+  brand?: string;
+  unitPrice?: number;
+  inventoryStatus?: string;
+};
+
+export type LibraryFault = {
+  id: string;
+  code: string;
+  description: string;
+  possibleCauses?: string[];
+  symptoms?: string[];
+  severity?: string;
+  model?: { id: string; modelName: string; manufacturerId: string };
+};
+
 export type LibraryModel = {
   id: string;
   name: string;
   brand: string;
   category: string;
   description?: string;
-};
-
-export type LibraryFault = {
-  code: string;
-  title: string;
-  description: string;
-  solutions?: string[];
+  faultCodes?: LibraryFault[];
+  modelParts?: { part: LibraryPartDetail }[];
+  technicalSpecs?: any[];
+  statusCodes?: any[];
+  diagnosticCodes?: any[];
+  safetyWarnings?: any[];
+  maintenanceTasks?: any[];
 };
 
 export type LibrarySearchResult = {
@@ -85,12 +104,12 @@ export async function fetchLibraryModelDetails(
   }
 }
 
-export async function fetchFaultDetails(
+export async function fetchFaultDetailsById(
   token: string,
-  faultCode: string
+  id: string
 ): Promise<LibraryFault | null> {
   try {
-    const res = await fetch(`${API_URL}/library/faults/${faultCode}`, {
+    const res = await fetch(`${API_URL}/library/faults/${id}`, {
       method: 'GET',
       headers: authJsonHeaders(token),
     });
@@ -102,6 +121,27 @@ export async function fetchFaultDetails(
     return await res.json();
   } catch (error) {
     console.error('Library fault details fetch error:', error);
+    return null;
+  }
+}
+
+export async function fetchPartDetails(
+  token: string,
+  id: string
+): Promise<LibraryPartDetail | null> {
+  try {
+    const res = await fetch(`${API_URL}/library/parts/${id}`, {
+      method: 'GET',
+      headers: authJsonHeaders(token),
+    });
+
+    if (!res.ok) {
+      throw new Error(`Failed to fetch part details (${res.status})`);
+    }
+
+    return await res.json();
+  } catch (error) {
+    console.error('Library part details fetch error:', error);
     return null;
   }
 }

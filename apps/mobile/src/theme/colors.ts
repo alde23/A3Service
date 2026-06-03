@@ -71,7 +71,7 @@ export const lightColors = {
   headerTo: '#ffffff',
 } as const;
 
-export type ColorsType = typeof darkColors;
+export type ColorsType = Record<keyof typeof darkColors, string>;
 
 // Header gradient — use with gradient library or approximate with start color
 export const HEADER_GRADIENT_DARK = ['#212d42', '#0b0f17'] as const;
