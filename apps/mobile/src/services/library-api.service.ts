@@ -47,7 +47,7 @@ export async function searchLibrary(
   query: string,
   type?: string,
   manufacturer?: string,
-  page: number = 1
+  page = 1
 ): Promise<LibrarySearchResult[]> {
   try {
     const params = new URLSearchParams();
@@ -94,7 +94,7 @@ export async function fetchManufacturers(
 
 export async function fetchLibraryModels(
   token: string,
-  page: number = 1
+  page = 1
 ): Promise<LibraryModel[]> {
   try {
     const params = new URLSearchParams();
