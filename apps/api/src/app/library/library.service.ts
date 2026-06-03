@@ -9,61 +9,90 @@ export class LibraryService {
 
   async search(query: LibrarySearchQueryDto) {
     const q = query.q?.trim();
+    const type = query.type;
+    const manufacturer = query.manufacturer?.trim();
     const page = query.page ?? 1;
     const pageSize = query.pageSize ?? 20;
     const skip = (page - 1) * pageSize;
 
+    if (!q && !type && !manufacturer) {
+      return [];
+    }
+
+    const fetchModels = !type || type === 'model' || type === 'all';
+    const fetchFaults = !type || type === 'fault' || type === 'all';
+    const fetchParts  = !type || type === 'part'  || type === 'all';
+
     const [models, faultCodes, parts] = await Promise.all([
-      this.prisma.boilerModel.findMany({
-        where: q ? {
-          OR: [
-            { modelName:      { contains: q, mode: 'insensitive' } },
-            { manufacturerId: { contains: q, mode: 'insensitive' } },
-            { series:        { contains: q, mode: 'insensitive' } },
-          ],
-        } : undefined,
+      fetchModels ? this.prisma.boilerModel.findMany({
+        where: {
+          AND: [
+            { manufacturerId: { not: 'Unknown' } },
+            manufacturer ? { manufacturerId: { equals: manufacturer, mode: 'insensitive' } } : {},
+            q ? {
+              OR: [
+                { modelName:      { contains: q, mode: 'insensitive' } },
+                { manufacturerId: { contains: q, mode: 'insensitive' } },
+                { series:        { contains: q, mode: 'insensitive' } },
+              ],
+            } : {},
+          ]
+        },
         skip,
         take: pageSize,
         select: { id: true, modelName: true, manufacturerId: true, documentType: true },
-      }),
-      this.prisma.faultCode.findMany({
-        where: q ? {
-          OR: [
-            { code:        { contains: q, mode: 'insensitive' } },
-            { description: { contains: q, mode: 'insensitive' } },
-          ],
-        } : undefined,
+      }) : Promise.resolve([]),
+
+      fetchFaults ? this.prisma.faultCode.findMany({
+        where: {
+          AND: [
+            manufacturer ? { model: { manufacturerId: { equals: manufacturer, mode: 'insensitive' } } } : {},
+            q ? {
+              OR: [
+                { code:        { contains: q, mode: 'insensitive' } },
+                { description: { contains: q, mode: 'insensitive' } },
+                { model: { modelName: { contains: q, mode: 'insensitive' } } },
+                { model: { manufacturerId: { contains: q, mode: 'insensitive' } } },
+              ],
+            } : {},
+          ]
+        },
         skip,
         take: pageSize,
-        select: { id: true, code: true, description: true, severity: true, modelId: true },
-      }),
-      this.prisma.part.findMany({
-        where: q ? {
-          OR: [
-            { name:  { contains: q, mode: 'insensitive' } },
-            { sku:   { contains: q, mode: 'insensitive' } },
-            { brand: { contains: q, mode: 'insensitive' } },
-          ],
-        } : undefined,
+        select: { id: true, code: true, description: true, severity: true, modelId: true, model: { select: { manufacturerId: true, modelName: true } } },
+      }) : Promise.resolve([]),
+
+      fetchParts ? this.prisma.part.findMany({
+        where: {
+          AND: [
+            manufacturer ? { brand: { equals: manufacturer, mode: 'insensitive' } } : {},
+            q ? {
+              OR: [
+                { name:  { contains: q, mode: 'insensitive' } },
+                { sku:   { contains: q, mode: 'insensitive' } },
+                { brand: { contains: q, mode: 'insensitive' } },
+              ],
+            } : {},
+          ]
+        },
         skip,
         take: pageSize,
         select: { id: true, sku: true, name: true, brand: true, inventoryStatus: true },
-      }),
+      }) : Promise.resolve([]),
     ]);
 
-    // Flatten into a unified search result list the mobile client can render
     const results = [
       ...models.map(m => ({
         id:          m.id,
         title:       m.modelName,
         category:    m.manufacturerId ?? 'Unknown',
         type:        'model' as const,
-        description: m.documentType ?? undefined,
+        description: m.documentType && m.documentType !== 'Installation Manual' ? m.documentType : undefined,
       })),
       ...faultCodes.map(f => ({
         id:          f.id,
         title:       f.code,
-        category:    `Fault Code · ${f.severity ?? 'Unknown'}`,
+        category:    `Fault Code · ${f.model?.manufacturerId || 'Unknown'} ${f.model?.modelName || ''} · ${f.severity ?? 'Unknown'}`.trim().replace(/ ·$/, ''),
         type:        'fault' as const,
         description: f.description ?? undefined,
       })),
@@ -71,7 +100,7 @@ export class LibraryService {
         id:          p.id,
         title:       p.name,
         category:    `Part · ${p.brand ?? 'Unknown'} · ${p.sku}`,
-        type:        'guide' as const,
+        type:        'part' as const,
         description: p.inventoryStatus ?? undefined,
       })),
     ];
@@ -79,10 +108,31 @@ export class LibraryService {
     return results;
   }
 
+  async getManufacturers() {
+    const records = await this.prisma.boilerModel.findMany({
+      select: { manufacturerId: true },
+      distinct: ['manufacturerId'],
+      where: { manufacturerId: { not: null } },
+    });
+
+    const uniqueManufacturers = new Set(
+      records
+        .map(r => r.manufacturerId)
+        .filter((name): name is string => typeof name === 'string' && name.trim().toLowerCase() !== 'unknown')
+        .map(name => {
+          const trimmed = name.trim();
+          return trimmed.charAt(0).toUpperCase() + trimmed.slice(1).toLowerCase();
+        })
+    );
+    
+    return Array.from(uniqueManufacturers);
+  }
+
   async listModels(page?: number, pageSize?: number) {
     const take = pageSize ?? 20;
     const skip = page && page > 1 ? (page - 1) * take : 0;
     const rows = await this.prisma.boilerModel.findMany({
+      where: { manufacturerId: { not: 'Unknown' } },
       skip,
       take,
       select: {

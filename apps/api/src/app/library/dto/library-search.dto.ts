@@ -6,4 +6,5 @@ export type LibrarySearchQueryDto = {
   part?: string;
   page?: number;
   pageSize?: number;
+  type?: 'model' | 'fault' | 'part' | 'all';
 };

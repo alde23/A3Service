@@ -28,6 +28,12 @@ export class LibraryController {
     return this.libraryService.search(parsed);
   }
 
+  @Get('manufacturers')
+  @Roles(UserRole.MANAGER, UserRole.TECHNICIAN)
+  async getManufacturers() {
+    return this.libraryService.getManufacturers();
+  }
+
   @Get('models')
   @Roles(UserRole.MANAGER, UserRole.TECHNICIAN)
   async listModels(
@@ -102,6 +108,7 @@ export class LibraryController {
       manufacturer: this.toOptionalString(query.manufacturer),
       faultCode: this.toOptionalString(query.faultCode),
       part: this.toOptionalString(query.part),
+      type: query.type,
     };
 
     if (query.page !== undefined) {

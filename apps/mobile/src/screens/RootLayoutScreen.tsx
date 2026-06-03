@@ -25,7 +25,10 @@ function GuardedRoot() {
     } else if (token && !homeLocation && !isOnboardingScreen) {
       router.replace('/onboarding');
     } else if (token && homeLocation && !inTabsGroup) {
-      router.replace('/(tabs)/home');
+      const isDetailScreen = ['model', 'fault', 'part'].includes(segments[0] as string);
+      if (!isDetailScreen) {
+        router.replace('/(tabs)/home');
+      }
     }
   }, [token, homeLocation, authLoading, locLoading, inTabsGroup, isLoginScreen, isOnboardingScreen, router]);
 

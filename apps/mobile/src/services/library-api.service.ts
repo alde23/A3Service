@@ -38,16 +38,25 @@ export type LibrarySearchResult = {
   id: string;
   title: string;
   category: string;
-  type: 'model' | 'fault' | 'guide';
+  type: 'model' | 'fault' | 'part';
   description?: string;
 };
 
 export async function searchLibrary(
   token: string,
-  query: string
+  query: string,
+  type?: string,
+  manufacturer?: string,
+  page: number = 1
 ): Promise<LibrarySearchResult[]> {
   try {
-    const res = await fetch(`${API_URL}/library/search?q=${encodeURIComponent(query)}`, {
+    const params = new URLSearchParams();
+    if (query) params.append('q', query);
+    if (type) params.append('type', type);
+    if (manufacturer) params.append('manufacturer', manufacturer);
+    if (page > 1) params.append('page', page.toString());
+
+    const res = await fetch(`${API_URL}/library/search?${params.toString()}`, {
       method: 'GET',
       headers: authJsonHeaders(token),
     });
@@ -63,11 +72,35 @@ export async function searchLibrary(
   }
 }
 
-export async function fetchLibraryModels(
+export async function fetchManufacturers(
   token: string
+): Promise<string[]> {
+  try {
+    const res = await fetch(`${API_URL}/library/manufacturers`, {
+      method: 'GET',
+      headers: authJsonHeaders(token),
+    });
+
+    if (!res.ok) {
+      throw new Error(`Failed to fetch manufacturers (${res.status})`);
+    }
+
+    return await res.json();
+  } catch (error) {
+    console.error('Library manufacturers fetch error:', error);
+    return [];
+  }
+}
+
+export async function fetchLibraryModels(
+  token: string,
+  page: number = 1
 ): Promise<LibraryModel[]> {
   try {
-    const res = await fetch(`${API_URL}/library/models`, {
+    const params = new URLSearchParams();
+    if (page > 1) params.append('page', page.toString());
+
+    const res = await fetch(`${API_URL}/library/models?${params.toString()}`, {
       method: 'GET',
       headers: authJsonHeaders(token),
     });

@@ -1,6 +1,6 @@
+import React, { useEffect, useMemo, useRef, useState, useCallback } from 'react';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { useRouter } from 'expo-router';
-import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   ActivityIndicator,
   Pressable,
@@ -9,10 +9,11 @@ import {
   TextInput,
   View,
   ScrollView,
+  FlatList,
 } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../services/auth.service';
-import { searchLibrary, fetchLibraryModels, LibrarySearchResult, LibraryModel } from '../services/library-api.service';
+import { searchLibrary, fetchLibraryModels, fetchManufacturers, LibrarySearchResult, LibraryModel } from '../services/library-api.service';
 import { ColorsType } from '../theme/colors';
 import { useTheme } from '../theme/ThemeProvider';
 import { Screen } from '../components/ui/Screen';
@@ -20,14 +21,67 @@ import { ScreenHeader } from '../components/ui/ScreenHeader';
 import { SectionHeader } from '../components/ui/SectionHeader';
 import { Card } from '../components/ui/Card';
 
-const CATEGORY_PILLS = [
-  'Boilers',
-  'Vaillant',
-  'Baxi',
-  'Fault Codes',
-  'Pressure',
-  'Ignition',
-];
+const ResultCard = React.memo(({ item, onPress, styles, colors }: { item: any; onPress: (id: string, type: string) => void; styles: any; colors: ColorsType }) => {
+  if (item.type) {
+    return (
+      <Pressable onPress={() => onPress(item.id, item.type)}>
+        <Card style={{ borderColor: '#bfdbfe', marginBottom: 12 }}>
+          <View style={styles.cardTopRow}>
+            <View style={styles.cardMetaRow}>
+              <View style={[
+                styles.categoryTag,
+                {
+                  backgroundColor:
+                    item.type === 'fault' ? '#fee2e2' :
+                    item.type === 'model' ? '#dbeafe' : '#dcfce7',
+                }
+              ]}>
+                <Text style={[
+                  styles.categoryTagText,
+                  {
+                    color:
+                      item.type === 'fault' ? '#dc2626' :
+                      item.type === 'model' ? '#1d4ed8' : '#16a34a',
+                  }
+                ]}>
+                  {item.type === 'fault' ? 'Greška' : item.type === 'model' ? 'Model' : 'Dio'}
+                </Text>
+              </View>
+              <Text style={styles.cardTitle}>{item.title}</Text>
+            </View>
+            <Ionicons name="chevron-forward" size={20} color="#94a3b8" />
+          </View>
+          <Text style={styles.cardSubtitle}>{item.category}</Text>
+          {item.description ? (
+            <Text style={styles.cardSummary} numberOfLines={2}>{item.description}</Text>
+          ) : null}
+        </Card>
+      </Pressable>
+    );
+  }
+
+  return (
+    <Pressable onPress={() => onPress(item.id, 'model')}>
+      <Card style={{ marginBottom: 12 }}>
+        <View style={styles.cardTopRow}>
+          <View style={styles.cardMetaRow}>
+            <View style={[styles.categoryTag, { backgroundColor: colors.blueSoft }]}>
+              <Text style={[styles.categoryTagText, { color: colors.blue }]}>
+                {item.brand}
+              </Text>
+            </View>
+            <Text style={styles.cardTitle}>{item.name}</Text>
+          </View>
+          <Ionicons name="chevron-forward" size={20} color="#94a3b8" />
+        </View>
+        <Text style={styles.cardSubtitle}>{item.category}</Text>
+        {item.description ? (
+          <Text style={styles.cardSummary}>{item.description}</Text>
+        ) : null}
+      </Card>
+    </Pressable>
+  );
+});
 
 export default function DocumentationScreen() {
   const { t } = useTranslation();
@@ -37,37 +91,68 @@ export default function DocumentationScreen() {
   const router = useRouter();
 
   const [query, setQuery]           = useState('');
-  const [activePill, setActivePill] = useState<string | null>(null);
+  const [activePill, setActivePill] = useState<string>('All');
+  const [filterType, setFilterType] = useState<string | undefined>(undefined);
+  const [manufacturerFilter, setManufacturerFilter] = useState<string | undefined>(undefined);
+  const [manufacturers, setManufacturers] = useState<string[]>([]);
+  
   const [models, setModels]         = useState<LibraryModel[]>([]);
-  const [results, setResults]       = useState<LibrarySearchResult[]>([]);
-  const [loading, setLoading]       = useState(false);
+  const [modelsPage, setModelsPage] = useState(1);
+  const [hasMoreModels, setHasMoreModels] = useState(true);
   const [modelsLoading, setModelsLoading] = useState(true);
+
+  const [results, setResults]       = useState<LibrarySearchResult[]>([]);
+  const [searchPage, setSearchPage] = useState(1);
+  const [hasMoreResults, setHasMoreResults] = useState(true);
+  const [loading, setLoading]       = useState(false);
+
+  const [loadingMore, setLoadingMore] = useState(false);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const CATEGORY_PILLS = useMemo(() => {
+    return ['All', 'Boilers', 'Fault Codes', 'Parts', ...manufacturers];
+  }, [manufacturers]);
 
   useEffect(() => {
     if (!token) return;
     setModelsLoading(true);
-    fetchLibraryModels(token)
-      .then(res => setModels(res))
+    setModelsPage(1);
+    setHasMoreModels(true);
+    
+    fetchLibraryModels(token, 1)
+      .then((modelsRes) => {
+        setModels(modelsRes);
+        if (modelsRes.length < 20) setHasMoreModels(false);
+      })
       .catch(console.error)
       .finally(() => setModelsLoading(false));
+
+    fetchManufacturers(token)
+      .then((mfgRes) => {
+        setManufacturers(mfgRes);
+      })
+      .catch(console.error);
   }, [token]);
 
   useEffect(() => {
     if (debounceRef.current) clearTimeout(debounceRef.current);
 
     const q = query.trim();
-    if (!token || !q) {
+    if (!token || (!q && activePill === 'All')) {
       setResults([]);
       setLoading(false);
       return;
     }
 
     setLoading(true);
+    setSearchPage(1);
+    setHasMoreResults(true);
     debounceRef.current = setTimeout(async () => {
       try {
-        const res = await searchLibrary(token, q);
-        setResults(Array.isArray(res) ? res : []);
+        const res = await searchLibrary(token, q, filterType, manufacturerFilter, 1);
+        const newResults = Array.isArray(res) ? res : [];
+        setResults(newResults);
+        if (newResults.length < 20) setHasMoreResults(false);
       } catch (err) {
         console.error('API search error:', err);
         setResults([]);
@@ -77,22 +162,72 @@ export default function DocumentationScreen() {
     }, 300);
 
     return () => { if (debounceRef.current) clearTimeout(debounceRef.current); };
-  }, [query, token]);
+  }, [query, filterType, manufacturerFilter, activePill, token]);
 
   const hasQuery    = query.trim().length > 0;
-  const isSearching = hasQuery;
+  const isSearching = hasQuery || activePill !== 'All';
   const displayList = isSearching ? results : models;
   const displayCount = displayList.length;
 
+  const loadMore = async () => {
+    if (loadingMore || loading || modelsLoading) return;
+    if (isSearching && !hasMoreResults) return;
+    if (!isSearching && !hasMoreModels) return;
+
+    setLoadingMore(true);
+    try {
+      if (isSearching) {
+        const nextPage = searchPage + 1;
+        const res = await searchLibrary(token!, query.trim(), filterType, manufacturerFilter, nextPage);
+        const newResults = Array.isArray(res) ? res : [];
+        setResults(prev => [...prev, ...newResults]);
+        setSearchPage(nextPage);
+        if (newResults.length < 20) setHasMoreResults(false);
+      } else {
+        const nextPage = modelsPage + 1;
+        const newModels = await fetchLibraryModels(token!, nextPage);
+        setModels(prev => [...prev, ...newModels]);
+        setModelsPage(nextPage);
+        if (newModels.length < 20) setHasMoreModels(false);
+      }
+    } catch (error) {
+      console.error('Load more error:', error);
+    } finally {
+      setLoadingMore(false);
+    }
+  };
+
   function handlePill(pill: string) {
-    if (activePill === pill) {
-      setActivePill(null);
-      setQuery('');
+    setActivePill(pill);
+    setQuery('');
+    setResults([]);
+    if (pill === 'All') {
+      setFilterType(undefined);
+      setManufacturerFilter(undefined);
+    } else if (pill === 'Boilers') {
+      setFilterType('model');
+      setManufacturerFilter(undefined);
+    } else if (pill === 'Fault Codes') {
+      setFilterType('fault');
+      setManufacturerFilter(undefined);
+    } else if (pill === 'Parts') {
+      setFilterType('part');
+      setManufacturerFilter(undefined);
     } else {
-      setActivePill(pill);
-      setQuery(pill);
+      setFilterType('all');
+      setManufacturerFilter(pill);
     }
   }
+
+  const handlePressCard = useCallback((id: string, type: string) => {
+    if (type === 'model') router.push(`/model/${id}`);
+    else if (type === 'fault') router.push(`/fault/${id}`);
+    else if (type === 'part') router.push(`/part/${id}`);
+  }, [router]);
+
+  const renderItem = useCallback(({ item }: { item: any }) => {
+    return <ResultCard item={item} onPress={handlePressCard} styles={styles} colors={colors} />;
+  }, [handlePressCard, styles, colors]);
 
   const header = (
     <ScreenHeader title={t('documentation.title')} iconName="document-text-outline">
@@ -103,24 +238,20 @@ export default function DocumentationScreen() {
           <Ionicons name="search" size={18} color="#64748b" />
           <TextInput
             value={query}
-            onChangeText={text => { setQuery(text); setActivePill(null); }}
+            onChangeText={text => setQuery(text)}
             placeholder={t('documentation.search_placeholder')}
             placeholderTextColor="#94a3b8"
             style={styles.searchInput}
             returnKeyType="search"
-            clearButtonMode="while-editing"
+            clearButtonMode="never"
           />
-          {loading && <ActivityIndicator size="small" color={colors.blue} />}
+          {hasQuery && !loading && (
+            <Pressable onPress={() => setQuery('')} hitSlop={10}>
+              <Ionicons name="close-circle" size={18} color="#94a3b8" />
+            </Pressable>
+          )}
+          {(loading && hasQuery) && <ActivityIndicator size="small" color={colors.blue} />}
         </View>
-
-        <Pressable
-          style={styles.searchButton}
-          onPress={() => { setQuery(''); setActivePill(null); }}
-        >
-          <Text style={styles.searchButtonText}>
-            {hasQuery ? t('documentation.clear') ?? 'Obriši' : t('documentation.search')}
-          </Text>
-        </Pressable>
       </View>
 
       <ScrollView
@@ -146,10 +277,10 @@ export default function DocumentationScreen() {
     </ScreenHeader>
   );
 
-  return (
-    <Screen header={header}>
+  const renderHeader = () => (
+    <>
       {!isSearching && !modelsLoading && models.length > 0 && (
-        <Card style={styles.heroCard}>
+        <Card style={[styles.heroCard, { marginBottom: 16 }]}>
           <View style={styles.heroTopRow}>
             <View style={styles.heroBadge}>
               <Text style={styles.heroBadgeText}>{t('documentation.top_topics')}</Text>
@@ -183,7 +314,7 @@ export default function DocumentationScreen() {
         count={displayCount}
       />
 
-      {(isSearching ? loading : modelsLoading) && (
+      {((isSearching ? loading : modelsLoading) && displayCount === 0) && (
         <View style={styles.loadingWrap}>
           <ActivityIndicator size="large" color={colors.blue} />
         </View>
@@ -193,83 +324,40 @@ export default function DocumentationScreen() {
         <Card style={styles.emptyCard}>
           <Ionicons name="search-outline" size={26} color="#94a3b8" />
           <Text style={styles.emptyTitle}>
-            {isSearching ? 'Nema rezultata' : 'Nema modela u biblioteci'}
+            {isSearching ? t('documentation.empty_title') : 'Nema modela u biblioteci'}
           </Text>
           <Text style={styles.emptyText}>
             {isSearching
-              ? `Pokušajte kod greške kao E01, brend kao Vaillant ili ključnu riječ kao pritisak.`
+              ? t('documentation.empty_text')
               : 'Koristite POST /library/ingest endpoint za dodavanje dokumentacije.'}
           </Text>
         </Card>
       )}
+    </>
+  );
 
-      {isSearching && !loading && results.map((item) => (
-        <Pressable 
-          key={item.id} 
-          onPress={() => {
-            if (item.type === 'model') router.push(`/model/${item.id}`);
-            else if (item.type === 'fault') router.push(`/fault/${item.id}`);
-            else if (item.type === 'guide') router.push(`/part/${item.id}`);
-          }}
-        >
-          <Card style={{ borderColor: '#bfdbfe' }}>
-            <View style={styles.cardTopRow}>
-              <View style={styles.cardMetaRow}>
-                <View style={[
-                  styles.categoryTag,
-                  {
-                    backgroundColor:
-                      item.type === 'fault' ? '#fee2e2' :
-                      item.type === 'model' ? '#dbeafe' : '#dcfce7',
-                  }
-                ]}>
-                  <Text style={[
-                    styles.categoryTagText,
-                    {
-                      color:
-                        item.type === 'fault' ? '#dc2626' :
-                        item.type === 'model' ? '#1d4ed8' : '#16a34a',
-                    }
-                  ]}>
-                    {item.type === 'fault' ? 'Greška' : item.type === 'model' ? 'Model' : 'Dio'}
-                  </Text>
-                </View>
-                <Text style={styles.cardTitle}>{item.title}</Text>
-              </View>
-              <Ionicons name="chevron-forward" size={20} color="#94a3b8" />
-            </View>
-            <Text style={styles.cardSubtitle}>{item.category}</Text>
-            {item.description && (
-              <Text style={styles.cardSummary} numberOfLines={2}>{item.description}</Text>
-            )}
-          </Card>
-        </Pressable>
-      ))}
+  const renderFooter = () => {
+    if (!loadingMore) return null;
+    return (
+      <View style={styles.loadingMoreWrap}>
+        <ActivityIndicator size="small" color={colors.blue} />
+      </View>
+    );
+  };
 
-      {!isSearching && !modelsLoading && models.map((item) => (
-        <Pressable 
-          key={item.id} 
-          onPress={() => router.push(`/model/${item.id}`)}
-        >
-          <Card>
-            <View style={styles.cardTopRow}>
-              <View style={styles.cardMetaRow}>
-                <View style={[styles.categoryTag, { backgroundColor: colors.blueSoft }]}>
-                  <Text style={[styles.categoryTagText, { color: colors.blue }]}>
-                    {item.brand}
-                  </Text>
-                </View>
-                <Text style={styles.cardTitle}>{item.name}</Text>
-              </View>
-              <Ionicons name="chevron-forward" size={20} color="#94a3b8" />
-            </View>
-            <Text style={styles.cardSubtitle}>{item.category}</Text>
-            {item.description && (
-              <Text style={styles.cardSummary}>{item.description}</Text>
-            )}
-          </Card>
-        </Pressable>
-      ))}
+  return (
+    <Screen header={header} noScroll={true}>
+      <FlatList
+        data={displayList}
+        keyExtractor={item => (item.type || 'model') + '-' + item.id}
+        renderItem={renderItem}
+        ListHeaderComponent={renderHeader}
+        ListFooterComponent={renderFooter}
+        onEndReached={loadMore}
+        onEndReachedThreshold={0.5}
+        contentContainerStyle={{ paddingBottom: 24, paddingHorizontal: 16 }}
+        showsVerticalScrollIndicator={false}
+      />
     </Screen>
   );
 }
@@ -306,20 +394,6 @@ const getStyles = (colors: ColorsType) => StyleSheet.create({
     fontSize: 15,
     fontWeight: '400',
     paddingVertical: 0,
-  },
-  searchButton: {
-    height: 44,
-    paddingHorizontal: 16,
-    borderRadius: 12,
-    backgroundColor: colors.blue,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  searchButtonText: {
-    color: '#fff',
-    fontSize: 15,
-    fontWeight: '600',
-    letterSpacing: 0.2,
   },
   pillsRow: {
     paddingTop: 12,
@@ -404,6 +478,10 @@ const getStyles = (colors: ColorsType) => StyleSheet.create({
   },
   loadingWrap: {
     paddingVertical: 40,
+    alignItems: 'center',
+  },
+  loadingMoreWrap: {
+    paddingVertical: 16,
     alignItems: 'center',
   },
   cardTopRow: {
