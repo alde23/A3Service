@@ -19,6 +19,12 @@ import {
   MonthlyMetric,
 } from '../services/analytics-api.service';
 import { observeExpenses, addExpense } from '../storage/repositories/expenses.repository';
+import { ColorsType } from '../theme/colors';
+import { useTheme } from '../theme/ThemeProvider';
+import { Screen } from '../components/ui/Screen';
+import { ScreenHeader } from '../components/ui/ScreenHeader';
+import { SectionHeader } from '../components/ui/SectionHeader';
+import { Card } from '../components/ui/Card';
 
 type MetricCard = {
   label: string;
@@ -65,25 +71,27 @@ const BRAND_BREAKDOWN = [
 
 const TRENDS = ['2024', '2025', '2026', 'YTD'];
 
-function toneStyles(tone: MetricCard['tone']) {
+function toneStyles(tone: MetricCard['tone'], colors: ColorsType) {
   if (tone === 'blue') {
-    return { bg: '#dbeafe', text: '#1d4ed8', ring: '#bfdbfe' };
+    return { bg: colors.blueSoft, text: colors.blue, ring: '#1d4ed8' };
   }
 
   if (tone === 'emerald') {
-    return { bg: '#d1fae5', text: '#047857', ring: '#a7f3d0' };
+    return { bg: colors.greenSoft, text: colors.green, ring: '#065f46' };
   }
 
   if (tone === 'amber') {
-    return { bg: '#fef3c7', text: '#92400e', ring: '#fde68a' };
+    return { bg: colors.amberSoft, text: colors.amber, ring: '#92400e' };
   }
 
-  return { bg: '#e2e8f0', text: '#334155', ring: '#cbd5e1' };
+  return { bg: colors.surface2, text: colors.textSecondary, ring: colors.border2 };
 }
 
 export default function AnalyticsScreen() {
   const { t } = useTranslation();
   const { token } = useAuth();
+  const { colors } = useTheme();
+  const styles = useMemo(() => getStyles(colors), [colors]);
   const [summary, setSummary] = useState<AnalyticsSummary>({});
   const [monthlyData, setMonthlyData] = useState<MonthlyMetric[]>(MONTHLY_DATA);
 
@@ -169,50 +177,40 @@ export default function AnalyticsScreen() {
     },
   ], [summary]);
 
-  return (
-    <SafeAreaView style={styles.safeArea}>
-      <View style={styles.header}>
-        <View style={styles.titleRow}>
-          <View style={styles.iconWrap}>
-            <Ionicons name="bar-chart-outline" size={18} color="#0f172a" />
-          </View>
-          <Text style={styles.headerTitle}>{t('analytics.title')}</Text>
-        </View>
-
-        <Text style={styles.headerCopy}>{t('analytics.header_copy')}</Text>
-
-        <View style={styles.topActions}>
-          <View style={styles.filterPillRow}>
-            {TRENDS.map((item, index) => (
-              <View
-                key={item}
-                style={[styles.filterPill, index === 2 && styles.filterPillActive]}
+  const header = (
+    <ScreenHeader title={t('analytics.title')} iconName="bar-chart-outline">
+      <Text style={styles.headerCopy}>{t('analytics.header_copy')}</Text>
+      <View style={styles.topActions}>
+        <View style={styles.filterPillRow}>
+          {TRENDS.map((item, index) => (
+            <View
+              key={item}
+              style={[styles.filterPill, index === 2 && styles.filterPillActive]}
+            >
+              <Text
+                style={[
+                  styles.filterPillText,
+                  index === 2 && styles.filterPillTextActive,
+                ]}
               >
-                <Text
-                  style={[
-                    styles.filterPillText,
-                    index === 2 && styles.filterPillTextActive,
-                  ]}
-                >
-                  {item}
-                </Text>
-              </View>
-            ))}
-          </View>
-
-          <Pressable style={styles.exportButton}>
-            <Ionicons name="download-outline" size={16} color="#0f172a" />
-            <Text style={styles.exportButtonText}>{t('analytics.export')}</Text>
-          </Pressable>
+                {item}
+              </Text>
+            </View>
+          ))}
         </View>
-      </View>
 
-      <ScrollView
-        style={styles.scroll}
-        contentContainerStyle={styles.scrollContent}
-        showsVerticalScrollIndicator={false}
-      >
-        <View style={styles.summaryCard}>
+        <Pressable style={styles.exportButton}>
+          <Ionicons name="download-outline" size={16} color={colors.bg} />
+          <Text style={styles.exportButtonText}>{t('analytics.export')}</Text>
+        </Pressable>
+      </View>
+    </ScreenHeader>
+  );
+
+  return (
+    <>
+    <Screen header={header}>
+      <Card style={{ marginBottom: 12 }}>
           <View style={styles.summaryTopRow}>
             <View>
               <Text style={styles.summaryLabel}>{t('analytics.year_to_date')}</Text>
@@ -240,36 +238,31 @@ export default function AnalyticsScreen() {
               </Pressable>
             </View>
           </View>
-        </View>
+        </Card>
 
         <View style={styles.grid}>
           {metrics.map((metric) => {
-            const colors = toneStyles(metric.tone);
+            const cardColors = toneStyles(metric.tone, colors);
 
             return (
-              <View
+              <Card
                 key={metric.label}
-                style={[styles.metricCard, { borderColor: colors.ring }]}
+                style={[styles.metricCard, { borderColor: cardColors.ring }]}
               >
-                <View style={[styles.metricChip, { backgroundColor: colors.bg }]}>
-                  <Text style={[styles.metricDelta, { color: colors.text }]}>
+                <View style={[styles.metricChip, { backgroundColor: cardColors.bg }]}>
+                  <Text style={[styles.metricDelta, { color: cardColors.text }]}>
                     {metric.delta}
                   </Text>
                 </View>
                 <Text style={styles.metricValue}>{metric.value}</Text>
                 <Text style={styles.metricLabel}>{metric.label}</Text>
-              </View>
+              </Card>
             );
           })}
         </View>
 
-        <View style={styles.chartCard}>
-          <View style={styles.sectionHeaderRow}>
-            <Text style={styles.sectionTitle}>Monthly jobs</Text>
-            <View style={styles.counterPill}>
-              <Text style={styles.counterText}>2026</Text>
-            </View>
-          </View>
+        <Card style={{ marginBottom: 12 }}>
+          <SectionHeader title="Monthly jobs" count="2026" />
 
           <View style={styles.barChart}>
             {monthlyData.map((point) => {
@@ -290,11 +283,11 @@ export default function AnalyticsScreen() {
               );
             })}
           </View>
-        </View>
+        </Card>
 
         <View style={styles.twoColumnCard}>
-          <View style={styles.listCard}>
-            <Text style={styles.sectionTitle}>Top job groups</Text>
+          <Card>
+            <SectionHeader title="Top job groups" />
             <View style={styles.groupList}>
               {TOP_AREAS.map((area, index) => (
                 <View key={area.label} style={styles.groupRow}>
@@ -306,10 +299,10 @@ export default function AnalyticsScreen() {
                 </View>
               ))}
             </View>
-          </View>
+          </Card>
 
-          <View style={styles.listCard}>
-            <Text style={styles.sectionTitle}>Brand mix</Text>
+          <Card>
+            <SectionHeader title="Brand mix" />
             <View style={styles.groupList}>
               {BRAND_BREAKDOWN.map((brand) => (
                 <View key={brand.label} style={styles.brandRow}>
@@ -323,9 +316,9 @@ export default function AnalyticsScreen() {
                 </View>
               ))}
             </View>
-          </View>
+          </Card>
         </View>
-      </ScrollView>
+      </Screen>
 
       <Modal visible={isModalVisible} transparent animationType="slide">
         <View style={styles.modalOverlay}>
@@ -355,59 +348,27 @@ export default function AnalyticsScreen() {
           </View>
         </View>
       </Modal>
-    </SafeAreaView>
+    </>
   );
 }
 
-const styles = StyleSheet.create({
-  addExpenseBtn: { backgroundColor: '#dbeafe', padding: 8, borderRadius: 8, alignItems: 'center' },
-  addExpenseBtnText: { color: '#1d4ed8', fontWeight: 'bold' },
+const getStyles = (colors: ColorsType) => StyleSheet.create({
+  addExpenseBtn: { backgroundColor: colors.blueSoft, padding: 8, borderRadius: 8, alignItems: 'center' },
+  addExpenseBtnText: { color: colors.blue, fontWeight: 'bold' },
   modalOverlay: { flex: 1, backgroundColor: 'rgba(0,0,0,0.5)', justifyContent: 'center', padding: 20 },
-  modalContent: { backgroundColor: 'white', padding: 20, borderRadius: 12 },
-  modalTitle: { fontSize: 18, fontWeight: 'bold', marginBottom: 15 },
-  input: { borderWidth: 1, borderColor: '#ccc', borderRadius: 8, padding: 10, marginBottom: 15 },
+  modalContent: { backgroundColor: colors.surface1, padding: 20, borderRadius: 12 },
+  modalTitle: { fontSize: 18, fontWeight: 'bold', marginBottom: 15, color: colors.textPrimary },
+  input: { borderWidth: 1, borderColor: colors.border, borderRadius: 8, padding: 10, marginBottom: 15, backgroundColor: colors.surface2, color: colors.textPrimary },
   modalActions: { flexDirection: 'row', justifyContent: 'flex-end', gap: 10 },
   modalBtnCancel: { padding: 10 },
-  modalBtnCancelText: { color: '#64748b', fontWeight: 'bold' },
-  modalBtnSave: { backgroundColor: '#2563eb', padding: 10, borderRadius: 8 },
-  modalBtnSaveText: { color: 'white', fontWeight: 'bold' },
-  safeArea: {
-    flex: 1,
-    backgroundColor: '#f2f5fa',
-  },
-  header: {
-    backgroundColor: '#2563eb',
-    paddingHorizontal: 16,
-    paddingTop: 8,
-    paddingBottom: 14,
-    borderBottomWidth: 1,
-    borderBottomColor: '#1e40af',
-  },
-  titleRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-  },
-  iconWrap: {
-    width: 24,
-    height: 24,
-    borderRadius: 12,
-    borderWidth: 1,
-    borderColor: '#0f172a',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#60a5fa',
-  },
-  headerTitle: {
-    color: '#0f172a',
-    fontSize: 26,
-    fontWeight: '700',
-  },
+  modalBtnCancelText: { color: colors.textSecondary, fontWeight: 'bold' },
+  modalBtnSave: { backgroundColor: colors.blue, padding: 10, borderRadius: 8 },
+  modalBtnSaveText: { color: colors.textPrimary, fontWeight: 'bold' },
   headerCopy: {
     marginTop: 8,
-    color: '#dbeafe',
-    fontSize: 16,
-    fontWeight: '500',
+    color: colors.textSecondary,
+    fontSize: 14,
+    fontWeight: '400',
     lineHeight: 21,
   },
   topActions: {
@@ -425,22 +386,24 @@ const styles = StyleSheet.create({
   },
   filterPill: {
     borderRadius: 999,
-    backgroundColor: 'rgba(255,255,255,0.18)',
+    backgroundColor: colors.surface2,
     borderWidth: 1,
-    borderColor: 'rgba(255,255,255,0.25)',
-    paddingHorizontal: 12,
+    borderColor: colors.border,
+    paddingHorizontal: 14,
     paddingVertical: 7,
+    height: 32,
   },
   filterPillActive: {
-    backgroundColor: '#ffffff',
+    backgroundColor: colors.blueSoft,
+    borderColor: colors.blue,
   },
   filterPillText: {
-    color: '#ffffff',
+    color: colors.textSecondary,
     fontSize: 12,
-    fontWeight: '700',
+    fontWeight: '500',
   },
   filterPillTextActive: {
-    color: '#0f172a',
+    color: colors.blue,
   },
   exportButton: {
     flexDirection: 'row',
@@ -449,34 +412,13 @@ const styles = StyleSheet.create({
     height: 42,
     paddingHorizontal: 14,
     borderRadius: 12,
-    backgroundColor: '#ffffff',
+    backgroundColor: colors.blue,
   },
   exportButtonText: {
-    color: '#0f172a',
-    fontSize: 12,
-    fontWeight: '800',
-    letterSpacing: 0.4,
-  },
-  scroll: {
-    flex: 1,
-  },
-  scrollContent: {
-    paddingHorizontal: 10,
-    paddingTop: 10,
-    paddingBottom: 24,
-  },
-  summaryCard: {
-    backgroundColor: '#ffffff',
-    borderRadius: 14,
-    borderWidth: 1,
-    borderColor: '#dbeafe',
-    padding: 14,
-    marginBottom: 10,
-    shadowColor: '#0f172a',
-    shadowOpacity: 0.05,
-    shadowRadius: 8,
-    shadowOffset: { width: 0, height: 3 },
-    elevation: 1,
+    color: colors.textPrimary,
+    fontSize: 15,
+    fontWeight: '600',
+    letterSpacing: 0.2,
   },
   summaryTopRow: {
     flexDirection: 'row',
@@ -485,26 +427,29 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   summaryLabel: {
-    color: '#64748b',
-    fontSize: 13,
+    color: colors.textTertiary,
+    fontSize: 11,
     fontWeight: '600',
+    letterSpacing: 1,
+    textTransform: 'uppercase',
   },
   summaryValue: {
     marginTop: 4,
-    color: '#0f172a',
-    fontSize: 26,
-    fontWeight: '800',
+    color: colors.textPrimary,
+    fontSize: 32,
+    fontWeight: '700',
+    letterSpacing: -0.5,
   },
   summaryBadge: {
     borderRadius: 999,
-    backgroundColor: '#d1fae5',
+    backgroundColor: colors.greenSoft,
     paddingHorizontal: 10,
     paddingVertical: 5,
   },
   summaryBadgeText: {
-    color: '#047857',
+    color: colors.green,
     fontSize: 12,
-    fontWeight: '800',
+    fontWeight: '600',
   },
   summaryStatsRow: {
     marginTop: 14,
@@ -515,39 +460,30 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   summaryStatLabel: {
-    color: '#64748b',
+    color: colors.textSecondary,
     fontSize: 12,
-    fontWeight: '600',
+    fontWeight: '500',
   },
   summaryStatValue: {
     marginTop: 4,
-    color: '#0f172a',
-    fontSize: 18,
+    color: colors.textPrimary,
+    fontSize: 22,
     fontWeight: '700',
   },
   summaryDivider: {
     width: 1,
     alignSelf: 'stretch',
     marginHorizontal: 10,
-    backgroundColor: '#e2e8f0',
+    backgroundColor: colors.border,
   },
   grid: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    gap: 10,
-    marginBottom: 10,
+    gap: 12,
+    marginBottom: 12,
   },
   metricCard: {
     width: '48%',
-    backgroundColor: '#ffffff',
-    borderRadius: 12,
-    borderWidth: 1,
-    padding: 12,
-    shadowColor: '#0f172a',
-    shadowOpacity: 0.05,
-    shadowRadius: 8,
-    shadowOffset: { width: 0, height: 3 },
-    elevation: 1,
   },
   metricChip: {
     alignSelf: 'flex-start',
@@ -558,50 +494,21 @@ const styles = StyleSheet.create({
   },
   metricDelta: {
     fontSize: 12,
-    fontWeight: '800',
+    fontWeight: '600',
   },
   metricValue: {
-    color: '#0f172a',
-    fontSize: 24,
-    lineHeight: 28,
-    fontWeight: '800',
+    color: colors.textPrimary,
+    fontSize: 28,
+    lineHeight: 32,
+    fontWeight: '700',
+    letterSpacing: -0.5,
   },
   metricLabel: {
     marginTop: 6,
-    color: '#64748b',
-    fontSize: 13,
-    lineHeight: 18,
-    fontWeight: '600',
-  },
-  chartCard: {
-    backgroundColor: '#ffffff',
-    borderRadius: 12,
-    borderWidth: 1,
-    borderColor: '#e2e8f0',
-    padding: 14,
-    marginBottom: 10,
-  },
-  sectionHeaderRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    marginBottom: 10,
-  },
-  sectionTitle: {
-    color: '#334155',
-    fontSize: 20,
-    fontWeight: '700',
-  },
-  counterPill: {
-    paddingHorizontal: 8,
-    paddingVertical: 4,
-    borderRadius: 8,
-    backgroundColor: '#dbeafe',
-  },
-  counterText: {
-    color: '#2563eb',
+    color: colors.textSecondary,
     fontSize: 12,
-    fontWeight: '700',
+    lineHeight: 18,
+    fontWeight: '500',
   },
   barChart: {
     height: 170,
@@ -618,31 +525,24 @@ const styles = StyleSheet.create({
   barTrack: {
     width: '100%',
     height: 130,
-    borderRadius: 10,
-    backgroundColor: '#eff6ff',
+    borderRadius: 4,
+    backgroundColor: colors.surface2,
     justifyContent: 'flex-end',
     overflow: 'hidden',
   },
   barFill: {
     width: '100%',
-    borderRadius: 10,
-    backgroundColor: '#2563eb',
+    borderRadius: 4,
+    backgroundColor: colors.blue,
   },
   barLabel: {
     marginTop: 8,
-    color: '#64748b',
-    fontSize: 11,
-    fontWeight: '700',
+    color: colors.textSecondary,
+    fontSize: 12,
+    fontWeight: '500',
   },
   twoColumnCard: {
-    gap: 10,
-  },
-  listCard: {
-    backgroundColor: '#ffffff',
-    borderRadius: 12,
-    borderWidth: 1,
-    borderColor: '#e2e8f0',
-    padding: 14,
+    gap: 12,
   },
   groupList: {
     marginTop: 10,
@@ -666,20 +566,20 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     textAlign: 'center',
     textAlignVertical: 'center',
-    backgroundColor: '#dbeafe',
-    color: '#1d4ed8',
+    backgroundColor: colors.blueSoft,
+    color: colors.blue,
     fontSize: 12,
-    fontWeight: '800',
+    fontWeight: '600',
   },
   groupLabel: {
-    color: '#0f172a',
+    color: colors.textPrimary,
     fontSize: 14,
-    fontWeight: '700',
+    fontWeight: '500',
   },
   groupValue: {
-    color: '#2563eb',
+    color: colors.blue,
     fontSize: 14,
-    fontWeight: '800',
+    fontWeight: '600',
   },
   brandRow: {
     gap: 6,
@@ -692,12 +592,12 @@ const styles = StyleSheet.create({
   brandTrack: {
     height: 8,
     borderRadius: 999,
-    backgroundColor: '#e2e8f0',
+    backgroundColor: colors.surface2,
     overflow: 'hidden',
   },
   brandFill: {
     height: '100%',
     borderRadius: 999,
-    backgroundColor: '#0f8b78',
+    backgroundColor: colors.teal,
   },
 });

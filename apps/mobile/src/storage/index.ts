@@ -17,6 +17,12 @@ import ServiceLog from './models/ServiceLog';
 import LaborEntry from './models/LaborEntry';
 import ConsumedPart from './models/ConsumedPart';
 import SyncConflict from './models/SyncConflict';
+import TechnicalSpec from './models/TechnicalSpec';
+import StatusCode from './models/StatusCode';
+import DiagnosticCode from './models/DiagnosticCode';
+import SafetyWarning from './models/SafetyWarning';
+import MaintenanceTask from './models/MaintenanceTask';
+import ModelPart from './models/ModelPart';
 
 let _database: Database | null = null;
 
@@ -49,6 +55,12 @@ export function getDatabase(): Database {
         LaborEntry,
         ConsumedPart,
         SyncConflict,
+        TechnicalSpec,
+        StatusCode,
+        DiagnosticCode,
+        SafetyWarning,
+        MaintenanceTask,
+        ModelPart,
       ],
     });
   }

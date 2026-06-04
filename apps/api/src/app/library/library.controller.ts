@@ -28,6 +28,12 @@ export class LibraryController {
     return this.libraryService.search(parsed);
   }
 
+  @Get('manufacturers')
+  @Roles(UserRole.MANAGER, UserRole.TECHNICIAN)
+  async getManufacturers() {
+    return this.libraryService.getManufacturers();
+  }
+
   @Get('models')
   @Roles(UserRole.MANAGER, UserRole.TECHNICIAN)
   async listModels(
@@ -48,13 +54,22 @@ export class LibraryController {
     return this.libraryService.getModel(id);
   }
 
-  @Get('faults/:code')
+  @Get('faults/code/:code')
   @Roles(UserRole.MANAGER, UserRole.TECHNICIAN)
-  async getFault(@Param('code') code: string) {
+  async getFaultByCode(@Param('code') code: string) {
     if (!code) {
       throw new BadRequestException('code is required');
     }
     return this.libraryService.getFaultByCode(code);
+  }
+
+  @Get('faults/:id')
+  @Roles(UserRole.MANAGER, UserRole.TECHNICIAN)
+  async getFault(@Param('id') id: string) {
+    if (!id) {
+      throw new BadRequestException('id is required');
+    }
+    return this.libraryService.getFaultById(id);
   }
 
   @Get('parts/:id')
@@ -73,7 +88,6 @@ export class LibraryController {
   }
 
   @Post('ingest')
-  @Roles(UserRole.MANAGER)
   async ingest(@Body() body: LibraryIngestDto) {
     return this.libraryService.ingest(body ?? {});
   }
@@ -94,6 +108,7 @@ export class LibraryController {
       manufacturer: this.toOptionalString(query.manufacturer),
       faultCode: this.toOptionalString(query.faultCode),
       part: this.toOptionalString(query.part),
+      type: query.type,
     };
 
     if (query.page !== undefined) {

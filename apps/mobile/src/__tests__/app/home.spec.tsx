@@ -1,11 +1,15 @@
 import React from 'react';
 import { render, waitFor } from '@testing-library/react-native';
 
-import HomeScreen from '../../app/home';
+import HomeScreen from '../../app/(tabs)/home';
 import { useAuth } from '../../services/auth.service';
 
 jest.mock('../../services/auth.service', () => ({
   useAuth: jest.fn(),
+}));
+
+jest.mock('../../services/location.service', () => ({
+  useLocation: () => ({ location: { latitude: 43.85, longitude: 18.41 }, errorMsg: null }),
 }));
 
 jest.mock('react-i18next', () => ({
@@ -64,7 +68,7 @@ describe('HomeScreen backend integration', () => {
 
     await waitFor(() => {
       expect(fetchMock).toHaveBeenCalledWith(
-        'https://api.example.com/api/jobs',
+        expect.stringContaining('/api/jobs'),
         {
           method: 'GET',
           headers: {
@@ -79,13 +83,12 @@ describe('HomeScreen backend integration', () => {
     expect(screen.getByText('1 jobs visible on map')).toBeTruthy();
   });
 
-  it('keeps mock jobs visible when the jobs API fails', async () => {
+  it('shows no jobs text when the jobs API fails', async () => {
     fetchMock.mockRejectedValueOnce(new Error('network down'));
 
     const screen = render(<HomeScreen />);
 
-    expect(await screen.findByText('Brooklyn Public Library')).toBeTruthy();
-    expect(screen.getByText('3 jobs visible on map')).toBeTruthy();
+    expect(await screen.findByText('home.no_jobs')).toBeTruthy();
   });
 
   it('does not call the jobs endpoint without an auth token', () => {

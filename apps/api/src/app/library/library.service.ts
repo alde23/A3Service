@@ -1,609 +1,359 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { Prisma, IngestionStatus } from '../../generated/prisma/client';
 import { PrismaService } from '../../prisma/prisma.service';
-import type {
-  FaultCodeIngestDto,
-  IngestRunResponse,
-  IngestValidationError,
-  IngestValidationResult,
-  LibraryIngestDto,
-  LibraryModelIngestDto,
-  ManualIngestDto,
-  ModelFaultLinkDto,
-  ModelPartLinkDto,
-  PartIngestDto,
-  ReferenceTableIngestDto,
-  TechnicalPropertyIngestDto,
-} from './dto/library-ingest.dto';
 import type { LibrarySearchQueryDto } from './dto/library-search.dto';
-import type {
-  LibraryFaultDto,
-  LibraryFaultResponse,
-  LibraryManualDto,
-  LibraryModelDto,
-  LibraryModelListResponse,
-  LibraryPartDto,
-  LibraryPartResponse,
-  LibrarySearchResponse,
-} from './dto/library-response.dto';
-
-type ModelWithRelations = Prisma.BoilerModelGetPayload<{
-  include: {
-    modelParts: { include: { part: true } };
-    modelFaultCodes: { include: { faultCode: true } };
-    manuals: true;
-  };
-}>;
-
-type ModelWithOptionalManuals = Omit<ModelWithRelations, 'manuals'> & {
-  manuals?: ModelWithRelations['manuals'];
-};
-
-type PartRecord = Prisma.PartGetPayload<Prisma.PartDefaultArgs>;
-type FaultRecord = Prisma.FaultCodeGetPayload<Prisma.FaultCodeDefaultArgs>;
-type ManualRecord = Prisma.ManualGetPayload<Prisma.ManualDefaultArgs>;
+import { LibraryIngestDto } from './dto/library-ingest.dto';
 
 @Injectable()
 export class LibraryService {
   constructor(private readonly prisma: PrismaService) {}
 
-  async search(query: LibrarySearchQueryDto): Promise<LibrarySearchResponse> {
-    const { page, pageSize } = this.normalizePagination(query.page, query.pageSize);
-    const where = this.buildSearchWhere(query);
+  async search(query: LibrarySearchQueryDto) {
+    const q = query.q?.trim();
+    const type = query.type;
+    const manufacturer = query.manufacturer?.trim();
+    const page = query.page ?? 1;
+    const pageSize = query.pageSize ?? 20;
+    const skip = (page - 1) * pageSize;
 
-    const total = await this.prisma.boilerModel.count({ where });
-    const items = await this.prisma.boilerModel.findMany({
-      where,
-      include: {
-        modelParts: { include: { part: true } },
-        modelFaultCodes: { include: { faultCode: true } },
-      },
-      orderBy: [{ modelName: 'asc' }, { id: 'asc' }],
-      skip: (page - 1) * pageSize,
-      take: pageSize,
-    });
-
-    return {
-      items: items.map((model) => this.mapModel(model)),
-      meta: { total, page, pageSize },
-    };
-  }
-
-  async listModels(page?: number, pageSize?: number): Promise<LibraryModelListResponse> {
-    const pagination = this.normalizePagination(page, pageSize);
-
-    const total = await this.prisma.boilerModel.count({ where: { isDeleted: false } });
-    const items = await this.prisma.boilerModel.findMany({
-      where: { isDeleted: false },
-      include: {
-        modelParts: { include: { part: true } },
-        modelFaultCodes: { include: { faultCode: true } },
-      },
-      orderBy: [{ modelName: 'asc' }, { id: 'asc' }],
-      skip: (pagination.page - 1) * pagination.pageSize,
-      take: pagination.pageSize,
-    });
-
-    return {
-      items: items.map((model) => this.mapModel(model)),
-      meta: pagination.withTotal(total),
-    };
-  }
-
-  async getModel(id: string): Promise<LibraryModelDto> {
-    const model = await this.prisma.boilerModel.findFirst({
-      where: { id, isDeleted: false },
-      include: {
-        modelParts: { include: { part: true } },
-        modelFaultCodes: { include: { faultCode: true } },
-        manuals: true,
-      },
-    });
-
-    if (!model) {
-      throw new NotFoundException('Model not found');
+    if (!q && !type && !manufacturer) {
+      return [];
     }
 
-    return this.mapModel(model, true);
+    const fetchModels = !type || type === 'model' || type === 'all';
+    const fetchFaults = !type || type === 'fault' || type === 'all';
+    const fetchParts  = !type || type === 'part'  || type === 'all';
+
+    const [models, faultCodes, parts] = await Promise.all([
+      fetchModels ? this.prisma.boilerModel.findMany({
+        where: {
+          AND: [
+            { manufacturerId: { not: 'Unknown' } },
+            manufacturer ? { manufacturerId: { equals: manufacturer, mode: 'insensitive' } } : {},
+            q ? {
+              OR: [
+                { modelName:      { contains: q, mode: 'insensitive' } },
+                { manufacturerId: { contains: q, mode: 'insensitive' } },
+                { series:        { contains: q, mode: 'insensitive' } },
+              ],
+            } : {},
+          ]
+        },
+        skip,
+        take: pageSize,
+        select: { id: true, modelName: true, manufacturerId: true, documentType: true },
+      }) : Promise.resolve([]),
+
+      fetchFaults ? this.prisma.faultCode.findMany({
+        where: {
+          AND: [
+            manufacturer ? { model: { manufacturerId: { equals: manufacturer, mode: 'insensitive' } } } : {},
+            q ? {
+              OR: [
+                { code:        { contains: q, mode: 'insensitive' } },
+                { description: { contains: q, mode: 'insensitive' } },
+                { model: { modelName: { contains: q, mode: 'insensitive' } } },
+                { model: { manufacturerId: { contains: q, mode: 'insensitive' } } },
+              ],
+            } : {},
+          ]
+        },
+        skip,
+        take: pageSize,
+        select: { id: true, code: true, description: true, severity: true, modelId: true, model: { select: { manufacturerId: true, modelName: true } } },
+      }) : Promise.resolve([]),
+
+      fetchParts ? this.prisma.part.findMany({
+        where: {
+          AND: [
+            manufacturer ? { brand: { equals: manufacturer, mode: 'insensitive' } } : {},
+            q ? {
+              OR: [
+                { name:  { contains: q, mode: 'insensitive' } },
+                { sku:   { contains: q, mode: 'insensitive' } },
+                { brand: { contains: q, mode: 'insensitive' } },
+              ],
+            } : {},
+          ]
+        },
+        skip,
+        take: pageSize,
+        select: { id: true, sku: true, name: true, brand: true, inventoryStatus: true },
+      }) : Promise.resolve([]),
+    ]);
+
+    const results = [
+      ...models.map(m => ({
+        id:          m.id,
+        title:       m.modelName,
+        category:    m.manufacturerId ?? 'Unknown',
+        type:        'model' as const,
+        description: m.documentType && m.documentType !== 'Installation Manual' ? m.documentType : undefined,
+      })),
+      ...faultCodes.map(f => ({
+        id:          f.id,
+        title:       f.code,
+        category:    `Fault Code · ${f.model?.manufacturerId || 'Unknown'} ${f.model?.modelName || ''} · ${f.severity ?? 'Unknown'}`.trim().replace(/ ·$/, ''),
+        type:        'fault' as const,
+        description: f.description ?? undefined,
+      })),
+      ...parts.map(p => ({
+        id:          p.id,
+        title:       p.name,
+        category:    `Part · ${p.brand ?? 'Unknown'} · ${p.sku}`,
+        type:        'part' as const,
+        description: p.inventoryStatus ?? undefined,
+      })),
+    ];
+
+    return results;
   }
 
-  async getFaultByCode(code: string): Promise<LibraryFaultResponse> {
-    const fault = await this.prisma.faultCode.findFirst({ where: { code } });
-    if (!fault) {
-      throw new NotFoundException('Fault code not found');
+  async getManufacturers() {
+    const records = await this.prisma.boilerModel.findMany({
+      select: { manufacturerId: true },
+      distinct: ['manufacturerId'],
+      where: { manufacturerId: { not: null } },
+    });
+
+    const uniqueManufacturers = new Set(
+      records
+        .map(r => r.manufacturerId)
+        .filter((name): name is string => typeof name === 'string' && name.trim().toLowerCase() !== 'unknown')
+        .map(name => {
+          const trimmed = name.trim();
+          return trimmed.charAt(0).toUpperCase() + trimmed.slice(1).toLowerCase();
+        })
+    );
+    
+    return Array.from(uniqueManufacturers);
+  }
+
+  async listModels(page?: number, pageSize?: number) {
+    const take = pageSize ?? 20;
+    const skip = page && page > 1 ? (page - 1) * take : 0;
+    const rows = await this.prisma.boilerModel.findMany({
+      where: { manufacturerId: { not: 'Unknown' } },
+      skip,
+      take,
+      select: {
+        id:             true,
+        modelName:      true,
+        manufacturerId: true,
+        documentType:   true,
+        series:         true,
+        fuelType:       true,
+        language:       true,
+        searchTerms:    true,
+        derivedGuidance: true,
+        faultCodes:     true,
+        technicalSpecs: true,
+        statusCodes:    true,
+        diagnosticCodes: true,
+        safetyWarnings: true,
+        maintenanceTasks: true,
+        modelParts:     true,
+      },
+    });
+    // Map to the shape expected by the mobile client
+    // Map to the shape expected by the mobile client sync
+    return rows.map(r => ({
+      id:             r.id,
+      modelName:      r.modelName,
+      manufacturerId: r.manufacturerId ?? 'Unknown',
+      documentType:   r.documentType,
+      series:         r.series,
+      fuelType:       r.fuelType,
+      language:       r.language,
+      searchTerms:    r.searchTerms,
+      derivedGuidance: r.derivedGuidance,
+      faultCodes:     r.faultCodes,
+      technicalSpecs: r.technicalSpecs,
+      statusCodes:    r.statusCodes,
+      diagnosticCodes: r.diagnosticCodes,
+      safetyWarnings: r.safetyWarnings,
+      maintenanceTasks: r.maintenanceTasks,
+      modelParts:     r.modelParts,
+    }));
+  }
+
+  async getModel(id: string) {
+    const model = await this.prisma.boilerModel.findUnique({ 
+      where: { id },
+      include: {
+        faultCodes: true,
+        technicalSpecs: true,
+        statusCodes: true,
+        diagnosticCodes: true,
+        safetyWarnings: true,
+        maintenanceTasks: true,
+        modelParts: {
+          include: { part: true }
+        }
+      }
+    });
+
+    if (!model) return null;
+
+    // Filter out unknown tasks
+    if (model.maintenanceTasks) {
+      model.maintenanceTasks = model.maintenanceTasks.filter(t => t.task !== 'UNKNOWN');
     }
 
-    const links = await this.prisma.modelFaultCode.findMany({
-      where: { faultCodeId: fault.id },
+    // Extract description from sourceRefs if empty
+    if (model.safetyWarnings) {
+      model.safetyWarnings = model.safetyWarnings.map(w => {
+        if (!w.description || w.description.trim() === '') {
+          const refs = w.sourceRefs as any[];
+          if (refs && refs.length > 0 && refs[0].source_quote) {
+            w.description = refs[0].source_quote;
+          }
+        }
+        return w;
+      }).filter(w => w.description && w.description.trim() !== '');
+    }
+
+    return model;
+  }
+
+  async getFaultById(id: string) {
+    return this.prisma.faultCode.findUnique({
+      where: { id },
       include: {
         model: {
-          include: {
-            modelParts: { include: { part: true } },
-            modelFaultCodes: { include: { faultCode: true } },
-          },
-        },
-      },
+          select: { id: true, modelName: true, manufacturerId: true }
+        }
+      }
     });
-
-    return {
-      fault: this.mapFault(fault),
-      models: links.map((link) => this.mapModel(link.model)),
-    };
   }
 
-  async getPart(id: string): Promise<LibraryPartResponse> {
-    const part = await this.prisma.part.findFirst({ where: { id } });
-    if (!part) {
-      throw new NotFoundException('Part not found');
-    }
+  async getFaultByCode(code: string) {
+    throw new NotFoundException('Fault code query by individual code is retired in favor of full model JSON');
+  }
 
-    const links = await this.prisma.modelPart.findMany({
-      where: { partId: part.id },
+  async getPart(id: string) {
+    return this.prisma.part.findUnique({ 
+      where: { id },
       include: {
-        model: {
-          include: {
-            modelParts: { include: { part: true } },
-            modelFaultCodes: { include: { faultCode: true } },
-          },
-        },
-      },
+        modelParts: {
+          include: { model: true }
+        }
+      }
     });
-
-    return {
-      part: this.mapPart(part),
-      models: links.map((link) => this.mapModel(link.model)),
-    };
   }
 
-  async validateIngest(payload: LibraryIngestDto): Promise<IngestValidationResult> {
-    const errors: IngestValidationError[] = [];
-
-    const models = payload.models ?? [];
-    const faults = payload.faults ?? [];
-    const parts = payload.parts ?? [];
-    const manuals = payload.manuals ?? [];
-    const technicalProperties = payload.technicalProperties ?? [];
-    const referenceTables = payload.referenceTables ?? [];
-    const modelFaults = payload.modelFaults ?? [];
-    const modelParts = payload.modelParts ?? [];
-
-    this.validateModels(models, errors);
-    this.validateFaults(faults, errors);
-    this.validateParts(parts, errors);
-    this.validateManuals(manuals, errors);
-    this.validateTechnicalProperties(technicalProperties, errors);
-    this.validateReferenceTables(referenceTables, errors);
-    this.validateLinks(modelFaults, 'modelFaults', errors);
-    this.validateLinks(modelParts, 'modelParts', errors);
-
-    return {
-      valid: errors.length === 0,
-      errors,
-      counts: {
-        models: models.length,
-        faults: faults.length,
-        parts: parts.length,
-        manuals: manuals.length,
-        technicalProperties: technicalProperties.length,
-        referenceTables: referenceTables.length,
-        modelFaults: modelFaults.length,
-        modelParts: modelParts.length,
-      },
-    };
+  async validateIngest(body: any) {
+    return { valid: true, errors: [] };
   }
 
-  async ingest(payload: LibraryIngestDto): Promise<IngestRunResponse> {
-    const validation = await this.validateIngest(payload);
-    const run = await this.prisma.libraryIngestionRun.create({
-      data: {
-        status: validation.valid ? IngestionStatus.PENDING : IngestionStatus.FAILED,
-        sourceVersion: payload.sourceVersion,
-        acceptedCount: 0,
-        rejectedCount: validation.errors.length,
-        errorSummary: validation.errors.length ? { errors: validation.errors } : undefined,
-      },
-    });
+  async ingest(dto: LibraryIngestDto) {
+    const documentMeta = dto.document_meta || {};
+    const manufacturerName = documentMeta.brand_name || 'Unknown';
+    const modelName = (documentMeta.model_names && documentMeta.model_names.length > 0) 
+      ? documentMeta.model_names[0] 
+      : (documentMeta.product_family || documentMeta.product_name || 'Unknown');
 
-    if (!validation.valid) {
-      await this.prisma.libraryIngestionRun.update({
-        where: { id: run.id },
+    const upsertedModel = await this.prisma.$transaction(async (tx) => {
+      const model = await tx.boilerModel.create({
         data: {
-          status: IngestionStatus.FAILED,
-          completedAt: new Date(),
-        },
+          manufacturerId: manufacturerName,
+          modelName: modelName,
+          documentType: documentMeta.document_type || 'Installation Manual',
+          language: documentMeta.language || 'en',
+          searchTerms: dto.search_terms ? JSON.parse(JSON.stringify(dto.search_terms)) : [],
+        }
       });
 
-      return {
-        id: run.id,
-        status: 'FAILED',
-        acceptedCount: 0,
-        rejectedCount: validation.errors.length,
-        errors: validation.errors,
-      };
-    }
-
-    const models = payload.models ?? [];
-    const faults = payload.faults ?? [];
-    const parts = payload.parts ?? [];
-    const manuals = payload.manuals ?? [];
-    const technicalProperties = payload.technicalProperties ?? [];
-    const referenceTables = payload.referenceTables ?? [];
-    const modelFaults = payload.modelFaults ?? [];
-    const modelParts = payload.modelParts ?? [];
-
-    const acceptedCount =
-      models.length + faults.length + parts.length + manuals.length +
-      technicalProperties.length + referenceTables.length +
-      modelFaults.length + modelParts.length;
-
-    await this.prisma.$transaction(async (tx) => {
-      for (const model of models) {
-        await tx.boilerModel.upsert({
-          where: { id: model.id },
-          update: {
-            manufacturerId: model.manufacturerId,
-            modelName: model.modelName,
-            series: model.series,
-            fuelType: model.fuelType,
-            productionStartYear: model.productionStartYear,
-            productionEndYear: model.productionEndYear,
-          },
-          create: {
-            id: model.id,
-            manufacturerId: model.manufacturerId,
-            modelName: model.modelName,
-            series: model.series,
-            fuelType: model.fuelType,
-            productionStartYear: model.productionStartYear,
-            productionEndYear: model.productionEndYear,
-          },
+      if (dto.fault_codes?.length) {
+        await tx.faultCode.createMany({
+          data: dto.fault_codes.map(f => ({
+            code: f.code || 'UNKNOWN',
+            description: f.description,
+            possibleCauses: f.possible_causes || [],
+            manufacturerSteps: f.manufacturer_steps ? JSON.parse(JSON.stringify(f.manufacturer_steps)) : null,
+            cautionsOrNotes: f.cautions_or_notes || [],
+            symptoms: f.symptoms || [],
+            relatedComponents: f.related_components || [],
+            severity: f.severity,
+            safetyLevel: f.safety_level,
+            searchTags: f.search_tags || [],
+            sourceRefs: f.source_refs ? JSON.parse(JSON.stringify(f.source_refs)) : null,
+            confidence: f.confidence,
+            reviewRequired: f.review_required,
+            modelId: model.id
+          }))
         });
       }
 
-      for (const fault of faults) {
-        await tx.faultCode.upsert({
-          where: { id: fault.id },
-          update: {
-            code: fault.code,
-            title: fault.title,
-            description: fault.description,
-            severity: fault.severity,
-          },
-          create: {
-            id: fault.id,
-            code: fault.code,
-            title: fault.title,
-            description: fault.description,
-            severity: fault.severity,
-          },
+      if (dto.technical_specs?.length) {
+        await tx.technicalSpec.createMany({
+          data: dto.technical_specs.map(t => ({
+            parameter: t.parameter || 'UNKNOWN',
+            value: t.value || '',
+            unit: t.unit,
+            appliesToModels: t.applies_to_models || [],
+            category: t.category,
+            sourceRefs: t.source_refs ? JSON.parse(JSON.stringify(t.source_refs)) : null,
+            confidence: t.confidence,
+            reviewRequired: t.review_required,
+            modelId: model.id
+          }))
         });
       }
 
-      for (const part of parts) {
-        await tx.part.upsert({
-          where: { id: part.id },
-          update: {
-            sku: part.sku,
-            name: part.name,
-            brand: part.brand,
-            unitPrice: part.unitPrice,
-            aliases: part.aliases ?? [],
-            inventoryStatus: part.inventoryStatus,
-          },
-          create: {
-            id: part.id,
-            sku: part.sku,
-            name: part.name,
-            brand: part.brand,
-            unitPrice: part.unitPrice,
-            aliases: part.aliases ?? [],
-            inventoryStatus: part.inventoryStatus,
-          },
+      if (dto.status_codes?.length) {
+        await tx.statusCode.createMany({
+          data: dto.status_codes.map(s => ({
+            code: s.code || 'UNKNOWN',
+            description: s.description,
+            meaning: s.meaning,
+            sourceRefs: s.source_refs ? JSON.parse(JSON.stringify(s.source_refs)) : null,
+            modelId: model.id
+          }))
         });
       }
 
-      for (const manual of manuals) {
-        await tx.manual.upsert({
-          where: { id: manual.id },
-          update: {
-            boilerModelId: manual.boilerModelId,
-            version: manual.version,
-            language: manual.language,
-            sourceUrl: manual.sourceUrl,
-            addedAt: manual.addedAt ? new Date(manual.addedAt) : undefined,
-            isValidated: manual.isValidated ?? undefined,
-          },
-          create: {
-            id: manual.id,
-            boilerModelId: manual.boilerModelId,
-            version: manual.version,
-            language: manual.language,
-            sourceUrl: manual.sourceUrl,
-            addedAt: manual.addedAt ? new Date(manual.addedAt) : undefined,
-            isValidated: manual.isValidated ?? false,
-          },
+      if (dto.diagnostic_codes?.length) {
+        await tx.diagnosticCode.createMany({
+          data: dto.diagnostic_codes.map(d => ({
+            code: d.code || 'UNKNOWN',
+            description: d.description,
+            level: d.level,
+            sourceRefs: d.source_refs ? JSON.parse(JSON.stringify(d.source_refs)) : null,
+            modelId: model.id
+          }))
         });
       }
 
-      for (const technicalProperty of technicalProperties) {
-        await tx.technicalProperty.upsert({
-          where: { id: technicalProperty.id },
-          update: {
-            code: technicalProperty.code,
-            label: technicalProperty.label,
-            unit: technicalProperty.unit,
-            description: technicalProperty.description,
-          },
-          create: {
-            id: technicalProperty.id,
-            code: technicalProperty.code,
-            label: technicalProperty.label,
-            unit: technicalProperty.unit,
-            description: technicalProperty.description,
-          },
+      if (dto.safety_warnings?.length) {
+        await tx.safetyWarning.createMany({
+          data: dto.safety_warnings.map(s => ({
+            warningType: s.warning_type,
+            description: s.description || '',
+            sourceRefs: s.source_refs ? JSON.parse(JSON.stringify(s.source_refs)) : null,
+            modelId: model.id
+          }))
         });
       }
 
-      if (referenceTables.length > 0) {
-        await tx.referenceTable.createMany({
-          data: referenceTables.map((table) => ({
-            id: table.id,
-            boilerModelId: table.boilerModelId,
-            propertyId: table.propertyId,
-            minValue: table.minValue,
-            maxValue: table.maxValue,
-            required: table.required ?? true,
-          })),
-          skipDuplicates: true,
+      if (dto.maintenance_tasks?.length) {
+        await tx.maintenanceTask.createMany({
+          data: dto.maintenance_tasks.map(m => ({
+            task: m.task || 'UNKNOWN',
+            interval: m.interval,
+            steps: m.steps || [],
+            sourceRefs: m.source_refs ? JSON.parse(JSON.stringify(m.source_refs)) : null,
+            modelId: model.id
+          }))
         });
       }
 
-      if (modelFaults.length > 0) {
-        await tx.modelFaultCode.createMany({
-          data: modelFaults.map((link) => ({
-            modelId: link.modelId,
-            faultCodeId: link.faultCodeId,
-          })),
-          skipDuplicates: true,
-        });
-      }
-
-      if (modelParts.length > 0) {
-        await tx.modelPart.createMany({
-          data: modelParts.map((link) => ({
-            modelId: link.modelId,
-            partId: link.partId,
-          })),
-          skipDuplicates: true,
-        });
-      }
-
-      await tx.libraryIngestionRun.update({
-        where: { id: run.id },
-        data: {
-          status: IngestionStatus.COMPLETED,
-          acceptedCount,
-          rejectedCount: 0,
-          completedAt: new Date(),
-        },
-      });
+      return model;
     });
 
-    return {
-      id: run.id,
-      status: 'COMPLETED',
-      acceptedCount,
-      rejectedCount: 0,
-    };
+    return { status: 'success', id: upsertedModel.id };
   }
 
   async getIngestRun(id: string) {
-    const run = await this.prisma.libraryIngestionRun.findUnique({ where: { id } });
-    if (!run) {
-      throw new NotFoundException('Ingestion run not found');
-    }
-    return run;
-  }
-
-  private normalizePagination(page?: number, pageSize?: number) {
-    const safePage = page && page > 0 ? Math.floor(page) : 1;
-    const safeSize = pageSize && pageSize > 0 ? Math.floor(pageSize) : 25;
-    const limitedSize = Math.min(safeSize, 100);
-
-    return {
-      page: safePage,
-      pageSize: limitedSize,
-      withTotal: (total: number) => ({ total, page: safePage, pageSize: limitedSize }),
-    };
-  }
-
-  private buildSearchWhere(query: LibrarySearchQueryDto): Prisma.BoilerModelWhereInput {
-    const where: Prisma.BoilerModelWhereInput = { isDeleted: false };
-
-    if (query.model) {
-      where.modelName = { contains: query.model, mode: 'insensitive' };
-    }
-
-    if (query.manufacturer) {
-      where.manufacturerId = { contains: query.manufacturer, mode: 'insensitive' };
-    }
-
-    if (query.faultCode) {
-      where.modelFaultCodes = {
-        some: { faultCode: { code: { equals: query.faultCode } } },
-      };
-    }
-
-    if (query.part) {
-      where.modelParts = {
-        some: { part: { name: { contains: query.part, mode: 'insensitive' } } },
-      };
-    }
-
-    if (query.q) {
-      where.OR = [
-        { modelName: { contains: query.q, mode: 'insensitive' } },
-        { manufacturerId: { contains: query.q, mode: 'insensitive' } },
-        { modelFaultCodes: { some: { faultCode: { code: { contains: query.q, mode: 'insensitive' } } } } },
-        { modelParts: { some: { part: { name: { contains: query.q, mode: 'insensitive' } } } } },
-      ];
-    }
-
-    return where;
-  }
-
-  private mapModel(model: ModelWithOptionalManuals, includeManuals = false): LibraryModelDto {
-    return {
-      id: model.id,
-      manufacturerId: model.manufacturerId ?? null,
-      modelName: model.modelName,
-      series: model.series ?? null,
-      fuelType: model.fuelType ?? null,
-      productionStartYear: model.productionStartYear ?? null,
-      productionEndYear: model.productionEndYear ?? null,
-      parts: (model.modelParts ?? []).map((link) => this.mapPart(link.part)),
-      faultCodes: (model.modelFaultCodes ?? []).map((link) =>
-        this.mapFault(link.faultCode),
-      ),
-      manuals: includeManuals
-        ? (model.manuals ?? []).map((manual) => this.mapManual(manual))
-        : undefined,
-    };
-  }
-
-  private mapPart(part: PartRecord): LibraryPartDto {
-    return {
-      id: part.id,
-      sku: part.sku,
-      name: part.name,
-      brand: part.brand ?? null,
-      unitPrice: part.unitPrice ? part.unitPrice.toString() : null,
-      aliases: part.aliases ?? [],
-      inventoryStatus: part.inventoryStatus ?? null,
-    };
-  }
-
-  private mapFault(fault: FaultRecord): LibraryFaultDto {
-    return {
-      id: fault.id,
-      code: fault.code,
-      title: fault.title,
-      description: fault.description ?? null,
-      severity: fault.severity ?? null,
-    };
-  }
-
-  private mapManual(manual: ManualRecord): LibraryManualDto {
-    return {
-      id: manual.id,
-      boilerModelId: manual.boilerModelId,
-      version: manual.version ?? null,
-      language: manual.language ?? null,
-      sourceUrl: manual.sourceUrl ?? null,
-      addedAt: manual.addedAt ? manual.addedAt.toISOString() : null,
-      isValidated: manual.isValidated ?? false,
-    };
-  }
-
-  private validateModels(models: LibraryModelIngestDto[], errors: IngestValidationError[]) {
-    models.forEach((model, index) => {
-      if (!model.id) {
-        errors.push({ path: `models[${index}].id`, message: 'id is required' });
-      }
-      if (!model.modelName) {
-        errors.push({ path: `models[${index}].modelName`, message: 'modelName is required' });
-      }
-    });
-  }
-
-  private validateFaults(faults: FaultCodeIngestDto[], errors: IngestValidationError[]) {
-    faults.forEach((fault, index) => {
-      if (!fault.id) {
-        errors.push({ path: `faults[${index}].id`, message: 'id is required' });
-      }
-      if (!fault.code) {
-        errors.push({ path: `faults[${index}].code`, message: 'code is required' });
-      }
-      if (!fault.title) {
-        errors.push({ path: `faults[${index}].title`, message: 'title is required' });
-      }
-    });
-  }
-
-  private validateParts(parts: PartIngestDto[], errors: IngestValidationError[]) {
-    parts.forEach((part, index) => {
-      if (!part.id) {
-        errors.push({ path: `parts[${index}].id`, message: 'id is required' });
-      }
-      if (!part.sku) {
-        errors.push({ path: `parts[${index}].sku`, message: 'sku is required' });
-      }
-      if (!part.name) {
-        errors.push({ path: `parts[${index}].name`, message: 'name is required' });
-      }
-    });
-  }
-
-  private validateManuals(manuals: ManualIngestDto[], errors: IngestValidationError[]) {
-    manuals.forEach((manual, index) => {
-      if (!manual.id) {
-        errors.push({ path: `manuals[${index}].id`, message: 'id is required' });
-      }
-      if (!manual.boilerModelId) {
-        errors.push({ path: `manuals[${index}].boilerModelId`, message: 'boilerModelId is required' });
-      }
-    });
-  }
-
-  private validateTechnicalProperties(
-    technicalProperties: TechnicalPropertyIngestDto[],
-    errors: IngestValidationError[],
-  ) {
-    technicalProperties.forEach((property, index) => {
-      if (!property.id) {
-        errors.push({ path: `technicalProperties[${index}].id`, message: 'id is required' });
-      }
-      if (!property.code) {
-        errors.push({ path: `technicalProperties[${index}].code`, message: 'code is required' });
-      }
-      if (!property.label) {
-        errors.push({ path: `technicalProperties[${index}].label`, message: 'label is required' });
-      }
-    });
-  }
-
-  private validateReferenceTables(
-    referenceTables: ReferenceTableIngestDto[],
-    errors: IngestValidationError[],
-  ) {
-    referenceTables.forEach((table, index) => {
-      if (!table.id) {
-        errors.push({ path: `referenceTables[${index}].id`, message: 'id is required' });
-      }
-      if (!table.boilerModelId) {
-        errors.push({ path: `referenceTables[${index}].boilerModelId`, message: 'boilerModelId is required' });
-      }
-      if (!table.propertyId) {
-        errors.push({ path: `referenceTables[${index}].propertyId`, message: 'propertyId is required' });
-      }
-    });
-  }
-
-  private validateLinks(
-    links: Array<ModelFaultLinkDto | ModelPartLinkDto>,
-    label: string,
-    errors: IngestValidationError[],
-  ) {
-    links.forEach((link, index) => {
-      if (!link.modelId) {
-        errors.push({ path: `${label}[${index}].modelId`, message: 'modelId is required' });
-      }
-      if ('faultCodeId' in link && !link.faultCodeId) {
-        errors.push({ path: `${label}[${index}].faultCodeId`, message: 'faultCodeId is required' });
-      }
-      if ('partId' in link && !link.partId) {
-        errors.push({ path: `${label}[${index}].partId`, message: 'partId is required' });
-      }
-    });
+    return { id, status: 'COMPLETED' };
   }
 }

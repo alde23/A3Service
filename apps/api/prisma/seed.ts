@@ -1,4 +1,4 @@
-import { PrismaClient, UserRole, JobStatus, JobPriority, SyncAction, SyncResult } from '../src/generated/prisma/client';
+import { PrismaClient, UserRole, JobStatus, JobPriority, SyncAction, SyncResult, WarrantyStatus } from '../src/generated/prisma/client';
 import { PrismaPg } from '@prisma/adapter-pg';
 import { z } from 'zod';
 import { config as dotenvConfig } from 'dotenv';
@@ -33,7 +33,7 @@ const SEED = {
       id:                 '0197f8a0-0001-7000-8000-000000000001',
       username:           'alic.kovac',
       email:              'alic.kovac@a3service.ba',
-      passwordHash:       '$2b$10$placeholderHashForSeedDataOnly.AAAAAAAAAAAAAAAAAAAAAA',
+      passwordHash:       '$2b$10$B2cTzNdYbkDCvRR7jrshW.5XdCm02mi1muL62ph5Ok2yLyYMGPpmu', // 'password123'
       role:               UserRole.MANAGER,
       languagePreference: 'bs',
       profile: {
@@ -47,7 +47,7 @@ const SEED = {
       id:                 '0197f8a0-0001-7000-8000-000000000002',
       username:           'emir.basic',
       email:              'emir.basic@a3service.ba',
-      passwordHash:       '$2b$10$placeholderHashForSeedDataOnly.AAAAAAAAAAAAAAAAAAAAAA',
+      passwordHash:       '$2b$10$B2cTzNdYbkDCvRR7jrshW.5XdCm02mi1muL62ph5Ok2yLyYMGPpmu', // 'password123'
       role:               UserRole.TECHNICIAN,
       languagePreference: 'bs',
       profile: {
@@ -61,7 +61,7 @@ const SEED = {
       id:                 '0197f8a0-0001-7000-8000-000000000003',
       username:           'nina.hadzic',
       email:              'nina.hadzic@a3service.ba',
-      passwordHash:       '$2b$10$placeholderHashForSeedDataOnly.AAAAAAAAAAAAAAAAAAAAAA',
+      passwordHash:       '$2b$10$B2cTzNdYbkDCvRR7jrshW.5XdCm02mi1muL62ph5Ok2yLyYMGPpmu', // 'password123'
       role:               UserRole.TECHNICIAN,
       languagePreference: 'bs',
       profile: {
@@ -82,31 +82,31 @@ const SEED = {
       sites: [
         {
           id:                 '0197f8a0-0003-7000-8000-000000000001',
-          rawAddress:         'Ul. Mustafe Pintola 2, 71000 Sarajevo',
-          latitude:           43.8563,
-          longitude:          18.4131,
+          rawAddress:         'Dr. Mustafe Pintola 2, 71210 Ilidža, Sarajevo',
+          latitude:           43.8293,
+          longitude:          18.3068,
           accessInstructions: 'Kod portira na ulazu, pitati za tehničku sobu B2.',
         },
       ],
     },
     {
       id:    '0197f8a0-0002-7000-8000-000000000002',
-      name:  'Toplana Zenica d.d.',
-      email: 'servis@toplana-zenica.ba',
-      phone: '+38732401500',
+      name:  'Toplane Sarajevo d.o.o.',
+      email: 'servis@toplane-sarajevo.ba',
+      phone: '+38733222333',
       sites: [
         {
           id:                 '0197f8a0-0003-7000-8000-000000000002',
-          rawAddress:         'Bulevar Kralja Tvrtka I 14, 72000 Zenica',
-          latitude:           44.2028,
-          longitude:          17.9078,
+          rawAddress:         'Džemala Bijedića 114, 71000 Sarajevo',
+          latitude:           43.8475,
+          longitude:          18.3582,
           accessInstructions: 'Prijaviti se na recepciji, pratiti oznake prema kotlarnici.',
         },
         {
           id:                 '0197f8a0-0003-7000-8000-000000000003',
-          rawAddress:         'Ul. Zmaja od Bosne 3, 72000 Zenica',
-          latitude:           44.1985,
-          longitude:          17.9134,
+          rawAddress:         'Zmaja od Bosne 3, 71000 Sarajevo',
+          latitude:           43.8550,
+          longitude:          18.3960,
           accessInstructions: null,
         },
       ],
@@ -119,7 +119,7 @@ const SEED = {
       siteId:            '0197f8a0-0003-7000-8000-000000000001',
       technicianId:      '0197f8a0-0001-7000-8000-000000000002',
       managerId:         '0197f8a0-0001-7000-8000-000000000001',
-      rawAddress:        'Ul. Mustafe Pintola 2, 71000 Sarajevo',
+      rawAddress:        'Dr. Mustafe Pintola 2, 71210 Ilidža, Sarajevo',
       scheduledDate:     new Date('2026-05-06T08:00:00.000Z'),
       status:            JobStatus.PENDING,
       priority:          JobPriority.ROUTINE,
@@ -131,7 +131,7 @@ const SEED = {
       siteId:            '0197f8a0-0003-7000-8000-000000000002',
       technicianId:      '0197f8a0-0001-7000-8000-000000000002',
       managerId:         '0197f8a0-0001-7000-8000-000000000001',
-      rawAddress:        'Bulevar Kralja Tvrtka I 14, 72000 Zenica',
+      rawAddress:        'Džemala Bijedića 114, 71000 Sarajevo',
       scheduledDate:     new Date('2026-05-07T09:00:00.000Z'),
       status:            JobStatus.IN_PROGRESS,
       priority:          JobPriority.URGENT,
@@ -144,7 +144,7 @@ const SEED = {
       siteId:            '0197f8a0-0003-7000-8000-000000000003',
       technicianId:      '0197f8a0-0001-7000-8000-000000000003',
       managerId:         '0197f8a0-0001-7000-8000-000000000001',
-      rawAddress:        'Ul. Zmaja od Bosne 3, 72000 Zenica',
+      rawAddress:        'Zmaja od Bosne 3, 71000 Sarajevo',
       scheduledDate:     new Date('2026-05-08T10:00:00.000Z'),
       status:            JobStatus.PENDING,
       priority:          JobPriority.MAINTENANCE,
@@ -156,7 +156,7 @@ const SEED = {
       siteId:            '0197f8a0-0003-7000-8000-000000000001',
       technicianId:      '0197f8a0-0001-7000-8000-000000000003',
       managerId:         '0197f8a0-0001-7000-8000-000000000001',
-      rawAddress:        'Ul. Mustafe Pintola 2, 71000 Sarajevo',
+      rawAddress:        'Dr. Mustafe Pintola 2, 71210 Ilidža, Sarajevo',
       scheduledDate:     new Date('2026-04-28T08:00:00.000Z'),
       status:            JobStatus.COMPLETED,
       priority:          JobPriority.ROUTINE,
@@ -208,7 +208,7 @@ async function main() {
   for (const { profile, ...userData } of SEED.users) {
     await prisma.user.upsert({
       where:  { id: userData.id },
-      update: {},
+      update: { passwordHash: userData.passwordHash },
       create: {
         ...userData,
         profile: { create: profile },

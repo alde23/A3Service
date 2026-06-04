@@ -1,34 +1,75 @@
 import { authJsonHeaders, API_URL } from './api.config';
 
-export type LibraryModel = {
+export type LibraryPartDetail = {
   id: string;
+  sku: string;
   name: string;
-  brand: string;
-  category: string;
-  description?: string;
+  brand?: string;
+  unitPrice?: number;
+  inventoryStatus?: string;
+  aliases?: string[];
+  modelParts?: { model: { id: string; modelName: string; manufacturerId: string } }[];
 };
 
 export type LibraryFault = {
+  id: string;
   code: string;
-  title: string;
   description: string;
-  solutions?: string[];
+  possibleCauses?: string[];
+  symptoms?: string[];
+  severity?: string;
+  model?: { id: string; modelName: string; manufacturerId: string };
+  manufacturerSteps?: any;
+  cautionsOrNotes?: string[];
+  relatedComponents?: string[];
+  safetyLevel?: string;
+  sourceRefs?: any;
+  reviewRequired?: boolean;
+};
+
+export type LibraryModel = {
+  id: string;
+  name: string; // mapped from modelName for search
+  modelName?: string;
+  manufacturerId?: string;
+  brand: string;
+  category: string;
+  description?: string;
+  fuelType?: string;
+  productionStartYear?: number;
+  productionEndYear?: number;
+  faultCodes?: LibraryFault[];
+  modelParts?: { part: LibraryPartDetail }[];
+  technicalSpecs?: { id: string; parameter: string; value: string; unit?: string }[];
+  statusCodes?: any[];
+  diagnosticCodes?: any[];
+  safetyWarnings?: { id: string; description: string; warningType?: string }[];
+  maintenanceTasks?: { id: string; task: string; interval?: string; steps?: string[] }[];
 };
 
 export type LibrarySearchResult = {
   id: string;
   title: string;
   category: string;
-  type: 'model' | 'fault' | 'guide';
+  type: 'model' | 'fault' | 'part';
   description?: string;
 };
 
 export async function searchLibrary(
   token: string,
-  query: string
+  query: string,
+  type?: string,
+  manufacturer?: string,
+  page = 1
 ): Promise<LibrarySearchResult[]> {
   try {
-    const res = await fetch(`${API_URL}/library/search?q=${encodeURIComponent(query)}`, {
+    const params = new URLSearchParams();
+    if (query) params.append('q', query);
+    if (type) params.append('type', type);
+    if (manufacturer) params.append('manufacturer', manufacturer);
+    if (page > 1) params.append('page', page.toString());
+
+    const res = await fetch(`${API_URL}/library/search?${params.toString()}`, {
       method: 'GET',
       headers: authJsonHeaders(token),
     });
@@ -44,11 +85,35 @@ export async function searchLibrary(
   }
 }
 
-export async function fetchLibraryModels(
+export async function fetchManufacturers(
   token: string
+): Promise<string[]> {
+  try {
+    const res = await fetch(`${API_URL}/library/manufacturers`, {
+      method: 'GET',
+      headers: authJsonHeaders(token),
+    });
+
+    if (!res.ok) {
+      throw new Error(`Failed to fetch manufacturers (${res.status})`);
+    }
+
+    return await res.json();
+  } catch (error) {
+    console.error('Library manufacturers fetch error:', error);
+    return [];
+  }
+}
+
+export async function fetchLibraryModels(
+  token: string,
+  page = 1
 ): Promise<LibraryModel[]> {
   try {
-    const res = await fetch(`${API_URL}/library/models`, {
+    const params = new URLSearchParams();
+    if (page > 1) params.append('page', page.toString());
+
+    const res = await fetch(`${API_URL}/library/models?${params.toString()}`, {
       method: 'GET',
       headers: authJsonHeaders(token),
     });
@@ -85,12 +150,12 @@ export async function fetchLibraryModelDetails(
   }
 }
 
-export async function fetchFaultDetails(
+export async function fetchFaultDetailsById(
   token: string,
-  faultCode: string
+  id: string
 ): Promise<LibraryFault | null> {
   try {
-    const res = await fetch(`${API_URL}/library/faults/${faultCode}`, {
+    const res = await fetch(`${API_URL}/library/faults/${id}`, {
       method: 'GET',
       headers: authJsonHeaders(token),
     });
@@ -102,6 +167,27 @@ export async function fetchFaultDetails(
     return await res.json();
   } catch (error) {
     console.error('Library fault details fetch error:', error);
+    return null;
+  }
+}
+
+export async function fetchPartDetails(
+  token: string,
+  id: string
+): Promise<LibraryPartDetail | null> {
+  try {
+    const res = await fetch(`${API_URL}/library/parts/${id}`, {
+      method: 'GET',
+      headers: authJsonHeaders(token),
+    });
+
+    if (!res.ok) {
+      throw new Error(`Failed to fetch part details (${res.status})`);
+    }
+
+    return await res.json();
+  } catch (error) {
+    console.error('Library part details fetch error:', error);
     return null;
   }
 }

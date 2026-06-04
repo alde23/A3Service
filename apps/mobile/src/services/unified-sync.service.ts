@@ -43,6 +43,12 @@ interface CatalogModel {
   productionEndYear?: number;
   parts?: CatalogPart[];
   faultCodes?: CatalogFaultCode[];
+  technicalSpecs?: unknown[];
+  statusCodes?: unknown[];
+  diagnosticCodes?: unknown[];
+  safetyWarnings?: unknown[];
+  maintenanceTasks?: unknown[];
+  modelParts?: unknown[];
 }
 
 interface SyncQueuePayload {
@@ -98,6 +104,12 @@ export async function pullCatalogFromServer(token: string): Promise<number> {
       // Extract and upsert linked parts and fault codes
       const partsMap = new Map<string, CatalogPart>();
       const faultsMap = new Map<string, CatalogFaultCode>();
+      const technicalSpecsMap = new Map<string, any>();
+      const statusCodesMap = new Map<string, any>();
+      const diagnosticCodesMap = new Map<string, any>();
+      const safetyWarningsMap = new Map<string, any>();
+      const maintenanceTasksMap = new Map<string, any>();
+      const modelPartsMap = new Map<string, any>();
 
       for (const m of models as CatalogModel[]) {
         if (Array.isArray(m.parts)) {
@@ -106,13 +118,43 @@ export async function pullCatalogFromServer(token: string): Promise<number> {
         if (Array.isArray(m.faultCodes)) {
           m.faultCodes.forEach((f: CatalogFaultCode) => faultsMap.set(f.id, f));
         }
+        if (Array.isArray(m.technicalSpecs)) {
+          m.technicalSpecs.forEach((x: unknown) => technicalSpecsMap.set(x.id, x));
+        }
+        if (Array.isArray(m.statusCodes)) {
+          m.statusCodes.forEach((x: unknown) => statusCodesMap.set(x.id, x));
+        }
+        if (Array.isArray(m.diagnosticCodes)) {
+          m.diagnosticCodes.forEach((x: unknown) => diagnosticCodesMap.set(x.id, x));
+        }
+        if (Array.isArray(m.safetyWarnings)) {
+          m.safetyWarnings.forEach((x: unknown) => safetyWarningsMap.set(x.id, x));
+        }
+        if (Array.isArray(m.maintenanceTasks)) {
+          m.maintenanceTasks.forEach((x: unknown) => maintenanceTasksMap.set(x.id, x));
+        }
+        if (Array.isArray(m.modelParts)) {
+          m.modelParts.forEach((x: unknown) => modelPartsMap.set(x.modelId + '_' + x.partId, x));
+        }
       }
 
       const parts = Array.from(partsMap.values());
       const faultCodes = Array.from(faultsMap.values());
+      const technicalSpecs = Array.from(technicalSpecsMap.values());
+      const statusCodes = Array.from(statusCodesMap.values());
+      const diagnosticCodes = Array.from(diagnosticCodesMap.values());
+      const safetyWarnings = Array.from(safetyWarningsMap.values());
+      const maintenanceTasks = Array.from(maintenanceTasksMap.values());
+      const modelParts = Array.from(modelPartsMap.values());
 
       itemsCount += await upsertCatalogFromServer('parts', parts);
       itemsCount += await upsertCatalogFromServer('fault_codes', faultCodes);
+      itemsCount += await upsertCatalogFromServer('technical_specs', technicalSpecs);
+      itemsCount += await upsertCatalogFromServer('status_codes', statusCodes);
+      itemsCount += await upsertCatalogFromServer('diagnostic_codes', diagnosticCodes);
+      itemsCount += await upsertCatalogFromServer('safety_warnings', safetyWarnings);
+      itemsCount += await upsertCatalogFromServer('maintenance_tasks', maintenanceTasks);
+      itemsCount += await upsertCatalogFromServer('model_parts', modelParts);
     }
   } catch (error) {
     console.error('[Unified Sync] Catalog pull error:', error);

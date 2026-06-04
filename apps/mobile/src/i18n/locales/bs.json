@@ -5,10 +5,7 @@
     "documentation": "Dokumentacija",
     "analytics": "Analitika"
   },
-  "login": {
-    "title": "Prijava"
-  }
-  ,
+
   "home": {
     "title": "Početna",
     "jobs_visible": "{{count}} poslova vidljivo na mapi"
@@ -39,6 +36,7 @@
     "low": "Nizak"
   },
   "login": {
+    "title": "Prijava",
     "hint": "Prijavite se za nastavak",
     "username": "Korisničko ime",
     "password": "Lozinka",
@@ -57,11 +55,25 @@
     "header_copy": "Pretražite kodove grešaka, tipove bojlera, brendove i brza rješenja.",
     "search_placeholder": "Pretraži kod greške, ključnu riječ, bojler ili brend",
     "search": "Pretraži",
+    "clear": "Obriši",
     "popular_references": "Popularne reference",
     "search_results": "Rezultati pretrage",
     "top_topics": "Popularne teme",
     "hero_title": "Brz pristup najčešće korištenim referencama u terenu.",
+    "stat_models": "Modeli",
+    "stat_categories": "Kategorije",
+    "stat_search": "Pretraga",
     "empty_title": "Nema odgovarajuće dokumentacije",
     "empty_text": "Pokušajte kod greške kao F22, brend Vaillant ili ključnu riječ poput pressure."
+  },
+  "settings": {
+    "title": "Postavke",
+    "language": "Jezik",
+    "dark_mode": "Tamni način",
+    "user_id": "Korisnički ID",
+    "username": "Korisničko ime",
+    "more_coming": "Još opcija uskoro",
+    "more_coming_desc": "Dodatne postavke i značajke bit će dodane uskoro",
+    "logout": "Odjava"
   }
 }

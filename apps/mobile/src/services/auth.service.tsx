@@ -30,7 +30,7 @@ type RuntimeA3SConfig = {
 
 const runtimeA3SConfig = (Constants.expoConfig?.extra?.a3s ??
   {}) as RuntimeA3SConfig;
-const devBypassEnabled = __DEV__ && runtimeA3SConfig.bypassLoginEnabled === true;
+const devBypassEnabled = false; // Disabled by request to showcase onboarding
 const devBypassToken = runtimeA3SConfig.bypassToken || 'dev-bypass-token';
 
 function buildDevBypassUser(usernameOverride?: string) {
@@ -57,6 +57,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [user, setUser] = useState<User>(null);
   const [loading, setLoading] = useState(true);
 
+  const isPersistentLoginEnabled = process.env.EXPO_PUBLIC_ENABLE_PERSISTENT_LOGIN !== 'false';
+
   const setSession = (nextToken: string, nextUser: NonNullable<User>) => {
     setToken(nextToken);
     setUser(nextUser);
@@ -67,11 +69,13 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     nextUser: NonNullable<User>,
     nextRefreshToken?: string | null
   ) => {
-    await SecureStore.setItemAsync(ACCESS_TOKEN_KEY, nextToken);
-    if (nextRefreshToken) {
-      await SecureStore.setItemAsync(REFRESH_TOKEN_KEY, nextRefreshToken);
+    if (isPersistentLoginEnabled) {
+      await SecureStore.setItemAsync(ACCESS_TOKEN_KEY, nextToken);
+      if (nextRefreshToken) {
+        await SecureStore.setItemAsync(REFRESH_TOKEN_KEY, nextRefreshToken);
+      }
+      await AsyncStorage.setItem(USER_KEY, JSON.stringify(nextUser));
     }
-    await AsyncStorage.setItem(USER_KEY, JSON.stringify(nextUser));
   };
 
   const clearSession = async () => {
@@ -79,6 +83,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       SecureStore.deleteItemAsync(ACCESS_TOKEN_KEY),
       SecureStore.deleteItemAsync(REFRESH_TOKEN_KEY),
       AsyncStorage.removeItem(USER_KEY),
+      AsyncStorage.removeItem('A3S_HOME_LOCATION'),
+      AsyncStorage.removeItem('A3S_HOME_ADDRESS'),
     ]);
     setToken(null);
     setUser(null);
@@ -140,6 +146,13 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     (async () => {
       try {
+        if (!isPersistentLoginEnabled) {
+          // If persistence is disabled, clear any old session and stop loading
+          await clearSession();
+          setLoading(false);
+          return;
+        }
+
         const storedToken = await SecureStore.getItemAsync(ACCESS_TOKEN_KEY);
         const storedUserRaw = await AsyncStorage.getItem(USER_KEY);
         const storedUser = parseStoredUser(storedUserRaw);

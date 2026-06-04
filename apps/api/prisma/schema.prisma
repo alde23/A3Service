@@ -323,14 +323,120 @@ model BoilerModel {
   productionEndYear    Int?
 
   warranties      Warranty[]
-  manuals         Manual[]
-  referenceTables ReferenceTable[]
-  modelFaultCodes ModelFaultCode[]
+  documentType         String?
+  language             String?
+  
+  faultCodes           FaultCode[]
+  technicalSpecs       TechnicalSpec[]
+  statusCodes          StatusCode[]
+  diagnosticCodes      DiagnosticCode[]
+  safetyWarnings       SafetyWarning[]
+  maintenanceTasks     MaintenanceTask[]
+  searchTerms          Json?
+  derivedGuidance      Json?
+  
   modelParts      ModelPart[]
 
   @@index([manufacturerId])
   @@index([modelName])
   @@map("boiler_models")
+}
+
+model FaultCode {
+  id                 String   @id @default(uuid(7))
+  code               String
+  description        String?
+  possibleCauses     String[]
+  manufacturerSteps  Json?
+  cautionsOrNotes    String[]
+  symptoms           String[]
+  relatedComponents  String[]
+  severity           String?
+  safetyLevel        String?
+  searchTags         String[]
+  sourceRefs         Json?
+  confidence         Float?
+  reviewRequired     Boolean  @default(false)
+
+  modelId            String
+  model              BoilerModel @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  
+  @@index([modelId])
+  @@index([code])
+  @@map("fault_codes")
+}
+
+model TechnicalSpec {
+  id               String   @id @default(uuid(7))
+  parameter        String
+  value            String
+  unit             String?
+  appliesToModels  String[]
+  category         String?
+  sourceRefs       Json?
+  confidence       Float?
+  reviewRequired   Boolean  @default(false)
+
+  modelId          String
+  model            BoilerModel @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  
+  @@index([modelId])
+  @@map("technical_specs")
+}
+
+model StatusCode {
+  id               String   @id @default(uuid(7))
+  code             String
+  description      String?
+  meaning          String?
+  sourceRefs       Json?
+  
+  modelId          String
+  model            BoilerModel @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  
+  @@index([modelId])
+  @@map("status_codes")
+}
+
+model DiagnosticCode {
+  id               String   @id @default(uuid(7))
+  code             String
+  description      String?
+  level            String?
+  sourceRefs       Json?
+  
+  modelId          String
+  model            BoilerModel @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  
+  @@index([modelId])
+  @@map("diagnostic_codes")
+}
+
+model SafetyWarning {
+  id               String   @id @default(uuid(7))
+  warningType      String?
+  description      String
+  sourceRefs       Json?
+  
+  modelId          String
+  model            BoilerModel @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  
+  @@index([modelId])
+  @@map("safety_warnings")
+}
+
+model MaintenanceTask {
+  id               String   @id @default(uuid(7))
+  task             String
+  interval         String?
+  steps            String[]
+  sourceRefs       Json?
+  
+  modelId          String
+  model            BoilerModel @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  
+  @@index([modelId])
+  @@map("maintenance_tasks")
 }
 
 model Part {
@@ -349,18 +455,6 @@ model Part {
   @@map("parts")
 }
 
-model FaultCode {
-  id    String @id @default(uuid(7))
-  code  String
-  title String
-  description String?
-  severity    String?
-
-  modelFaultCodes ModelFaultCode[]
-
-  @@unique([code])
-  @@map("fault_codes")
-}
 
 model Warranty {
   id            String         @id @default(uuid(7))
@@ -389,65 +483,7 @@ model Warranty {
   @@map("warranties")
 }
 
-model TechnicalProperty {
-  id          String   @id @default(uuid(7))
-  code        String   @unique
-  label       String
-  unit        String?
-  description String?
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  referenceTables ReferenceTable[]
-
-  @@map("technical_properties")
-}
-
-model ReferenceTable {
-  id          String   @id @default(uuid(7))
-  boilerModelId String
-  propertyId  String
-  minValue    Decimal? @db.Decimal(10, 2)
-  maxValue    Decimal? @db.Decimal(10, 2)
-  required    Boolean  @default(true)
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  boilerModel BoilerModel      @relation(fields: [boilerModelId], references: [id])
-  property    TechnicalProperty @relation(fields: [propertyId], references: [id])
-
-  @@unique([boilerModelId, propertyId])
-  @@index([boilerModelId])
-  @@index([propertyId])
-  @@map("reference_tables")
-}
-
-model Manual {
-  id            String @id @default(uuid(7))
-  boilerModelId String
-  version     String?
-  language    String?
-  sourceUrl   String?
-  addedAt     DateTime @default(now())
-  isValidated Boolean  @default(false)
-
-  boilerModel BoilerModel @relation(fields: [boilerModelId], references: [id])
-
-  @@index([boilerModelId])
-  @@map("manuals")
-}
-
-model ModelFaultCode {
-  modelId     String
-  faultCodeId String
-  model     BoilerModel @relation(fields: [modelId], references: [id])
-  faultCode FaultCode   @relation(fields: [faultCodeId], references: [id])
-  @@id([modelId, faultCodeId])
-  @@index([faultCodeId])
-  @@map("model_fault_codes")
-}
 
 model ModelPart {
   modelId String

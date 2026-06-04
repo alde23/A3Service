@@ -20,6 +20,12 @@ import Job from '../storage/models/Job';
 import { observePendingSyncCount } from '../storage/repositories/sync-queue.repository';
 import { useAuth } from '../services/auth.service';
 import { syncJobsWithServer } from '../services/jobs-sync.service';
+import { ColorsType } from '../theme/colors';
+import { useTheme } from '../theme/ThemeProvider';
+import { Screen } from '../components/ui/Screen';
+import { ScreenHeader } from '../components/ui/ScreenHeader';
+import { SectionHeader } from '../components/ui/SectionHeader';
+import { Card } from '../components/ui/Card';
 
 function formatTime(date: Date) {
   return date.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
@@ -49,6 +55,8 @@ function displayJobId(id: string) {
 export default function JobsScreen() {
   const { token } = useAuth();
   const { t } = useTranslation();
+  const { colors } = useTheme();
+  const styles = useMemo(() => getStyles(colors), [colors]);
   const [jobs, setJobs] = useState<Job[]>([]);
   const [pendingSyncCount, setPendingSyncCount] = useState(0);
   const [isCreating, setIsCreating] = useState(false);
@@ -173,53 +181,39 @@ export default function JobsScreen() {
     }
   };
 
-  return (
-    <SafeAreaView style={styles.safeArea}>
-      <View style={styles.header}>
-        <View style={styles.headerTitleRow}>
-          <View style={styles.headerIconWrap}>
-            <Ionicons name="briefcase-outline" size={18} color="#0f172a" />
-          </View>
-          <Text style={styles.headerTitle}>{t('jobs.title')}</Text>
-        </View>
-
-        <Pressable
-          style={[styles.createButton, isCreating && styles.disabledButton]}
-          onPress={onCreateJob}
-          disabled={isCreating}
-        >
-          <Text style={styles.createButtonText}>
-            {isCreating ? t('jobs.creating') : t('jobs.create')}
-          </Text>
-        </Pressable>
-
-        <Text style={styles.syncStateText}>
-          {t('jobs.pendingSync', { count: pendingSyncCount })}
-        </Text>
-
-        <Pressable
-          style={[styles.syncButton, isSyncing && styles.disabledButton]}
-          onPress={onSyncNow}
-          disabled={isSyncing}
-        >
-          <Text style={styles.syncButtonText}>
-            {isSyncing ? t('jobs.syncing') : t('jobs.syncNow')}
-          </Text>
-        </Pressable>
-        {!!syncMessage && <Text style={styles.syncStateText}>{syncMessage}</Text>}
-      </View>
-
-      <ScrollView
-        style={styles.scroll}
-        contentContainerStyle={styles.scrollContent}
-        showsVerticalScrollIndicator={false}
+  const header = (
+    <ScreenHeader title={t('jobs.title')} iconName="briefcase-outline">
+      <Pressable
+        style={[styles.createButton, isCreating && styles.disabledButton]}
+        onPress={onCreateJob}
+        disabled={isCreating}
       >
-        <View style={styles.sectionHeaderRow}>
-          <Text style={styles.sectionTitle}>{t('jobs.today_title')}</Text>
-          <View style={styles.counterPill}>
-            <Text style={styles.counterText}>{t('jobs.count', { count: todayJobsCount })}</Text>
-          </View>
-        </View>
+        <Text style={styles.createButtonText}>
+          {isCreating ? t('jobs.creating') : t('jobs.create')}
+        </Text>
+      </Pressable>
+
+      <Text style={styles.syncStateText}>
+        {t('jobs.pendingSync', { count: pendingSyncCount })}
+      </Text>
+
+      <Pressable
+        style={[styles.syncButton, isSyncing && styles.disabledButton]}
+        onPress={onSyncNow}
+        disabled={isSyncing}
+      >
+        <Text style={styles.syncButtonText}>
+          {isSyncing ? t('jobs.syncing') : t('jobs.syncNow')}
+        </Text>
+      </Pressable>
+      {!!syncMessage && <Text style={styles.syncStateText}>{syncMessage}</Text>}
+    </ScreenHeader>
+  );
+
+  return (
+    <Screen header={header}>
+      <SectionHeader title={t('jobs.today_title')} count={t('jobs.count', { count: todayJobsCount })} />
+
 
         {jobs.map((job) => {
           const normalizedStatus = normalizeStatus(job.status);
@@ -229,7 +223,7 @@ export default function JobsScreen() {
           const isUpdating = Boolean(updatingIds[job.id]);
 
           return (
-            <View key={job.id} style={styles.card}>
+            <Card key={job.id}>
               <View style={styles.cardTopRow}>
                 <View style={styles.leftMetaGroup}>
                   <Text style={styles.jobId}>{displayJobId(job.id)}</Text>
@@ -333,56 +327,26 @@ export default function JobsScreen() {
                           : t('jobs.start')}
                 </Text>
               </Pressable>
-            </View>
+            </Card>
           );
         })}
-      </ScrollView>
-    </SafeAreaView>
+    </Screen>
   );
 }
 
-const styles = StyleSheet.create({
-  safeArea: {
-    flex: 1,
-    backgroundColor: '#f2f5fa',
-  },
-  header: {
-    backgroundColor: '#2563eb',
-    paddingHorizontal: 16,
-    paddingTop: 8,
-    paddingBottom: 16,
-    borderBottomWidth: 1,
-    borderBottomColor: '#1e40af',
-  },
-  headerTitleRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-  },
-  headerIconWrap: {
-    width: 24,
-    height: 24,
-    borderRadius: 12,
-    borderWidth: 1,
-    borderColor: '#0f172a',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#60a5fa',
-  },
-  headerTitle: {
-    color: '#0f172a',
-    fontSize: 26,
-    fontWeight: '700',
-  },
+const getStyles = (colors: ColorsType) => StyleSheet.create({
+
   createButton: {
     marginTop: 14,
     alignSelf: 'center',
     width: '74%',
-    borderWidth: 1.5,
-    borderColor: '#0f172a',
+    borderWidth: 1,
+    borderColor: colors.border2,
     borderRadius: 14,
-    backgroundColor: '#f8fafc',
+    backgroundColor: 'transparent',
     paddingVertical: 12,
+    paddingHorizontal: 16,
+    height: 48,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -390,14 +354,14 @@ const styles = StyleSheet.create({
     opacity: 0.6,
   },
   createButtonText: {
-    color: '#111827',
-    fontSize: 13,
-    fontWeight: '800',
-    letterSpacing: 0.4,
+    color: colors.textPrimary,
+    fontSize: 15,
+    fontWeight: '600',
+    letterSpacing: 0.2,
   },
   syncStateText: {
     marginTop: 8,
-    color: '#dbeafe',
+    color: colors.textSecondary,
     fontSize: 12,
     fontWeight: '600',
     textAlign: 'center',
@@ -407,63 +371,22 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     width: '74%',
     borderWidth: 1,
-    borderColor: '#dbeafe',
-    borderRadius: 12,
-    backgroundColor: '#0f172a',
-    paddingVertical: 10,
+    borderColor: colors.blue,
+    borderRadius: 14,
+    backgroundColor: colors.surface2,
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    height: 48,
     alignItems: 'center',
     justifyContent: 'center',
   },
   syncButtonText: {
-    color: '#e2e8f0',
-    fontSize: 12,
-    fontWeight: '700',
-    letterSpacing: 0.4,
-  },
-  scroll: {
-    flex: 1,
-  },
-  scrollContent: {
-    paddingHorizontal: 8,
-    paddingTop: 10,
-    paddingBottom: 24,
-  },
-  sectionHeaderRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    marginBottom: 8,
-    paddingHorizontal: 4,
-  },
-  sectionTitle: {
-    color: '#334155',
-    fontSize: 22,
+    color: colors.blue,
+    fontSize: 15,
     fontWeight: '600',
+    letterSpacing: 0.2,
   },
-  counterPill: {
-    paddingHorizontal: 8,
-    paddingVertical: 4,
-    borderRadius: 8,
-    backgroundColor: '#dbeafe',
-  },
-  counterText: {
-    color: '#2563eb',
-    fontSize: 12,
-    fontWeight: '700',
-  },
-  card: {
-    backgroundColor: '#ffffff',
-    borderRadius: 12,
-    borderWidth: 1,
-    borderColor: '#e5e7eb',
-    padding: 12,
-    marginBottom: 10,
-    shadowColor: '#0f172a',
-    shadowOpacity: 0.05,
-    shadowRadius: 8,
-    shadowOffset: { width: 0, height: 3 },
-    elevation: 1,
-  },
+
   cardTopRow: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -475,29 +398,31 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   jobId: {
-    color: '#64748b',
-    fontSize: 15,
-    fontWeight: '700',
+    color: colors.textTertiary,
+    fontSize: 11,
+    fontWeight: '600',
+    letterSpacing: 0.5,
   },
   statusPill: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 6,
-    borderRadius: 8,
+    gap: 5,
+    borderRadius: 999,
     paddingHorizontal: 8,
-    paddingVertical: 4,
+    paddingLeft: 6,
+    height: 24,
   },
   statusActivePill: {
-    backgroundColor: '#dcfce7',
+    backgroundColor: colors.greenSoft,
   },
   statusUpcomingPill: {
-    backgroundColor: '#f1f5f9',
+    backgroundColor: colors.surface2,
   },
   statusCompletedPill: {
-    backgroundColor: '#dbeafe',
+    backgroundColor: colors.blueSoft,
   },
   statusCancelledPill: {
-    backgroundColor: '#fee2e2',
+    backgroundColor: colors.redSoft,
   },
   statusDot: {
     width: 6,
@@ -505,47 +430,50 @@ const styles = StyleSheet.create({
     borderRadius: 3,
   },
   statusActiveDot: {
-    backgroundColor: '#16a34a',
+    backgroundColor: colors.green,
   },
   statusUpcomingDot: {
-    backgroundColor: '#94a3b8',
+    backgroundColor: colors.textSecondary,
   },
   statusCompletedDot: {
-    backgroundColor: '#2563eb',
+    backgroundColor: colors.blue,
   },
   statusCancelledDot: {
-    backgroundColor: '#b91c1c',
+    backgroundColor: colors.red,
   },
   statusText: {
     fontSize: 12,
-    fontWeight: '700',
+    fontWeight: '500',
   },
   statusActiveText: {
-    color: '#15803d',
+    color: colors.green,
   },
   statusUpcomingText: {
-    color: '#64748b',
+    color: colors.textSecondary,
   },
   statusCompletedText: {
-    color: '#1d4ed8',
+    color: colors.blue,
   },
   statusCancelledText: {
-    color: '#b91c1c',
+    color: colors.red,
   },
   companyName: {
     marginTop: 8,
-    color: '#1e293b',
-    fontSize: 24,
-    fontWeight: '700',
+    color: colors.textPrimary,
+    fontSize: 17,
+    fontWeight: '600',
+    letterSpacing: -0.2,
   },
   jobDescription: {
     marginTop: 2,
-    color: '#64748b',
-    fontSize: 14,
-    fontWeight: '500',
+    color: colors.textSecondary,
+    fontSize: 13,
   },
   bottomMetaRow: {
     marginTop: 10,
+    paddingTop: 10,
+    borderTopWidth: 1,
+    borderTopColor: colors.border,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
@@ -556,43 +484,44 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   metaText: {
-    color: '#64748b',
-    fontSize: 13,
-    fontWeight: '600',
+    color: colors.textSecondary,
+    fontSize: 12,
+    fontWeight: '500',
   },
   jobActionButton: {
     marginTop: 12,
-    borderRadius: 10,
+    borderRadius: 12,
     alignItems: 'center',
     justifyContent: 'center',
     paddingVertical: 10,
+    height: 44,
   },
   continueButtonBackground: {
-    backgroundColor: '#2563eb',
+    backgroundColor: colors.blue,
   },
   startButtonBackground: {
-    backgroundColor: '#e5e7eb',
+    backgroundColor: colors.surface2,
   },
   completedButtonBackground: {
-    backgroundColor: '#dbeafe',
+    backgroundColor: colors.surface2,
   },
   cancelledButtonBackground: {
-    backgroundColor: '#fee2e2',
+    backgroundColor: colors.surface2,
   },
   jobActionButtonText: {
-    fontSize: 17,
-    fontWeight: '700',
+    fontSize: 15,
+    fontWeight: '600',
   },
   continueButtonText: {
-    color: '#ffffff',
+    color: colors.textPrimary,
   },
   startButtonText: {
-    color: '#475569',
+    color: colors.textSecondary,
   },
   completedButtonText: {
-    color: '#1d4ed8',
+    color: colors.textSecondary,
   },
   cancelledButtonText: {
-    color: '#b91c1c',
+    color: colors.textSecondary,
   },
 });

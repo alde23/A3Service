@@ -13,26 +13,26 @@ import i18n from '../i18n';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useAuth } from '../services/auth.service';
 import { useTranslation } from 'react-i18next';
+import { useTheme } from '../theme/ThemeProvider';
+import { Screen } from '../components/ui/Screen';
+import { ScreenHeader } from '../components/ui/ScreenHeader';
+import { Card } from '../components/ui/Card';
 
 const STORAGE_KEYS = {
   language: 'user-language',
-  darkMode: 'user-dark-mode',
 };
 
 export default function SettingsScreen() {
   const { t } = useTranslation();
   const { user, logout } = useAuth();
+  const { isDark, colors, toggleTheme } = useTheme();
   const [lang, setLang] = useState(i18n.language || 'bs');
-  const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
     const loadSettings = async () => {
       try {
         const savedLang = await AsyncStorage.getItem(STORAGE_KEYS.language);
         if (savedLang) setLang(savedLang);
-
-        const savedDarkMode = await AsyncStorage.getItem(STORAGE_KEYS.darkMode);
-        if (savedDarkMode) setDarkMode(JSON.parse(savedDarkMode));
       } catch {
         // ignore
       }
@@ -51,91 +51,77 @@ export default function SettingsScreen() {
     }
   };
 
-  const toggleDarkMode = async () => {
-    try {
-      const newMode = !darkMode;
-      setDarkMode(newMode);
-      await AsyncStorage.setItem(STORAGE_KEYS.darkMode, JSON.stringify(newMode));
-    } catch {
-      // ignore this
-    }
-  };
-
   const handleLogout = async () => {
     await logout();
   };
 
-  const isDark = darkMode;
-  const bgColor = isDark ? '#0f172a' : '#ffffff';
-  const textColor = isDark ? '#ffffff' : '#0f172a';
-  const cardBg = isDark ? '#1e293b' : '#f8fafc';
-  const borderColor = isDark ? '#334155' : '#e2e8f0';
+  const bgColor = colors.bg;
+  const textColor = colors.textPrimary;
+  const cardBg = colors.surface1;
+  const borderColor = colors.border;
 
   return (
-    <SafeAreaView style={[styles.safeArea, { backgroundColor: bgColor }]}>
-      <ScrollView contentContainerStyle={styles.container}>
-        {/* Header */}
-        <View style={styles.header}>
-          <Text style={[styles.title, { color: textColor }]}>
-            {t('settings.title') || 'Settings'}
-          </Text>
-          <Text style={[styles.subtitle, { color: isDark ? '#cbd5e1' : '#64748b' }]}>
+    <Screen
+      header={
+        <ScreenHeader title={t('settings.title') || 'Settings'}>
+          <Text style={[styles.subtitle, { color: colors.textSecondary }]}>
             {user?.username || 'User'}
           </Text>
-        </View>
-
+        </ScreenHeader>
+      }
+    >
         {/* Language Section */}
-        <View style={[styles.card, { backgroundColor: cardBg, borderColor }]}>
+        <Card>
           <View style={styles.sectionHeader}>
             <View style={styles.labelLeft}>
               <Ionicons
                 name="language"
                 size={24}
-                color={isDark ? '#cbd5e1' : '#64748b'}
+                color={colors.textSecondary}
               />
               <Text style={[styles.label, { color: textColor }]}>
                 {t('settings.language') || 'Language'}
               </Text>
             </View>
             <View style={styles.value}>
-              <Text style={[styles.valueText, { color: isDark ? '#94a3b8' : '#64748b' }]}>
+              <Text style={[styles.valueText, { color: colors.textSecondary }]}>
                 {lang === 'bs' ? 'Bosanski' : 'English'}
               </Text>
-              <Pressable onPress={toggleLanguage} style={[styles.badge, { backgroundColor: isDark ? '#334155' : '#eef2ff' }]}>
-                <Text style={[styles.badgeText, { color: isDark ? '#e0e7ff' : '#0f172a' }]}>
+              <Pressable onPress={toggleLanguage} style={[styles.badge, { backgroundColor: colors.surface2 }]}>
+                <Text style={[styles.badgeText, { color: colors.blue }]}>
                   {lang === 'bs' ? 'BS' : 'EN'}
                 </Text>
               </Pressable>
             </View>
           </View>
-        </View>
+        </Card>
 
         {/* Dark Mode Section */}
-        <View style={[styles.card, { backgroundColor: cardBg, borderColor }]}>
+        <Card>
           <View style={styles.sectionHeader}>
             <View style={styles.labelLeft}>
               <Ionicons
-                name={darkMode ? 'moon' : 'sunny'}
+                name={isDark ? 'moon' : 'sunny'}
                 size={24}
-                color={isDark ? '#cbd5e1' : '#64748b'}
+                color={colors.textSecondary}
               />
               <Text style={[styles.label, { color: textColor }]}>
                 {t('settings.dark_mode') || 'Dark Mode'}
               </Text>
             </View>
             <Switch
-              value={darkMode}
-              onValueChange={toggleDarkMode}
-              trackColor={{ false: '#cbd5e1', true: '#0f172a' }}
-              thumbColor={darkMode ? '#e0e7ff' : '#ffffff'}
+              value={isDark}
+              onValueChange={toggleTheme}
+              trackColor={{ false: '#cbd5e1', true: colors.surface2 }}
+              thumbColor={isDark ? colors.blue : '#ffffff'}
             />
           </View>
-        </View>
+        </Card>
 
         {/* Profile Section */}
-        <View style={[styles.card, { backgroundColor: cardBg, borderColor }]}>
+        <Card>
           <View style={styles.infoRow}>
-            <Text style={[styles.infoLabel, { color: isDark ? '#94a3b8' : '#64748b' }]}>
+            <Text style={[styles.infoLabel, { color: colors.textSecondary }]}>
               {t('settings.user_id') || 'User ID'}
             </Text>
             <Text style={[styles.infoValue, { color: textColor }]}>
@@ -144,78 +130,56 @@ export default function SettingsScreen() {
           </View>
           <View style={[styles.divider, { backgroundColor: borderColor }]} />
           <View style={styles.infoRow}>
-            <Text style={[styles.infoLabel, { color: isDark ? '#94a3b8' : '#64748b' }]}>
+            <Text style={[styles.infoLabel, { color: colors.textSecondary }]}>
               {t('settings.username') || 'Username'}
             </Text>
             <Text style={[styles.infoValue, { color: textColor }]}>
               {user?.username || 'N/A'}
             </Text>
           </View>
-        </View>
+        </Card>
 
         {/* Placeholder Section */}
-        <View style={[styles.card, { backgroundColor: cardBg, borderColor }]}>
+        <Card>
           <View style={styles.placeholderContent}>
             <Ionicons
               name="cube-outline"
               size={48}
-              color={isDark ? '#475569' : '#cbd5e1'}
+              color={colors.textTertiary}
               style={styles.placeholderIcon}
             />
             <Text style={[styles.placeholderTitle, { color: textColor }]}>
               {t('settings.more_coming') || 'More Features Coming'}
             </Text>
-            <Text style={[styles.placeholderText, { color: isDark ? '#94a3b8' : '#94a3b8' }]}>
+            <Text style={[styles.placeholderText, { color: colors.textSecondary }]}>
               {t('settings.more_coming_desc') ||
                 'Additional settings and features will be added soon'}
             </Text>
           </View>
-        </View>
+        </Card>
 
         {/* Logout Button */}
         <Pressable
           onPress={handleLogout}
-          style={[styles.logoutButton, { backgroundColor: isDark ? '#7f1d1d' : '#fee2e2' }]}
+          style={[styles.logoutButton, { backgroundColor: colors.redSoft }]}
         >
           <Ionicons
             name="log-out-outline"
             size={20}
-            color={isDark ? '#fca5a5' : '#dc2626'}
+            color={colors.red}
           />
-          <Text style={[styles.logoutText, { color: isDark ? '#fca5a5' : '#dc2626' }]}>
+          <Text style={[styles.logoutText, { color: colors.red }]}>
             {t('settings.logout') || 'Logout'}
           </Text>
         </Pressable>
-      </ScrollView>
-    </SafeAreaView>
+      </Screen>
   );
 }
 
 const styles = StyleSheet.create({
-  safeArea: {
-    flex: 1,
-  },
-  container: {
-    paddingHorizontal: 16,
-    paddingVertical: 16,
-  },
-  header: {
-    marginBottom: 24,
-  },
-  title: {
-    fontSize: 28,
-    fontWeight: '700',
-    marginBottom: 4,
-  },
   subtitle: {
     fontSize: 14,
-    fontWeight: '500',
-  },
-  card: {
-    marginBottom: 16,
-    borderRadius: 12,
-    padding: 16,
-    borderWidth: 1,
+    fontWeight: '400',
   },
   sectionHeader: {
     flexDirection: 'row',
@@ -228,8 +192,8 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   label: {
-    fontSize: 16,
-    fontWeight: '600',
+    fontSize: 15,
+    fontWeight: '500',
   },
   value: {
     flexDirection: 'row',
@@ -238,7 +202,7 @@ const styles = StyleSheet.create({
   },
   valueText: {
     fontSize: 14,
-    fontWeight: '500',
+    fontWeight: '400',
   },
   badge: {
     paddingHorizontal: 12,
@@ -253,19 +217,20 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingVertical: 8,
+    paddingVertical: 12,
+    paddingHorizontal: 0,
   },
   infoLabel: {
     fontSize: 14,
-    fontWeight: '500',
+    fontWeight: '400',
   },
   infoValue: {
     fontSize: 14,
-    fontWeight: '600',
+    fontWeight: '500',
   },
   divider: {
     height: 1,
-    marginVertical: 8,
+    marginVertical: 0,
   },
   placeholderContent: {
     alignItems: 'center',
@@ -290,12 +255,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,
-    paddingVertical: 12,
-    borderRadius: 8,
+    paddingVertical: 14,
+    borderRadius: 16,
     marginTop: 8,
+    borderWidth: 1,
+    borderColor: 'transparent',
   },
   logoutText: {
     fontWeight: '600',
-    fontSize: 14,
+    fontSize: 15,
   },
 });

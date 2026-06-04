@@ -1,7 +1,7 @@
 import React from 'react';
 import { act, fireEvent, render, waitFor } from '@testing-library/react-native';
 
-import DocumentationScreen from '../../app/documentation';
+import DocumentationScreen from '../../app/(tabs)/documentation';
 import { useAuth } from '../../services/auth.service';
 import { searchLibrary } from '../../services/library-api.service';
 
